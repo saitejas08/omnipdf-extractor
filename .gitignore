@@ -1,46 +1,29 @@
-# 🐍 Python virtual environments
+# 🚫 Ignore virtual environment
 .venv/
-venv/
 
-# 🧪 Python cache files
+
+# 🧪 Python cache and compiled files
 __pycache__/
 *.py[cod]
 *.so
 
-# 📦 Installed packages metadata
+# 📦 Packaging artifacts
 *.egg-info/
 .eggs/
 dist/
 build/
 
-# 📝 User/editor files
+# ⚙️ IDE/editor/OS-specific files
+.vscode/
+.idea/
 *.log
 *.swp
 .DS_Store
+Thumbs.db
 
-# 🧠 Jupyter/IPython junk (if ever added)
+# 📓 Jupyter/IPython checkpoints (in case notebooks are added later)
 .ipynb_checkpoints/
 
-# 🧪 Test coverage
+# 🧪 Coverage and testing tools (future use)
 .coverage
 htmlcov/
-
-# 🔐 OS-specific or IDE-specific
-*.bak
-.idea/
-.vscode/
-
-# 🚫 System files
-Thumbs.db
-.venv/
-outputs/
-__pycache__/
-*.log
-.venv/
-outputs/
-__pycache__/
-*.log
-.venv/
-outputs/
-__pycache__/
-*.log

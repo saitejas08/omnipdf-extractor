@@ -1,0 +1,154 @@
+[
+  {
+    "text": "Parsippany -Troy Hills STEM Pathways",
+    "avg_font_size": 28.01,
+    "bbox": [
+      125.8207015991211,
+      37.369590759277344,
+      562.1452026367188,
+      65.37680053710938
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 36,
+    "relative_font_size": 5
+  },
+  {
+    "text": "Mission Statement: To provide PTHSD high school students with the opportunity to",
+    "avg_font_size": 14.01,
+    "bbox": [
+      80.32749938964844,
+      88.69420623779297,
+      514.2259521484375,
+      106.1314926147461
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 23.32,
+    "font_names": [
+      "Sniglet-Regular",
+      "ArialMT",
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 80,
+    "relative_font_size": 3
+  },
+  {
+    "text": "concentrate their studies, beyond those required in high school, in the areas of science, technology, engineering, and mathematics, and expose students to relevant real world experiences through project work, conferences and presentations to enhance their high school experience.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      80.3275146484375,
+      108.7464599609375,
+      543.8029174804688,
+      163.51829528808594
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "line_spacing_avg": 2.34,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "lower",
+    "length": 279,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Goals:",
+    "avg_font_size": 14.01,
+    "bbox": [
+      45.41230010986328,
+      182.6382598876953,
+      82.10828399658203,
+      200.08251953125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 19.12,
+    "font_names": [
+      "Sniglet-Regular"
+    ],
+    "text_case": "Title",
+    "length": 6,
+    "relative_font_size": 3
+  },
+  {
+    "text": "\u2022 Inspire keen interest in mathematics, science, engineering, and technology, develop strong scholarship in the subject and promote the enjoyment of these studies in high school. \u2022 Expose students to potential career opportunities in the field. \u2022 Encourage students to pursue higher education and major in STEM careers. \u2022 Promote interactions with STEM professionals to learn about future opportunities. \u2022 Support field experiences connected to the world outside of the school building. \u2022 Signal to employers, universities, training programs, and military that a student has completed a comprehensive course of study in a specialized area. \u2022 Cultivate transferable work habits such as perseverance, goal setting, and self-direction.",
+    "avg_font_size": 11.51,
+    "bbox": [
+      39.682037353515625,
+      210.96881103515625,
+      341.39996337890625,
+      411.9276428222656
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 15,
+    "line_spacing_avg": 2.55,
+    "font_names": [
+      "ArialMT",
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 732,
+    "relative_font_size": 1
+  },
+  {
+    "text": "PATHWAY OPTIONS REGULAR PATHWAY DISTINCTION PATHWAY",
+    "avg_font_size": 15.31,
+    "bbox": [
+      117.1802978515625,
+      438.1753845214844,
+      499.4967346191406,
+      483.06475830078125
+    ],
+    "is_bold": true,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 18.38,
+    "font_names": [
+      "Sniglet-Regular",
+      "Calibri-Bold"
+    ],
+    "text_case": "UPPER",
+    "length": 51,
+    "relative_font_size": 4
+  },
+  {
+    "text": "4 credits of Math - At least one math course should be an AP Math class. 4 credits of Math 4 credits of Science- At least one 4 credits of Science science course should be an AP 4 credits of STEM-designated electives Science class. Maintain an overall 2.85 GPA 4 credits of STEM-designated electives Participate in a minimum of 3 STEM - One must be a Computer presentations/conferences each year Science/Technology Class with a required minimum total of 12 Maintain an overall 3.5 GPA presentations/conferences throughout Participate in a minimum of 3 STEM the 4 years . * presentations/conferences a year with a Join and actively participate in a required minimum total of 12 STEM-related extracurricular activity or presentations/conferences throughout club every year of attendance. - the 4 years. Join and actively participate in a STEM-related extracurricular activity or club every year of attendance. Either participate in an internship or design and implement a community impact project.",
+    "avg_font_size": 11.01,
+    "bbox": [
+      99.43699645996094,
+      484.5746765136719,
+      542.9417114257812,
+      752.2532958984375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 32,
+    "line_spacing_avg": 2.38,
+    "font_names": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 995,
+    "relative_font_size": 0
+  }
+]

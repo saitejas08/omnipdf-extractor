@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Application form for grant of LTC advance Name of the Government Servant 1. Designation 2. Date of entering the Central Government 3. Service PAY + SI + NPA 4. Whether permanent or temporary 5. 6. Home Town as recorded in the Service Book Whether wife / husband is employed and if 7. so whether entitled to LTC Whether the concession is to be availed for visiting home town and if so block for which 8. LTC is to be availed. (a) If the concession is to visit anywhere in India, the place to be visited. 9. (b) Block for which to be availed. Single rail fare/bus fare from the headquarters to home town/place of visit by 10. shortest route. Persons in respect of whom LTC is proposed to be availed. S.No Name Age Relationship 1. 2. 11. 3. 4. 5. 6. 12. Amount of advance required. Rs.",
+    "avg_font_size": 9.78,
+    "bbox": [
+      70.0199966430664,
+      106.07836151123047,
+      508.57159423828125,
+      578.7598876953125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 48,
+    "line_spacing_avg": 3.98,
+    "font_names": [
+      "Arial,Bold",
+      "Tahoma-Bold",
+      "Tahoma"
+    ],
+    "text_case": "Mixed",
+    "length": 782,
+    "relative_font_size": null
+  },
+  {
+    "text": "I declare that the particulars furnished above are true and correct to the best of my knowledge.  I undertake to produce the tickets for the outward journey within ten days of receipt of the advance. In the event of cancellation of the journey or if I fail to produce the tickets within ten days of receipt of advance, I undertake to refund the entire advance in one lump sum.",
+    "avg_font_size": 9.74,
+    "bbox": [
+      70.0296630859375,
+      596.8357543945312,
+      573.1749267578125,
+      655.574951171875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "line_spacing_avg": 11.91,
+    "font_names": [
+      "Tahoma"
+    ],
+    "text_case": "Mixed",
+    "length": 376,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Date Signature of Government Servant.",
+    "avg_font_size": 9.74,
+    "bbox": [
+      70.0394287109375,
+      678.9810180664062,
+      572.97509765625,
+      702.4942626953125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 11.71,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Title",
+    "length": 37,
+    "relative_font_size": 0
+  }
+]
