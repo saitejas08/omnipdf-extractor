@@ -1,7 +1,14 @@
 [
   {
+    "paragraph_id": "p_a049fe96",
+    "page_num": 0,
     "text": "Full-Fledged PDF Parsing and Schema Validation Solution for Challenge 1a",
     "avg_font_size": 19.69,
+    "normalized_font_size": 19.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.03,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       68.25,
       100.658203125,
@@ -9,20 +16,31 @@
       144.4412841796875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 72,
-    "relative_font_size": 18
+    "is_homogeneous": true,
+    "relative_font_size": 6
   },
   {
-    "text": "The following report specifies a complete, production-ready design and implementation plan for the PDF-to-JSON converter required Challenge 1a. It focuses first on the parsing engine and schema validation, deferring containerization until the core logic is proven.",
+    "paragraph_id": "p_b5aee56f",
+    "page_num": 0,
+    "text": "The following report specifies complete, production-ready design and implementation plan for the PDF-to-JSON converter required Challenge 1a. It focuses first on the parsing engine and schema validation, deferring containerization until the core logic is proven.",
     "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.58,
     "bbox": [
       68.25,
       156.234375,
@@ -30,43 +48,96 @@
       199.51611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 6.58,
     "font_names": [
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 264,
-    "relative_font_size": 15
+    "length": 262,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
-    "text": "Overview Challenge 1a demands a pipeline that ingests heterogeneous PDFs and emits JSON that conforms exactly to output_schema.json , all under tight latency ( \u2264 10 s per 50-page file) and resource ceilings (CPU-only, \u2264 16 GB RAM, <200 MB model footprint). The solution below combines a dual-path extractor (fast path for text-based PDFs, OCR path for scanned pages), robust layout analysis, automatic table handling, and strict JSON Schema enforcement.",
-    "avg_font_size": 10.71,
+    "paragraph_id": "p_bf68e634",
+    "page_num": 0,
+    "text": "Overview",
+    "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 19.28,
     "bbox": [
       68.25,
       218.794921875,
+      121.75518798828125,
+      232.04937744140625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Title",
+    "length": 8,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_3160e21c",
+    "page_num": 0,
+    "text": "Challenge 1a demands pipeline that ingests heterogeneous PDFs and emits JSON that conforms exactly to output_schema.json all under tight latency 10 per 50-page file) and resource ceilings (CPU-only, 16 GB RAM, <200 MB model footprint). The solution below combines dual-path extractor (fast path for text-based PDFs, OCR path for scanned pages), robust layout analysis, automatic table handling, and strict JSON Schema enforcement.",
+    "avg_font_size": 10.48,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.83,
+    "avg_height_to_font_ratio": 1.13,
+    "line_spacing_avg": 5.51,
+    "bbox": [
+      68.25,
+      243.984375,
       533.2739868164062,
       318.76611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 6,
-    "line_spacing_avg": 7.8,
+    "line_count": 5,
     "font_names": [
       "IBMPlexMono-Regular",
-      "Unnamed-T3",
-      "LiberationSans"
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
-    "length": 453,
-    "relative_font_size": null
+    "length": 430,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_6f2d54de",
+    "page_num": 0,
     "text": "Requirements Recap",
     "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 19.28,
     "bbox": [
       68.25,
       338.044921875,
@@ -74,20 +145,31 @@
       351.29937744140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 19.28,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Title",
     "length": 18,
-    "relative_font_size": 17
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
-    "text": "Category Key Constraint / Target Throughput \u2264 10 s per 50-page complex PDF Hardware 8 cores, 16 GB RAM (CPU-only) Model Size \u2264 200 MB total (incl. OCR) Licensing 100% open-source (MIT, Apache 2.0, BSD-3-Clause) Output Must validate against provided schema",
+    "paragraph_id": "p_2ab4004a",
+    "page_num": 0,
+    "text": "Category Key Constraint Target Throughput 10 per 50-page complex PDF Hardware cores, 16 GB RAM (CPU-only) Model Size 200 MB total (incl. OCR) Licensing 100% open-source (MIT, Apache 2.0, BSD-3-Clause) Output Must validate against provided schema",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.26,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 13.36,
     "bbox": [
       167.625,
       367.5234375,
@@ -95,21 +177,31 @@
       487.030517578125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 12,
-    "line_spacing_avg": 13.36,
     "font_names": [
-      "Unnamed-T3",
-      "LiberationSans"
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
     ],
     "text_case": "Title",
-    "length": 255,
+    "length": 245,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_8d66c8c3",
+    "page_num": 0,
     "text": "High-Level Architecture",
     "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 25.01,
     "bbox": [
       68.25,
       512.044921875,
@@ -117,42 +209,161 @@
       525.2993774414062
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 25.01,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Title",
     "length": 23,
-    "relative_font_size": 17
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
-    "text": "Modular Pipeline 1. Ingest Queue \u2013 watches an input directory and dispatches jobs. 2. Page Classifier \u2013 detects whether each page is text-based or image-only. 3. Fast Extraction Path \u2013 uses PyMuPDF for text & table extraction. 4. OCR Fallback Path \u2013 routes bitmap pages through Tesseract OCR (English + small multilingual pack). 5. Layout Analyzer \u2013 groups characters into blocks, recognises headings, lists, tables, figures. 6. Schema Mapper \u2013 converts layout objects into the exact JSON hierarchy. 7. Validator \u2013 enforces output_schema.json using jsonschema . 8. Writer & Logger \u2013 streams validated JSON to disk and records metrics.",
-    "avg_font_size": 10.61,
+    "paragraph_id": "p_2e771060",
+    "page_num": 0,
+    "text": "Modular Pipeline",
+    "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 22.75,
     "bbox": [
       68.25,
       548.044921875,
-      539.2739868164062,
-      747.76611328125
+      164.4929962158203,
+      561.2993774414062
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 10,
-    "line_spacing_avg": 10.29,
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Title",
+    "length": 16,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_d1b42ea9",
+    "page_num": 0,
+    "text": "1. Ingest Queue watches an input directory and dispatches jobs. 2. Page Classifier detects whether each page is text-based or image-only. 3. Fast Extraction Path uses PyMuPDF for text table extraction. 4. OCR Fallback Path routes bitmap pages through Tesseract OCR (English small multilingual pack). 5. Layout Analyzer groups characters into blocks, recognises headings, lists, tables, figures. 6. Schema Mapper converts layout objects into the exact JSON hierarchy.",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 8.86,
+    "bbox": [
+      75.0,
+      573.234375,
+      539.2739868164062,
+      705.76611328125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 7,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 466,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_64755058",
+    "page_num": 0,
+    "text": "7. Validator enforces output_schema.json using jsonschema",
+    "avg_font_size": 10.06,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.04,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 9.22,
+    "bbox": [
+      75.0,
+      714.984375,
+      373.52398681640625,
+      727.0265502929688
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
     "font_names": [
       "IBMPlexMono-Regular",
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 634,
-    "relative_font_size": null
+    "length": 57,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_a6b0925a",
+    "page_num": 0,
+    "text": "8. Writer Logger streams validated JSON to disk and records metrics.",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 8.96,
+    "bbox": [
+      75.0,
+      735.984375,
+      440.27398681640625,
+      747.76611328125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 68,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_11909031",
+    "page_num": 1,
     "text": "Visual Blueprint",
     "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       68.25,
       32.044921875,
@@ -160,20 +371,31 @@
       45.29937744140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Title",
     "length": 16,
-    "relative_font_size": 17
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
+    "paragraph_id": "p_e5df67c1",
+    "page_num": 3,
     "text": "Challenge 1a PDF Processing Pipeline Architecture",
     "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       68.25,
       32.484375,
@@ -181,20 +403,31 @@
       44.26611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 49,
-    "relative_font_size": 15
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_2bf423dd",
+    "page_num": 3,
     "text": "Library Selection Rationale",
     "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 19.28,
     "bbox": [
       68.25,
       63.544921875,
@@ -202,20 +435,31 @@
       76.79937744140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 19.28,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Title",
     "length": 27,
-    "relative_font_size": 17
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
-    "text": "Speed (22-page Task Library Notable Strengths License PDF) GPL-AGPL 3.0 \u21e2 use via Text 20-40\u00d7 faster",
+    "paragraph_id": "p_7843aceb",
+    "page_num": 3,
+    "text": "Speed (22-page Task Library Notable Strengths License PDF) GPL-AGPL 3.0 use via Text 20-40\u00d7 faster",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.3,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 14.64,
     "bbox": [
       78.75,
       93.0234375,
@@ -223,21 +467,31 @@
       142.780517578125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 9,
-    "line_spacing_avg": 14.64,
     "font_names": [
-      "DejaVuSans",
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Title",
-    "length": 100,
+    "length": 98,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_5382dd89",
+    "page_num": 3,
     "text": "[1]",
     "avg_font_size": 6.19,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.86,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
     "bbox": [
       289.3359375,
       138.392578125,
@@ -245,20 +499,31 @@
       145.2568359375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 3,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
-    "text": "PyMuPDF 0.1 s average \u201cAGPL-compliant\u201d clause or",
+    "paragraph_id": "p_ce7a40a0",
+    "page_num": 3,
+    "text": "PyMuPDF 0.1 average \u201cAGPL-compliant\u201d clause or",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.26,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       153.234375,
       139.5234375,
@@ -266,20 +531,31 @@
       148.780517578125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 0.0,
     "font_names": [
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 48,
+    "length": 46,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_5d38f209",
+    "page_num": 3,
     "text": "[2]",
     "avg_font_size": 6.19,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.86,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
     "bbox": [
       382.32421875,
       144.392578125,
@@ -287,20 +563,31 @@
       151.2568359375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 3,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
-    "text": "extraction than pdfminer commercial exception \u223c 1 s/page on Slim multilingual OCR Tesseract 5.4 300 dpi Apache 2.0 models ( \u2248 45 MB)",
+    "paragraph_id": "p_8d93ed2f",
+    "page_num": 3,
+    "text": "extraction than pdfminer commercial exception s/page on Slim multilingual OCR Tesseract 5.4 300 dpi Apache 2.0 models 45 MB)",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.29,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 7.15,
     "bbox": [
       78.75,
       145.5234375,
@@ -308,22 +595,31 @@
       197.530517578125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 10,
-    "line_spacing_avg": 7.15,
     "font_names": [
-      "DejaVuSans",
-      "Unnamed-T3",
-      "LiberationSans"
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
     ],
     "text_case": "lower",
-    "length": 132,
+    "length": 124,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_5e1d0078",
+    "page_num": 3,
     "text": "[4] [3]",
     "avg_font_size": 6.19,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.86,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
     "bbox": [
       263.0859375,
       196.892578125,
@@ -331,20 +627,31 @@
       204.5068359375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 2,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 7,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_b55c23a4",
+    "page_num": 3,
     "text": "scans Table PyMuPDF 1.23+ Works inside same 1-2 ms/table GPL-AGPL 3.0",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.26,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 13.24,
     "bbox": [
       78.75,
       198.7734375,
@@ -352,20 +659,31 @@
       236.530517578125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 6,
-    "line_spacing_avg": 13.24,
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "Mixed",
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "lower",
     "length": 69,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_8ffd1e23",
+    "page_num": 3,
     "text": "[5]",
     "avg_font_size": 6.19,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.86,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
     "bbox": [
       189.796875,
       232.142578125,
@@ -373,20 +691,31 @@
       239.0068359375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 3,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_8be913f4",
+    "page_num": 3,
     "text": "extraction table API process Backup table Handles ruled",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.26,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 13.24,
     "bbox": [
       78.75,
       233.2734375,
@@ -394,20 +723,31 @@
       265.030517578125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "left",
+    "alignment": "center",
     "line_count": 5,
-    "line_spacing_avg": 13.24,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 55,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_023a5077",
+    "page_num": 3,
     "text": "[6]",
     "avg_font_size": 6.19,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.86,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
     "bbox": [
       290.0859375,
       260.642578125,
@@ -415,20 +755,31 @@
       267.5068359375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 3,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_bade3999",
+    "page_num": 3,
     "text": "Camelot 100 ms/table MIT extraction tables well Schema Mature, no jsonschema <5 ms/doc MIT validation external deps",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.26,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 13.24,
     "bbox": [
       78.75,
       261.7734375,
@@ -436,20 +787,31 @@
       311.530517578125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 12,
-    "line_spacing_avg": 13.24,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "lower",
     "length": 115,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_937ec0ff",
+    "page_num": 3,
     "text": "Component-Level Design",
     "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 25.01,
     "bbox": [
       68.25,
       336.544921875,
@@ -457,64 +819,227 @@
       349.79937744140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 25.01,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Title",
     "length": 22,
-    "relative_font_size": 17
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
-    "text": "1. Page Classification Detect text content cheaply by parsing the page dictionary: if obj['/Contents'] contains any BT \u2026 ET operators (begin/end text) it is text-based; otherwise treat as image. PyMuPDF exposes this via page.get_text(\"rawdict\") .",
-    "avg_font_size": 10.74,
+    "paragraph_id": "p_2ce6cbe7",
+    "page_num": 3,
+    "text": "1. Page Classification",
+    "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 22.75,
     "bbox": [
       68.25,
       372.544921875,
-      538.7625122070312,
-      441.27655029296875
+      190.3001251220703,
+      385.79937744140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 4,
-    "line_spacing_avg": 10.52,
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Title",
+    "length": 22,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_b7d89264",
+    "page_num": 3,
+    "text": "Detect text content cheaply by parsing the page dictionary: if obj['/Contents'] contains any BT \u2026 ET operators (begin/end text) it is text-based; otherwise treat as image. PyMuPDF exposes",
+    "avg_font_size": 10.36,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.04,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 7.82,
+    "bbox": [
+      68.25,
+      397.734375,
+      538.7625122070312,
+      425.52655029296875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
     "font_names": [
       "IBMPlexMono-Regular",
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 246,
-    "relative_font_size": null
+    "length": 187,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
-    "text": "2. Fast Text Extraction Path 1. Pull text+positions: blocks = page.get_text(\"dict\")[\"blocks\"]",
-    "avg_font_size": 10.5,
+    "paragraph_id": "p_2cc95fab",
+    "page_num": 3,
+    "text": "this via page.get_text(\"rawdict\")",
+    "avg_font_size": 10.06,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.04,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 3.71,
+    "bbox": [
+      68.25,
+      429.234375,
+      234.7740020751953,
+      441.27655029296875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
+    ],
+    "text_case": "lower",
+    "length": 33,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_02cb8180",
+    "page_num": 3,
+    "text": "2. Fast Text Extraction Path",
+    "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 20.52,
     "bbox": [
       68.25,
       461.794921875,
+      226.3119354248047,
+      475.04937744140625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Title",
+    "length": 28,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_138c1a08",
+    "page_num": 3,
+    "text": "1. Pull text+positions:",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 11.93,
+    "bbox": [
+      75.0,
+      486.984375,
+      188.2740020751953,
+      498.76611328125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 23,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_76150b29",
+    "page_num": 3,
+    "text": "blocks = page.get_text(\"dict\")[\"blocks\"]",
+    "avg_font_size": 9.19,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.94,
+    "avg_height_to_font_ratio": 1.3,
+    "line_spacing_avg": 12.32,
+    "bbox": [
+      98.25,
+      511.08282470703125,
       308.51251220703125,
       523.0265502929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "left",
-    "line_count": 3,
-    "line_spacing_avg": 14.92,
+    "alignment": "unknown",
+    "line_count": 1,
     "font_names": [
-      "IBMPlexMono-Regular",
-      "Unnamed-T3"
+      "IBMPlexMono-Regular"
     ],
-    "text_case": "Mixed",
-    "length": 93,
-    "relative_font_size": 15
+    "primary_font_family": [
+      "IBMPlexMono-Regular"
+    ],
+    "text_case": "lower",
+    "length": 40,
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
-    "text": "2. Merge into paragraphs: group by vertical overlap tolerance \u2264 2 pt, then sort left-to-right. 3. Table Detection: PyMuPDF page.find_tables() returns bounding boxes and structured cell",
-    "avg_font_size": 10.47,
+    "paragraph_id": "p_0a6dec22",
+    "page_num": 3,
+    "text": "2. Merge into paragraphs: group by vertical overlap tolerance pt, then sort left-to-right. 3. Table Detection: PyMuPDF page.find_tables() returns bounding boxes and structured cell",
+    "avg_font_size": 10.44,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.91,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 15.84,
     "bbox": [
       75.0,
       545.484375,
@@ -522,22 +1047,32 @@
       578.5265502929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 15.84,
     "font_names": [
       "IBMPlexMono-Regular",
-      "Unnamed-T3",
-      "LiberationSans"
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
-    "length": 184,
-    "relative_font_size": null
+    "length": 180,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_581d647f",
+    "page_num": 3,
     "text": "[5]",
     "avg_font_size": 7.88,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.74,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 1.59,
     "bbox": [
       113.8125,
       580.11328125,
@@ -545,20 +1080,31 @@
       588.849609375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 1.59,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 3,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_f3df8371",
+    "page_num": 3,
     "text": "grids 4. Post-process: normalise Unicode, remove ligatures, fix hyphenated line breaks.",
     "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 9.22,
     "bbox": [
       75.0,
       582.234375,
@@ -566,20 +1112,31 @@
       615.01611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 9.22,
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "Mixed",
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "lower",
     "length": 87,
-    "relative_font_size": 15
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_f3e25063",
+    "page_num": 3,
     "text": "[2]",
     "avg_font_size": 7.88,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.74,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 7.1,
     "bbox": [
       395.8125,
       622.11328125,
@@ -587,20 +1144,31 @@
       630.849609375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 7.1,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 3,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "PyMuPDF benchmarks show 20\u00d7 speed advantage over pdfminer , ensuring ample headroom for our 10 s SLA.",
+    "paragraph_id": "p_e94f5c7e",
+    "page_num": 3,
+    "text": "PyMuPDF benchmarks show 20\u00d7 speed advantage over pdfminer ensuring ample headroom for our 10 SLA.",
     "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 3.97,
     "bbox": [
       68.25,
       624.234375,
@@ -608,42 +1176,96 @@
       651.76611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 3.97,
     "font_names": [
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 101,
-    "relative_font_size": 15
+    "length": 97,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
-    "text": "3. OCR Fallback Path 1. Rasterise page to 300 dpi PNG ( page.get_pixmap(matrix=fitz.Matrix(300/72, 300/72)) ). 2. Pre-process image: grayscale, bilateral denoise, adaptive threshold. 3. Run Tesseract with --oem 1 --psm 4 (single column) or --psm 6 (multi-column) decided via aspect ratio heuristic. 4. Parse hOCR output to recover positions for schema compliance.",
-    "avg_font_size": 10.69,
+    "paragraph_id": "p_98da76d2",
+    "page_num": 4,
+    "text": "3. OCR Fallback Path",
+    "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       68.25,
       33.544921875,
+      187.3119354248047,
+      46.79937744140625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 20,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_4bcd3d4f",
+    "page_num": 4,
+    "text": "1. Rasterise page to 300 dpi PNG page.get_pixmap(matrix=fitz.Matrix(300/72, 300/72)) ). 2. Pre-process image: grayscale, bilateral denoise, adaptive threshold. 3. Run Tesseract with --oem 1 --psm 4 (single column) or --psm 6 (multi-column) decided via aspect ratio heuristic. 4. Parse hOCR output to recover positions for schema compliance.",
+    "avg_font_size": 10.43,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.01,
+    "avg_line_height": 11.88,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 8.61,
+    "bbox": [
+      75.0,
+      58.734375,
       526.3905029296875,
       149.26611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 6,
-    "line_spacing_avg": 8.61,
+    "line_count": 5,
     "font_names": [
       "IBMPlexMono-Regular",
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 363,
-    "relative_font_size": null
+    "length": 340,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_028ff142",
+    "page_num": 4,
     "text": "[4]",
     "avg_font_size": 7.88,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.74,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 7.1,
     "bbox": [
       499.3125,
       156.36328125,
@@ -651,20 +1273,31 @@
       165.099609375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "right",
     "line_count": 1,
-    "line_spacing_avg": 7.1,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 3,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "5. Cache language data files inside /usr/share/tessdata (English + Deu, Fra \u2192 45 MB) Apache Tika was ruled out because its OCR integration is slower and heavier (4.5 min for 23",
-    "avg_font_size": 10.48,
+    "paragraph_id": "p_eef2d2e8",
+    "page_num": 4,
+    "text": "5. Cache language data files inside /usr/share/tessdata (English Deu, Fra 45 MB) Apache Tika was ruled out because its OCR integration is slower and heavier (4.5 min for 23",
+    "avg_font_size": 10.45,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.91,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 8.96,
     "bbox": [
       68.25,
       158.484375,
@@ -672,22 +1305,33 @@
       191.26611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 8.96,
     "font_names": [
       "IBMPlexMono-Regular",
-      "Unnamed-T3",
-      "LiberationSans"
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
-    "length": 176,
-    "relative_font_size": null
+    "length": 172,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_555f793a",
+    "page_num": 4,
     "text": "[3]",
     "avg_font_size": 7.88,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.74,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 1.85,
     "bbox": [
       104.0625,
       193.11328125,
@@ -695,20 +1339,31 @@
       201.849609375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 1.85,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 3,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_07605ced",
+    "page_num": 4,
     "text": "pages)",
     "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       68.25,
       195.234375,
@@ -716,65 +1371,161 @@
       207.01611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "lower",
     "length": 6,
-    "relative_font_size": 15
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
-    "text": "4. Layout Analyzer Algorithm Heading detector: line font-size \u2265 1.5\u00d7 median \u2227 bold weight \u2192 heading . List detector: regex ^\\s*([- \\-\u2013]|[0-9]+\\.) at left margin. Table fusion: merge adjacent bounding boxes with equal row count. Image objects: PyMuPDF page.get_images(full=True) gives coordinates and resolution.",
-    "avg_font_size": 10.68,
+    "paragraph_id": "p_9e2272b2",
+    "page_num": 4,
+    "text": "4. Layout Analyzer",
+    "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 20.78,
     "bbox": [
       68.25,
       227.794921875,
+      176.51043701171875,
+      241.04937744140625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Title",
+    "length": 18,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_fb41d5c4",
+    "page_num": 4,
+    "text": "Algorithm Heading detector: line font-size 1.5\u00d7 median bold weight heading List detector: regex ^\\s*([- \\-\u2013]|[0-9]+\\.) at left margin. Table fusion: merge adjacent bounding boxes with equal row count. Image objects: PyMuPDF page.get_images(full=True) gives coordinates and resolution.",
+    "avg_font_size": 10.4,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.01,
+    "avg_line_height": 11.98,
+    "avg_height_to_font_ratio": 1.15,
+    "line_spacing_avg": 10.51,
+    "bbox": [
+      68.25,
+      252.234375,
       519.0239868164062,
       353.52655029296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 6,
-    "line_spacing_avg": 12.22,
+    "alignment": "left",
+    "line_count": 5,
     "font_names": [
       "IBMPlexMono-Regular",
-      "DejaVuSans",
-      "Unnamed-T3",
-      "LiberationSans"
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
-    "length": 311,
-    "relative_font_size": null
+    "length": 284,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
-    "text": "5. Schema Mapper Example (simplified):",
-    "avg_font_size": 11.16,
+    "paragraph_id": "p_d7c0a286",
+    "page_num": 4,
+    "text": "5. Schema Mapper",
+    "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 20.52,
     "bbox": [
       68.25,
       374.044921875,
       175.76043701171875,
-      411.01611328125
+      387.29937744140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 2,
-    "line_spacing_avg": 16.23,
+    "line_count": 1,
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "Mixed",
-    "length": 38,
-    "relative_font_size": null
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Title",
+    "length": 16,
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
+    "paragraph_id": "p_9e9ab044",
+    "page_num": 4,
+    "text": "Example (simplified):",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 11.93,
+    "bbox": [
+      68.25,
+      399.234375,
+      170.2740020751953,
+      411.01611328125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 21,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_763a0980",
+    "page_num": 4,
     "text": "def to_schema(page_num, blocks, tables, images): return { \"page_index\": page_num, \"elements\": [ *[{\"type\":\"paragraph\",\"text\":b.text} for b in blocks], *[{\"type\":\"table\",\"cells\":tab.as_cells()} for tab in tables], *[{\"type\":\"image\",\"bbox\":img.rect} for img in images]",
     "avg_font_size": 9.19,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.94,
+    "avg_height_to_font_ratio": 1.3,
+    "line_spacing_avg": 4.06,
     "bbox": [
       78.75,
       433.83282470703125,
@@ -782,20 +1533,31 @@
       523.0265502929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 7,
-    "line_spacing_avg": 4.06,
     "font_names": [
+      "IBMPlexMono-Regular"
+    ],
+    "primary_font_family": [
       "IBMPlexMono-Regular"
     ],
     "text_case": "lower",
     "length": 266,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_60827fba",
+    "page_num": 4,
     "text": "6. Validation",
     "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 55.77,
     "bbox": [
       68.25,
       578.794921875,
@@ -803,20 +1565,31 @@
       592.0493774414062
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 55.77,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 17
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
+    "paragraph_id": "p_702af634",
+    "page_num": 4,
     "text": "from jsonschema import validate, Draft202012Validator, exceptions schema = json.load(open(\"output_schema.json\")) Draft202012Validator.check_schema(schema) def safe_write(obj, outfile): validate(obj, schema)         # raises on mismatch json.dump(obj, open(outfile, \"w\"), ensure_ascii=False)",
     "avg_font_size": 9.19,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.94,
+    "avg_height_to_font_ratio": 1.3,
+    "line_spacing_avg": 6.3,
     "bbox": [
       78.75,
       612.3328247070312,
@@ -824,20 +1597,31 @@
       701.5265502929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 6,
-    "line_spacing_avg": 6.3,
     "font_names": [
+      "IBMPlexMono-Regular"
+    ],
+    "primary_font_family": [
       "IBMPlexMono-Regular"
     ],
     "text_case": "Mixed",
     "length": 290,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_e4de8b23",
+    "page_num": 5,
     "text": "Core Implementation Walk-Through",
     "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       68.25,
       32.044921875,
@@ -845,20 +1629,31 @@
       45.29937744140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Title",
     "length": 32,
-    "relative_font_size": 17
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
+    "paragraph_id": "p_b3b0ce74",
+    "page_num": 5,
     "text": "Directory Layout",
     "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 23.5,
     "bbox": [
       68.25,
       68.794921875,
@@ -866,20 +1661,31 @@
       82.04937744140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 23.5,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Title",
     "length": 16,
-    "relative_font_size": 17
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
-    "text": "challenge_1a/ \u251c\u2500\u2500 src/ \u2502 \u251c\u2500\u2500 engine.py          # PDF processing core \u2502 \u251c\u2500\u2500 ocr.py             # Tesseract wrapper \u2502 \u251c\u2500\u2500 layout.py          # heading, list, table logic \u2502 \u251c\u2500\u2500 mapper.py          # schema mapping \u2502 \u251c\u2500\u2500 validate.py        # JSON Schema enforcement \u2502 \u2514\u2500\u2500 batch.py           # CLI entry-point \u251c\u2500\u2500 resources/ \u2502 \u2514\u2500\u2500 output_schema.json \u2514\u2500\u2500 tests/ \u251c\u2500\u2500 unit/ \u2514\u2500\u2500 integration/",
+    "paragraph_id": "p_d93aa38d",
+    "page_num": 5,
+    "text": "challenge_1a/ \u251c\u2500\u2500 src/ \u251c\u2500\u2500 engine.py          # PDF processing core \u251c\u2500\u2500 ocr.py             # Tesseract wrapper \u251c\u2500\u2500 layout.py          # heading, list, table logic \u251c\u2500\u2500 mapper.py          # schema mapping \u251c\u2500\u2500 validate.py        # JSON Schema enforcement \u2514\u2500\u2500 batch.py           # CLI entry-point \u251c\u2500\u2500 resources/ \u2514\u2500\u2500 output_schema.json \u2514\u2500\u2500 tests/ \u251c\u2500\u2500 unit/ \u2514\u2500\u2500 integration/",
     "avg_font_size": 9.19,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.94,
+    "avg_height_to_font_ratio": 1.3,
+    "line_spacing_avg": 2.36,
     "bbox": [
       78.75,
       101.58280944824219,
@@ -887,21 +1693,33 @@
       268.02655029296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "left",
+    "alignment": "unknown",
     "line_count": 13,
-    "line_spacing_avg": 2.36,
     "font_names": [
-      "LiberationSerif",
-      "IBMPlexMono-Regular"
+      "IBMPlexMono-Regular",
+      "LiberationSerif"
+    ],
+    "primary_font_family": [
+      "IBMPlexMono-Regular",
+      "LiberationSerif"
     ],
     "text_case": "lower",
-    "length": 382,
-    "relative_font_size": 4
+    "length": 368,
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
-    "text": "Key Code Snippet ( engine.py )",
-    "avg_font_size": 11.52,
+    "paragraph_id": "p_47723c6d",
+    "page_num": 5,
+    "text": "Key Code Snippet engine.py",
+    "avg_font_size": 11.16,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.19,
+    "line_spacing_avg": 30.27,
     "bbox": [
       68.25,
       298.294921875,
@@ -909,21 +1727,33 @@
       311.54937744140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 30.27,
     "font_names": [
       "IBMPlexMono-Regular",
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 30,
-    "relative_font_size": 16
+    "length": 26,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_1c5da6f4",
+    "page_num": 5,
     "text": "import fitz, concurrent.futures, time from .ocr import ocr_page from .layout import analyse_layout from .mapper import map_page from .validate import write_validated_json def process_pdf(pdf_path, out_dir, workers=8): t0 = time.time() doc = fitz.open(pdf_path) with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool: futures = [] for i, page in enumerate(doc): futures.append(pool.submit(process_page, i, page)) pages_json = [f.result() for f in futures] job = {\"filename\": pdf_path.stem, \"pages\": pages_json} write_validated_json(job, out_dir / f\"{pdf_path.stem}.json\") print(f\"{pdf_path.name}: {time.time()-t0:.2f}s\") def process_page(idx, page): if page.get_text(\"text\"):              # fast path layout = analyse_layout(page) else:                                  # OCR fallback layout = ocr_page(page) return map_page(idx, *layout)",
     "avg_font_size": 9.19,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.94,
+    "avg_height_to_font_ratio": 1.3,
+    "line_spacing_avg": 2.95,
     "bbox": [
       78.75,
       331.83282470703125,
@@ -931,20 +1761,31 @@
       639.2765502929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 22,
-    "line_spacing_avg": 2.95,
     "font_names": [
+      "IBMPlexMono-Regular"
+    ],
+    "primary_font_family": [
       "IBMPlexMono-Regular"
     ],
     "text_case": "lower",
     "length": 854,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_2895854f",
+    "page_num": 5,
     "text": "The entire file is <300 LOC, keeping maintenance easy.",
     "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 22.46,
     "bbox": [
       68.25,
       661.734375,
@@ -952,20 +1793,31 @@
       673.51611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 22.46,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 54,
-    "relative_font_size": 15
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_9696152d",
+    "page_num": 6,
     "text": "Performance Optimisations",
     "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       68.25,
       32.044921875,
@@ -973,20 +1825,31 @@
       45.29937744140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Title",
     "length": 25,
-    "relative_font_size": 17
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
+    "paragraph_id": "p_3439cb95",
+    "page_num": 6,
     "text": "Technique Expected Impact ThreadPool over processes (PyMuPDF releases GIL internally) +60% throughput Disable PyMuPDF decompression for images unless OCR needed \u221225% amortised time",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.26,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 13.99,
     "bbox": [
       108.9375,
       61.5234375,
@@ -994,20 +1857,31 @@
       115.030517578125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 6,
-    "line_spacing_avg": 13.99,
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "Mixed",
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Title",
     "length": 180,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_578630a2",
+    "page_num": 6,
     "text": "[7] [8]",
     "avg_font_size": 6.19,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.86,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 11.36,
     "bbox": [
       366.75,
       126.392578125,
@@ -1015,42 +1889,97 @@
       133.2568359375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 11.36,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 7,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
-    "text": "Turn off pdfminer debug logs when invoked as backup extractor \u221220% wall-clock Use python:3.11-slim base before containerization to shed 75 MB",
-    "avg_font_size": 8.27,
+    "paragraph_id": "p_930195f4",
+    "page_num": 6,
+    "text": "Turn off pdfminer debug logs when invoked as backup extractor \u221220% wall-clock",
+    "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.26,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       108.9375,
       127.5234375,
       484.33349609375,
+      136.780517578125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 2,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 77,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_5c88eb5b",
+    "page_num": 6,
+    "text": "Use python:3.11-slim base before containerization to shed 75 MB",
+    "avg_font_size": 8.35,
+    "normalized_font_size": 8.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.94,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 12.05,
+    "bbox": [
+      108.9375,
+      148.8328094482422,
+      386.5830078125,
       160.7765655517578
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 3,
-    "line_spacing_avg": 12.05,
+    "alignment": "unknown",
+    "line_count": 1,
     "font_names": [
       "IBMPlexMono-Regular",
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 141,
-    "relative_font_size": null
+    "length": 63,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_dac38ba8",
+    "page_num": 6,
     "text": "[9]",
     "avg_font_size": 6.19,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.86,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
     "bbox": [
       387.75,
       149.642578125,
@@ -1058,42 +1987,63 @@
       156.5068359375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 3,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
-    "text": "smaller image Bundle tessdata traineddata \u2192 only required langs fits 200 MB budget",
+    "paragraph_id": "p_99f8506f",
+    "page_num": 6,
+    "text": "smaller image Bundle tessdata traineddata only required langs fits 200 MB budget",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.26,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 13.24,
     "bbox": [
       108.9375,
       150.0234375,
       493.76025390625,
       181.780517578125
     ],
-    "is_bold": true,
+    "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 13.24,
     "font_names": [
-      "LiberationSans-Bold",
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
-    "length": 82,
+    "length": 80,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_d80dacca",
+    "page_num": 6,
     "text": "Testing and Quality Assurance",
     "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 25.01,
     "bbox": [
       68.25,
       206.794921875,
@@ -1101,63 +2051,160 @@
       220.04937744140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 25.01,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 29,
-    "relative_font_size": 17
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
-    "text": "Unit Tests Layout heuristics: assert correct heading/list identification on synthetic pages. Schema compliance: feed fixture JSON through jsonschema.validate .",
-    "avg_font_size": 10.91,
+    "paragraph_id": "p_84a3d6ab",
+    "page_num": 6,
+    "text": "Unit Tests",
+    "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 22.75,
     "bbox": [
       68.25,
       242.794921875,
+      125.8177490234375,
+      256.04937744140625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_614b4e7c",
+    "page_num": 6,
+    "text": "Layout heuristics: assert correct heading/list identification on synthetic pages. Schema compliance: feed fixture JSON through jsonschema.validate",
+    "avg_font_size": 10.41,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.01,
+    "avg_line_height": 11.91,
+    "avg_height_to_font_ratio": 1.15,
+    "line_spacing_avg": 10.58,
+    "bbox": [
+      87.75,
+      267.984375,
       477.02398681640625,
       301.02655029296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 3,
-    "line_spacing_avg": 14.63,
+    "alignment": "left",
+    "line_count": 2,
     "font_names": [
       "IBMPlexMono-Regular",
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 159,
-    "relative_font_size": null
+    "length": 146,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
-    "text": "Integration Tests Use sample PDFs provided in the repository plus additional edge cases:",
-    "avg_font_size": 11.16,
+    "paragraph_id": "p_59034804",
+    "page_num": 6,
+    "text": "Integration Tests",
+    "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 20.52,
     "bbox": [
       68.25,
       321.544921875,
+      165.5677490234375,
+      334.79937744140625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Title",
+    "length": 17,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_432b096c",
+    "page_num": 6,
+    "text": "Use sample PDFs provided in the repository plus additional edge cases:",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 11.93,
+    "bbox": [
+      68.25,
+      346.734375,
       420.77398681640625,
       358.51611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 2,
-    "line_spacing_avg": 16.23,
+    "line_count": 1,
     "font_names": [
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 88,
-    "relative_font_size": null
+    "length": 70,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
-    "text": "Case Pages Feature Targeted Simple text report 12 Heading & paragraphs Scanned invoice OCR path Scientific paper (2-column) 14 Multi-column merge Financial statement 22 Table extraction",
+    "paragraph_id": "p_2bee695e",
+    "page_num": 6,
+    "text": "Case Pages Feature Targeted Simple text report 12 Heading paragraphs Scanned invoice OCR path Scientific paper (2-column) 14 Multi-column merge Financial statement 22 Table extraction",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.24,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 14.05,
     "bbox": [
       175.5,
       377.2734375,
@@ -1165,20 +2212,31 @@
       475.030517578125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 14,
-    "line_spacing_avg": 14.05,
     "font_names": [
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 185,
+    "length": 183,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_d4acb95d",
+    "page_num": 6,
     "text": "Benchmarks",
     "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 25.76,
     "bbox": [
       68.25,
       500.794921875,
@@ -1186,20 +2244,31 @@
       514.0493774414062
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 25.76,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Title",
     "length": 10,
-    "relative_font_size": 17
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
-    "text": "File Pages Total Time Path Split Complex 50-page (mixed) 50 8.4 s 35 text, 15 OCR",
+    "paragraph_id": "p_f85f2eb1",
+    "page_num": 6,
+    "text": "File Pages Total Time Path Split Complex 50-page (mixed) 50 8.4 35 text, 15 OCR",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 14.36,
     "bbox": [
       160.125,
       530.2734375,
@@ -1207,20 +2276,31 @@
       561.280517578125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 8,
-    "line_spacing_avg": 14.36,
     "font_names": [
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
     "text_case": "Title",
-    "length": 81,
+    "length": 79,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_60e9bf88",
+    "page_num": 6,
     "text": "[1]",
     "avg_font_size": 6.19,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.86,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 12.11,
     "bbox": [
       232.6875,
       573.392578125,
@@ -1228,20 +2308,31 @@
       580.2568359375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 12.11,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 3,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
-    "text": "117-page GeoTopo 117 17.1 s 100 text, 17 OCR",
+    "paragraph_id": "p_bbcc4f6b",
+    "page_num": 6,
+    "text": "117-page GeoTopo 117 17.1 100 text, 17 OCR",
     "avg_font_size": 8.25,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.23,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       160.125,
       574.5234375,
@@ -1249,20 +2340,31 @@
       583.780517578125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 4,
-    "line_spacing_avg": 0.0,
     "font_names": [
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 44,
+    "length": 42,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
-    "text": "All tests run on 8-core AMD Ryzen 7 5700U, 2.8 GHz, 15 GB RAM.",
+    "paragraph_id": "p_bfc20dcd",
+    "page_num": 6,
+    "text": "All tests run on 8-core AMD Ryzen 5700U, 2.8 GHz, 15 GB RAM.",
     "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 17.2,
     "bbox": [
       68.25,
       600.984375,
@@ -1270,42 +2372,130 @@
       612.76611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 17.2,
     "font_names": [
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 62,
-    "relative_font_size": 15
+    "length": 60,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
-    "text": "Roadmap Beyond Parsing 1. Containerization \u2013 replicate /app folder into python:3.11-slim , install tesseract-ocr , copy lang packs. 2. Resource Caps \u2013 set --cpus=\"8\" --memory=\"16g\" for parity with hackathon infra. 3. Observability \u2013 expose Prometheus metrics: pages/sec, OCR pages, validation errors.",
-    "avg_font_size": 10.72,
+    "paragraph_id": "p_0ca1e13e",
+    "page_num": 6,
+    "text": "Roadmap Beyond Parsing",
+    "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 19.28,
     "bbox": [
       68.25,
       632.044921875,
-      527.1510009765625,
-      726.76611328125
+      215.16824340820312,
+      645.2993774414062
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 5,
-    "line_spacing_avg": 10.62,
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Title",
+    "length": 22,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_087048d3",
+    "page_num": 6,
+    "text": "1. Containerization replicate /app folder into python:3.11-slim install tesseract-ocr copy",
+    "avg_font_size": 10.11,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.04,
+    "avg_height_to_font_ratio": 1.19,
+    "line_spacing_avg": 11.93,
+    "bbox": [
+      75.0,
+      657.234375,
+      527.1510009765625,
+      669.2765502929688
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
     "font_names": [
       "IBMPlexMono-Regular",
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 300,
-    "relative_font_size": null
+    "length": 90,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
-    "text": "4. Horizontal Scaling \u2013 orchestrate multiple worker containers via Docker Compose swarm mode once needed.",
+    "paragraph_id": "p_10104d98",
+    "page_num": 6,
+    "text": "lang packs. 2. Resource Caps set --cpus=\"8\" --memory=\"16g\" for parity with hackathon infra. 3. Observability expose Prometheus metrics: pages/sec, OCR pages, validation errors.",
+    "avg_font_size": 10.46,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.87,
+    "avg_height_to_font_ratio": 1.13,
+    "line_spacing_avg": 7.29,
+    "bbox": [
+      75.0,
+      672.984375,
+      512.2739868164062,
+      726.76611328125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "font_names": [
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 176,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_6e598259",
+    "page_num": 7,
+    "text": "4. Horizontal Scaling orchestrate multiple worker containers via Docker Compose swarm mode once needed.",
     "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 3.97,
     "bbox": [
       75.0,
       32.484375,
@@ -1313,41 +2503,95 @@
       60.01611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 3.97,
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "Mixed",
-    "length": 105,
-    "relative_font_size": 15
-  },
-  {
-    "text": "Conclusion The proposed engine achieves sub-10 s parsing for 50 page PDFs while respecting CPU-only, 16",
-    "avg_font_size": 11.16,
-    "bbox": [
-      68.25,
-      79.294921875,
-      542.760009765625,
-      116.26611328125
-    ],
-    "is_bold": false,
-    "is_upper": false,
-    "alignment": "left",
-    "line_count": 2,
-    "line_spacing_avg": 15.61,
-    "font_names": [
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 103,
-    "relative_font_size": null
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_43442dde",
+    "page_num": 7,
+    "text": "Conclusion",
+    "avg_font_size": 11.81,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.25,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 19.28,
+    "bbox": [
+      68.25,
+      79.294921875,
+      134.0501251220703,
+      92.54937744140625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_3ca591c6",
+    "page_num": 7,
+    "text": "The proposed engine achieves sub-10 parsing for 50 page PDFs while respecting CPU-only, 16",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 11.93,
+    "bbox": [
+      68.25,
+      104.484375,
+      542.760009765625,
+      116.26611328125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 90,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_3b0bcdc3",
+    "page_num": 7,
     "text": "[2] [1]",
     "avg_font_size": 7.88,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.74,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 1.85,
     "bbox": [
       449.8125,
       118.11328125,
@@ -1355,20 +2599,31 @@
       126.849609375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 1.85,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 7,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_668a31af",
+    "page_num": 7,
     "text": "GB, and <200 MB model limits. Leveraging PyMuPDF\u2019s high extraction speed and",
     "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       68.25,
       120.234375,
@@ -1376,20 +2631,31 @@
       132.01611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 76,
-    "relative_font_size": 15
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_68f85bdd",
+    "page_num": 7,
     "text": "[4]",
     "avg_font_size": 7.88,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.74,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 1.85,
     "bbox": [
       254.8125,
       133.86328125,
@@ -1397,20 +2663,31 @@
       142.599609375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 1.85,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 3,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "Tesseract\u2019s compact multilingual OCR , it robustly supports text-based and scanned documents. Built-in schema validation guarantees outputs meet hackathon requirements from day 1, setting a solid foundation for containerization and further enhancements.",
+    "paragraph_id": "p_3e84a549",
+    "page_num": 7,
+    "text": "Tesseract\u2019s compact multilingual OCR it robustly supports text-based and scanned documents. Built-in schema validation guarantees outputs meet hackathon requirements from day 1, setting solid foundation for containerization and further enhancements.",
     "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.78,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 3.97,
     "bbox": [
       68.25,
       135.984375,
@@ -1418,20 +2695,31 @@
       179.26611328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 4,
-    "line_spacing_avg": 3.97,
     "font_names": [
       "Unnamed-T3"
     ],
+    "primary_font_family": [
+      "Unnamed-T3"
+    ],
     "text_case": "Mixed",
-    "length": 253,
-    "relative_font_size": 15
+    "length": 249,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_9523e42d",
+    "page_num": 7,
     "text": "1. https://github.com/py-pdf/benchmarks 2. https://pyxpdf.readthedocs.io/en/latest/compare.html 3. https://stackoverflow.com/questions/47283682/slowness-in-extracting-scan-pdf-using-apache-tika-te sseract 4. https://stackoverflow.com/questions/73318168/how-do-i-add-tesseract-to-my-docker-container-so-i-c an-use-pytesseract 5. https://artifex.com/blog/table-recognition-extraction-from-pdfs-pymupdf-python 6. https://camelot-py.readthedocs.io 7. https://stackoverflow.com/questions/45473770/optimising-pdfminer 8. https://github.com/pdfminer/pdfminer.six/issues/347 9. https://forums.docker.com/t/differences-between-standard-docker-images-and-alpine-slim-versions/1 34973",
     "avg_font_size": 9.19,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.3,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 10.54,
     "bbox": [
       77.25,
       225.673828125,
@@ -1439,15 +2727,19 @@
       429.3662109375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 12,
-    "line_spacing_avg": 10.54,
     "font_names": [
+      "Unnamed-T3"
+    ],
+    "primary_font_family": [
       "Unnamed-T3"
     ],
     "text_case": "lower",
     "length": 673,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   }
 ]

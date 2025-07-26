@@ -1,7 +1,14 @@
 [
   {
+    "paragraph_id": "p_b4093622",
+    "page_num": 0,
     "text": "CSUN CalFresh Healthy Living Program",
     "avg_font_size": 72.0,
+    "normalized_font_size": 72.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 72.0,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
     "bbox": [
       667.010009765625,
       77.81005859375,
@@ -9,20 +16,31 @@
       149.81005859375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Calibri-Bold"
+    ],
+    "primary_font_family": [
       "Calibri-Bold"
     ],
     "text_case": "Mixed",
     "length": 36,
+    "is_homogeneous": true,
     "relative_font_size": 12
   },
   {
-    "text": "1 Annette Besnilian, EdD ; 1 David Boyns, PhD; 1 Brenda Gutierrez, BS; 1 Viridiana Ortiz, MPH;",
-    "avg_font_size": 33.36,
+    "paragraph_id": "p_24fd8ace",
+    "page_num": 0,
+    "text": "Annette Besnilian, EdD ; 1 David Boyns, PhD; Brenda Gutierrez, BS; Viridiana Ortiz, MPH;",
+    "avg_font_size": 37.39,
+    "normalized_font_size": 37.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 42.0,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 13.33,
     "bbox": [
       496.0799865722656,
       163.14012145996094,
@@ -30,21 +48,31 @@
       205.14012145996094
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 13.33,
     "font_names": [
-      "Calibri",
+      "Calibri-Light"
+    ],
+    "primary_font_family": [
       "Calibri-Light"
     ],
     "text_case": "Mixed",
-    "length": 94,
-    "relative_font_size": 9
+    "length": 88,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_4bc96054",
+    "page_num": 0,
     "text": "Kelly Nicole Rodriguez BS(C); California State University, Northridge",
     "avg_font_size": 40.08,
+    "normalized_font_size": 40.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 40.08,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 7.92,
     "bbox": [
       677.280029296875,
       213.06011962890625,
@@ -52,21 +80,33 @@
       253.14012145996094
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 7.92,
     "font_names": [
+      "Calibri-Light",
+      "Calibri"
+    ],
+    "primary_font_family": [
       "Calibri",
       "Calibri-Light"
     ],
     "text_case": "Mixed",
     "length": 69,
+    "is_homogeneous": true,
     "relative_font_size": 10
   },
   {
+    "paragraph_id": "p_9930d2c6",
+    "page_num": 0,
     "text": "Abstract Methods and Materials",
     "avg_font_size": 43.92,
+    "normalized_font_size": 44.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 43.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 132.84,
     "bbox": [
       388.489990234375,
       385.97991943359375,
@@ -74,43 +114,257 @@
       430.9099426269531
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 132.84,
     "font_names": [
       "Calibri-Bold"
     ],
-    "text_case": "Mixed",
+    "primary_font_family": [
+      "Calibri-Bold"
+    ],
+    "text_case": "Title",
     "length": 30,
+    "is_homogeneous": true,
     "relative_font_size": 11
   },
   {
-    "text": "Research shows that low-income Hispanic adults and children have a In order to evaluate the effectiveness of the nutrition and gardening higher risk for childhood obesity and overweight conditions than other education and behavior change, a pretest and posttest were administered. ethnic groups. Unhealthy eating habits and lack of access to fresh fruits and vegetables are two contributing factors identified to increase the risk A.  Research Design of chronic conditions (e.g., obesity, diabetes, cardiovascular disease). This study uses (1) pre- and post- assessments, and (3) focus groups. All There is a great need for primary prevention programs that can increase research measures and tools were pre-approved by the Los Angeles basic nutrition knowledge and can create access to fresh fruits and County Department of Public Health. vegetables. One program that is showing great potential and having great impact in the community of Canoga Park is the CalFresh Healthy B.  Sample Characteristics Living  program. This program is taking a holistic approach using the 13 SNAP-Ed eligible sites were approved to participate in the program Social Ecological Model as a framework targeting all three level of a 300 student assessments were administered person\u2019s life (e.g., individual, institutional, and environmental). Using adult assessments were administered edible gardens as teaching platforms and connecting the environment to Majority Latino overall health, this program provides nutrition education (individual SNAP eligible participants level). Students and parents are engaged in building edible gardens at school sites and community centers (institutional). Furthermore, the program engages parents, community leaders, and school representatives in collaboration and resource sharing with the goal of SNAP-Ed Eligible Sites From 4/17 through 12/2020 Chart 1. Socio-Ecological Model increase availability of fresh fruits and vegetables at the community\u2019s Canoga Park High School Total classes",
-    "avg_font_size": 22.04,
+    "paragraph_id": "p_9bdc1d6c",
+    "page_num": 0,
+    "text": "Research shows that low-income Hispanic adults and children have a In order to evaluate the effectiveness of the nutrition and gardening higher risk for childhood obesity and overweight conditions than other education and behavior change, a pretest and posttest were administered. ethnic groups. Unhealthy eating habits and lack of access to fresh fruits and vegetables are two contributing factors identified to increase the risk A.  Research Design of chronic conditions (e.g., obesity, diabetes, cardiovascular disease). This study uses (1) pre- and post- assessments, and (3) focus groups. All There is a great need for primary prevention programs that can increase research measures and tools were pre-approved by the Los Angeles basic nutrition knowledge and can create access to fresh fruits and County Department of Public Health. vegetables. One program that is showing great potential and having great impact in the community of Canoga Park is the CalFresh Healthy B.  Sample Characteristics Living  program. This program is taking a holistic approach using the 13 SNAP-Ed eligible sites were approved to participate in the program Social Ecological Model as a framework targeting all three level of a 300 student assessments were administered person\u2019s life (e.g., individual, institutional, and environmental). Using adult assessments were administered edible gardens as teaching platforms and connecting the environment to Majority Latino overall health, this program provides nutrition education (individual SNAP eligible participants level). Students and parents are engaged in building edible gardens at school sites and community centers (institutional). Furthermore, the program engages parents, community leaders, and school representatives in collaboration and resource sharing with the goal of",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 3.22,
     "bbox": [
       111.5999984741211,
       444.2275695800781,
-      2261.1103515625,
-      965.9132080078125
+      1663.7969970703125,
+      917.6668090820312
     ],
-    "is_bold": true,
+    "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 36,
-    "line_spacing_avg": 3.22,
+    "alignment": "left",
+    "line_count": 30,
     "font_names": [
-      "Calibri-Bold",
-      "Calibri",
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
-    "length": 2004,
-    "relative_font_size": null
+    "length": 1813,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_df6b8a98",
+    "page_num": 0,
+    "text": "SNAP-Ed Eligible Sites",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 21.47,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      1004.736572265625,
+      908.5621948242188,
+      1204.430908203125,
+      930.0313720703125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 22,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_e67e5099",
+    "page_num": 0,
+    "text": "From 4/17 through 12/2020",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.08,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      1361.7099609375,
+      914.5700073242188,
+      1612.3193359375,
+      936.6500244140625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 25,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_77eac8b6",
+    "page_num": 0,
+    "text": "Chart 1. Socio-Ecological Model",
+    "avg_font_size": 24.0,
+    "normalized_font_size": 24.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.0,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      1953.530029296875,
+      917.5699462890625,
+      2261.1103515625,
+      941.5699462890625
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "font_names": [
+      "Calibri-Bold",
+      "Calibri"
+    ],
+    "primary_font_family": [
+      "Calibri",
+      "Calibri-Bold"
+    ],
+    "text_case": "Title",
+    "length": 31,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_1b77be58",
+    "page_num": 0,
+    "text": "increase availability of fresh fruits and vegetables at the community\u2019s",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      111.5999984741211,
+      919.4476318359375,
+      786.6077270507812,
+      944.0668334960938
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 71,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_392d0201",
+    "page_num": 0,
+    "text": "Canoga Park High School",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630004882812,
+      935.6826171875,
+      1166.2550048828125,
+      959.6207275390625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 23,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_feec5ac4",
+    "page_num": 0,
+    "text": "Total classes",
+    "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.21,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      1312.4599609375,
+      943.702392578125,
+      1432.3983154296875,
+      965.9132080078125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 13,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_2b8a0c3a",
+    "page_num": 0,
     "text": "food pantry (environmental level). Children are an easy target and the",
     "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       111.5999984741211,
       945.8775634765625,
@@ -118,20 +372,31 @@
       970.4967651367188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 70,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_ee0ef759",
+    "page_num": 0,
     "text": "Results",
     "avg_font_size": 43.92,
+    "normalized_font_size": 44.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 43.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
     "bbox": [
       2039.260009765625,
       955.6399536132812,
@@ -139,42 +404,159 @@
       999.5599365234375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "right",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Calibri-Bold"
+    ],
+    "primary_font_family": [
       "Calibri-Bold"
     ],
     "text_case": "Title",
     "length": 7,
+    "is_homogeneous": true,
     "relative_font_size": 11
   },
   {
-    "text": "741 implemented Hart Street Elementary most targeted population by fast food chains. It is imperative to educate",
-    "avg_font_size": 20.85,
+    "paragraph_id": "p_b06b0c42",
+    "page_num": 0,
+    "text": "741",
+    "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
     "bbox": [
-      111.5999984741211,
+      1562.5699462890625,
       958.0700073242188,
       1592.87744140625,
+      977.989990234375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 3,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_5296d319",
+    "page_num": 0,
+    "text": "implemented",
+    "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.21,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      1312.4599609375,
+      967.702392578125,
+      1432.4383544921875,
+      989.9132080078125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 11,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_23eb161f",
+    "page_num": 0,
+    "text": "Hart Street Elementary",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630004882812,
+      967.8908081054688,
+      1141.173828125,
+      991.8289794921875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 22,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_5e7c7dfb",
+    "page_num": 0,
+    "text": "most targeted population by fast food chains. It is imperative to educate",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      111.5999984741211,
+      972.277587890625,
+      813.1036987304688,
       996.8967895507812
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 4,
-    "line_spacing_avg": 0.0,
+    "alignment": "left",
+    "line_count": 1,
     "font_names": [
-      "Calibri",
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
-    "length": 112,
-    "relative_font_size": null
+    "length": 73,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_1dd06c62",
+    "page_num": 0,
     "text": "Number of",
     "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.21,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.21,
     "bbox": [
       1312.4599609375,
       997.1024169921875,
@@ -182,42 +564,127 @@
       1019.313232421875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.21,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 9,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "this young population to empower to make healthy food choices. Christopher Columbus Middle School Youth Participants",
-    "avg_font_size": 21.88,
+    "paragraph_id": "p_956bdde8",
+    "page_num": 0,
+    "text": "this young population to empower to make healthy food choices.",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       111.5999984741211,
       998.6776123046875,
+      744.6337280273438,
+      1023.2968139648438
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 62,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_1c6a1ec3",
+    "page_num": 0,
+    "text": "Christopher Columbus Middle School",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630615234375,
+      1000.090087890625,
+      1280.6475830078125,
+      1024.0281982421875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 34,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_78a9bc0d",
+    "page_num": 0,
+    "text": "Youth Participants",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.58,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      1735.780029296875,
+      1012.0875244140625,
       1913.302978515625,
       1036.66259765625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 3,
-    "line_spacing_avg": 0.0,
+    "alignment": "center",
+    "line_count": 1,
     "font_names": [
-      "ArialMT",
+      "Arial-ItalicMT"
+    ],
+    "primary_font_family": [
       "Arial-ItalicMT"
     ],
     "text_case": "Title",
-    "length": 116,
-    "relative_font_size": null
+    "length": 18,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_6fc35e0a",
+    "page_num": 0,
     "text": "persons reached",
     "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.21,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       1312.4599609375,
       1021.1024169921875,
@@ -225,20 +692,31 @@
       1043.313232421875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "lower",
     "length": 15,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_fed12651",
+    "page_num": 0,
     "text": "Prevention strategies must include the entire family to ensure that the",
     "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       111.5999984741211,
       1025.07763671875,
@@ -246,20 +724,31 @@
       1049.6968994140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 71,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_28c757e0",
+    "page_num": 0,
     "text": "78,000",
     "avg_font_size": 19.94,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.94,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
     "bbox": [
       1550.0899658203125,
       1035.4520263671875,
@@ -267,20 +756,31 @@
       1055.39599609375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
       "Calibri"
     ],
     "text_case": "Mixed",
     "length": 6,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_4e3d4c77",
+    "page_num": 0,
     "text": "CSUN CalFresh Healthy Living  targeted youth in the school and community",
     "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       1735.780029296875,
       1038.487548828125,
@@ -288,20 +788,31 @@
       1063.1068115234375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 72,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_65b007d7",
+    "page_num": 0,
     "text": "(direct and",
     "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.21,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       1312.4599609375,
       1045.1224365234375,
@@ -309,41 +820,127 @@
       1067.333251953125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "lower",
     "length": 11,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "concepts a child learns in a classroom setting and in the garden are Canoga Park Elementary setting using USDA-approved evidence-based curricula with the intent to",
-    "avg_font_size": 21.88,
+    "paragraph_id": "p_71188304",
+    "page_num": 0,
+    "text": "concepts a child learns in a classroom setting and in the garden are",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       111.5999984741211,
       1051.4775390625,
+      776.428955078125,
+      1076.0968017578125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 68,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_1fe12b9c",
+    "page_num": 0,
+    "text": "Canoga Park Elementary",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630615234375,
+      1062.6571044921875,
+      1162.637451171875,
+      1086.59521484375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 22,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_ea374568",
+    "page_num": 0,
+    "text": "setting using USDA-approved evidence-based curricula with the intent to",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      1735.780029296875,
+      1064.8875732421875,
       2449.4052734375,
       1089.5068359375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 3,
-    "line_spacing_avg": 0.0,
+    "alignment": "center",
+    "line_count": 1,
     "font_names": [
       "ArialMT"
     ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
     "text_case": "Mixed",
-    "length": 163,
-    "relative_font_size": null
+    "length": 71,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_ef0dc105",
+    "page_num": 0,
     "text": "indirect):",
     "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.21,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       1312.4599609375,
       1069.1224365234375,
@@ -351,63 +948,255 @@
       1091.333251953125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "lower",
     "length": 10,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "reinforce at home. The CalFresh Healthy Living  program engages increase fruit and vegetable consumption, increase physical activity, CDI Early Learning Center Number of sites 13",
-    "avg_font_size": 21.09,
+    "paragraph_id": "p_8b6367a2",
+    "page_num": 0,
+    "text": "reinforce at home. The CalFresh Healthy Living  program engages increase fruit and vegetable consumption, increase physical activity,",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       111.5999984741211,
       1077.8775634765625,
       2402.19775390625,
-      1122.280029296875
+      1115.9068603515625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 5,
-    "line_spacing_avg": 0.0,
+    "alignment": "left",
+    "line_count": 2,
     "font_names": [
-      "Calibri",
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
-    "length": 178,
-    "relative_font_size": null
+    "length": 133,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
-    "text": "parents and provides them with education in order to create a increase consumption of healthy beverages, and/or decrease consumption California State University Northridge connection between a child and parent and support a switch to a healthy",
-    "avg_font_size": 21.93,
+    "paragraph_id": "p_093b6aa6",
+    "page_num": 0,
+    "text": "CDI Early Learning Center",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630615234375,
+      1093.0426025390625,
+      1173.373779296875,
+      1116.980712890625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 25,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_05f48d15",
+    "page_num": 0,
+    "text": "Number of sites",
+    "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.21,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      1312.4599609375,
+      1099.992431640625,
+      1457.55712890625,
+      1122.2032470703125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 15,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_aa87b545",
+    "page_num": 0,
+    "text": "13",
+    "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      1567.6099853515625,
+      1102.360107421875,
+      1587.78955078125,
+      1122.280029296875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_3386b741",
+    "page_num": 0,
+    "text": "parents and provides them with education in order to create a increase consumption of healthy beverages, and/or decrease consumption",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       111.5999984741211,
       1104.277587890625,
       2469.208740234375,
-      1155.296875
+      1142.306884765625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 4,
-    "line_spacing_avg": 0.0,
+    "alignment": "left",
+    "line_count": 2,
     "font_names": [
       "ArialMT"
     ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
     "text_case": "lower",
-    "length": 243,
-    "relative_font_size": null
+    "length": 132,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_5c51abb0",
+    "page_num": 0,
+    "text": "California State University Northridge",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630615234375,
+      1125.2508544921875,
+      1282.4429931640625,
+      1149.18896484375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 38,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_a1261142",
+    "page_num": 0,
+    "text": "connection between a child and parent and support a switch to a healthy",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      111.5999984741211,
+      1130.6776123046875,
+      822.7086181640625,
+      1155.296875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 71,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_bb37ddd0",
+    "page_num": 0,
     "text": "Number of",
     "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.21,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       1312.4599609375,
       1130.8524169921875,
@@ -415,20 +1204,31 @@
       1153.063232421875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 9,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_ef015dc4",
+    "page_num": 0,
     "text": "of less healthy beverages.",
     "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       1735.780029296875,
       1144.1175537109375,
@@ -436,20 +1236,31 @@
       1168.73681640625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "lower",
     "length": 26,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_3178c8c0",
+    "page_num": 0,
     "text": "gardens",
     "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.21,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       1312.4599609375,
       1154.8524169921875,
@@ -457,20 +1268,31 @@
       1177.063232421875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "lower",
     "length": 7,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_3b5e638d",
+    "page_num": 0,
     "text": "behavior for the entire family.",
     "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       111.5999984741211,
       1156.5975341796875,
@@ -478,43 +1300,191 @@
       1181.216796875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "lower",
     "length": 31,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
-    "text": "12 built/revitalized Alliance for Community Empowerment Adult Participants CSUN CalFresh Healthy Living  targeted parents in schools and community",
-    "avg_font_size": 21.09,
+    "paragraph_id": "p_39949f21",
+    "page_num": 0,
+    "text": "12",
+    "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      1567.6099853515625,
+      1157.2200927734375,
+      1587.78955078125,
+      1177.1400146484375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_70ff5615",
+    "page_num": 0,
+    "text": "built/revitalized",
+    "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 22.21,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 1.71,
+    "bbox": [
+      1312.4599609375,
+      1178.8524169921875,
+      1449.2705078125,
+      1201.063232421875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 17,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_fe96e66b",
+    "page_num": 0,
+    "text": "Alliance for Community Empowerment",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
     "bbox": [
       911.7630615234375,
-      1157.2200927734375,
+      1186.0845947265625,
+      1289.6243896484375,
+      1210.022705078125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 34,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_7304f726",
+    "page_num": 0,
+    "text": "Adult Participants",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.58,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      1735.780029296875,
+      1196.9176025390625,
+      1907.032470703125,
+      1221.49267578125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Arial-ItalicMT"
+    ],
+    "primary_font_family": [
+      "Arial-ItalicMT"
+    ],
+    "text_case": "Title",
+    "length": 18,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_c2976886",
+    "page_num": 0,
+    "text": "CSUN CalFresh Healthy Living  targeted parents in schools and community",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 1.82,
+    "bbox": [
+      1735.780029296875,
+      1223.317626953125,
       2476.25146484375,
       1247.9368896484375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 5,
-    "line_spacing_avg": 1.77,
+    "alignment": "center",
+    "line_count": 1,
     "font_names": [
-      "Calibri",
-      "ArialMT",
-      "Arial-ItalicMT"
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
     ],
     "text_case": "Mixed",
-    "length": 146,
-    "relative_font_size": null
+    "length": 71,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_7bfb1644",
+    "page_num": 0,
     "text": "Introduction",
     "avg_font_size": 43.92,
+    "normalized_font_size": 44.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 43.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
     "bbox": [
       350.80999755859375,
       1230.800048828125,
@@ -522,41 +1492,383 @@
       1274.719970703125
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Calibri-Bold"
+    ],
+    "primary_font_family": [
       "Calibri-Bold"
     ],
     "text_case": "Title",
     "length": 12,
+    "is_homogeneous": true,
     "relative_font_size": 11
   },
   {
-    "text": "setting using the Nutrition 5 Class Series and gardening education with the Guadalupe Center intent to increase fruit and vegetable consumption, increase consumption of New Academy Canoga Park Childhood obesity is a national epidemic in the United States, 1 in 5 healthy beverages, and/or decrease consumption of less healthy Coutin School children and adolescents are obese (CDC, 2017). In California, 7.4 beverages. million adults and adolescents were obese in 2011-2012 (UCLA, 2015). NEW FamilySource Center The Los Angeles County Department of Public Health (LACDPH) reports West Valley Boys & Girls Club that 19.8% of adults are obese in SPA 2 (LACDPH, 2017). California",
-    "avg_font_size": 21.86,
+    "paragraph_id": "p_c3facecc",
+    "page_num": 0,
+    "text": "setting using the Nutrition 5 Class Series and gardening education with the",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
-      110.77999877929688,
+      1735.780029296875,
       1249.717529296875,
-      2479.233642578125,
-      1421.8367919921875
+      2468.966064453125,
+      1274.3367919921875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 14,
-    "line_spacing_avg": 1.67,
+    "alignment": "center",
+    "line_count": 1,
     "font_names": [
       "ArialMT"
     ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
     "text_case": "Mixed",
-    "length": 675,
-    "relative_font_size": null
+    "length": 75,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_2c110eef",
+    "page_num": 0,
+    "text": "Guadalupe Center",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630615234375,
+      1250.47412109375,
+      1100.08642578125,
+      1274.4122314453125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 16,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_73aa7262",
+    "page_num": 0,
+    "text": "intent to increase fruit and vegetable consumption, increase consumption of",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 1.71,
+    "bbox": [
+      1735.780029296875,
+      1276.1175537109375,
+      2479.233642578125,
+      1300.73681640625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 75,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_c2746196",
+    "page_num": 0,
+    "text": "New Academy Canoga Park",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630615234375,
+      1282.67333984375,
+      1193.077880859375,
+      1306.611572265625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 23,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_162dc4d1",
+    "page_num": 0,
+    "text": "Childhood obesity is a national epidemic in the United States, 1 in 5 healthy beverages, and/or decrease consumption of less healthy",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      110.77999877929688,
+      1291.6175537109375,
+      2371.064697265625,
+      1327.1368408203125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 132,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_4d8ca7fd",
+    "page_num": 0,
+    "text": "Coutin School",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630615234375,
+      1313.0589599609375,
+      1057.1859130859375,
+      1336.9970703125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 13,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_accce5b6",
+    "page_num": 0,
+    "text": "children and adolescents are obese (CDC, 2017). In California, 7.4 beverages. million adults and adolescents were obese in 2011-2012 (UCLA, 2015).",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      110.77999877929688,
+      1318.017578125,
+      1844.8994140625,
+      1369.036865234375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 146,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_747ac43c",
+    "page_num": 0,
+    "text": "NEW FamilySource Center",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630615234375,
+      1345.2412109375,
+      1180.5284423828125,
+      1369.179443359375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 23,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_d90089ad",
+    "page_num": 0,
+    "text": "The Los Angeles County Department of Public Health (LACDPH) reports",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 1.64,
+    "bbox": [
+      110.77999877929688,
+      1370.817626953125,
+      822.9926147460938,
+      1395.4368896484375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 67,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_4a504f3e",
+    "page_num": 0,
+    "text": "West Valley Boys & Girls Club",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630615234375,
+      1377.4449462890625,
+      1210.90625,
+      1401.383056640625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 29,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_21ac86a6",
+    "page_num": 0,
+    "text": "that 19.8% of adults are obese in SPA 2 (LACDPH, 2017). California",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      110.77999877929688,
+      1397.217529296875,
+      780.8638916015625,
+      1421.8367919921875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 66,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_65a4be07",
+    "page_num": 0,
     "text": "Food Distribution",
     "avg_font_size": 43.92,
+    "normalized_font_size": 44.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 43.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
     "bbox": [
       1945.6600341796875,
       1407.080078125,
@@ -564,85 +1876,227 @@
       1451.0
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "right",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Calibri-Bold"
+    ],
+    "primary_font_family": [
       "Calibri-Bold"
     ],
     "text_case": "Title",
     "length": 17,
+    "is_homogeneous": true,
     "relative_font_size": 11
   },
   {
-    "text": "Salvation Army Health Interview Survey (CHIS) specifically for Canoga Park, indicating that 22.9% of adults were diagnosed as obese (Wolstein, Babey, In support to reduce the prevalence of diet related diseases, we have Diamant, 2015. optimized the food system and increased food security by initiating a produce distribution in the San Fernando Valley. Since the initiation of the free produce distribution back in March 2019, we have successfully carried out 12 produce pickups reaching approximately 34,000 SNAP-Ed residents in LA County.",
-    "avg_font_size": 22.02,
+    "paragraph_id": "p_07050a13",
+    "page_num": 0,
+    "text": "Salvation Army",
+    "avg_font_size": 21.47,
+    "normalized_font_size": 21.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 23.94,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      911.7630615234375,
+      1409.648681640625,
+      1067.9132080078125,
+      1433.5867919921875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 14,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_b5422e4a",
+    "page_num": 0,
+    "text": "Health Interview Survey (CHIS) specifically for Canoga Park, indicating that 22.9% of adults were diagnosed as obese (Wolstein, Babey, In support to reduce the prevalence of diet related diseases, we have Diamant, 2015. optimized the food system and increased food security by initiating a produce distribution in the San Fernando Valley. Since the initiation of the free produce distribution back in March 2019, we have successfully carried out 12 produce pickups reaching approximately 34,000 SNAP-Ed residents in LA County.",
+    "avg_font_size": 22.08,
+    "normalized_font_size": 22.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.62,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 1.78,
     "bbox": [
       110.77999877929688,
-      1409.648681640625,
+      1423.5958251953125,
       2470.50048828125,
       1622.766845703125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 10,
-    "line_spacing_avg": 1.78,
+    "alignment": "center",
+    "line_count": 9,
     "font_names": [
       "ArialMT"
     ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
     "text_case": "Mixed",
-    "length": 541,
-    "relative_font_size": null
+    "length": 526,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
-    "text": "Figure 4. Staff, interns, and Figure 1. Our youth cohort Figure 2. Children eating their Figure 3. Garden Build Day with Bridge to the Future scholars harvesting fresh and organic fruits own grown vegetables our parent cohort ` assisting with the food and vegetables distribution",
+    "paragraph_id": "p_c5117809",
+    "page_num": 0,
+    "text": "Figure 4. Staff, interns, and Figure 1. Our youth cohort Figure 2. Children eating their Figure 3. Garden Build Day with",
     "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 339.58,
     "bbox": [
       131.92999267578125,
       1962.35009765625,
-      1597.8826904296875,
-      2054.2900390625
+      1582.349853515625,
+      1990.8599853515625
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 11,
-    "line_spacing_avg": 339.58,
+    "alignment": "center",
+    "line_count": 4,
     "font_names": [
       "Calibri-Bold",
       "Calibri"
     ],
-    "text_case": "lower",
-    "length": 279,
+    "primary_font_family": [
+      "Calibri",
+      "Calibri-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 120,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "Figure 5. Volunteers getting ready to load the produce into the organization's vehicles",
-    "avg_font_size": 19.93,
+    "paragraph_id": "p_2847ab51",
+    "page_num": 0,
+    "text": "Bridge to the Future scholars harvesting fresh and organic fruits own grown vegetables our parent cohort ` assisting with the food and vegetables distribution",
+    "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      131.92999267578125,
+      1986.35009765625,
+      1597.8826904296875,
+      2054.2900390625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 7,
+    "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
+      "Calibri"
+    ],
+    "text_case": "lower",
+    "length": 158,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_fe0cb572",
+    "page_num": 0,
+    "text": "Figure 5. Volunteers getting",
+    "avg_font_size": 19.92,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 58.3,
     "bbox": [
       1999.8499755859375,
       2112.590087890625,
-      2251.420166015625,
-      2180.51611328125
+      2233.2548828125,
+      2132.510009765625
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "right",
-    "line_count": 3,
-    "line_spacing_avg": 22.15,
+    "line_count": 1,
     "font_names": [
       "Calibri-Bold",
       "Calibri"
     ],
-    "text_case": "lower",
-    "length": 87,
-    "relative_font_size": null
+    "primary_font_family": [
+      "Calibri",
+      "Calibri-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 28,
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_a40cf134",
+    "page_num": 0,
+    "text": "ready to load the produce into the organization's vehicles",
+    "avg_font_size": 19.93,
+    "normalized_font_size": 20.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.93,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 4.07,
+    "bbox": [
+      1999.8499755859375,
+      2136.590087890625,
+      2251.420166015625,
+      2180.51611328125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
+      "Calibri"
+    ],
+    "text_case": "lower",
+    "length": 58,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_70d7bb04",
+    "page_num": 0,
     "text": "Contact References",
     "avg_font_size": 43.92,
+    "normalized_font_size": 44.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 43.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 125.72,
     "bbox": [
       106.19999694824219,
       2306.239990234375,
@@ -650,20 +2104,31 @@
       2350.159912109375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 125.72,
     "font_names": [
+      "Calibri-Bold"
+    ],
+    "primary_font_family": [
       "Calibri-Bold"
     ],
     "text_case": "Title",
     "length": 18,
+    "is_homogeneous": true,
     "relative_font_size": 11
   },
   {
+    "paragraph_id": "p_66c81ac7",
+    "page_num": 0,
     "text": "CSUN Marilyn Magaram Center",
     "avg_font_size": 28.08,
+    "normalized_font_size": 28.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 28.08,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 23.04,
     "bbox": [
       106.19999694824219,
       2373.199951171875,
@@ -671,20 +2136,31 @@
       2401.280029296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 23.04,
     "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
       "Calibri"
     ],
     "text_case": "Mixed",
     "length": 27,
-    "relative_font_size": 7
+    "is_homogeneous": true,
+    "relative_font_size": 8
   },
   {
+    "paragraph_id": "p_d2337acf",
+    "page_num": 0,
     "text": "1. Centers for Disease Control and Prevention (CDC). (2017). Childhood overweight and obesity. https://www.cdc.gov/obesity/childhood/ 2. Los Angeles County Public Health Department. (2017).  Key indicators of health by service planning area. http://publichealth.lacounty.gov/ha/docs/2015LACHS/KeyIndicator/PH-KIH_2017-",
     "avg_font_size": 13.92,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 2.88,
     "bbox": [
       1301.52001953125,
       2373.580078125,
@@ -692,20 +2168,31 @@
       2404.300048828125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 4,
-    "line_spacing_avg": 2.88,
     "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
       "Calibri"
     ],
     "text_case": "Mixed",
     "length": 318,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_9b722199",
+    "page_num": 0,
     "text": "mmc@csun.edu",
     "avg_font_size": 28.1,
+    "normalized_font_size": 28.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 28.1,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 2.48,
     "bbox": [
       106.19999694824219,
       2406.7822265625,
@@ -713,20 +2200,31 @@
       2434.885986328125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 2.48,
     "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
       "Calibri"
     ],
     "text_case": "lower",
     "length": 12,
-    "relative_font_size": 8
+    "is_homogeneous": true,
+    "relative_font_size": 9
   },
   {
+    "paragraph_id": "p_bf11abb1",
+    "page_num": 0,
     "text": "sec%20UPDATED.pdf 3. UCLA Center for Health Policy Research. (2015).  Obesity in California. http://healthpolicy.ucla.edu/publications/Documents/PDF/2015/obesityreport-jun2015.pdf 4. Wolstein, J., PhD, MPP, Babey, S. H., PhD, & Diamant, A. L., MD, MSHS. (2015). Obesity in California. The California Endowment. Retrieved from http://healthpolicy.ucla.edu/publications/Documents/PDF/2015/obesityreport-jun2015.pdf",
     "avg_font_size": 13.92,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.92,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 2.88,
     "bbox": [
       1301.52001953125,
       2407.18017578125,
@@ -734,15 +2232,19 @@
       2471.5
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 6,
-    "line_spacing_avg": 2.88,
     "font_names": [
+      "Calibri"
+    ],
+    "primary_font_family": [
       "Calibri"
     ],
     "text_case": "Mixed",
     "length": 412,
+    "is_homogeneous": true,
     "relative_font_size": 0
   }
 ]

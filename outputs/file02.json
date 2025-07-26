@@ -1,7 +1,14 @@
 [
   {
+    "paragraph_id": "p_20f58a85",
+    "page_num": 0,
     "text": "Overview",
     "avg_font_size": 24.0,
+    "normalized_font_size": 24.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 26.76,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
     "bbox": [
       252.64999389648438,
       189.62002563476562,
@@ -9,20 +16,31 @@
       216.38002014160156
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial,Bold"
+    ],
+    "primary_font_family": [
       "Arial,Bold"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 7
+    "is_homogeneous": true,
+    "relative_font_size": 6
   },
   {
+    "paragraph_id": "p_a0cd1b2e",
+    "page_num": 0,
     "text": "Foundation Level Extensions",
     "avg_font_size": 24.0,
+    "normalized_font_size": 24.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 26.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 28.46,
     "bbox": [
       139.3459930419922,
       244.84402465820312,
@@ -30,20 +48,31 @@
       271.6040344238281
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 28.46,
     "font_names": [
+      "Arial,Bold"
+    ],
+    "primary_font_family": [
       "Arial,Bold"
     ],
     "text_case": "Title",
     "length": 27,
-    "relative_font_size": 7
+    "is_homogeneous": true,
+    "relative_font_size": 6
   },
   {
+    "paragraph_id": "p_3af213c3",
+    "page_num": 0,
     "text": "Version 1.0",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 110.83,
     "bbox": [
       275.69000244140625,
       382.4300231933594,
@@ -51,20 +80,31 @@
       395.80999755859375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 110.83,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 11,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_737d3099",
+    "page_num": 0,
     "text": "International Software Testing Qualifications Board",
     "avg_font_size": 18.0,
+    "normalized_font_size": 18.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 20.07,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 69.89,
     "bbox": [
       103.33999633789062,
       465.6999816894531,
@@ -72,20 +112,31 @@
       485.7699890136719
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 69.89,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 51,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
+    "paragraph_id": "p_507fa4c1",
+    "page_num": 0,
     "text": "Copyright Notice This document may be copied in its entirety, or extracts made, if the source is acknowledged.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 83.47,
     "bbox": [
       70.94400024414062,
       652.2861938476562,
@@ -93,20 +144,31 @@
       674.9153442382812
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 83.47,
     "font_names": [
       "Arial"
     ],
-    "text_case": "Mixed",
+    "primary_font_family": [
+      "Arial"
+    ],
+    "text_case": "Title",
     "length": 110,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_90a3a8d7",
+    "page_num": 1,
     "text": "International",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       447.9100036621094,
       38.62621307373047,
@@ -114,20 +176,31 @@
       49.73161315917969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_977a9c1a",
+    "page_num": 1,
     "text": "Overview",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       41.58000183105469,
@@ -135,20 +208,31 @@
       54.96000289916992
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_e59da1ba",
+    "page_num": 1,
     "text": "Software Testing Foundation Level Extension \u2013 Agile Tester Qualifications Board",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.65,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       50.14617156982422,
@@ -156,21 +240,31 @@
       72.77159118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 4,
-    "line_spacing_avg": 0.0,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 79,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_5de28ca7",
+    "page_num": 1,
     "text": "Copyright \u00a9 International Software Testing Qualifications Board (hereinafter called ISTQB\u00ae).",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 47.59,
     "bbox": [
       70.94400024414062,
       120.36620330810547,
@@ -178,20 +272,31 @@
       131.4716033935547
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 47.59,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 92,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_de0db785",
+    "page_num": 1,
     "text": "Version 2014 Page 2 of 12 May 31, 2014",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.39,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 587.21,
     "bbox": [
       76.58135986328125,
       718.683349609375,
@@ -199,20 +304,31 @@
       730.0775756835938
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 587.21,
     "font_names": [
+      "Trebuchet MS"
+    ],
+    "primary_font_family": [
       "Trebuchet MS"
     ],
     "text_case": "Title",
     "length": 38,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_3a2d7938",
+    "page_num": 1,
     "text": "\u00a9 International Software Testing Qualifications Board",
     "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.69,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.81,
     "bbox": [
       76.58399963378906,
       736.8900146484375,
@@ -220,20 +336,31 @@
       743.5800170898438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 6.81,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_8c30897a",
+    "page_num": 2,
     "text": "International",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       447.9100036621094,
       38.62621307373047,
@@ -241,20 +368,31 @@
       49.73161315917969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_7908ba70",
+    "page_num": 2,
     "text": "Overview",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       41.58000183105469,
@@ -262,20 +400,31 @@
       54.96000289916992
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_63c82b68",
+    "page_num": 2,
     "text": "Software Testing Foundation Level Extension \u2013 Agile Tester Qualifications Board",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.84,
+    "avg_height_to_font_ratio": 1.19,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       50.14617156982422,
@@ -283,21 +432,31 @@
       72.77159118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 0.0,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 79,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_03662dfa",
+    "page_num": 2,
     "text": "Revision History",
     "avg_font_size": 15.96,
+    "normalized_font_size": 16.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.8,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 36.16,
     "bbox": [
       70.94400024414062,
       108.93620300292969,
@@ -305,42 +464,95 @@
       126.73160552978516
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 36.16,
     "font_names": [
+      "Arial,Bold"
+    ],
+    "primary_font_family": [
       "Arial,Bold"
     ],
     "text_case": "Title",
     "length": 16,
-    "relative_font_size": 5
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
-    "text": "Version Date Remarks 0.1 18 JUNE 2013 Initial version 0.2 23 JULY 2013 WG reviewed and confirmed 0.3 6 NOV 2013 amended population and diagram 0.7 11 DEC 2013 Amended Business Outcomes and Chapters matching 0.8 20 DEC 2013 Working group updates on 0.7 1.0 31 MAY 2014 GA release for Agile Extension",
+    "paragraph_id": "p_e2ea796a",
+    "page_num": 2,
+    "text": "Version Date Remarks",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 12.71,
     "bbox": [
       74.42400360107422,
       139.44622802734375,
+      323.5996398925781,
+      150.55162048339844
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "font_names": [
+      "Arial,Bold"
+    ],
+    "primary_font_family": [
+      "Arial,Bold"
+    ],
+    "text_case": "Title",
+    "length": 20,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_ba4bef34",
+    "page_num": 2,
+    "text": "0.1 18 JUNE 2013 Initial version 0.2 23 JULY 2013 WG reviewed and confirmed 0.3 6 NOV 2013 amended population and diagram 0.7 11 DEC 2013 Amended Business Outcomes and Chapters matching 0.8 20 DEC 2013 Working group updates on 0.7 1.0 31 MAY 2014 GA release for Agile Extension",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 1.15,
+    "bbox": [
+      74.42400360107422,
+      151.80621337890625,
       522.174072265625,
       224.1116180419922
     ],
-    "is_bold": true,
+    "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 21,
-    "line_spacing_avg": 2.81,
+    "alignment": "left",
+    "line_count": 18,
     "font_names": [
-      "Arial,Bold",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
-    "length": 298,
-    "relative_font_size": 2
+    "length": 277,
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_b750f631",
+    "page_num": 2,
     "text": "Version 2014 Page 3 of 12 May 31, 2014",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.39,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 494.58,
     "bbox": [
       76.58399963378906,
       718.6875610351562,
@@ -348,20 +560,31 @@
       730.081787109375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 494.58,
     "font_names": [
+      "Trebuchet MS"
+    ],
+    "primary_font_family": [
       "Trebuchet MS"
     ],
     "text_case": "Title",
     "length": 38,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_fef207a6",
+    "page_num": 2,
     "text": "\u00a9 International Software Testing Qualifications Board",
     "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.69,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.81,
     "bbox": [
       76.58399963378906,
       736.8900146484375,
@@ -369,20 +592,31 @@
       743.5800170898438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 6.81,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_07cd4f51",
+    "page_num": 3,
     "text": "International",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       447.9100036621094,
       38.62621307373047,
@@ -390,20 +624,31 @@
       49.73161315917969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_bb32978a",
+    "page_num": 3,
     "text": "Overview",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       41.58000183105469,
@@ -411,20 +656,31 @@
       54.96000289916992
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_8877f6f9",
+    "page_num": 3,
     "text": "Software Testing Foundation Level Extension \u2013 Agile Tester Qualifications Board",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.65,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       50.14617156982422,
@@ -432,21 +688,31 @@
       72.77159118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 4,
-    "line_spacing_avg": 0.0,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 79,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_73ea7663",
+    "page_num": 3,
     "text": "Table of Contents",
     "avg_font_size": 15.96,
+    "normalized_font_size": 16.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.8,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 36.16,
     "bbox": [
       70.94400024414062,
       108.93620300292969,
@@ -454,43 +720,223 @@
       126.73160552978516
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 36.16,
     "font_names": [
+      "Arial,Bold"
+    ],
+    "primary_font_family": [
       "Arial,Bold"
     ],
     "text_case": "Mixed",
     "length": 17,
-    "relative_font_size": 5
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
-    "text": ".......................................................................................................................................... Revision History ........................................................................................................................................ Table of Contents ............................................................................ 1. Introduction to the Foundation Level Extensions ............................................................... 2. Introduction to Foundation Level Agile Tester Extension ..................................................................................................................... 2.1 Intended Audience ............................................................................................................ 2.2 Career Paths for Testers ................................................................................................................... 2.3 Learning Objectives ................................................................................................................... 2.4 Entry Requirements ................................................................................................... 2.5 Structure and Course Duration ...................................................................................................................... 2.6 Keeping It Current Overview of the Foundation Level Extension \u2013 Agile Tester Syllabus ......................................... 3. 10 ................................................................................................................. 3.1 Business Outcomes 10 .................................................................................................................................... 3.2 Content 10 .......................................................................................................................................... 4. References 12 ............................................................................................................................. 4.1 Trademarks 12 ....................................................................................................... 4.2 Documents and Web Sites 12",
+    "paragraph_id": "p_3a562aba",
+    "page_num": 3,
+    "text": ".......................................................................................................................................... Revision History ........................................................................................................................................ Table of Contents ............................................................................ 1. Introduction to the Foundation Level Extensions ............................................................... 2. Introduction to Foundation Level Agile Tester Extension",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 9.28,
     "bbox": [
       70.9439697265625,
       144.7261962890625,
-      543.3607788085938,
-      376.4457092285156
+      535.5401000976562,
+      208.2710418701172
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 10,
+    "font_names": [
+      "Arial,Bold"
+    ],
+    "primary_font_family": [
+      "Arial,Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 561,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_357324ee",
+    "page_num": 3,
+    "text": "..................................................................................................................... 2.1 Intended Audience ............................................................................................................ 2.2 Career Paths for Testers ................................................................................................................... 2.3 Learning Objectives ................................................................................................................... 2.4 Entry Requirements ................................................................................................... 2.5 Structure and Course Duration ...................................................................................................................... 2.6 Keeping It Current",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 1.42,
+    "bbox": [
+      80.90396118164062,
+      214.8048095703125,
+      535.637939453125,
+      283.4392395019531
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
-    "line_count": 52,
-    "line_spacing_avg": 4.41,
+    "line_count": 18,
     "font_names": [
-      "Times-Roman",
-      "Arial,Bold",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
-    "length": 2231,
-    "relative_font_size": 2
+    "length": 832,
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_35d3fd42",
+    "page_num": 3,
+    "text": "Overview of the Foundation Level Extension \u2013 Agile Tester Syllabus ......................................... 3. 10",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.65,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 4.82,
+    "bbox": [
+      70.95391845703125,
+      288.2598571777344,
+      543.3507690429688,
+      301.5465087890625
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "font_names": [
+      "Arial,Bold"
+    ],
+    "primary_font_family": [
+      "Arial,Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 114,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_b2cd16b1",
+    "page_num": 3,
+    "text": "................................................................................................................. 3.1 Business Outcomes 10 .................................................................................................................................... 3.2 Content 10",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 3.42,
+    "bbox": [
+      80.90402221679688,
+      307.37310791015625,
+      543.3507690429688,
+      329.8827209472656
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 8,
+    "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
+      "Arial"
+    ],
+    "text_case": "Mixed",
+    "length": 286,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_2bfc359e",
+    "page_num": 3,
+    "text": ".......................................................................................................................................... 4. References 12",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.29,
+    "bbox": [
+      70.94400024414062,
+      336.17742919921875,
+      543.3507690429688,
+      347.2828369140625
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "font_names": [
+      "Arial,Bold"
+    ],
+    "primary_font_family": [
+      "Arial,Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 155,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_2cd88667",
+    "page_num": 3,
+    "text": "............................................................................................................................. 4.1 Trademarks 12 ....................................................................................................... 4.2 Documents and Web Sites 12",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 3.48,
+    "bbox": [
+      80.90402221679688,
+      353.81658935546875,
+      543.3607788085938,
+      376.4457092285156
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 8,
+    "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
+      "Arial"
+    ],
+    "text_case": "Mixed",
+    "length": 278,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_18de7910",
+    "page_num": 3,
     "text": "Version 2014 Page 4 of 12 May 31, 2014",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.39,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 342.27,
     "bbox": [
       76.601318359375,
       718.711181640625,
@@ -498,20 +944,31 @@
       730.1054077148438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 342.27,
     "font_names": [
+      "Trebuchet MS"
+    ],
+    "primary_font_family": [
       "Trebuchet MS"
     ],
     "text_case": "Title",
     "length": 38,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_94d4877f",
+    "page_num": 3,
     "text": "\u00a9 International Software Testing Qualifications Board",
     "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.69,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.78,
     "bbox": [
       76.58399963378906,
       736.8900146484375,
@@ -519,20 +976,31 @@
       743.5800170898438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 6.78,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_45ba1dd1",
+    "page_num": 4,
     "text": "International",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       447.9100036621094,
       38.62621307373047,
@@ -540,20 +1008,31 @@
       49.73161315917969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_68e2e4c6",
+    "page_num": 4,
     "text": "Overview",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       41.58000183105469,
@@ -561,20 +1040,31 @@
       54.96000289916992
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_32600d13",
+    "page_num": 4,
     "text": "Software Testing Foundation Level Extension \u2013 Agile Tester Qualifications Board",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.65,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       50.14617156982422,
@@ -582,21 +1072,31 @@
       72.77159118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 4,
-    "line_spacing_avg": 0.0,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 79,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_6210b93c",
+    "page_num": 4,
     "text": "Acknowledgements",
     "avg_font_size": 15.96,
+    "normalized_font_size": 16.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.8,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 36.16,
     "bbox": [
       70.94400024414062,
       108.93620300292969,
@@ -604,20 +1104,31 @@
       126.73160552978516
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 36.16,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 16,
-    "relative_font_size": 5
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_34f64fda",
+    "page_num": 4,
     "text": "This document was produced by a team from the International Software Testing Qualifications Board Foundation Level Working Group. The Agile Extension team thanks the review team and the National Boards for their suggestions and input. At the time the Foundation Level Agile Extension Syllabus was completed, the Agile Extension Working Group had the following membership: Rex Black (Chair), Bertrand Cornanguer (Vice Chair), Gerry Coleman (Learning Objectives Lead), Debra Friedenberg (Exam Lead), Alon Linetzki (Business Outcomes and Marketing Lead), Tauhida Parveen (Editor), and Leo van der Aalst (Development Lead). Authors: Rex Black, Anders Claesson, Gerry Coleman, Bertrand Cornanguer, Istvan Forgacs, Alon Linetzki, Tilo Linz, Leo van der Aalst, Marie Walsh, and Stephan Weber. Internal Reviewers: Mette Bruhn-Pedersen, Christopher Clements, Alessandro Collino, Debra Friedenberg, Kari Kakkonen, Beata Karpinska, Sammy Kolluru, Jennifer Leger, Thomas Mueller, Tuula P\u00e4\u00e4kk\u00f6nen, Meile Posthuma, Gabor Puhalla, Lloyd Roden, Marko Rytk\u00f6nen, Monika Stoecklein-Olsen, Robert Treffny, Chris Van Bael, and Erik van Veenendaal. The team thanks also the following persons, from the National Boards and the Agile expert community, who participated in reviewing, commenting, and balloting of the Foundation Agile Extension Syllabus: Dani Almog, Richard Berns, Stephen Bird, Monika B\u00f6gge, Afeng Chai, Josephine Crawford, Tibor Cs\u00f6ndes, Huba Demeter, Arnaud Foucal, Cyril Fumery, Kobi Halperin, Inga Hansen, Hanne Hinz, Jidong Hu, Phill Isles, Shirley Itah, Martin Klonk, Kjell Lauren, Igal Levi, Rik Marselis, Johan Meivert, Armin Metzger, Peter Morgan, Ninna Morin, Ingvar Nordstrom, Chris O\u2019Dea, Klaus Olsen, Ismo Paukamainen, Nathalie Phung, Helmut Pichler, Salvatore Reale, Stuart Reid, Hans Rombouts, Petri S\u00e4ilynoja, Soile Sainio, Lars-Erik Sandberg, Dakar Shalom,  Jian Shen, Marco Sogliani, Lucjan Stapp, Yaron Tsubery, Sabine Uhde, Stephanie Ulrich, Tommi V\u00e4lim\u00e4ki, Jurian Van de Laar, Marnix Van den Ent, Ant\u00f3nio Vieira Melo, Wenye Xu, Ester Zabar, Wenqiang Zheng, Peter Zimmerer, Stevan Zivanovic, and Terry Zuo. This document was formally approved for release by the General Assembly of the ISTQB\u00ae on May 31, 2014.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.2,
+    "avg_height_to_font_ratio": 1.13,
+    "line_spacing_avg": 4.17,
     "bbox": [
       70.9439697265625,
       144.84619140625,
@@ -625,21 +1136,31 @@
       500.93609619140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 25,
-    "line_spacing_avg": 4.17,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 2221,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_848ddb05",
+    "page_num": 4,
     "text": "Version 2014 Page 5 of 12 May 31, 2014",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.39,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 217.81,
     "bbox": [
       76.58135986328125,
       718.7413940429688,
@@ -647,20 +1168,31 @@
       730.1356201171875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 217.81,
     "font_names": [
+      "Trebuchet MS"
+    ],
+    "primary_font_family": [
       "Trebuchet MS"
     ],
     "text_case": "Title",
     "length": 38,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_a63ce424",
+    "page_num": 4,
     "text": "\u00a9 International Software Testing Qualifications Board",
     "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.69,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.75,
     "bbox": [
       76.58399963378906,
       736.8900146484375,
@@ -668,20 +1200,31 @@
       743.5800170898438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 6.75,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_2d759f94",
+    "page_num": 5,
     "text": "International",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       447.9100036621094,
       38.62621307373047,
@@ -689,20 +1232,31 @@
       49.73161315917969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_49bd73a5",
+    "page_num": 5,
     "text": "Overview",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       41.58000183105469,
@@ -710,20 +1264,31 @@
       54.96000289916992
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_ecb85383",
+    "page_num": 5,
     "text": "Software Testing Foundation Level Extension \u2013 Agile Tester Qualifications Board",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.84,
+    "avg_height_to_font_ratio": 1.19,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       50.14617156982422,
@@ -731,21 +1296,31 @@
       72.77159118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 0.0,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 79,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_2d112e59",
+    "page_num": 5,
     "text": "1. Introduction to the Foundation Level Extensions",
     "avg_font_size": 15.96,
+    "normalized_font_size": 16.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.8,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 50.2,
     "bbox": [
       70.94400024414062,
       122.97618103027344,
@@ -753,21 +1328,33 @@
       140.77157592773438
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 50.2,
     "font_names": [
       "Arial,Bold",
       "Arial"
     ],
+    "primary_font_family": [
+      "Arial",
+      "Arial,Bold"
+    ],
     "text_case": "Mixed",
     "length": 50,
-    "relative_font_size": 5
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_e7504a9b",
+    "page_num": 5,
     "text": "This overview document is intended for anyone with an interest in the ISTQB Foundation Level Extensions who wants a high-level introduction to the leading principles and an overview of the individual extension syllabi. From time to time, ISTQB will update this document to reflect any additional extensions that shall be introduced for the Foundation Level, or to reflect major changes in existing ones. Publications of the updated document will be available on the ISTQB website. The ISTQB Foundation and Advanced Level syllabi have been defined and have been on the market for some time. New topics emerge due to technology and methodology changes in the market which often are brought into the ISTQB program as new Expert Level syllabi. However, not all topics are suited for the Expert Level. For this reason, the extension syllabi are established at the Foundation Level to expand the ISTQB program to incorporate new or updated knowledge. New extensions shall be discussed and introduced by the ISTQB periodically. Extensions may be established at the Advanced Level as well, but that is beyond the scope of this document. The following Foundation Level Extension syllabus has been released: Agile Tester In this document, each Foundation Level Extension syllabus is summarized and the associated Business Outcomes are stated. The Business Outcomes communicate what can be expected from a person who achieves a Foundation Level Extension Certification in a particular subject area (e.g., Agile Tester), and will outline the benefits for companies that are considering the development of specific testing skills at this level.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 2.99,
     "bbox": [
       70.94398498535156,
       146.28619384765625,
@@ -775,20 +1362,31 @@
       422.6862487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 20,
-    "line_spacing_avg": 2.99,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 1631,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_7aef286a",
+    "page_num": 5,
     "text": "Version 2014 Page 6 of 12 May 31, 2014",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.39,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 296.04,
     "bbox": [
       76.59132385253906,
       718.727294921875,
@@ -796,20 +1394,31 @@
       730.1215209960938
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 296.04,
     "font_names": [
+      "Trebuchet MS"
+    ],
+    "primary_font_family": [
       "Trebuchet MS"
     ],
     "text_case": "Title",
     "length": 38,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_51a9c2aa",
+    "page_num": 5,
     "text": "\u00a9 International Software Testing Qualifications Board",
     "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.69,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.77,
     "bbox": [
       76.58399963378906,
       736.8900146484375,
@@ -817,20 +1426,31 @@
       743.5800170898438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 6.77,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_a9f98105",
+    "page_num": 6,
     "text": "International",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       447.9100036621094,
       38.62621307373047,
@@ -838,20 +1458,31 @@
       49.73161315917969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_db8a9f2b",
+    "page_num": 6,
     "text": "Overview",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       41.58000183105469,
@@ -859,20 +1490,31 @@
       54.96000289916992
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_b7b386ad",
+    "page_num": 6,
     "text": "Software Testing Foundation Level Extension \u2013 Agile Tester Qualifications Board",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.84,
+    "avg_height_to_font_ratio": 1.19,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       50.14617156982422,
@@ -880,21 +1522,31 @@
       72.77159118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 0.0,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 79,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_c18cc24c",
+    "page_num": 6,
     "text": "2. Introduction to Foundation Level Agile Tester Extension",
     "avg_font_size": 15.96,
+    "normalized_font_size": 16.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.8,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 50.2,
     "bbox": [
       70.94400024414062,
       122.97618103027344,
@@ -902,21 +1554,33 @@
       140.77157592773438
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 50.2,
     "font_names": [
       "Arial,Bold",
       "Arial"
     ],
+    "primary_font_family": [
+      "Arial",
+      "Arial,Bold"
+    ],
     "text_case": "Mixed",
     "length": 58,
-    "relative_font_size": 5
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_7d1239a0",
+    "page_num": 6,
     "text": "The certification for Foundation Level Extension \u2013 Agile Tester is designed for professionals who are working within Agile environments. It is also for professionals who are planning to start implementing Agile methods in the near future, or are working within companies that plan to do so, The certification provides an advantage for those who would like to know the required Agile activities, roles, methods, and methodologies specific to their role.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.55,
+    "avg_height_to_font_ratio": 1.15,
+    "line_spacing_avg": 1.29,
     "bbox": [
       70.94400024414062,
       144.81210327148438,
@@ -924,21 +1588,31 @@
       203.3669891357422
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 5,
-    "line_spacing_avg": 1.29,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 452,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_ed40c28b",
+    "page_num": 6,
     "text": "2.1 Intended Audience",
     "avg_font_size": 14.04,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.65,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 13.99,
     "bbox": [
       70.94400024414062,
       217.35379028320312,
@@ -946,20 +1620,31 @@
       233.00839233398438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 13.99,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 21,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_dc278cee",
+    "page_num": 6,
     "text": "The Foundation Level Extension \u2013 Agile Tester qualification is aimed at four main groups of professionals: 1. Professionals who have achieved in-depth testing experience in traditional methods and would like to get an Agile Tester Certificate. 2. Junior professional testers who are just starting in the testing profession, have received the Foundation Level certificate, and would like to know more about the tester\u2019s role in an Agile environment. 3. Professionals who are relatively new to testing and are required to implement test approaches, methods and techniques in their day to day job in Agile projects. 4. Professionals who are experienced in their role (including unit testing) and need more understanding and knowledge about how to perform and manage testing on all levels in Agile projects. These professionals include people who are in roles such as testers, test analysts, test engineers, test consultants, test managers, user acceptance testers, and software developers. This Foundation Level Extension \u2013 Agile Tester certification may also be appropriate for anyone who wants a deeper understanding of software testing in the Agile world, such as project managers, quality managers, software development managers, business analysts, IT directors, and management consultants.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.49,
+    "avg_height_to_font_ratio": 1.16,
+    "line_spacing_avg": 2.52,
     "bbox": [
       70.94400024414062,
       239.40213012695312,
@@ -967,21 +1652,31 @@
       459.0500183105469
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "left",
     "line_count": 17,
-    "line_spacing_avg": 2.52,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 1291,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_4bb64aac",
+    "page_num": 6,
     "text": "2.2 Career Paths for Testers",
     "avg_font_size": 14.04,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.65,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 25.47,
     "bbox": [
       70.94400024414062,
       484.5238037109375,
@@ -989,20 +1684,31 @@
       500.17840576171875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 25.47,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 28,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_684acd68",
+    "page_num": 6,
     "text": "Building on the Foundation Level, the Agile Tester Extension supports the definition of career paths for professional testers. A person with the Agile Tester certificate has extended the broad understanding of testing acquired at the Foundation Level to enable him or her to work effectively as a professional tester in an Agile project. People possessing an ISTQB Foundation Level Extension \u2013 Agile Tester certificate may use the Certified Tester Foundation Level acronym CTFL-AT.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.47,
+    "avg_height_to_font_ratio": 1.16,
+    "line_spacing_avg": 3.89,
     "bbox": [
       70.94400024414062,
       508.0162353515625,
@@ -1010,21 +1716,31 @@
       588.164306640625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 6,
-    "line_spacing_avg": 3.89,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 481,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_c2a6922d",
+    "page_num": 6,
     "text": "2.3 Learning Objectives",
     "avg_font_size": 14.04,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.65,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 25.51,
     "bbox": [
       70.94400024414062,
       613.673828125,
@@ -1032,20 +1748,31 @@
       629.3284301757812
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 25.51,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 23,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_73d4870b",
+    "page_num": 6,
     "text": "In general, the Foundation Level syllabus is examinable at a K1 level, i.e., the candidate will recognize, remember and recall terms and concepts stated in the Foundation Level syllabus. In addition, all Foundation Level syllabus learning objectives are examinable at the same K- level in an extension exam.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 5.12,
     "bbox": [
       70.94400024414062,
       637.1661987304688,
@@ -1053,20 +1780,31 @@
       694.22705078125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 4,
-    "line_spacing_avg": 5.12,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 307,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_edff81b8",
+    "page_num": 6,
     "text": "Version 2014 Page 7 of 12 May 31, 2014",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.39,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 24.46,
     "bbox": [
       76.58135986328125,
       718.6888427734375,
@@ -1074,20 +1812,31 @@
       730.0830688476562
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 24.46,
     "font_names": [
+      "Trebuchet MS"
+    ],
+    "primary_font_family": [
       "Trebuchet MS"
     ],
     "text_case": "Title",
     "length": 38,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_3a6ac94e",
+    "page_num": 6,
     "text": "\u00a9 International Software Testing Qualifications Board",
     "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.69,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.81,
     "bbox": [
       76.58399963378906,
       736.8900146484375,
@@ -1095,20 +1844,31 @@
       743.5800170898438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 6.81,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_7196d767",
+    "page_num": 7,
     "text": "International",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       447.9100036621094,
       38.62621307373047,
@@ -1116,20 +1876,31 @@
       49.73161315917969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_4c397ebc",
+    "page_num": 7,
     "text": "Overview",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       41.58000183105469,
@@ -1137,20 +1908,31 @@
       54.96000289916992
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_3ce92174",
+    "page_num": 7,
     "text": "Software Testing Foundation Level Extension \u2013 Agile Tester Qualifications Board",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.84,
+    "avg_height_to_font_ratio": 1.19,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       50.14617156982422,
@@ -1158,21 +1940,31 @@
       72.77159118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 0.0,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 79,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_e87ee402",
+    "page_num": 7,
     "text": "That said, each extension level exam focuses on the learning objectives defined in that extension syllabus. The relevant learning objectives at K1, K2, and K3 levels are provided at the beginning of each chapter within each particular extension syllabus.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 12.3,
     "bbox": [
       70.94398498535156,
       108.84618377685547,
@@ -1180,20 +1972,31 @@
       142.9990692138672
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 12.3,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 254,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_09af65c8",
+    "page_num": 7,
     "text": "2.4 Entry Requirements",
     "avg_font_size": 14.04,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.65,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 13.99,
     "bbox": [
       70.94400024414062,
       156.99380493164062,
@@ -1201,20 +2004,31 @@
       172.64840698242188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 13.99,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 22,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_1ee728b9",
+    "page_num": 7,
     "text": "To be able to participate in a Foundation Level Extension \u2013 Agile Tester exam, candidates must have obtained the ISTQB Foundation Level certificate.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.2,
+    "avg_height_to_font_ratio": 1.22,
+    "line_spacing_avg": 6.36,
     "bbox": [
       70.94400024414062,
       179.01211547851562,
@@ -1222,21 +2036,31 @@
       203.11534118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 6.36,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 148,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_9208641b",
+    "page_num": 7,
     "text": "2.5 Structure and Course Duration",
     "avg_font_size": 14.04,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.65,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 14.0,
     "bbox": [
       70.94400024414062,
       217.11380004882812,
@@ -1244,20 +2068,31 @@
       232.76840209960938
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 14.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 33,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_3da4ff35",
+    "page_num": 7,
     "text": "The Foundation Level Extension \u2013 Agile Tester syllabus has no shared or common elements with the Foundation Level syllabus. The syllabi must be taught in the following minimum number of days:",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.84,
+    "avg_height_to_font_ratio": 1.19,
+    "line_spacing_avg": 9.1,
     "bbox": [
       70.94400024414062,
       239.16213989257812,
@@ -1265,43 +2100,95 @@
       286.183349609375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 9.1,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 191,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
-    "text": "Syllabus Days Baseline: Foundation Extension: Agile Tester",
+    "paragraph_id": "p_1cdccedc",
+    "page_num": 7,
+    "text": "Syllabus Days",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 15.29,
     "bbox": [
       212.2100067138672,
       301.4761962890625,
       395.0034484863281,
-      348.70159912109375
+      312.58160400390625
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "center",
-    "line_count": 4,
-    "line_spacing_avg": 9.73,
+    "line_count": 2,
     "font_names": [
-      "Arial,Bold",
+      "Arial,Bold"
+    ],
+    "primary_font_family": [
+      "Arial,Bold"
+    ],
+    "text_case": "Title",
+    "length": 13,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_37b92926",
+    "page_num": 7,
+    "text": "Baseline: Foundation Extension: Agile Tester",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.95,
+    "bbox": [
+      212.2100067138672,
+      319.59619140625,
+      317.8317565917969,
+      348.70159912109375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
-    "length": 58,
-    "relative_font_size": 2
+    "length": 44,
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_75f01a94",
+    "page_num": 7,
     "text": "The following figure shows the structure of the Agile Tester Extension and its relationship to the Foundation Level.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 9.42,
     "bbox": [
       70.94400024414062,
       367.1162109375,
@@ -1309,20 +2196,31 @@
       389.7453308105469
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 9.42,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 116,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_3a9c4167",
+    "page_num": 7,
     "text": "Version 2014 Page 8 of 12 May 31, 2014",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.39,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 328.94,
     "bbox": [
       76.58399963378906,
       718.6875610351562,
@@ -1330,20 +2228,31 @@
       730.081787109375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 328.94,
     "font_names": [
+      "Trebuchet MS"
+    ],
+    "primary_font_family": [
       "Trebuchet MS"
     ],
     "text_case": "Title",
     "length": 38,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_0350a6b7",
+    "page_num": 7,
     "text": "\u00a9 International Software Testing Qualifications Board",
     "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.69,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.81,
     "bbox": [
       76.58399963378906,
       736.8900146484375,
@@ -1351,20 +2260,31 @@
       743.5800170898438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 6.81,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_80547224",
+    "page_num": 8,
     "text": "International",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       447.9100036621094,
       38.62621307373047,
@@ -1372,20 +2292,31 @@
       49.73161315917969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_1762cd68",
+    "page_num": 8,
     "text": "Overview",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       41.58000183105469,
@@ -1393,20 +2324,31 @@
       54.96000289916992
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_6e621a28",
+    "page_num": 8,
     "text": "Software Testing Foundation Level Extension \u2013 Agile Tester Qualifications Board",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.84,
+    "avg_height_to_font_ratio": 1.19,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       50.14617156982422,
@@ -1414,21 +2356,31 @@
       72.77159118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 0.0,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 79,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_1ba880b6",
+    "page_num": 8,
     "text": "2.6 Keeping It Current",
     "avg_font_size": 14.04,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.65,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 61.18,
     "bbox": [
       70.94400024414062,
       133.95376586914062,
@@ -1436,20 +2388,31 @@
       149.60836791992188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 61.18,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 22,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_bebd274f",
+    "page_num": 8,
     "text": "The software industry changes rapidly. To deal with these changes and to provide the stakeholders with access to relevant and current information, the ISTQB working groups have created links on the www.istqb.org web site which refer to supporting documents, changes to standards and new occurrences in the industry. This information is not examinable under this syllabus.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.27,
     "bbox": [
       70.94400024414062,
       157.44622802734375,
@@ -1457,20 +2420,31 @@
       203.1228485107422
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 4,
-    "line_spacing_avg": 2.27,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 371,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_fff5a6f0",
+    "page_num": 8,
     "text": "Version 2014 Page 9 of 12 May 31, 2014",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.39,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 515.58,
     "bbox": [
       76.58135986328125,
       718.7022705078125,
@@ -1478,20 +2452,31 @@
       730.0964965820312
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 515.58,
     "font_names": [
+      "Trebuchet MS"
+    ],
+    "primary_font_family": [
       "Trebuchet MS"
     ],
     "text_case": "Title",
     "length": 38,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_d051ddfe",
+    "page_num": 8,
     "text": "\u00a9 International Software Testing Qualifications Board",
     "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.69,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.79,
     "bbox": [
       76.58399963378906,
       736.8900146484375,
@@ -1499,20 +2484,31 @@
       743.5800170898438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 6.79,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_4b38ab1e",
+    "page_num": 9,
     "text": "International",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       447.9100036621094,
       38.62621307373047,
@@ -1520,20 +2516,31 @@
       49.73161315917969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_434eec2b",
+    "page_num": 9,
     "text": "Overview",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       41.58000183105469,
@@ -1541,20 +2548,31 @@
       54.96000289916992
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_dbbe9a5e",
+    "page_num": 9,
     "text": "Software Testing Foundation Level Extension \u2013 Agile Tester Qualifications Board",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.84,
+    "avg_height_to_font_ratio": 1.19,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       50.14617156982422,
@@ -1562,21 +2580,31 @@
       72.77159118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 0.0,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 79,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_5cf143cb",
+    "page_num": 9,
     "text": "3. Overview of the Foundation Level Extension \u2013 Agile Tester Syllabus",
     "avg_font_size": 15.96,
+    "normalized_font_size": 16.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.55,
+    "avg_height_to_font_ratio": 1.22,
+    "line_spacing_avg": 44.72,
     "bbox": [
       70.94400024414062,
       117.49411010742188,
@@ -1584,22 +2612,33 @@
       156.13327026367188
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 44.72,
     "font_names": [
-      "Times-Roman",
       "Arial,Bold",
       "Arial"
     ],
+    "primary_font_family": [
+      "Arial",
+      "Arial,Bold"
+    ],
     "text_case": "Mixed",
     "length": 69,
-    "relative_font_size": 5
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_03812102",
+    "page_num": 9,
     "text": "3.1 Business Outcomes",
     "avg_font_size": 14.04,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.65,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 31.82,
     "bbox": [
       70.94400024414062,
       187.95376586914062,
@@ -1607,20 +2646,31 @@
       203.60836791992188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 31.82,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 21,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_96599ebf",
+    "page_num": 9,
     "text": "This section lists the Business Outcomes expected of a candidate who has achieved the Foundation Level Extension \u2013 Agile Tester certification. An Agile Tester can\u2026 AFM1 Collaborate in a cross-functional Agile team being familiar with principles and basic practices of Agile software development. AFM2 Adapt existing testing experience and knowledge to Agile values and principles. AFM3 Support the Agile team in planning test-related activities. AFM4 Apply relevant methods and techniques for testing in an Agile project. AFM5 Assist the Agile team in test automation activities. AFM6 Assist business stakeholders in defining understandable and testable user stories, scenarios, requirements and acceptance criteria as appropriate. AFM7 Work and share information with other team members using effective communication styles and channels.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.33,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 9.13,
     "bbox": [
       70.93403625488281,
       211.44622802734375,
@@ -1628,21 +2678,31 @@
       460.8016052246094
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 20,
-    "line_spacing_avg": 9.13,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 838,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_a3668b11",
+    "page_num": 9,
     "text": "In general, a Certified Tester Foundation Level \u2013 Agile Tester is expected to have acquired the necessary skills to working effectively within an Agile team and environment.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.2,
+    "avg_height_to_font_ratio": 1.23,
+    "line_spacing_avg": 22.58,
     "bbox": [
       70.9439697265625,
       483.3821105957031,
@@ -1650,21 +2710,31 @@
       507.4853210449219
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 22.58,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 173,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_7c626e3c",
+    "page_num": 9,
     "text": "3.2 Content",
     "avg_font_size": 14.04,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.65,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 25.52,
     "bbox": [
       70.94400024414062,
       533.0038452148438,
@@ -1672,42 +2742,95 @@
       548.658447265625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 25.52,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 11,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
-    "text": "Chapter 1: Agile Software Development The tester should remember the basic concept of Agile software development based on the Agile Manifesto. The tester should understand the advantages of the whole-team approach and the benefits of early and frequent feedback. The tester should recall Agile software development approaches. The tester should be able to write testable user stories in collaboration with developers and business representatives. The tester should understand how retrospectives can be used as a mechanism for process improvement in Agile projects. The tester should understand the use and purpose of continuous integration. The tester should know the differences between iteration and release planning, and how a tester adds value in each of these activities. Version 2014 Page 10 of 12 May 31, 2014",
+    "paragraph_id": "p_7008d845",
+    "page_num": 9,
+    "text": "Chapter 1: Agile Software Development The tester should remember the basic concept of Agile software development based on the Agile Manifesto. The tester should understand the advantages of the whole-team approach and the benefits of early and frequent feedback. The tester should recall Agile software development approaches. The tester should be able to write testable user stories in collaboration with developers and business representatives. The tester should understand how retrospectives can be used as a mechanism for process improvement in Agile projects. The tester should understand the use and purpose of continuous integration. The tester should know the differences between iteration and release planning, and how a tester adds value in each of these activities.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 1.33,
     "bbox": [
       70.94400024414062,
       556.5261840820312,
       543.8905029296875,
+      710.3385009765625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 13,
+    "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
+      "Arial"
+    ],
+    "text_case": "Mixed",
+    "length": 776,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_02731f09",
+    "page_num": 9,
+    "text": "Version 2014 Page 10 of 12 May 31, 2014",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.39,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 8.38,
+    "bbox": [
+      76.58135986328125,
+      718.7149047851562,
+      533.1318359375,
       730.109130859375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 16,
-    "line_spacing_avg": 1.83,
+    "alignment": "left",
+    "line_count": 3,
     "font_names": [
-      "Arial",
       "Trebuchet MS"
     ],
-    "text_case": "Mixed",
-    "length": 816,
-    "relative_font_size": 2
+    "primary_font_family": [
+      "Trebuchet MS"
+    ],
+    "text_case": "Title",
+    "length": 39,
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_3449bcf3",
+    "page_num": 9,
     "text": "\u00a9 International Software Testing Qualifications Board",
     "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.69,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.78,
     "bbox": [
       76.58399963378906,
       736.8900146484375,
@@ -1715,20 +2838,31 @@
       743.5800170898438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 6.78,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_f4bf0072",
+    "page_num": 10,
     "text": "International",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       447.9100036621094,
       38.62621307373047,
@@ -1736,20 +2870,31 @@
       49.73161315917969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_696a6a82",
+    "page_num": 10,
     "text": "Overview",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       41.58000183105469,
@@ -1757,20 +2902,31 @@
       54.96000289916992
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_e7c48f14",
+    "page_num": 10,
     "text": "Software Testing Foundation Level Extension \u2013 Agile Tester Qualifications Board",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.65,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       50.14617156982422,
@@ -1778,21 +2934,31 @@
       72.77159118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 4,
-    "line_spacing_avg": 0.0,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 79,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_6b84d502",
+    "page_num": 10,
     "text": "Chapter 2: Fundamental Agile Testing Principles, Practices, and Processes The tester should be able to describe the differences between testing activities in Agile projects and non-Agile projects. The tester should be able to describe how development and testing activities are integrated in Agile projects. The tester should be able to describe the role of independent testing in Agile projects. The tester should be able to describe the tools and techniques used to communicate the status of testing in an Agile project, including test progress and product quality. The tester should be able to describe the process of evolving tests across multiple iterations and explain why test automation is important to manage regression risk in Agile projects. The tester should understand the skills (people, domain, and testing) of a tester in an Agile team. The tester should be able to understand the role of a tester within an Agile team. Chapter 3: Agile Testing Methods, Techniques, and Tools The tester should be able to recall the concepts of test-driven development, acceptance test- driven development, and behavior-driven development. The tester should be able to recall the concepts of the test pyramid. The tester should be able to summarize the testing quadrants and their relationships with testing levels and testing types. For a given Agile project, the tester should be able to work as a tester in a Scrum team. The tester should be able to assess quality risks within an Agile project. The tester should be able to estimate testing effort based on iteration content and quality risks. The tester should be able to interpret relevant information to support testing activities. The tester should be able to explain to business stakeholders how to define testable acceptance criteria. Given a user story, the tester should be able to write acceptance test-driven development test cases. For both functional and non-functional behavior, the tester should be able to write test cases using black box test design techniques based on given user stories. The tester should be able to perform exploratory testing to support the testing of an Agile project. The tester should be able to recall different tools available to testers according to their purpose and to activities in Agile projects.",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 2.33,
     "bbox": [
       70.94400024414062,
       108.84618377685547,
@@ -1800,20 +2966,31 @@
       489.4179382324219
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 31,
-    "line_spacing_avg": 2.33,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 2296,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_352a71ea",
+    "page_num": 10,
     "text": "Version 2014 Page 11 of 12 May 31, 2014",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.39,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 229.33,
     "bbox": [
       76.58135986328125,
       718.7469482421875,
@@ -1821,20 +2998,31 @@
       730.1411743164062
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 229.33,
     "font_names": [
+      "Trebuchet MS"
+    ],
+    "primary_font_family": [
       "Trebuchet MS"
     ],
     "text_case": "Title",
     "length": 39,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_d27d17d5",
+    "page_num": 10,
     "text": "\u00a9 International Software Testing Qualifications Board",
     "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.69,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.75,
     "bbox": [
       76.58399963378906,
       736.8900146484375,
@@ -1842,20 +3030,31 @@
       743.5800170898438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 6.75,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_07f4f7b1",
+    "page_num": 11,
     "text": "International",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       447.9100036621094,
       38.62621307373047,
@@ -1863,20 +3062,31 @@
       49.73161315917969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_d74ea31b",
+    "page_num": 11,
     "text": "Overview",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.38,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       41.58000183105469,
@@ -1884,20 +3094,31 @@
       54.96000289916992
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 8,
-    "relative_font_size": 3
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_31536fe0",
+    "page_num": 11,
     "text": "Software Testing Foundation Level Extension \u2013 Agile Tester Qualifications Board",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.84,
+    "avg_height_to_font_ratio": 1.19,
+    "line_spacing_avg": 0.0,
     "bbox": [
       74.42400360107422,
       50.14617156982422,
@@ -1905,21 +3126,31 @@
       72.77159118652344
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 0.0,
     "font_names": [
-      "Times-Roman",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 79,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_4bd5d265",
+    "page_num": 11,
     "text": "4. References",
     "avg_font_size": 15.96,
+    "normalized_font_size": 16.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.8,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 50.2,
     "bbox": [
       70.94400024414062,
       122.97618103027344,
@@ -1927,21 +3158,33 @@
       140.77157592773438
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 50.2,
     "font_names": [
       "Arial,Bold",
       "Arial"
     ],
+    "primary_font_family": [
+      "Arial",
+      "Arial,Bold"
+    ],
     "text_case": "Title",
     "length": 13,
-    "relative_font_size": 5
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_5ac5cda7",
+    "page_num": 11,
     "text": "4.1 Trademarks",
     "avg_font_size": 14.04,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.65,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 30.62,
     "bbox": [
       70.94400024414062,
       171.39376831054688,
@@ -1949,20 +3192,31 @@
       187.04837036132812
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 30.62,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 14,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
-    "text": "The following registered trademarks and service marks are used in this document: ISTQB \u00ae is a registered trademark of the International Software Testing Qualifications Board",
-    "avg_font_size": 9.38,
+    "paragraph_id": "p_c21c6d69",
+    "page_num": 11,
+    "text": "The following registered trademarks and service marks are used in this document: ISTQB is a registered trademark of the International Software Testing Qualifications Board",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.05,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 10.44,
     "bbox": [
       70.94400024414062,
       194.88623046875,
@@ -1970,20 +3224,31 @@
       232.02708435058594
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 10.44,
     "font_names": [
       "Arial"
     ],
+    "primary_font_family": [
+      "Arial"
+    ],
     "text_case": "Mixed",
-    "length": 173,
-    "relative_font_size": null
+    "length": 171,
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_90f5ee5d",
+    "page_num": 11,
     "text": "4.2 Documents and Web Sites",
     "avg_font_size": 14.04,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.65,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 25.44,
     "bbox": [
       70.94400024414062,
       257.4637756347656,
@@ -1991,42 +3256,95 @@
       273.1183776855469
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 25.44,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
     "length": 27,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
-    "text": "Identifier Reference [ISTQB-Web] Web site of the International Software Testing Qualifications Board. Refer to this website for the latest ISTQB Glossary and Syllabi. (www.istqb.org)",
+    "paragraph_id": "p_fab561ca",
+    "page_num": 11,
+    "text": "Identifier Reference",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 7.72,
     "bbox": [
       76.34400177001953,
       280.8362121582031,
+      244.36508178710938,
+      291.9416198730469
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Arial,Bold"
+    ],
+    "primary_font_family": [
+      "Arial,Bold"
+    ],
+    "text_case": "Title",
+    "length": 20,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_45e5d5ee",
+    "page_num": 11,
+    "text": "[ISTQB-Web] Web site of the International Software Testing Qualifications Board. Refer to this website for the latest ISTQB Glossary and Syllabi. (www.istqb.org)",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 1.97,
+    "bbox": [
+      76.34400177001953,
+      295.4761962890625,
       520.4761962890625,
       318.10162353515625
     ],
-    "is_bold": true,
+    "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
-    "line_count": 5,
-    "line_spacing_avg": 3.89,
+    "line_count": 3,
     "font_names": [
-      "Arial,Bold",
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Mixed",
-    "length": 182,
-    "relative_font_size": 2
+    "length": 161,
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_7df94263",
+    "page_num": 11,
     "text": "Version 2014 Page 12 of 12 May 31, 2014",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.39,
+    "avg_height_to_font_ratio": 1.14,
+    "line_spacing_avg": 400.59,
     "bbox": [
       76.58399963378906,
       718.6875610351562,
@@ -2034,20 +3352,31 @@
       730.081787109375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 400.59,
     "font_names": [
+      "Trebuchet MS"
+    ],
+    "primary_font_family": [
       "Trebuchet MS"
     ],
     "text_case": "Title",
     "length": 39,
-    "relative_font_size": 2
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_e1483423",
+    "page_num": 11,
     "text": "\u00a9 International Software Testing Qualifications Board",
     "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 6.69,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 6.81,
     "bbox": [
       76.58399963378906,
       736.8900146484375,
@@ -2055,15 +3384,19 @@
       743.5800170898438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 6.81,
     "font_names": [
+      "Arial"
+    ],
+    "primary_font_family": [
       "Arial"
     ],
     "text_case": "Title",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 0
   }
 ]

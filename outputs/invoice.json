@@ -1,96 +1,437 @@
 [
   {
-    "text": "Tax Invoice/Bill of Supply/Cash Memo (Original for Recipient)",
+    "paragraph_id": "p_b87d420a",
+    "page_num": 0,
+    "text": "Tax Invoice/Bill of Supply/Cash Memo",
     "avg_font_size": 13.5,
+    "normalized_font_size": 13.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 18.59,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
     "bbox": [
       310.0899963378906,
       13.424994468688965,
+      553.1575317382812,
+      32.014495849609375
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 36,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_8d3110f9",
+    "page_num": 0,
+    "text": "(Original for Recipient)",
+    "avg_font_size": 13.5,
+    "normalized_font_size": 13.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 18.55,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      421.989990234375,
+      29.027477264404297,
       557.0170288085938,
       47.57647705078125
     ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 24,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_2ab0cac1",
+    "page_num": 0,
+    "text": "Sold By : Billing Address :",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.49,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 52.3,
+    "bbox": [
+      42.75,
+      99.8725357055664,
+      552.4825439453125,
+      115.36378479003906
+    ],
     "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_5a48cf4f",
+    "page_num": 0,
+    "text": "SHREE SUNDHA COMPUTER Karan Kumar Near thakurbari temple, Mirupr bhual, Dhigwara, OFFICE NO 405. 4TH FLOOR VALENCIA Saren TOWERCHUNAM LANE, LAMINGTON ROAD DIGHWARA, BIHAR, 841207 GRANT ROAD E IN MUMBAI, MAHARASHTRA, 400007",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.69,
+    "avg_height_to_font_ratio": 1.39,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      42.75,
+      112.82623291015625,
+      552.530029296875,
+      182.9537811279297
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 10,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "UPPER",
+    "length": 222,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_5eac6d0d",
+    "page_num": 0,
+    "text": "State/UT Code: 10",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.55,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      456.19000244140625,
+      178.2962646484375,
+      552.510009765625,
+      193.84376525878906
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "right",
-    "line_count": 2,
-    "line_spacing_avg": 0.0,
+    "line_count": 1,
     "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
       "Helvetica",
       "Helvetica-Bold"
     ],
     "text_case": "Mixed",
-    "length": 61,
-    "relative_font_size": 7
+    "length": 17,
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
-    "text": "Sold By : Billing Address : SHREE SUNDHA COMPUTER Karan Kumar Near thakurbari temple, Mirupr bhual, Dhigwara, * OFFICE NO 405. 4TH FLOOR VALENCIA Saren TOWERCHUNAM LANE, LAMINGTON ROAD DIGHWARA, BIHAR, 841207 GRANT ROAD E IN MUMBAI, MAHARASHTRA, 400007 State/UT Code: 10 IN",
-    "avg_font_size": 11.18,
+    "paragraph_id": "p_30b27db2",
+    "page_num": 0,
+    "text": "IN",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.46,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
     "bbox": [
       42.75,
-      99.8725357055664,
-      552.530029296875,
+      180.5062255859375,
+      54.0,
       195.96372985839844
     ],
-    "is_bold": true,
-    "is_upper": false,
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
     "alignment": "left",
-    "line_count": 14,
-    "line_spacing_avg": 52.3,
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "UPPER",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_03957d52",
+    "page_num": 0,
+    "text": "Shipping Address : PAN No: DZCPK9046J",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.52,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 21.84,
+    "bbox": [
+      42.75,
+      217.80252075195312,
+      552.4700317382812,
+      235.5037384033203
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
     "font_names": [
       "Helvetica",
       "Helvetica-Bold"
     ],
-    "text_case": "UPPER",
-    "length": 273,
-    "relative_font_size": null
+    "primary_font_family": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 37,
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
-    "text": "Shipping Address : PAN No: DZCPK9046J Karan Kumar GST Registration No: 27DZCPK9046J1ZY Karan Kumar Near thakurbari temple, Mirupr bhual, Dhigwara, Saren DIGHWARA, BIHAR, 841207 IN State/UT Code: 10 Place of supply: BIHAR Place of delivery: BIHAR Order Number: 408-4923325-0117107 Invoice Number : RELJ-7685 Order Date: 08.07.2025 Invoice Details : MH-RELJ-1514246875-2526 Invoice Date : 10.07.2025 This is a replacement issued free of cost against the original order(s) and invoice(s) listed in detail below.",
+    "paragraph_id": "p_52e52218",
+    "page_num": 0,
+    "text": "Karan Kumar",
     "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.46,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      483.0799865722656,
+      230.7562255859375,
+      552.4812622070312,
+      246.21372985839844
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 11,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_bf10cd7d",
+    "page_num": 0,
+    "text": "GST Registration No: 27DZCPK9046J1ZY",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.55,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      42.75,
+      233.38623046875,
+      261.623779296875,
+      248.93373107910156
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 36,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_d427d100",
+    "page_num": 0,
+    "text": "Karan Kumar Near thakurbari temple, Mirupr bhual, Dhigwara, Saren DIGHWARA, BIHAR, 841207 IN",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.46,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      312.29998779296875,
+      243.7762451171875,
+      552.530029296875,
+      311.2837219238281
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 5,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 92,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_f5e87586",
+    "page_num": 0,
+    "text": "State/UT Code: 10 Place of supply: BIHAR Place of delivery: BIHAR Order Number: 408-4923325-0117107 Invoice Number : RELJ-7685 Order Date: 08.07.2025 Invoice Details : MH-RELJ-1514246875-2526 Invoice Date : 10.07.2025 This is a replacement issued free of cost against the original order(s) and invoice(s) listed in detail below.",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.54,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 6.96,
     "bbox": [
       42.0,
-      217.80252075195312,
+      309.24627685546875,
       552.530029296875,
       439.88372802734375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 19,
-    "line_spacing_avg": 11.92,
+    "alignment": "center",
+    "line_count": 10,
     "font_names": [
       "Helvetica",
       "Helvetica-Bold"
     ],
+    "primary_font_family": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
     "text_case": "Mixed",
-    "length": 508,
-    "relative_font_size": 4
+    "length": 328,
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
-    "text": "Sl. Unit Qty Net Tax Tax Tax Total No Description Price Amount Rate Type Amount Amount 1 MINIMART Aluminum Tabletop Laptop Stand Ergonomic Foldable Portable Laptop Stand Holder Compatible for MacBook, HP, Dell,",
-    "avg_font_size": 9.08,
+    "paragraph_id": "p_960f2634",
+    "page_num": 0,
+    "text": "Sl. Unit Qty Net Tax Tax Tax Total No Description Price Amount Rate Type Amount Amount",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.16,
+    "avg_height_to_font_ratio": 1.46,
+    "line_spacing_avg": 0.0,
     "bbox": [
       43.5,
       439.510009765625,
       551.7530517578125,
-      485.6210021972656
+      462.63299560546875
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 16,
-    "line_spacing_avg": 0.23,
+    "alignment": "center",
+    "line_count": 14,
     "font_names": [
-      "Helvetica",
-      "Helvetica-Bold",
-      "PlayfairDisplay-Regular"
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica-Bold"
     ],
     "text_case": "Title",
-    "length": 210,
-    "relative_font_size": null
+    "length": 86,
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_10c50732",
+    "page_num": 0,
+    "text": "MINIMART Aluminum Tabletop Laptop Stand Ergonomic Foldable Portable Laptop Stand Holder Compatible for MacBook, HP, Dell,",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.61,
+    "avg_height_to_font_ratio": 1.51,
+    "line_spacing_avg": 0.23,
+    "bbox": [
+      47.59000015258789,
+      462.8650207519531,
+      320.846923828125,
+      485.6210021972656
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 121,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_92a2f3a2",
+    "page_num": 0,
     "text": "\u20b90.00 18% IGST \u20b90.00 \u20b90.00",
     "avg_font_size": 11.5,
+    "normalized_font_size": 11.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.61,
+    "avg_height_to_font_ratio": 1.18,
+    "line_spacing_avg": 0.0,
     "bbox": [
       403.79998779296875,
       483.0459899902344,
@@ -98,21 +439,33 @@
       496.6510009765625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Helvetica",
+      "PlayfairDisplay-Regular"
+    ],
+    "primary_font_family": [
       "Helvetica",
       "PlayfairDisplay-Regular"
     ],
     "text_case": "UPPER",
     "length": 26,
-    "relative_font_size": 5
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_ae1c3aca",
+    "page_num": 0,
     "text": "Lenovo & All Other Notebook (Sliver) | B0BVFC4GKN ( WISTAR",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.37,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
     "bbox": [
       57.75,
       483.64501953125,
@@ -120,20 +473,31 @@
       496.0110168457031
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
       "Helvetica"
     ],
     "text_case": "Mixed",
     "length": 58,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_3b6cc595",
+    "page_num": 0,
     "text": "\u20b90.00",
     "avg_font_size": 12.75,
+    "normalized_font_size": 13.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.75,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
     "bbox": [
       349.1300048828125,
       483.68597412109375,
@@ -141,64 +505,191 @@
       496.43597412109375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "PlayfairDisplay-Regular"
+    ],
+    "primary_font_family": [
       "PlayfairDisplay-Regular"
     ],
     "text_case": "Mixed",
     "length": 5,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
-    "text": "Laptop Stand 111 ) HSN:8471 Original Original Order / Original Invoice Price 405-0995578-4058741 / RELJ-6815",
+    "paragraph_id": "p_43a98b8b",
+    "page_num": 0,
+    "text": "Laptop Stand 111 ) HSN:8471",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.37,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
     "bbox": [
       57.75,
       494.0350036621094,
-      379.50103759765625,
-      546.5609741210938
+      136.80596923828125,
+      516.7809448242188
     ],
-    "is_bold": true,
+    "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 6,
-    "line_spacing_avg": 0.0,
+    "line_count": 2,
     "font_names": [
-      "Helvetica",
-      "Helvetica-Bold"
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
     ],
     "text_case": "Title",
-    "length": 108,
+    "length": 27,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "\u20b9999.00 \u20b90.00 \u20b90.00",
+    "paragraph_id": "p_12be7d1d",
+    "page_num": 0,
+    "text": "Original Original Order / Original Invoice Price",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.39,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      130.61000061035156,
+      516.6500244140625,
+      379.50103759765625,
+      539.7630004882812
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 48,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_706889eb",
+    "page_num": 0,
+    "text": "405-0995578-4058741 / RELJ-6815",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.37,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      128.13999938964844,
+      534.1950073242188,
+      271.7259521484375,
+      546.5609741210938
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "unknown",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "UPPER",
+    "length": 31,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_9ae91821",
+    "page_num": 0,
+    "text": "\u20b9999.00",
     "avg_font_size": 12.75,
+    "normalized_font_size": 13.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.75,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
     "bbox": [
       344.3599853515625,
       539.635986328125,
+      380.5955505371094,
+      552.385986328125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "PlayfairDisplay-Regular"
+    ],
+    "primary_font_family": [
+      "PlayfairDisplay-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 7,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_013bf6cb",
+    "page_num": 0,
+    "text": "\u20b90.00 \u20b90.00",
+    "avg_font_size": 12.75,
+    "normalized_font_size": 13.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.0,
+    "avg_height_to_font_ratio": 1.33,
+    "line_spacing_avg": 1.13,
+    "bbox": [
+      487.2799987792969,
+      553.5145263671875,
       551.7429809570312,
       570.51025390625
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "right",
-    "line_count": 2,
-    "line_spacing_avg": 1.13,
+    "line_count": 1,
     "font_names": [
-      "PlayfairDisplay-Bold",
-      "PlayfairDisplay-Regular"
+      "PlayfairDisplay-Bold"
+    ],
+    "primary_font_family": [
+      "PlayfairDisplay-Bold"
     ],
     "text_case": "Mixed",
-    "length": 19,
-    "relative_font_size": 6
+    "length": 11,
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_cdc32ada",
+    "page_num": 0,
     "text": "TOTAL:",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.39,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
     "bbox": [
       43.5,
       556.25,
@@ -206,20 +697,31 @@
       568.6430053710938
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
       "Helvetica-Bold"
     ],
     "text_case": "UPPER",
     "length": 6,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_917f5228",
+    "page_num": 0,
     "text": "Amount in Words: Zero only For SHREE SUNDHA COMPUTER:",
     "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.49,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 2.54,
     "bbox": [
       43.130001068115234,
       571.2825317382812,
@@ -227,42 +729,95 @@
       619.6237182617188
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 2.54,
     "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
       "Helvetica-Bold"
     ],
     "text_case": "Mixed",
     "length": 53,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
-    "text": "Authorized Signatory Whether tax is payable under reverse charge - No",
+    "paragraph_id": "p_7c8adb49",
+    "page_num": 0,
+    "text": "Authorized Signatory",
     "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.49,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 30.18,
     "bbox": [
-      42.0,
+      436.1300048828125,
       649.8025512695312,
       549.8900756835938,
-      683.09375
+      665.2937622070312
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "left",
-    "line_count": 2,
-    "line_spacing_avg": 16.26,
+    "alignment": "center",
+    "line_count": 1,
     "font_names": [
-      "Helvetica",
       "Helvetica-Bold"
     ],
-    "text_case": "Mixed",
-    "length": 69,
-    "relative_font_size": 4
+    "primary_font_family": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 20,
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_006b0177",
+    "page_num": 0,
+    "text": "Whether tax is payable under reverse charge - No",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.46,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 2.34,
+    "bbox": [
+      42.0,
+      667.63623046875,
+      290.8500671386719,
+      683.09375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 48,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_36cefb12",
+    "page_num": 0,
     "text": "*ASSPL-Amazon Seller Services Pvt. Ltd., ARIPL-Amazon Retail India Pvt. Ltd. (only where Amazon Retail India Pvt. Ltd. fulfillment center is co-located) Customers desirous of availing input GST credit are requested to create a Business account and purchase on Amazon.in/business from Business eligible offers Please note that this invoice is not a demand for payment Page 1 of 1",
     "avg_font_size": 5.63,
+    "normalized_font_size": 5.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.74,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 31.68,
     "bbox": [
       98.4800033569336,
       767.5077514648438,
@@ -270,15 +825,19 @@
       807.8633422851562
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 31.68,
     "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
       "Helvetica"
     ],
     "text_case": "Mixed",
     "length": 378,
+    "is_homogeneous": true,
     "relative_font_size": 0
   }
 ]

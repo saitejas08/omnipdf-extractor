@@ -1,7 +1,14 @@
 [
   {
+    "paragraph_id": "p_1a2104f2",
+    "page_num": 0,
     "text": "Copy of Basketball Tryout Evaluation",
     "avg_font_size": 24.0,
+    "normalized_font_size": 24.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 28.8,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
     "bbox": [
       83.25,
       60.4453125,
@@ -9,20 +16,31 @@
       89.25
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 36,
+    "is_homogeneous": true,
     "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_34a825d1",
+    "page_num": 0,
     "text": "1. Player First Name",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 38.1,
     "bbox": [
       69.0,
       127.34765625,
@@ -30,20 +48,31 @@
       141.75
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 38.1,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 20,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_e3f64503",
+    "page_num": 0,
     "text": "2. Player Last Name",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 70.35,
     "bbox": [
       69.0,
       212.09765625,
@@ -51,20 +80,31 @@
       226.5
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 70.35,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 19,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_275a184d",
+    "page_num": 0,
     "text": "3. Date of Birth",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 70.35,
     "bbox": [
       69.0,
       296.84765625,
@@ -72,20 +112,31 @@
       311.25
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 70.35,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 16,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_39b52afc",
+    "page_num": 0,
     "text": "Example: 7 January 2019",
     "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.6,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 36.52,
     "bbox": [
       93.90234375,
       347.77294921875,
@@ -93,20 +144,31 @@
       360.375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 36.52,
     "font_names": [
+      "Roboto-Italic"
+    ],
+    "primary_font_family": [
       "Roboto-Italic"
     ],
     "text_case": "Title",
     "length": 23,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_106bc075",
+    "page_num": 0,
     "text": "4. Grade",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 36.22,
     "bbox": [
       69.0,
       396.59765625,
@@ -114,20 +176,31 @@
       411.0
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 36.22,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 8,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_3933117a",
+    "page_num": 0,
     "text": "5. Height",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 70.35,
     "bbox": [
       69.0,
       481.34765625,
@@ -135,20 +208,31 @@
       495.75
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 70.35,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 9,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_02812106",
+    "page_num": 0,
     "text": "6. Weight",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 70.35,
     "bbox": [
       69.0,
       566.09765625,
@@ -156,20 +240,31 @@
       580.5
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 70.35,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 9,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_1c8f75a9",
+    "page_num": 0,
     "text": "7. Player Number",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 70.35,
     "bbox": [
       69.0,
       650.84765625,
@@ -177,42 +272,95 @@
       665.25
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 70.35,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 16,
+    "is_homogeneous": true,
     "relative_font_size": 2
   },
   {
-    "text": "8. Shooting Mark only one oval per row.",
-    "avg_font_size": 11.5,
+    "paragraph_id": "p_05dc1e14",
+    "page_num": 1,
+    "text": "8. Shooting",
+    "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
     "bbox": [
       69.0,
       35.84765625,
+      141.5303497314453,
+      50.25
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_766b0ba8",
+    "page_num": 1,
+    "text": "Mark only one oval per row.",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.6,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 14.77,
+    "bbox": [
+      93.90234375,
+      65.02294921875,
       222.3845672607422,
       77.625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 3,
-    "line_spacing_avg": 14.77,
+    "alignment": "unknown",
+    "line_count": 1,
     "font_names": [
-      "Roboto-Regular",
+      "Roboto-Italic"
+    ],
+    "primary_font_family": [
       "Roboto-Italic"
     ],
     "text_case": "Mixed",
-    "length": 39,
-    "relative_font_size": null
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_2de9e1a2",
+    "page_num": 1,
     "text": "Lay-up Lay-up",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 40.93,
     "bbox": [
       99.15234375,
       118.55260467529297,
@@ -220,20 +368,31 @@
       131.74874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 40.93,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 13,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_3a9a1dee",
+    "page_num": 1,
     "text": "Mechanics Mechanics & Arc & Arc",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       99.15234375,
       150.80259704589844,
@@ -241,20 +400,31 @@
       180.49874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 31,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_3f323120",
+    "page_num": 1,
     "text": "2-point 2-point range range",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       99.15234375,
       199.55259704589844,
@@ -262,20 +432,31 @@
       229.24874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "lower",
     "length": 27,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_205a9a8b",
+    "page_num": 1,
     "text": "3-point 3-point range range",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       99.15234375,
       248.30259704589844,
@@ -283,20 +464,31 @@
       277.9987487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "lower",
     "length": 27,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_2cb47cf8",
+    "page_num": 1,
     "text": "Catch & Catch & shoot shoot",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       99.15234375,
       297.0526123046875,
@@ -304,20 +496,31 @@
       326.7487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 27,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_4eac4cef",
+    "page_num": 1,
     "text": "Shoot off Shoot off dribble dribble",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       99.15234375,
       345.8026123046875,
@@ -325,20 +528,31 @@
       375.4987487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 35,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_5e2d04f3",
+    "page_num": 1,
     "text": "Use of Use of weak hand weak hand",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       99.15234375,
       394.5526123046875,
@@ -346,42 +560,95 @@
       424.2487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 33,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "9. Dribbling Mark only one oval per row.",
-    "avg_font_size": 11.5,
+    "paragraph_id": "p_dfea0b31",
+    "page_num": 2,
+    "text": "9. Dribbling",
+    "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
     "bbox": [
       69.0,
       35.84765625,
+      141.44635009765625,
+      50.25
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 12,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_23f4d34c",
+    "page_num": 2,
+    "text": "Mark only one oval per row.",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.6,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 14.77,
+    "bbox": [
+      93.90234375,
+      65.02294921875,
       222.3845672607422,
       77.625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 3,
-    "line_spacing_avg": 14.77,
+    "alignment": "unknown",
+    "line_count": 1,
     "font_names": [
-      "Roboto-Regular",
+      "Roboto-Italic"
+    ],
+    "primary_font_family": [
       "Roboto-Italic"
     ],
     "text_case": "Mixed",
-    "length": 40,
-    "relative_font_size": null
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_7176dbf7",
+    "page_num": 2,
     "text": "Maintains Maintains control control",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 22.12,
     "bbox": [
       99.15234375,
       118.55260467529297,
@@ -389,20 +656,31 @@
       148.24874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 22.12,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 35,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_7c426c60",
+    "page_num": 2,
     "text": "Sees the Sees the court court",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       99.15234375,
       167.30259704589844,
@@ -410,20 +688,31 @@
       196.99874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 29,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_3d9850b6",
+    "page_num": 2,
     "text": "Goes both Goes both ways ways",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       99.15234375,
       216.05259704589844,
@@ -431,20 +720,31 @@
       245.74874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 29,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_2390c494",
+    "page_num": 2,
     "text": "Handles Handles pressure pressure",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       99.15234375,
       264.8026123046875,
@@ -452,20 +752,31 @@
       294.4987487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 33,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_66aef3aa",
+    "page_num": 2,
     "text": "Speed Speed",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       99.15234375,
       313.5526123046875,
@@ -473,20 +784,31 @@
       326.7487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 11,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_2226d3a2",
+    "page_num": 2,
     "text": "Dribbles Dribbles with with purpose purpose",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 8.55,
     "bbox": [
       99.15234375,
       345.8026123046875,
@@ -494,20 +816,31 @@
       391.9987487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 6,
-    "line_spacing_avg": 8.55,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "lower",
     "length": 43,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_6d3a0f38",
+    "page_num": 2,
     "text": "Penetrates Penetrates to hoop to hoop",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       99.15234375,
       411.0526123046875,
@@ -515,42 +848,95 @@
       440.7487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 37,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "10. Passing Mark only one oval per row.",
-    "avg_font_size": 11.5,
+    "paragraph_id": "p_a7f0ca37",
+    "page_num": 3,
+    "text": "10. Passing",
+    "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
     "bbox": [
       69.0,
       35.84765625,
+      143.3424835205078,
+      50.25
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_04d29c54",
+    "page_num": 3,
+    "text": "Mark only one oval per row.",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.6,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 14.77,
+    "bbox": [
+      100.640625,
+      65.02294921875,
       229.1228485107422,
       77.625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 3,
-    "line_spacing_avg": 14.77,
+    "alignment": "unknown",
+    "line_count": 1,
     "font_names": [
-      "Roboto-Regular",
+      "Roboto-Italic"
+    ],
+    "primary_font_family": [
       "Roboto-Italic"
     ],
     "text_case": "Mixed",
-    "length": 39,
-    "relative_font_size": null
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_bc5337ed",
+    "page_num": 3,
     "text": "Timing Timing",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 40.93,
     "bbox": [
       105.890625,
       118.55260467529297,
@@ -558,20 +944,31 @@
       131.74874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 40.93,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 13,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_4be983e3",
+    "page_num": 3,
     "text": "Catching Catching",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       150.80259704589844,
@@ -579,20 +976,31 @@
       163.99874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 17,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_bf15bc87",
+    "page_num": 3,
     "text": "Avoids Avoids turnovers turnovers",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       105.890625,
       183.05259704589844,
@@ -600,20 +1008,31 @@
       212.74874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 33,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_faf336e9",
+    "page_num": 3,
     "text": "2 handed 2 handed",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       231.80259704589844,
@@ -621,20 +1040,31 @@
       244.99874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "lower",
     "length": 17,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_84a2d35f",
+    "page_num": 3,
     "text": "1 handed 1 handed",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       264.0526123046875,
@@ -642,20 +1072,31 @@
       277.2487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "lower",
     "length": 17,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_6446e11b",
+    "page_num": 3,
     "text": "Finds Finds Open Open Man Man",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 8.55,
     "bbox": [
       105.890625,
       296.3026123046875,
@@ -663,20 +1104,31 @@
       342.4987487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 6,
-    "line_spacing_avg": 8.55,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 29,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_7c4c0eb3",
+    "page_num": 3,
     "text": "Pass Pass First First",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       105.890625,
       361.5526123046875,
@@ -684,42 +1136,95 @@
       391.2487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 21,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "11. Defense Mark only one oval per row.",
-    "avg_font_size": 11.5,
+    "paragraph_id": "p_05e91cde",
+    "page_num": 4,
+    "text": "11. Defense",
+    "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
     "bbox": [
       69.0,
       35.84765625,
+      144.44615173339844,
+      50.25
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_7ed4c4d6",
+    "page_num": 4,
+    "text": "Mark only one oval per row.",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.6,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 14.77,
+    "bbox": [
+      100.640625,
+      65.02294921875,
       229.1228485107422,
       77.625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 3,
-    "line_spacing_avg": 14.77,
+    "alignment": "unknown",
+    "line_count": 1,
     "font_names": [
-      "Roboto-Regular",
+      "Roboto-Italic"
+    ],
+    "primary_font_family": [
       "Roboto-Italic"
     ],
     "text_case": "Mixed",
-    "length": 39,
-    "relative_font_size": null
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_dd20b6f0",
+    "page_num": 4,
     "text": "Position Position",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 40.93,
     "bbox": [
       105.890625,
       118.55260467529297,
@@ -727,20 +1232,31 @@
       131.74874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 40.93,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 17,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_426e6e51",
+    "page_num": 4,
     "text": "Transition Transition",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       150.80259704589844,
@@ -748,20 +1264,31 @@
       163.99874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 21,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_698e44dc",
+    "page_num": 4,
     "text": "Stance Stance",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       183.05259704589844,
@@ -769,20 +1296,31 @@
       196.24874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 13,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_314fe281",
+    "page_num": 4,
     "text": "On ball On ball",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       215.30259704589844,
@@ -790,20 +1328,31 @@
       228.49874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 15,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_c9321fa3",
+    "page_num": 4,
     "text": "Off ball Off ball",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       247.55259704589844,
@@ -811,20 +1360,31 @@
       260.7487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 17,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_af696605",
+    "page_num": 4,
     "text": "Closes Closes out out",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       105.890625,
       279.8026123046875,
@@ -832,20 +1392,31 @@
       309.4987487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 21,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_cf26800b",
+    "page_num": 4,
     "text": "Help Help /Stops /Stops Direct Direct Line Line Drives Drives",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 6.45,
     "bbox": [
       105.890625,
       328.5526123046875,
@@ -853,20 +1424,31 @@
       407.7487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 10,
-    "line_spacing_avg": 6.45,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 61,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_4119833a",
+    "page_num": 4,
     "text": "Recover Recover to man to man",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       105.890625,
       426.8026123046875,
@@ -874,42 +1456,95 @@
       456.4987487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 29,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "12. Rebounding Mark only one oval per row.",
-    "avg_font_size": 11.5,
+    "paragraph_id": "p_493cd2cd",
+    "page_num": 5,
+    "text": "12. Rebounding",
+    "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
     "bbox": [
       69.0,
       35.84765625,
+      164.26463317871094,
+      50.25
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 14,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_5b2d57c1",
+    "page_num": 5,
+    "text": "Mark only one oval per row.",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.6,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 14.77,
+    "bbox": [
+      100.640625,
+      65.02294921875,
       229.1228485107422,
       77.625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 3,
-    "line_spacing_avg": 14.77,
+    "alignment": "unknown",
+    "line_count": 1,
     "font_names": [
-      "Roboto-Regular",
+      "Roboto-Italic"
+    ],
+    "primary_font_family": [
       "Roboto-Italic"
     ],
     "text_case": "Mixed",
-    "length": 42,
-    "relative_font_size": null
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_19f314be",
+    "page_num": 5,
     "text": "Anticipates Anticipates",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 40.93,
     "bbox": [
       105.890625,
       118.55260467529297,
@@ -917,20 +1552,31 @@
       131.74874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 40.93,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 23,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_1e8b21a1",
+    "page_num": 5,
     "text": "Goes for Goes for the ball the ball",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       105.890625,
       150.80259704589844,
@@ -938,20 +1584,31 @@
       180.49874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 35,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_bd61ef4e",
+    "page_num": 5,
     "text": "Boxes out Boxes out",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       199.55259704589844,
@@ -959,20 +1616,31 @@
       212.74874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 19,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_a5a5b95e",
+    "page_num": 5,
     "text": "Finds the Finds the right spot right spot",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       105.890625,
       231.80259704589844,
@@ -980,20 +1648,31 @@
       261.4987487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 41,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_47d71592",
+    "page_num": 5,
     "text": "Protects Protects the ball the ball",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       105.890625,
       280.5526123046875,
@@ -1001,42 +1680,95 @@
       310.2487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 35,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "13. Athletic Ability Mark only one oval per row.",
-    "avg_font_size": 11.5,
+    "paragraph_id": "p_1a35109b",
+    "page_num": 5,
+    "text": "13. Athletic Ability",
+    "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 53.35,
     "bbox": [
       69.0,
       363.59765625,
+      177.1891326904297,
+      378.0
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 20,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_5951a28b",
+    "page_num": 5,
+    "text": "Mark only one oval per row.",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.6,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 14.77,
+    "bbox": [
+      100.640625,
+      392.77294921875,
       229.1228485107422,
       405.375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 3,
-    "line_spacing_avg": 34.06,
+    "alignment": "unknown",
+    "line_count": 1,
     "font_names": [
-      "Roboto-Regular",
+      "Roboto-Italic"
+    ],
+    "primary_font_family": [
       "Roboto-Italic"
     ],
     "text_case": "Mixed",
-    "length": 48,
-    "relative_font_size": null
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_23f8f2da",
+    "page_num": 5,
     "text": "Speed Speed",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 41.68,
     "bbox": [
       105.890625,
       447.0526123046875,
@@ -1044,20 +1776,31 @@
       460.2487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 41.68,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 11,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_fcea3e4d",
+    "page_num": 5,
     "text": "Quickness Quickness",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       479.3026123046875,
@@ -1065,20 +1808,31 @@
       492.4987487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 19,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_347b6af0",
+    "page_num": 5,
     "text": "Stamina Stamina",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       511.5526123046875,
@@ -1086,20 +1840,31 @@
       524.748779296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 15,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_fc0ed643",
+    "page_num": 5,
     "text": "Coordination Coordination",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       543.8026123046875,
@@ -1107,20 +1872,31 @@
       556.998779296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 25,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_09e4c630",
+    "page_num": 5,
     "text": "Vertical Vertical",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       576.0526123046875,
@@ -1128,20 +1904,31 @@
       589.248779296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 17,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_4599587f",
+    "page_num": 5,
     "text": "Takes Takes Charges Charges",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       105.890625,
       608.3026123046875,
@@ -1149,42 +1936,95 @@
       637.998779296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 27,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "14. Game Play Mark only one oval per row.",
-    "avg_font_size": 11.5,
+    "paragraph_id": "p_2dac113e",
+    "page_num": 6,
+    "text": "14. Game Play",
+    "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
     "bbox": [
       69.0,
       35.84765625,
+      157.80880737304688,
+      50.25
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 13,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_f485f8e3",
+    "page_num": 6,
+    "text": "Mark only one oval per row.",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.6,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 14.77,
+    "bbox": [
+      100.640625,
+      65.02294921875,
       229.1228485107422,
       77.625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 3,
-    "line_spacing_avg": 14.77,
+    "alignment": "unknown",
+    "line_count": 1,
     "font_names": [
-      "Roboto-Regular",
+      "Roboto-Italic"
+    ],
+    "primary_font_family": [
       "Roboto-Italic"
     ],
     "text_case": "Mixed",
-    "length": 41,
-    "relative_font_size": null
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_872e7d37",
+    "page_num": 6,
     "text": "Court Court Sense Sense",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 22.12,
     "bbox": [
       105.890625,
       118.55260467529297,
@@ -1192,20 +2032,31 @@
       148.24874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 22.12,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 23,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_39023980",
+    "page_num": 6,
     "text": "Team play / Team play / assists assists",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       105.890625,
       167.30259704589844,
@@ -1213,20 +2064,31 @@
       196.99874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 39,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_0309ace2",
+    "page_num": 6,
     "text": "Vision Vision",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       216.05259704589844,
@@ -1234,20 +2096,31 @@
       229.24874877929688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 13,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_65cdbc22",
+    "page_num": 6,
     "text": "Anticipation Anticipation",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       248.30259704589844,
@@ -1255,20 +2128,31 @@
       261.4987487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 25,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_cf40b3b0",
+    "page_num": 6,
     "text": "Sees the Sees the Court Court",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       105.890625,
       280.5526123046875,
@@ -1276,42 +2160,95 @@
       310.2487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 29,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "15. Coachability Mark only one oval per row.",
-    "avg_font_size": 11.5,
+    "paragraph_id": "p_ab178389",
+    "page_num": 6,
+    "text": "15. Coachability",
+    "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.4,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 53.35,
     "bbox": [
       69.0,
       363.59765625,
+      166.32861328125,
+      378.0
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 16,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_6b39757a",
+    "page_num": 6,
+    "text": "Mark only one oval per row.",
+    "avg_font_size": 10.5,
+    "normalized_font_size": 10.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.6,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 14.77,
+    "bbox": [
+      100.640625,
+      392.77294921875,
       229.1228485107422,
       405.375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 3,
-    "line_spacing_avg": 34.06,
+    "alignment": "unknown",
+    "line_count": 1,
     "font_names": [
-      "Roboto-Regular",
+      "Roboto-Italic"
+    ],
+    "primary_font_family": [
       "Roboto-Italic"
     ],
     "text_case": "Mixed",
-    "length": 44,
-    "relative_font_size": null
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_de4f295c",
+    "page_num": 6,
     "text": "Attitude Attitude",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 41.68,
     "bbox": [
       105.890625,
       447.0526123046875,
@@ -1319,20 +2256,31 @@
       460.2487487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 41.68,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 17,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_c6116436",
+    "page_num": 6,
     "text": "Accepts Accepts criticism criticism",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 11.18,
     "bbox": [
       105.890625,
       479.3026123046875,
@@ -1340,20 +2288,31 @@
       508.9987487792969
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.18,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 35,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_05b9094d",
+    "page_num": 6,
     "text": "Focus Focus",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       528.0526123046875,
@@ -1361,20 +2320,31 @@
       541.248779296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Title",
     "length": 11,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_686d2dbf",
+    "page_num": 6,
     "text": "Interaction Interaction with with teammates teammates",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 8.55,
     "bbox": [
       105.890625,
       560.3026123046875,
@@ -1382,20 +2352,31 @@
       606.498779296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 6,
-    "line_spacing_avg": 8.55,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "lower",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_ec17c5ac",
+    "page_num": 6,
     "text": "Team play Team play",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       625.5526123046875,
@@ -1403,20 +2384,31 @@
       638.748779296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 19,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_0e4f36b1",
+    "page_num": 6,
     "text": "Work ethic Work ethic",
     "avg_font_size": 10.99,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.2,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 19.05,
     "bbox": [
       105.890625,
       657.8026123046875,
@@ -1424,15 +2416,19 @@
       670.998779296875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 2,
-    "line_spacing_avg": 19.05,
     "font_names": [
+      "Roboto-Regular"
+    ],
+    "primary_font_family": [
       "Roboto-Regular"
     ],
     "text_case": "Mixed",
     "length": 21,
+    "is_homogeneous": true,
     "relative_font_size": 1
   }
 ]

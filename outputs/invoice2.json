@@ -1,96 +1,437 @@
 [
   {
-    "text": "Tax Invoice/Bill of Supply/Cash Memo (Original for Recipient)",
+    "paragraph_id": "p_88786c81",
+    "page_num": 0,
+    "text": "Tax Invoice/Bill of Supply/Cash Memo",
     "avg_font_size": 13.5,
+    "normalized_font_size": 13.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 18.59,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
     "bbox": [
       310.0899963378906,
       13.945013999938965,
-      557.0170288085938,
-      48.09649658203125
+      553.1575317382812,
+      32.534515380859375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 2,
-    "line_spacing_avg": 0.0,
+    "alignment": "center",
+    "line_count": 1,
     "font_names": [
-      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
       "Helvetica-Bold"
     ],
     "text_case": "Mixed",
-    "length": 61,
-    "relative_font_size": 10
-  },
-  {
-    "text": "Sold By : Billing Address : CLICKTECH RETAIL PRIVATE LIMITED Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, * IDCO Industrial Estate, Plot No. 920 (P) botanical garden 922/2815 (P), Vill: Giringaput , PS- Chandaka, Howrah, WEST BENGAL, 711103 Bhubaneshwar, Khorda IN BHUBANESWAR, ODISHA, 752054 State/UT Code: 19 IN",
-    "avg_font_size": 11.18,
-    "bbox": [
-      42.75,
-      100.3925552368164,
-      552.530029296875,
-      196.48374938964844
-    ],
-    "is_bold": true,
-    "is_upper": false,
-    "alignment": "left",
-    "line_count": 14,
-    "line_spacing_avg": 52.3,
-    "font_names": [
-      "Helvetica",
-      "Helvetica-Bold"
-    ],
-    "text_case": "Mixed",
-    "length": 330,
-    "relative_font_size": null
-  },
-  {
-    "text": "Shipping Address : PAN No: AAJCC9783E Alok Ranjan GST Registration No: 21AAJCC9783E1ZJ Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, botanical garden Howrah, WEST BENGAL, 711103 IN State/UT Code: 19 Place of supply: WEST BENGAL Place of delivery: WEST BENGAL Order Number: 404-5257739-3343501 Invoice Number : BBX1-250590 Order Date: 14.07.2025 Invoice Details : OR-BBX1-297683823-2526 Invoice Date : 15.07.2025",
-    "avg_font_size": 11.25,
-    "bbox": [
-      42.75,
-      218.32254028320312,
-      552.530029296875,
-      398.7037658691406
-    ],
-    "is_bold": true,
-    "is_upper": false,
-    "alignment": "right",
-    "line_count": 17,
-    "line_spacing_avg": 11.49,
-    "font_names": [
-      "Helvetica",
-      "Helvetica-Bold"
-    ],
-    "text_case": "Mixed",
-    "length": 427,
+    "length": 36,
+    "is_homogeneous": true,
     "relative_font_size": 7
   },
   {
-    "text": "Sl. Unit Qty Net Tax Tax Tax Total No Description Price Amount Rate Type Amount Amount 1 Gizga Essentials Universal Silicone Keyboard Protector Skin for 15.6 Inch Laptop |Keyboard Dust Cover | 15.6\" Keyguard (36.5 X 13.5 Cm) |",
-    "avg_font_size": 9.08,
+    "paragraph_id": "p_6e13da18",
+    "page_num": 0,
+    "text": "(Original for Recipient)",
+    "avg_font_size": 13.5,
+    "normalized_font_size": 13.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 18.55,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      421.989990234375,
+      29.547496795654297,
+      557.0170288085938,
+      48.09649658203125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 24,
+    "is_homogeneous": true,
+    "relative_font_size": 7
+  },
+  {
+    "paragraph_id": "p_b30f0662",
+    "page_num": 0,
+    "text": "Sold By : Billing Address :",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.49,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 52.3,
+    "bbox": [
+      42.75,
+      100.3925552368164,
+      552.4825439453125,
+      115.88380432128906
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_3f4f1495",
+    "page_num": 0,
+    "text": "CLICKTECH RETAIL PRIVATE LIMITED Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, IDCO Industrial Estate, Plot No. 920 (P) botanical garden 922/2815 (P), Vill: Giringaput , PS- Chandaka, Howrah, WEST BENGAL, 711103 Bhubaneshwar, Khorda IN BHUBANESWAR, ODISHA, 752054",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.69,
+    "avg_height_to_font_ratio": 1.39,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      42.75,
+      113.34625244140625,
+      552.530029296875,
+      183.4738006591797
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 10,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 279,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_4ea949d1",
+    "page_num": 0,
+    "text": "State/UT Code: 19",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.55,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      456.19000244140625,
+      178.8162841796875,
+      552.510009765625,
+      194.36378479003906
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 17,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_795370a5",
+    "page_num": 0,
+    "text": "IN",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.46,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      42.75,
+      181.0262451171875,
+      54.0,
+      196.48374938964844
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "UPPER",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_d8cdc8fa",
+    "page_num": 0,
+    "text": "Shipping Address : PAN No: AAJCC9783E",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.52,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 21.84,
+    "bbox": [
+      42.75,
+      218.32254028320312,
+      552.4700317382812,
+      236.0237579345703
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 37,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_bbbcc891",
+    "page_num": 0,
+    "text": "Alok Ranjan",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.46,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      488.70001220703125,
+      231.2762451171875,
+      552.4762573242188,
+      246.73374938964844
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 11,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_dd44d9f8",
+    "page_num": 0,
+    "text": "GST Registration No: 21AAJCC9783E1ZJ",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.55,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      42.75,
+      233.90625,
+      260.37506103515625,
+      249.45375061035156
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 36,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_bf7ef6c2",
+    "page_num": 0,
+    "text": "Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, botanical garden Howrah, WEST BENGAL, 711103 IN",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.46,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      303.55999755859375,
+      244.2962646484375,
+      552.530029296875,
+      311.8037414550781
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 5,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 109,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_ca3491aa",
+    "page_num": 0,
+    "text": "State/UT Code: 19 Place of supply: WEST BENGAL Place of delivery: WEST BENGAL Order Number: 404-5257739-3343501 Invoice Number : BBX1-250590 Order Date: 14.07.2025 Invoice Details : OR-BBX1-297683823-2526 Invoice Date : 15.07.2025",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.55,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 1.14,
+    "bbox": [
+      42.75,
+      309.76629638671875,
+      552.5125732421875,
+      398.7037658691406
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 8,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 230,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_a90ab31c",
+    "page_num": 0,
+    "text": "Sl. Unit Qty Net Tax Tax Tax Total No Description Price Amount Rate Type Amount Amount",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.16,
+    "avg_height_to_font_ratio": 1.46,
+    "line_spacing_avg": 14.48,
     "bbox": [
       43.5,
       413.1800231933594,
       551.7530517578125,
-      459.2910461425781
+      436.30303955078125
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 16,
-    "line_spacing_avg": 7.35,
+    "alignment": "center",
+    "line_count": 14,
     "font_names": [
-      "Helvetica",
-      "Helvetica-Bold",
-      "PlayfairDisplay-Regular"
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica-Bold"
     ],
     "text_case": "Title",
-    "length": 226,
-    "relative_font_size": null
+    "length": 86,
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_ebd73bae",
+    "page_num": 0,
+    "text": "Gizga Essentials Universal Silicone Keyboard Protector Skin for 15.6 Inch Laptop |Keyboard Dust Cover | 15.6\" Keyguard (36.5 X 13.5 Cm) |",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.61,
+    "avg_height_to_font_ratio": 1.51,
+    "line_spacing_avg": 0.23,
+    "bbox": [
+      47.59000015258789,
+      436.5350341796875,
+      340.60205078125,
+      459.2910461425781
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 137,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_f14fe96b",
+    "page_num": 0,
     "text": "\u20b983.90 1 \u20b983.90 18% IGST \u20b915.10 \u20b999.00",
     "avg_font_size": 11.5,
+    "normalized_font_size": 11.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.65,
+    "avg_height_to_font_ratio": 1.19,
+    "line_spacing_avg": 0.0,
     "bbox": [
       351.0,
       451.4960021972656,
@@ -98,21 +439,33 @@
       465.1410217285156
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Helvetica",
+      "PlayfairDisplay-Regular"
+    ],
+    "primary_font_family": [
       "Helvetica",
       "PlayfairDisplay-Regular"
     ],
     "text_case": "UPPER",
     "length": 38,
-    "relative_font_size": 8
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_4d48cc68",
+    "page_num": 0,
     "text": "B00MFPCY5C ( B00MFPCY5C ) HSN:39269099",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.37,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
     "bbox": [
       57.75,
       457.3150329589844,
@@ -120,20 +473,31 @@
       480.071044921875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
       "Helvetica"
     ],
     "text_case": "UPPER",
     "length": 38,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_6aeb4ec7",
+    "page_num": 0,
     "text": "\u20b915.10 \u20b999.00",
     "avg_font_size": 12.75,
+    "normalized_font_size": 13.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.0,
+    "avg_height_to_font_ratio": 1.33,
+    "line_spacing_avg": 0.0,
     "bbox": [
       487.989990234375,
       479.81451416015625,
@@ -141,20 +505,31 @@
       496.8102722167969
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "right",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "PlayfairDisplay-Bold"
+    ],
+    "primary_font_family": [
       "PlayfairDisplay-Bold"
     ],
     "text_case": "Mixed",
     "length": 13,
-    "relative_font_size": 9
+    "is_homogeneous": true,
+    "relative_font_size": 6
   },
   {
+    "paragraph_id": "p_73be0ada",
+    "page_num": 0,
     "text": "TOTAL:",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.39,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
     "bbox": [
       43.5,
       482.5600280761719,
@@ -162,20 +537,31 @@
       494.9530334472656
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
       "Helvetica-Bold"
     ],
     "text_case": "UPPER",
     "length": 6,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_f2b7fdea",
+    "page_num": 0,
     "text": "Amount in Words: Ninety-nine only For CLICKTECH RETAIL PRIVATE LIMITED:",
     "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.49,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 2.54,
     "bbox": [
       43.130001068115234,
       497.592529296875,
@@ -183,64 +569,160 @@
       545.9337158203125
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 2.54,
     "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
       "Helvetica-Bold"
     ],
     "text_case": "Mixed",
     "length": 71,
-    "relative_font_size": 7
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
-    "text": "Authorized Signatory Whether tax is payable under reverse charge - No",
+    "paragraph_id": "p_37ec8152",
+    "page_num": 0,
+    "text": "Authorized Signatory",
     "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.49,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 30.18,
     "bbox": [
-      42.0,
+      436.1300048828125,
       576.112548828125,
       549.8900756835938,
-      609.40380859375
+      591.603759765625
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "left",
-    "line_count": 2,
-    "line_spacing_avg": 16.26,
+    "alignment": "center",
+    "line_count": 1,
     "font_names": [
-      "Helvetica",
       "Helvetica-Bold"
     ],
-    "text_case": "Mixed",
-    "length": 69,
-    "relative_font_size": 7
+    "primary_font_family": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 20,
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
-    "text": "Date & Time: 14/07/2025, 21:35:36 Payment Transaction ID: Invoice Value: Mode of Payment: cG7TaQptFSRrqT6nuUm1qGjy8FXFgX2OteL hrs 99.00 UPI",
+    "paragraph_id": "p_fe5be2cb",
+    "page_num": 0,
+    "text": "Whether tax is payable under reverse charge - No",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.46,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 2.34,
+    "bbox": [
+      42.0,
+      593.9462890625,
+      290.8500671386719,
+      609.40380859375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 48,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_f9ee52cf",
+    "page_num": 0,
+    "text": "Date & Time: 14/07/2025, 21:35:36 Payment Transaction ID: Invoice Value: Mode of Payment:",
     "avg_font_size": 7.31,
+    "normalized_font_size": 7.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.08,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 17.5,
     "bbox": [
       46.130001068115234,
       626.9017333984375,
       541.9857177734375,
-      645.4656982421875
+      637.004150390625
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 8,
-    "line_spacing_avg": 17.5,
+    "alignment": "center",
+    "line_count": 4,
     "font_names": [
       "Helvetica",
       "Helvetica-Bold"
     ],
-    "text_case": "Mixed",
-    "length": 139,
+    "primary_font_family": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 89,
+    "is_homogeneous": true,
     "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_3cb70874",
+    "page_num": 0,
+    "text": "cG7TaQptFSRrqT6nuUm1qGjy8FXFgX2OteL hrs 99.00 UPI",
+    "avg_font_size": 7.31,
+    "normalized_font_size": 7.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.04,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      46.130001068115234,
+      635.4217529296875,
+      489.1857604980469,
+      645.4656982421875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 49,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_e0c8579a",
+    "page_num": 0,
     "text": "*ASSPL-Amazon Seller Services Pvt. Ltd., ARIPL-Amazon Retail India Pvt. Ltd. (only where Amazon Retail India Pvt. Ltd. fulfillment center is co-located) Customers desirous of availing input GST credit are requested to create a Business account and purchase on Amazon.in/business from Business eligible offers Please note that this invoice is not a demand for payment Page 1 of 1",
     "avg_font_size": 5.63,
+    "normalized_font_size": 5.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.74,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 44.4,
     "bbox": [
       98.4800033569336,
       768.0277709960938,
@@ -248,129 +730,517 @@
       808.3833618164062
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 44.4,
     "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
       "Helvetica"
     ],
     "text_case": "Mixed",
     "length": 378,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
-    "text": "Tax Invoice/Bill of Supply/Cash Memo (Original for Recipient)",
+    "paragraph_id": "p_b250cb95",
+    "page_num": 1,
+    "text": "Tax Invoice/Bill of Supply/Cash Memo",
     "avg_font_size": 13.5,
+    "normalized_font_size": 13.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 18.59,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
     "bbox": [
       310.0899963378906,
       13.945013999938965,
-      557.0170288085938,
-      48.09649658203125
+      553.1575317382812,
+      32.534515380859375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 2,
-    "line_spacing_avg": 0.0,
+    "alignment": "center",
+    "line_count": 1,
     "font_names": [
-      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
       "Helvetica-Bold"
     ],
     "text_case": "Mixed",
-    "length": 61,
-    "relative_font_size": 10
+    "length": 36,
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
-    "text": "Signature valid Digitally signed by DS AMAZON SELLER SERVICES PRIVATE LIMITED 6 Date: 2025.07.15 16:31:22 UTC Reason: Invoice",
-    "avg_font_size": 6.19,
+    "paragraph_id": "p_0b1af25b",
+    "page_num": 1,
+    "text": "(Original for Recipient)",
+    "avg_font_size": 13.5,
+    "normalized_font_size": 13.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 18.55,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      421.989990234375,
+      29.547496795654297,
+      557.0170288085938,
+      48.09649658203125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 24,
+    "is_homogeneous": true,
+    "relative_font_size": 7
+  },
+  {
+    "paragraph_id": "p_0d380d21",
+    "page_num": 1,
+    "text": "Signature valid",
+    "avg_font_size": 6.75,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.27,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 18.22,
     "bbox": [
       53.25,
       66.31375885009766,
+      97.89449310302734,
+      75.5882568359375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 15,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_2201c10a",
+    "page_num": 1,
+    "text": "Digitally signed by DS AMAZON SELLER SERVICES PRIVATE LIMITED 6 Date: 2025.07.15 16:31:22 UTC Reason: Invoice",
+    "avg_font_size": 6.0,
+    "normalized_font_size": 6.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.24,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      55.5,
+      74.25001525878906,
       255.55796813964844,
       96.36400604248047
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 4,
-    "line_spacing_avg": 18.22,
+    "line_count": 3,
     "font_names": [
       "Helvetica"
     ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
     "text_case": "Mixed",
-    "length": 125,
-    "relative_font_size": null
+    "length": 109,
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
-    "text": "Sold By : Billing Address : Amazon Seller Services Private Limited Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, * #26/1, Brigade Gateway, 8th Floor., Dr botanical garden Rajkumar Road, Malleshwaram West Howrah, WEST BENGAL, 711103 Bangalore, Karnataka \u2013 560055 IN IN State/UT Code: 19 PAN No: AAICA3918J Shipping Address : GST Registration No: 29AAICA3918J1ZE Alok Ranjan CIN No: U51900KA2010PTC053234 Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, botanical garden Howrah, WEST BENGAL, 711103 IN State/UT Code: 19 Place of supply: WEST BENGAL Place of delivery: WEST BENGAL Order Number: 404-5257739-3343501 Invoice Number : MKT-71357432 Order Date: 14.07.2025 Invoice Details : OR-BBX1-1044-2526 Invoice Date : 15.07.2025",
-    "avg_font_size": 11.22,
+    "paragraph_id": "p_37f74c07",
+    "page_num": 1,
+    "text": "Sold By : Billing Address :",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.49,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 4.03,
     "bbox": [
       42.75,
       100.3925552368164,
-      552.530029296875,
-      398.7037658691406
+      552.4825439453125,
+      115.88380432128906
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_aafc2c22",
+    "page_num": 1,
+    "text": "Amazon Seller Services Private Limited Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, #26/1, Brigade Gateway, 8th Floor., Dr botanical garden Rajkumar Road, Malleshwaram West Howrah, WEST BENGAL, 711103 Bangalore, Karnataka \u2013 560055 IN IN",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.69,
+    "avg_height_to_font_ratio": 1.39,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      42.75,
+      113.34625244140625,
+      552.530029296875,
+      183.4738006591797
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 10,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 253,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_676b5cf3",
+    "page_num": 1,
+    "text": "State/UT Code: 19 PAN No: AAICA3918J Shipping Address : GST Registration No: 29AAICA3918J1ZE",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.54,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 13.1,
+    "bbox": [
+      42.75,
+      178.8162841796875,
+      552.510009765625,
+      236.4438018798828
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "right",
-    "line_count": 31,
-    "line_spacing_avg": 6.09,
+    "line_count": 4,
     "font_names": [
       "Helvetica",
       "Helvetica-Bold"
     ],
+    "primary_font_family": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
     "text_case": "Mixed",
-    "length": 755,
-    "relative_font_size": null
+    "length": 92,
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
-    "text": "Sl. No Description Unit Price Qty Net Amount Tax Rate Tax Type Tax Amount Total Amount Marketplace Fees IGST",
+    "paragraph_id": "p_315364f5",
+    "page_num": 1,
+    "text": "Alok Ranjan",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.46,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      488.70001220703125,
+      231.2762451171875,
+      552.4762573242188,
+      246.73374938964844
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 11,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_bb45a9c6",
+    "page_num": 1,
+    "text": "CIN No: U51900KA2010PTC053234",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.55,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      42.75,
+      234.3162841796875,
+      226.64503479003906,
+      249.86378479003906
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 29,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_c826d2df",
+    "page_num": 1,
+    "text": "Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, botanical garden Howrah, WEST BENGAL, 711103 IN",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.46,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      303.55999755859375,
+      244.2962646484375,
+      552.530029296875,
+      311.8037414550781
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 5,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 109,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_2ae1ea1b",
+    "page_num": 1,
+    "text": "State/UT Code: 19 Place of supply: WEST BENGAL Place of delivery: WEST BENGAL Order Number: 404-5257739-3343501 Invoice Number : MKT-71357432 Order Date: 14.07.2025 Invoice Details : OR-BBX1-1044-2526 Invoice Date : 15.07.2025",
+    "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.55,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 1.14,
+    "bbox": [
+      42.75,
+      309.76629638671875,
+      552.5225219726562,
+      398.7037658691406
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 8,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 226,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_8458fdeb",
+    "page_num": 1,
+    "text": "Sl. No Description Unit Price Qty Net Amount Tax Rate Tax Type Tax Amount Total Amount",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.39,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 14.48,
     "bbox": [
       43.5,
       413.1800231933594,
       537.4360961914062,
-      439.9810485839844
+      425.5730285644531
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 10,
-    "line_spacing_avg": 8.26,
+    "alignment": "center",
+    "line_count": 8,
     "font_names": [
-      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
       "Helvetica-Bold"
     ],
     "text_case": "Title",
-    "length": 108,
+    "length": 86,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
-    "text": "\u20b90.89 \u20b90.89 18% \u20b90.16 \u20b91.05 \u20b90.16 \u20b91.05",
+    "paragraph_id": "p_a501f8c2",
+    "page_num": 1,
+    "text": "Marketplace Fees IGST",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.37,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 2.04,
+    "bbox": [
+      77.88999938964844,
+      427.61505126953125,
+      395.9360046386719,
+      439.9810485839844
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 21,
+    "is_homogeneous": true,
+    "relative_font_size": 4
+  },
+  {
+    "paragraph_id": "p_a54cd58f",
+    "page_num": 1,
+    "text": "\u20b90.89 \u20b90.89 18% \u20b90.16 \u20b91.05",
     "avg_font_size": 12.75,
+    "normalized_font_size": 13.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.75,
+    "avg_height_to_font_ratio": 1.0,
+    "line_spacing_avg": 0.0,
     "bbox": [
       183.19000244140625,
       427.6860046386719,
+      526.832763671875,
+      440.4360046386719
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "font_names": [
+      "PlayfairDisplay-Regular"
+    ],
+    "primary_font_family": [
+      "PlayfairDisplay-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 27,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_65e52737",
+    "page_num": 1,
+    "text": "\u20b90.16 \u20b91.05",
+    "avg_font_size": 12.75,
+    "normalized_font_size": 13.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.0,
+    "avg_height_to_font_ratio": 1.33,
+    "line_spacing_avg": 1.13,
+    "bbox": [
+      452.54998779296875,
+      441.56451416015625,
       551.7775268554688,
       458.5602722167969
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "right",
-    "line_count": 7,
-    "line_spacing_avg": 1.13,
+    "line_count": 2,
     "font_names": [
-      "PlayfairDisplay-Bold",
-      "PlayfairDisplay-Regular"
+      "PlayfairDisplay-Bold"
+    ],
+    "primary_font_family": [
+      "PlayfairDisplay-Bold"
     ],
     "text_case": "Mixed",
-    "length": 39,
-    "relative_font_size": 9
+    "length": 11,
+    "is_homogeneous": true,
+    "relative_font_size": 6
   },
   {
+    "paragraph_id": "p_120cfe13",
+    "page_num": 1,
     "text": "TOTAL:",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.39,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 0.0,
     "bbox": [
       43.5,
       444.3100280761719,
@@ -378,20 +1248,31 @@
       456.7030334472656
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
       "Helvetica-Bold"
     ],
     "text_case": "UPPER",
     "length": 6,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_8b2860b0",
+    "page_num": 1,
     "text": "Amount in Words: One Point Zero Five only For Amazon Seller Services Private Limited:",
     "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.49,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 2.54,
     "bbox": [
       43.130001068115234,
       459.342529296875,
@@ -399,20 +1280,31 @@
       507.6837463378906
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 2.54,
     "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
       "Helvetica-Bold"
     ],
     "text_case": "Mixed",
     "length": 85,
-    "relative_font_size": 7
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
+    "paragraph_id": "p_34de152e",
+    "page_num": 1,
     "text": "Authorized Signatory",
     "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.49,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 29.96,
     "bbox": [
       436.1300048828125,
       537.642578125,
@@ -420,20 +1312,31 @@
       553.1337890625
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 29.96,
     "font_names": [
+      "Helvetica-Bold"
+    ],
+    "primary_font_family": [
       "Helvetica-Bold"
     ],
     "text_case": "Title",
     "length": 20,
-    "relative_font_size": 7
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
+    "paragraph_id": "p_17b70b29",
+    "page_num": 1,
     "text": "(1) Service Accounting Code: 998319",
     "avg_font_size": 5.63,
+    "normalized_font_size": 5.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.74,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 8.33,
     "bbox": [
       43.130001068115234,
       561.4677734375,
@@ -441,20 +1344,31 @@
       569.203369140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 8.33,
     "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
       "Helvetica"
     ],
     "text_case": "Title",
     "length": 35,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_ea100807",
+    "page_num": 1,
     "text": "Whether tax is payable under reverse charge - No",
     "avg_font_size": 11.25,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 15.46,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 5.39,
     "bbox": [
       42.0,
       574.5962524414062,
@@ -462,42 +1376,96 @@
       590.0537719726562
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 5.39,
     "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
       "Helvetica"
     ],
     "text_case": "Mixed",
     "length": 48,
-    "relative_font_size": 7
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
-    "text": "Date & Time: 14/07/2025, 21:35:36 Payment Transaction ID: Invoice Value: Mode of Payment: cG7TaQptFSRrqT6nuUm1qGjy8FXFgX2OteL hrs 1.05 UPI",
+    "paragraph_id": "p_496d0107",
+    "page_num": 1,
+    "text": "Date & Time: 14/07/2025, 21:35:36 Payment Transaction ID: Invoice Value: Mode of Payment:",
     "avg_font_size": 7.31,
+    "normalized_font_size": 7.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.08,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 17.5,
     "bbox": [
       46.130001068115234,
       607.5517578125,
       541.3857421875,
-      626.11572265625
+      617.6541748046875
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 8,
-    "line_spacing_avg": 17.5,
+    "alignment": "center",
+    "line_count": 4,
     "font_names": [
       "Helvetica",
       "Helvetica-Bold"
     ],
-    "text_case": "Mixed",
-    "length": 138,
+    "primary_font_family": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 89,
+    "is_homogeneous": true,
     "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_82aa61c3",
+    "page_num": 1,
+    "text": "cG7TaQptFSRrqT6nuUm1qGjy8FXFgX2OteL hrs 1.05 UPI",
+    "avg_font_size": 7.31,
+    "normalized_font_size": 7.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.04,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      46.130001068115234,
+      616.07177734375,
+      488.58575439453125,
+      626.11572265625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 48,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_e46218a1",
+    "page_num": 1,
     "text": "Please note that this invoice is not a demand for payment Regd Office: Amazon Seller Services Private Limited 8th Floor, Brigade World Trade Center Dr Raj Kumar Road, Malleshwaram(West) Telephone: +91 89 33420300 Fax: +91 80 30625685 Email: customer-service@amazon.in Amazon.in - Amazon Seller Services Private Limited *ASSPL-Amazon Seller Services Pvt. Ltd., ARIPL-Amazon Retail India Pvt. Ltd. (only where Amazon Retail India Pvt. Ltd. fulfillment center is co-located) Customers desirous of availing input GST credit are requested to create a Business account and purchase on Amazon.in/business from Business eligible offers Page 1 of 1",
     "avg_font_size": 5.63,
+    "normalized_font_size": 5.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.74,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 26.76,
     "bbox": [
       99.41000366210938,
       738.6577758789062,
@@ -505,15 +1473,19 @@
       837.7433471679688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 11,
-    "line_spacing_avg": 26.76,
     "font_names": [
+      "Helvetica"
+    ],
+    "primary_font_family": [
       "Helvetica"
     ],
     "text_case": "Mixed",
     "length": 639,
+    "is_homogeneous": true,
     "relative_font_size": 0
   }
 ]

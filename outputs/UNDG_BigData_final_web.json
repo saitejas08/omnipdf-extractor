@@ -1,29 +1,78 @@
 [
   {
-    "text": "DATA PRIVACY, ETHICS AND PROTECTION GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
+    "paragraph_id": "p_dbce0072",
+    "page_num": 0,
+    "text": "DATA PRIVACY, ETHICS AND PROTECTION",
     "avg_font_size": 19.0,
+    "normalized_font_size": 19.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 27.49,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       94.2925033569336,
       39.108985900878906,
       530.551513671875,
-      111.38496398925781
+      66.60198211669922
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "center",
-    "line_count": 3,
-    "line_spacing_avg": 0.0,
+    "alignment": "unknown",
+    "line_count": 1,
     "font_names": [
-      "ProximaNova-Bold",
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "UPPER",
+    "length": 35,
+    "is_homogeneous": true,
+    "relative_font_size": 9
+  },
+  {
+    "paragraph_id": "p_dfdc41d3",
+    "page_num": 0,
+    "text": "GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
+    "avg_font_size": 19.0,
+    "normalized_font_size": 19.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 26.68,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      120.15155029296875,
+      61.908973693847656,
+      494.05255126953125,
+      111.38496398925781
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "unknown",
+    "line_count": 2,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "UPPER",
-    "length": 96,
-    "relative_font_size": 12
+    "length": 60,
+    "is_homogeneous": true,
+    "relative_font_size": 9
   },
   {
+    "paragraph_id": "p_35125077",
+    "page_num": 1,
     "text": "This document has been approved through the United Nations Development Group (UNDG) and applies to all member entities within the UNDG and its working mechanisms. The approval of this document is based on consensus among UNDG members and the provisions contained herein apply to all UNDG entities; FAO, IFAD, ILO, IOM, ITU, OHCHR, UNAIDS, UNCTAD, UNDESA, UNDP, UNECA, UNECE, UNECLAC, UNEP, UNESCAP, UNESCO, UNESCWA, UNICEF, UNIDO, UNFPA, UNHABITAT, UNHCR, UNODC, UN OHRLLS, UNOPS, UN OSAA, SRSG/CAC, UN Women, UNWTO, WFP, WHO and WMO.",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       302.39996337890625,
       254.28900146484375,
@@ -31,20 +80,31 @@
       386.8949890136719
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 11,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 534,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_71270380",
+    "page_num": 2,
     "text": "TABLE OF CONTENTS",
     "avg_font_size": 32.0,
+    "normalized_font_size": 32.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 46.3,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       146.7517852783203,
@@ -52,42 +112,257 @@
       226.04779052734375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 17,
-    "relative_font_size": 14
+    "is_homogeneous": true,
+    "relative_font_size": 11
   },
   {
-    "text": "PURPOSE OF THIS GUIDANCE NOTE\u200b\b PRINCIPLES\u200b\b 1. LAWFUL, LEGITIMATE AND FAIR USE \b \u200b4 2. PURPOSE SPECIFICATION, USE LIMITATION AND PURPOSE COMPATIBILITY\u200b \b 3. RISK MITIGATION AND RISKS, HARMS AND BENEFITS ASSESSMENT \u200b\b 4. SENSITIVE DATA AND SENSITIVE CONTEXTS \u200b\b 5. DATA SECURITY\u200b \b 6. DATA RETENTION AND DATA MINIMIZATION\u200b \b 7. DATA QUALITY\u200b \b 8. OPEN DATA, TRANSPARENCY AND ACCOUNTABILITY\u200b \b 9. DUE DILIGENCE FOR THIRD PARTY COLLABORATORS \b \u200b7 DEFINITIONS & NOTES\b \u200b8 ADDENDUM A\u200b\b 12 HOW DATA ANALYTICS CAN SUPPORT THE SDGs\u200b\b 12 BIBLIOGRAPHY\b \u200b14",
+    "paragraph_id": "p_4a6d0c3f",
+    "page_num": 2,
+    "text": "PURPOSE OF THIS GUIDANCE NOTE\u200b\b PRINCIPLES\u200b\b",
     "avg_font_size": 10.0,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.47,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 18.35,
     "bbox": [
-      35.99998474121094,
+      36.0,
       253.2100067138672,
-      428.4000244140625,
-      603.6799926757812
+      206.93798828125,
+      291.67999267578125
     ],
     "is_bold": true,
-    "is_upper": false,
+    "bold_ratio": 1.0,
+    "is_upper": true,
     "alignment": "left",
-    "line_count": 21,
-    "line_spacing_avg": 10.71,
+    "line_count": 2,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "UPPER",
+    "length": 44,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_fd95f35c",
+    "page_num": 2,
+    "text": "1. LAWFUL, LEGITIMATE AND FAIR USE",
+    "avg_font_size": 10.0,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.47,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 9.53,
+    "bbox": [
+      36.0,
+      301.2099914550781,
+      210.27801513671875,
+      315.67999267578125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "UPPER",
+    "length": 34,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_4c9c79e1",
+    "page_num": 2,
+    "text": "\u200b4",
+    "avg_font_size": 10.0,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.47,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      422.4300231933594,
+      301.2099914550781,
+      428.4000244140625,
+      315.67999267578125
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_9aae91c0",
+    "page_num": 2,
+    "text": "2. PURPOSE SPECIFICATION, USE LIMITATION AND PURPOSE COMPATIBILITY\u200b",
+    "avg_font_size": 10.0,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.47,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 9.53,
+    "bbox": [
+      36.0,
+      325.2099914550781,
+      385.7469787597656,
+      339.67999267578125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "UPPER",
+    "length": 67,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_bfa48b7b",
+    "page_num": 2,
+    "text": "3. RISK MITIGATION AND RISKS, HARMS AND BENEFITS ASSESSMENT \u200b\b 4. SENSITIVE DATA AND SENSITIVE CONTEXTS \u200b\b",
+    "avg_font_size": 10.0,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.47,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 9.53,
+    "bbox": [
+      36.0,
+      349.2099914550781,
+      351.6568908691406,
+      387.67999267578125
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "ProximaNova-Regular",
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold",
       "ProximaNova-Regular"
     ],
     "text_case": "UPPER",
-    "length": 547,
-    "relative_font_size": 8
+    "length": 106,
+    "is_homogeneous": true,
+    "relative_font_size": 5
   },
   {
+    "paragraph_id": "p_c6a09974",
+    "page_num": 2,
+    "text": "5. DATA SECURITY\u200b 6. DATA RETENTION AND DATA MINIMIZATION\u200b 7. DATA QUALITY\u200b 8. OPEN DATA, TRANSPARENCY AND ACCOUNTABILITY\u200b 9. DUE DILIGENCE FOR THIRD PARTY COLLABORATORS",
+    "avg_font_size": 10.0,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.47,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 9.53,
+    "bbox": [
+      35.99998474121094,
+      397.2099914550781,
+      290.1379089355469,
+      507.67999267578125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 5,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "UPPER",
+    "length": 169,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_d0802b0e",
+    "page_num": 2,
+    "text": "\u200b7 DEFINITIONS & NOTES\b \u200b8 ADDENDUM A\u200b\b 12 HOW DATA ANALYTICS CAN SUPPORT THE SDGs\u200b\b 12 BIBLIOGRAPHY\b \u200b14",
+    "avg_font_size": 10.0,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.47,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 9.53,
+    "bbox": [
+      36.0,
+      493.2099914550781,
+      428.4000244140625,
+      603.6799926757812
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 9,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 105,
+    "is_homogeneous": true,
+    "relative_font_size": 5
+  },
+  {
+    "paragraph_id": "p_f5b14b01",
+    "page_num": 2,
     "text": "1    TABLE OF CONTENTS",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.83,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 158.94,
     "bbox": [
       36.0,
       762.6170043945312,
@@ -95,20 +370,31 @@
       772.4450073242188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 158.94,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "UPPER",
     "length": 22,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_5a5a937f",
+    "page_num": 3,
     "text": "PURPOSE OF THIS GUIDANCE NOTE",
     "avg_font_size": 32.0,
+    "normalized_font_size": 32.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 46.3,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       146.9720001220703,
@@ -116,42 +402,609 @@
       227.77197265625
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 29,
-    "relative_font_size": 14
+    "is_homogeneous": true,
+    "relative_font_size": 11
   },
   {
-    "text": "This document sets out general guidance on data privacy, At the same time, there are legitimate concerns regarding data protection and data ethics for the United Nations risks associated with handling and processing of big data, Development Group (UNDG) concerning the use of big particularly in light of the current fragmented regulatory data, collected in real time by private sector entities as landscape and in the absence of a common set of principles part of their business offerings 1 , and shared with UNDG on data privacy, ethics and protection. These concerns continue to complicate efforts to develop standardized members for the purposes of strengthening operational and scalable approaches to risk management and data implementation of their programmes to support the achievement of the 2030 Agenda 2 . The Guidance Note access. A coordinated approach is required to ensure the emergence of frameworks for safe and responsible use of is designed to: big data for the achievement of the 2030 Agenda. \u25cf \u0007Establish common principles across UNDG to support The guidance described in this document acknowledges the operational use of big data for achievement of the and is based on the UN Guidelines for the Regulation Sustainable Development Goals (SDGs); of Computerized Personal Data Files, adopted by the \u25cf \u0007Serve as a risk-management tool taking into account UN General Assembly resolution 45/95, and takes into fundamental human rights; and account both existing international instruments and \u25cf \u0007Set principles for obtaining, retention, use and quality relevant regulations, rules and policies of UNDG member control for data from the private sector. organizations concerning data privacy and data protection. This Guidance Note is based on standards that have The data revolution was recognized as an enabler of the withstood the test of time, reflecting the strength of their Sustainable Development Goals, not only to monitor progress core values. but also to inclusively engage stakeholders at all levels to advance evidence-based policies and programmes and to reach the most vulnerable. 3 The 2030 Agenda asserts that This Guidance Note is designed to support members and partners of the UNDG in establishing efficient and coherent \u201cQuality, accessible, timely and reliable disaggregates data will data collaborations. be needed to help with the measurement of progress (SGDs) and to ensure that no one is left behind. Such data is key to decision making.\u201d 4",
-    "avg_font_size": 8.92,
+    "paragraph_id": "p_0fc6b249",
+    "page_num": 3,
+    "text": "This document sets out general guidance on data privacy,",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 26.52,
     "bbox": [
-      32.89739227294922,
+      35.989200592041016,
       254.28900146484375,
-      551.8812255859375,
-      578.9129638671875
+      282.82318115234375,
+      267.31201171875
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 48,
-    "line_spacing_avg": 26.52,
+    "line_count": 1,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 56,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_922af467",
+    "page_num": 3,
+    "text": "At the same time, there are legitimate concerns regarding",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      302.2308044433594,
+      254.28900146484375,
+      541.260986328125,
+      266.92498779296875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 57,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_cf6c6f7e",
+    "page_num": 3,
+    "text": "data protection and data ethics for the United Nations",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.35820007324219,
+      266.2860107421875,
+      267.72113037109375,
+      279.30902099609375
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 54,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_a5586e3c",
+    "page_num": 3,
+    "text": "risks associated with handling and processing of big data,",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      302.788818359375,
+      266.2860107421875,
+      542.1609497070312,
+      278.9219970703125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 58,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_8e5be0ec",
+    "page_num": 3,
+    "text": "Development Group (UNDG) concerning the use of big",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.601200103759766,
+      278.28302001953125,
+      269.440185546875,
+      291.3060302734375
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 50,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_9541a5c5",
+    "page_num": 3,
+    "text": "particularly in light of the current fragmented regulatory",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      302.788818359375,
+      278.28302001953125,
+      532.6930541992188,
+      290.91900634765625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 58,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_cb7cb516",
+    "page_num": 3,
+    "text": "data, collected in real time by private sector entities as",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.35820007324219,
+      290.280029296875,
+      270.53814697265625,
+      303.30303955078125
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "lower",
+    "length": 58,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_0b500812",
+    "page_num": 3,
+    "text": "landscape and in the absence of a common set of principles",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      303.04083251953125,
+      290.280029296875,
+      551.8812255859375,
+      302.916015625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 58,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_eb341120",
+    "page_num": 3,
+    "text": "part of their business offerings , and shared with UNDG",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.33,
+    "avg_height_to_font_ratio": 1.48,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.49319839477539,
+      301.98651123046875,
+      273.7871398925781,
+      315.31201171875
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 55,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_af9db3b8",
+    "page_num": 3,
+    "text": "on data privacy, ethics and protection. These concerns continue to complicate efforts to develop standardized",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      302.6268310546875,
+      302.27703857421875,
+      529.3279418945312,
+      326.9100341796875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 109,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_826fcb5d",
+    "page_num": 3,
+    "text": "members for the purposes of strengthening operational",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.493194580078125,
+      314.2860107421875,
+      264.7511901855469,
+      327.30902099609375
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "lower",
+    "length": 53,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_b1af0e8e",
+    "page_num": 3,
+    "text": "and scalable approaches to risk management and data",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      302.6178283691406,
+      326.27105712890625,
+      533.91796875,
+      338.90704345703125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 51,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_738a745b",
+    "page_num": 3,
+    "text": "implementation of their programmes to support the achievement of the 2030 Agenda . The Guidance Note",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.18,
+    "avg_height_to_font_ratio": 1.46,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.35819625854492,
+      326.28302001953125,
+      273.3645935058594,
+      351.31201171875
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "lower",
+    "length": 100,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_fb3bd984",
+    "page_num": 3,
+    "text": "access. A coordinated approach is required to ensure the emergence of frameworks for safe and responsible use of",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      302.6178283691406,
+      338.26806640625,
+      542.071044921875,
+      362.90106201171875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 112,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_2f145bbf",
+    "page_num": 3,
+    "text": "is designed to:",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.61961364746094,
+      350.2860107421875,
+      98.3326187133789,
+      363.30902099609375
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "lower",
+    "length": 15,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_4c68fdaa",
+    "page_num": 3,
+    "text": "big data for the achievement of the 2030 Agenda. \u0007Establish common principles across UNDG to support The guidance described in this document acknowledges the operational use of big data for achievement of the and is based on the UN Guidelines for the Regulation Sustainable Development Goals (SDGs); of Computerized Personal Data Files, adopted by the \u0007Serve as a risk-management tool taking into account UN General Assembly resolution 45/95, and takes into fundamental human rights; and account both existing international instruments and \u0007Set principles for obtaining, retention, use and quality relevant regulations, rules and policies of UNDG member control for data from the private sector. organizations concerning data privacy and data protection. This Guidance Note is based on standards that have",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      35.77361297607422,
+      362.2620849609375,
+      546.239013671875,
+      482.87115478515625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 16,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 805,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_c99593cb",
+    "page_num": 3,
+    "text": "The data revolution was recognized as an enabler of the",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      35.62961196899414,
+      470.2740478515625,
+      262.07861328125,
+      483.29705810546875
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular",
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold",
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
-    "length": 2478,
-    "relative_font_size": null
+    "length": 55,
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_6aa2c109",
+    "page_num": 3,
+    "text": "withstood the test of time, reflecting the strength of their Sustainable Development Goals, not only to monitor progress core values. but also to inclusively engage stakeholders at all levels to advance evidence-based policies and programmes and to reach the most vulnerable. The 2030 Agenda asserts that This Guidance Note is designed to support members and partners of the UNDG in establishing efficient and coherent \u201cQuality, accessible, timely and reliable disaggregates data will data collaborations. be needed to help with the measurement of progress (SGDs) and to ensure that no one is left behind. Such data is key to decision making.\u201d",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.69,
+    "avg_height_to_font_ratio": 1.41,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      32.89739227294922,
+      482.232177734375,
+      547.8860473632812,
+      578.9129638671875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 13,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 643,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_03fa5b91",
+    "page_num": 3,
     "text": "1\u2003 This Guidance Note focuses on the use of big data collected by non-UN parties. 3\u2003 Examples of how big data could be used to support the Sustainable Development Many of the guiding principles, however, may be applied in cases where UNDG Goals can be viewed in Addendum A. members collect big data for the purposes of implementing their mandates, for example in the form of photographs or videos collected by unmanned aerial vehi- 4\u2003 For more detail, see Transforming our World: The 2030 Agenda for Sustainable cles (UAVs). Development (A/RES/70/1, p. 11), available at https://sustainabledevelopment.un.org/ post2015/transformingourworld. 2\u2003 This Guidance Note supports implementation of the Quadrennial Comprehensive Policy Review of the operational activities for development of the UN system 5\u2003 The right to privacy is enshrined by the Universal Declaration of Human Rights, (A/C.2/71/L.37), particularly in its call for the UN funds, programmes and specialized Article 12 (UN General Assembly resolution 217 A(III), Paris, France, 10 December agencies to strengthen their support to \u201ccollect, analyse and increase significantly 1948.; the International Covenant on Civil and Political Rights, Article 17 (General the availability of high-quality, timely and reliable disaggregated data\u2026.and in so Assembly resolution 2200 A(XXI), New York, 19 December 1966, UN Treaty Series, doing utilizing \u00a0national capacities to the fullest extent possible in the context of vol. 999, No. 14668, p. 171 and vol. 1057, p. 4019); the Convention on the Rights United Nations operational activities for development.\u201d of the Child (art. 16), the International Convention on the Protection of All Migrant Workers and Members of Their Families (art. 14); European Convention on Human Rights (art. 8); the American Convention on Human Rights (art. 11).",
     "avg_font_size": 6.5,
+    "normalized_font_size": 6.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.13,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 22.45,
     "bbox": [
       36.0,
       601.3613891601562,
@@ -159,64 +1012,481 @@
       736.5354614257812
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 25,
-    "line_spacing_avg": 22.45,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 1837,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
-    "text": "2 DATA PRIVACY, ETHICS AND PROTECTION: GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
+    "paragraph_id": "p_51ce0133",
+    "page_num": 3,
+    "text": "DATA PRIVACY, ETHICS AND PROTECTION: GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.04,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 26.08,
     "bbox": [
       36.0,
       762.6170043945312,
       464.06427001953125,
       772.6549682617188
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 26.08,
     "font_names": [
-      "ProximaNova-Semibold",
-      "ProximaNova-Regular"
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
-    "length": 99,
+    "length": 97,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "Reaffirming that the right to privacy is a fundamental human mandates as well as their existing regulations, rules and right and recognizing the social value of data, including the policies concerning data privacy, data protection, data ethics value of disaggregated SDG indicators with regard to the and data security. It is recommended that designated legal, implementation of the 2030 Agenda, this document aims to ethics, privacy and security experts be consulted, when provide a harmonized general framework for accountable, necessary, regarding the implementation of, and compliance adequately transparent, and responsible data handling with, this Note. Implementing organizations are encouraged practices across the UNDG and with partners. to establish a monitoring mechanism for compliance and implementation of this Note. This Guidance Note is not a legal document. It provides Given continuous advances in technology and data, the only a minimum basis for self-regulation, and therefore international landscape concerning data privacy and data may be expanded and elaborated on by the implementing protection (including through the relevant work of the UN) organizations. may also change. Accordingly, this note is a living document and may also evolve over time. Acknowledging the potential risks and harms as well as the benefits that can result from big data use, this document goes beyond individual privacy and considers potential effects on group(s) of individuals. Additionally, this guidance UNDG is grateful to UN Global Pulse for developing takes into consideration standards of moral and ethical this Guidance Note and acknowledges the conduct, and recognizes the importance of context when big invaluable contributions of the Global Pulse Privacy data is being used. Advisory Group as well as other private and public expert stakeholders. Any questions, comments or It is recommended that this Guidance Note be implemented recommendations regarding this Guidance Note through more detailed operational guidelines that account should be directed to kit.doco@undg.org. for the implementation of UNDG member organizations\u2019",
+    "paragraph_id": "p_8fe05e45",
+    "page_num": 4,
+    "text": "Reaffirming that the right to privacy is a fundamental human mandates as well as their existing regulations, rules and right and recognizing the social value of data, including the policies concerning data privacy, data protection, data ethics value of disaggregated SDG indicators with regard to the and data security. It is recommended that designated legal, implementation of the 2030 Agenda, this document aims to ethics, privacy and security experts be consulted, when provide a harmonized general framework for accountable, necessary, regarding the implementation of, and compliance adequately transparent, and responsible data handling with, this Note. Implementing organizations are encouraged practices across the UNDG and with partners. to establish a monitoring mechanism for compliance and implementation of this Note. This Guidance Note is not a legal document. It provides Given continuous advances in technology and data, the only a minimum basis for self-regulation, and therefore international landscape concerning data privacy and data may be expanded and elaborated on by the implementing protection (including through the relevant work of the UN) organizations. may also change. Accordingly, this note is a living document and may also evolve over time. Acknowledging the potential risks and harms as well as the benefits that can result from big data use, this document goes beyond individual privacy and considers potential effects on group(s) of individuals. Additionally, this guidance",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       35.62260055541992,
       254.28900146484375,
       554.1569213867188,
-      542.8651733398438
+      458.8861083984375
     ],
-    "is_bold": true,
+    "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 41,
-    "line_spacing_avg": 0.0,
+    "line_count": 28,
     "font_names": [
-      "ProximaNova-Bold",
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 1509,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_62ca6c92",
+    "page_num": 4,
+    "text": "UNDG is grateful to UN Global Pulse for developing",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      311.6499938964844,
+      449.28900146484375,
+      532.3840942382812,
+      462.31201171875
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 50,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_d77c911c",
+    "page_num": 4,
+    "text": "takes into consideration standards of moral and ethical",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.55860137939453,
+      458.24713134765625,
+      263.6375732421875,
+      470.88311767578125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 55,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_db982f26",
+    "page_num": 4,
+    "text": "this Guidance Note and acknowledges the",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      311.6499938964844,
+      461.2860107421875,
+      492.8650817871094,
+      474.30902099609375
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 39,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_ee6e66bc",
+    "page_num": 4,
+    "text": "conduct, and recognizes the importance of context when big",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.22560119628906,
+      470.244140625,
+      287.21673583984375,
+      482.880126953125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 58,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_bf8fcc7c",
+    "page_num": 4,
+    "text": "invaluable contributions of the Global Pulse Privacy",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      311.6499938964844,
+      473.28302001953125,
+      532.5821533203125,
+      486.3060302734375
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 52,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_7ad45152",
+    "page_num": 4,
+    "text": "data is being used.",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.22560119628906,
+      482.24114990234375,
+      113.79661560058594,
+      494.87713623046875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 19,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_24e6f008",
+    "page_num": 4,
+    "text": "Advisory Group as well as other private and public expert stakeholders. Any questions, comments or",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      311.6499938964844,
+      485.280029296875,
+      527.1371459960938,
+      510.300048828125
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 98,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_7bc2cb63",
+    "page_num": 4,
+    "text": "It is recommended that this Guidance Note be implemented",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.486602783203125,
+      506.23516845703125,
+      283.7616271972656,
+      518.8711547851562
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
-    "length": 2141,
-    "relative_font_size": 6
+    "length": 56,
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_e504a412",
+    "page_num": 4,
+    "text": "recommendations regarding this Guidance Note",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      311.6499938964844,
+      509.2740478515625,
+      517.4801025390625,
+      522.2970581054688
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 44,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_aa148770",
+    "page_num": 4,
+    "text": "through more detailed operational guidelines that account",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.55860137939453,
+      518.232177734375,
+      277.75860595703125,
+      530.8681640625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 57,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_ebcf1f7d",
+    "page_num": 4,
+    "text": "should be directed to kit.doco@undg.org.",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      311.6499938964844,
+      521.2710571289062,
+      486.0881652832031,
+      534.2940673828125
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Bold"
+    ],
+    "text_case": "lower",
+    "length": 40,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_a09ca36f",
+    "page_num": 4,
+    "text": "for the implementation of UNDG member organizations\u2019",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.504600524902344,
+      530.2291870117188,
+      267.06658935546875,
+      542.8651733398438
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 52,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_3286d293",
+    "page_num": 4,
     "text": "6\u2003 Sustainable Development Goal 17 aims to \u201cStrengthen the means of implementation and revitalize the global partnership for sustainable development\u201d. Target 17.18 notes the need for data disaggregation by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts (A/70/L.1.). 7\u2003 For more information, see the \u201cReport of the Special Rapporteur on the right to priva- cy\u201d, Joseph A. Cannataci, Annex II. A more in-depth look at Open Data and Big Data (A/HRC/31/64, p. 24).",
     "avg_font_size": 6.5,
+    "normalized_font_size": 6.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.13,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 33.68,
     "bbox": [
       36.0,
       601.3615112304688,
@@ -224,20 +1494,31 @@
       682.5010375976562
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 8,
-    "line_spacing_avg": 33.68,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 557,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_c53dcd58",
+    "page_num": 4,
     "text": "3    PURPOSE OF THIS GUIDANCE NOTE",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.83,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 80.12,
     "bbox": [
       36.0,
       762.6170043945312,
@@ -245,20 +1526,31 @@
       772.4450073242188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 80.12,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "UPPER",
     "length": 34,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_c916ec40",
+    "page_num": 5,
     "text": "PRINCIPLES",
     "avg_font_size": 32.0,
+    "normalized_font_size": 32.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 46.3,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       146.7517852783203,
@@ -266,41 +1558,63 @@
       193.0557861328125
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 10,
-    "relative_font_size": 14
+    "is_homogeneous": true,
+    "relative_font_size": 11
   },
   {
+    "paragraph_id": "p_d0c9cd8a",
+    "page_num": 5,
     "text": "2.\t\u0007PURPOSE SPECIFICATION, USE 1.\t LAWFUL, LEGITIMATE AND FAIR USE LIMITATION AND PURPOSE COMPATIBILITY",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.21,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 59.24,
     "bbox": [
       36.0,
       252.29193115234375,
       554.411865234375,
       282.49591064453125
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 59.24,
     "font_names": [
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 103,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_63dea51f",
+    "page_num": 5,
     "text": "Data access, analysis or other use must be consistent with the United Nations Charter and in furtherance of the Sustainable Any data use must be compatible or otherwise relevant, and not Development Goals. excessive in relation to the purposes for which it was obtained. The purpose of data use cannot be changed unless there is a legitimate basis, as noted in Section 1. The purpose should be Whether directly or through a contract with a third party data legitimate and as narrowly and precisely defined as practically provider, data should be obtained, collected, analysed or other- possible. Requests or proposals for data access should be wise used through lawful, legitimate and fair means. In particular, tailored to a specific purpose. data access (or collection, where applicable), analysis or other use should be in compliance with applicable laws, including data privacy and data protection laws, as well as the highest There must be a legitimate and fair basis for an incompatible standards of confidentiality and moral and ethical conduct. deviation from the purpose for which the data was obtained. However, mere difference in purpose does not make a new purpose incompatible. In determining compatibility, for example Data should always be accessed, analysed or otherwise used the following criteria could be considered: how deviation from taking into account the legitimate interests of those individuals the original purpose may affect an individual(s) or group(s) of whose data is being used. Specifically, to ensure that data use individuals; or the type of data used (e.g. public, sensitive or is fair, data should not be used in a way that violates human non-sensitive); or measure taken to safeguard the identity of rights, or in any other ways that are likely to cause unjustified individuals whose data is used (e.g. pseudonymization, or adverse effects on any individual(s) or group(s) of individuals. masking, encryption). It is recommended that legitimacy and fairness of data use is always assessed taking into account risks, harms and benefits as discussed in Section 6. The purpose of data access (or collection where applicable) should be articulated no later than the time of data access (or collection where applicable). Big data often contains personal data and sensitive data. The use of personal data should be based on one or more of the following legitimate and fair bases, subject to implementing",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 7.79,
     "bbox": [
       36.0,
       290.28900146484375,
@@ -308,41 +1622,63 @@
       590.8800659179688
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 42,
-    "line_spacing_avg": 7.79,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 2435,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_45f6321b",
+    "page_num": 5,
     "text": "3.\t\u0007RISK MITIGATION AND RISKS, HARMS",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.21,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 0.0,
     "bbox": [
       302.3999938964844,
       589.052001953125,
       535.56005859375,
       606.260009765625
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 36,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_f83e63a1",
+    "page_num": 5,
     "text": "UNDG member organizations\u2019 regulations, rules and policies",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       590.2410888671875,
@@ -350,41 +1686,63 @@
       602.8770751953125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 58,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_40f67e5b",
+    "page_num": 5,
     "text": "AND BENEFITS ASSESSMENT",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.21,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 0.0,
     "bbox": [
       316.79998779296875,
       601.052001953125,
       484.81207275390625,
       618.260009765625
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 23,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_3c6351f4",
+    "page_num": 5,
     "text": "(including data privacy and data protection policies): (i) adequate consent of the individual whose data is used, (ii) in accordance with law, (iii) furtherance of international organizational mandates, (iv) other legitimate needs to protect the vital or best interest of A risks, harms and benefits assessment that accounts for data an individual(s) or group(s) of individuals. protection and data privacy as well as ethics of data use should be conducted before a new or substantially changed use of data (including its purpose) is undertaken. Appropriate risk mitigation measures should be implemented. Individual(s) or group(s) of individuals should not be exposed to harm, or to undignified or discriminatory treatment, as a consequence of data use by UNDG member organizations.",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       602.2380981445312,
@@ -392,42 +1750,65 @@
       734.9039916992188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 13,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 783,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
-    "text": "4 DATA PRIVACY, ETHICS AND PROTECTION: GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
+    "paragraph_id": "p_ab3d175e",
+    "page_num": 5,
+    "text": "DATA PRIVACY, ETHICS AND PROTECTION: GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.04,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 27.71,
     "bbox": [
       36.0,
       762.6170043945312,
       462.04827880859375,
       772.6549682617188
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 27.71,
     "font_names": [
-      "ProximaNova-Semibold",
-      "ProximaNova-Regular"
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
-    "length": 99,
+    "length": 97,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_16fabdda",
+    "page_num": 6,
     "text": "Any risks, harms and benefits assessment should take into The risks, harms and benefits assessment can be a tool that consideration the context of data use, including social, helps to assist with determination of whether the use of data is geographic, political and religious factors. Such assessments legitimate, appropriate or fair. should account for potential physical, emotional or economic harms, as well as any harms that could be caused as a result of",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       158.28900146484375,
@@ -435,41 +1816,63 @@
       218.9130401611328
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 8,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 459,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_a9090eca",
+    "page_num": 6,
     "text": "4.\t\u0007SENSITIVE DATA AND",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.21,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 0.0,
     "bbox": [
       302.3999938964844,
       217.052001953125,
       443.9880065917969,
       234.25999450683594
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 22,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_4ffc4f44",
+    "page_num": 6,
     "text": "infringement of individual(s)\u2019 rights.",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       218.2740478515625,
@@ -477,41 +1880,63 @@
       230.91004943847656
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 38,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_7c64e380",
+    "page_num": 6,
     "text": "SENSITIVE CONTEXTS",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.21,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 0.0,
     "bbox": [
       316.79998779296875,
       229.052001953125,
       441.6600341796875,
       246.25999450683594
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 18,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_d3ded84c",
+    "page_num": 6,
     "text": "Any risks, harms and benefits assessment should take into con- sideration the impact that data use may have on an individual(s) and/or group(s) of individuals, whether legally visible or not and Stricter standards of data protection should be employed while whether known or unknown at the time of data use. obtaining, accessing, collecting, analysing or otherwise using data on vulnerable populations and persons at risk, children and An assessment of harms should consider such key factors as: (i) young people, or any other sensitive data. the likelihood of occurrence of harms, (ii) potential magnitude of harms and (iii) potential severity of harms. It is important to consider that context can turn non-sensitive data into sensitive data. The context in which the data is used Additionally, the assessment should take into account the digital (e.g. cultural, geographic, religious, the political circumstances, literacy of both potential users of data and those individuals etc.) may influence the effect of the data analysis on an individ- whose data is being used. ual(s) or group(s) of individuals, even if the data is not explicitly personal or sensitive. Where possible, the assessment should be completed by a diverse team of experts (e.g. legal, ethics and security experts",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       242.27703857421875,
@@ -519,41 +1944,63 @@
       422.8980712890625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 22,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 1286,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_1b044814",
+    "page_num": 6,
     "text": "5.\tDATA SECURITY",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.21,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 0.0,
     "bbox": [
       302.3999938964844,
       421.052001953125,
       409.176025390625,
       438.260009765625
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 16,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_af63e04e",
+    "page_num": 6,
     "text": "as well as subject-matter experts) and, where reasonably practi- cal, a representative of the group(s) of individuals who could be potentially affected. Data security is crucial in ensuring data privacy and data pro- The risk of harm is much higher for sensitive data, and stricter tection. Taking into account available technology and cost of measures for protection should apply if such data is explicit implementation, robust technical and organizational safeguards personal data or is reasonably likely to identify an individual(s) and procedures (including efficient monitoring of data access or a group(s) of individuals. and data breach notification procedures) should be implemented to ensure proper data management throughout the data lifecycle Decisions concerning the use of sensitive data should involve and prevent any unauthorized use, disclosure or breach of consultation with groups concerned (or their representative) personal data. where possible to mitigate any associated risks. Proactively embedding the foundational principles of Privacy by Additionally, it is important to take into account risks associated Design and employing privacy enhancing technologies during with data breaches and vulnerable data security systems, as every stage of the data life cycle is strongly recommended noted in Section 3. as a measure to ensure robust data protection, in an effort to prevent risks to privacy and harms from arising. Use of data should be based on the principle of proportionality. In particular, any potential risks and harms should not be Personal data should be de-identified, where appropriate, using excessive in relation to the positive impacts (benefits) of data such methods as aggregation, pseudonymization, or masking, use. Furthermore, assessing the effect of data on individual for example, to minimize any potential risks to privacy, and rights in conjunction with each other is recommended wherever taking into account the likely occurrence of any potential harms possible, rather than taking rights in opposition to each other. associated with data use and non-use. Where appropriate, UNDG member organizations should consider working with data that has been de-identified by third party data providers prior to its disclosure to the UNDG member organizations.",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       422.25909423828125,
@@ -561,20 +2008,31 @@
       734.8770141601562
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 40,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 2299,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_7752bbfc",
+    "page_num": 6,
     "text": "5    PRINCIPLES",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.83,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 27.74,
     "bbox": [
       36.0,
       762.6170043945312,
@@ -582,41 +2040,63 @@
       772.4450073242188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 27.74,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "UPPER",
     "length": 15,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_1b6d7ddc",
+    "page_num": 7,
     "text": "6.\t\u0007DATA RETENTION AND DATA",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.21,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 0.0,
     "bbox": [
       302.3999938964844,
       157.052001953125,
       488.68804931640625,
       174.25999450683594
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 27,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_da9a3562",
+    "page_num": 7,
     "text": "Encrypt personal and sensitive data when transferred to or",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       158.28900146484375,
@@ -624,41 +2104,63 @@
       170.9250030517578
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 58,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_950c5ddd",
+    "page_num": 7,
     "text": "MINIMIZATION",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.21,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 0.0,
     "bbox": [
       316.79998779296875,
       169.052001953125,
       400.32000732421875,
       186.25999450683594
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 12,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
-    "text": "from any network-connected server. No de-identified data should knowingly and purposely be re-identified, unless there is a legitimate, lawful and fair basis as noted in Section 1. To minimize the possibility of re-identification, it is recommended Data access, analysis or other use should be kept to the minimum that de-identified data not be analysed or otherwise used by the amount necessary to fulfill its purpose, as noted in Section 2. same individuals who originally de-identified the data. The amount of data, including its granularity, should be limited It is important to ensure that the measures taken to protect to the minimum necessary. Data use should be monitored to privacy and ensure data security do not disproportionately ensure that it does not exceed the legitimate needs of its use. compromise the utility of the data for the intended purpose. Any retention of data 8 should have a legitimate and fair basis, Such measures should be employed in such a way as to including beyond the purposes for which access to the data maximize the positive impact expected from the data use and was originally granted, as specified in Section 1, to ensure that to fulfill the purposes for which the data was obtained. no extra or just-in-case data set is stored. Any data retention should be also considered in light of the potential risks, harms Data access should be limited to authorized personnel, based and benefits as discussed in Section 3. The data should be on the \u201cneed-to-know\u201d principle. Personnel should undergo permanently deleted upon conclusion of the time period regular and systematic data privacy and data security trainings. needed to fulfill its purpose, unless its extended retention is Prior to data use, vulnerabilities of the security system justified as mentioned in this Section above. Any deletion of (including data storage, way of transfer, etc.) should be assessed. data should be done in an appropriate manner taking into consideration data sensitivity and available technology. Data security measures should be assessed in light of the risks, harms and benefits of data use, including as noted in Section 3.",
-    "avg_font_size": 8.98,
+    "paragraph_id": "p_07c23c37",
+    "page_num": 7,
+    "text": "from any network-connected server. No de-identified data should knowingly and purposely be re-identified, unless there is a legitimate, lawful and fair basis as noted in Section 1. To minimize the possibility of re-identification, it is recommended Data access, analysis or other use should be kept to the minimum that de-identified data not be analysed or otherwise used by the amount necessary to fulfill its purpose, as noted in Section 2. same individuals who originally de-identified the data. The amount of data, including its granularity, should be limited It is important to ensure that the measures taken to protect to the minimum necessary. Data use should be monitored to privacy and ensure data security do not disproportionately ensure that it does not exceed the legitimate needs of its use. compromise the utility of the data for the intended purpose. Any retention of data should have a legitimate and fair basis, Such measures should be employed in such a way as to including beyond the purposes for which access to the data maximize the positive impact expected from the data use and was originally granted, as specified in Section 1, to ensure that to fulfill the purposes for which the data was obtained. no extra or just-in-case data set is stored. Any data retention should be also considered in light of the potential risks, harms Data access should be limited to authorized personnel, based and benefits as discussed in Section 3. The data should be on the \u201cneed-to-know\u201d principle. Personnel should undergo permanently deleted upon conclusion of the time period regular and systematic data privacy and data security trainings. needed to fulfill its purpose, unless its extended retention is Prior to data use, vulnerabilities of the security system justified as mentioned in this Section above. Any deletion of (including data storage, way of transfer, etc.) should be assessed. data should be done in an appropriate manner taking into consideration data sensitivity and available technology. Data security measures should be assessed in light of the risks, harms and benefits of data use, including as noted in Section 3.",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.65,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       170.2860107421875,
@@ -666,41 +2168,63 @@
       446.89208984375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 35,
-    "line_spacing_avg": 0.0,
     "font_names": [
       "ProximaNova-Regular"
     ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
     "text_case": "Mixed",
-    "length": 2149,
-    "relative_font_size": null
+    "length": 2147,
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_b77bdcfa",
+    "page_num": 7,
     "text": "7.\t DATA QUALITY",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.21,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 0.0,
     "bbox": [
       302.3999938964844,
       443.052001953125,
       402.20404052734375,
       460.260009765625
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 16,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_4c40fa0a",
+    "page_num": 7,
     "text": "When considering the risks associated with the vulnerability of data security systems, it is important to consider factors such as intentional or unintentional unauthorized data leakage or All data-related activities should be designed, carried out, breach: (i) by authorized personnel, (ii) by known third parties reported and documented with an adequate level of quality who have requested or may have access, or may be motivated to and transparency. More specifically, to the extent reasonably get access to misuse the data and information, (iii) by unknown possible, data should be validated for accuracy, relevancy, third parties (e.g. resulting from publishing data sets or the sufficiency, integrity, completeness, usability, validity and results of an analysis). coherence, and be kept up to date. Special attention should be paid when using cloud services, Data quality should be carefully considered in light of the risks especially with regard to the data security setup and physical that the use of low quality data for decision-making can create locations at which data is stored. Usage of non-cloud storage for an individual(s) and group(s) of individuals. should be considered for sensitive data. When third-party cloud storage providers are used, potential risks and harms associated Data quality must be assessed for biases to avoid any adverse with the use of such cloud storage, as detailed in Section 3, effects, where practically possible, including giving rise to should be both taken into account. unlawful and arbitrary discrimination.",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 11.33,
     "bbox": [
       36.0,
       458.25909423828125,
@@ -708,20 +2232,31 @@
       650.906982421875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 27,
-    "line_spacing_avg": 11.33,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 1559,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_6864ae42",
+    "page_num": 7,
     "text": "10\u2003Usually, there will be an opportunity to obtain consent if the organization is the 9 \u2003 It is important to emphasize that big data generated by the use of social media, original data collector. However, in situations where data is being obtained from a mobile phones, credit cards, etc. is usually owned by either the original author or third party data provider, checking whether a third party data provider has obtained the digital service provider (e.g. social media platform, mobile phone company or adequate consent (e.g. directly or indirectly through the online terms of use) or has bank). another legitimate basis for collecting and sharing the data is recommended when conducting a due diligence exercise.",
     "avg_font_size": 6.5,
+    "normalized_font_size": 6.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.13,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 28.22,
     "bbox": [
       35.5,
       679.1315307617188,
@@ -729,42 +2264,65 @@
       733.27001953125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 10,
-    "line_spacing_avg": 28.22,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 716,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
-    "text": "6 DATA PRIVACY, ETHICS AND PROTECTION: GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
+    "paragraph_id": "p_5538e598",
+    "page_num": 7,
+    "text": "DATA PRIVACY, ETHICS AND PROTECTION: GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.04,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 29.35,
     "bbox": [
       36.0,
       762.6170043945312,
       462.2791748046875,
       772.6549682617188
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 29.35,
     "font_names": [
-      "ProximaNova-Semibold",
-      "ProximaNova-Regular"
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
-    "length": 99,
+    "length": 97,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_0db1880d",
+    "page_num": 8,
     "text": "Automatic processing of data, including the use of algorithms, A risks, harms and benefits assessment (noted in Section 3) without human intervention and domain expertise should be should be one of the key accountability mechanisms for every avoided when data is analysed for decision-making that is likely use of data, and should help determine what other governance to have any impact on an individual(s) or group(s) of individuals mechanisms may be needed to monitor compliance. In particular, to avoid potential harms resulting from low quality of data. making data open or being transparent about data uses should be considered a separate stage in the data life cycle, and thus it is recommended that a separate assessment, noted in Section A periodic assessment of data quality is recommended during 3, is conducted to address risks, harms and benefits related to the data life cycle. Furthermore, it is important to establish an that stage. The assessment should help determine the level of internal system of constant data updating and deletion of openness and transparency. obsolete data, where appropriate and practically possible.",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       158.28900146484375,
@@ -772,62 +2330,159 @@
       278.90704345703125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 19,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 1141,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_b917e909",
+    "page_num": 8,
     "text": "8.\t\u0007OPEN DATA, TRANSPARENCY AND 9.\t\u0007DUE DILIGENCE FOR THIRD PARTY ACCOUNTABILITY COLLABORATORS",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.21,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 22.14,
     "bbox": [
       36.0,
       301.052001953125,
       523.2708129882812,
       330.260009765625
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 4,
-    "line_spacing_avg": 22.14,
     "font_names": [
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 94,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
-    "text": "Appropriate governance and accountability mechanisms should Third party collaborators engaging in data use should act in be established to monitor compliance with relevant law, including compliance with relevant laws, including privacy laws as well as privacy laws and the highest standards of confidentiality, moral the highest standards of confidentiality and moral and ethical and ethical conduct with regard to data use (including this conduct. Their actions should be consistent with the United Guidance Note). Nations\u2019 global mandate as well as UN regulations, rules and policies. Furthermore, third party collaborators\u2019 actions should Transparency is a critical element of accountability. Being adhere to the Guidance Note, including to have a legitimate and fair basis for sharing data with UNDG member organizations. 9 transparent about data use (e.g. publishing data sets or publishing an organization\u2019s data use practices or the use of algorithms) is generally encouraged when the benefits of It is recommended that a process of due diligence be transparency are higher than the risks and possible harms. conducted to evaluate the data practices of any potential third party collaborators. 10 Except in cases where there is a legitimate reason not to do so, at minimum, the existence, nature, anticipated period Legally binding agreements outlining parameters for data access of retention and purpose of data use as well as the algorithms and handling (e.g. data security, data formats, data transmission, used for processing data should be publicly disclosed and fusion, analysis, validation, storage, retention, re-use, licensing, described in a clear and non-technical language suitable for etc.) should be established to ensure reliable and secure access a general audience. to data provided by third party collaborators. Open data is an important driver of innovation, transparency and accountability. Therefore, whenever possible, the data should be made open, unless the risks of making the data open outweigh the benefits or there are other legitimate bases not to do so. Disclosure of personal information, even if derived from public data, should be avoided or otherwise carefully assessed for potential risks and harms as described in Section 3.",
-    "avg_font_size": 8.94,
+    "paragraph_id": "p_fbcd9a1e",
+    "page_num": 8,
+    "text": "Appropriate governance and accountability mechanisms should Third party collaborators engaging in data use should act in be established to monitor compliance with relevant law, including compliance with relevant laws, including privacy laws as well as privacy laws and the highest standards of confidentiality, moral the highest standards of confidentiality and moral and ethical and ethical conduct with regard to data use (including this conduct. Their actions should be consistent with the United Guidance Note). Nations\u2019 global mandate as well as UN regulations, rules and policies. Furthermore, third party collaborators\u2019 actions should Transparency is a critical element of accountability. Being adhere to the Guidance Note, including to have a legitimate and fair basis for sharing data with UNDG member organizations. transparent about data use (e.g. publishing data sets or publishing an organization\u2019s data use practices or the use of algorithms) is generally encouraged when the benefits of It is recommended that a process of due diligence be transparency are higher than the risks and possible harms. conducted to evaluate the data practices of any potential third",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.65,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 20.03,
     "bbox": [
       36.0,
       350.2860107421875,
       556.4769897460938,
-      662.8650512695312
+      482.9219970703125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
-    "line_count": 39,
-    "line_spacing_avg": 15.68,
+    "line_count": 20,
     "font_names": [
       "ProximaNova-Regular"
     ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
     "text_case": "lower",
-    "length": 2267,
-    "relative_font_size": null
+    "length": 1177,
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_5db2c067",
+    "page_num": 8,
+    "text": "party collaborators. 10",
+    "avg_font_size": 7.75,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.93,
+    "avg_height_to_font_ratio": 1.67,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      302.3999938964844,
+      481.98651123046875,
+      384.2879943847656,
+      494.91900634765625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 23,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_a74d76b2",
+    "page_num": 8,
+    "text": "Except in cases where there is a legitimate reason not to do so, at minimum, the existence, nature, anticipated period Legally binding agreements outlining parameters for data access of retention and purpose of data use as well as the algorithms and handling (e.g. data security, data formats, data transmission, used for processing data should be publicly disclosed and fusion, analysis, validation, storage, retention, re-use, licensing, described in a clear and non-technical language suitable for etc.) should be established to ensure reliable and secure access a general audience. to data provided by third party collaborators. Open data is an important driver of innovation, transparency and accountability. Therefore, whenever possible, the data should be made open, unless the risks of making the data open outweigh the benefits or there are other legitimate bases not to do so. Disclosure of personal information, even if derived from public data, should be avoided or otherwise carefully assessed for potential risks and harms as described in Section 3.",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 11.33,
+    "bbox": [
+      36.0,
+      494.25909423828125,
+      556.369873046875,
+      662.8650512695312
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 18,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 1063,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_e3ff306e",
+    "page_num": 8,
     "text": "7    PRINCIPLES",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.83,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 99.75,
     "bbox": [
       36.0,
       762.6170043945312,
@@ -835,20 +2490,31 @@
       772.4450073242188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 99.75,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "UPPER",
     "length": 15,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_6d239c1a",
+    "page_num": 9,
     "text": "DEFINITIONS & NOTES",
     "avg_font_size": 32.0,
+    "normalized_font_size": 32.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 46.3,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       146.7517852783203,
@@ -856,20 +2522,31 @@
       193.0557861328125
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 19,
-    "relative_font_size": 14
+    "is_homogeneous": true,
+    "relative_font_size": 11
   },
   {
+    "paragraph_id": "p_de87f1cb",
+    "page_num": 9,
     "text": "AGGREGATION ADEQUATE OF DATA CONSENT",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 78.68,
     "bbox": [
       131.89430236816406,
       271.73199462890625,
@@ -877,20 +2554,31 @@
       304.323974609375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 78.68,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 36,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_fbcea338",
+    "page_num": 9,
     "text": "Consent is adequate, when it is freely given, explicit, informed For the purposes of this document, data aggregation means and in writing. Adequate consent should be obtained prior a process through which individual level data sets are to data collection or when the purpose of data re-use falls combined to such a format so they cannot be traced back outside of the purpose for which consent was originally or linked to an individual. Typically, aggregated data is used obtained. for analytical or statistical purposes to present a summary or determine average results/numbers regarding age, gender, To ensure that consent is informed, it is recommended that community preferences, etc. as many details about the purpose of data use (e.g. any risks, harms and potential positive and negative impacts) should In addition, the UN Archives and Records Management be included in the notice when the consent is sought. It is Section in its \u201cGlossary of Recordkeeping Terms\u201d defines important to note that in many instances consent may not be \u201caggregated records\u201d as referring to \u201caccumulated or collected adequately informed. Thus, it is important to consider assessing records that are organized into groupings or series\u201d. From the proportionality of risks, harms and benefits of data use the International Organization for Migration (IOM), the IOM even if consent has been obtained. Data Protection Manual also defines \u201caggregate data\u201d as information, usually summary statistics, which may be compiled Consent should be obtained before data is collected or from personal data, but are grouped in a manner to preclude otherwise used, and individuals should have an opportunity the identification of individual cases. to withdraw their consent or object to the use of their data. Checking whether a third party data provider has obtained adequate consent (e.g. directly or indirectly through the online terms of use) or has another legitimate basis for sharing the data is recommended. While there may be an opportunity to obtain consent at the time of data collection, re-use of data often presents difficulties for obtaining consent (e.g. in emergencies where you may no longer be in contact with the individuals concerned). In situations where it is not possible or reasonably practical to obtain informed consent, as a last resort, data experts may",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 22.65,
     "bbox": [
       36.099998474121094,
       338.25311279296875,
@@ -898,42 +2586,65 @@
       686.8321533203125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 42,
-    "line_spacing_avg": 22.65,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 2348,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
-    "text": "8 DATA PRIVACY, ETHICS AND PROTECTION: GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
+    "paragraph_id": "p_17c9065e",
+    "page_num": 9,
+    "text": "DATA PRIVACY, ETHICS AND PROTECTION: GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.04,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 75.78,
     "bbox": [
       36.099998474121094,
       762.6170043945312,
       462.3092956542969,
       772.6549682617188
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 75.78,
     "font_names": [
-      "ProximaNova-Semibold",
-      "ProximaNova-Regular"
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
-    "length": 99,
+    "length": 97,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_b4cccd0c",
+    "page_num": 10,
     "text": "still consider using such data for the best or vital interest of \u201ca paradigm for enabling the collection, storage, management, an individual(s) or group(s) of individuals (e.g. to save their analysis and visualization, potentially under real-time constraints, life, reunite families, etc.). In such instances, any decision to of extensive datasets with heterogeneous characteristics\u201d. proceed without consent must be based on an additional detailed assessment of risks, harms and benefits to justify such action and must be found fair, lawful, legitimate and",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       158.28900146484375,
@@ -941,20 +2652,31 @@
       230.91004943847656
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 9,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 558,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_9f8e904c",
+    "page_num": 10,
     "text": "DE-IDENTIFICATION",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       398.2923278808594,
       228.28228759765625,
@@ -962,20 +2684,31 @@
       245.6462860107422
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 17,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_589f8626",
+    "page_num": 10,
     "text": "in accordance with the principle of proportionality (e.g. any potential risks and harms should not be excessive in relation",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       230.27105712890625,
@@ -983,20 +2716,31 @@
       254.90406799316406
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 123,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_5e74dc03",
+    "page_num": 10,
     "text": "(ANONYMIZATION)",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       398.2923278808594,
       242.68231201171875,
@@ -1004,20 +2748,31 @@
       260.0462951660156
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 15,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_a764bbd3",
+    "page_num": 10,
     "text": "to the expected benefits of data use).",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       254.26507568359375,
@@ -1025,20 +2780,31 @@
       266.90106201171875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 38,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_cc481223",
+    "page_num": 10,
     "text": "OF DATA",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       398.2923278808594,
       257.08233642578125,
@@ -1046,20 +2812,31 @@
       274.4463195800781
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 7,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_eef3cdc7",
+    "page_num": 10,
     "text": "For the purposes of this document, de-identification shall",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 27.83,
     "bbox": [
       302.3999938964844,
       302.280029296875,
@@ -1067,20 +2844,31 @@
       314.916015625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 27.83,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 58,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_70e153ef",
+    "page_num": 10,
     "text": "BIG",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       131.84429931640625,
       307.7463073730469,
@@ -1088,20 +2876,31 @@
       325.11029052734375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 3,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_edc1da1b",
+    "page_num": 10,
     "text": "mean a process of using all reasonable means to convert",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       302.3999938964844,
       314.27703857421875,
@@ -1109,20 +2908,31 @@
       326.91302490234375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 55,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_6e2b2beb",
+    "page_num": 10,
     "text": "DATA",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       131.84429931640625,
       322.14630126953125,
@@ -1130,42 +2940,129 @@
       339.5102844238281
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 4,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
-    "text": "personal data into anonymous data, such as that it cannot be traced back or linked to an individual(s) or group(s) of individuals. There are many different methods that could be used to de-identify data. Examples include data aggregation, masking, pseudonymization and k-anonymity. There are many definitions of big data. UN Global Pulse in its report \u201cBig data for development: Challenges and De-identified data may be stripped of all personal identifiers opportunities\u201d takes a traditional approach, defining big data such as name, date of birth, exact location, etc.); however, as \u201ca massive volume of both structured and unstructured as noted in the UN Global Pulse Data Innovation Risk data that is so large that it\u2019s difficult to process with traditional Assessment Tool guidance, this data, although not directly or database and software techniques. The characteristics which explicitly identifying or singling out an individual or group(s) broadly distinguish big data are sometimes called the \u20183 of individuals, can still be linked to an individual(s) or V\u2019s\u2019: more volume, more variety and higher rates of velocity.\u201d group(s) of individuals with the use of adequate technology, The report provides examples of such data, including data skills and intent and thus may require the same level of from sensors used to gather climate information, posts to protection as explicit personal data. social media sites, digital pictures and videos posted online, transaction records of online purchases, and from cell phone GPS signals. There are many types of big data with potential utility for",
-    "avg_font_size": 8.9,
+    "paragraph_id": "p_f986b407",
+    "page_num": 10,
+    "text": "personal data into anonymous data, such as that it cannot be traced back or linked to an individual(s) or group(s) of individuals. There are many different methods that could be used to de-identify data. Examples include data aggregation, masking, pseudonymization and k-anonymity. There are many definitions of big data. UN Global Pulse in its report \u201cBig data for development: Challenges and De-identified data may be stripped of all personal identifiers opportunities\u201d takes a traditional approach, defining big data such as name, date of birth, exact location, etc.); however, as \u201ca massive volume of both structured and unstructured as noted in the UN Global Pulse Data Innovation Risk data that is so large that it\u2019s difficult to process with traditional Assessment Tool guidance, this data, although not directly or database and software techniques. The characteristics which explicitly identifying or singling out an individual or group(s) broadly distinguish big data are sometimes called the \u20183",
+    "avg_font_size": 8.92,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.01,
+    "avg_line_height": 12.41,
+    "avg_height_to_font_ratio": 1.39,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       326.2740478515625,
       554.2112426757812,
-      554.7936401367188
+      458.88909912109375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 17,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 1004,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_5d339918",
+    "page_num": 10,
+    "text": "of individuals, can still be linked to an individual(s) or",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      302.3999938964844,
+      458.2501220703125,
+      521.0811767578125,
+      471.27313232421875
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "left",
-    "line_count": 28,
-    "line_spacing_avg": 11.9,
+    "alignment": "center",
+    "line_count": 1,
     "font_names": [
+      "ProximaNova-Regular",
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold",
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
-    "length": 1595,
-    "relative_font_size": 5
+    "length": 58,
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_e6d97043",
+    "page_num": 10,
+    "text": "V\u2019s\u2019: more volume, more variety and higher rates of velocity.\u201d group(s) of individuals with the use of adequate technology, The report provides examples of such data, including data skills and intent and thus may require the same level of from sensors used to gather climate information, posts to protection as explicit personal data. social media sites, digital pictures and videos posted online, transaction records of online purchases, and from cell phone GPS signals. There are many types of big data with potential utility for",
+    "avg_font_size": 8.86,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.01,
+    "avg_line_height": 12.26,
+    "avg_height_to_font_ratio": 1.38,
+    "line_spacing_avg": 11.9,
+    "bbox": [
+      36.0,
+      458.7023010253906,
+      549.3241577148438,
+      554.7936401367188
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 10,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "lower",
+    "length": 531,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_601aaee4",
+    "page_num": 10,
     "text": "DIGITAL",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       398.24432373046875,
       546.726318359375,
@@ -1173,20 +3070,31 @@
       564.09033203125
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 7,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_adb73429",
+    "page_num": 10,
     "text": "development. This document applies specifically to data",
     "avg_font_size": 8.8,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.09,
+    "avg_height_to_font_ratio": 1.37,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       554.6989135742188,
@@ -1194,20 +3102,31 @@
       566.7932739257812
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 55,
-    "relative_font_size": 4
+    "is_homogeneous": true,
+    "relative_font_size": 2
   },
   {
+    "paragraph_id": "p_61b3e7d4",
+    "page_num": 10,
     "text": "LITERACY",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       398.24432373046875,
       561.1262817382812,
@@ -1215,20 +3134,31 @@
       578.4902954101562
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 8,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
-    "text": "collected by the private sector in real time and that may be used for the observation of human behaviour by UNDG, thus affecting the decision-making process with regard to the individual(s) or group(s) of individuals.\u00a0Usually, such data For the purposes of this document, digital literacy means would be owned by an original author (e.g. a social media how people understand the data they work with or share, user) or a digital service provider (e.g. a social media platform, including how much they are aware of the positive and a mobile phone company, a bank, etc.). negative impacts of data use and sharing. Digital literacy concerns both actors who are using the data and those The International Telecommunication Union (ITU), in its whose data is being used. recommendation on \u201cBig data \u2013 Cloud computing based requirements and capabilities\u201d defines big data as",
-    "avg_font_size": 8.92,
+    "paragraph_id": "p_af62d976",
+    "page_num": 10,
+    "text": "collected by the private sector in real time and that may be used for the observation of human behaviour by UNDG, thus affecting the decision-making process with regard to the individual(s) or group(s) of individuals.\u00a0Usually, such data For the purposes of this document, digital literacy means would be owned by an original author (e.g. a social media how people understand the data they work with or share, user) or a digital service provider (e.g. a social media platform, including how much they are aware of the positive and mobile phone company, a bank, etc.). negative impacts of data use and sharing. Digital literacy concerns both actors who are using the data and those The International Telecommunication Union (ITU), in its whose data is being used. recommendation on \u201cBig data \u2013 Cloud computing based requirements and capabilities\u201d defines big data as",
+    "avg_font_size": 8.93,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.01,
+    "avg_line_height": 12.43,
+    "avg_height_to_font_ratio": 1.39,
+    "line_spacing_avg": 0.0,
     "bbox": [
       35.999900817871094,
       566.6984252929688,
@@ -1236,20 +3166,31 @@
       698.9219970703125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 16,
-    "line_spacing_avg": 0.0,
     "font_names": [
       "ProximaNova-Regular"
     ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
     "text_case": "lower",
-    "length": 866,
-    "relative_font_size": null
+    "length": 864,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_2b85450e",
+    "page_num": 10,
     "text": "9    DEFINITIONS & NOTES",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.83,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 63.7,
     "bbox": [
       36.0,
       762.6170043945312,
@@ -1257,20 +3198,31 @@
       772.4450073242188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 63.7,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "UPPER",
     "length": 24,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_423fdb96",
+    "page_num": 11,
     "text": "ENCRYPTION PERSONAL DATA",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       131.89430236816406,
       174.9722900390625,
@@ -1278,20 +3230,31 @@
       206.73631286621094
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 24,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_389c4ca9",
+    "page_num": 11,
     "text": "For the purposes of this document, personal data means data, In the glossary of the UN Archives and Records Management in any form or medium, relating to an identified or identifiable Section, encryption is defined as a \u201csecurity procedure that individual who can be identified, directly or indirectly, by means translates electronic data in plain text into a cipher code by reasonably likely to be used, including where an individual can means of either a code or a cryptographic system in order be identified by linking the data to other information reasonably to render it incomprehensible without the aid of the original available. Personal data is defined by many regional and code or cryptographic system\u201d. national instruments and can also be referenced as personal information or personally identifiable information.",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 23.51,
     "bbox": [
       36.0,
       230.24407958984375,
@@ -1299,20 +3262,31 @@
       326.859130859375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 14,
-    "line_spacing_avg": 23.51,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 824,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_8bd523a9",
+    "page_num": 11,
     "text": "GROUP(S) OF",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 7.85,
     "bbox": [
       131.89431762695312,
       334.7043151855469,
@@ -1320,20 +3294,31 @@
       352.06829833984375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 7.85,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 11,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_7ac3e73b",
+    "page_num": 11,
     "text": "Personal data can be made private by its owner by restricting",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       302.3999938964844,
       338.22613525390625,
@@ -1341,20 +3326,31 @@
       350.86212158203125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 61,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_f4723c13",
+    "page_num": 11,
     "text": "INDIVIDUALS",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       131.89431762695312,
       349.10430908203125,
@@ -1362,20 +3358,31 @@
       366.4682922363281
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 11,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_4e70d119",
+    "page_num": 11,
     "text": "access to it or made public by its owner (e.g. shared publicly on social media). While sharing (and oversharing) personal details about oneself and others on social networks has become more common, such publicly available information remains personal and it can pose risks to those individuals represented in the data. For the purposes of this document, reference to a group(s) of individuals also includes \u201clegal\u201d invisible (known or unknown) group(s) of individuals, as adapted from the human-rights based approach to data of the Office of the United Nations High Commissioner for Human Rights (OHCHR).",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       350.22314453125,
@@ -1383,20 +3390,31 @@
       470.89508056640625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 11,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 604,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_5d24074f",
+    "page_num": 11,
     "text": "PRIVACY",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       398.19830322265625,
       467.4963073730469,
@@ -1404,20 +3422,31 @@
       484.86029052734375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 7,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_5689336f",
+    "page_num": 11,
     "text": "MASKING",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 28.85,
     "bbox": [
       131.89431762695312,
       513.7083129882812,
@@ -1425,20 +3454,31 @@
       531.0723266601562
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 28.85,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 7,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_963a56d5",
+    "page_num": 11,
     "text": "A report of the Special Rapporteur to the Human Rights Council\u00a0(A/HRC/23/40) defines privacy as \u201cthe presumption that individuals should have an area of autonomous development, interaction and liberty, a \u2018private sphere\u2019 with or without interaction with others, free from State intervention and from For the purposes of this document, masking means a excessive unsolicited intervention by other individuals\u201d. While de-identification technique whereby the original personal the majority of literature and legislature concentrates on \u201cthe information collected from social media, such as comments, right to privacy\u201d, in another such report (A/HRC/31/64), it has photos and videos, is altered to such extent that it cannot been noted that there is currently no internationally accepted be traced back or linked to an individual(s) or group(s) definition of privacy. of individuals.",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       530.2052001953125,
@@ -1446,42 +3486,65 @@
       650.8770751953125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 16,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 878,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_410b24d3",
+    "page_num": 11,
     "text": "10 DATA PRIVACY, ETHICS AND PROTECTION: GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.04,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 111.74,
     "bbox": [
       36.0,
       762.6170043945312,
       465.149169921875,
       772.6549682617188
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 111.74,
     "font_names": [
-      "ProximaNova-Semibold",
-      "ProximaNova-Regular"
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 100,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_307839fc",
+    "page_num": 12,
     "text": "PRIVACY BY RE-IDENTIFICATION DESIGN",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       131.89430236816406,
       174.9722900390625,
@@ -1489,41 +3552,95 @@
       206.73631286621094
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 3,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 35,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
-    "text": "Privacy by Design 11 is an approach that promotes technology For the purposes of this document, re-identification means a process by which de-identified (anonymized) data becomes design and engineering to incorporate privacy into the re-identifiable again and thus can be traced back or linked design process from the start. The concept includes seven to an individual(s) or group(s) of individuals. As noted in guiding principles on privacy and security. UN Global Pulse Data Innovation Risk Assessment Tool guidance, to determine whether an individual(s) or group(s) of individuals is identifiable, consider all of the means reasonably likely to be used to single out an individual(s)",
-    "avg_font_size": 8.93,
+    "paragraph_id": "p_6a33610c",
+    "page_num": 12,
+    "text": "Privacy by Design 11 is an approach that promotes technology",
+    "avg_font_size": 8.17,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.94,
+    "avg_height_to_font_ratio": 1.58,
+    "line_spacing_avg": 23.25,
     "bbox": [
       36.0,
       229.9864959716797,
+      287.09466552734375,
+      242.9250030517578
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 60,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_b1cc5f9a",
+    "page_num": 12,
+    "text": "For the purposes of this document, re-identification means a process by which de-identified (anonymized) data becomes design and engineering to incorporate privacy into the re-identifiable again and thus can be traced back or linked design process from the start. The concept includes seven to an individual(s) or group(s) of individuals. As noted in guiding principles on privacy and security. UN Global Pulse Data Innovation Risk Assessment Tool guidance, to determine whether an individual(s) or group(s) of individuals is identifiable, consider all of the means reasonably likely to be used to single out an individual(s)",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      36.003692626953125,
+      230.2620849609375,
       547.9599609375,
       326.87713623046875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 12,
-    "line_spacing_avg": 23.25,
+    "alignment": "center",
+    "line_count": 11,
     "font_names": [
       "ProximaNova-Regular"
     ],
+    "primary_font_family": [
+      "ProximaNova-Regular"
+    ],
     "text_case": "lower",
-    "length": 686,
-    "relative_font_size": null
+    "length": 625,
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_99c6f8fd",
+    "page_num": 12,
     "text": "PSEUDONYMIZATION",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       131.89430236816406,
       321.7322998046875,
@@ -1531,20 +3648,31 @@
       339.0962829589844
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 16,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_6acd4a59",
+    "page_num": 12,
     "text": "or group(s) of individuals. Factors to consider regarding whether it is reasonably likely that an individual(s) or group(s) of individuals can be re-identified include the required expertise, costs and amount of time required for re-identification, and reasonably and commercially available technology. For the purposes of this document, pseudonymization means modifying personal data by removing or substituting all direct identifiers (e.g. in many instances name, address, date of birth, etc.) with other unique identifiers (e.g. in many",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.003692626953125,
       326.2381591796875,
@@ -1552,20 +3680,31 @@
       434.904052734375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 9,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 539,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_c609c266",
+    "page_num": 12,
     "text": "SENSITIVE DATA",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.36,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       398.19830322265625,
       430.80029296875,
@@ -1573,20 +3712,31 @@
       448.1642761230469
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 14,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   },
   {
+    "paragraph_id": "p_5339a04e",
+    "page_num": 12,
     "text": "instances hashing algorithms, ID numbers, etc.) in such a way that it is still possible to distinguish a unique individual in a data set. Masking is a type of pseudonymization.",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.003692626953125,
       434.26507568359375,
@@ -1594,20 +3744,31 @@
       470.89508056640625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 3,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 176,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_16422304",
+    "page_num": 12,
     "text": "For the purposes of this document, sensitive data should be considered as any data related to (i) racial or ethnic origin, (ii) political opinions, (iii) trade union association, (iv) religious beliefs or other beliefs of a similar nature, (v) physical or mental health or condition (or any genetic data), (vi) sexual orientation and other related activities, (vii) the commission or alleged commission of any offence, (viii) any information regarding judicial proceedings, (ix) any financial data, (x) children and (xi) an individual(s) or group(s) of individuals that face any risks of harm (e.g. physical, emotional, economic).",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 23.33,
     "bbox": [
       302.4036865234375,
       494.22320556640625,
@@ -1615,20 +3776,31 @@
       614.8321533203125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 10,
-    "line_spacing_avg": 23.33,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "lower",
     "length": 630,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_41c718f2",
+    "page_num": 12,
     "text": "11 The approach was developed by Dr. Ann Cavoukian. A summary is available at https://www.ipc.on.ca/wp-content/uploads/Resources/7foundationalprinciples.pdf",
     "avg_font_size": 6.5,
+    "normalized_font_size": 6.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.13,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 73.15,
     "bbox": [
       302.3999938964844,
       687.9865112304688,
@@ -1636,20 +3808,31 @@
       706.114990234375
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 3,
-    "line_spacing_avg": 73.15,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 156,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_f475a572",
+    "page_num": 12,
     "text": "11    DEFINITIONS & NOTES",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.83,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 56.5,
     "bbox": [
       36.0,
       762.6170043945312,
@@ -1657,20 +3840,31 @@
       772.4450073242188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 56.5,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "UPPER",
     "length": 25,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_244cd666",
+    "page_num": 13,
     "text": "ADDENDUM A",
     "avg_font_size": 32.0,
+    "normalized_font_size": 32.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 46.3,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       146.7517852783203,
@@ -1678,20 +3872,31 @@
       193.0557861328125
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 10,
-    "relative_font_size": 14
+    "is_homogeneous": true,
+    "relative_font_size": 11
   },
   {
+    "paragraph_id": "p_5e000104",
+    "page_num": 13,
     "text": "HOW DATA ANALYTICS CAN SUPPORT THE SDGS",
     "avg_font_size": 14.0,
+    "normalized_font_size": 14.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.66,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 7.62,
     "bbox": [
       36.0,
       200.6737823486328,
@@ -1699,20 +3904,31 @@
       220.3297882080078
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 7.62,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "UPPER",
     "length": 39,
-    "relative_font_size": 11
+    "is_homogeneous": true,
+    "relative_font_size": 8
   },
   {
+    "paragraph_id": "p_b3999f54",
+    "page_num": 13,
     "text": "BIG",
     "avg_font_size": 45.6,
+    "normalized_font_size": 45.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 54.72,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 86.53,
     "bbox": [
       134.36050415039062,
       306.86370849609375,
@@ -1720,20 +3936,31 @@
       361.5837097167969
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 86.53,
     "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
       "TradeGothic-BoldCondTwen"
     ],
     "text_case": "UPPER",
     "length": 3,
-    "relative_font_size": 15
+    "is_homogeneous": true,
+    "relative_font_size": 12
   },
   {
+    "paragraph_id": "p_30c39f20",
+    "page_num": 13,
     "text": "How data science",
     "avg_font_size": 21.01,
+    "normalized_font_size": 21.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.4,
+    "avg_height_to_font_ratio": 1.16,
+    "line_spacing_avg": 0.0,
     "bbox": [
       323.5213928222656,
       343.39202880859375,
@@ -1741,20 +3968,31 @@
       367.7895202636719
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "TradeGothic-Light"
+    ],
+    "primary_font_family": [
       "TradeGothic-Light"
     ],
     "text_case": "Mixed",
     "length": 16,
-    "relative_font_size": 13
+    "is_homogeneous": true,
+    "relative_font_size": 10
   },
   {
+    "paragraph_id": "p_ec1035ed",
+    "page_num": 13,
     "text": "DATA",
     "avg_font_size": 45.6,
+    "normalized_font_size": 45.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 54.72,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
     "bbox": [
       124.2373046875,
       352.4637145996094,
@@ -1762,20 +4000,31 @@
       407.1837158203125
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
       "TradeGothic-BoldCondTwen"
     ],
     "text_case": "UPPER",
     "length": 4,
-    "relative_font_size": 15
+    "is_homogeneous": true,
+    "relative_font_size": 12
   },
   {
+    "paragraph_id": "p_7b2b932a",
+    "page_num": 13,
     "text": "and analytics can",
     "avg_font_size": 21.01,
+    "normalized_font_size": 21.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.4,
+    "avg_height_to_font_ratio": 1.16,
+    "line_spacing_avg": 0.0,
     "bbox": [
       323.5213928222656,
       371.4039611816406,
@@ -1783,20 +4032,31 @@
       395.80145263671875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "TradeGothic-Light"
+    ],
+    "primary_font_family": [
       "TradeGothic-Light"
     ],
     "text_case": "lower",
     "length": 17,
-    "relative_font_size": 13
+    "is_homogeneous": true,
+    "relative_font_size": 10
   },
   {
+    "paragraph_id": "p_9e0c80a9",
+    "page_num": 13,
     "text": "SDGs",
     "avg_font_size": 45.6,
+    "normalized_font_size": 45.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 54.72,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 2.26,
     "bbox": [
       111.6061019897461,
       398.063720703125,
@@ -1804,20 +4064,31 @@
       452.7837219238281
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 2.26,
     "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
       "TradeGothic-BoldCondTwen"
     ],
     "text_case": "Mixed",
     "length": 4,
-    "relative_font_size": 15
+    "is_homogeneous": true,
+    "relative_font_size": 12
   },
   {
+    "paragraph_id": "p_7e13acdf",
+    "page_num": 13,
     "text": "contribute to sustainable development",
     "avg_font_size": 21.01,
+    "normalized_font_size": 21.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 24.4,
+    "avg_height_to_font_ratio": 1.16,
+    "line_spacing_avg": 3.61,
     "bbox": [
       323.5213928222656,
       399.4158935546875,
@@ -1825,20 +4096,31 @@
       451.8253173828125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 2,
-    "line_spacing_avg": 3.61,
     "font_names": [
+      "TradeGothic-Light"
+    ],
+    "primary_font_family": [
       "TradeGothic-Light"
     ],
     "text_case": "lower",
     "length": 37,
-    "relative_font_size": 13
+    "is_homogeneous": true,
+    "relative_font_size": 10
   },
   {
+    "paragraph_id": "p_1514f2f9",
+    "page_num": 13,
     "text": "www.unglobalpulse.org @UNGlobalPulse  2017",
     "avg_font_size": 9.5,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.08,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 129.38,
     "bbox": [
       150.1988983154297,
       706.4613647460938,
@@ -1846,64 +4128,833 @@
       732.7384033203125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 2,
-    "line_spacing_avg": 129.38,
     "font_names": [
       "TradeGothic-CondEighteen"
     ],
-    "text_case": "Mixed",
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "lower",
     "length": 42,
-    "relative_font_size": 7
+    "is_homogeneous": true,
+    "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_92916983",
+    "page_num": 13,
     "text": "12 DATA PRIVACY, ETHICS AND PROTECTION: GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.04,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 29.88,
     "bbox": [
       36.0,
       762.6170043945312,
       464.9811706542969,
       772.6549682617188
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 29.88,
     "font_names": [
-      "ProximaNova-Semibold",
-      "ProximaNova-Regular"
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 100,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
-    "text": "NO POVERTY CLEAN WATER REDUCED INEQUALITY LIFE BELOW WATER AND SANITATION Spending patterns on Speech-to-text analytics Maritime vessel tracking mobile phone services can Sensors connected to on local radio content data can reveal illegal, provide proxy indicators water pumps can track can reveal discrimination unregulated and unreported of income levels access to clean water concerns and support fishing activities policy response ZERO HUNGER AFFORDABLE AND LIFE ON LAND SUSTAINABLE CITIES CLEAN ENERGY Crowdsourcing or tracking Social media monitoring AND COMMUNITIES of food prices listed online Smart metering allows can support disaster Satellite remote sensing can help monitor food utility companies to management with can track encroachment security in near real-time increase or restrict the real-time information on public land or spaces flow of electricity, gas on victim location, GOOD HEALTH AND such as parks and forests or water to reduce waste effects and strength WELL-BEING and ensure adequate of forest fires or haze RESPONSIBLE Mapping the movement of supply at peak periods PEACE, JUSTICE CONSUMPTION AND mobile phone users can DECENT WORK AND AND STRONG PRODUCTION help predict the spread ECONOMIC GROWTH INSTITUTIONS Online search patterns or of infectious diseases Patterns in global postal Sentiment analysis of e-commerce transactions QUALITY EDUCATION traffic can provide indicators social media can reveal can reveal the pace Citizen reporting can such as economic growth, public opinion on effective of transition to energy reveal reasons for remittances, trade and GDP governance, public service efficient products student drop-out rates delivery or human rights INDUSTRY, CLIMATE ACTION GENDER EQUALITY PARTNERSHIPS INNOVATION AND Combining satellite imagery, FOR THE GOALS INFRASTRUCTURE crowd-sourced witness Analysis of financial accounts and open data can transactions can reveal Partnerships to enable the Data from GPS devices help track deforestation the spending patterns combining of statistics, can be used for traffic and different impacts mobile and internet data can control and to improve of economic shocks on provide a better and real- public transport men and women time understanding of today\u2019s hyper-connected world",
+    "paragraph_id": "p_62b9f34a",
+    "page_num": 14,
+    "text": "NO POVERTY CLEAN WATER REDUCED INEQUALITY LIFE BELOW WATER AND SANITATION",
     "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      68.07600402832031,
+      277.0211181640625,
+      537.37939453125,
+      302.5813903808594
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 5,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 73,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_48a73377",
+    "page_num": 14,
+    "text": "Spending patterns on Speech-to-text analytics Maritime vessel tracking mobile phone services can Sensors connected to on local radio content data can reveal illegal, provide proxy indicators water pumps can track can reveal discrimination unregulated and unreported of income levels access to clean water concerns and support fishing activities policy response",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      43.388484954833984,
+      289.64306640625,
+      541.0654907226562,
+      352.2400207519531
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 16,
+    "font_names": [
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "lower",
+    "length": 360,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_21cba3bd",
+    "page_num": 14,
+    "text": "ZERO HUNGER AFFORDABLE AND LIFE ON LAND SUSTAINABLE CITIES CLEAN ENERGY",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      68.07600402832031,
+      351.8269348144531,
+      524.941650390625,
+      377.38720703125
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 5,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 71,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_05bac5db",
+    "page_num": 14,
+    "text": "Crowdsourcing or tracking Social media monitoring",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      43.388484954833984,
+      364.4488830566406,
+      531.2362670898438,
+      377.16900634765625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "Mixed",
+    "length": 49,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_a902125a",
+    "page_num": 14,
+    "text": "AND COMMUNITIES",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      329.88970947265625,
+      376.76373291015625,
+      404.7486877441406,
+      389.85479736328125
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 15,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_6983ec14",
+    "page_num": 14,
+    "text": "of food prices listed online Smart metering allows can support disaster Satellite remote sensing can help monitor food utility companies to management with can track encroachment security in near real-time increase or restrict the real-time information on public land or spaces flow of electricity, gas on victim location,",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      43.388484954833984,
+      376.9180908203125,
+      520.3488159179688,
+      427.04583740234375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 14,
+    "font_names": [
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "lower",
+    "length": 322,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_a2ec863f",
+    "page_num": 14,
+    "text": "GOOD HEALTH AND",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      68.0802993774414,
+      426.6327209472656,
+      143.33413696289062,
+      439.7237854003906
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 15,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_9f47dc7e",
+    "page_num": 14,
+    "text": "such as parks and forests or water to reduce waste effects and strength",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      174.302978515625,
+      426.7933044433594,
+      516.1051635742188,
+      439.5150451660156
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "font_names": [
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "lower",
+    "length": 71,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_c7b4b14d",
+    "page_num": 14,
+    "text": "WELL-BEING",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      68.06939697265625,
+      439.1019287109375,
+      117.54259490966797,
+      452.1929931640625
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_36efc330",
+    "page_num": 14,
+    "text": "and ensure adequate of forest fires or haze",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      174.302978515625,
+      439.2641296386719,
+      518.5379028320312,
+      451.9842529296875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "lower",
+    "length": 43,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_2c5dab2b",
+    "page_num": 14,
+    "text": "RESPONSIBLE",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      329.9006042480469,
+      451.5680236816406,
+      389.9775695800781,
+      464.6590881347656
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 11,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_5e7a4fff",
+    "page_num": 14,
+    "text": "Mapping the movement of supply at peak periods",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      43.39278030395508,
+      451.723876953125,
+      262.7439270019531,
+      464.4534606933594
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "Mixed",
+    "length": 46,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_c41766fc",
+    "page_num": 14,
+    "text": "PEACE, JUSTICE CONSUMPTION AND",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      329.88970947265625,
+      464.0356140136719,
+      525.8416137695312,
+      477.1282958984375
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 2,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 30,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_e92b9fa7",
+    "page_num": 14,
+    "text": "mobile phone users can",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      43.39278030395508,
+      464.1930847167969,
+      136.08831787109375,
+      476.9132080078125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "lower",
+    "length": 22,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_0e1d3233",
+    "page_num": 14,
+    "text": "DECENT WORK AND AND STRONG PRODUCTION",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      198.9906005859375,
+      476.50323486328125,
+      515.9348754882812,
+      489.5975036621094
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 3,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 37,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_3738ae85",
+    "page_num": 14,
+    "text": "help predict the spread",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      43.39278030395508,
+      476.66229248046875,
+      134.2664794921875,
+      489.3824157714844
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "lower",
+    "length": 23,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_613d1704",
+    "page_num": 14,
+    "text": "ECONOMIC GROWTH INSTITUTIONS",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      198.9796905517578,
+      488.9724426269531,
+      517.876708984375,
+      502.0650939941406
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 28,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_18dbf9ad",
+    "page_num": 14,
+    "text": "Online search patterns or of infectious diseases Patterns in global postal Sentiment analysis of e-commerce transactions",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      43.39278030395508,
+      489.12835693359375,
+      520.9421997070312,
+      514.3176879882812
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "font_names": [
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "Mixed",
+    "length": 120,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_14b17908",
+    "page_num": 14,
+    "text": "QUALITY EDUCATION",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      68.07600402832031,
+      513.9061279296875,
+      148.19424438476562,
+      526.9971923828125
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 17,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_4fb8a0ca",
+    "page_num": 14,
+    "text": "traffic can provide indicators social media can reveal can reveal the pace Citizen reporting can such as economic growth, public opinion on effective of transition to energy reveal reasons for remittances, trade and GDP governance, public service efficient products student drop-out rates delivery or human rights",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      43.388484954833984,
+      514.0635986328125,
+      539.7277221679688,
+      564.1929321289062
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 13,
+    "font_names": [
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "lower",
+    "length": 313,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_7416c679",
+    "page_num": 14,
+    "text": "INDUSTRY, CLIMATE ACTION GENDER EQUALITY PARTNERSHIPS INNOVATION AND",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      68.07599639892578,
+      563.7767333984375,
+      523.8124389648438,
+      589.3370361328125
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 5,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 68,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_4ac121c6",
+    "page_num": 14,
+    "text": "Combining satellite imagery,",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      305.1979064941406,
+      576.3582763671875,
+      417.1153869628906,
+      589.0784301757812
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
+    ],
+    "text_case": "Mixed",
+    "length": 28,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_9f1dec02",
+    "page_num": 14,
+    "text": "FOR THE GOALS INFRASTRUCTURE",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.09,
+    "avg_height_to_font_ratio": 1.2,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      198.9796905517578,
+      588.7135009765625,
+      522.0986328125,
+      601.8062133789062
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 2,
+    "font_names": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-BoldCondTwen"
+    ],
+    "text_case": "UPPER",
+    "length": 28,
+    "is_homogeneous": true,
+    "relative_font_size": 6
+  },
+  {
+    "paragraph_id": "p_00a76c49",
+    "page_num": 14,
+    "text": "crowd-sourced witness Analysis of financial accounts and open data can transactions can reveal Partnerships to enable the Data from GPS devices help track deforestation the spending patterns combining of statistics, can be used for traffic and different impacts mobile and internet data can control and to improve of economic shocks on provide a better and real- public transport men and women time understanding of today\u2019s hyper-connected world",
+    "avg_font_size": 10.91,
+    "normalized_font_size": 11.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.72,
+    "avg_height_to_font_ratio": 1.17,
+    "line_spacing_avg": 0.0,
     "bbox": [
       43.38847351074219,
-      277.0211181640625,
+      588.7838134765625,
       547.6260375976562,
       676.4016723632812
     ],
-    "is_bold": true,
+    "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 108,
-    "line_spacing_avg": 0.0,
+    "alignment": "center",
+    "line_count": 19,
     "font_names": [
-      "TradeGothic-CondEighteen",
-      "TradeGothic-BoldCondTwen"
+      "TradeGothic-CondEighteen"
+    ],
+    "primary_font_family": [
+      "TradeGothic-CondEighteen"
     ],
     "text_case": "lower",
-    "length": 2268,
-    "relative_font_size": 9
+    "length": 445,
+    "is_homogeneous": true,
+    "relative_font_size": 6
   },
   {
+    "paragraph_id": "p_5888118f",
+    "page_num": 14,
     "text": "13    ADDENDUM A",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.83,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 86.22,
     "bbox": [
       36.0,
       762.6170043945312,
@@ -1911,20 +4962,31 @@
       772.4450073242188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 86.22,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "UPPER",
     "length": 16,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_4b5ae109",
+    "page_num": 15,
     "text": "BIBLIOGRAPHY",
     "avg_font_size": 32.0,
+    "normalized_font_size": 32.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 46.3,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 0.0,
     "bbox": [
       36.0,
       146.7517852783203,
@@ -1932,20 +4994,31 @@
       193.0557861328125
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "UPPER",
     "length": 12,
-    "relative_font_size": 14
+    "is_homogeneous": true,
+    "relative_font_size": 11
   },
   {
+    "paragraph_id": "p_c8e24e24",
+    "page_num": 15,
     "text": "International Committee of the Red Asia-Pacific Economic Cooperation Organization of American States (1969). Cross (2015). ICRC Code of Conduct on (2005) APEC Privacy Framework. American Convention on Human Rights, Data Protection. November. Geneva, December. Singapore: APEC Secretariat. \u201cPact of San Jose\u201d, Costa Rica. 22 Switzerland: ICRC. November. Washington, DC: OAS. (art. 11). Cavoukian, Ann (2011). Privacy by Design: International Committee of the Red Cross The 7 Foundational Principles. January. (2016). ICRC Rules on Personal Data Ontario, Canada: Information and Privacy United Nations (1989). Convention on the Protection. January. Geneva, Switzerland: Commissioner of Ontario. Rights of the Child. Treaty Series 1577 ICRC. (1989): 3 (art. 16). Council of Europe (1981). Convention International Conference of Data for the Protection of Individuals with United Nations Archives and Records Protection and Privacy Commissioners, regard to Automatic Processing of Management Section. Glossary of Resolution on Data Protection and Personal Data. 28 January. ETS No. 108. Recordkeeping Terms. International Organizations. Strasbourg, Austria. United Nations Children\u2019s Fund (2007). International Organization for Migration (1953). European Convention for The Paris Principles: Principles and (2010). IOM Data Protection Manual. the Protection of Human Rights and Guidelines on Children Associated Geneva, Switzerland: IOM. Fundamental Freedoms, as amended with Armed Forces or Armed Groups. by Protocols Nos. 11 and 14. 4 November. February. New York: UNICEF. International Organization for ETS 5 (art 8). Standardization. Online Collection: United Nations Data Revolution Group Information Security Management Economic Community of West African (2014). A World that Counts: Mobilising Systems. Geneva, Switzerland: ISO. States (2010). Supplementary Act A/ the data revolution for sustainable SA.1/01/10 on Personal Data Protection development. The UN Secretary-General\u2019s International Telecommunication Union within ECOWAS. 16 February. Independent Expert Advisory Group (2015). Recommendation Y.3600. Big on a Data Revolution for Sustainable data \u2013 Cloud computing based require- Development. November. European Union (2016). Regulation (EU) ments and capabilities. 6 November. 2016/679 of the European Parliament and of the Council of 27 April 2016 on United Nations Development Programme Organisation for Economic Co-operation the protection of natural persons with and United Nations Global Pulse and Development (1980). OECD regard to the processing of personal (2016). A Guide to Data Innovation for Guidelines on the Protection of Privacy data and on the free movement of such Development \u2013 From ideas to proof-of- and Transborder Flows of Personal Data. data, and repealing Directive 95/46/ concept. New York: UN. 23 September. Paris: OECD. EC (General Data Protection Regulation) (Text with EEA relevance).",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 61.18,
     "bbox": [
       36.0,
       254.23504638671875,
@@ -1953,42 +5026,65 @@
       674.8680419921875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "left",
+    "alignment": "center",
     "line_count": 86,
-    "line_spacing_avg": 61.18,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 2927,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_565068c4",
+    "page_num": 15,
     "text": "14 DATA PRIVACY, ETHICS AND PROTECTION: GUIDANCE NOTE ON BIG DATA FOR ACHIEVEMENT OF THE 2030 AGENDA",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.04,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 87.75,
     "bbox": [
       36.0,
       762.6170043945312,
       464.77117919921875,
       772.6549682617188
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 87.75,
     "font_names": [
-      "ProximaNova-Semibold",
-      "ProximaNova-Regular"
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
+      "ProximaNova-Regular",
+      "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 100,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_3caeee65",
+    "page_num": 16,
     "text": "United Nations Statistical Commission Big data for development: Challenges United Nations Economic Commission (2015). Report of the Global Working and opportunities, p. 13. for Europe (2014). The Role of Big Group on Big Data for Official Statistics. Data in the Modernisation of Statistical 17 December. E/CN.3/2016/6. Principles. Data Privacy and Data Production. Geneva, Switzerland: UNECE. Protection Principles. United Nations, Human Rights Council United Nations General Assembly (2016). (2016). Report of the Special Rapporteur Privacy Tools. Risks, Harms, Benefits Quadrennial comprehensive policy on the right to privacy, Joseph A. Assessment. review of operational activities for devel- Cannataci. 8 March. A/HRC/31/64, pp. opment of the United Nations system. 28 6, 10. Annex II. A more in-depth look at United Nations High Commissioner for October. A/C.2/71/L.37. Open Data & Big Data. Human Rights (2016). A Human Rights- Based Approach to Data: Leaving No A/70/L.1 (2015). Transforming Our World: Report of the Special Rapporteur on the One Behind in the 2030 Development the 2030 Agenda for Sustainable promotion and protection of the right to Agenda, Guidance Note to Data Development. 18 September. freedom of opinion and expression, Frank Collection and Disaggregation. 19 La Rue. 17 April. A/HRC/23/40, p. 6. February. Geneva, Switzerland; UNHCR. A/RES/68/261 from 29 January 2014 (2014). Fundamental Principles of Official World Food Programme (2017). WFP (2015). Policy on the Protection of Statistics. 3 March. Guide to Personal Data\u00a0Protection and Personal Data of Persons of Concern Privacy. 22 February. Rome: WFP. to UNHCR. May. Geneva, Switzerland: A/RES/45/158 (1990). International UNHCR. Convention on the Protection of the World Health Organization (2016). Rights of All Migrant Workers and Guidance on Good Data and Record United Nations Human Rights Committee Members of their Families (art. 14). 18 Management Practices. WHO Technical (1988). CCPR General Comment No 16: December. Report Series, No. 996. Annex 5. Article 17 (Right to Privacy), The Right to Respect of Privacy, Family, Home and A/RES/45/95 (1990).Guidelines for the Correspondence, and Protection of regulation of computerized personal data Honour and Reputation. 8 April. files. 14 December. United Nations Information Security 2200/A (XXI) (1966).International Special Interest Group (June 2013). Use Covenant on Civil and Political Rights. 19 of Cloud Computing in the UN System, December. UN Treaty Series, vol. 999, Recommendations for Risk Mitigation. No. 14668, p. 171 and vol. 1057, p. 4019 (art. 17). United Nations International Law Commission (2006). Report on the 217 A (III) (1948). The Universal work of the fifty-eight session (2006). Declaration of Human Rights. 10 Annex IV. Protection of Personal Data in December. Paris, France. (art. 12). Transborder Flow of Information.",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.64,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 11.32,
     "bbox": [
       36.0,
       254.19012451171875,
@@ -1996,20 +5092,31 @@
       722.8291015625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 84,
-    "line_spacing_avg": 11.32,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "Mixed",
     "length": 2892,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_28735443",
+    "page_num": 16,
     "text": "15    BIBLIOGRAPHY",
     "avg_font_size": 7.0,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 9.83,
+    "avg_height_to_font_ratio": 1.4,
+    "line_spacing_avg": 39.79,
     "bbox": [
       36.0,
       762.6170043945312,
@@ -2017,20 +5124,31 @@
       772.4450073242188
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 39.79,
     "font_names": [
+      "ProximaNova-Regular"
+    ],
+    "primary_font_family": [
       "ProximaNova-Regular"
     ],
     "text_case": "UPPER",
     "length": 18,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_1565c3d3",
+    "page_num": 18,
     "text": "The United Nations Development Group (UNDG) unites the 32 UN funds, programmes, specialized agencies, departments, and offices that play a role in development. Since 2008, the UNDG has been one of the three pillars of the UN System Chief Executives Board for Coordination, the highest-level coordination forum of the United Nations system. At the regional level, six Regional UNDG Teams play a critical role in driving UNDG priorities by supporting UN Country Teams with strategic priority setting, analysis and advice. At the country level, 131 UN Country Teams serving 165 countries and territories work together to increase the synergies and joint impact of the UN system. The Development Operations Coordination Office (DOCO) is the secretariat of the UNDG, bringing together the UN development system to promote change and innovation to deliver together on sustainable development.",
     "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.45,
+    "line_spacing_avg": 10.98,
     "bbox": [
       57.599998474121094,
       170.28912353515625,
@@ -2038,36 +5156,51 @@
       423.27923583984375
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 18,
-    "line_spacing_avg": 10.98,
     "font_names": [
+      "ProximaNova-Bold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Bold"
     ],
     "text_case": "Mixed",
     "length": 886,
-    "relative_font_size": 6
+    "is_homogeneous": true,
+    "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_359e4ae8",
+    "page_num": 18,
     "text": "@UNDGDOCO  WWW.UNDG.ORG",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 17.21,
+    "avg_height_to_font_ratio": 1.43,
+    "line_spacing_avg": 319.77,
     "bbox": [
       57.599998474121094,
       743.052001953125,
       258.05999755859375,
       760.260009765625
     ],
-    "is_bold": false,
+    "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": true,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 319.77,
     "font_names": [
+      "ProximaNova-Semibold"
+    ],
+    "primary_font_family": [
       "ProximaNova-Semibold"
     ],
     "text_case": "UPPER",
     "length": 23,
-    "relative_font_size": 10
+    "is_homogeneous": true,
+    "relative_font_size": 7
   }
 ]

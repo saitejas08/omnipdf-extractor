@@ -1,30 +1,719 @@
 [
   {
-    "text": "Application form for grant of LTC advance Name of the Government Servant 1. Designation 2. Date of entering the Central Government 3. Service PAY + SI + NPA 4. Whether permanent or temporary 5. 6. Home Town as recorded in the Service Book Whether wife / husband is employed and if 7. so whether entitled to LTC Whether the concession is to be availed for visiting home town and if so block for which 8. LTC is to be availed. (a) If the concession is to visit anywhere in India, the place to be visited. 9. (b) Block for which to be availed. Single rail fare/bus fare from the headquarters to home town/place of visit by 10. shortest route. Persons in respect of whom LTC is proposed to be availed. S.No Name Age Relationship 1. 2. 11. 3. 4. 5. 6. 12. Amount of advance required. Rs.",
-    "avg_font_size": 9.78,
+    "paragraph_id": "p_e66fb43f",
+    "page_num": 0,
+    "text": "Application form for grant of LTC advance",
+    "avg_font_size": 11.67,
+    "normalized_font_size": 11.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 13.02,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      199.86000061035156,
+      106.07836151123047,
+      437.190673828125,
+      119.10208129882812
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Arial,Bold"
+    ],
+    "primary_font_family": [
+      "Arial,Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 41,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_9a9827aa",
+    "page_num": 0,
+    "text": "Name of the Government Servant",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 13.89,
+    "bbox": [
+      95.99856567382812,
+      132.9924774169922,
+      243.4400634765625,
+      144.7442169189453
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
+      "Tahoma"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_806865b2",
+    "page_num": 0,
+    "text": "1.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.0,
     "bbox": [
       70.0199966430664,
-      106.07836151123047,
+      135.93528747558594,
+      82.12254333496094,
+      147.68702697753906
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_50f43085",
+    "page_num": 0,
+    "text": "Designation",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 3.36,
+    "bbox": [
+      95.99856567382812,
+      151.0488739013672,
+      149.32675170898438,
+      162.8006134033203
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
+      "Tahoma"
+    ],
+    "text_case": "Title",
+    "length": 11,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_caf2d682",
+    "page_num": 0,
+    "text": "2.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      70.0199966430664,
+      154.05015563964844,
+      82.12254333496094,
+      165.80189514160156
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_4b59a4ea",
+    "page_num": 0,
+    "text": "Date of entering the Central Government",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 3.36,
+    "bbox": [
+      95.99856567382812,
+      169.1637420654297,
+      296.01995849609375,
+      180.9154815673828
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
+      "Tahoma"
+    ],
+    "text_case": "Mixed",
+    "length": 39,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_aeb6f8c2",
+    "page_num": 0,
+    "text": "3.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.01,
+    "bbox": [
+      70.0199966430664,
+      180.9252166748047,
+      82.12254333496094,
+      192.6769561767578
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_a42fac11",
+    "page_num": 0,
+    "text": "Service PAY + SI + NPA",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 6.36,
+    "bbox": [
+      95.99856567382812,
+      186.74266052246094,
+      168.8944854736328,
+      216.6092071533203
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 2,
+    "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
+      "Tahoma"
+    ],
+    "text_case": "Title",
+    "length": 22,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_2cfdb1dc",
+    "page_num": 0,
+    "text": "4.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      70.0199966430664,
+      207.80027770996094,
+      82.12254333496094,
+      219.55201721191406
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_6c511c24",
+    "page_num": 0,
+    "text": "Whether permanent or temporary",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 3.36,
+    "bbox": [
+      95.99856567382812,
+      222.9138641357422,
+      244.10366821289062,
+      234.6656036376953
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
+      "Tahoma"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_1ace7e94",
+    "page_num": 0,
+    "text": "5. 6.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 3.43,
+    "bbox": [
+      70.0199966430664,
+      225.91514587402344,
+      82.12254333496094,
+      252.84864807128906
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 5,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_6d3e00e5",
+    "page_num": 0,
+    "text": "Home Town as recorded in the Service Book Whether wife / husband is employed and if",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.43,
+    "bbox": [
+      95.99856567382812,
+      241.09690856933594,
+      295.9496765136719,
+      265.0292053222656
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 2,
+    "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
+      "Tahoma"
+    ],
+    "text_case": "Mixed",
+    "length": 83,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_c4b8a1cb",
+    "page_num": 0,
+    "text": "7.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.01,
+    "bbox": [
+      70.0199966430664,
+      265.0389404296875,
+      82.12254333496094,
+      276.7906799316406
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_76c5d4e8",
+    "page_num": 0,
+    "text": "so whether entitled to LTC Whether the concession is to be availed for visiting home town and if so block for which",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 6.1,
+    "bbox": [
+      95.99856567382812,
+      270.85638427734375,
+      296.0480651855469,
+      318.3116149902344
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 3,
+    "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
+      "Tahoma"
+    ],
+    "text_case": "Mixed",
+    "length": 115,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_b1e64e68",
+    "page_num": 0,
+    "text": "8.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      70.0199966430664,
+      309.5611572265625,
+      82.12254333496094,
+      321.3128967285156
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_46f706b8",
+    "page_num": 0,
+    "text": "LTC is to be availed. (a) If the concession is to visit anywhere in India, the place to be visited.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 5.02,
+    "bbox": [
+      95.99856567382812,
+      324.19720458984375,
+      296.0063171386719,
+      371.6427001953125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 3,
+    "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
+      "Tahoma"
+    ],
+    "text_case": "Mixed",
+    "length": 99,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_5a3036c6",
+    "page_num": 0,
+    "text": "9.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      70.0199966430664,
+      362.833740234375,
+      82.12254333496094,
+      374.58551025390625
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_d063ee8d",
+    "page_num": 0,
+    "text": "(b) Block for which to be availed. Single rail fare/bus fare from the headquarters to home town/place of visit by",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 5.03,
+    "bbox": [
+      95.99856567382812,
+      377.4698486328125,
+      296.081298828125,
+      424.925048828125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 8,
+    "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
+      "Tahoma"
+    ],
+    "text_case": "lower",
+    "length": 113,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_04f77b10",
+    "page_num": 0,
+    "text": "10.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      70.0199966430664,
+      416.174560546875,
+      88.30438995361328,
+      427.92633056640625
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 3,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_040ff4b0",
+    "page_num": 0,
+    "text": "shortest route. Persons in respect of whom LTC is proposed to be availed.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 4.63,
+    "bbox": [
+      95.99856567382812,
+      430.752197265625,
+      350.760986328125,
+      460.6869812011719
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 2,
+    "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
+      "Tahoma"
+    ],
+    "text_case": "lower",
+    "length": 73,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_de60389f",
+    "page_num": 0,
+    "text": "S.No Name Age Relationship 1. 2. 11. 3. 4. 5. 6. 12. Amount of advance required.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 12.24,
+    "avg_height_to_font_ratio": 1.26,
+    "line_spacing_avg": 2.54,
+    "bbox": [
+      70.0199966430664,
+      464.05853271484375,
       508.57159423828125,
       578.7598876953125
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 48,
-    "line_spacing_avg": 3.98,
+    "alignment": "unknown",
+    "line_count": 12,
     "font_names": [
-      "Arial,Bold",
       "Tahoma-Bold",
       "Tahoma"
     ],
+    "primary_font_family": [
+      "Tahoma-Bold"
+    ],
     "text_case": "Mixed",
-    "length": 782,
-    "relative_font_size": null
+    "length": 80,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_feaefdb3",
+    "page_num": 0,
+    "text": "Rs.",
+    "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      304.39227294921875,
+      561.1322631835938,
+      320.7657775878906,
+      572.8839721679688
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
+      "Tahoma"
+    ],
+    "text_case": "Title",
+    "length": 3,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_57ab2d73",
+    "page_num": 0,
     "text": "I declare that the particulars furnished above are true and correct to the best of my knowledge.  I undertake to produce the tickets for the outward journey within ten days of receipt of the advance. In the event of cancellation of the journey or if I fail to produce the tickets within ten days of receipt of advance, I undertake to refund the entire advance in one lump sum.",
     "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 11.91,
     "bbox": [
       70.0296630859375,
       596.8357543945312,
@@ -32,20 +721,31 @@
       655.574951171875
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "left",
+    "alignment": "unknown",
     "line_count": 4,
-    "line_spacing_avg": 11.91,
     "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
       "Tahoma"
     ],
     "text_case": "Mixed",
     "length": 376,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_4203ba78",
+    "page_num": 0,
     "text": "Date Signature of Government Servant.",
     "avg_font_size": 9.74,
+    "normalized_font_size": 9.5,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.75,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 11.71,
     "bbox": [
       70.0394287109375,
       678.9810180664062,
@@ -53,15 +753,19 @@
       702.4942626953125
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 11.71,
     "font_names": [
       "Tahoma-Bold"
     ],
-    "text_case": "Mixed",
+    "primary_font_family": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Title",
     "length": 37,
+    "is_homogeneous": true,
     "relative_font_size": 0
   }
 ]

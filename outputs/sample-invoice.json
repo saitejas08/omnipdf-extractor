@@ -1,7 +1,14 @@
 [
   {
+    "paragraph_id": "p_73cbcfec",
+    "page_num": 0,
     "text": "CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main",
     "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
     "bbox": [
       58.560001373291016,
       160.64120483398438,
@@ -9,85 +16,319 @@
       168.40159606933594
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 64,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
-    "text": "Musterkunde AG Mr. John Doe Musterstr. 23 12345 Musterstadt Name:  Stefanie M\u00fcller Phone: +49 9371 9786-0",
-    "avg_font_size": 9.32,
+    "paragraph_id": "p_7770382c",
+    "page_num": 0,
+    "text": "Musterkunde AG Mr. John Doe Musterstr. 23 12345 Musterstadt",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 4.5,
     "bbox": [
       59.040000915527344,
       182.64617919921875,
+      141.4530792236328,
+      230.8315887451172
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 59,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_b313854e",
+    "page_num": 0,
+    "text": "Name:  Stefanie M\u00fcller Phone: +49 9371 9786-0",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 3.4,
+    "bbox": [
+      364.8699951171875,
+      221.4637908935547,
       453.2857971191406,
       242.7883758544922
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "left",
-    "line_count": 6,
-    "line_spacing_avg": 4.28,
+    "alignment": "center",
+    "line_count": 2,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Title",
-    "length": 105,
-    "relative_font_size": null
-  },
-  {
-    "text": "Invoice WMACCESS Internet VAT No. DE199378386 Date Customer No Invoice Period Invoice No 01.02.2024 - 29.02.2024 1. M\u00e4rz 2024 12345 123100401",
-    "avg_font_size": 9.38,
-    "bbox": [
-      58.79999923706055,
-      294.27618408203125,
-      533.0501098632812,
-      355.5799865722656
-    ],
-    "is_bold": true,
-    "is_upper": false,
-    "alignment": "right",
-    "line_count": 10,
-    "line_spacing_avg": 17.66,
-    "font_names": [
-      "Arial-BoldMT",
-      "ArialMT"
-    ],
-    "text_case": "Mixed",
-    "length": 141,
-    "relative_font_size": null
-  },
-  {
-    "text": "Amount Service Description Total Amount quantity -without VAT- 130,00 \u20ac Basic Fee wmView 130,00 \u20ac Basis fee for additional user accounts 0,00 \u20ac 10,00 \u20ac 0,00 \u20ac Basic Fee wmPos 50,00 \u20ac 0,00 \u20ac Basic Fee wmGuide 1.000,00 \u20ac Change of user accounts 0,00 \u20ac 10,00 \u20ac Transaction Fee T1 8,12 \u20ac 0,58 \u20ac 14 Transaction Fee T2 0,00 \u20ac 0,70 \u20ac 243,00 \u20ac Transaction Fee T3 1,50 \u20ac 162 0,00 \u20ac Transaction Fee T4 0,50 \u20ac Transaction Fee T5 0,00 \u20ac 0,80 \u20ac Transaction Fee T6 0,00 \u20ac 1,80 \u20ac Transaction Fee G1 0,00 \u20ac 0,30 \u20ac 0,00 \u20ac Transaction Fee G2 0,30 \u20ac Transaction Fee G3 0,00 \u20ac 0,40 \u20ac Transaction Fee G4 0,00 \u20ac 0,40 \u20ac Transaction Fee G5 0,00 \u20ac 0,30 \u20ac Transaction Fee G6 0,00 \u20ac 0,30 \u20ac Total 381,12 \u20ac VAT 19 % 72,41 \u20ac Gross Amount incl. VAT 453,53 \u20ac",
-    "avg_font_size": 8.04,
-    "bbox": [
-      58.79999923706055,
-      371.61376953125,
-      561.3550415039062,
-      637.6683959960938
-    ],
-    "is_bold": true,
-    "is_upper": false,
-    "alignment": "right",
-    "line_count": 64,
-    "line_spacing_avg": 3.58,
-    "font_names": [
-      "Arial-BoldMT",
-      "ArialMT"
-    ],
-    "text_case": "Mixed",
-    "length": 726,
+    "length": 45,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_c7d76384",
+    "page_num": 0,
+    "text": "Invoice WMACCESS Internet",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 51.49,
+    "bbox": [
+      59.040000915527344,
+      294.27618408203125,
+      194.55577087402344,
+      305.381591796875
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Arial-BoldMT"
+    ],
+    "primary_font_family": [
+      "Arial-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 25,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_040acb02",
+    "page_num": 0,
+    "text": "VAT No. DE199378386",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 14.51,
+    "bbox": [
+      58.79999923706055,
+      319.8937683105469,
+      143.02703857421875,
+      328.8583679199219
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Arial-BoldMT"
+    ],
+    "primary_font_family": [
+      "Arial-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 19,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_e9f16335",
+    "page_num": 0,
+    "text": "Date Customer No Invoice Period Invoice No",
+    "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 2.02,
+    "bbox": [
+      100.22000122070312,
+      330.8761901855469,
+      517.3032836914062,
+      342.46160888671875
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "font_names": [
+      "Arial-BoldMT"
+    ],
+    "primary_font_family": [
+      "Arial-BoldMT"
+    ],
+    "text_case": "Title",
+    "length": 42,
+    "is_homogeneous": true,
+    "relative_font_size": 3
+  },
+  {
+    "paragraph_id": "p_bd4da74a",
+    "page_num": 0,
+    "text": "01.02.2024 - 29.02.2024 1. M\u00e4rz 2024 12345 123100401",
+    "avg_font_size": 9.0,
+    "normalized_font_size": 9.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 10.04,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 2.6,
+    "bbox": [
+      103.0999984741211,
+      345.06500244140625,
+      533.0501098632812,
+      355.5799865722656
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 52,
+    "is_homogeneous": true,
+    "relative_font_size": 2
+  },
+  {
+    "paragraph_id": "p_2fd9f04d",
+    "page_num": 0,
+    "text": "Amount Service Description Total Amount quantity -without VAT-",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 16.03,
+    "bbox": [
+      138.86000061035156,
+      371.61376953125,
+      532.1793823242188,
+      391.13836669921875
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "font_names": [
+      "Arial-BoldMT"
+    ],
+    "primary_font_family": [
+      "Arial-BoldMT"
+    ],
+    "text_case": "Title",
+    "length": 62,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_7cf6b879",
+    "page_num": 0,
+    "text": "130,00 \u20ac Basic Fee wmView 130,00 \u20ac Basis fee for additional user accounts 0,00 \u20ac 10,00 \u20ac 0,00 \u20ac Basic Fee wmPos 50,00 \u20ac 0,00 \u20ac Basic Fee wmGuide 1.000,00 \u20ac Change of user accounts 0,00 \u20ac 10,00 \u20ac Transaction Fee T1 8,12 \u20ac 0,58 \u20ac 14 Transaction Fee T2 0,00 \u20ac 0,70 \u20ac 243,00 \u20ac Transaction Fee T3 1,50 \u20ac 162 0,00 \u20ac Transaction Fee T4 0,50 \u20ac Transaction Fee T5 0,00 \u20ac 0,80 \u20ac Transaction Fee T6 0,00 \u20ac 1,80 \u20ac Transaction Fee G1 0,00 \u20ac 0,30 \u20ac 0,00 \u20ac Transaction Fee G2 0,30 \u20ac Transaction Fee G3 0,00 \u20ac 0,40 \u20ac Transaction Fee G4 0,00 \u20ac 0,40 \u20ac Transaction Fee G5 0,00 \u20ac 0,30 \u20ac Transaction Fee G6 0,00 \u20ac 0,30 \u20ac",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.88,
+    "bbox": [
+      58.79999923706055,
+      393.4537658691406,
+      561.3550415039062,
+      600.6784057617188
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 53,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 599,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_e65b6bfd",
+    "page_num": 0,
+    "text": "Total 381,12 \u20ac VAT 19 % 72,41 \u20ac Gross Amount incl. VAT 453,53 \u20ac",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 3.37,
+    "bbox": [
+      305.3299865722656,
+      603.5938110351562,
+      561.3530883789062,
+      637.6683959960938
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "font_names": [
+      "Arial-BoldMT"
+    ],
+    "primary_font_family": [
+      "Arial-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 63,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_42f6c2c1",
+    "page_num": 0,
     "text": "Terms of Payment: Immediate payment without discount. Any bank charges must be paid by the invoice recipient. Bank fees at our expense will be charged to the invoice recipient!",
     "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 15.28,
     "bbox": [
       58.79999923706055,
       664.8237915039062,
@@ -95,20 +336,31 @@
       686.1483764648438
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 2,
-    "line_spacing_avg": 15.28,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 176,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_5aec0e66",
+    "page_num": 0,
     "text": "Please credit the amount invoiced to IBAN DE29 1234 5678 9012 3456 78 | BIC GENODE51MIC (SEPA Credit Transfer)",
     "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 15.76,
     "bbox": [
       58.79999923706055,
       701.90380859375,
@@ -116,20 +368,31 @@
       710.868408203125
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 15.76,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 110,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_542fb378",
+    "page_num": 0,
     "text": "This invoice is generated automatically and will not be signed",
     "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 28.11,
     "bbox": [
       58.79999923706055,
       738.9797973632812,
@@ -137,20 +400,31 @@
       747.9443969726562
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 28.11,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 62,
+    "is_homogeneous": true,
     "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_840b34c5",
+    "page_num": 1,
     "text": "Invoice Details",
     "avg_font_size": 15.96,
+    "normalized_font_size": 16.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.26,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.0,
     "bbox": [
       242.69000244140625,
       70.1999740600586,
@@ -158,20 +432,31 @@
       89.46369171142578
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
       "Tahoma-Bold"
     ],
     "text_case": "Title",
     "length": 15,
+    "is_homogeneous": true,
     "relative_font_size": 5
   },
   {
+    "paragraph_id": "p_5d9bb998",
+    "page_num": 1,
     "text": "Period:        01.02.2024        to        29.02.2024",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.48,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 7.88,
     "bbox": [
       174.02000427246094,
       97.3399658203125,
@@ -179,20 +464,31 @@
       111.82396697998047
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 7.88,
     "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
       "Tahoma"
     ],
     "text_case": "Mixed",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_19f146bf",
+    "page_num": 1,
     "text": "Unit:        Musterkunde AG                                                            12345",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.48,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 16.0,
     "bbox": [
       45.36000061035156,
       127.82000732421875,
@@ -200,20 +496,31 @@
       142.3040008544922
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 16.0,
     "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
       "Tahoma-Bold"
     ],
     "text_case": "Mixed",
     "length": 92,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_e2728006",
+    "page_num": 1,
     "text": "Request sections: T1: T2: T3: T4: T5: T6: G1: G2: G3: G4: G5: G6: Amount in Euro: 0,58 0,70 1,50 0,50 0,80 1,80 0,30 0,30 0,40 0,40 0,30 0,30",
     "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 16.69,
     "bbox": [
       44.400001525878906,
       173.84115600585938,
@@ -221,64 +528,223 @@
       192.16160583496094
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 26,
-    "line_spacing_avg": 16.69,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 141,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
-    "text": "user-account-1 10 99 154,30 \u20ac user-account-2 63 96,82 \u20ac",
-    "avg_font_size": 7.27,
+    "paragraph_id": "p_11714701",
+    "page_num": 1,
+    "text": "user-account-1",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 21.74,
     "bbox": [
       44.63999938964844,
       213.90379333496094,
-      559.9552001953125,
-      234.16160583496094
+      102.02147674560547,
+      222.86839294433594
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "center",
-    "line_count": 7,
-    "line_spacing_avg": 11.66,
+    "alignment": "left",
+    "line_count": 1,
     "font_names": [
-      "Arial-BoldMT",
+      "Arial-BoldMT"
+    ],
+    "primary_font_family": [
+      "Arial-BoldMT"
+    ],
+    "text_case": "lower",
+    "length": 14,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_f093f3e4",
+    "page_num": 1,
+    "text": "10 99 154,30 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      147.3800048828125,
+      215.48117065429688,
+      559.9552001953125,
+      223.24156188964844
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "unknown",
+    "line_count": 3,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
-    "length": 55,
-    "relative_font_size": null
+    "length": 14,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
-    "text": "Transaction Fee Seg T1: T2: T3: T4: T5: T6: G1: G2: G3: G4: G5: G6: Queries in Total: 14 162 Total in Euro: 8,12 \u20ac 0,00 \u20ac 243,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 251,12 \u20ac The explanation of the query fee categories (T1 to T6 and G1 to G6) can be found on our website: https://www.wmaccess.com/abfragekategorien",
-    "avg_font_size": 7.03,
+    "paragraph_id": "p_66cce91e",
+    "page_num": 1,
+    "text": "user-account-2",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 1.58,
+    "bbox": [
+      44.63999938964844,
+      224.8237762451172,
+      102.02147674560547,
+      233.7883758544922
+    ],
+    "is_bold": true,
+    "bold_ratio": 1.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "Arial-BoldMT"
+    ],
+    "primary_font_family": [
+      "Arial-BoldMT"
+    ],
+    "text_case": "lower",
+    "length": 14,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_9b82137e",
+    "page_num": 1,
+    "text": "63 96,82 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      211.97000122070312,
+      226.40121459960938,
+      559.9532470703125,
+      234.16160583496094
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_b7983ec3",
+    "page_num": 1,
+    "text": "Transaction Fee Seg T1: T2: T3: T4: T5: T6: G1: G2: G3: G4: G5: G6: Queries in Total: 14 162 Total in Euro: 8,12 \u20ac 0,00 \u20ac 243,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 251,12 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 12.21,
     "bbox": [
       44.400001525878906,
       267.1111755371094,
       559.9552001953125,
+      295.5115966796875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 29,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 202,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_a3030a1a",
+    "page_num": 1,
+    "text": "The explanation of the query fee categories (T1 to T6 and G1 to G6) can be found on our website: https://www.wmaccess.com/abfragekategorien",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.95,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 5.86,
+    "bbox": [
+      44.63999938964844,
+      306.0937805175781,
+      392.6512451171875,
       325.1223449707031
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 31,
-    "line_spacing_avg": 9.67,
+    "alignment": "left",
+    "line_count": 2,
     "font_names": [
-      "ArialMT",
+      "Arial-ItalicMT"
+    ],
+    "primary_font_family": [
       "Arial-ItalicMT"
     ],
     "text_case": "Mixed",
-    "length": 342,
-    "relative_font_size": null
+    "length": 139,
+    "is_homogeneous": true,
+    "relative_font_size": 1
   },
   {
+    "paragraph_id": "p_f8346dc7",
+    "page_num": 2,
     "text": "Invoice Details for wmView Query Reference",
     "avg_font_size": 15.96,
+    "normalized_font_size": 16.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 19.26,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 0.0,
     "bbox": [
       122.77999877929688,
       70.1999740600586,
@@ -286,20 +752,31 @@
       89.46369171142578
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "unknown",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
       "Tahoma-Bold"
     ],
     "text_case": "Mixed",
     "length": 42,
+    "is_homogeneous": true,
     "relative_font_size": 5
   },
   {
+    "paragraph_id": "p_8f825d98",
+    "page_num": 2,
     "text": "Period:        01.02.2024        to        29.02.2024",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.48,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 7.88,
     "bbox": [
       174.02000427246094,
       97.3399658203125,
@@ -307,20 +784,31 @@
       111.82396697998047
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 7.88,
     "font_names": [
+      "Tahoma"
+    ],
+    "primary_font_family": [
       "Tahoma"
     ],
     "text_case": "Mixed",
     "length": 53,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_d6bd4913",
+    "page_num": 2,
     "text": "Unit:        Musterkunde AG                                                            12345",
     "avg_font_size": 12.0,
+    "normalized_font_size": 12.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 14.48,
+    "avg_height_to_font_ratio": 1.21,
+    "line_spacing_avg": 16.0,
     "bbox": [
       45.36000061035156,
       127.82000732421875,
@@ -328,20 +816,31 @@
       142.3040008544922
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 16.0,
     "font_names": [
+      "Tahoma-Bold"
+    ],
+    "primary_font_family": [
       "Tahoma-Bold"
     ],
     "text_case": "Mixed",
     "length": 92,
+    "is_homogeneous": true,
     "relative_font_size": 4
   },
   {
+    "paragraph_id": "p_72b7b16d",
+    "page_num": 2,
     "text": "wmview, wmProfile and User Profiles Query Segments:",
     "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 32.02,
     "bbox": [
       298.1300048828125,
       174.32119750976562,
@@ -349,20 +848,31 @@
       182.0815887451172
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
     "alignment": "center",
     "line_count": 1,
-    "line_spacing_avg": 32.02,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 51,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_0505d5b6",
+    "page_num": 2,
     "text": "Query Reference:",
     "avg_font_size": 9.96,
+    "normalized_font_size": 10.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 11.11,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
     "bbox": [
       44.880001068115234,
       180.9661865234375,
@@ -370,20 +880,31 @@
       192.0715789794922
     ],
     "is_bold": true,
+    "bold_ratio": 1.0,
     "is_upper": false,
     "alignment": "left",
     "line_count": 1,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "Arial-BoldMT"
+    ],
+    "primary_font_family": [
       "Arial-BoldMT"
     ],
     "text_case": "Title",
     "length": 16,
+    "is_homogeneous": true,
     "relative_font_size": 3
   },
   {
+    "paragraph_id": "p_991f1044",
+    "page_num": 2,
     "text": "T1: T2: T3: T4: T5: T6:",
     "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
     "bbox": [
       297.1700134277344,
       184.40121459960938,
@@ -391,41 +912,863 @@
       192.16160583496094
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": true,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 6,
-    "line_spacing_avg": 0.0,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "UPPER",
     "length": 23,
+    "is_homogeneous": true,
     "relative_font_size": 0
   },
   {
-    "text": "*Not specified* 15,82 \u20ac AZR/31/27439 12 18,00 \u20ac CCL/3715 6,00 \u20ac CRS/28432 36 56,90 \u20ac Cs/52113 19 28,50 \u20ac GS 32090 11,08 \u20ac Kpi/22695 10,16 \u20ac PG 7772 11 16,50 \u20ac Rjn/11138 15 22,50 \u20ac SF-M 596/99-08 7,50 \u20ac Ttrb/17885 23 35,08 \u20ac WPN:24791 6,58 \u20ac Wwt/15658 11 16,50 \u20ac",
-    "avg_font_size": 7.39,
+    "paragraph_id": "p_38d8fe99",
+    "page_num": 2,
+    "text": "*Not specified*",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 18.14,
     "bbox": [
       44.63999938964844,
       210.3037567138672,
+      97.39044189453125,
+      219.2683563232422
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 15,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_51407170",
+    "page_num": 2,
+    "text": "15,82 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      536.8599853515625,
+      212.24118041992188,
+      559.9532470703125,
+      220.00157165527344
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 7,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_fe044963",
+    "page_num": 2,
+    "text": "AZR/31/27439",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      222.66380310058594,
+      96.36132049560547,
+      231.62840270996094
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 12,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_ef5bacb8",
+    "page_num": 2,
+    "text": "12 18,00 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      373.3900146484375,
+      224.60116577148438,
+      559.9532470703125,
+      232.36155700683594
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_718a8412",
+    "page_num": 2,
+    "text": "CCL/3715",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      235.02378845214844,
+      80.65116119384766,
+      243.98838806152344
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 8,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_9b7a01af",
+    "page_num": 2,
+    "text": "6,00 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      540.7000122070312,
+      236.96121215820312,
+      559.9513549804688,
+      244.7216033935547
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 6,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_79934677",
+    "page_num": 2,
+    "text": "CRS/28432",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      247.38377380371094,
+      86.0459976196289,
+      256.3483581542969
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 9,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_71c753f7",
+    "page_num": 2,
+    "text": "36 56,90 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      373.3900146484375,
+      249.32119750976562,
+      559.9532470703125,
+      257.08160400390625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_afc5a2b2",
+    "page_num": 2,
+    "text": "Cs/52113",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      259.7437438964844,
+      78.96276092529297,
+      268.7083435058594
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 8,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_173309dd",
+    "page_num": 2,
+    "text": "19 28,50 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      373.3900146484375,
+      261.7112121582031,
+      559.9532470703125,
+      269.47161865234375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_3d886228",
+    "page_num": 2,
+    "text": "GS 32090",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      272.1337585449219,
+      80.7717514038086,
+      281.0983581542969
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 8,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_1aa1e6dd",
+    "page_num": 2,
+    "text": "11,08 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      536.8599853515625,
+      274.0711975097656,
+      559.9532470703125,
+      281.83160400390625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 7,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_60714797",
+    "page_num": 2,
+    "text": "Kpi/22695",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      284.4937438964844,
+      80.76371765136719,
+      293.4583435058594
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 9,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_535d8d36",
+    "page_num": 2,
+    "text": "10,16 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      536.8599853515625,
+      286.4311828613281,
+      559.9532470703125,
+      294.19158935546875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 7,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_52267fde",
+    "page_num": 2,
+    "text": "PG 7772",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      296.8537902832031,
+      76.33367919921875,
+      305.8183898925781
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 7,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_f7d9a1db",
+    "page_num": 2,
+    "text": "11 16,50 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      373.3900146484375,
+      298.7911682128906,
+      559.9532470703125,
+      306.55157470703125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_972e75dd",
+    "page_num": 2,
+    "text": "Rjn/11138",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      309.2137756347656,
+      81.13356018066406,
+      318.1783752441406
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 9,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_617fbe7d",
+    "page_num": 2,
+    "text": "15 22,50 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      373.3900146484375,
+      311.1512145996094,
+      559.9532470703125,
+      318.91162109375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_4d048c01",
+    "page_num": 2,
+    "text": "SF-M 596/99-08",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      321.5737609863281,
+      102.4797592163086,
+      330.5383605957031
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 14,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_af55e8be",
+    "page_num": 2,
+    "text": "7,50 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      540.7000122070312,
+      323.5111999511719,
+      559.9513549804688,
+      331.2716064453125
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 6,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_1aa1c2ff",
+    "page_num": 2,
+    "text": "Ttrb/17885",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      333.93377685546875,
+      83.40887451171875,
+      342.89837646484375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_8de848f5",
+    "page_num": 2,
+    "text": "23 35,08 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      373.3900146484375,
+      335.8711853027344,
+      559.9532470703125,
+      343.631591796875
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_f203adeb",
+    "page_num": 2,
+    "text": "WPN:24791",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      346.29376220703125,
+      88.20072174072266,
+      355.25836181640625
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 9,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_7387bb6b",
+    "page_num": 2,
+    "text": "6,58 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      540.7000122070312,
+      348.2311706542969,
+      559.9513549804688,
+      355.9915771484375
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 6,
+    "is_homogeneous": true,
+    "relative_font_size": 0
+  },
+  {
+    "paragraph_id": "p_fd12f478",
+    "page_num": 2,
+    "text": "Wwt/15658",
+    "avg_font_size": 8.04,
+    "normalized_font_size": 8.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 8.96,
+    "avg_height_to_font_ratio": 1.11,
+    "line_spacing_avg": 2.66,
+    "bbox": [
+      44.63999938964844,
+      358.6537780761719,
+      84.96060180664062,
+      367.6183776855469
+    ],
+    "is_bold": false,
+    "bold_ratio": 0.0,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 9,
+    "is_homogeneous": true,
+    "relative_font_size": 1
+  },
+  {
+    "paragraph_id": "p_349325fc",
+    "page_num": 2,
+    "text": "11 16,50 \u20ac",
+    "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 0.0,
+    "bbox": [
+      373.3900146484375,
+      360.5911865234375,
       559.9532470703125,
       368.3515930175781
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
-    "line_count": 33,
-    "line_spacing_avg": 3.85,
+    "alignment": "center",
+    "line_count": 2,
     "font_names": [
       "ArialMT"
     ],
+    "primary_font_family": [
+      "ArialMT"
+    ],
     "text_case": "Mixed",
-    "length": 261,
-    "relative_font_size": null
+    "length": 10,
+    "is_homogeneous": true,
+    "relative_font_size": 0
   },
   {
+    "paragraph_id": "p_e8ef2409",
+    "page_num": 2,
     "text": "Price for each Query in Euro: 0,58 0,70 1,50 0,50 0,80 1,80",
     "avg_font_size": 6.96,
+    "normalized_font_size": 7.0,
+    "font_size_variance": 0.0,
+    "avg_line_height": 7.76,
+    "avg_height_to_font_ratio": 1.12,
+    "line_spacing_avg": 15.94,
     "bbox": [
       303.04998779296875,
       397.91119384765625,
@@ -433,15 +1776,19 @@
       415.7515869140625
     ],
     "is_bold": false,
+    "bold_ratio": 0.0,
     "is_upper": false,
-    "alignment": "right",
+    "alignment": "center",
     "line_count": 7,
-    "line_spacing_avg": 15.94,
     "font_names": [
+      "ArialMT"
+    ],
+    "primary_font_family": [
       "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 59,
+    "is_homogeneous": true,
     "relative_font_size": 0
   }
 ]
