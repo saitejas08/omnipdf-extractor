@@ -1,0 +1,322 @@
+[
+  {
+    "text": "Liceria University",
+    "avg_font_size": 19.59,
+    "bbox": [
+      128.61288452148438,
+      47.20405578613281,
+      299.7056884765625,
+      73.88140106201172
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "OpenSans-Bold"
+    ],
+    "text_case": "Title",
+    "length": 18,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Determinants Influencing the Quality and Completion of Undergraduate Thesis Writing Among EFL Learners",
+    "avg_font_size": 36.39,
+    "bbox": [
+      667.9920654296875,
+      174.58226013183594,
+      1086.3734130859375,
+      459.708251953125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 100.7,
+    "font_names": [
+      "OpenSans-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 102,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Introduction Research Objectives",
+    "avg_font_size": 19.59,
+    "bbox": [
+      91.51370239257812,
+      490.8254089355469,
+      865.0828247070312,
+      533.6361083984375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 31.12,
+    "font_names": [
+      "OpenSans-Bold"
+    ],
+    "text_case": "Title",
+    "length": 32,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Undergraduate thesis writing is a critical milestone for EFL To identify key factors affecting the thesis writing learners. process. Challenges include language barriers, limited resources, and time To analyze the role of supervisors, institutional support, constraints. and learner attributes.",
+    "avg_font_size": 15.39,
+    "bbox": [
+      116.77774047851562,
+      549.5641479492188,
+      1093.9066162109375,
+      645.4810180664062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 8,
+    "line_spacing_avg": 15.12,
+    "font_names": [
+      "OpenSans-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 294,
+    "relative_font_size": 0
+  },
+  {
+    "text": "This study investigates factors influencing thesis quality and To recommend strategies for improving thesis outcomes. completion among EFL learners.",
+    "avg_font_size": 15.39,
+    "bbox": [
+      116.77774047851562,
+      661.787109375,
+      1104.8201904296875,
+      702.5866088867188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 16.31,
+    "font_names": [
+      "OpenSans-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 148,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Result & Discussion",
+    "avg_font_size": 19.59,
+    "bbox": [
+      642.5791015625,
+      757.36962890625,
+      832.6288452148438,
+      784.0469970703125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 54.78,
+    "font_names": [
+      "OpenSans-Bold"
+    ],
+    "text_case": "Title",
+    "length": 19,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Learner-Related Factors Supervisor-Related Factors Institutional Support",
+    "avg_font_size": 15.39,
+    "bbox": [
+      386.22998046875,
+      811.3759155273438,
+      1044.9954833984375,
+      832.337890625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 3,
+    "line_spacing_avg": 27.33,
+    "font_names": [
+      "OpenSans-Bold"
+    ],
+    "text_case": "Title",
+    "length": 72,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Motivation Universities with Feedback Quality dedicated thesis writing Students with higher Constructive and timely resources reported intrinsic motivation feedback from higher thesis quality. completed their thesis supervisors significantly",
+    "avg_font_size": 15.39,
+    "bbox": [
+      386.1908264160156,
+      851.2620849609375,
+      1073.531982421875,
+      935.6307983398438
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 12,
+    "line_spacing_avg": 18.92,
+    "font_names": [
+      "OpenSans-Regular",
+      "OpenSans-Bold"
+    ],
+    "text_case": "lower",
+    "length": 241,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Research Question",
+    "avg_font_size": 19.59,
+    "bbox": [
+      104.06996154785156,
+      917.642822265625,
+      287.8748779296875,
+      944.3201904296875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "OpenSans-Bold"
+    ],
+    "text_case": "Title",
+    "length": 17,
+    "relative_font_size": 1
+  },
+  {
+    "text": "more effectively. improved thesis What factors contribute to the Writing centers and peer revisions. Time Management quality and successful collaboration Supervisor Availability Learners who created completion of EFL learners\u2019 opportunities boosted Regular and consistent structured schedules undergraduate theses? learner confidence and meetings provided faced fewer delays in writing skills. essential guidance for thesis writing. thesis completion.",
+    "avg_font_size": 15.39,
+    "bbox": [
+      104.06996154785156,
+      932.852783203125,
+      1080.4727783203125,
+      1089.0743408203125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 22,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "OpenSans-Regular",
+      "OpenSans-Bold"
+    ],
+    "text_case": "lower",
+    "length": 451,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Method",
+    "avg_font_size": 19.59,
+    "bbox": [
+      107.29808807373047,
+      1083.2855224609375,
+      183.2368927001953,
+      1109.962890625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "OpenSans-Bold"
+    ],
+    "text_case": "Title",
+    "length": 6,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Research Design Challenges Identified Recommendations Mixed-method approach combining quantitative and Universities should establish structured Limited access to academic resources qualitative data. thesis writing programs, including was a major obstacle for students from training on research methodologies and smaller institutions. academic writing. Participants Some learners reported unclear 100 undergraduate EFL Supervisors should adopt a mentorship expectations during the thesis writing learners from various approach, balancing academic rigor with process, which prolonged completion universities. emotional support for students. times. Data Collection Surveys for learner",
+    "avg_font_size": 15.39,
+    "bbox": [
+      107.29808807373047,
+      1118.4600830078125,
+      1070.8399658203125,
+      1378.171875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 26,
+    "line_spacing_avg": 7.25,
+    "font_names": [
+      "OpenSans-Regular",
+      "OpenSans-Bold"
+    ],
+    "text_case": "lower",
+    "length": 681,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Conclusion References",
+    "avg_font_size": 19.59,
+    "bbox": [
+      371.1988830566406,
+      1372.042724609375,
+      863.0020751953125,
+      1398.7200927734375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "OpenSans-Bold"
+    ],
+    "text_case": "Title",
+    "length": 21,
+    "relative_font_size": 1
+  },
+  {
+    "text": "perspectives. Interviews with Effective time management, motivation, Rimberio. (2022). Principles of Language supervisors. and access to institutional resources are Learning and Teaching Journal Document analysis of critical for successful thesis completion. completed theses. Spencer, & Warner. (2021). Research Collaboration between learners, Data Analysis Design: Qualitative, Quantitative, and supervisors, and institutions is essential to Mixed Methods Approaches. Liceria Statistical analysis and improve outcomes. Publications thematic coding.",
+    "avg_font_size": 15.39,
+    "bbox": [
+      107.29808807373047,
+      1375.187744140625,
+      1065.8172607421875,
+      1554.270263671875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 20,
+    "line_spacing_avg": 0.52,
+    "font_names": [
+      "OpenSans-Regular",
+      "OpenSans-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 550,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Head of Research Prof. Ketut Susilo, M.Si. Member Prof. Rachelle Beaudry Dr. Reese Miller, M.Ed. Richard Sanchez, M.A. Timeline January\u2013May 2024",
+    "avg_font_size": 15.39,
+    "bbox": [
+      120.15211486816406,
+      1609.1849365234375,
+      1052.5067138671875,
+      1651.5452880859375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 5,
+    "line_spacing_avg": 27.68,
+    "font_names": [
+      "OpenSans-Regular",
+      "OpenSans-Bold"
+    ],
+    "text_case": "Title",
+    "length": 144,
+    "relative_font_size": 0
+  }
+]

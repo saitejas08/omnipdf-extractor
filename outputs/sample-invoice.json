@@ -1,0 +1,447 @@
+[
+  {
+    "text": "CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main",
+    "avg_font_size": 6.96,
+    "bbox": [
+      58.560001373291016,
+      160.64120483398438,
+      274.8139953613281,
+      168.40159606933594
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 64,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Musterkunde AG Mr. John Doe Musterstr. 23 12345 Musterstadt Name:  Stefanie M\u00fcller Phone: +49 9371 9786-0",
+    "avg_font_size": 9.32,
+    "bbox": [
+      59.040000915527344,
+      182.64617919921875,
+      453.2857971191406,
+      242.7883758544922
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 4.28,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 105,
+    "relative_font_size": null
+  },
+  {
+    "text": "Invoice WMACCESS Internet VAT No. DE199378386 Date Customer No Invoice Period Invoice No 01.02.2024 - 29.02.2024 1. M\u00e4rz 2024 12345 123100401",
+    "avg_font_size": 9.38,
+    "bbox": [
+      58.79999923706055,
+      294.27618408203125,
+      533.0501098632812,
+      355.5799865722656
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 10,
+    "line_spacing_avg": 17.66,
+    "font_names": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 141,
+    "relative_font_size": null
+  },
+  {
+    "text": "Amount Service Description Total Amount quantity -without VAT- 130,00 \u20ac Basic Fee wmView 130,00 \u20ac Basis fee for additional user accounts 0,00 \u20ac 10,00 \u20ac 0,00 \u20ac Basic Fee wmPos 50,00 \u20ac 0,00 \u20ac Basic Fee wmGuide 1.000,00 \u20ac Change of user accounts 0,00 \u20ac 10,00 \u20ac Transaction Fee T1 8,12 \u20ac 0,58 \u20ac 14 Transaction Fee T2 0,00 \u20ac 0,70 \u20ac 243,00 \u20ac Transaction Fee T3 1,50 \u20ac 162 0,00 \u20ac Transaction Fee T4 0,50 \u20ac Transaction Fee T5 0,00 \u20ac 0,80 \u20ac Transaction Fee T6 0,00 \u20ac 1,80 \u20ac Transaction Fee G1 0,00 \u20ac 0,30 \u20ac 0,00 \u20ac Transaction Fee G2 0,30 \u20ac Transaction Fee G3 0,00 \u20ac 0,40 \u20ac Transaction Fee G4 0,00 \u20ac 0,40 \u20ac Transaction Fee G5 0,00 \u20ac 0,30 \u20ac Transaction Fee G6 0,00 \u20ac 0,30 \u20ac Total 381,12 \u20ac VAT 19 % 72,41 \u20ac Gross Amount incl. VAT 453,53 \u20ac",
+    "avg_font_size": 8.04,
+    "bbox": [
+      58.79999923706055,
+      371.61376953125,
+      561.3550415039062,
+      637.6683959960938
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 64,
+    "line_spacing_avg": 3.58,
+    "font_names": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 726,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Terms of Payment: Immediate payment without discount. Any bank charges must be paid by the invoice recipient. Bank fees at our expense will be charged to the invoice recipient!",
+    "avg_font_size": 8.04,
+    "bbox": [
+      58.79999923706055,
+      664.8237915039062,
+      463.39666748046875,
+      686.1483764648438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 15.28,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 176,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Please credit the amount invoiced to IBAN DE29 1234 5678 9012 3456 78 | BIC GENODE51MIC (SEPA Credit Transfer)",
+    "avg_font_size": 8.04,
+    "bbox": [
+      58.79999923706055,
+      701.90380859375,
+      488.6824951171875,
+      710.868408203125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 15.76,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 110,
+    "relative_font_size": 1
+  },
+  {
+    "text": "This invoice is generated automatically and will not be signed",
+    "avg_font_size": 8.04,
+    "bbox": [
+      58.79999923706055,
+      738.9797973632812,
+      276.3303527832031,
+      747.9443969726562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 28.11,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 62,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Invoice Details",
+    "avg_font_size": 15.96,
+    "bbox": [
+      242.69000244140625,
+      70.1999740600586,
+      362.66131591796875,
+      89.46369171142578
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 5
+  },
+  {
+    "text": "Period:        01.02.2024        to        29.02.2024",
+    "avg_font_size": 12.0,
+    "bbox": [
+      174.02000427246094,
+      97.3399658203125,
+      430.8802185058594,
+      111.82396697998047
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 7.88,
+    "font_names": [
+      "Tahoma"
+    ],
+    "text_case": "Mixed",
+    "length": 53,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Unit:        Musterkunde AG                                                            12345",
+    "avg_font_size": 12.0,
+    "bbox": [
+      45.36000061035156,
+      127.82000732421875,
+      449.3993225097656,
+      142.3040008544922
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 16.0,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 92,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Request sections: T1: T2: T3: T4: T5: T6: G1: G2: G3: G4: G5: G6: Amount in Euro: 0,58 0,70 1,50 0,50 0,80 1,80 0,30 0,30 0,40 0,40 0,30 0,30",
+    "avg_font_size": 6.96,
+    "bbox": [
+      44.400001525878906,
+      173.84115600585938,
+      510.2545471191406,
+      192.16160583496094
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 26,
+    "line_spacing_avg": 16.69,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 141,
+    "relative_font_size": 0
+  },
+  {
+    "text": "user-account-1 10 99 154,30 \u20ac user-account-2 63 96,82 \u20ac",
+    "avg_font_size": 7.27,
+    "bbox": [
+      44.63999938964844,
+      213.90379333496094,
+      559.9552001953125,
+      234.16160583496094
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 7,
+    "line_spacing_avg": 11.66,
+    "font_names": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 55,
+    "relative_font_size": null
+  },
+  {
+    "text": "Transaction Fee Seg T1: T2: T3: T4: T5: T6: G1: G2: G3: G4: G5: G6: Queries in Total: 14 162 Total in Euro: 8,12 \u20ac 0,00 \u20ac 243,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 0,00 \u20ac 251,12 \u20ac The explanation of the query fee categories (T1 to T6 and G1 to G6) can be found on our website: https://www.wmaccess.com/abfragekategorien",
+    "avg_font_size": 7.03,
+    "bbox": [
+      44.400001525878906,
+      267.1111755371094,
+      559.9552001953125,
+      325.1223449707031
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 31,
+    "line_spacing_avg": 9.67,
+    "font_names": [
+      "ArialMT",
+      "Arial-ItalicMT"
+    ],
+    "text_case": "Mixed",
+    "length": 342,
+    "relative_font_size": null
+  },
+  {
+    "text": "Invoice Details for wmView Query Reference",
+    "avg_font_size": 15.96,
+    "bbox": [
+      122.77999877929688,
+      70.1999740600586,
+      482.2630920410156,
+      89.46369171142578
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 42,
+    "relative_font_size": 5
+  },
+  {
+    "text": "Period:        01.02.2024        to        29.02.2024",
+    "avg_font_size": 12.0,
+    "bbox": [
+      174.02000427246094,
+      97.3399658203125,
+      430.8802185058594,
+      111.82396697998047
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 7.88,
+    "font_names": [
+      "Tahoma"
+    ],
+    "text_case": "Mixed",
+    "length": 53,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Unit:        Musterkunde AG                                                            12345",
+    "avg_font_size": 12.0,
+    "bbox": [
+      45.36000061035156,
+      127.82000732421875,
+      449.3993225097656,
+      142.3040008544922
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 16.0,
+    "font_names": [
+      "Tahoma-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 92,
+    "relative_font_size": 4
+  },
+  {
+    "text": "wmview, wmProfile and User Profiles Query Segments:",
+    "avg_font_size": 6.96,
+    "bbox": [
+      298.1300048828125,
+      174.32119750976562,
+      467.8426513671875,
+      182.0815887451172
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 32.02,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 51,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Query Reference:",
+    "avg_font_size": 9.96,
+    "bbox": [
+      44.880001068115234,
+      180.9661865234375,
+      127.71732330322266,
+      192.0715789794922
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Arial-BoldMT"
+    ],
+    "text_case": "Title",
+    "length": 16,
+    "relative_font_size": 3
+  },
+  {
+    "text": "T1: T2: T3: T4: T5: T6:",
+    "avg_font_size": 6.96,
+    "bbox": [
+      297.1700134277344,
+      184.40121459960938,
+      468.7120056152344,
+      192.16160583496094
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 23,
+    "relative_font_size": 0
+  },
+  {
+    "text": "*Not specified* 15,82 \u20ac AZR/31/27439 12 18,00 \u20ac CCL/3715 6,00 \u20ac CRS/28432 36 56,90 \u20ac Cs/52113 19 28,50 \u20ac GS 32090 11,08 \u20ac Kpi/22695 10,16 \u20ac PG 7772 11 16,50 \u20ac Rjn/11138 15 22,50 \u20ac SF-M 596/99-08 7,50 \u20ac Ttrb/17885 23 35,08 \u20ac WPN:24791 6,58 \u20ac Wwt/15658 11 16,50 \u20ac",
+    "avg_font_size": 7.39,
+    "bbox": [
+      44.63999938964844,
+      210.3037567138672,
+      559.9532470703125,
+      368.3515930175781
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 33,
+    "line_spacing_avg": 3.85,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 261,
+    "relative_font_size": null
+  },
+  {
+    "text": "Price for each Query in Euro: 0,58 0,70 1,50 0,50 0,80 1,80",
+    "avg_font_size": 6.96,
+    "bbox": [
+      303.04998779296875,
+      397.91119384765625,
+      477.97454833984375,
+      415.7515869140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 7,
+    "line_spacing_avg": 15.94,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 59,
+    "relative_font_size": 0
+  }
+]

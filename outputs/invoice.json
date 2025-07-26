@@ -1,0 +1,284 @@
+[
+  {
+    "text": "Tax Invoice/Bill of Supply/Cash Memo (Original for Recipient)",
+    "avg_font_size": 13.5,
+    "bbox": [
+      310.0899963378906,
+      13.424994468688965,
+      557.0170288085938,
+      47.57647705078125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 61,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Sold By : Billing Address : SHREE SUNDHA COMPUTER Karan Kumar Near thakurbari temple, Mirupr bhual, Dhigwara, * OFFICE NO 405. 4TH FLOOR VALENCIA Saren TOWERCHUNAM LANE, LAMINGTON ROAD DIGHWARA, BIHAR, 841207 GRANT ROAD E IN MUMBAI, MAHARASHTRA, 400007 State/UT Code: 10 IN",
+    "avg_font_size": 11.18,
+    "bbox": [
+      42.75,
+      99.8725357055664,
+      552.530029296875,
+      195.96372985839844
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 14,
+    "line_spacing_avg": 52.3,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "UPPER",
+    "length": 273,
+    "relative_font_size": null
+  },
+  {
+    "text": "Shipping Address : PAN No: DZCPK9046J Karan Kumar GST Registration No: 27DZCPK9046J1ZY Karan Kumar Near thakurbari temple, Mirupr bhual, Dhigwara, Saren DIGHWARA, BIHAR, 841207 IN State/UT Code: 10 Place of supply: BIHAR Place of delivery: BIHAR Order Number: 408-4923325-0117107 Invoice Number : RELJ-7685 Order Date: 08.07.2025 Invoice Details : MH-RELJ-1514246875-2526 Invoice Date : 10.07.2025 This is a replacement issued free of cost against the original order(s) and invoice(s) listed in detail below.",
+    "avg_font_size": 11.25,
+    "bbox": [
+      42.0,
+      217.80252075195312,
+      552.530029296875,
+      439.88372802734375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 19,
+    "line_spacing_avg": 11.92,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 508,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Sl. Unit Qty Net Tax Tax Tax Total No Description Price Amount Rate Type Amount Amount 1 MINIMART Aluminum Tabletop Laptop Stand Ergonomic Foldable Portable Laptop Stand Holder Compatible for MacBook, HP, Dell,",
+    "avg_font_size": 9.08,
+    "bbox": [
+      43.5,
+      439.510009765625,
+      551.7530517578125,
+      485.6210021972656
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 16,
+    "line_spacing_avg": 0.23,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold",
+      "PlayfairDisplay-Regular"
+    ],
+    "text_case": "Title",
+    "length": 210,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u20b90.00 18% IGST \u20b90.00 \u20b90.00",
+    "avg_font_size": 11.5,
+    "bbox": [
+      403.79998779296875,
+      483.0459899902344,
+      548.111328125,
+      496.6510009765625
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica",
+      "PlayfairDisplay-Regular"
+    ],
+    "text_case": "UPPER",
+    "length": 26,
+    "relative_font_size": 5
+  },
+  {
+    "text": "Lenovo & All Other Notebook (Sliver) | B0BVFC4GKN ( WISTAR",
+    "avg_font_size": 9.0,
+    "bbox": [
+      57.75,
+      483.64501953125,
+      315.16796875,
+      496.0110168457031
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 58,
+    "relative_font_size": 1
+  },
+  {
+    "text": "\u20b90.00",
+    "avg_font_size": 12.75,
+    "bbox": [
+      349.1300048828125,
+      483.68597412109375,
+      375.84130859375,
+      496.43597412109375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "PlayfairDisplay-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 5,
+    "relative_font_size": 6
+  },
+  {
+    "text": "Laptop Stand 111 ) HSN:8471 Original Original Order / Original Invoice Price 405-0995578-4058741 / RELJ-6815",
+    "avg_font_size": 9.0,
+    "bbox": [
+      57.75,
+      494.0350036621094,
+      379.50103759765625,
+      546.5609741210938
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 108,
+    "relative_font_size": 1
+  },
+  {
+    "text": "\u20b9999.00 \u20b90.00 \u20b90.00",
+    "avg_font_size": 12.75,
+    "bbox": [
+      344.3599853515625,
+      539.635986328125,
+      551.7429809570312,
+      570.51025390625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 1.13,
+    "font_names": [
+      "PlayfairDisplay-Bold",
+      "PlayfairDisplay-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 19,
+    "relative_font_size": 6
+  },
+  {
+    "text": "TOTAL:",
+    "avg_font_size": 9.0,
+    "bbox": [
+      43.5,
+      556.25,
+      76.49400329589844,
+      568.6430053710938
+    ],
+    "is_bold": true,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "UPPER",
+    "length": 6,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Amount in Words: Zero only For SHREE SUNDHA COMPUTER:",
+    "avg_font_size": 11.25,
+    "bbox": [
+      43.130001068115234,
+      571.2825317382812,
+      549.8475341796875,
+      619.6237182617188
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 2.54,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 53,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Authorized Signatory Whether tax is payable under reverse charge - No",
+    "avg_font_size": 11.25,
+    "bbox": [
+      42.0,
+      649.8025512695312,
+      549.8900756835938,
+      683.09375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 16.26,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 69,
+    "relative_font_size": 4
+  },
+  {
+    "text": "*ASSPL-Amazon Seller Services Pvt. Ltd., ARIPL-Amazon Retail India Pvt. Ltd. (only where Amazon Retail India Pvt. Ltd. fulfillment center is co-located) Customers desirous of availing input GST credit are requested to create a Business account and purchase on Amazon.in/business from Business eligible offers Please note that this invoice is not a demand for payment Page 1 of 1",
+    "avg_font_size": 5.63,
+    "bbox": [
+      98.4800033569336,
+      767.5077514648438,
+      559.2603149414062,
+      807.8633422851562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "line_spacing_avg": 31.68,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 378,
+    "relative_font_size": 0
+  }
+]

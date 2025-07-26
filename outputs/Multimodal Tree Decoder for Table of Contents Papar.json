@@ -1,0 +1,1465 @@
+[
+  {
+    "text": "Multimodal Tree Decoder for Table of Contents Extraction in Document Images",
+    "avg_font_size": 23.91,
+    "bbox": [
+      61.41699981689453,
+      53.09867858886719,
+      533.8605346679688,
+      104.90399932861328
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 3.98,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 75,
+    "relative_font_size": 48
+  },
+  {
+    "text": "Pengfei Hu 1 , Zhenrong Zhang 1 , Jianshu Zhang 2 , Jun Du 1,* , Jiajia Wu 2 1 National Engineering Research Center of Speech and Language Information Processing University of Science and Technology of China, Hefei, Anhui, P. R. China 2 iFLYTEK Research Email: hudeyouxiang@mail.ustc.edu.cn, zzr666@mail.ustc.edu.cn jszhang6@i\ufb02ytek.com, jundu@ustc.edu.cn, jjwu@i\ufb02ytek.com",
+    "avg_font_size": 9.36,
+    "bbox": [
+      116.1650390625,
+      120.73326873779297,
+      479.1123962402344,
+      194.70809936523438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 4.14,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 371,
+    "relative_font_size": 37
+  },
+  {
+    "text": "[6]. They \ufb01rst consider whether the document contains ToC Abstract \u2014Table of contents (ToC) extraction aims to extract headings of different levels in documents to better understand the pages, then apply one of the methods above. outline of the contents, which can be widely used for document In general, existing approaches depend greatly on strong understanding and information retrieval. Existing works often indicators and prede\ufb01ned rule-based functions. They can use hand-crafted features and prede\ufb01ned rule-based functions",
+    "avg_font_size": 9.41,
+    "bbox": [
+      40.602027893066406,
+      218.7274932861328,
+      554.6729736328125,
+      268.2185363769531
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 9,
+    "line_spacing_avg": 12.51,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-MediItal",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 528,
+    "relative_font_size": null
+  },
+  {
+    "text": "arXiv:2212.02896v1  [cs.CV]  6 Dec 2022",
+    "avg_font_size": 20.0,
+    "bbox": [
+      10.940000534057617,
+      263.83001708984375,
+      37.619998931884766,
+      604.8900146484375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Times-Roman"
+    ],
+    "text_case": "Mixed",
+    "length": 39,
+    "relative_font_size": 47
+  },
+  {
+    "text": "perform well on application-dependent and domain-speci\ufb01c to detect headings and resolve the hierarchical relationship between headings. Both the benchmark and research based on datasets. However, a large amount of task-speci\ufb01c knowledge deep learning are still limited. Accordingly, in this paper, we and human-designed rules are needed, which does not extend \ufb01rst introduce a standard dataset, HierDoc, including image to other types of documents. Recently, deep learning based samples from 650 documents of scienti\ufb01c papers with their methods have achieved great success in many \ufb01elds related to content labels. Then we propose a novel end-to-end model documents. For example, [7] proposes the LayoutLM method by using the multimodal tree decoder (MTD) for ToC as a benchmark for HierDoc. The MTD model is mainly composed for document image understanding, which is inspired by BERT of three parts, namely encoder, classi\ufb01er, and decoder. The [8]. This method uses image features and position to pre-train encoder fuses the multimodality features of vision, text, and the model and performs well on downstream tasks. Lately, layout information for each entity of the document. Then the ViBERTgrid [9] is proposed for key information extraction classi\ufb01er recognizes and selects the heading entities. Next, to from documents. These demonstrate the powerful ability of parse the hierarchical relationship between the heading entities, a tree-structured decoder is designed. To evaluate the performance, deep learning based methods to deal with document-related both the metric of tree-edit-distance similarity (TEDS) and F1- problems. Measure are adopted. Finally, our MTD approach achieves an It is worth noting that the existing datasets are not suitable average TEDS of 87.2% and an average F1-Measure of 88.1% for deep learning based methods. The ISRI dataset [10] and the on the test set of HierDoc. The code and dataset will be released at: https://github.com/Pengfei-Hu/MTD. Medical Article Records Groundtruth (MARG) dataset [11] only contain bi-level images and similarly simple layouts, I. INTRODUCTION predominantly of journal articles. Some datasets [12] [13] A huge amount of documents have been accumulated with [14] are available in several ICDAR challenges, which contain digitization and OCR engines. However, most of them contain complex layouts of newspapers, books, and technical articles. text with limited structural information. For example, the However, their annotations lack the heading category. Anno- table of contents (ToC), which plays an important role in tations with the heading category are provided by PubLayNet document understanding and information retrieval, is often [15]. However, there is no information about the heading missing. The task of ToC extraction is to restore the structure depth. [16] collects 71 French documents and 72 English of the document and to recognize the hierarchy of sections. documents in PDF format from the \ufb01nancial domain. Its As shown in Fig. 1, the output of ToC extraction is a tree of structure extraction ground truth is still not aligned with the headings with different levels. text lines in the document. As for the recent studies, we can roughly divide them into To overcome the lack of data for the research of ToC two categories. The \ufb01rst one assumes the presence of ToC extraction, we collect a dataset, namely Hier archical academic pages [1] [2]. They \ufb01rst detect ToC pages, then analyze them Doc ument ( HierDoc ). It contains 650 academic English docu- for ToC entries. However, there are quite a few documents ments in various \ufb01elds from ArXiv 1 . With LaTeX source code, without ToC pages [3]. Therefore, others extract ToC from we generate its ToC ground truth using regular expressions. the whole document [4] [5]. They usually utilize hand-crafted We also provide annotations for each text line. In this paper, features and strong indicators to detect headings, which will the text line is denoted as the entity. The ToC is aligned with be hierarchically ordered according to prede\ufb01ned rule-based entities for training. For this dataset, 350 and 300 documents functions. Besides, some research explores hybrid approaches",
+    "avg_font_size": 9.69,
+    "bbox": [
+      40.602027893066406,
+      268.4415283203125,
+      554.6755981445312,
+      698.4260864257812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 73,
+    "line_spacing_avg": 1.19,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 4209,
+    "relative_font_size": null
+  },
+  {
+    "text": "1 https://arxiv.org/ * Corresponding Author",
+    "avg_font_size": 7.47,
+    "bbox": [
+      48.57203674316406,
+      709.0994873046875,
+      367.5711669921875,
+      718.3706665039062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 10.67,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Title",
+    "length": 43,
+    "relative_font_size": null
+  },
+  {
+    "text": "are used for training and testing individually. More details of Table of Contents the dataset are described in Section II.",
+    "avg_font_size": 9.44,
+    "bbox": [
+      40.60200119018555,
+      51.35548400878906,
+      384.2684020996094,
+      73.27310180664062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 122,
+    "relative_font_size": null
+  },
+  {
+    "text": "TITLE 1               Introduction",
+    "avg_font_size": 6.54,
+    "bbox": [
+      317.0263366699219,
+      64.40379333496094,
+      493.2991638183594,
+      76.58660125732422
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "UPPER",
+    "length": 34,
+    "relative_font_size": 7
+  },
+  {
+    "text": "With HierDoc , it is possible to take advantage of deep neural",
+    "avg_font_size": 9.96,
+    "bbox": [
+      50.564002990722656,
+      75.09405517578125,
+      291.65570068359375,
+      85.23312377929688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 62,
+    "relative_font_size": 46
+  },
+  {
+    "text": "2               Method 2.1            Overall Architecture",
+    "avg_font_size": 6.54,
+    "bbox": [
+      317.0263366699219,
+      77.8729248046875,
+      395.84625244140625,
+      92.24901580810547
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 1.28,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Title",
+    "length": 58,
+    "relative_font_size": 7
+  },
+  {
+    "text": "networks for the ToC extraction task. We further propose",
+    "avg_font_size": 9.96,
+    "bbox": [
+      40.60199737548828,
+      87.22554016113281,
+      291.6595153808594,
+      97.18814086914062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 56,
+    "relative_font_size": 46
+  },
+  {
+    "text": "2.2            Efficient Batch Com-",
+    "avg_font_size": 6.54,
+    "bbox": [
+      317.0263366699219,
+      93.5418701171875,
+      396.3405456542969,
+      100.0853500366211
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Title",
+    "length": 35,
+    "relative_font_size": 7
+  },
+  {
+    "text": "M ultimodal T ree D ecoder (MTD), an end-to-end model which",
+    "avg_font_size": 9.96,
+    "bbox": [
+      40.60199737548828,
+      99.09056854248047,
+      291.660888671875,
+      109.14413452148438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 59,
+    "relative_font_size": 46
+  },
+  {
+    "text": "putation 3               Conclusion Introduction Method Conclusion",
+    "avg_font_size": 6.54,
+    "bbox": [
+      317.0263366699219,
+      99.39091491699219,
+      532.4500122070312,
+      116.48600769042969
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 5,
+    "line_spacing_avg": 3.27,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Title",
+    "length": 66,
+    "relative_font_size": 7
+  },
+  {
+    "text": "detects heading entities and produces the ToC by parsing the hierarchy of them. To the best of our knowledge, this is the \ufb01rst deep learning based method for ToC extraction. Different",
+    "avg_font_size": 9.96,
+    "bbox": [
+      40.60198974609375,
+      111.13655090332031,
+      291.6594543457031,
+      145.00918579101562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 1.99,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 183,
+    "relative_font_size": 46
+  },
+  {
+    "text": "sibling",
+    "avg_font_size": 6.54,
+    "bbox": [
+      331.3996276855469,
+      145.02938842773438,
+      348.4257507324219,
+      151.57286071777344
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.02,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "lower",
+    "length": 7,
+    "relative_font_size": 7
+  },
+  {
+    "text": "from previous works, MTD offers the following advantages,",
+    "avg_font_size": 9.96,
+    "bbox": [
+      40.60198974609375,
+      147.00160217285156,
+      291.6595458984375,
+      156.96420288085938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 57,
+    "relative_font_size": 46
+  },
+  {
+    "text": "entity Efficient Batch Overall",
+    "avg_font_size": 6.54,
+    "bbox": [
+      384.4530944824219,
+      151.57286071777344,
+      537.3866577148438,
+      160.93507385253906
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 3,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Title",
+    "length": 30,
+    "relative_font_size": 7
+  },
+  {
+    "text": "(1) it can process documents in images or PDF format, and",
+    "avg_font_size": 9.96,
+    "bbox": [
+      40.60198974609375,
+      158.9566192626953,
+      291.6595153808594,
+      168.91921997070312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 57,
+    "relative_font_size": 46
+  },
+  {
+    "text": "identity Architecture Computation heading",
+    "avg_font_size": 6.54,
+    "bbox": [
+      330.8179931640625,
+      161.40487670898438,
+      535.8099365234375,
+      177.26580810546875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 4,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Title",
+    "length": 41,
+    "relative_font_size": 7
+  },
+  {
+    "text": "(2) no human-designed rules are used. It indicates that the",
+    "avg_font_size": 9.96,
+    "bbox": [
+      40.60198974609375,
+      170.91261291503906,
+      291.6595458984375,
+      180.87521362304688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 59,
+    "relative_font_size": 46
+  },
+  {
+    "text": "parent",
+    "avg_font_size": 6.54,
+    "bbox": [
+      330.8179931640625,
+      180.80043029785156,
+      348.33489990234375,
+      187.34390258789062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "lower",
+    "length": 6,
+    "relative_font_size": 7
+  },
+  {
+    "text": "MTD can generalize well across documents from different domains and handle different forms of user input. We adopt Fig. 1: The ToC can be represented as a tree structure, and the the text line as the basic input element, denoted as entity. output of MTD can be easily converted to ToC. The heading MTD mainly has three components: encoder, classi\ufb01er and \u201cEf\ufb01cient Batch Computation\u201d is split into two entities in the decoder. Firstly, the encoder as a feature extractor embeds document due to the limited length of the text line. vision, plain text, and layout of the entity into a feature vector. Then the classi\ufb01er detects heading entities and feeds them to the decoder. Finally, the decoder predicts the relationships For each entity in the document, we generate a quadruple, between the heading entities one by one. More speci\ufb01cally, ( content, position, heading, id ) . content is the textual con- the attention mechanism built into the decoder locates the tent of the entity. position is de\ufb01ned by ( x 0 , y 0 , x 1 , y 1 ) , where reference entity of a heading entity, and the relationship ( x 0 , y 0 ) corresponds to the position of the upper left in the between the two is predicted afterward. The output of the MTD bounding box, and ( x 1 , y 1 ) represents the position of the lower can be transferred to the ToC simply, as shown in Fig. 1. We right. heading is a boolean variable indicating whether the utilize both the Tree-Edit-Distance-based Similarity (TEDS) entity is a heading (or part of a heading, see Fig. 2 (b)). [17] metric and the F1-Measure to evaluate the performance id represents the hierarchical position in the ToC tree. For of our model. MTD achieves an average TEDS of 87.2% and example, for entity t with content \u201cHow do CR \ufb02uxes vary an average F1-Measure of 88.1% on the test set of HierDoc . with Galactic...\u201d in the Fig. 2 (a), id is \u201c2.2\u201d, which indicates The ablation studies prove the effectiveness of each module that t is the second child of its parent with content \u201cScience of MTD. case\u201d and id \u201c2\u201d. And t has one child with the content The main contributions of this paper are as follows: \u201cMechanical structure\u201d and id \u201c2.2.1\u201d. \u2022 We introduce a standard dataset HierDoc for ToC extrac- tion, which contains 650 documents of scienti\ufb01c papers A. Document Collection from various \ufb01elds. We download 650 English scienti\ufb01c documents in PDF \u2022 We propose a novel end-to-end model, Multimodal Tree format and corresponding LaTeX source codes from arXiv, Decoder (MTD) for ToC extraction. We demonstrate that covering 8 \ufb01elds including physics, mathematics, computer fusing visual, textual, and layout features boosts model science, quantitative biology, etc. Each document is free to performance. distribute, remix, and adapt under the Creative Commons \u2022 By predicting the relationships between entities, the hier- Attribution 4.0 user license 2 . archy of headings can be sequentially parsed by the tree decoder in MTD. B. Label Generation \u2022 We achieve the results with an average TEDS of 87.2% The document-level annotation, as shown in Fig. 2, can be and an average F1-Measure of 88.1% on the test set parsed using regular expressions with LaTeX source code. It of HierDoc , which provides a competitive baseline for is used as the target during the test phase. We also generate subsequent research. a quadruple ( content, position, heading, id ) for each entity. We parse documents in PDF format using pdfplumber 3 to II. DATASET obtain the text contents with positions for each entity. After As discussed in Section I, existing datasets [12]\u2013[16] are that, the entities are matched with document-level annotations not suitable for deep learning based methods. To overcome to obtain heading and id according to the Word Error the lack of training data, we release a dataset HierDoc Rate (WER). To facilitate model processing, the entities on which contains 350 and 300 document images for training each page are organized from top-to-bottom and left-to-right. and testing, respectively. As illustrated in Fig. 2, HierDoc Overall, HierDoc provides document images, entity-level provides two kinds of annotations, document-level annotations annotations, and document-level annotations. and entity-level annotations. The document-level annotation serves as the target of ToC extraction, which is used in the",
+    "avg_font_size": 9.84,
+    "bbox": [
+      40.60198974609375,
+      182.8676300048828,
+      554.6776733398438,
+      706.8970947265625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 80,
+    "line_spacing_avg": 1.96,
+    "font_names": [
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMSY7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 4345,
+    "relative_font_size": null
+  },
+  {
+    "text": "2 https://creativecommons.org/licenses",
+    "avg_font_size": 6.97,
+    "bbox": [
+      311.5849914550781,
+      699.235595703125,
+      433.0455627441406,
+      708.507568359375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 38,
+    "relative_font_size": 10
+  },
+  {
+    "text": "test phase. Entity-level annotations are created for training.",
+    "avg_font_size": 9.96,
+    "bbox": [
+      40.60198974609375,
+      708.8895263671875,
+      291.65948486328125,
+      718.8521118164062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.38,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 62,
+    "relative_font_size": 46
+  },
+  {
+    "text": "3 https://github.com/jsvine/pdfplumber",
+    "avg_font_size": 6.97,
+    "bbox": [
+      311.5849914550781,
+      709.0985717773438,
+      433.6512451171875,
+      718.3705444335938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 38,
+    "relative_font_size": 10
+  },
+  {
+    "text": "all heading entities are iterated in the sequence of how they",
+    "avg_font_size": 9.96,
+    "bbox": [
+      303.6150207519531,
+      51.35536193847656,
+      554.6724853515625,
+      61.31795883178711
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 61,
+    "relative_font_size": 46
+  },
+  {
+    "text": "TITLE Table of Contents",
+    "avg_font_size": 5.64,
+    "bbox": [
+      72.56086730957031,
+      57.41315841674805,
+      232.7605743408203,
+      65.32552337646484
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "UPPER",
+    "length": 23,
+    "relative_font_size": null
+  },
+  {
+    "text": "appear within the document to generate the ToC tree.",
+    "avg_font_size": 9.96,
+    "bbox": [
+      303.6150207519531,
+      63.31037902832031,
+      523.0012817382812,
+      73.27297973632812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 52,
+    "relative_font_size": 46
+  },
+  {
+    "text": "Introduction",
+    "avg_font_size": 4.67,
+    "bbox": [
+      93.80001831054688,
+      70.67085266113281,
+      117.35810089111328,
+      75.34136199951172
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 1
+  },
+  {
+    "text": "More speci\ufb01cally, there may be one of three relationships",
+    "avg_font_size": 9.96,
+    "bbox": [
+      313.5780334472656,
+      75.43739318847656,
+      554.6729125976562,
+      85.39999389648438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.1,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 57,
+    "relative_font_size": 46
+  },
+  {
+    "text": "Science case",
+    "avg_font_size": 4.66,
+    "bbox": [
+      93.80001831054688,
+      81.47638702392578,
+      117.36283874511719,
+      86.13893127441406
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 12,
+    "relative_font_size": 0
+  },
+  {
+    "text": "between two heading entities, namely parent , sibling and iden-",
+    "avg_font_size": 9.96,
+    "bbox": [
+      303.6150207519531,
+      87.2159423828125,
+      554.6741943359375,
+      97.35501098632812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 1.08,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "lower",
+    "length": 63,
+    "relative_font_size": 46
+  },
+  {
+    "text": "Introduction Science case 2.1 What are the CR energy",
+    "avg_font_size": 4.92,
+    "bbox": [
+      65.50727844238281,
+      88.76243591308594,
+      220.25967407226562,
+      102.52425384521484
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 0.92,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 52,
+    "relative_font_size": null
+  },
+  {
+    "text": "tity . As shown in Fig. 1, Introduction , Method and Conclusion",
+    "avg_font_size": 9.96,
+    "bbox": [
+      303.614990234375,
+      99.17095947265625,
+      554.6747436523438,
+      109.31002807617188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 63,
+    "relative_font_size": 46
+  },
+  {
+    "text": "distributions...",
+    "avg_font_size": 4.66,
+    "bbox": [
+      91.99345397949219,
+      103.4408187866211,
+      119.33460998535156,
+      108.10336303710938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "lower",
+    "length": 16,
+    "relative_font_size": 0
+  },
+  {
+    "text": "are chapters in TITLE . Intuitively, the relationship between",
+    "avg_font_size": 9.96,
+    "bbox": [
+      303.61505126953125,
+      111.126953125,
+      554.6763305664062,
+      121.26602172851562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 3.02,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 61,
+    "relative_font_size": 46
+  },
+  {
+    "text": "2.2 How do CR fluxes What are the CR Where are the How do CR vary with energy low-energy CRs fluxes vary with",
+    "avg_font_size": 5.09,
+    "bbox": [
+      65.50727844238281,
+      112.81571960449219,
+      271.73760986328125,
+      128.21473693847656
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 9,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 109,
+    "relative_font_size": null
+  },
+  {
+    "text": "Introduction and TITLE is parent . For chapter Method , we",
+    "avg_font_size": 9.96,
+    "bbox": [
+      303.61505126953125,
+      123.08197021484375,
+      554.6748657226562,
+      133.22103881835938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 58,
+    "relative_font_size": 46
+  },
+  {
+    "text": "Galactic... distributions... and how do... Galactic... 2.2.1 Mechanical structure",
+    "avg_font_size": 5.05,
+    "bbox": [
+      65.50727844238281,
+      123.98058319091797,
+      268.6658020019531,
+      136.94869995117188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 0.26,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Title",
+    "length": 81,
+    "relative_font_size": null
+  },
+  {
+    "text": "predict the relationship sibling between it and Introduction . It can avoid predicting the relationship between two entities",
+    "avg_font_size": 9.96,
+    "bbox": [
+      303.614990234375,
+      135.0369873046875,
+      554.6736450195312,
+      157.13107299804688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 1.99,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 124,
+    "relative_font_size": 46
+  },
+  {
+    "text": "Mechanical",
+    "avg_font_size": 5.3,
+    "bbox": [
+      191.84959411621094,
+      153.04046630859375,
+      217.7779541015625,
+      158.3406219482422
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "relative_font_size": 2
+  },
+  {
+    "text": "that are far apart in the document, since the TITLE may have",
+    "avg_font_size": 9.96,
+    "bbox": [
+      303.614990234375,
+      158.947021484375,
+      554.6707763671875,
+      169.08609008789062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.61,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 60,
+    "relative_font_size": 46
+  },
+  {
+    "text": "structure",
+    "avg_font_size": 5.31,
+    "bbox": [
+      194.40003967285156,
+      159.4105987548828,
+      214.06137084960938,
+      164.71871948242188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "lower",
+    "length": 9,
+    "relative_font_size": 3
+  },
+  {
+    "text": "many children. We design the relationship identity because the (a) ducoment-level annotations heading may be divided into several entities due to the limited length of text lines. So far, there is one critical issue that \ud835\udc47\u210e\ud835\udc52\ud835\udc54\ud835\udc4e\ud835\udc5a\ud835\udc5a\ud835\udc4e\u2212\ud835\udc5f\ud835\udc4e\ud835\udc54\ud835\udc60\u2026 \u2026 remains addressed. For the current entity, which entity should \ud835\udc65 0 , \ud835\udc66 0 , \ud835\udc65 1 , \ud835\udc66 1 be used to predict the relationship with it? The answer is the reference entity . The reference entity is the entity immediately \ud835\udc39\ud835\udc4e\ud835\udc59\ud835\udc60\ud835\udc52 preceding the current entity within the document, between \ud835\udc41\ud835\udc48\ud835\udc3f\ud835\udc3f which one of the relationships described above exists. Finally, after obtaining the reference entity and relationship for each \ud835\udc5d\ud835\udc52\ud835\udc5b\ud835\udc52\ud835\udc61\ud835\udc5f\ud835\udc4e\ud835\udc61\ud835\udc52\ud835\udc51\ud835\udc52\ud835\udc5b\ud835\udc60\ud835\udc52\ud835\udc50\ud835\udc59\ud835\udc5c\ud835\udc62\ud835\udc51\ud835\udc60? heading entity, we can generate the ToC tree simply. \ud835\udc65 0 , \ud835\udc66 0 , \ud835\udc65 1 , \ud835\udc66 1 B. Encoder \ud835\udc47\ud835\udc5f\ud835\udc62\ud835\udc52 Different from previous works [4]\u2013[6], the encoder requires 2.2.3 no hand-crafted features to extract features of each entity. Firstly, with the entity-level annotations, the encoder extracts the visual features f v t , the textual features f s t and position features f p (b) entity-level annotations t of each entity. Then, before being fed to the next t , and f p t are fused into f t . f t \u2208 R d , f v t \u2208 R d , module, f v t , f s Fig. 2: HierDoc contains two kinds of annotations. Document- t \u2208 R d , f p t \u2208 R 8 , t \u2208 [1 , N ] , and N is the number of entities f s level annotations serve as targets of ToC extraction. Entity- in the document. level annotations provide quadruple for each entity, 1) Vision Module: The vision module takes document ( content, position, heading, id ) . heading is a boolean vari- images as input. It uses FPN [18] to aggregate feature maps able indicating whether an entity is a heading and id identi\ufb01es from ResNet-34 [19], then pools a \ufb01xed-size feature map \u02c6 f v the hierarchical position of the entity in the ToC tree. with the RoIAlign [20] for each entity. In order to integrate with features from other domains, the 2-dimensional feature map \u02c6 f v t is \ufb02atten to produce visual features f v t . The ResNet- III. THE PROPOSED APPROACH 34 and FPN are pretrained on 1000 scienti\ufb01c papers with a The overall pipeline of MTD is shown in Fig. 3. MTD text detection task [21]. consists of three components: encoder, classi\ufb01er and decoder. 2) Text Module: Recent studies [7] [22] show that textual The vision module, text module, and layout module are \ufb01rst features play an extremely important role in documents. Fol- applied to the input document to extract features of each lowing [23], the BERT is used to extract the textual features entity. Then the gated unit in the encoder is used to obtain f s t . To make the extracted semantic features more suitable the multimodality features. The following classi\ufb01er detects for our network, two linear transformations with a RELU the heading entities and feeds them to the decoder. Finally, activation are added following the BERT. It is worth noting the decoder parses the hierarchy of headings to produce the that both BERT and ResNet-34+FPN do not update their ToC. In the following subsections, we will \ufb01rst formalize our parameters during the training phase to save GPU memory method and then elaborate on the components of MTD. and improve training speed. 3) Layout Module: The layout module generates f p t as the A. Formalization following: Given a document, we \ufb01rst obtain the layout and plain \u00af h , y lt t \u2212 y rb , y lt t +1 \u2212 y rb W , y lt H , x rb W , y rb t = ( x lt H , w t \u00af w , h t",
+    "avg_font_size": 9.5,
+    "bbox": [
+      40.60200500488281,
+      170.90301513671875,
+      554.6787109375,
+      667.572509765625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 97,
+    "line_spacing_avg": 1.6,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-ReguItal",
+      "CMMI7",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CambriaMath",
+      "MSBM10",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 3443,
+    "relative_font_size": null
+  },
+  {
+    "text": "t \u2212 1 f p text of entities by OCR engines or PDF Parsers, as discussed \u00af h \u00af h in Section II. Then, the encoder extracts the features of all w t , h t , ( x lt t , y lt t , x rb t , y rb t ) correspond to the width, the height, entities. Next, the classi\ufb01er divides them into two categories, heading entities or normal entities . A heading entity is one of and the coordinate position of the bounding box of each entity. W , H denote the width and height of the whole page. the headings of the document, while a normal entity is not. We normalize h t with \u00af h , which is the average height of all Finally, starting from an empty tree with a single root node,",
+    "avg_font_size": 9.32,
+    "bbox": [
+      40.602020263671875,
+      647.9503784179688,
+      554.6727294921875,
+      720.3460693359375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 18,
+    "line_spacing_avg": 1.35,
+    "font_names": [
+      "NimbusRomNo9L-ReguItal",
+      "CMMI7",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMSY7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "lower",
+    "length": 658,
+    "relative_font_size": 36
+  },
+  {
+    "text": "Encoder",
+    "avg_font_size": 9.89,
+    "bbox": [
+      264.8998107910156,
+      60.41911697387695,
+      298.12420654296875,
+      70.31028747558594
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri-Bold"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 45
+  },
+  {
+    "text": "Vision Module Text Gated",
+    "avg_font_size": 7.54,
+    "bbox": [
+      227.05404663085938,
+      74.81733703613281,
+      329.037841796875,
+      108.48526000976562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "line_spacing_avg": 4.97,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Title",
+    "length": 24,
+    "relative_font_size": 11
+  },
+  {
+    "text": "Classifier",
+    "avg_font_size": 9.88,
+    "bbox": [
+      424.7454528808594,
+      107.60570526123047,
+      461.56353759765625,
+      117.48179626464844
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri-Bold"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "relative_font_size": 44
+  },
+  {
+    "text": "Module Unit OCR/ PDF parser Layout Module",
+    "avg_font_size": 8.0,
+    "bbox": [
+      143.8423309326172,
+      109.33338928222656,
+      324.5823059082031,
+      143.3594207763672
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 1.62,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Title",
+    "length": 41,
+    "relative_font_size": null
+  },
+  {
+    "text": "Blocking gradient flow",
+    "avg_font_size": 5.96,
+    "bbox": [
+      98.33566284179688,
+      162.62783813476562,
+      152.0332489013672,
+      168.58364868164062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 19.27,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Mixed",
+    "length": 22,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Decoder",
+    "avg_font_size": 9.88,
+    "bbox": [
+      328.3530578613281,
+      165.15968322753906,
+      362.70208740234375,
+      175.03578186035156
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Calibri-Bold"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 44
+  },
+  {
+    "text": "Attention Relation Heading entity Mechanism Decoder Normal entity Title Title Reference Intorduction Intorduction Postprocess Our Method Our Method Sibling Network Network Identity Loss Functi- Loss Functi- on on Parent",
+    "avg_font_size": 6.87,
+    "bbox": [
+      97.74761962890625,
+      166.57952880859375,
+      529.2134399414062,
+      258.10174560546875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 23,
+    "line_spacing_avg": 1.88,
+    "font_names": [
+      "Calibri"
+    ],
+    "text_case": "Title",
+    "length": 219,
+    "relative_font_size": null
+  },
+  {
+    "text": "Fig. 3: Architecture of the MTD for ToC extraction.",
+    "avg_font_size": 9.96,
+    "bbox": [
+      190.36599731445312,
+      270.98748779296875,
+      404.9104919433594,
+      280.9501037597656
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 12.89,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 51,
+    "relative_font_size": 46
+  },
+  {
+    "text": "bounding boxes. We believe that \u00af h is a better measure to existing between various classes. normalize h than the commonly used H , because it re\ufb02ects D. Decoder the difference in spatial height between entities better. The decoder takes detected heading entities as input and 4) Gated Unit: Inspired by [24] [25], we introduce some predicts the relationship between them to parse the heading trainable weights to balance the contribution of f v t , f s t , and entities into a tree structure. The features of heading entities f p t . The fused feature f t is produced as follows: can be denoted as \u02c6 M , where \u02c6 M \u2208 R C \u00d7 d , and C is the number t , f p t , f s z t = \u03c3 ( W z \u00b7 [ f v of the heading entities. So far, the features of each heading t ]) entity are still independent of each other. Therefore, we intro- t + E z f p t + (1 \u2212 z t ) \u2217 f s f t = z t \u2217 f v duce the transformer [28] to capture long-range dependencies on heading entities. We take the features \u02c6 Where W z , E z are trainable weight matrices, and \u03c3 is the M as query, key and sigmoid function, W z \u2208 R d \u00d7 (2 d +8) , E z \u2208 R d \u00d7 8 . The fused value, which are required by the transformer. The output of features f t are the \ufb01nal output of the encoder. the transformer as the \ufb01nal features M has a global receptive \ufb01eld. C. Classi\ufb01er Inspired by the successful applications of attention mech- The classi\ufb01er divides all entities into two categories, i.e., anism [29] [23], we build the attention mechanism into the heading entities and normal entities, as discussed in Section decoder. To \ufb01nd the reference entity, we compute the predic- tion of the current hidden state \u02c6 h s from previous context vector III-A. Before classi\ufb01cation, Bidirectional Gated Recurrent Unit c s \u2212 1 and its hidden state h s \u2212 1 with a GRU: (BiGRU) [26] is used to capture global information: \u02c6 h s = GRU( c s \u2212 1 , h s \u2212 1 ) g t = BiGRU( f t , g t \u2212 1 , g t +1 ) Then we employ an attention mechanism with \u02c6 h s as the where g t is the hidden state. Then we apply a fully connected query and the heading entity features M as both key and value: layer and a softmax activation to classify each entity: e s = Attn( M, \u02c6 h s ) x t = softmax( W c g t + b c ) e s where x t represents the classi\ufb01cation score, x t \u2208 R 2 , W c \u2208 c s = \u2225 e s \u2225 1 R 2 \u00d7 d , b c \u2208 R 2 . Considering there is an imbalance between heading entities and normal entities, we de\ufb01ne the classi\ufb01ca- where \u2225\u00b7 \u2225 1 is the vector 1-norm. We de\ufb01ne Attn function as tion loss as follows: follows: L cls = 1 FL( x t , p t )",
+    "avg_font_size": 9.41,
+    "bbox": [
+      40.60198974609375,
+      302.199951171875,
+      554.678955078125,
+      680.431396484375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 65,
+    "line_spacing_avg": 3.13,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-ReguItal",
+      "CMMI7",
+      "CMBX10",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMSY7",
+      "MSBM10",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 2534,
+    "relative_font_size": null
+  },
+  {
+    "text": "s \u2212 1",
+    "avg_font_size": 6.97,
+    "bbox": [
+      437.0339660644531,
+      669.1993408203125,
+      450.99603271484375,
+      676.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMR7",
+      "CMMI7",
+      "CMSY7"
+    ],
+    "text_case": "lower",
+    "length": 5,
+    "relative_font_size": 10
+  },
+  {
+    "text": "D = Q \u2217 e l t \u2264 N l =1",
+    "avg_font_size": 8.09,
+    "bbox": [
+      157.6320037841797,
+      679.2777709960938,
+      460.0245056152344,
+      700.6995849609375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 4,
+    "line_spacing_avg": 3.27,
+    "font_names": [
+      "CMSY10",
+      "CMMI7",
+      "CMR7",
+      "CMSY7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "lower",
+    "length": 22,
+    "relative_font_size": null
+  },
+  {
+    "text": "where p t is the class label of the entity and FL is the focal loss \u02c6 e si = v T tanh( W h \u02c6 h s + W m m i + W d d i ) proposed in [27] to deal with the problem of data imbalance",
+    "avg_font_size": 9.38,
+    "bbox": [
+      40.60200500488281,
+      696.7039184570312,
+      511.47442626953125,
+      720.1155395507812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMMI7",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 178,
+    "relative_font_size": null
+  },
+  {
+    "text": "e si = activate( e si , e s ) the relationships between them are the same as the ground truth. in which While using the TEDS metric, we need to present ToC as ( 1 if i = arg max ( e sj ) a tree structure. The tree-edit distance [30] is used to measure activate( e si , e s ) = the similarity between two trees. TEDS is computed as: otherwise TEDS ( T a , T b ) = 1 \u2212 EditDist ( T a , T b ) where \u2217 denotes a convolution layer, P s \u2212 1 l =1 e l denotes the sum max ( | T a | , | T b | ) of the past determined reference entity, \u02c6 e s,i denotes the output energy, d i denotes the element of D , which is used to keep where T a and T b are ToC trees. EditDist represents the tree- track of past alignment information. It is worth noting that edit distance, and | T | is the number of nodes in T . the attention mechanism is completed on the features of each B. Implementation Details heading entity. Considering that there is only one reference In the vision module, ResNet-34+FPN is pre-trained on entity for each heading entity, we use activate to obtain the 1000 scienti\ufb01c documents for a text detection task [21]. The attention probability instead of softmax, which means that the pool size of RoIAlign is set to 3 \u00d7 3. The BERT used in weight of the reference entity is set to 1 while other entities the text module is available on GitHub 4 . The channel number remain 0. of visual, textual, and fused features is 128. The number of With the context vector c s , we compute the current hidden stacks for the transformer in the decoder is set to 3. And the state: h s = GRU( c s , \u02c6 h s ) hidden state dimension in the classi\ufb01er and decoder is both 128, too. The training loss of locating the reference entity is de\ufb01ned The training objective of our model is to minimize the as: function: O = \u03b1 1 L cls + \u03b1 2 L ref + \u03b1 3 L re L ref = 1 FL( \u02c6 e s , y s ) where \u03b1 1 , \u03b1 2 and \u03b1 3 are set to 1. Random scale is adopted",
+    "avg_font_size": 9.64,
+    "bbox": [
+      40.60199737548828,
+      51.12492370605469,
+      554.6778564453125,
+      343.7141418457031
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 47,
+    "line_spacing_avg": 1.28,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-ReguItal",
+      "CMEX10",
+      "CMMI7",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMSY7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 1916,
+    "relative_font_size": null
+  },
+  {
+    "text": "s \u2264 M",
+    "avg_font_size": 6.97,
+    "bbox": [
+      158.5240020751953,
+      337.5694274902344,
+      176.10546875,
+      344.63360595703125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMMI7",
+      "CMSY7"
+    ],
+    "text_case": "Mixed",
+    "length": 5,
+    "relative_font_size": 10
+  },
+  {
+    "text": "during training. Both BERT and ResNet-34+FPN do not where loss function FL has been de\ufb01ned in Section III-C and update their parameters to save GPU memory. We employ y s denotes the ground truth of the reference entity for time the Adam algorithm [31] for optimization, with the following step s . y si is 1 if i th heading entity is the reference entity of hyper parameters: \u03b2 1 = 0.9 and \u03b2 2 = 0.999. We set the the current heading entity, otherwise 0. learning rate using the cosine annealing schedule [32]. The The relationship between the current entity and its reference minimum learning rate and the initial learning rate are set to entity is predicted through an FFN [28]: 1e-6 and 5e-4, respectively. The batch size varies between 1 and 4 according to the number of pages of the document. r s = FFN([ c s , h s ]) All experiments are implemented with a single Tesla V100 GPU with 32GB RAM Memory. The whole framework is implemented using PyTorch. FFN( x ) = W 2 max (0 , W 1 x + b 1 ) + b 2 C. Ablation Study where FFN is actually two linear transformations with a ReLU activation in between. r s \u2208 R 3 , W 1 \u2208 R d in \u00d7 2 d , b 1 \u2208 R d in , 1) The Effectiveness of Each Modality: We perform abla- W 2 \u2208 R 3 \u00d7 d in , b 2 \u2208 R 3 . tion studies to evaluate the effectiveness of each modality in The loss of predicting relationships is as follows: this section. The Heading Detecting in tables represents the task of detecting heading entities, and the metric we use is L re = 1 F1-Measure. As shown in Table I, when any of the visual, FL( r s , q s ) textual, or layout modalities is removed, the performance of",
+    "avg_font_size": 9.68,
+    "bbox": [
+      40.60200500488281,
+      344.2115173339844,
+      554.678955078125,
+      567.2659301757812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 32,
+    "line_spacing_avg": 2.13,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-ReguItal",
+      "CMMI7",
+      "CMBX10",
+      "CMMI5",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMSY7",
+      "MSBM10",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 1616,
+    "relative_font_size": null
+  },
+  {
+    "text": "s \u2264 M",
+    "avg_font_size": 6.97,
+    "bbox": [
+      156.4810028076172,
+      559.9703369140625,
+      174.06246948242188,
+      567.0345458984375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMMI7",
+      "CMSY7"
+    ],
+    "text_case": "Mixed",
+    "length": 5,
+    "relative_font_size": 10
+  },
+  {
+    "text": "the model drops. This suggests that multimodal features play where q s denotes the ground truth of the relation between the an important role in ToC extraction. Note that the parameters current heading entity and its reference entity at time step s . of our visual and textual modules are frozen during training. Therefore, they need to be properly pre-trained as discussed IV. EXPERIMENTS in Section IV-B. A. Metric 2) The Effectiveness of Feature Fusion Strategies: We In this paper, we use both the F1-Measure and Tree-Edit- introduce a novel feature fusion strategy in Section III-B4. In Distance-based Similarity (TEDS) metric [17] to evaluate the this section, we conduct experiments to compare it with three performance of our model for ToC extraction. common feature fusion strategies, including dot, concatenate, To use the F1-Measure, the relationships among the heading and add. Table II shows that the Gated Unit outperforms other entities and corresponding reference entities need to be ex- strategies. Thus, the Gated Unit is utilized in our approach. tracted. Then F1-Measure measures the percentage of correctly extracted pairs of heading entities, where heading entities and",
+    "avg_font_size": 9.93,
+    "bbox": [
+      40.60198211669922,
+      569.25830078125,
+      554.674072265625,
+      718.85205078125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 23,
+    "line_spacing_avg": 1.94,
+    "font_names": [
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMMI7"
+    ],
+    "text_case": "Mixed",
+    "length": 1191,
+    "relative_font_size": null
+  },
+  {
+    "text": "4 https://github.com/huggingface/transformers",
+    "avg_font_size": 6.97,
+    "bbox": [
+      311.5849304199219,
+      709.0985107421875,
+      457.01953125,
+      718.3705444335938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 45,
+    "relative_font_size": 10
+  },
+  {
+    "text": "TABLE I: The Effectiveness of Each Modality. of HierDoc. We hope that our MTD could serve as a strong baseline for deep learning based ToC extraction in the future. Heading Detecting ToC Extraction Method F1 TEDS F1 R EFERENCES w/o Text 88.6 83.0 85.7 63.7 62.5 w/o Layout 95.0 89.2 92.0 80.4 79.6 [1] M. El-Haj, P. Alves, P. Rayson, M. Walker, and S. Young, \u201cRetrieving, 97.5 w/o Vision 93.7 95.5 86.5 87.7 classifying and analysing narrative commentary in unstructured (glossy) 96.0 96.1 87.2 88.1 MTD 96.2 annual reports published as pdf \ufb01les,\u201d Accounting and Business Re- search , vol. 50, no. 1, pp. 6\u201334, 2020. [2] A. Doucet, M. Coustaty et al. , \u201cEnhancing table of contents extraction TABLE II: The Effectiveness of Feature Fusion Strategies. by system aggregation,\u201d in 2017 14th IAPR international conference on document analysis and recognition (ICDAR) , vol. 1. IEEE, 2017, pp. Heading Detecting ToC Extraction Method 242\u2013247. F1 TEDS F1 [3] A. Doucet, G. Kazai, B. Dresevic, A. Uzelac, B. Radakovic, and Dot 96.1 93.9 95.0 84.6 84.9 N. Todic, \u201cSetting up a competition framework for the evaluation of structure extraction from ocr-ed books,\u201d International Journal on Concat 96.8 93.8 95.3 84.6 85.3 Document Analysis & Recognition , vol. 14, no. 1, pp. 45\u201352, 2011. 97.0 94.0 95.5 85.7 86.3 Add [4] A. A. M. Gopinath, S. Wilson, and N. Sadeh, \u201cSupervised and unsuper- 96.0 96.1 87.2 88.1 Gated Unit 96.2 vised methods for robust separation of section titles and prose text in web documents,\u201d in Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing , 2018, pp. 850\u2013855. [5] A. M. Namboodiri and A. K. Jain, \u201cDocument structure and layout 3) The Effectiveness of Decoding Methods.: To verify the analysis,\u201d in Digital Document Processing . Springer, 2007, pp. 29\u201348. [6] S. Tuarob, P. Mitra, and C. L. Giles, \u201cA hybrid approach to discover performance of the decoder in MTD, we replace it with a C - semantic hierarchical sections in scholarly documents,\u201d in 2015 13th in- class classi\ufb01er, which predicts the depth of headings. C is set ternational conference on document analysis and recognition (ICDAR) . to 5 in HierDoc . The transformer unit is reserved for a fair IEEE, 2015, pp. 1081\u20131085. [7] Y. Xu, M. Li, L. Cui, S. Huang, F. Wei, and M. Zhou, \u201cLayoutlm: comparison. Pre-training of text and layout for document image understanding,\u201d in Proceedings of the 26th ACM SIGKDD International Conference on TABLE III: The Effectiveness of Decoding Methods. Knowledge Discovery & Data Mining , 2020, pp. 1192\u20131200. [8] J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, \u201cBert: Pre-training Method ToC Extraction (TEDS) of deep bidirectional transformers for language understanding,\u201d arXiv C-class Classi\ufb01er 72.1 preprint arXiv:1810.04805 , 2018. [9] W. Lin, Q. Gao, L. Sun, Z. Zhong, K. Hu, Q. Ren, and Q. Huo, 87.2 Decoder \u201cVibertgrid: A jointly trained multi-modal 2d document representa- tion for key information extraction from documents,\u201d arXiv preprint As described in Table III, the C -class Classi\ufb01er leads to arXiv:2105.11672 , 2021. [10] T. A. Nartker, S. V. Rice, and S. E. Lumos, \u201cSoftware tools and degradation of performance to a certain extent. Intuitively, the test data for research and testing of page-reading ocr systems,\u201d in Decoder in MTD is more suitable for parsing the hierarchy Document Recognition and Retrieval XII, 16-20 January 2005, San Jose, of entities into a tree structure. In addition, the Decoder California, USA, Proceedings , 2005. can generate a tree of any depth by de\ufb01ning three types of [11] G. Thoma, \u201cThe national library of medicine,\u201d in http://marg.nlm.nih.gov/, Bethesda, USA , 2005. relationships, namely parent , sibling , and identity , while the [12] C. Clausner, C. Papadopoulos, S. Pletschacher, and A. Antonacopoulos, C -class classi\ufb01er has to restrict the tree to a depth of C . \u201cThe enp image and ground truth dataset of historical newspapers,\u201d in 2015 13th International Conference on Document Analysis and V. C ONCLUSION Recognition (ICDAR) , 2015, pp. 931\u2013935. [13] C. Clausner, A. Antonacopoulos, and S. Pletschacher, \u201cIcdar2017 com- In this paper, we release a dataset HierDoc for deep learning petition on recognition of documents with complex layouts - rdcl2017,\u201d based methods and further propose the MTD for ToC extrac- in 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR) , vol. 01, 2017, pp. 1404\u20131410. tion. HierDoc contains 650 document images and annotations [14] A. Antonacopoulos, D. Bridson, C. Papadopoulos, and S. Pletschacher, in both the document-level and entity-level. The document- \u201cA realistic dataset for performance evaluation of document layout level annotations serve as the target of ToC extraction in the analysis,\u201d in 2009 10th International Conference on Document Analysis and Recognition . IEEE, 2009, pp. 296\u2013300. test phase, while the entity-level annotations are generated [15] X. Zhong, J. Tang, and A. Jimeno Yepes, \u201cPublaynet: Largest dataset for training. MTD mainly consists of three parts, i.e., en- ever for document layout analysis,\u201d in 2019 International Conference on coder, classi\ufb01er, and decoder. The encoder extracts features Document Analysis and Recognition (ICDAR) , 2019, pp. 1015\u20131022. of entities, then the classi\ufb01er selects the heading entities [16] N.-I. Bentabet, R. Juge, I. El Maarouf, V. Mouilleron, D. Valsamou- Stanislawski, and M. El-Haj, \u201cThe \ufb01nancial document structure ex- and the decoder parses the hierarchy of heading entities. We traction shared task (\ufb01ntoc 2020),\u201d in Proceedings of the 1st Joint demonstrate that the use of multimodality features of vision, Workshop on Financial Narrative Processing and MultiLing Financial text, and layout in the encoder boosts model performance. The Summarisation , 2020, pp. 13\u201322. [17] X. Zhong, E. Sha\ufb01eiBavani, and A. Jimeno Yepes, \u201cImage-based table gated unit used in the encoder also outperforms other feature recognition: data, model, and evaluation,\u201d in Computer Vision\u2013ECCV fusion strategies. The decoder builds the ToC tree by parsing 2020: 16th European Conference, Glasgow, UK, August 23\u201328, 2020, the hierarchy of heading entities. The decoder outperforms Proceedings, Part XXI 16 . Springer, 2020, pp. 564\u2013580. [18] T.-Y. Lin, P. Doll\u00b4ar, R. Girshick, K. He, B. Hariharan, and S. Belongie, the vanilla C -class classi\ufb01er by a large margin, and it can \u201cFeature pyramid networks for object detection,\u201d in Proceedings of the generate a tree of any depth. MTD achieves an average TEDS IEEE conference on computer vision and pattern recognition , 2017, pp. of 87.2% and an average F1-Measure of 88.1% on the test set 2117\u20132125.",
+    "avg_font_size": 9.09,
+    "bbox": [
+      40.601959228515625,
+      47.76850891113281,
+      554.6777954101562,
+      718.8519287109375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 181,
+    "line_spacing_avg": 1.1,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 6683,
+    "relative_font_size": null
+  },
+  {
+    "text": "[19] K. He, X. Zhang, S. Ren, and J. Sun, \u201cDeep residual learning for image recognition,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition , 2016, pp. 770\u2013778. [20] K. He, G. Gkioxari, P. Doll\u00b4ar, and R. Girshick, \u201cMask r-cnn,\u201d in Proceedings of the IEEE international conference on computer vision , 2017, pp. 2961\u20132969. [21] Z. Tian, C. Shen, H. Chen, and T. He, \u201cFcos: Fully convolutional one- stage object detection,\u201d in 2019 IEEE/CVF International Conference on Computer Vision (ICCV) , 2020. [22] Z. Wang, Y. Xu, L. Cui, J. Shang, and F. Wei, \u201cLayoutreader: Pre- training of text and layout for reading order detection,\u201d arXiv preprint arXiv:2108.11591 , 2021. [23] Z. Zhang, J. Zhang, and J. Du, \u201cSplit, embed and merge: An accurate table structure recognizer,\u201d arXiv preprint arXiv:2107.05214 , 2021. [24] J. Arevalo, T. Solorio, M. Montes-y G\u00b4omez, and F. A. Gonz\u00b4alez, \u201cGated multimodal units for information fusion,\u201d arXiv preprint arXiv:1702.01992 , 2017. [25] D. Yu, X. Li, C. Zhang, T. Liu, J. Han, J. Liu, and E. Ding, \u201cTowards accurate scene text recognition with semantic reasoning networks,\u201d in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2020, pp. 12 113\u201312 122. [26] J. Chung, C. Gulcehre, K. Cho, and Y. Bengio, \u201cEmpirical evaluation of gated recurrent neural networks on sequence modeling,\u201d arXiv preprint arXiv:1412.3555 , 2014. [27] T. Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollar, \u201cFocal loss for dense object detection,\u201d in 2017 IEEE International Conference on Computer Vision (ICCV) , 2017. [28] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, \u0141. Kaiser, and I. Polosukhin, \u201cAttention is all you need,\u201d in Advances in neural information processing systems , 2017, pp. 5998\u20136008. [29] J. Zhang, J. Du, S. Zhang, D. Liu, Y. Hu, J. Hu, S. Wei, and L. Dai, \u201cWatch, attend and parse: An end-to-end neural network based approach to handwritten mathematical expression recognition,\u201d Pattern Recognition , vol. 71, pp. 196\u2013206, 2017. [30] M. Pawlik and N. Augsten, \u201cTree edit distance: Robust and memory- ef\ufb01cient,\u201d Information Systems , vol. 56, pp. 157\u2013173, 2016. [31] D. Kingma and J. Ba, \u201cAdam: A method for stochastic optimization,\u201d Computer Science , 2014. [32] I. Loshchilov and F. Hutter, \u201cSgdr: Stochastic gradient descent with warm restarts,\u201d arXiv preprint arXiv:1608.03983 , 2016.",
+    "avg_font_size": 7.97,
+    "bbox": [
+      40.60193634033203,
+      52.866573333740234,
+      291.6637878417969,
+      410.5245666503906
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 40,
+    "line_spacing_avg": 0.91,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 2415,
+    "relative_font_size": 12
+  }
+]

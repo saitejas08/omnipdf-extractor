@@ -35,9 +35,9 @@
     "line_count": 1,
     "line_spacing_avg": 23.32,
     "font_names": [
-      "Sniglet-Regular",
+      "Calibri",
       "ArialMT",
-      "Calibri"
+      "Sniglet-Regular"
     ],
     "text_case": "Mixed",
     "length": 80,
@@ -100,8 +100,8 @@
     "line_count": 15,
     "line_spacing_avg": 2.55,
     "font_names": [
-      "ArialMT",
-      "Calibri"
+      "Calibri",
+      "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 732,
@@ -122,8 +122,8 @@
     "line_count": 3,
     "line_spacing_avg": 18.38,
     "font_names": [
-      "Sniglet-Regular",
-      "Calibri-Bold"
+      "Calibri-Bold",
+      "Sniglet-Regular"
     ],
     "text_case": "UPPER",
     "length": 51,

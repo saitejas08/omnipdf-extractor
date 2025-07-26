@@ -1,0 +1,1898 @@
+[
+  {
+    "text": "PDF-to-Tree: Parsing PDF Text Blocks into a Tree",
+    "avg_font_size": 14.35,
+    "bbox": [
+      143.66317749023438,
+      75.95840454101562,
+      451.6198425292969,
+      94.62374114990234
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 48,
+    "relative_font_size": 90
+  },
+  {
+    "text": "Yue Zhang 1 , Zhihao Zhang 1 , Wenbin Lai 1 , Chong Zhang 1 Tao Gui 2 , Qi Zhang 1,3 , Xuanjing Huang 1,3 1 School of Computer Science, Fudan University 2 Institute of Modern Languages and Linguistics, Fudan University 3 Shanghai Key Laboratory of Intelligent Information Processing, Fudan University",
+    "avg_font_size": 10.06,
+    "bbox": [
+      97.96792602539062,
+      108.20703887939453,
+      497.3154602050781,
+      179.06336975097656
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 13.58,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 300,
+    "relative_font_size": 52
+  },
+  {
+    "text": "yuezhang.fdu@gmail.com , {tgui,qz,xjhuang}@fudan.edu.cn",
+    "avg_font_size": 11.96,
+    "bbox": [
+      139.2259979248047,
+      178.60531616210938,
+      456.0538330078125,
+      193.0120391845703
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "Inconsolatazi4-Regular"
+    ],
+    "text_case": "lower",
+    "length": 55,
+    "relative_font_size": 89
+  },
+  {
+    "text": "Abstract",
+    "avg_font_size": 11.96,
+    "bbox": [
+      157.75289916992188,
+      219.37594604492188,
+      202.24041748046875,
+      234.93043518066406
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 26.36,
+    "font_names": [
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Title",
+    "length": 8,
+    "relative_font_size": 89
+  },
+  {
+    "text": "root title In many PDF documents, the reading order of text blocks is missing, which can hinder abstract machine understanding of the document\u2019s paragraph content. Existing works try to extract one token token universal reading order for a PDF file. However, section applications, like Retrieval Augmented Gen- subsection eration (RAG), require breaking long articles [a] paragraph into sections, subsections and table cells for better indexing. For this reason, this paper token token introduces a new task and dataset, PDF-to- subsection Tree, which organizes the text blocks of a table PDF into a tree structure. Since a PDF may table row contain thousands of text blocks, this paper proposes a transition-based parser that uses cell cell a greedy strategy to build the tree structure. footnote Compared to the parser for plain text, we also annotation use multi-modal features to encode the parser [b] [c] state. Experiments show that our approach achieves an accuracy of 93.93%, surpassing Figure 1: In a PDF([a]), text blocks are independent the performance of baseline methods by an of each other and don\u2019t have a specific order. The improvement of 6.72%. The dataset is public reading order prediction task([b]) can partially resolve available at https://github.com/yuezh000/PDF- this issue. However there\u2019s only one text sequence, to-Tree. footnotes, captions and other irrelevant text blocks are inserted into the main text sequence. This might lead Introduction to confusion. Additionally, some applications, like RAG, require breaking down long articles into sections Document AI is a research field that has emerged for better content retrieval. To tackle this issue, we in recent years. It focuses on automating the propose a new task and dataset, PDF-to-Tree task([c]), reading, comprehension, and analysis of data in which organizes text blocks into a tree structure for PDF documents. These documents can be either downstream task to retrieve. scanned or digital-born(rendered) files. Although many PDFs are digital-born, their formats were designed for layout purposes. As a result, the 2018 ). Later research incorporates visual, textual, structural information retained within them is and positional information. Such works include often incomplete, which can hinder machine LayoutLM serials ( Xu et al. , 2020 ), ( Xu et al. , understanding of the document\u2019s content. 2021a ), ( Xu et al. , 2021b ), DocStruct( Wang et al. , There\u2019s a lot of research on PDF layout analyz- 2020 ), SPADE( Hwang et al. , 2021 ), BROS( Hong ing, like categorizing text blocks and predicting et al. , 2021 ), StructuralLM( Li et al. , 2021a ) and the relationships between them. Earlier studies StrucTexT( Li et al. , 2021b ). There are also relies on purely visual features, such as, Deep- many datasets developed in this area, including, DeSRT( Schreiber et al. , 2017 ), PDFTableDetec- RVL_CDIP( Harley et al. , 2015 ), FUNSD( Jaume tion( Hao et al. , 2016 ), VisualDetection( Soto and et al. , 2019a ), EPHOIE( Jaume et al. , 2019b ), Yoo , 2019 ) and dhSegment( Ares Oliveira et al. , PubLayNet( Zhong et al. , 2019 ), SROIE( Huang 10704 Findings of the Association for Computational Linguistics: EMNLP 2024 , pages 10704\u201310714 November 12-16, 2024 \u00a92024 Association for Computational Linguistics",
+    "avg_font_size": 10.05,
+    "bbox": [
+      70.2235107421875,
+      222.50967407226562,
+      525.7877807617188,
+      818.5185546875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 93,
+    "line_spacing_avg": 1.27,
+    "font_names": [
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Regu",
+      "TimesNewRomanPSMT",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 3302,
+    "relative_font_size": 51
+  },
+  {
+    "text": "Text Blocks Transition-based Parser Input Document Desired Tree title T1 BUFFER STACK abstract T2 T3 T1 paragraph T3 T4 T2 PDF Miner section T4 or OCR T5 paragraph T5 A \u2190 \u2205 Step Stack Buffer Transition A \u222a (ROOT, T1, title) [ROOT] [T1, T2, T3, T4, T5] ARC(ROOT, T1, title) A \u222a (T1, T2, abstract) [ROOT, T1] [T2, T3, T4, T5] ARC(T1, T2, abstract) [ROOT, T1, T2] [T3, T4, T5] SHIFT ... ... ... ... ...",
+    "avg_font_size": 6.93,
+    "bbox": [
+      79.86499786376953,
+      70.9769058227539,
+      511.2764587402344,
+      217.5660858154297
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 44,
+    "line_spacing_avg": 4.16,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "CambriaMath",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "UPPER",
+    "length": 399,
+    "relative_font_size": null
+  },
+  {
+    "text": "Figure 2: We leverage a transition-based parser to predict tree structure of a document from a sequence of input text blocks. The input document is processed by PDF Miner or OCR tools to get text block sequence. Then the sequence is processed by the parser to predict a serial of transition actions that build the tree. The parser archive this by using a buffer to hold input sequence and a stack to hold intermediate tree nodes. In each step, the parser predicts a shift or arc operation that pops elements from the buffer and reconstructs the tree in the stack.",
+    "avg_font_size": 9.96,
+    "bbox": [
+      70.85653686523438,
+      230.97109985351562,
+      524.4259643554688,
+      290.79998779296875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 13.41,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 563,
+    "relative_font_size": 43
+  },
+  {
+    "text": "et al. , 2019 ), DocBank( Li et al. , 2020 ), CORD( Park contain thousands of text blocks, depending on the et al. , 2019 ), and SciTSR( Chi et al. , 2019 ). document\u2019s length, we opt for a transition-based parser to address this issue. Compared to other To address the issue of missing structure in- algorithms (the minimum spanning tree or pairwise formation in PDF documents, existing research linking methods), the time and memory complexity develops the task of reading order prediction. This of a transition-based parser scales linearly with involves predicting a global rank for each text the length of the document. Unlike plain text block and linking them into a text sequence. Such dependency parsing, text blocks in PDF documents efforts include LayoutParser( Shen et al. , 2021 ), contain more information besides text, such as LayoutReader( Wang et al. , 2021 ) and ERNIE- visual details and layout. We also use features from layout( Peng et al. , 2022 ). different modalities to encode the parser state. However, we believe that placing all text blocks in the same sequence is insufficient. This is In general, our main contributions are in three because there are independent document elements folders: like footnotes and captions, which should have 1) We introduce a new task and dataset for digital their own reading order. Especially for RAG document understanding, called PDF-to-Tree. This applications, which require breaking down long task converts PDFs into a tree structure, making it documents into sections, subsections and table easier for downstream tasks, like RAG, to precisely rows, a more detailed method is needed to represent locate content in the articles. the content of PDF documents. Therefore, we 2) We develop a transition-based parser for introduce the PDF-to-Tree task and dataset. By implementing PDF-to-Tree. This approach scales organizing text blocks into a tree structure, we aim linearly with document length, and can handle to solve the issue of complex document structures. PDFs made up of thousands of text blocks. We We manually annotate the tree structures of also use multi-modal features to encode the parser 9,310 PDF pages. As shown in Figure 1, through state. the PDF-to-Tree task, text blocks in a PDF are 3) Our experiments show that our method organized into a tree structure. Compared to achieves an accuracy of 93.93%, which is 6.72% reading unordered text blocks directly from a PDF higher than the baseline methods. file, downstream tasks can accurately access the content needed from the document through its tree Method structure. Additionally, we propose a transition-based parser that effectively completes the PDF-to-Tree In this section, we discuss how to reconstruct task. There are multiple ways to construct a document structure from a sequence of input text tree from a sequence. Considering a PDF may blocks. 10705",
+    "avg_font_size": 10.97,
+    "bbox": [
+      70.85653686523438,
+      312.392578125,
+      525.3292236328125,
+      794.37744140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 71,
+    "line_spacing_avg": 3.09,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 2889,
+    "relative_font_size": 83
+  },
+  {
+    "text": "Label Position Text Layout Image Encoded Prediction Prediction Embedding Embedding Embedding Features [CLS] h [CLS] title 0.7",
+    "avg_font_size": 6.71,
+    "bbox": [
+      128.8995361328125,
+      71.05335998535156,
+      475.2271423339844,
+      104.7108383178711
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 16,
+    "line_spacing_avg": 4.24,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Title",
+    "length": 125,
+    "relative_font_size": null
+  },
+  {
+    "text": "STACK [S#0] [S#0] h [S#0] h [S#0] abstract 0.1 (T 1 , V 1 , bbox 1 ) T 1 V 1 bbox 1 h 1 ... ... (T 2 , V 2 , bbox 2 )",
+    "avg_font_size": 5.3,
+    "bbox": [
+      75.48323059082031,
+      103.73169708251953,
+      435.8638916015625,
+      132.75033569335938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 15,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 117,
+    "relative_font_size": null
+  },
+  {
+    "text": "Classifier",
+    "avg_font_size": 8.0,
+    "bbox": [
+      377.7188415527344,
+      126.61638641357422,
+      386.5741882324219,
+      157.17568969726562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "relative_font_size": 19
+  },
+  {
+    "text": "h [S#1] [S#1] h [S#1]",
+    "avg_font_size": 5.73,
+    "bbox": [
+      136.4725341796875,
+      128.0178985595703,
+      352.22967529296875,
+      136.01409912109375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 21,
+    "relative_font_size": null
+  },
+  {
+    "text": "Argmax Encoder",
+    "avg_font_size": 8.0,
+    "bbox": [
+      262.6473693847656,
+      128.24826049804688,
+      456.8335876464844,
+      155.58221435546875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Title",
+    "length": 14,
+    "relative_font_size": 19
+  },
+  {
+    "text": "other 0.0 arc(title, [S#0], [B#0]) T 2 V 2 bbox 2 h 2 ... ... ... ...",
+    "avg_font_size": 5.64,
+    "bbox": [
+      140.57223510742188,
+      130.01934814453125,
+      524.0057373046875,
+      156.31654357910156
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 11,
+    "line_spacing_avg": 2.49,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 69,
+    "relative_font_size": null
+  },
+  {
+    "text": "0.1 title",
+    "avg_font_size": 4.6,
+    "bbox": [
+      409.3428955078125,
+      150.9181671142578,
+      428.6894226074219,
+      156.54696655273438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 9,
+    "relative_font_size": null
+  },
+  {
+    "text": "gather",
+    "avg_font_size": 7.2,
+    "bbox": [
+      336.7279357910156,
+      155.4310302734375,
+      354.7237243652344,
+      163.4008331298828
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "lower",
+    "length": 6,
+    "relative_font_size": 14
+  },
+  {
+    "text": "[S#1] [SEP] h [SEP] 0.6 abstract BUFFER [B#0] h [B#0] ... ... (T 3 , V 3 , bbox 3 ) T 3 V 3 bbox 3 h 3 0.0 other",
+    "avg_font_size": 5.27,
+    "bbox": [
+      75.31980895996094,
+      157.4732666015625,
+      436.1427917480469,
+      189.04330444335938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 17,
+    "line_spacing_avg": 1.08,
+    "font_names": [
+      "Calibri",
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 112,
+    "relative_font_size": null
+  },
+  {
+    "text": "Figure 3: An overall illustration of transition prediction",
+    "avg_font_size": 9.96,
+    "bbox": [
+      187.2093505859375,
+      200.36257934570312,
+      408.0710754394531,
+      212.3681182861328
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 13.19,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 58,
+    "relative_font_size": 43
+  },
+  {
+    "text": "2.1 PDF-to-Tree configuration at the current step. First, embeddings are created for the nodes in the stack and buffer. To reconstruct the tree structure of a document, Text, bounding boxes and their corresponding we leverage a transition-based parser. Given an images are concatenated together in the order they input document d , we first extract all text blocks appear in the stack. The concatenated sequence [ T 1 , T 2 , ..., T n ] from d with PDF Miner or OCR is then separately embedded for text, image, and tools depends on whether the input is a scanned layout. These embeddings are combined according or digital born document. Then a transition-based to their positions and served as inputs for the parser turns text block sequence into a tree. Let\u2019s encoder. The encoder produces hidden state for denote the final desired tree by the set of arcs in each node, and classification is performed to obtain that tree, \u02c6 A = [( head, tail, label ) , ... ] . Now the labels and the starting position of arcs. goal of PDF-to-Tree is to predict \u02c6 A . Given the current configuration of a parser, We can archive that via a transition-based parser denoted as c = ( s, b, A ) , we use the following with a configuration c consists of a stack s , a buffer notations to introduce the out model. n i represents b , and a set of arcs A . In the initial state, A = \u03d5 , a node from either s or b . t i represents the text s = [ ROOT ] , and b = [ T 1 , T 2 , ..., T n ] . In each within the node n i , bbox i represents the bounding step, the classifier predicts actions based on the box of n i , and v i represents the image information content of s and b , as shown in Figure 2 . At the end of n i . of each step, A is updated by adding the predicted arc into the set, A A \u222a [ predicted _ arc ] . 2.2.1 Text Embedding Eventually, we will get our desired tree, A \u2192 \u02c6 A . We connect the t i from nodes in both s and b in Specifically, in each step we predict the follow- sequential order to form a sequence S . Before each ing actions: node n i , a special token is inserted as a separator. \u2022 SHIFT - pop the first element and push it into For nodes in s , we use the special character [ S # i ] , the stack. and for nodes in b , we use [ B # i ] . As a result, we obtain the sequence S as shown in Equation 2 . \u2022 ARC - create a new arc from any element of the stack to the first element in the buffer and predict the label of arc. (2)",
+    "avg_font_size": 10.83,
+    "bbox": [
+      70.46351623535156,
+      233.56690979003906,
+      526.33349609375,
+      624.5176391601562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 56,
+    "line_spacing_avg": 3.87,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMR8",
+      "CMMI8",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 2428,
+    "relative_font_size": 69
+  },
+  {
+    "text": "S = [ CLS ] , [ S #0] ,t 0 , [ S #1] ,t 1 ,..., [ SEP ] , [ B #0] ,t n .",
+    "avg_font_size": 7.97,
+    "bbox": [
+      318.587890625,
+      613.269775390625,
+      500.3481140136719,
+      624.179443359375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMMI6",
+      "CMR8",
+      "CMMI8",
+      "CMMI10",
+      "CMR6",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 72,
+    "relative_font_size": 18
+  },
+  {
+    "text": "As Equation 1 shows, our parser needs to predict not only the label of the arc but also the starting 2.2.2 Layout Embedding point of the arc. In practice, we limit the start For each node, n i , besides embedding t i , it\u2019s position of an arc with in a fixed size window of also necessary to embed layout information, bbox i . the stack to ease the prediction process. To be specific, we employ four distinct types of layout embedding, including absolute position, relative position, bounding box size(width and label, arc _ start = classifier ( a, b, A ) (1) height), and font size. Absolute position refers 2.2 Transition Prediction to the coordinates bbox i = ( x i 1 ) of the 0 , y i 0 , x i 1 , y i",
+    "avg_font_size": 10.52,
+    "bbox": [
+      70.85653686523438,
+      622.8040771484375,
+      526.3319091796875,
+      750.6649780273438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 22,
+    "line_spacing_avg": 0.4,
+    "font_names": [
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMR8",
+      "CMMI8",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "lower",
+    "length": 703,
+    "relative_font_size": null
+  },
+  {
+    "text": "Figure 3 illustrates the process of PDF-to-Tree bounding box. Relative position indicates the predicting transition actions based on the current position of the bounding box relative to the first 10706",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.85653686523438,
+      749.2183837890625,
+      524.4278564453125,
+      794.37744140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 2.86,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 201,
+    "relative_font_size": 86
+  },
+  {
+    "text": "Labels Train Test Dev",
+    "avg_font_size": 10.91,
+    "bbox": [
+      332.27960205078125,
+      70.25574493408203,
+      498.2915954589844,
+      84.4491958618164
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 4,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Title",
+    "length": 21,
+    "relative_font_size": 77
+  },
+  {
+    "text": "1 , y b 0 0 , x b 0 0 , y b 0 node in the buffer, bbox b 0 = ( x b 0 1 ) . If # of documents 1,040 129 129 bbox i and bbox b 0 are from different pages, then # of pages 7,554 786 970 based on the page number, the model will add the corresponding page height to the y-coordinate Table 1: Statistics of training, development, and testing of the bounding box below. All coordinates are sets normalized to the range of 0 to 1000. The results of embedding b i are also ordered according to the corresponding t i sequence, and the embeddings\u2019 Experiments outcomes at each position are averaged. In this section, we dive into the implementation details of PDF-to-Tree and conduct experiments on the PDF-to-Tree dataset. Also, we create a baseline",
+    "avg_font_size": 10.44,
+    "bbox": [
+      70.85653686523438,
+      70.96279907226562,
+      524.4279174804688,
+      230.74090576171875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 27,
+    "line_spacing_avg": 0.4,
+    "font_names": [
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMR8",
+      "CMMI8",
+      "CMMI10",
+      "CMR6",
+      "CMR10"
+    ],
+    "text_case": "lower",
+    "length": 739,
+    "relative_font_size": null
+  },
+  {
+    "text": "( x i 0 ,y i 0 ,x i 1 ,y i 1 )",
+    "avg_font_size": 6.84,
+    "bbox": [
+      150.33050537109375,
+      220.09976196289062,
+      198.48358154296875,
+      231.36489868164062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMMI8",
+      "CMR8",
+      "CMR6",
+      "CMMI6"
+    ],
+    "text_case": "lower",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "with BROS( Hong et al. , 2021 ), StrucTexT( Li et al. ,",
+    "avg_font_size": 10.8,
+    "bbox": [
+      305.7512512207031,
+      231.14447021484375,
+      525.7813720703125,
+      244.29058837890625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 55,
+    "relative_font_size": 66
+  },
+  {
+    "text": "1 ) \u2212 ( x b 0 0 ,y b 0 0 ,x b 0 1 ,y b 0 ( x i 0 ,y i 0 ,x i 1 ,y i 1 )",
+    "avg_font_size": 6.89,
+    "bbox": [
+      150.33053588867188,
+      234.63345336914062,
+      268.8871765136719,
+      251.2678985595703
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 9,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMMI6",
+      "CMR8",
+      "CMMI8",
+      "CMSY8",
+      "CMR6"
+    ],
+    "text_case": "lower",
+    "length": 71,
+    "relative_font_size": null
+  },
+  {
+    "text": "Emb layout = 2021b ) and LayoutLMv2-RE( Xu et al. , 2021a ).",
+    "avg_font_size": 10.48,
+    "bbox": [
+      78.99794006347656,
+      243.0792999267578,
+      526.33056640625,
+      257.84033203125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI8",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 60,
+    "relative_font_size": null
+  },
+  {
+    "text": "( w,h ) , width and height",
+    "avg_font_size": 7.97,
+    "bbox": [
+      150.33059692382812,
+      252.5511474609375,
+      228.00450134277344,
+      262.1556091308594
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI8",
+      "CMR8"
+    ],
+    "text_case": "lower",
+    "length": 26,
+    "relative_font_size": 18
+  },
+  {
+    "text": "Those models are commonly used approaches in",
+    "avg_font_size": 11.02,
+    "bbox": [
+      305.8062744140625,
+      258.244873046875,
+      524.4237060546875,
+      271.3909912109375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 44,
+    "relative_font_size": 88
+  },
+  {
+    "text": "( fs ) , font size",
+    "avg_font_size": 7.97,
+    "bbox": [
+      150.33059692382812,
+      268.8109130859375,
+      196.99281311035156,
+      278.4153747558594
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI8",
+      "CMR8"
+    ],
+    "text_case": "lower",
+    "length": 18,
+    "relative_font_size": 18
+  },
+  {
+    "text": "structured text understanding. All experiments (3) were carried out using one to eight NVIDIA Tesla A800 80GB GPUs. 2.2.3 Image Embedding Out model embeds visual inputs with 3.1 Dataset LayoutLM( Xu et al. , 2020 ). Specifically, We introduce a new dataset called PDF-to-Tree, LayoutLMv1/v2 employs ResNet to embed which annotates the text blocks in each document images, while LayoutLMv3 uses a transformer to into a tree structure. In contrast, previous embed image patches. For situations where arcs entity linking datasets, such as FUNSD( Jaume span across pages, page images are concatenated. et al. , 2019a ), EPHOIE( Jaume et al. , 2019b ), All page images, including those stitched together SROIE( Huang et al. , 2019 ), mainly focused on for spanning page elements, are resized to 512 x information extraction, containing only partial text 512. blocks from single pages, such as forms. As shown 2.2.4 Label and Position Prediction in Figure 4 , the annotation information consists of After completing the embedding for all the modal- two parts: text blocks with bounding boxes, and ities, the model will sum the embeddings for arcs that represent the relationships between the corresponding positions together. Then, it will text boxes. Please refer to Appendix A for more encode the sequence of embeddings to get the details. hidden state, denoted as h S , for the input sequence S . For each node in stack s , the model gathers the",
+    "avg_font_size": 10.96,
+    "bbox": [
+      70.46351623535156,
+      271.7945556640625,
+      525.7855834960938,
+      542.9655151367188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 53,
+    "line_spacing_avg": 1.33,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI8",
+      "CMMI10",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 1442,
+    "relative_font_size": 82
+  },
+  {
+    "text": "\"blocks\" : [ ... ,",
+    "avg_font_size": 6.58,
+    "bbox": [
+      436.51348876953125,
+      534.4097900390625,
+      464.6836853027344,
+      549.6566162109375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.68,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 18,
+    "relative_font_size": 9
+  },
+  {
+    "text": "hidden value at the position of the special character [ S # i ] from h S , to get h [ S #0] , h [ S #1] , ..., h [ S # n ] .",
+    "avg_font_size": 10.12,
+    "bbox": [
+      70.85653686523438,
+      543.3690795898438,
+      291.0443420410156,
+      571.2120361328125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.4,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMR8",
+      "CMMI8",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 124,
+    "relative_font_size": 55
+  },
+  {
+    "text": "\"id\" :  99 \"text\" : \u201d2 MATERIA...\" ,",
+    "avg_font_size": 6.58,
+    "bbox": [
+      436.51348876953125,
+      558.23095703125,
+      516.3256225585938,
+      573.2144775390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.41,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 36,
+    "relative_font_size": 9
+  },
+  {
+    "text": "As Equation 4 shows, the model will put the",
+    "avg_font_size": 11.02,
+    "bbox": [
+      70.46351623535156,
+      570.4684448242188,
+      289.13665771484375,
+      583.6145629882812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 43,
+    "relative_font_size": 88
+  },
+  {
+    "text": "\"bbox\" : [ 50, 83, 124, 97 ] \"font_size\" : 12",
+    "avg_font_size": 6.58,
+    "bbox": [
+      436.51348876953125,
+      573.892333984375,
+      517.1555786132812,
+      589.13916015625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.68,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "lower",
+    "length": 45,
+    "relative_font_size": 9
+  },
+  {
+    "text": "gathered hidden state through a bi-linear module",
+    "avg_font_size": 11.02,
+    "bbox": [
+      70.85653686523438,
+      584.0191040039062,
+      289.1402282714844,
+      597.1652221679688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 48,
+    "relative_font_size": 88
+  },
+  {
+    "text": "}, ...",
+    "avg_font_size": 6.58,
+    "bbox": [
+      436.51348876953125,
+      589.81689453125,
+      456.1177978515625,
+      597.1014404296875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 6,
+    "relative_font_size": 9
+  },
+  {
+    "text": "and obtain classification results for each node in the stack. Let\u2019s denote label [ S # i ] as the label of node",
+    "avg_font_size": 9.95,
+    "bbox": [
+      70.85653686523438,
+      597.5687866210938,
+      289.1332092285156,
+      626.4847412109375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.44,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI8",
+      "CMMI10",
+      "CMR8"
+    ],
+    "text_case": "Mixed",
+    "length": 111,
+    "relative_font_size": 42
+  },
+  {
+    "text": "\"arcs\" : [",
+    "avg_font_size": 6.58,
+    "bbox": [
+      436.28668212890625,
+      618.31005859375,
+      457.87615966796875,
+      625.5946044921875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "lower",
+    "length": 10,
+    "relative_font_size": 9
+  },
+  {
+    "text": "n i in the stack, and score [ S # i ] as the corresponding",
+    "avg_font_size": 9.12,
+    "bbox": [
+      70.85653686523438,
+      624.6681518554688,
+      289.1299133300781,
+      640.0343627929688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI8",
+      "CMMI10",
+      "CMR8"
+    ],
+    "text_case": "Mixed",
+    "length": 58,
+    "relative_font_size": 29
+  },
+  {
+    "text": "[ 96, 99 , \u201dsection\" ], [ 99, 100 , \" paragraph \" ],",
+    "avg_font_size": 6.58,
+    "bbox": [
+      436.28668212890625,
+      626.2723388671875,
+      506.8544616699219,
+      641.453369140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.61,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "lower",
+    "length": 52,
+    "relative_font_size": 9
+  },
+  {
+    "text": "score. Finally, the model will take [ S # i ] with the",
+    "avg_font_size": 10.93,
+    "bbox": [
+      70.85653686523438,
+      638.2178344726562,
+      289.1325378417969,
+      651.3639526367188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 54,
+    "relative_font_size": 79
+  },
+  {
+    "text": "[ 100, 101 , \" paragraph \" ],",
+    "avg_font_size": 6.58,
+    "bbox": [
+      436.28668212890625,
+      642.131103515625,
+      510.1446838378906,
+      649.4156494140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "lower",
+    "length": 29,
+    "relative_font_size": 9
+  },
+  {
+    "text": "maximum score( score [ S # i ] ) as the start position for the predicted arc and corresponding label as arc Figure 4: An annotation example of the PDF-to-Tree label, as Equation 5 illustrates. Dataset. We use code to automatically extract text blocks from PDFs and then manually annotate the relationships between these blocks to create a tree label [ S # i ] , score [ S # i ] = classifier ( h [ S # i ] ) (4) structure.",
+    "avg_font_size": 10.01,
+    "bbox": [
+      70.85653686523438,
+      651.7684936523438,
+      524.421630859375,
+      732.1279907226562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 10,
+    "line_spacing_avg": 2.35,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMR8",
+      "CMMI8",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 421,
+    "relative_font_size": 47
+  },
+  {
+    "text": "All the files in the PDF-to-Tree dataset are arc _ start = argmax (5) ( score [ S # i ] ) digital-born(rendered) PDFs from public domain,",
+    "avg_font_size": 10.58,
+    "bbox": [
+      103.73616790771484,
+      749.2183837890625,
+      525.7880859375,
+      775.9141845703125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 17.09,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMR8",
+      "CMMI8",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 137,
+    "relative_font_size": null
+  },
+  {
+    "text": "[ S # i ]",
+    "avg_font_size": 7.97,
+    "bbox": [
+      172.39759826660156,
+      769.266845703125,
+      192.63880920410156,
+      777.2373046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMMI8",
+      "CMR8"
+    ],
+    "text_case": "Mixed",
+    "length": 9,
+    "relative_font_size": 18
+  },
+  {
+    "text": "10707",
+    "avg_font_size": 10.91,
+    "bbox": [
+      285.135009765625,
+      781.2319946289062,
+      312.4078063964844,
+      794.37744140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 3.99,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 5,
+    "relative_font_size": 77
+  },
+  {
+    "text": "including product manuals, public technical reports, Since PDF-to-Tree has documents up to 85 white papers, and so on. We use the open-source pages in length, it\u2019s not realistic to fit all the text tool PDF Miner to automatically extract text blocks blocks of a document into the input window size from PDF documents. Then, we manually label of aforementioned baseline models. To mitigate the relationships between the blocks to create a this issue, we preprocess the dataset, dividing tree structure. For each document, we have at least documents into blocks of no more than 500 tokens two crowdsourced annotators working on it. All of each for training and prediction and ignore the arcs our annotators are college students. We pay $0.20 between blocks. This simplification will affect per page for the annotation. Please refer to the approximately 5% arcs in test set. Appendix A for the details of our annotation tool. 3.3 Training In total, we gather 1290 documents comprising For our PDF-to-Tree model, we opt for both 9310 pages. There are 18 categories of labels. We text-only and text-image multi-modal pre-trained allocate 80% of the documents for training, 10% models as encoders, comparing how different for testing, and retain 10% as a development set. modalities affect the outcomes. Specifically, we Specific data proportions are detailed in Table 1 . choose BERT for text-only pre-training models, In previous document layout datasets, like and LayoutLM for the multi-modal pre-training DocBank( Li et al. , 2020 ), PubLayout( Zhong et al. , model. We utilized both the base and large versions 2019 ), most commonly, academic papers were used of the aforementioned pre-trained models in our as document sources(such as LaTeX or XML), and training code. We use PyTorch to implement our layout annotations were automatically generated model and the pre-trained weights are provided by by analyzing the source files. While this covered Hugging Face. a larger number of documents, the layouts were Throughout training, our model employs the relatively uniform. On the other hand, the PDF-to- AdamW optimizer and a linear warm-up scheduler Tree dataset employs a combination of machine for the initial 10% of steps. Cross entropy loss is and human annotations. This means that even used for label and position prediction. We conduct when the source files of the documents are not hyperparameter searches for learning rate, batch available, complete structural information of the size, and dropout using the dev dataset. For the document can still be obtained. As a result, base version of BERT, we use a learning rate of the entire collection of documents encompasses 4 \u00d7 10 \u2212 5 , while for the large version, we use a a wider range of layouts, including documents learning rate of 2 \u00d7 10 \u2212 5 . Comparatively, for like product manuals and public technical reports, LayoutLMv1/2/3, a smaller learning rate is needed which are not typically found in academic papers. to make the model converge. We ultimately chose Additionally, due to this diversity of document 2 \u00d7 10 \u2212 5 as the learning rate for the base version types, the distribution of document lengths also and 1 \u00d7 10 \u2212 5 for the large version. In all cases, the varies considerably, ranging from a minimum of 1 dropout is set to 0.1, the batch size is 32, and the page to a maximum of 85 pages. number of epochs is 6. For the baseline models, we 3.2 Baseline follow the hyperparameters provided in the original In current Document AI works, entity linking papers. is suitable to predict the relationships between 3.4 Metrics text blocks, such as arcs in the PDF-to-Tree task. Therefore, we select three methods of entity linking To assess the accuracy of the model in reconstruct- to build our baseline, including BROS ( Hong ing document structure, we utilize the attachment et al. , 2021 ), StrucTextV1 ( Li et al. , 2021b ), and score, which is widely used metrics in dependency LayoutLM-RE( Xu et al. , 2021a ). These models parsing. Unlabeled attachment score(UAS) is outperform other methods on entity linking tasks of the percentage of tokens with correctly assigned the FUNSD dataset. We use the code provided by heads, while labeled attachment score (LAS) is the original authors as the baseline implementation. the percentage of tokens with correctly assigned However, the code of StrucText doesn\u2019t include the heads and dependency relation labels. We define fine-tuning part, we implement that part ourselves UAS and LAS in the PDF-to-Tree task by replacing according to the description mentioned in the tokens with text blocks, as Equation 6 and 7 original paper. illustrates. The primary emphasis of UAS lies in 10708",
+    "avg_font_size": 10.92,
+    "bbox": [
+      70.46351623535156,
+      71.72454071044922,
+      526.2362670898438,
+      794.37744140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 109,
+    "line_spacing_avg": 0.41,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMR8",
+      "CMSY8",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 4698,
+    "relative_font_size": 78
+  },
+  {
+    "text": "Modality \u2020 Params Label F1 \u2021 Model UAS LAS StrucTexTv1 base ( Li et al. , 2021b ) T+L+V 110M 0.8046 0.7636 0.8899 BROS base ( Hong et al. , 2021 ) T+L+V 110M 0.8384 0.7800 0.8722 0.8210 0.8925 BROS large ( Hong et al. , 2021 ) T+L+V 340M 0.8721 LayoutLMv2-RE base ( Xu et al. , 2021a ) T+L+V 220M 0.8419 0.7530 0.8007 LayoutLMv2-RE large ( Xu et al. , 2021a ) T+L+V 426M 0.8451 0.8020 0.8592 PDF-to-Tree bert T+L 110M 0.9158 0.7900 0.8609 PDF-to-Tree layoutlm T+L 160M 0.9229 0.7551 0.8342 PDF-to-Tree layoutlmv2 T+L+V 220M 0.9338 0.7994 0.8678 PDF-to-Tree layoutlmv3 T+L+V 133M 0.9385 0.8020 0.8709 PDF-to-Tree bert-large T+L 340M 0.9189 0.7757 0.8532 PDF-to-Tree layoutlm-large T+L 390M 0.9233 0.7836 0.8547 PDF-to-Tree layoutlmv2-large T+L+V 426M 0.9363 0.8070 0.8757 0.9393 PDF-to-Tree layoutlmv3-large T+L+V 368M 0.8166 0.8817 \u2020 \u201cT\u201d refers to text, \u201cL\u201d refers to layout and \u201cV\u201d refers to visual. \u2021 F1-Score of entity labeling. Table 2: Accuracy on PDF-to-Tree Dataset. Our method has advantages in extracting structural information from PDFs. However, BROS( Hong et al. , 2021 ) performs better in labeling.",
+    "avg_font_size": 10.67,
+    "bbox": [
+      70.54752349853516,
+      66.36658477783203,
+      524.4231567382812,
+      325.67572021484375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 87,
+    "line_spacing_avg": 0.99,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 1112,
+    "relative_font_size": null
+  },
+  {
+    "text": "the precision associated with the construction of This approach effectively leverages the inherent the document\u2019s structure. LAS takes into account characteristics of the document structure. However, both the labels and the links of text blocks. BROS( Hong et al. , 2021 ) exhibits a slightly better performance in the labeling task, k, achieving a 0.44% higher LAS score compared to our method. UAS = # of blocks with correct link We separately calculated the entity level labeling (6) # of all blocks accuracy. Without considering linking, BROS has an F1 score of 89.25%, while our F1 score is 88.17%. LAS = # of blocks with correct link and label Furthermore, the modality of the pretrained # of all blocks weights also plays an important role in the results. (7) By leverage the text-image multi-modal pretrained Results weights, LayoutLMv3, the UAS and LAS are improved, comparing to BERT, which are pre- In this section, we compare our model with trained solely on text. Among the LayoutLM series, the baselines on both PDF-to-Tree and FUNSD LayoutLMv1 only uses image embeddings during datasets. We also evaluate the effects of various pre-training. On the other hand, LayoutLMv2/3 modality encoders on structure parsing for the PDF- utilize image embeddings in both pre-training to-Tree dataset. Additionally, we perform error and fine-tuning. Consequently, when employing analysis, ablation experiments, and inference speed LayoutLMv3, the PDF-to-Tree model achieves the analysis. highest UAS and LAS scores. 4.1 Accuracy on PDF-to-Tree 4.2 Accuracy on FUNSD In general, the transition-based parser module shows a significant improvement in the task of To better understand the performance of our document-level structure parsing. Our method, method on entity labeling and linking tasks, we PDF-to-Tree outperforms the baseline models by also conducted experiments on the FUNSD dataset. 6.72% in the UAS. This indicates that incorporating As shown in Table 3 , the results are generally the transition-based parser module effectively consistent with those from the PDF-to-Tree dataset. filters out many irrelevant pairs and enhances Overall, our method excels in linking but falls the precision of link prediction, compared to short in labeling. In the future, we might enhance the pairwise linking strategy in the baseline. overall performance by combining the labeling 10709",
+    "avg_font_size": 10.97,
+    "bbox": [
+      70.85653686523438,
+      347.268310546875,
+      526.3347778320312,
+      794.37744140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 61,
+    "line_spacing_avg": 2.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Medi",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 2385,
+    "relative_font_size": 83
+  },
+  {
+    "text": "Model Label F1 Link F1 Model Sec / Page BERT base 0.6092 0.2765 BROS base 0.362 LayoutLM base 0.7854 0.4586 LayoutLMv2-RE base 0.528 LayoutLMv2 base 0.8189 0.4291 StrucTexT base 0.262 0.8309 StrucTexT base 0.4410 P2T layoutlmv3 1.138 BROS base 0.8305 0.7146 Table 5: The inference speed of P2T is slightly slower 0.7261 PDF-to-Tree layoutlmv3 0.8012 than the baseline. However, considering that all cross- page links are ignored in the baseline models, this speed Table 3: Accuracy on FUNSD. difference is acceptable. components of other methods with ours. titles. The model finds labels like meta and header, which vary a lot in form, the most challenging. 4.3 Ablation Study Compared to the least common labels, meta and Despite of visual modality, we also want to header have a decent number of samples, but their know how the other types of modalities affect the scores are still not good. This is because document outcomes. As shown in Table 4 , by removing headers and meta information are more varied than layout as input, the model\u2019s UAS and LAS decrease fixed elements like titles and paragraphs. Overall, by 3.25% and 2.52%. It shows the layout input is these results are as expected. Handling these rare helpful for document structure parsing. and variably formatted tags is still a challenging task. Model Modality UAS LAS P2T layoutlmv3 T+L+V 0.9393 0.8166 4.5 Inference Speed P2T bert T+L 0.9158 0.7900 We choose PDF-to-Tree layoutlmv3 to compare the P2T bert-wo-layout 0.8833 0.7280 inference speed with the baseline models because these models share the similar parameter size and Table 4: Ablation Study on PDF-to-Tree Dataset modality. As shown in Table 5 , due to PDF-to-Tree encoding each state during the parsing process, it\u2019s slower in speed compared to the baselines. Specifically, on PDF-to-Tree layoutlmv3 , the average",
+    "avg_font_size": 10.6,
+    "bbox": [
+      70.85653686523438,
+      70.25574493408203,
+      526.3307495117188,
+      474.8483581542969
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 81,
+    "line_spacing_avg": 1.29,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 1844,
+    "relative_font_size": 65
+  },
+  {
+    "text": "0.8 10",
+    "avg_font_size": 6.05,
+    "bbox": [
+      87.06462860107422,
+      461.53155517578125,
+      270.00592041015625,
+      470.8299255371094
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 6,
+    "relative_font_size": 5
+  },
+  {
+    "text": "time to complete predictions for one page is 1.138",
+    "avg_font_size": 10.89,
+    "bbox": [
+      306.144287109375,
+      474.4317321777344,
+      524.4208374023438,
+      487.5778503417969
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 3.6,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 50,
+    "relative_font_size": 75
+  },
+  {
+    "text": "# of labels 0.6 LAS",
+    "avg_font_size": 7.26,
+    "bbox": [
+      75.95098876953125,
+      476.8224182128906,
+      282.6163330078125,
+      509.5744934082031
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 19,
+    "relative_font_size": null
+  },
+  {
+    "text": "seconds, whereas the baselines only needs 0.511",
+    "avg_font_size": 11.02,
+    "bbox": [
+      306.144287109375,
+      487.98138427734375,
+      525.240234375,
+      501.12750244140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 47,
+    "relative_font_size": 88
+  },
+  {
+    "text": "10 0.4",
+    "avg_font_size": 6.05,
+    "bbox": [
+      87.06462860107422,
+      490.5025329589844,
+      270.00592041015625,
+      503.6578674316406
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 6,
+    "relative_font_size": 5
+  },
+  {
+    "text": "and 0.262 seconds. Considering that the baseline",
+    "avg_font_size": 11.02,
+    "bbox": [
+      306.144287109375,
+      501.5320739746094,
+      524.4278564453125,
+      514.6781616210938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 48,
+    "relative_font_size": 88
+  },
+  {
+    "text": "0.2",
+    "avg_font_size": 6.05,
+    "bbox": [
+      87.06462860107422,
+      514.6610107421875,
+      94.62400817871094,
+      521.36767578125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 3,
+    "relative_font_size": 5
+  },
+  {
+    "text": "models ignore all arcs cross pages due to not being",
+    "avg_font_size": 10.81,
+    "bbox": [
+      306.144287109375,
+      515.0817260742188,
+      524.419189453125,
+      528.2278442382812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 51,
+    "relative_font_size": 67
+  },
+  {
+    "text": "10",
+    "avg_font_size": 6.05,
+    "bbox": [
+      263.95843505859375,
+      516.8818359375,
+      270.00592041015625,
+      523.5885009765625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 5
+  },
+  {
+    "text": "able to fit the entire document into memory, this",
+    "avg_font_size": 11.02,
+    "bbox": [
+      306.144287109375,
+      528.6314086914062,
+      524.4279174804688,
+      541.7775268554688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 5.04,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 49,
+    "relative_font_size": 88
+  },
+  {
+    "text": "0.0 table text reference figure text annotation title meta equation caption paragraph header section footer author question answer",
+    "avg_font_size": 7.75,
+    "bbox": [
+      80.31311798095703,
+      532.370849609375,
+      249.91006469726562,
+      568.4281005859375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 16,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "lower",
+    "length": 130,
+    "relative_font_size": null
+  },
+  {
+    "text": "difference is acceptable. Moreover, the time cost of PDF-to-Tree only depends on document length. As depicted in Figure 6 , with an increase in pages, the time cost of PDF-to-Tree grows linearly. In Figure 5: Labeled Attachment Score of Different Labels. The bars illustrate the LAS of labels. The line shows the future, we can further improve the inference the number of labels. Labels with lower occurrence speed of PDF-to-Tree by optimizing the encoding rates exhibit much lower scores. Some document process. components, such as meta and header, have a sufficient number of annotations, but their scores are not high due",
+    "avg_font_size": 10.47,
+    "bbox": [
+      70.54752349853516,
+      542.1810913085938,
+      526.3352661132812,
+      655.7452392578125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 14,
+    "line_spacing_avg": 0.4,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 624,
+    "relative_font_size": null
+  },
+  {
+    "text": "Related Work",
+    "avg_font_size": 11.96,
+    "bbox": [
+      324.0779724121094,
+      645.7293090820312,
+      395.2388916015625,
+      661.2837524414062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 89
+  },
+  {
+    "text": "to their varied forms. Document AI is a research area that has gained attention in recent years. There\u2019s a lot of valuable 4.4 Score of Different Labels information stored in the form of digital documents. Besides overall accuracy, we also analyze the The goal of Document AI is to extract and accuracy for each label. As shown in the figure, the convert digital documents into structured data. model performs well in predicting more common Jaume et al. divides Document AI into two labels, such as paragraph, table, and reference. It subtasks: One involves categorizing blocks within also does well with simpler labels like authors and the document to obtain labels for these blocks, 10710",
+    "avg_font_size": 10.9,
+    "bbox": [
+      70.85653686523438,
+      655.6953125,
+      526.3347778320312,
+      794.37744140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 18,
+    "line_spacing_avg": 0.99,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 690,
+    "relative_font_size": 76
+  },
+  {
+    "text": "dependency parsing problem. However the linking strategy is pair-wise. What sets this paper apart",
+    "avg_font_size": 10.93,
+    "bbox": [
+      306.144287109375,
+      71.72454071044922,
+      524.4280395507812,
+      98.42034912109375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.4,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 97,
+    "relative_font_size": 79
+  },
+  {
+    "text": "20",
+    "avg_font_size": 6.05,
+    "bbox": [
+      87.97779846191406,
+      88.9088134765625,
+      94.02529907226562,
+      95.61549377441406
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 5
+  },
+  {
+    "text": "is the utilization of a transition-based parser for",
+    "avg_font_size": 11.02,
+    "bbox": [
+      306.144287109375,
+      98.82488250732422,
+      524.6058959960938,
+      111.97100830078125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 3.21,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 51,
+    "relative_font_size": 88
+  },
+  {
+    "text": "15",
+    "avg_font_size": 6.05,
+    "bbox": [
+      87.97779846191406,
+      109.7299575805664,
+      94.02529907226562,
+      116.43663787841797
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 5
+  },
+  {
+    "text": "Seconds",
+    "avg_font_size": 8.47,
+    "bbox": [
+      76.19242858886719,
+      110.88888549804688,
+      85.581787109375,
+      139.1077423095703
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 20
+  },
+  {
+    "text": "constructing entity links. Numerous datasets have been introduced",
+    "avg_font_size": 11.0,
+    "bbox": [
+      306.144287109375,
+      112.37456512451172,
+      524.4210205078125,
+      139.84039306640625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 1.17,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 65,
+    "relative_font_size": 86
+  },
+  {
+    "text": "10",
+    "avg_font_size": 6.05,
+    "bbox": [
+      87.97779846191406,
+      130.55108642578125,
+      94.02529907226562,
+      137.2577667236328
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 5
+  },
+  {
+    "text": "to support research in this direction, such as FUNSD( Jaume et al. , 2019a ), CORD( Park et al. , 2019 ), and SciTSR( Chi et al. , 2019 ). Unlike",
+    "avg_font_size": 11.02,
+    "bbox": [
+      306.144287109375,
+      140.24395751953125,
+      525.7855834960938,
+      180.48944091796875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 4,
+    "line_spacing_avg": 1.26,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 145,
+    "relative_font_size": 88
+  },
+  {
+    "text": "9 10 11 12 13 14 15 16",
+    "avg_font_size": 8.47,
+    "bbox": [
+      193.7504425048828,
+      175.17190551757812,
+      278.1871337890625,
+      184.56126403808594
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 22,
+    "relative_font_size": 20
+  },
+  {
+    "text": "our work, these datasets usually focus only on",
+    "avg_font_size": 11.02,
+    "bbox": [
+      306.144287109375,
+      180.89300537109375,
+      524.4280395507812,
+      194.03912353515625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 46,
+    "relative_font_size": 88
+  },
+  {
+    "text": "Number of Pages",
+    "avg_font_size": 8.47,
+    "bbox": [
+      160.89764404296875,
+      185.28257751464844,
+      219.6805877685547,
+      194.67193603515625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 15,
+    "relative_font_size": 20
+  },
+  {
+    "text": "information extraction. The annotated text blocks and relationships often cover only part of the Figure 6: The inference cost of PDF-to-Tree increases information on a single page. In contrast, the linearly with the length of the document. PDF-to-Tree dataset and task aim to organize the information from an entire document into a tree structure. which is called entity labeling. The other involves 5.3 Multi-Modal Feature Representation establishing connections between blocks to identify the relationships between them, which is known as Early works typically involved using a single entity linking. In addition to these two tasks, there modal for predictions, either text or images. is also a lot of research that mainly focuses on how LayoutLM( Xu et al. , 2020 ) find that utilizing to obtain better multimodal feature representations multi-modal data can significantly enhance the of documents. model\u2019s performance in understanding structured text. Similar works include StructuralLM( Li et al. , 5.1 Entity Labeling 2021a ), StrucTexT serials( Li et al. , 2021b ), ( Yu For entity labeling, many studies use the NER et al. , 2023 ). BROS( Hong et al. , 2021 ) leverages framework to label sequences at the token level. 2D relative positions with area masking strategy These studies include BERTgrid( Denk and Reiss- to develop a pre-trained language model. And it wig , 2019 ), Post-OCR-Parsing( Hwang et al. , 2019 ). achieves or even surpasses the performance of other Additionally, there are some studies that aim to models in Entity Labeling and Entity Linking tasks combine the spatial information of text blocks for by using only text and layout modalities. labeling sequences at the block level. Examples Meanwhile, datasets like DocBank( Li et al. , of such studies are GraphIE( Qian et al. , 2018 ), 2020 ), PubLayout( Zhong et al. , 2019 ), and RVL- TRIE( Zhang et al. , 2020 ), LayoutParser( Shen CDIP( Harley et al. , 2015 ) are introduced to support et al. , 2021 ), LayoutLM serials( Xu et al. , 2020 ), pre-training for layout understanding. These ( Xu et al. , 2021a ), ( Xu et al. , 2021b ). Also datasets share the common characteristic of being Wang et al. finds that formatting can disrupt annotated directly from the source code of digital sequence labeling. In addition to providing documents. In this paper, we employed a combi- semantic labels for text blocks, predicting the nation of automated and manual annotation. This reading order is also necessary. Research in this enables support for a broader range of document field includes works like LayoutParser( Shen et al. , types, including product manuals, public technical 2021 ), LayoutReader( Wang et al. , 2021 ), ERNIE- reports, white papers, and so on. However, the cost Layout( Peng et al. , 2022 ). of manual annotation is high, and in future work, unsupervised methods, such as clustering( LI et al. , 5.2 Entity Linking 2022 ) or domain adaptation( Hui SUN , 2023 ), can Studies, such as dhSegment( Ares Oliveira et al. , be considered to improve efficiency. 2018 ), DocStruct( Wang et al. , 2020 ), StrucTexT serials( Li et al. , 2021b ), ( Yu et al. , 2023 ) combine Discusion these two tasks and perform Entity Labeling and Linking at the block level simultaneously. Those In this paper, we discuss the task of document studies mainly deal with blocks of individual pages. structure parsing. This task is more intricate SPADE( Hwang et al. , 2021 ) and BROS( Hong compared to the traditional reading order predic- et al. , 2021 ) formulates entity linking as a spatial tion. For complex layout documents, which may 10711",
+    "avg_font_size": 10.95,
+    "bbox": [
+      70.34351348876953,
+      194.442626953125,
+      526.3306884765625,
+      794.37744140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 87,
+    "line_spacing_avg": 0.79,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 3618,
+    "relative_font_size": 81
+  },
+  {
+    "text": "contain multiple reading orders.. To address these AdamW. Harley, Alex Ufkes, and KonstantinosG. Derpanis. 2015. Evaluation of deep convolutional challenges, we introduce a transition-based parser nets for document image classification and retrieval. as a solution. Alongside this, we introduce a new Cornell University - arXiv,Cornell University - arXiv . dataset called PDF-to-Tree to support this task. Experimental results demonstrate the effectiveness Teakgyu Hong, Donghyun Kim, Mingi Ji, Wonseok Hwang, Daehyun Nam, and Sungrae Park. 2021. of our approach. However, there is still room for Bros: A pre-trained language model focusing on improvement in identifying less common labels. text and layout for better key information extraction Moreover, there are areas where the efficiency of from documents . In AAAI Conference on Artificial inference can be enhanced. Intelligence . Zheng Huang, Kai Chen, Jianhua He, Xiang Bai, Limitation",
+    "avg_font_size": 10.52,
+    "bbox": [
+      70.85653686523438,
+      71.72454071044922,
+      526.1696166992188,
+      218.8156280517578
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 21,
+    "line_spacing_avg": 4.64,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 943,
+    "relative_font_size": null
+  },
+  {
+    "text": "Dimosthenis Karatzas, Shijian Lu, and C. V. Jawahar. 2019. Icdar2019 competition on scanned receipt ocr All the PDFs used in the PDF-to-Tree dataset are and information extraction . In 2019 International born digital(rendered). In theory, our method could Conference on Document Analysis and Recognition also be applied to scanned documents. However, (ICDAR) . due to resource constraints, it has not been used on Ming LI Hui SUN. 2023. Enhancing unsupervised the PDF-to-Tree dataset yet. In future work, we domain adaptation by exploiting the conceptual con- plan to include scanned documents in our dataset as sistency of multiple self-supervised tasks . SCIENCE well. Additionally, the high cost of manual labeling CHINA Information Sciences , 66(4):142101\u2013. limits the amount of annotated data we can obtain. Wonseok Hwang, Seonghyeon Kim, Minjoon Seo, In future work, we believe it\u2019s worth discussing Jinyeong Yim, Seunghyun Park, Sungrae Park, how to automatically label the tree structure of a Junyeop Lee, Bado Lee, and Hwalsuk Lee. 2019. document. Post-ocr parsing: building simple and robust parser via bio tagging.",
+    "avg_font_size": 10.39,
+    "bbox": [
+      70.46351623535156,
+      213.00015258789062,
+      526.1690063476562,
+      387.3247985839844
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 26,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 1125,
+    "relative_font_size": null
+  },
+  {
+    "text": "Acknowledgments Wonseok Hwang, Jinyeong Yim, Seunghyun Park, Sohee Yang, and Minjoon Seo. 2021. Spatial The authors wish to thank the anonymous reviewers dependency parsing for semi-structured document for their helpful comments. This work was partially information extraction . In Findings of the funded by National Natural Science Founda- Association for Computational Linguistics: ACL- tion of China (No.62206057,62076069,61976056), IJCNLP 2021 . Shanghai Rising-Star Program (23QA1400200), Guillaume Jaume, Hazim Kemal Ekenel, and Jean- Program of Shanghai Academic Research Leader Philippe Thiran. 2019a. Funsd: A dataset for form under grant 22XD1401100, and Natural Science understanding in noisy scanned documents . In 2019 Foundation of Shanghai (23ZR1403500). International Conference on Document Analysis and Recognition Workshops (ICDARW) . Guillaume Jaume, Hazim Kemal Ekenel, and Jean- References Philippe Thiran. 2019b. Funsd: A dataset for form understanding in noisy scanned documents . In 2019 Sofia Ares Oliveira, Benoit Seguin, and Frederic International Conference on Document Analysis and Kaplan. 2018. dhsegment: A generic deep- Recognition Workshops (ICDARW) . learning approach for document segmentation . In 2018 16th International Conference on Frontiers in Chenliang Li, Bin Bi, Ming Yan, Wei Wang, Songfang Handwriting Recognition (ICFHR) . Huang, Fei Huang, and Luo Si. 2021a. Structurallm: Structural pre-training for form understanding . In Zewen Chi, Heyan Huang, Heng-Da Xu, Houjin Proceedings of the 59th Annual Meeting of the Yu, Wanxuan Yin, and Xian-Ling Mao. 2019. Association for Computational Linguistics and the Complicated table structure recognition . ArXiv , 11th International Joint Conference on Natural abs/1908.04729. Language Processing (Volume 1: Long Papers) . Timo I. Denk and Christian Reisswig. 2019. Bertgrid: Minghao Li, Yiheng Xu, Lei Cui, Shaohan Huang, Furu Contextualized embedding for 2d document repre- Wei, Zhoujun Li, and Ming Zhou. 2020. Docbank: A sentation and understanding . ArXiv , abs/1909.04948. benchmark dataset for document layout analysis . In Leipeng Hao, Liangcai Gao, Xiaohan Yi, and Zhi Tang. Proceedings of the 28th International Conference on 2016. A table detection method for pdf documents Computational Linguistics . based on convolutional neural networks . In 2016 12th IAPR Workshop on Document Analysis Systems Qingyu LI, Yuhan HUANG, Shan JIN, Xiaokai HOU, (DAS) . and Xiaoting WANG. 2022. Quantum spectral 10712",
+    "avg_font_size": 10.2,
+    "bbox": [
+      70.51852416992188,
+      384.7582092285156,
+      526.0781860351562,
+      794.37744140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 64,
+    "line_spacing_avg": 7.23,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 2502,
+    "relative_font_size": 60
+  },
+  {
+    "text": "clustering algorithm for unsupervised learning . SCI- In Proceedings of the 59th Annual Meeting of the ENCE CHINA Information Sciences , 65(10):200504\u2013 Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers) . Yulin Li, Yuxi Qian, Yuechen Yu, Xiameng Qin, Chengquan Zhang, Yan Liu, Kun Yao, Junyu Han, Yiheng Xu, Minghao Li, Lei Cui, Shaohan Huang, Jingtuo Liu, and Errui Ding. 2021b. Structext: Furu Wei, and Ming Zhou. 2020. Layoutlm: Pre- Structured text understanding with multi-modal training of text and layout for document image transformers . In Proceedings of the 29th ACM understanding . In Proceedings of the 26th ACM International Conference on Multimedia . SIGKDD International Conference on Knowledge Discovery & Data Mining . Seunghyun Park, Seung Shin, Bado Lee, Junyeop Lee, Jaeheung Surh, Minjoon Seo, and Hwalsuk Lee. 2019. Yiheng Xu, Tengchao Lv, Lei Cui, Guoxin Wang, Cord: A consolidated receipt dataset for post-ocr Yijuan Lu, Dinei Florencio, Cha Zhang, and Furu parsing . Wei. 2021b. Layoutxlm: Multimodal pre-training for multilingual visually-rich document understanding. Qiming Peng, Yinxu Pan, Wenjin Wang, Bin Luo, arXiv: Computation and Language,arXiv: Computa- Zhenyu Zhang, Zhengjie Huang, Teng Hu, Weichong tion and Language . Yin, Yongfeng Chen, Yin Zhang, Shikun Feng, Yu Sun, Hao Tian, Hua Wu, and Haifeng Wang. Yuechen Yu, Yulin Li, Chengquan Zhang, Xiaoqiang 2022. Ernie-layout: Layout knowledge enhanced pre- Zhang, Zengyuan Guo, Xiameng Qin, Kun Yao, training for visually-rich document understanding. Junyu Han, Errui Ding, and Jingdong Wang. 2023. Structextv2: Masked visual-textual prediction for Yujie Qian, Enrico Santus, Zhijing Jin, Jiang Guo, document image pre-training. and Regina Barzilay. 2018. Graphie: A graph- based framework for information extraction. arXiv: Peng Zhang, Yunlu Xu, Zhanzhan Cheng, Shiliang Pu, Computation and Language,arXiv: Computation and Jing Lu, Liang Qiao, Yi Niu, and Fei Wu. 2020. Trie: Language . End-to-end text reading and information extraction for document understanding . In Proceedings of the Sebastian Schreiber, Stefan Agne, Ivo Wolf, Andreas 28th ACM International Conference on Multimedia . Dengel, and Sheraz Ahmed. 2017. Deepdesrt: Deep learning for detection and structure recognition of Xu Zhong, Jianbin Tang, and AntonioJimeno Yepes. tables in document images . In 2017 14th IAPR 2019. Publaynet: largest dataset ever for document International Conference on Document Analysis and layout analysis. Cornell University - arXiv,Cornell Recognition (ICDAR) . University - arXiv . Zejiang Shen, Ruochen Zhang, Melissa Dell, Benjamin Charles Germain Lee, Jacob Carlson, and Weining Dataset Annotation Li. 2021. LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analysis. , page The goal of the PDF-to-Tree annotation task is to 131\u2013146. extract text blocks from a PDF file and label their Carlos Soto and Shinjae Yoo. 2019. Visual detection relationships in a tree structure. We start by using with context for document layout analysis. In the open-source tool PDF Miner to extract text Proceedings of the 2019 Conference on Empirical blocks from the PDF. Any incorrectly extracted Methods in Natural Language Processing and the 9th blocks are manually corrected. Next, we use multi- International Joint Conference on Natural Language level numbering to label the relationships between Processing (EMNLP-IJCNLP) . text blocks. Finally, we can add arcs between Zilong Wang, Yiheng Xu, Lei Cui, Jingbo Shang, adjacent text blocks with serial numbers to form a and Furu Wei. 2021. Layoutreader: Pre-training tree structure. of text and layout for reading order detection . In Proceedings of the 2021 Conference on Empirical As Figure 7 illustrates, with two-level num- Methods in Natural Language Processing . bering, the first level represents the global order of document components, and the second level Zilong Wang, Mingjie Zhan, Xuebo Liu, and Ding Liang. 2020. Docstruct: A multimodal method to represents the order of the text block within the extract hierarchy structure in document for general document component. For instance, the label form understanding . In Findings of the Association \u201cparagraph-3-2\u201d means that this text block is is for Computational Linguistics: EMNLP 2020 . the second block within that paragraph and the Yang Xu, Yiheng Xu, Tengchao Lv, Lei Cui, Furu paragraph is the third component in the entire Wei, Guoxin Wang, Yijuan Lu, Dinei Florencio, document. Please note that the numbering is not Cha Zhang, Wanxiang Che, Min Zhang, and Lidong continuous. We use number to represent relative Zhou. 2021a. Layoutlmv2: Multi-modal pre- order, making it easy to insert new labels anywhere training for visually-rich document understanding . 10713",
+    "avg_font_size": 10.23,
+    "bbox": [
+      70.85653686523438,
+      72.59915161132812,
+      526.2349243164062,
+      794.37744140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 119,
+    "line_spacing_avg": 2.46,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 4869,
+    "relative_font_size": 61
+  },
+  {
+    "text": "Figure 7: An illustration of annotation tool used for the PDF-to-Tree dataset.",
+    "avg_font_size": 9.96,
+    "bbox": [
+      144.76223754882812,
+      335.3182678222656,
+      450.5196533203125,
+      347.32379150390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 78,
+    "relative_font_size": 43
+  },
+  {
+    "text": "in the sequence. For example, we can insert 15 between 10 and 20. For more complex components like tables, we can extend to more levels of numbering, such as using the second level for row numbers and the third level for column numbers. For example, the label \u201ctable-5-3-1\u201d indicates that it is the first cell in the third row of the table, which is the fifth element in the article.",
+    "avg_font_size": 10.95,
+    "bbox": [
+      70.85653686523438,
+      368.9153747558594,
+      289.1402282714844,
+      490.4609375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 9,
+    "line_spacing_avg": 2.76,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 383,
+    "relative_font_size": 81
+  },
+  {
+    "text": "10714",
+    "avg_font_size": 10.91,
+    "bbox": [
+      285.135009765625,
+      781.2319946289062,
+      312.4078063964844,
+      794.37744140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 290.77,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 5,
+    "relative_font_size": 77
+  }
+]

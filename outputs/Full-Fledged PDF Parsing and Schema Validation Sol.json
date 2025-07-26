@@ -56,9 +56,9 @@
     "line_count": 6,
     "line_spacing_avg": 7.8,
     "font_names": [
+      "IBMPlexMono-Regular",
       "Unnamed-T3",
-      "LiberationSans",
-      "IBMPlexMono-Regular"
+      "LiberationSans"
     ],
     "text_case": "Mixed",
     "length": 453,
@@ -143,8 +143,8 @@
     "line_count": 10,
     "line_spacing_avg": 10.29,
     "font_names": [
-      "Unnamed-T3",
-      "IBMPlexMono-Regular"
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 634,
@@ -224,12 +224,12 @@
     ],
     "is_bold": false,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "right",
     "line_count": 9,
     "line_spacing_avg": 14.64,
     "font_names": [
-      "Unnamed-T3",
-      "DejaVuSans"
+      "DejaVuSans",
+      "Unnamed-T3"
     ],
     "text_case": "Title",
     "length": 100,
@@ -313,9 +313,9 @@
     "line_count": 10,
     "line_spacing_avg": 7.15,
     "font_names": [
+      "DejaVuSans",
       "Unnamed-T3",
-      "LiberationSans",
-      "DejaVuSans"
+      "LiberationSans"
     ],
     "text_case": "lower",
     "length": 132,
@@ -332,7 +332,7 @@
     ],
     "is_bold": false,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "right",
     "line_count": 2,
     "line_spacing_avg": 0.0,
     "font_names": [
@@ -359,7 +359,7 @@
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "lower",
+    "text_case": "Mixed",
     "length": 69,
     "relative_font_size": 2
   },
@@ -483,8 +483,8 @@
     "line_count": 4,
     "line_spacing_avg": 10.52,
     "font_names": [
-      "Unnamed-T3",
-      "IBMPlexMono-Regular"
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 246,
@@ -505,10 +505,10 @@
     "line_count": 3,
     "line_spacing_avg": 14.92,
     "font_names": [
-      "Unnamed-T3",
-      "IBMPlexMono-Regular"
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 93,
     "relative_font_size": 15
   },
@@ -527,9 +527,9 @@
     "line_count": 2,
     "line_spacing_avg": 15.84,
     "font_names": [
+      "IBMPlexMono-Regular",
       "Unnamed-T3",
-      "LiberationSans",
-      "IBMPlexMono-Regular"
+      "LiberationSans"
     ],
     "text_case": "Mixed",
     "length": 184,
@@ -567,13 +567,13 @@
     ],
     "is_bold": false,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "left",
     "line_count": 2,
     "line_spacing_avg": 9.22,
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "lower",
+    "text_case": "Mixed",
     "length": 87,
     "relative_font_size": 15
   },
@@ -634,8 +634,8 @@
     "line_count": 6,
     "line_spacing_avg": 8.61,
     "font_names": [
-      "Unnamed-T3",
-      "IBMPlexMono-Regular"
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 363,
@@ -677,9 +677,9 @@
     "line_count": 2,
     "line_spacing_avg": 8.96,
     "font_names": [
+      "IBMPlexMono-Regular",
       "Unnamed-T3",
-      "LiberationSans",
-      "IBMPlexMono-Regular"
+      "LiberationSans"
     ],
     "text_case": "Mixed",
     "length": 176,
@@ -742,10 +742,10 @@
     "line_count": 6,
     "line_spacing_avg": 12.22,
     "font_names": [
-      "Unnamed-T3",
-      "LiberationSans",
       "IBMPlexMono-Regular",
-      "DejaVuSans"
+      "DejaVuSans",
+      "Unnamed-T3",
+      "LiberationSans"
     ],
     "text_case": "Mixed",
     "length": 311,
@@ -768,7 +768,7 @@
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 38,
     "relative_font_size": null
   },
@@ -831,7 +831,7 @@
     "font_names": [
       "IBMPlexMono-Regular"
     ],
-    "text_case": "lower",
+    "text_case": "Mixed",
     "length": 290,
     "relative_font_size": 4
   },
@@ -914,8 +914,8 @@
     "line_count": 1,
     "line_spacing_avg": 30.27,
     "font_names": [
-      "Unnamed-T3",
-      "IBMPlexMono-Regular"
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 30,
@@ -995,13 +995,13 @@
     ],
     "is_bold": false,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "right",
     "line_count": 6,
     "line_spacing_avg": 13.99,
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 180,
     "relative_font_size": 2
   },
@@ -1041,8 +1041,8 @@
     "line_count": 3,
     "line_spacing_avg": 12.05,
     "font_names": [
-      "Unnamed-T3",
-      "IBMPlexMono-Regular"
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 141,
@@ -1084,8 +1084,8 @@
     "line_count": 3,
     "line_spacing_avg": 13.24,
     "font_names": [
-      "Unnamed-T3",
-      "LiberationSans-Bold"
+      "LiberationSans-Bold",
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 82,
@@ -1127,8 +1127,8 @@
     "line_count": 3,
     "line_spacing_avg": 14.63,
     "font_names": [
-      "Unnamed-T3",
-      "IBMPlexMono-Regular"
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 159,
@@ -1151,7 +1151,7 @@
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 88,
     "relative_font_size": null
   },
@@ -1208,7 +1208,7 @@
     ],
     "is_bold": false,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "right",
     "line_count": 8,
     "line_spacing_avg": 14.36,
     "font_names": [
@@ -1250,7 +1250,7 @@
     ],
     "is_bold": false,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "right",
     "line_count": 4,
     "line_spacing_avg": 0.0,
     "font_names": [
@@ -1296,8 +1296,8 @@
     "line_count": 5,
     "line_spacing_avg": 10.62,
     "font_names": [
-      "Unnamed-T3",
-      "IBMPlexMono-Regular"
+      "IBMPlexMono-Regular",
+      "Unnamed-T3"
     ],
     "text_case": "Mixed",
     "length": 300,
@@ -1320,7 +1320,7 @@
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "lower",
+    "text_case": "Mixed",
     "length": 105,
     "relative_font_size": 15
   },
@@ -1341,7 +1341,7 @@
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 103,
     "relative_font_size": null
   },
@@ -1383,7 +1383,7 @@
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "lower",
+    "text_case": "Mixed",
     "length": 76,
     "relative_font_size": 15
   },
@@ -1425,7 +1425,7 @@
     "font_names": [
       "Unnamed-T3"
     ],
-    "text_case": "lower",
+    "text_case": "Mixed",
     "length": 253,
     "relative_font_size": 15
   },

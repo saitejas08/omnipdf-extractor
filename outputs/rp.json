@@ -1,0 +1,3895 @@
+[
+  {
+    "text": "DSG : An End-to-End Document Structure Generator",
+    "avg_font_size": 23.91,
+    "bbox": [
+      96.00900268554688,
+      59.67054748535156,
+      515.9927368164062,
+      111.74799346923828
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 3.99,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 48,
+    "relative_font_size": 42
+  },
+  {
+    "text": "Johannes Rausch \u2020 , Gentiana Rashiti \u2020 , Maxim Gusev \u2020 , Ce Zhang \u2020 , Stefan Feuerriegel \u2021 \u2020 Department of Computer Science, ETH Zurich \u2021 Munich Center for Machine Learning, LMU Munich johannes.rausch@inf.ethz.ch, rashitig@student.ethz.ch, gusevm@student.ethz.ch, ce.zhang@inf.ethz.ch, feuerriegel@lmu.de",
+    "avg_font_size": 10.21,
+    "bbox": [
+      74.76394653320312,
+      118.99185943603516,
+      537.240478515625,
+      171.98072814941406
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 3.11,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMSY8"
+    ],
+    "text_case": "lower",
+    "length": 304,
+    "relative_font_size": null
+  },
+  {
+    "text": "rendering as input (see Fig. 1). For this, the textual contents Abstract \u2014Information in industry, research, and the public",
+    "avg_font_size": 9.46,
+    "bbox": [
+      58.92695617675781,
+      212.3004913330078,
+      563.0354614257812,
+      222.26309204101562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 40.32,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-MediItal",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 123,
+    "relative_font_size": 35
+  },
+  {
+    "text": "arXiv:2310.09118v1  [cs.LG]  13 Oct 2023",
+    "avg_font_size": 20.0,
+    "bbox": [
+      10.940000534057617,
+      213.3800048828125,
+      37.619998931884766,
+      560.0
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Times-Roman"
+    ],
+    "text_case": "Mixed",
+    "length": 40,
+    "relative_font_size": 41
+  },
+  {
+    "text": "sector is widely stored as rendered documents (e.g., PDF files, must be extracted from the document rendering while preserv- scans). Hence, to enable downstream tasks, systems are needed ing the semantic and hierarchical structure of the source files. that map rendered documents onto a structured hierarchical To achieve this, state-of-the-art systems [11] typically first format. However, existing systems for this task are limited by detect all document entities (e.g., figures, text blocks, headers) heuristics and are not end-to-end trainable. In this work, we and subsequently infer the hierarchical relationships between introduce the Document Structure Generator ( DSG ), a novel system for document parsing that is fully end-to-end trainable. entities (e.g., their sequence and nested structure) to form DSG combines a deep neural network for parsing (i) enti- hierarchical document structures. Yet, the task is challenging ties in documents (e.g., figures, text blocks, headers, etc.) and due to the complex, nested structures in real-world documents. (ii) relations that capture the sequence and nested structure A standard solution to map document renderings onto between entities. Unlike existing systems that rely on heuristics, our DSG is trained end-to-end, making it effective and flexible parsable documents are optical character recognition (OCR) for real-world applications. We further contribute a new, large- systems. Current OCR systems are highly effective in retriev- scale dataset called E-Periodica comprising real-world magazines ing word-level textual contents from rendered documents [12]. with complex document structures for evaluation. Our results However, OCR systems generally focus only on the textual demonstrate that our DSG outperforms commercial OCR tools contents but struggle with inferring the hierarchical structure. and, on top of that, achieves state-of-the-art performance. To the best of our knowledge, our DSG system is the first end-to-end OCR systems generally rely upon a prior step for parsing the trainable system for hierarchical document parsing. document structure, yet which is still very challenging and error-prone [10]. As a consequence, OCR systems suffer from Index Terms \u2014Information Extraction, Parsing; Data Mining, Document Analysis large errors, especially if errors in the step for parsing the structure parsing occur [13]. To address this, earlier research I. I NTRODUCTION focused on custom systems for parsing specific entities in Large amounts of information are generated daily in indus- documents such as table structures [14], [15] but without try, research, and the public sector. Yet, such data is typically parsing the complete hierarchical structure in documents. stored as document renderings (e.g., PDF files, scans) and not Even other research aimed at identifying document entities as structured hierarchical formats [1]. This is a crucial hurdle [16], [17], [18], but without actually generating hierarchical for practice. On the one hand, structured formats as opposed document structures. Only one work is tailored to generate to document renderings are needed for efficient storage in hierarchical document structures from document renderings databases, as the latter requires standardized formats [2], [3]. [11]. Yet, this work is based on heuristics and is thus not On the other hand, document renderings cannot be processed end-to-end trainable, which is why its flexibility is limited. in downstream tasks since downstream tasks commonly re- To the best of our knowledge, there is no system for parsing quire documents that are in a parsable format. Examples hierarchical document structures that is end-to-end trainable. are query and retrieval [4], [5], [6], [7], [8] and knowledge Our DSG system: 1 We develop the Document Structure base construction [9]. To this end, there is a direct need in Generator ( DSG ), a novel system for generating hierarchical practice [10] for systems that map document renderings onto document structures from document renderings where the a structured hierarchical format. system is fully end-to-end trainable . Our DSG builds upon a The task of document structure parsing refers to the gener- deep neural network for parsing (i) entities in documents (e.g., ation of a hierarchical document structure, given a document figures, text blocks, headers, etc.) and (ii) relations that capture the sequence and nested structure between entities. In contrast CZ and the DS3Lab gratefully acknowledge the support from the Swiss State Secretariat for Education, Research and Innovation (SERI) under con- to existing systems for generating document structures, our tract number MB22.00036 (for European Research Council (ERC) Starting DSG uses a trainable component for classifying relations and Grant TRIDENT 101042665), the Swiss National Science Foundation (Project thereby circumvents the use of heuristics. As a result, our Number 200021, 184628, and 197485), Innosuisse/SNF BRIDGE Discovery (Project Number 40B2-0 187132), European Union Horizon 2020 Research DSG predicts entire document structures and is thus fully and Innovation Programme (DAPHNE, 957407), Botnar Research Centre for Child Health, Swiss Data Science Center, Alibaba, Cisco, eBay, Google 1 Codes for our system, online supplements, and dataset are publicly Focused Research Awards, Kuaishou Inc., Oracle Labs, Zurich Insurance, and available at https://github.com/j-rausch/DSG. the Department of Computer Science at ETH Zurich.",
+    "avg_font_size": 9.44,
+    "bbox": [
+      48.963958740234375,
+      222.93605041503906,
+      563.0402221679688,
+      747.8086547851562
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 91,
+    "line_spacing_avg": 1.19,
+    "font_names": [
+      "NimbusRomNo9L-MediItal",
+      "NimbusSanL-Regu",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Bold",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 5522,
+    "relative_font_size": null
+  },
+  {
+    "text": "Entity-specific parsers: Several systems focus on specific",
+    "avg_font_size": 9.96,
+    "bbox": [
+      321.94000244140625,
+      56.88246154785156,
+      563.0346069335938,
+      66.84506225585938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 58,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Input: Output: Hierarchical Intermediate Step: Document Rendering Document Structure Document Entities",
+    "avg_font_size": 5.02,
+    "bbox": [
+      68.93397521972656,
+      60.40549087524414,
+      293.5219421386719,
+      71.45805358886719
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 1.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 102,
+    "relative_font_size": 4
+  },
+  {
+    "text": "semantic entities, namely, table detection and table structure",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.9779968261719,
+      68.83845520019531,
+      563.0354614257812,
+      78.80105590820312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 62,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Article",
+    "avg_font_size": 4.19,
+    "bbox": [
+      146.22079467773438,
+      78.63386535644531,
+      157.85110473632812,
+      82.82044219970703
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 2
+  },
+  {
+    "text": "parsing. In table detection, the task is to predict the bounding",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.9779968261719,
+      80.79347229003906,
+      563.0355224609375,
+      90.75607299804688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 64,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Header Article Text Block",
+    "avg_font_size": 4.19,
+    "bbox": [
+      151.28916931152344,
+      84.49507141113281,
+      264.6087951660156,
+      94.20793151855469
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 1.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 25,
+    "relative_font_size": 2
+  },
+  {
+    "text": "boxes of tables within document renderings, rather than gen-",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.9779968261719,
+      92.74848937988281,
+      563.0355224609375,
+      102.71109008789062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 60,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Header",
+    "avg_font_size": 4.19,
+    "bbox": [
+      263.6516418457031,
+      95.71509552001953,
+      277.37945556640625,
+      99.90167236328125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 6,
+    "relative_font_size": 2
+  },
+  {
+    "text": "erating the actual table structures [21], [22], [23], [14], [24].",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.9779968261719,
+      104.70350646972656,
+      563.0355834960938,
+      114.66610717773438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 4.8,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 65,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Text Block",
+    "avg_font_size": 4.19,
+    "bbox": [
+      260.80999755859375,
+      108.27482604980469,
+      279.88824462890625,
+      112.4614028930664
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "relative_font_size": 2
+  },
+  {
+    "text": "In table structure parsing, the aim is to recognize the structure",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.9779968261719,
+      116.65852355957031,
+      563.0355224609375,
+      126.62112426757812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 4.2,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 65,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Figure",
+    "avg_font_size": 4.19,
+    "bbox": [
+      264.41571044921875,
+      120.33216857910156,
+      276.28045654296875,
+      124.51874542236328
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 6,
+    "relative_font_size": 2
+  },
+  {
+    "text": "(e.g., rows, cells) in tables [15], [14]. Here, the input is pro-",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.9779968261719,
+      128.61354064941406,
+      563.03564453125,
+      138.57614135742188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 4.09,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 65,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Figure Figure Graphic Figure Graphic",
+    "avg_font_size": 4.19,
+    "bbox": [
+      146.9822235107422,
+      133.56175231933594,
+      295.0740051269531,
+      144.44683837890625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 2.34,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 36,
+    "relative_font_size": 2
+  },
+  {
+    "text": "vided either as text [25], [26] or through document renderings",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.9779968261719,
+      140.5695343017578,
+      563.0354614257812,
+      150.53213500976562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 62,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Figure Caption",
+    "avg_font_size": 4.19,
+    "bbox": [
+      267.5032958984375,
+      145.6190948486328,
+      294.9588928222656,
+      149.8056640625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 14,
+    "relative_font_size": 2
+  },
+  {
+    "text": "[27]. However, the works are limited to a single entity (tables). Hence, these works cannot identify other entities and thus not the full document structure. Others works (e.g., [17], [18].)",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.9779968261719,
+      152.52455139160156,
+      563.0362548828125,
+      186.39718627929688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 3,
+    "line_spacing_avg": 2.18,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 190,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Figure Caption Document",
+    "avg_font_size": 4.19,
+    "bbox": [
+      147.09735107421875,
+      176.76722717285156,
+      280.8092956542969,
+      192.173828125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 7.03,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 23,
+    "relative_font_size": 2
+  },
+  {
+    "text": "perform entity detection in documents by locating specific",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.97802734375,
+      188.3896026611328,
+      563.0354614257812,
+      198.35220336914062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 58,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Database",
+    "avg_font_size": 4.19,
+    "bbox": [
+      262.309326171875,
+      193.01113891601562,
+      280.2278747558594,
+      197.1977081298828
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 8,
+    "relative_font_size": 2
+  },
+  {
+    "text": "elements, but again without extracting hierarchical structures. Fig. 1: The task of generating document structures by identi- Even others focused only on the segmentation of individual fying (i) entities within documents and (ii) relations describing lines [28]. the hierarchical structure. Hierarchical document parsers: One work [29] classifies lines and their immediate parent lines but using third-party OCR tools for that leads to error propagation throughout the end-to-end trainable. This makes our system highly flexible system. More importantly, the work is limited to a few, high- for handling a variety of documents that can arise in practice. level entities (e.g., table structures, lists, and sub-figures are Finally, our DSG has a custom conversion engine to generate missing) and most of the hierarchical structure is lost (e.g., structured document output files in hOCR markup language, orderings). Hence, this work fails to generate comprehensive which allows for seamless integration into existing document document structures as required in our task. storage and processing workflows. Closest to our work is a system called DocParser [11], We further contribute a novel, large-scale dataset for which is specifically designed to capture hierarchical docu- generating and evaluating hierarchical document structures ment structures. DocParser consists of five components (image called E-Periodica. E-Periodica is based on real-world maga- conversion, entity detection, relation classification, structure- zines from different source languages (e.g., English, German, based refinement, and scalable weak supervision) in order to French, Italian). We manually annotated the hierarchical doc- generate both entities and relations. However, in DocParser, ument structure for several hundred magazine pages. Overall, relations are detected based on manual heuristics and are not E-Periodica contains 542 documents with more than 11 , 000 trainable. Hence, to the best of our knowledge, systems for annotated entities. Thereby, we extend over previous datasets hierarchical document parsing that are end-to-end trainable are that have been primarily limited to scientific articles [11]. lacking. However, a limitation of scientific articles is that they follow Scene graph generation: Scene graph generation is a a fairly similar structure, while magazines are characterized computer vision task that combines the entity detection vision by large heterogeneity in their presentation and thus complex task with an additional relation classification [30]. Many recent document structures. Hence, E-Periodica provides a novel and methods for scene graph generation are based on two-stage challenging, real-world setting for evaluation. training procedures where the detection components build Our main contributions are as follows: upon Faster R-CNN [31], [32], [33]. However, systems for 1) We develop a novel system for generating hierarchical scene graph generation are predominantly used to parse real- document structures from document renderings called world images and, to the best of our knowledge, have not DSG . To the best of our knowledge, our DSG is the yet been adapted to document structure parsing. This is our first system for this task that is end-to-end trainable. contribution. 2) We contribute novel, large-scale dataset called Research gap: Existing systems for generating hierarchical E-Periodica with manual annotations for evaluation. document structures are based on heuristics and are thus 3) We show that our DSG system achieves state-of-the-art not end-to-end-trainable, which limits their flexibility. As a performance. We further demonstrate the effectiveness of remedy, we develop our DSG , the first system for hierarchical end-to-end training. document parsing that is end-to-end trainable. II. R ELATED WORK III. P ROBLEM DESCRIPTION Document structure parsing: Existing systems have two Objective: The objective of our system is to gener- shortcomings in that they are either (i) limited to entity ate hierarchical document structures from document render- recognition and thus do not generate hierarchical structures, or (i) based on heuristics and thus not end-to-end trainable. ings (e.g., PDF files, scanned images). Formally, the in- put is given by document renderings D 1 , . . . , D n . The out- We provide a detailed overview in the following. OCR systems: Extracting text from document images has puts are hierarchically-structured documents given by pairs ( H 1 , T 1 ) , . . . , ( H n , T n ) , where H i , i = 1 . . . , n , captures the been extensively studied as part of OCR systems [19], [20]. As hierarchical structure and T i , i = 1 . . . , n , the texts. The such, the works extract textual content, but not the hierarchical hierarchical structure is defined by a set of (i) entities in the document structure, which is the objective of our research.",
+    "avg_font_size": 9.92,
+    "bbox": [
+      48.9639892578125,
+      200.16815185546875,
+      563.04052734375,
+      748.2900390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 93,
+    "line_spacing_avg": 1.9,
+    "font_names": [
+      "NimbusRomNo9L-ReguItal",
+      "NimbusSanL-Regu",
+      "CMMI7",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "lower",
+    "length": 4915,
+    "relative_font_size": null
+  },
+  {
+    "text": "Document",
+    "avg_font_size": 4.23,
+    "bbox": [
+      479.34576416015625,
+      56.865055084228516,
+      498.6051330566406,
+      61.09138107299805
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 8,
+    "relative_font_size": 3
+  },
+  {
+    "text": "documents (e.g., figures, text blocks, headers, etc.) and (ii) re-",
+    "avg_font_size": 9.96,
+    "bbox": [
+      48.964019775390625,
+      56.88246154785156,
+      300.0215148925781,
+      66.84506225585938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 66,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Database Input: Document Rendering",
+    "avg_font_size": 4.23,
+    "bbox": [
+      343.4007263183594,
+      61.936641693115234,
+      498.0208435058594,
+      72.24887084960938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 3,
+    "line_spacing_avg": 0.85,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 34,
+    "relative_font_size": 3
+  },
+  {
+    "text": "lations that capture the sequence and nested structure between entities. Formally, entities are given by E j , j = 1 , . . . , m , and relations by R j , j = 1 , . . . , k . Both are defined below. The above task is thus analogous to earlier research on parsing",
+    "avg_font_size": 9.78,
+    "bbox": [
+      48.96400451660156,
+      68.83845520019531,
+      300.02154541015625,
+      114.66610717773438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 1.43,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMMI7",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 261,
+    "relative_font_size": null
+  },
+  {
+    "text": "C5: hOCR File Geneartion",
+    "avg_font_size": 4.23,
+    "bbox": [
+      463.02685546875,
+      111.30011749267578,
+      514.9261474609375,
+      115.52644348144531
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 24,
+    "relative_font_size": 3
+  },
+  {
+    "text": "hierarchical document structures (e.g., [11]). Entities: Entities capture the different structural elements in documents, such as figures, tables, captions, text blocks, etc.",
+    "avg_font_size": 9.96,
+    "bbox": [
+      48.964012145996094,
+      116.65852355957031,
+      300.0215148925781,
+      150.16513061523438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 1.55,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "lower",
+    "length": 174,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Article",
+    "avg_font_size": 4.23,
+    "bbox": [
+      468.56597900390625,
+      144.7726287841797,
+      480.3067321777344,
+      148.9989471435547
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Each entity E j , j = 1 , . . . , m , is described by three attributes:",
+    "avg_font_size": 9.59,
+    "bbox": [
+      48.964012145996094,
+      151.92796325683594,
+      300.0196228027344,
+      162.73162841796875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 2.93,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMMI7",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 71,
+    "relative_font_size": 37
+  },
+  {
+    "text": "Header",
+    "avg_font_size": 4.23,
+    "bbox": [
+      485.25732421875,
+      155.7610626220703,
+      499.1155090332031,
+      159.9873809814453
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 6,
+    "relative_font_size": 3
+  },
+  {
+    "text": "(1) a semantic category c j \u2208C = { C 1 , . . . , C l } (e.g., whether",
+    "avg_font_size": 9.22,
+    "bbox": [
+      48.96399688720703,
+      163.7538604736328,
+      300.0205383300781,
+      175.21047973632812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 3.77,
+    "font_names": [
+      "CMSY10",
+      "CMMI7",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 69,
+    "relative_font_size": 28
+  },
+  {
+    "text": "Text Block",
+    "avg_font_size": 4.23,
+    "bbox": [
+      482.38873291015625,
+      170.6377410888672,
+      501.6480712890625,
+      174.8640594482422
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "relative_font_size": 3
+  },
+  {
+    "text": "it is a figure, table, header, etc.); (2) a rectangular bounding",
+    "avg_font_size": 9.96,
+    "bbox": [
+      48.96400451660156,
+      176.0685577392578,
+      300.0215148925781,
+      186.03115844726562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 1.2,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 64,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Figure",
+    "avg_font_size": 4.23,
+    "bbox": [
+      486.02862548828125,
+      185.34535217285156,
+      498.00604248046875,
+      189.57167053222656
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 6,
+    "relative_font_size": 3
+  },
+  {
+    "text": "box B j in the document rendering, defined by the x - and y -",
+    "avg_font_size": 9.59,
+    "bbox": [
+      48.96400451660156,
+      187.7930145263672,
+      300.02252197265625,
+      199.48019409179688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMMI7"
+    ],
+    "text_case": "Mixed",
+    "length": 61,
+    "relative_font_size": 37
+  },
+  {
+    "text": "Figure Graphic",
+    "avg_font_size": 4.23,
+    "bbox": [
+      494.60809326171875,
+      196.33380126953125,
+      522.5567626953125,
+      200.56011962890625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 14,
+    "relative_font_size": 3
+  },
+  {
+    "text": "coordinates of corner points of the bounding box; and (3) a",
+    "avg_font_size": 9.96,
+    "bbox": [
+      48.9639892578125,
+      199.9785919189453,
+      300.02142333984375,
+      209.94119262695312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 59,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Figure Caption",
+    "avg_font_size": 4.23,
+    "bbox": [
+      494.72430419921875,
+      210.5342559814453,
+      522.4406127929688,
+      214.7605743408203
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.59,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 14,
+    "relative_font_size": 3
+  },
+  {
+    "text": "confidence score P j that accompanies the prediction of the",
+    "avg_font_size": 9.22,
+    "bbox": [
+      48.9639892578125,
+      211.7030487060547,
+      300.0220642089844,
+      223.39120483398438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMMI7"
+    ],
+    "text_case": "Mixed",
+    "length": 59,
+    "relative_font_size": 28
+  },
+  {
+    "text": "C1: Image Preprocessing Hierarchical Document Structure",
+    "avg_font_size": 4.23,
+    "bbox": [
+      334.2824401855469,
+      213.7462615966797,
+      517.3055419921875,
+      225.0727996826172
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 2.87,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 55,
+    "relative_font_size": 3
+  },
+  {
+    "text": "semantic category c j . Relations: Relations capture the nested structure among",
+    "avg_font_size": 9.59,
+    "bbox": [
+      48.9639892578125,
+      223.65904235839844,
+      300.0186462402344,
+      245.44119262695312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.92,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi",
+      "CMMI10",
+      "CMMI7"
+    ],
+    "text_case": "Mixed",
+    "length": 79,
+    "relative_font_size": 37
+  },
+  {
+    "text": "C2: Entity Detection C4: Grammar-based postprocesing",
+    "avg_font_size": 4.23,
+    "bbox": [
+      339.5732727050781,
+      244.17579650878906,
+      522.6275634765625,
+      248.90928649902344
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 52,
+    "relative_font_size": 3
+  },
+  {
+    "text": "the entities. Relations R j , j = 1 , . . . , k are defined by triples ( E subj , E obj , \u03a8) consisting of a subject E subj , an object E obj , and a relation type \u03a8 \u2208{ parent of , followed by , null } .",
+    "avg_font_size": 9.55,
+    "bbox": [
+      48.96400451660156,
+      247.2030487060547,
+      300.022705078125,
+      281.3062438964844
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 1.01,
+    "font_names": [
+      "CMSY10",
+      "CMTI10",
+      "CMMI7",
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 203,
+    "relative_font_size": null
+  },
+  {
+    "text": "Article Followed by None Parent of Header ... Text Block",
+    "avg_font_size": 4.23,
+    "bbox": [
+      313.9670104980469,
+      271.3933410644531,
+      557.0927124023438,
+      287.11529541015625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 7,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 56,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Furthermore, the relations R j are associated with a confidence score P \u03a8 for the predicted relation type \u03a8 . hOCR output: As additional output, hierarchically-",
+    "avg_font_size": 9.71,
+    "bbox": [
+      48.964019775390625,
+      283.0679016113281,
+      300.0251770019531,
+      316.8050537109375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 9,
+    "line_spacing_avg": 1.54,
+    "font_names": [
+      "CMMI7",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 160,
+    "relative_font_size": null
+  },
+  {
+    "text": "Relation Context",
+    "avg_font_size": 4.23,
+    "bbox": [
+      471.15606689453125,
+      313.3353576660156,
+      502.3970947265625,
+      317.56170654296875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 16,
+    "relative_font_size": 3
+  },
+  {
+    "text": "structured text documents given by pairs",
+    "avg_font_size": 9.96,
+    "bbox": [
+      48.964027404785156,
+      318.79742431640625,
+      300.021484375,
+      328.7600402832031
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 1.24,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 40,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Text Figure Figure Figure Header Figure Article Block Graphic Caption",
+    "avg_font_size": 4.23,
+    "bbox": [
+      322.7234191894531,
+      325.1521911621094,
+      544.7761840820312,
+      334.45013427734375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 10,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 69,
+    "relative_font_size": 3
+  },
+  {
+    "text": "( H 1 , T 1 ) , . . . , ( H n , T n ) , where T i , i = 1 . . . , n , captures",
+    "avg_font_size": 9.25,
+    "bbox": [
+      48.964027404785156,
+      330.52288818359375,
+      300.01953125,
+      341.3265075683594
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMMI7",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 78,
+    "relative_font_size": 29
+  },
+  {
+    "text": "Entity Refinement Figure Graphic Refinement Context",
+    "avg_font_size": 4.23,
+    "bbox": [
+      314.7356872558594,
+      332.01690673828125,
+      554.6112670898438,
+      365.3710632324219
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 3,
+    "line_spacing_avg": 4.23,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 51,
+    "relative_font_size": 3
+  },
+  {
+    "text": "the texts should further be provided in the standardized hOCR format [34] to facilitate downstream processing tasks. hOCR is a markup language for representing and storing",
+    "avg_font_size": 9.96,
+    "bbox": [
+      48.964019775390625,
+      342.7084045410156,
+      300.02154541015625,
+      376.58099365234375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 1.99,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 171,
+    "relative_font_size": 39
+  },
+  {
+    "text": "Text Block Text Figure Text Header Figure Article Block Graphic Block",
+    "avg_font_size": 4.23,
+    "bbox": [
+      319.08349609375,
+      370.4584045410156,
+      542.6614379882812,
+      380.09442138671875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 10,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 69,
+    "relative_font_size": 3
+  },
+  {
+    "text": "structured documents in a unified format [34]. Hence, this",
+    "avg_font_size": 9.96,
+    "bbox": [
+      48.964019775390625,
+      378.5733642578125,
+      300.02154541015625,
+      388.5359802246094
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 58,
+    "relative_font_size": 39
+  },
+  {
+    "text": "C3: Relation Classification & Entity Refinement",
+    "avg_font_size": 4.23,
+    "bbox": [
+      439.96435546875,
+      386.0112609863281,
+      534.6044921875,
+      390.23760986328125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 47,
+    "relative_font_size": 3
+  },
+  {
+    "text": "should ensure that the output can be directly used by common Fig. 2: Overview of our DSG system. tools for document processing and storage workflows that are widespread in practice. IV. O UR DSG SYSTEM from a set of different sizes. The images are then normalized Overview: An overview of our DSG system is shown in following the procedure in [35]. Specifically, we subtract the Fig. 2. The objective of our DSG is to generate hierarchical mean channel-wise pixel values of the underlying pre-training document structures from document renderings in an end-to- dataset [36] from the inputs. end trainable setup. For this, our system builds upon a deep B. Entity detection (C2) neural network that consists of fully trainable components to The second component builds upon a Faster R-CNN ar- parse both entities and subsequently the relations that represent chitecture [37] for entity detection. Here, visual feature maps the hierarchical structures. Our system processes documents on different scales are extracted via a convolutional neural along five components: ( C1 ) image preprocessing, ( C2 ) entity network [38], [39]. The visual feature maps are then passed on detection, ( C3 ) relation classification and entity refinement, to another network component, called region proposal network ( C4 ) grammar-based postprocessing, and ( C5 ) hOCR conver- (RPN), which generates a set of rectangular candidate entity sion engine. The components are described in the following. region proposals in the image. For each of the region pro- A. Image preprocessing (C1) posals, a category prediction network is applied to predict the Our system processes all input documents as rendered semantic category c \u2032 j of an entity E j . If the confidence score images. For source formats such as PDF, we first generate P \u2032 j of a candidate region surpasses a predefined threshold, it is images for each document page, which are then used as input accepted as an entity (and discarded otherwise). Subsequently, to our system. Images are resized bilinearly so that their smallest side an additional neural network is used to predict the size and has a maximum size of \u03d5 max . If the longest side exceeds a position of the initial rectangular region B j (based on the predefined maximum size of \u03d5 max after this step, the images rectangular candidate entity region proposals from the RPN). are resized so that their longest side length is \u03d5 max . During Afterward, the entities are passed on to component C3, which training, the image size can be varied for the purpose of data is responsible for the relation classification. augmentation. 2 For this, \u03d5 max and \u03d5 max are randomly chosen C. Relation classification and entity refinement (C3) The relation classification in DSG builds upon the neural",
+    "avg_font_size": 9.76,
+    "bbox": [
+      48.964019775390625,
+      390.5283508300781,
+      563.0399780273438,
+      712.4249877929688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 57,
+    "line_spacing_avg": 0.71,
+    "font_names": [
+      "NimbusRomNo9L-ReguItal",
+      "NimbusSanL-Regu",
+      "CMMI7",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMSY7",
+      "CMMI10"
+    ],
+    "text_case": "Mixed",
+    "length": 2784,
+    "relative_font_size": null
+  },
+  {
+    "text": "2 In computer vision, it is common to perform additional data augmentations through image mirroring or rotation operations, which are commonly applied motifs architecture [31]. This architecture extends the entity to facilitate training and system performance. However, we avoid such data detection architecture with two additional neural network augmentations in our work because the hierarchical document structures are heads. Concretely, the detected entities are passed on to neural sensitive to the original document geometry (e.g. left-to-right reading orders).",
+    "avg_font_size": 8.59,
+    "bbox": [
+      48.96406555175781,
+      702.6714477539062,
+      563.0355834960938,
+      748.2899780273438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 8,
+    "line_spacing_avg": 1.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 567,
+    "relative_font_size": null
+  },
+  {
+    "text": "network heads for relation classification and entity refinement. architecture. It corresponds to the image region of the entity pair B pair = Union ( E subj , E obj ) . Second, \u03c1 pair In the following, we refer to these two heads as the relation is formed for entity-entity pairs ( E subj , E obj ) by concate- head and the refinement head, respectively. nating the respective refinement context output features Both the relation head and the refinement head build on ) . Third, a frequency bias term \u03c1 pair ( \u03c1 rel out , \u03c1 rel out is bidirectional long short-term memory (LSTM) networks that",
+    "avg_font_size": 9.62,
+    "bbox": [
+      48.964019775390625,
+      56.88246154785156,
+      563.0364379882812,
+      117.32504272460938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 14,
+    "line_spacing_avg": 1.88,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 592,
+    "relative_font_size": null
+  },
+  {
+    "text": "subj obj",
+    "avg_font_size": 6.97,
+    "bbox": [
+      343.1390075683594,
+      109.78511810302734,
+      381.8855285644531,
+      116.75891876220703
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 8,
+    "relative_font_size": 10
+  },
+  {
+    "text": "calculated from the refined categories c of the pair-wise take the entities from component C2 as input. Both proceed considered entities. The frequency bias term is based on in slightly different ways. The relation head is fed with pairs the empirical distribution over relations ( E subj , E obj , \u03a8) of subject entity and object entity, ( E subj , E obj ) , to classify in the training set. The frequency bias term thus reflects if they form a relation triple ( E subj , E obj , \u03a8) of type \u03a8 \u2208 that, for certain pairings of entity categories ( c subj , c obj ) , { parent of , followed by , null } . The refinement head maps relation types \u03a8 \u2208{ parent of , followed by , null } are j and their confidence scores P \u2032 the categorical labels c \u2032 j from more or less likely. Finally, the pair-wise features \u03c1 pair 1 , component C2 onto refined categories c j and confidence scores \u03c1 pair 2 , and \u03c1 pair are then combined to a pair-wise output P j by taking into account the contextual information of all feature \u03c1 pair out that used to predict the P \u03a8 for all entity predicted entities. Formally, both relation head and refinement pairs. head are implemented as follows: As a result, the entire component for relation classification is (i) Relation head: The relation classification returns a end-to-end trainable. This is a crucial difference of our DSG confidence score P \u03a8 for all considered entity pairs over existing systems. ( E subj , E obj ) . If the respective confidence score exceeds a predefined threshold \u03c4 , a relation R j of type \u03a8 \u2208 D. Grammar-based postprocessing (C4) { parent of , followed by , null } is accepted. Here, the This component of our system converts hierarchical docu- relation type \u03a8 = null is used to indicate the absence ment structures H i , i = 1 , . . . , n , consisting of the predicted of a hierarchical relation. entities E and relations R , into a postprocessed document (ii) Refinement head: The refinement head is fed with addi- structure H \u2032 . Here, the aim is to ensure a valid , tree-structured tional features \u03c1 ref in , i \u2208{ vis , cat , pos } , as follows. First, format that can later be used to generate different output \u03c1 ref in refers to the visual feature map that is extracted formats such as hOCR [34]. For this, we ensure that all",
+    "avg_font_size": 9.55,
+    "bbox": [
+      48.96397399902344,
+      116.42796325683594,
+      563.0407104492188,
+      367.3172302246094
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 50,
+    "line_spacing_avg": 1.49,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusSanL-Regu",
+      "CMTI10",
+      "CMMI7",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMSY7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 2285,
+    "relative_font_size": null
+  },
+  {
+    "text": "vis",
+    "avg_font_size": 6.97,
+    "bbox": [
+      76.2509994506836,
+      359.1521301269531,
+      84.38941955566406,
+      366.12591552734375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 3,
+    "relative_font_size": 10
+  },
+  {
+    "text": "by the underlying Faster R-CNN architecture and corre- entities form a tree structure w.r.t. their hierarchical relations sponds to the image region of the entity in the rendered of type \u03a8 = parent of and are connected to a root entity document. Second, \u03c1 ref in is a category embedding, which with c = DOC . ROOT . We note that our postprocessing does",
+    "avg_font_size": 9.74,
+    "bbox": [
+      71.10099792480469,
+      366.0254211425781,
+      563.0353393554688,
+      403.18206787109375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 7,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMTI10",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 352,
+    "relative_font_size": null
+  },
+  {
+    "text": "cat",
+    "avg_font_size": 6.97,
+    "bbox": [
+      154.6219940185547,
+      394.6661682128906,
+      162.7534637451172,
+      401.63995361328125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 3,
+    "relative_font_size": 10
+  },
+  {
+    "text": "is based on a pre-trained word embedding dictionary and not make any assumptions about the geometric overlap or is selected according to the predicted semantic category the document layout. To this end, it is purely based on the of the entity [40]. Third, \u03c1 ref in is a positional embedding document grammar and the predicted confidence scores P \u03a8 . pos",
+    "avg_font_size": 9.31,
+    "bbox": [
+      71.10099029541016,
+      401.8914489746094,
+      563.0357055664062,
+      439.04803466796875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 8,
+    "line_spacing_avg": 0.25,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMMI10"
+    ],
+    "text_case": "lower",
+    "length": 353,
+    "relative_font_size": null
+  },
+  {
+    "text": "to represent the size and location of the entity bounding In particular, we apply our grammar-based postprocessing in box. Specifically, the positional embedding incorporates sequential steps to address root entities ( g rt ), illegal entities the width, height, and location of the bound box B j . We ( g ilg ), and missing relations ( g mis ) as follows: refer later refer to the features \u03c1 ref in , i \u2208{ vis , cat , pos } \u2022 Root entities ( g rt ): We append additional entities to build as refinement context input features . a basic skeleton for the document files. Specifically, we The refinement context input features are passed to the add root entities DOC . ROOT , ARTICLE and META . To LSTM from the refinement head and, subsequently, a enable full end-to-end training, we allow the prediction fully connected layer to produce so-called refinement of these entities in the training process. context output features \u03c1 ref out . These features are then \u2022 Illegal relations ( g ilg ): During training and inference of used to predict the refined entity categories c j . the relation classification, no restrictions are made on Subsequently, the relation head is fed with three relation the possible combinations of entity pairs. This choice is context input features \u03c1 rel in , i \u2208{ vis , cat , ref } as follows. made to allow for flexibility during end-to-end training First, \u03c1 rel in is visual feature map, identical to that in",
+    "avg_font_size": 9.62,
+    "bbox": [
+      71.10098266601562,
+      437.7564392089844,
+      563.0410766601562,
+      591.1810302734375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 28,
+    "line_spacing_avg": 0.25,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-ReguItal",
+      "CMMI7",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMSY7",
+      "CMMI10"
+    ],
+    "text_case": "lower",
+    "length": 1436,
+    "relative_font_size": null
+  },
+  {
+    "text": "vis",
+    "avg_font_size": 6.97,
+    "bbox": [
+      101.87300109863281,
+      586.3001098632812,
+      110.01142120361328,
+      593.27392578125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 3,
+    "relative_font_size": 10
+  },
+  {
+    "text": "(e.g., in the event that entities are not correctly predicted \u03c1 ref in . Second, \u03c1 rel in is the category embedding, analo-",
+    "avg_font_size": 9.34,
+    "bbox": [
+      71.10099792480469,
+      587.373291015625,
+      563.0352783203125,
+      603.1360473632812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10"
+    ],
+    "text_case": "lower",
+    "length": 123,
+    "relative_font_size": null
+  },
+  {
+    "text": "cat vis",
+    "avg_font_size": 6.97,
+    "bbox": [
+      76.2509994506836,
+      597.9031372070312,
+      148.35546875,
+      605.2289428710938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 7,
+    "relative_font_size": 10
+  },
+  {
+    "text": "by the detection component of DSG ). However, such gous to the category embedding \u03c1 ref in to represent the",
+    "avg_font_size": 9.63,
+    "bbox": [
+      71.10099792480469,
+      599.21533203125,
+      563.040283203125,
+      615.092041015625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Regu",
+      "CMMI10"
+    ],
+    "text_case": "lower",
+    "length": 107,
+    "relative_font_size": 38
+  },
+  {
+    "text": "cat",
+    "avg_font_size": 6.97,
+    "bbox": [
+      214.0540008544922,
+      609.859130859375,
+      222.1854705810547,
+      616.8329467773438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 3,
+    "relative_font_size": 10
+  },
+  {
+    "text": "flexibility can result in relations that violate our document refined entity category. Third, \u03c1 rel in are the refinement",
+    "avg_font_size": 9.63,
+    "bbox": [
+      71.10099792480469,
+      611.2833251953125,
+      563.0353393554688,
+      627.0470581054688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10"
+    ],
+    "text_case": "lower",
+    "length": 121,
+    "relative_font_size": 38
+  },
+  {
+    "text": "ref",
+    "avg_font_size": 6.97,
+    "bbox": [
+      203.8470001220703,
+      622.1661376953125,
+      211.5879364013672,
+      629.1399536132812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 3,
+    "relative_font_size": 10
+  },
+  {
+    "text": "grammar and where thus conflicts must be resolved. context output features, i.e., \u03c1 rel in = \u03c1 ref out .",
+    "avg_font_size": 9.38,
+    "bbox": [
+      71.10099792480469,
+      623.2383422851562,
+      563.0354614257812,
+      639.0020141601562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "lower",
+    "length": 104,
+    "relative_font_size": null
+  },
+  {
+    "text": "ref",
+    "avg_font_size": 6.97,
+    "bbox": [
+      193.531005859375,
+      634.12109375,
+      201.27194213867188,
+      641.0949096679688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 3,
+    "relative_font_size": 10
+  },
+  {
+    "text": "For example, we remove potential cycles so that the Next, pairs of two entities are processed by the rela- hierarchical document structure forms a tree structure. tion head. Crucially, unlike existing systems such as \u2022 Missing relations ( g mis ): Relations are added in order to DocParser, this step is fully trainable. For this, the ensure a valid tree structure so that each entity has a valid relation head forms three so-called pair-wise features relation of the type \u03a8 = parent of . Specifically, every \u03c1 pair 1 , \u03c1 pair 2 , and \u03c1 pair as specified in the following. Later, entity must have exactly one parent, except for the entity the pair-wise features are used to predict confidence with c = DOC . ROOT , which has none. If an entity E scores P \u03a8 for all considered entity pairs ( E subj , E obj ) . does not have a parent, we add a corresponding relation Specifically, the pair-wise features are: First, \u03c1 pair is the ( E subj , E obj , \u03a8) with E obj = E and \u03a8 = parent of and visual feature map that is extracted by the Faster R-CNN E subj based on the predicted confidence scores.",
+    "avg_font_size": 9.54,
+    "bbox": [
+      71.10099792480469,
+      635.193359375,
+      563.0396118164062,
+      754.2470703125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 24,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMTI10",
+      "NimbusRomNo9L-Medi",
+      "CMMI10",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMSY7",
+      "NimbusRomNo9L-ReguItal",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 1093,
+    "relative_font_size": 36
+  },
+  {
+    "text": "The extraction proceeds analogously to \u03c1 rel in E. hOCR conversion engine (C5) but uses the",
+    "avg_font_size": 9.63,
+    "bbox": [
+      48.964019775390625,
+      55.534141540527344,
+      563.0315551757812,
+      66.84506225585938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 3,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 91,
+    "relative_font_size": 38
+  },
+  {
+    "text": "vis",
+    "avg_font_size": 6.97,
+    "bbox": [
+      489.1100158691406,
+      61.964134216308594,
+      497.2484436035156,
+      68.93793487548828
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 3,
+    "relative_font_size": 10
+  },
+  {
+    "text": "In DSG , the final component is an hOCR conversion engine. region B pair to filter the multi-scale visual feature maps, It takes a postprocessed document structure H \u2032 as input and resulting in pair-wise features \u03c1 pair 1 . \u03c1 pair and \u03c1 pair are fed into fully-connected layers W pair and W pair then converts it into a hOCR file that is compatible with com- with output dimensions mon open-source tools for document processing workflows. of 4096 and then combined using element-wise multiplica- We extend the common hOCR format [34] to additionally tion. The resulting feature vector is finally fed into a fully- connected layer W pair accommodate hierarchical structures. with an output dimension equal to the",
+    "avg_font_size": 9.46,
+    "bbox": [
+      48.964019775390625,
+      67.35749053955078,
+      563.036376953125,
+      139.72238159179688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 18,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusSanL-Regu",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMSY7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 711,
+    "relative_font_size": 35
+  },
+  {
+    "text": "rel",
+    "avg_font_size": 6.97,
+    "bbox": [
+      389.02801513671875,
+      134.94442749023438,
+      396.3853759765625,
+      141.91822814941406
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 3,
+    "relative_font_size": 10
+  },
+  {
+    "text": "F. Implementation details number of relation types and added to the frequency bias term \u03c1 pair 3 , resulting in the pair-wise output feature \u03c1 pair Our DSG system is based on the neural motifs architecture out = W pair rel (( W pair \u03c1 pair 1 ) \u25e6 ( W pair \u03c1 pair 2 ))) + \u03c1 pair 3 . \u03c1 pair [31] using the implementations from [35], [32]. However, out is then used to we make non-trivial adaptations to accommodate our task of predict the class probabilities for the relations. For training generating hierarchical document structures, as detailed in the and evaluation, the ground-truth relation triples are matched following. to the candidate triples by calculating the IoU (see Sec. VI-A) Image preprocessing (component C1): Images are bi- scores S subj = IoU ( E subj , E GT subj ) and S obj = IoU ( E obj , E GT obj ) linearly resized so that their smallest side has at most size of the subject and object entities in the relation, respectively. \u03d5 max . If the longest side exceeds a predefined maximum size In accordance with our objective of uniquely matching all of \u03d5 max after this step, resizing is instead done so that the ground-truth relations, we allow only one candidate relation longest side length is \u03d5 max . During training, the image size to be considered per ground-truth relation. is varied for augmentation purposes. For this, \u03d5 max is chosen Entity refinement (component C3(ii)): The refinement randomly from a set of different sizes. We set \u03d5 max at 600 , head is based on a bidirectional LSTM with one recurrent while \u03d5 max is randomly chosen from the range [250 , . . . , 550] layer, a hidden layer size of 512 , and a dropout of 0 . 2 . using increments of 50 . During training, images are randomly The inputs to the LSTM are ordered according to their x - resized by applying the aforementioned resizing scheme. For coordinates (center point) from left to right. The additional testing, we set \u03d5 max = 400 and \u03d5 max = 600 . refinement context input features are computed as follows. Entity detection (component C2): The entity detection The visual feature map \u03c1 ref in is computed analogously to",
+    "avg_font_size": 9.49,
+    "bbox": [
+      48.96401596069336,
+      140.72808837890625,
+      563.0404663085938,
+      355.1988525390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 56,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusSanL-Regu",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "lower",
+    "length": 2120,
+    "relative_font_size": null
+  },
+  {
+    "text": "vis component is based on the Faster R-CNN architecture [37]. 3 \u03c1 rel in . The category embedding \u03c1 ref in is computed by mapping",
+    "avg_font_size": 8.57,
+    "bbox": [
+      48.964019775390625,
+      350.3161315917969,
+      563.0357055664062,
+      367.153076171875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 5,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10"
+    ],
+    "text_case": "lower",
+    "length": 129,
+    "relative_font_size": null
+  },
+  {
+    "text": "cat vis",
+    "avg_font_size": 6.97,
+    "bbox": [
+      317.12799072265625,
+      361.920166015625,
+      453.4164733886719,
+      369.2459411621094
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 7,
+    "relative_font_size": 10
+  },
+  {
+    "text": "We use a ResNet [38] backbone of depth 50 in our sys- the name of the semantic category directly onto the GloVe tem. Training of component C2 uses the loss term L C2 = word embedding with an identical name [40]. For some cate- L cls RPN + L loc RPN + L cls E + L loc E . The losses L loc RPN and L cls RPN penalize gories that are encountered in our datasets, there is no direct localization and classification errors for the candidate regions match. For these categories, we use the following mapping: generated by the region proposal network (RPN). Further- ( BIBLIOGRAPHY BLOCK 7\u2192 bibliography), ( TEXT BLOCK 7\u2192 more, the objective of correct localization and classification paragraph), ( FIGURE CAPTION 7\u2192 caption), ( FIGURE GRAPHIC of predicted entities is formulated via the losses L loc E and L cls E , 7\u2192 graphic), ( PAGE NR . 7\u2192 numbering), ( TABLE CAPTION respectively. 7\u2192 caption). The word embedding dimension is set to 200 During training, up to 50 entities are passed from the entity in our experiments. For the positional embedding \u03c1 ref in pos , the detection component (C2) to the component responsible for bounding box width and x -coordinates are normalized with relation classification and entity refinement (C3). respect to the width of the full-sized image. Analogously, we Relation classification (component C3(i)): The relation normalize the box height and the y -coordinates with respect head uses a bidirectional LSTM with one recurrent layer, a to the height of the full-sized image. hidden layer size of 512 , and a dropout of 0 . 2 . The relation Training of component C3 uses the loss term L C3 = L ref + context input features \u03c1 rel in are extracted via the underlying L rel , consisting of losses of relation classification, L rel and Faster R-CNN architecture for the bounding box B j of each class refinement, L ref . entity. Specifically, the convolutional neural network [38] of V. D ATASETS our Faster R-CNN architecture processes the input images in We compare our system using two different datasets. 4 multiple sequential steps with decreasing spatial resolution. Datasets that are suitable for evaluation must contain annota- The output features of the Faster R-CNN are then fed into a tions for the full hierarchical document structure, and, hence, feature pyramid network (FPN) [39], which produces multi- existing datasets are so far limited to scientific articles [11]. scale visual feature maps. Four multi-scale visual feature maps However, scientific articles follow a fairly similar structure. To that correspond to the image region of B j are filtered by an this end, we also introduce a new dataset called E-Periodica alignment layer, concatenated, and passed through two fully- containing real-world, offline magazines. This is beneficial for connected layers with ReLu activations [41] to produce feature our evaluation as it provides a dataset with large heterogeneity vectors of dimension 1024 . These feature vectors are then used in the presentation and thus complex document structures. The as the relation context input feature \u03c1 rel in datasets are described in the following.",
+    "avg_font_size": 9.57,
+    "bbox": [
+      48.9639892578125,
+      365.946044921875,
+      563.0379638671875,
+      690.2689819335938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 64,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMSY10",
+      "CMMI7",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 3136,
+    "relative_font_size": null
+  },
+  {
+    "text": "vis",
+    "avg_font_size": 6.97,
+    "bbox": [
+      203.26400756835938,
+      681.5841064453125,
+      211.40243530273438,
+      688.5579223632812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 3,
+    "relative_font_size": 10
+  },
+  {
+    "text": "Following [31], we extract visual feature maps \u03c1 pair for the A. arXivdocs-target union bounding box B pair of subject-object pairs ( E subj , E obj ) . The existing dataset for training and evaluation, arXivdocs- target, contains 362 hand-annotated documents [11]. Previ-",
+    "avg_font_size": 9.66,
+    "bbox": [
+      48.96400451660156,
+      686.18310546875,
+      563.0408325195312,
+      728.8189697265625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 1.76,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "NimbusRomNo9L-ReguItal",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 272,
+    "relative_font_size": null
+  },
+  {
+    "text": "3 We also experimented with a mask segmentation but could not measure a significant performance gain and, hence, discarded this subtask in our 4 A detailed overview is in our GitHub: https://github.com/j-rausch/DSG implementation.",
+    "avg_font_size": 7.47,
+    "bbox": [
+      48.96400451660156,
+      720.6036987304688,
+      555.89111328125,
+      747.8086547851562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 1.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 230,
+    "relative_font_size": null
+  },
+  {
+    "text": "Entity detection: We follow common practice [42], [44] in ously, the dataset has only been used for training entity de- tection and not relation classification. To this end, we perform benchmarking entity detection. Specifically, we determine how the following processing steps to allow end-to-end training. many entities are correctly predicted out of all ground-truth entities. We compare the predicted entities E j = ( c j , B j , P j ) We first split any multi-page documents into separate single- page images. We then convert the dataset to a standardized with the ground-truth entities, consisting of the true category \u02c6 c j and the true bounding box \u02c6 B j . Here, we measure the format [42] to allow processing with standardized benchmark libraries and document parsing codebases. overlap between bounding boxes of the same category [45]. Specifically, we calculate the so-called intersection-over-union B. E-Periodica (IoU) via IoU = area ( B j \u2229 \u02c6 B j ) E-Periodica is a project that aims to digitize a wide range of (1) historical and contemporary magazines for future generations area ( B j \u222a \u02c6 B j ) [43]. It comprises magazines from different source languages Predicted entities are considered a true positive if their IoU is such as English, German, French, and Italian. Magazine pages higher than a pre-defined threshold. If more than one entity often have a complex structure and follow little consistency in the formatting rules as compared to scientific literature. 5 The exceeds that threshold for the same ground-truth entity, the entity with the highest IoU is considered as a true positive. entire E-Periodica contains over 8 million pages from over Any unmatched predicted entities and ground-truth entities are 400 journals. We manually annotated 542 documents com- considered false positives and false negatives, respectively. We prising 11 , 446 annotated entities. Specifically, we sampled compare IoU thresholds of 0.5 and 0.75. All computations of a subset of document pages from journal issues of the past the IoU are based on the API in [44]. six decades. Moreover, the distribution of pages per journal We further calculate the average precision (AP) per semantic is highly irregular, and, for this reason, we only consider category c k \u2208C . The overall performance across all categories five pages per issue of a given magazine in a given year. is given by the mean average precision (mAP) with (0: worst, We then annotated entities and the relations between all 100: best). entities to form hierarchical document structures. Details on the annotation procedure are provided below. We split the B. Training and hyperparameter tuning dataset into training, validation, and test sets of 270, 135, and Initialization: We initialize our systems with two pre- 137 samples, respectively. training steps. First, the systems are initialized with weights of Annotation procedure: Our manual annotation followed a Faster R-CNN architecture trained on the COCO dataset [44] a two-step process: (1) entity annotation and (2) relation with copy-paste augmentation [46]. Second, since the COCO annotation. In the entity annotation step, a bounding box is dataset does not contain documents, we then proceed to pre- drawn around the entities on a page, and a semantic category train all systems on arXivdocs-weak [11]. Like arXivdocs- is assigned to each entity. For the relation annotation step, target, this dataset has been generated for scientific articles, we first annotate relations to define the reading order of a but it was only annotated with a weak supervision mechanism. page by focusing on \u03a8 = followed by . If entities are nested, This allows for better preparation of the document parsing we additionally annotate relations that characterize nested tasks. The resulting system weights are then used as a starting structures given by \u03a8 = parent of (e.g., ( FIGURE , FIGURE point for our experiments. CAPTION , parent of )). Training: We first sample 128 from all possible entity- Specific considerations are made for the annotation of hier- entity pairs per training iteration to serve as input to the archical structures in E-Periodica. Unlike scientific documents, relation classification of the relation head. This reduces the many magazine pages lack a standardized reading order (e.g., computational complexity of the training and allows us to separate articles within a magazine can be read in arbitrary sample a more balanced set of positive and negative samples, order). To model this, we designate two semantic categories for since the majority of entity-entity pairs correspond to relations this purpose: UNORDERED GROUP and ORDERED GROUP . An of type \u03a8 = null. Unlike common training procedures from UNORDERED GROUP refers to parts that do not belong to the scene graph generation, we do not apply geometric constraints general document-level reading order (e.g., advertisements). on candidate pairs ( E subj , E obj ) . Concretely, this means that An ORDERED GROUP refers to parts that belong to the regular entity-entity pairs with no geometric overlap are considered for reading order (e.g., a single column with a separate article). relation prediction. This is especially important for relations of Further details and summary statistics are included in our type \u03a8 = followed by , where the bounding boxes ( B subj and GitHub. B obj ) of ( E subj and E obj ) do not intersect. In order to allow for training of the refinement and relation head throughout VI. E XPERIMENTAL S ETUP the whole training procedure, we append any missing ground- A. Performance metrics truth entities to the set of entities that are passed to the We separately evaluate the performance of our system for refinement head. This is to avoid cases where no entities or (i) entity detection and (ii) structure generation in which the only erroneous entities are detected and where thus no positive hierarchical relations are considered. To this end, we adapt the learning samples can be provided. This happens, for example, benchmarking in related tasks from scene graph generation for at the beginning of the training procedure. our purpose of parsing document structures. We train our DSG system end-to-end via a joint objective consisting of (i) the entity detection component based on the",
+    "avg_font_size": 9.87,
+    "bbox": [
+      48.96397399902344,
+      56.791500091552734,
+      563.0406494140625,
+      748.2900390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 113,
+    "line_spacing_avg": 1.03,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusSanL-Regu",
+      "CMTI10",
+      "CMMI7",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 6313,
+    "relative_font_size": null
+  },
+  {
+    "text": "5 Examples are on GitHub.",
+    "avg_font_size": 6.97,
+    "bbox": [
+      56.93397521972656,
+      738.53662109375,
+      143.50926208496094,
+      747.8086547851562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 25,
+    "relative_font_size": 10
+  },
+  {
+    "text": "Training procedure for baselines: We use identical hyper- Faster R-CNN component and (ii) the relation classification and entity refinement component. The losses L C2 and L C3 for parameter settings for training the entity detection component both components are combined to train our DSG system. Our that are used for the baseline systems DocParser, DSG 2- system is trained for up to 200 , 000 iterations with a batch stage, and DSG end-to-end. All systems are trained for up to size of 4 and a learning rate of 0 . 001 . We apply early stopping 100 , 000 iterations with a learning rate of 0 . 01 and a batch size of 8 . This training only includes the prediction of document based on the performance for entity detection on the validation entities through component C2 and uses the loss term L C2 . For set. DocParser, we apply early stopping based on the mAP score Computational performance: We measure the computa- for an IoU threshold of 0 . 5 on the validation set. tional performance of our system on a machine with a single NVIDIA Titan Xp GPU with a memory size of 12GB. Here, After training the component C2 for entity detection, we the average time to process a sample, as measured on the continue with the second training stage of DSG 2-stage (C2 validation set with a batch size of 1 , is \u223c 0 . 1616 seconds. In- frozen) and DSG 2-stage (C2 unfrozen), where the systems tegrating our grammar-based postprocessing comes with only are trained with a joint objective for relation classification and a small overhead and results in an average joint processing entity refinement using the loss term L C3 . We perform the time of \u223c 0 . 1776 seconds for the same computational setup. second stage with a learning rate of 0 . 001 and a batch size of 8 for up to 100 , 000 iterations. Unlike DSG , the systems C. Baselines in the ablation study do not use the additional loss L C2 for We benchmark our proposed DSG against state-of-the-art entity detection via component C2 in this stage. We apply systems for document structure parsing. early stopping based on the mAP score for an IoU threshold \u2022 DocParser [11]: We reimplement DocParser [11], which of 0 . 5 on the validation set in the second stage. is a state-of-the-art system for hierarchical structure pars- Structure generation: To evaluate how well the hierarchi- ing. To the best of our knowledge, this is the only suitable cal structure is generated, we perform an evaluation of triplets baseline that can parse entire document structures (see for the relations. Specifically, we measure exact matches of Sec. II). To ensure comparability between DocParser and the predicted relations ( E subj , E obj , \u03a8) against the ground-truth our system, we use the Faster R-CNN architecture with a ResNet [38] backbone of depth 50 for entity detection. observations and report the corresponding F1 score. The F1 score is the harmonic average of precision and recall for Of note, DocParser uses heuristics for the relation clas- predicting these triples, i.e., F 1 = 2 precision \u00b7 recall sification and is thus not end-to-end trainable. Therefore, precision + recall with (0: worst, 1: best). For this, we first determine all matches of bounding we evaluate DocParser using the original heuristics in boxes of entities. Subsequently, a relation is considered a [11] for relation classification. We extend the heuristics match if the predicted relation type and both bounding boxes to accommodate the additional root entity ARTICLE (i.e., match with a ground-truth triple. map it onto the entity category DOCUMENT ). We further compare different variants of DSG that act as Our above performance measures are fairly strict when com- ablation studies to demonstrate the importance of end-to-end pared with evaluations in conventional scene graph generation training. Thereby, we can evaluate the importance of end-to- (e.g., [31], [32]). Recall that we consider a match if and end vs. 2-stage training. only if the relation type and both bounding boxes match with \u2022 DSG 2-stage (C2 frozen): In the first stage, component a single ground-truth triplet. In contrast, conventional scene C2 of DSG is trained exclusively with respect to the cor- graph generation uses a relaxed definition where a predicted relation triple ( E p 1 , E p 2 , \u03d5 p ) is considered a match with a rect prediction of entities. In the second stage, component 2 , \u03d5 p ) if \u03d5 p = \u03d5 g and if an IoU ground-truth triple ( E g 1 , E g C3 is added to DSG training. However, the weights of component C2 are frozen during the second stage. Hence, overlap is found between the ground-truth entities and both the loss to update C3 is only based on the predictions of predicted entities. However, this definition allows for that more the relation head and refinement head. than one predicted entity could be matched with a ground- \u2022 DSG 2-stage (C2 unfrozen): In the first stage, compo- truth entity during evaluation of relation prediction. In our nent C2 of DSG is trained. Here, a loss is used which evaluation, we apply a more strict performance that considers only learns against the correct prediction of entities. In at most one unique match with ground-truth entity, following the second stage, we allow parameter weight updates to the same procedure as during entity detection evaluation. both C2 and C3 of the system. Here, a loss is used which Our choice of performance metrics is important to effec- only learns against the predictions of the relation head tively differentiate between closely nested entities. This is and refinement head of component C3, but not against relevant, for example, to distinguish between a figure that the prediction of entities by component C2. is wrapped around a subfigure. Using simple IoU matching, \u2022 DSG end-to-end (w/o postprocessing) : This is our DSG a predicted entity could be matched with either of the two system from above that is trained in an end-to-end fashion ground-truth candidate entities (i.e., the figure and the subfig- but without the postproecessing from component C4. ure). However, to reconstruct the hierarchical document struc- \u2022 DSG end-to-end (w/ postprocessing) : This is our DSG ture, it is crucial to correctly determine the exact hierarchical system from above that is trained in an end-to-end relations among entities to arrive at a unique and valid tree fashion. structure.",
+    "avg_font_size": 9.79,
+    "bbox": [
+      48.96394348144531,
+      56.792537689208984,
+      563.040771484375,
+      758.096923828125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 117,
+    "line_spacing_avg": 1.53,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusSanL-Regu",
+      "CMMI7",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMSY7",
+      "NimbusSanL-Bold",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 6370,
+    "relative_font_size": null
+  },
+  {
+    "text": "DSG (ours) Semantic category DocParser [11] VII. R ESULTS A. Numerical Experiments IoU=0.5 IoU=0.75 IoU=0.5 IoU=0.75 The objective of our experiments is to confirm the effec- 62.35 41.26 mAP 55.32 35.33 tiveness of our DSG in generating the hierarchical document 75.85 59.43 66.51 48.69 structures. Hence, we proceed two-fold: (1) We first measure",
+    "avg_font_size": 8.4,
+    "bbox": [
+      48.964012145996094,
+      56.3427734375,
+      553.2872314453125,
+      109.58810424804688
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 21,
+    "line_spacing_avg": 1.04,
+    "font_names": [
+      "NimbusSanL-Regu",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Bold",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 347,
+    "relative_font_size": null
+  },
+  {
+    "text": "ARTICLE 47.40 20.40 41.32 16.92 AUTHOR",
+    "avg_font_size": 7.44,
+    "bbox": [
+      318.15399169921875,
+      99.95142364501953,
+      546.5888061523438,
+      115.67864990234375
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 1.31,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 38,
+    "relative_font_size": null
+  },
+  {
+    "text": "the performance in entity detection, and (2) we measure the 69.45 47.72 BACKGR . FIG . 53.69 34.66 performance correctly generating hierarchical structures. 23.44 70.00 45.36 18.87 COLUMN 80.28 68.21 78.03 66.86 Entity detection: We report the performance for en-",
+    "avg_font_size": 8.18,
+    "bbox": [
+      48.964019775390625,
+      111.58052062988281,
+      546.5888061523438,
+      145.44515991210938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 17,
+    "line_spacing_avg": 1.31,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 263,
+    "relative_font_size": null
+  },
+  {
+    "text": "TEXTBLOCK 99.01 99.01 99.01 99.01 DOC . ROOT",
+    "avg_font_size": 7.53,
+    "bbox": [
+      318.15399169921875,
+      135.81640625,
+      546.5889282226562,
+      151.54461669921875
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 1.31,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 44,
+    "relative_font_size": null
+  },
+  {
+    "text": "tity detection in Table II (arXivdocs-target) and Table III 56.64 36.75 42.10 19.08 FIGURE",
+    "avg_font_size": 8.31,
+    "bbox": [
+      48.964019775390625,
+      147.4375762939453,
+      546.5888061523438,
+      160.51068115234375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 7,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 90,
+    "relative_font_size": null
+  },
+  {
+    "text": "(E-Periodica). Here, we report the results for our DSG (last 41.10 31.45 FIG . CAPTION 32.58 23.15 76.55 58.32 FIG . GRAPHIC 66.29 50.10 rows). We further state the results for DocParser [11], which 56.99 18.07 42.59 8.51 FOOTER",
+    "avg_font_size": 7.99,
+    "bbox": [
+      48.96400451660156,
+      159.2805938720703,
+      546.5888061523438,
+      187.40966796875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 17,
+    "line_spacing_avg": 0.92,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 228,
+    "relative_font_size": null
+  },
+  {
+    "text": "is a state-of-the-art baseline and which is the only existing 66.86 59.12 57.97 45.83 FOOTNOTE",
+    "avg_font_size": 8.04,
+    "bbox": [
+      48.96400451660156,
+      183.30360412597656,
+      546.5888061523438,
+      196.37664794921875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 94,
+    "relative_font_size": null
+  },
+  {
+    "text": "system for our task. We further compare different variants of 44.83 15.87 32.24 13.36 HEADER 65.17 35.42 57.61 26.07 our systems to assess the importance of end-to-end vs. 2-stage",
+    "avg_font_size": 8.19,
+    "bbox": [
+      48.96400451660156,
+      195.2586212158203,
+      546.5888061523438,
+      217.17623901367188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 11,
+    "line_spacing_avg": 1.31,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 179,
+    "relative_font_size": null
+  },
+  {
+    "text": "HEADING 56.04 37.01 46.76 30.62 ITEM",
+    "avg_font_size": 7.44,
+    "bbox": [
+      318.15399169921875,
+      207.54742431640625,
+      546.5888061523438,
+      223.275634765625
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 1.31,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 36,
+    "relative_font_size": null
+  },
+  {
+    "text": "training. 69.73 56.40 53.72 40.87 ITEMIZE",
+    "avg_font_size": 8.04,
+    "bbox": [
+      48.96400451660156,
+      219.1696319580078,
+      546.5888061523438,
+      232.24163818359375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 41,
+    "relative_font_size": null
+  },
+  {
+    "text": "We make the following observations. (1) The performance 87.23 87.23 83.97 83.97 META 70.38 49.47 65.51 42.02 in entity detection is generally better for arXivdocs-target",
+    "avg_font_size": 8.19,
+    "bbox": [
+      48.96400451660156,
+      231.1166534423828,
+      546.5888061523438,
+      253.03427124023438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 11,
+    "line_spacing_avg": 1.31,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 169,
+    "relative_font_size": null
+  },
+  {
+    "text": "ORDEREDGROUP 68.21 7.22 PAGE NR . 62.93 1.80 (scientific articles) than for E-Periodica (magazines). This 52.12 23.28 49.75 17.00 ROW",
+    "avg_font_size": 7.8,
+    "bbox": [
+      48.96400451660156,
+      243.41339111328125,
+      546.5888671875,
+      268.107666015625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 12,
+    "line_spacing_avg": 1.31,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 133,
+    "relative_font_size": null
+  },
+  {
+    "text": "demonstrates that our new dataset is a challenging, real- 61.26 48.61 52.87 39.38 TABLE 51.90 21.99 TABLE OF CONT . 47.18 20.20 world setting for evaluation. In particular, the performance 37.84 57.54 52.58 31.28 TABULAR",
+    "avg_font_size": 7.97,
+    "bbox": [
+      48.96400451660156,
+      266.981689453125,
+      546.5888671875,
+      295.0066833496094
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 17,
+    "line_spacing_avg": 1.31,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 220,
+    "relative_font_size": 13
+  },
+  {
+    "text": "difference can be explained by that the format of magazines 26.79 22.20 24.52 18.99 UNORDERED GROUP",
+    "avg_font_size": 8.04,
+    "bbox": [
+      48.96400451660156,
+      290.89166259765625,
+      546.5888061523438,
+      303.97265625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 99,
+    "relative_font_size": null
+  },
+  {
+    "text": "is characterized by a fairly large variability compared to TABLE I: Performance of entity detection per category on scientific articles. (2) Our DSG with end-to-end training E-Periodica. Reported: average precision (AP) per semantic consistently performs best. In particular, it outperforms the category. Compared: DocParser and DSG end-to-end. state-of-the-art DocParser from [11]. For example, for an IoU threshold of 0.5, the mAP of our end-to-end DSG is 1.91 percentage points better than DocParser for arXivdocs- such, DSG is less incentivized to optimize for this entity target, and it is 7.03 percentage points better for E-Periodica. category through its end-to-end training objective. This translates into a relative improvement of 2 . 46% and 12 . 71% , respectively. (3) The larger relative performance gain System Variant IoU=0.5 IoU=0.75 for E-Periodica than for arXivdocs-target is likely due to the DocParser [11] 77.70 58.62 fact that our system can directly leverage annotated relations DSG 2-stage (ours) C2 frozen 71.03 50.48 and learn against them, whereas DocParser is limited to simple DSG 2-stage (ours) C2 unfrozen 77.48 57.40 heuristics. (4) Our DSG using end-to-end training outperforms DSG end-to-end (ours) 79.61 58.58 w/o postproc. the 2-stage training approach. Hence, one of the reasons for DSG end-to-end (ours) 79.61 58.58 w/ postproc. the strong performance of our approach is the joint learning TABLE II: Performance (mAP) of entity detection on procedure, in which components C2 and C3 allow for system- arXivdocs-target. wide parameter updates. In sum, the results demonstrate the effectiveness of our DSG . System Variant IoU=0.5 IoU=0.75 Table I provides a breakdown by different semantic cat- DocParser 55.32 35.33 egories on the E-Periodica dataset. Evidently, our DSG is DSG 2-stage (ours) C2 frozen 51.51 10.84 consistently better for the vast majority of semantic cate- DSG 2stage (ours) C2 unfrozen 54.41 36.22 gories. 6 For example, for an IoU threshold of 0.5, it achieves DSG end-to-end (ours) 62.35 41.26 w/o postproc. an improvement by 9 . 34 percentage points for the ARTICLE DSG end-to-end (ours) w/ postproc. 62.18 40.90 category. Entities of this category are important during relation TABLE III: Performance of entity detection on E-Periodica. classification, because they reflect the high-level segmentation of document pages and, thus, are used in a large number Structure generation: We now evaluate the accuracy with of hierarchical relations. Evidently, the end-to-end training which the hierarchical relations are correctly generated. For objective of DSG that incorporates relation-level losses pro- this, we again report the performance for both datasets, vides the system with useful supervision signals for this namely, arXivdocs-target (Table IV) and E-Periodica (Ta- category. DocParser scores slightly better than our system ble V). for the HEADER category at an IoU threshold of 0.5. We We make the following observations. (1) We again measure hypothesize that this could be due to the fact that HEADER an overall better performance for arXivdocs-target than for entities only account for 1 . 38% of all entities and are less E-Periodica. This is expected due to the complex format of relevant for parsing the document structure, since they are magazine articles. (2) We find that our DSG performs best. In often not part of the reading order in magazine articles. As particular, it outperforms the state-of-the-art DocParser [11] from the literature by a clear margin. Our system improves",
+    "avg_font_size": 9.02,
+    "bbox": [
+      48.963958740234375,
+      302.84765625,
+      563.0400390625,
+      736.3350219726562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 100,
+    "line_spacing_avg": 1.34,
+    "font_names": [
+      "NimbusSanL-Regu",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 3558,
+    "relative_font_size": null
+  },
+  {
+    "text": "6 A detailed breakdown by different semantic categories is provided in our",
+    "avg_font_size": 6.97,
+    "bbox": [
+      56.9339599609375,
+      729.5706787109375,
+      300.0260314941406,
+      738.8426513671875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 74,
+    "relative_font_size": 10
+  },
+  {
+    "text": "over the F1 from DocParser by 7.63% (arXivdocs-target) GitHub at https://github.com/j-rausch/DSG",
+    "avg_font_size": 8.96,
+    "bbox": [
+      48.963958740234375,
+      738.3274536132812,
+      563.0355834960938,
+      748.2900390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 96,
+    "relative_font_size": null
+  },
+  {
+    "text": "and 183.44% (E-Periodica). (3) We again find a larger im- have introduced transformer-based systems for large-scale pre- provements for E-Periodica than for arXivdocs-target. This training on document data but for other tasks such as entity detection and thus without extracting hierarchical structures. can be explained by that our system can directly leverage annotated relations and learn against them, whereas DocParser Hence, our system is orthogonal to such works and makes is limited to simple heuristics. (4) Our DSG benefits from end- an important, non-trivial contribution. Importantly, the main advantage of our DSG is that it can generate complete to-end training. As can be seen in our ablation studies, end- to-end training outperforms 2-stage training. (5) We observe hierarchical document structures through end-to-end training. a slight drop in F1 scores after applying postprocessing the Comparison to OCR systems: Prior research (e.g., [48]) hierarchical structures H produced by DSG . A reason for has repeatedly demonstrated the challenges in existing OCR this lies in our strict evaluation procedure, paired with the systems. OCR systems are typically not designed for generat- motivation of producing valid tree structures as a result of ing hierarchical document structures but primarily for inferring our postprocessing. To illustrate this, let us consider an entity textual contents from document renderings. As a result, OCR that is missed by our system. If this node would be normally systems generally struggle with recognizing fine-grained struc- be positioned as an intermediate node in the document, our tures such as subfigures and their ordering (see our qualitative postprocessing could connect its successor and predecessor analysis above). Our system alleviates these challenges and entities to form a valid document structure. This would, is thus specifically designed to accurately generate hierar- however, have a negative effect on overall performance, but chical document structures with high granularity to enable facilitates our aim of generating valid tree structures. downstream tasks. To this end, we opted for relatively strict The above evaluation has also an important implication. performance metrics to ensure that fine-grained structures are DocParser builds on heuristics that were specifically tailored recognized correctly. to scientific articles in the arXivdocs-target dataset. For this Practical strengths: A key strength of our system is that reason, DocParser is not directly effective for other datasets it is end-to-end trainable. This allows our system to take full such as E-Periodica without manual re-engineering. advantage of existing training data, including information on We remind that we enforce a strict evaluation in which the the hierarchical relations that captures the sequence and nested complete tuple including both entities must be correct. Hence, structure within documents. In contrast, prior systems [11] are our structure parsing task relies on the accurate identification not end-to-end trainable but infer relations through heuristics, of every entity and the relation type in a given triplet. Because thereby essentially ignoring the corresponding information in of this, high F1 scores require a high detection accuracy in the training data. As a result, our system reduces the cost of the entity recognition. Nevertheless, the performance of our annotating hierarchical document structures by a significant system is highly effective in practice where the aim is to extent. In sum, our system fulfills a key demand in practice recover the overall document structure. where the generation of document structures is often subject Qualitative assessment : We performed a qualitative as- to scarce data and where systems should be customizable in sessment (see our GitHub at https://github.com/j-rausch/DSG). a flexible manner. Thereby, we demonstrate that we generate meaningful and Novel dataset: We contribute a novel, large-scale dataset effective document structures in practice. based on magazines for generating hierarchical document structures. In particular, our dataset provides a challenging System Variant Precision Recall F1 real-world setting for evaluation due to the large heterogeneity in the layout of magazines. Key to our dataset is its large 0.7687 DocParser [11] 0.6646 0.7054 granularity of the annotations in terms of both fine-grained DSG 2-stage (ours) C2 frozen 0.7689 0.7042 0.7223 DSG 2-stage (ours) C2 unfrozen 0.7378 0.7560 0.7378 entities and the relations between them. This is different from other datasets, which are typically coarse [17] and without DSG end-to-end (ours) 0.7709 0.7592 w/o postproc. 0.7649 DSG end-to-end (ours) w/ postproc. 0.6959 0.7590 0.7185 hierarchical information [49]. Conclusion: In this paper, we introduced Document Struc- TABLE IV: Performance of structure parsing on arXivdocs- ture Generator ( DSG ), a novel system for parsing hierarchical target. document structures that is end-to-end trainable. We show that our system outperforms state-of-the-art systems. By being end- System Variant Precision Recall F1 to-end trainable, our DSG is of direct value in practice in DocParser [11] 0.1725 0.2319 0.1884 that it can be adapted to new documents in a straightforward DSG 2-stage (ours) C2 frozen 0.3901 0.5083 0.4232 manner without the need for manual re-engineering. DSG 2-stage (ours) C2 unfrozen 0.4589 0.5276 0.4740 DSG end-to-end (ours) 0.5528 0.5340 w/o postproc. 0.5545 R EFERENCES DSG end-to-end (ours) 0.5701 w/ postproc. 0.5197 0.5308 [1] D. Johnson, \u201cPdf statistics\u2013the universe of electronic documents,\u201d 2018. TABLE V: Performance of structure parsing on E-Periodica. [2] S. B. Johnson, D. A. Campbell, M. Krauthammer, P. K. Tulipano, E. A. VIII. D ISCUSSION Mendonc\u00b8a, C. Friedman, and G. Hripcsak, \u201cA Native XML Database Novel system: Our system is relevant for several down- Design for Clinical Document Research,\u201d AMIA Annual Symposium Proceedings , 2003. stream tasks for which document renderings (e.g., PDF files, [3] C. Clifton, H. Garcia-Molina, and R. Hagmann, \u201cThe Design of a scans) must be mapped onto a parseable format. Examples Document Database,\u201d in Conference on Document Processing Systems are [4], [5], [6], [7], [8], [9]. Recent works (e.g., [18], [47]) (DocProcess) , 2000.",
+    "avg_font_size": 9.12,
+    "bbox": [
+      48.96399688720703,
+      56.88246154785156,
+      563.041015625,
+      748.2900390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 159,
+    "line_spacing_avg": 1.55,
+    "font_names": [
+      "NimbusRomNo9L-ReguItal",
+      "NimbusSanL-Regu",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMMI10"
+    ],
+    "text_case": "Mixed",
+    "length": 6361,
+    "relative_font_size": null
+  },
+  {
+    "text": "10",
+    "avg_font_size": 6.97,
+    "bbox": [
+      556.06201171875,
+      25.932153701782227,
+      563.0357666015625,
+      32.90595245361328
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 10
+  },
+  {
+    "text": "[4] D. Che, K. Aberer, and M. T. \u00a8 Ozsu, \u201cQuery optimization in XML [28] S. Joseph and J. George, \u201cA Review of Various Line Segmentation Techniques Used in Handwritten Character Recognition,\u201d in Information structured-document databases,\u201d The VLDB Journal , vol. 15, no. 3, pp. and Communication Technology for Competitive Strategies (ICTCS) , 263\u2013289, 2006. A. Joshi, M. Mahmud, and R. G. Ragel, Eds., 2021. [5] M. J. Cafarella, A. Halevy, D. Z. Wang, E. Wu, and Y. Zhang, \u201cWebTables: Exploring the power of tables on the web,\u201d Proceedings of [29] J. Ma, J. Du, P. Hu, Z. Zhang, J. Zhang, H. Zhu, and C. Liu, \u201cHRDoc: the VLDB Endowment , vol. 1, no. 1, 2008. Dataset and Baseline Method Toward Hierarchical Reconstruction of Document Structures,\u201d in Conference on Artificial Intelligence (AAAI) , [6] R. Wilkinson, \u201cEffective Retrieval of Structured Documents,\u201d in Con- 2023. ference on Research and Development in Information Retrieval (SIGIR) , B. W. Croft and C. J. van Rijsbergen, Eds., 1994. [30] X. Chang, P. Ren, P. Xu, Z. Li, X. Chen, and A. Hauptmann, \u201cA Com- prehensive Survey of Scene Graphs: Generation and Application,\u201d IEEE [7] Q. Li and B. Moon, \u201cIndexing and Querying XML Data for Regular Path Transactions on Pattern Analysis and Machine Intelligence , vol. 45, Expressions,\u201d in International Conference on Very Large Data Bases no. 1, pp. 1\u201326, 2023. (VLDB) , 2001. [31] R. Zellers, M. Yatskar, S. Thomson, and Y. Choi, \u201cNeural Motifs: Scene [8] T. Manabe and K. Tajima, \u201cExtracting logical hierarchical structure Graph Parsing with Global Context,\u201d in Conference on Computer Vision of HTML documents based on headings,\u201d Proceedings of the VLDB and Pattern Recognition (CVPR) , 2018. Endowment , vol. 8, no. 12, pp. 1606\u20131617, 2015. [32] S. Khandelwal, M. Suhail, and L. Sigal, \u201cSegmentation-Grounded Scene [9] S. Wu, L. Hsiao, X. Cheng, B. Hancock, T. Rekatsinas, P. Levis, and Graph Generation,\u201d in International Conference on Computer Vision C. R\u00b4e, \u201cFonduer: Knowledge Base Construction from Richly Formatted (ICCV) , 2021. Data,\u201d in International Conference on Management of Data (SIGMOD) , 2018. [33] K. Tang, H. Zhang, B. Wu, W. Luo, and W. Liu, \u201cLearning to Com- pose Dynamic Tree Structures for Visual Contexts,\u201d in Conference on [10] G. M. Binmakhashen and S. A. Mahmoud, \u201cDocument layout analysis: Computer Vision and Pattern Recognition (CVPR) , 2019. A comprehensive survey,\u201d Acm Computing Surveys , vol. 52, no. 6, Oct. 2019. [34] T. Breuel, \u201cThe hOCR Microformat for OCR Workflow and Results,\u201d in International Conference on Document Analysis and Recognition [11] J. Rausch, O. Martinez, F. Bissig, C. Zhang, and S. Feuerriegel, (ICDAR) , 2007. \u201cDocParser: Hierarchical Document Structure Parsing from Renderings,\u201d in Conference on Artificial Intelligence (AAAI) , 2021. [35] Y. Wu, A. Kirillov, F. Massa, W.-Y. Lo, and R. Girshick, \u201cDetectron2,\u201d https://github.com/facebookresearch/detectron2, 2019. [12] T. M. Breuel, \u201cHigh Performance Text Recognition Using a Hybrid Convolutional-LSTM Implementation,\u201d in International Conference on [36] J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei, \u201cImageNet: Document Analysis and Recognition (ICDAR) , 2017. A large-scale hierarchical image database,\u201d in Conference on Computer Vision and Pattern Recognition (CVPR) , 2009. [13] W. Zhu, N. Sokhandan, G. Yang, S. Martin, and S. Sathyanarayana, \u201cDocBed: A Multi-Stage OCR Solution for Documents with Complex [37] S. Ren, K. He, R. Girshick, and J. Sun, \u201cFaster R-CNN: Towards Real- Layouts,\u201d in Conference on Artificial Intelligence (AAAI) , 2022. Time Object Detection with Region Proposal Networks,\u201d in Advances in Neural Information Processing Systems (NeurIPS) , 2015. [14] M. Li, L. Cui, S. Huang, F. Wei, M. Zhou, and Z. Li, \u201cTableBank: A Benchmark Dataset for Table Detection and Recognition,\u201d in Conference [38] K. He, X. Zhang, S. Ren, and J. Sun, \u201cDeep Residual Learning for on Language Resources and Evaluation (LREC) , 2020. Image Recognition,\u201d in Conference on Computer Vision and Pattern Recognition (CVPR) , 2016. [15] B. Smock, R. Pesala, and R. Abraham, \u201cPubTables-1M: Towards com- prehensive table extraction from unstructured documents,\u201d in Conference [39] T. Y. Lin, P. Doll\u00b4ar, R. Girshick, K. He, B. Hariharan, and S. Belongie, on Computer Vision and Pattern Recognition (CVPR) , 2022. \u201cFeature pyramid networks for object detection,\u201d in Conference on Computer Vision and Pattern Recognition (CVPR) , 2017. [16] A. Antonacopoulos, D. Bridson, C. Papadopoulos, and S. Pletschacher, \u201cA Realistic Dataset for Performance Evaluation of Document Layout [40] J. Pennington, R. Socher, and C. Manning, \u201cGlove: Global Vectors for Analysis,\u201d in International Conference on Document Analysis and Word Representation,\u201d in Conference on Empirical Methods in Natural Recognition (ICDAR) , 2009. Language Processing (EMNLP) , 2014. [17] X. Zhong, J. Tang, and A. Jimeno Yepes, \u201cPubLayNet: Largest Dataset [41] V. Nair and G. E. Hinton, \u201cRectified linear units improve restricted Ever for Document Layout Analysis,\u201d in International Conference on boltzmann machines,\u201d in International Conference on Machine Learning Document Analysis and Recognition (ICDAR) , 2019. (ICML) , 2010. [18] S. Appalaraju, B. Jasani, B. U. Kota, Y. Xie, and R. Manmatha, [42] R. Krishna, Y. Zhu, O. Groth, J. Johnson, K. Hata, J. Kravitz, S. Chen, \u201cDocFormer: End-to-End Transformer for Document Understanding,\u201d Y. Kalantidis, L.-J. Li, D. A. Shamma, M. S. Bernstein, and L. Fei-Fei, in International Conference on Computer Vision (ICCV) , 2021. \u201cVisual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations,\u201d International Journal of Computer Vision , [19] U. Sch\u00a8afer, B. Kiefer, C. Spurk, J. Steffen, and R. Wang, \u201cThe ACL vol. 123, no. 1, pp. 32\u201373, 2017. Anthology Searchbench,\u201d in Association for Computational Linguistics: Human Language Technologies (ACL-HLT) , 2011. [43] R. Wanger, \u201cE-Periodica: die Plattform f\u00a8ur digitalisierte Schweizer Zeitschriften,\u201d in Bibliotheken der Schweiz: Innovation durch Koopera- [20] U. Sch\u00a8afer and B. Weitz, \u201cCombining OCR Outputs for Logical tion , Zentralbibliothek Z\u00a8urich, A. Keller, and S. Uhl, Eds. De Gruyter, Document Structure Markup: Technical Background to the ACL 2012 Contributed Task,\u201d in Proceedings of the ACL-2012 Special Workshop Jun. 2018, pp. 401\u2013413. on Rediscovering 50 Years of Discoveries , 2012, pp. 104\u2013109. [44] T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Doll\u00b4ar, and C. L. Zitnick, \u201cMicrosoft COCO: Common Objects in [21] B. Yildiz, K. Kaiser, and S. Miksch, \u201cPdf2table: A Method to Extract Context,\u201d in European Conference on Computer Vision (ECCV) , 2014. Table Information from PDF Files,\u201d Indian International Conference on Artificial Intelligence (IICAI) , 2005. [45] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, A. Zisserman, M. Everingham, L. V. Gool, K. Leuven, B. C. K. I. Williams, J. Winn, [22] Y. Wang, I. T. Phillips, and R. M. Haralick, \u201cTable Structure Under- standing and its Performance Evaluation,\u201d Pattern Recognition , vol. 37, and A. Zisserman, \u201cThe PASCAL Visual Object Classes (VOC) Chal- lenge,\u201d International Journal of Computer Vision , vol. 88, 2009. no. 7, pp. 1479\u20131497, 2004. [46] G. Ghiasi, Y. Cui, A. Srinivas, R. Qian, T.-Y. Lin, E. D. Cubuk, Q. V. [23] A. Gilani, S. R. Qasim, I. Malik, and F. Shafait, \u201cTable Detection Using Deep Learning,\u201d in International Conference on Document Analysis and Le, and B. Zoph, \u201cSimple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation,\u201d in Conference on Computer Vision Recognition (ICDAR) , 2017. and Pattern Recognition (CVPR) , 2021. [24] S. A. Siddiqui, M. I. Malik, S. Agne, A. Dengel, and S. Ahmed, \u201cDeCNT: Deep deformable CNN for table detection,\u201d IEEE Access , pp. [47] Y. Huang, T. Lv, L. Cui, Y. Lu, and F. Wei, \u201cLayoutLMv3: Pre- training for Document AI with Unified Text and Image Masking,\u201d in 74 151\u201374 161, 2018. International Conference on Multimedia (MM) , 2022. [25] T. Kieninger and A. Dengel, \u201cThe T-recs table recognition and analysis system,\u201d in International Workshop on Document Analysis Systems [48] L. Li, F. Gao, J. Bu, Y. Wang, Z. Yu, and Q. Zheng, \u201cAn End-to- (DAS) , 1998. End OCR Text Re-organization Sequence Learning for Rich-Text Detail Image Comprehension,\u201d in European Conference on Computer Vision [26] A. Pivk, P. Cimiano, Y. Sure, M. Gams, V. Rajkovi\u02c7c, and R. Studer, (ECCV) , 2020. \u201cTransforming arbitrary tables into logical form with TARTAR,\u201d Data and Knowledge Engineering , vol. 60, no. 3, pp. 567\u2013595, 2007. [49] M. Li, Y. Xu, L. Cui, S. Huang, F. Wei, Z. Li, and M. Zhou, \u201cDocBank: A Benchmark Dataset for Document Layout Analysis,\u201d in International [27] S. Schreiber, S. Agne, I. Wolf, A. Dengel, and S. Ahmed, \u201cDeepDeSRT: Conference on Computational Linguistics (COLING) , 2020. Deep Learning for Detection and Structure Recognition of Tables in Document Images,\u201d in International Conference on Document Analysis [50] J. Gu, J. Kuen, V. I. Morariu, H. Zhao, R. Jain, N. Barmpalios, and Recognition (ICDAR) , 2017. A. Nenkova, and T. Sun, \u201cUniDoc: Unified Pretraining Framework",
+    "avg_font_size": 7.97,
+    "bbox": [
+      48.9639892578125,
+      56.544551849365234,
+      563.0399169921875,
+      747.8086547851562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 153,
+    "line_spacing_avg": 1.12,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 9179,
+    "relative_font_size": 13
+  },
+  {
+    "text": "11",
+    "avg_font_size": 6.97,
+    "bbox": [
+      556.06201171875,
+      25.932153701782227,
+      563.0357666015625,
+      32.90595245361328
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 10
+  },
+  {
+    "text": "B. hOCR conversion engine (C5) for Document Understanding,\u201d in Advances in Neural Information Processing Systems (NeurIPS) , 2021. The hOCR format [34] encodes information using exten- [51] J. Li, Y. Xu, T. Lv, L. Cui, C. Zhang, and F. Wei, \u201cDiT: Self-supervised sible markup language (XML) and is built upon hypertext Pre-training for Document Image Transformer,\u201d in International Con- ference on Multimedia (MM) , 2022. markup language (HTML). To ensure compatibility with stan- [52] ABBYY, \u201cABBYY FineReader,\u201d https://pdf.abbyy.com/, Mar. 2023. dard hOCR tools while still accommodating the hierarchical [53] Adobe, \u201cAdobe Acrobat Pro,\u201d https://www.adobe.com/acrobat.html, structure from DSG , we add a new DSG -specific XML node 2023. <div> into the standard hOCR XML nodes. Our new node does not have a hOCR-specific class attribute. As a conse- A PPENDIX A quence, third-party tools are still able to process our output as R ELATED W ORK valid hOCR, since only hOCR-specific class attributes are con- Table VI shows an overview of key systems for document sidered by default. In plain words, the hierarchy and sequential structure parsing. ordering are preserved, while additional information from our DSG , such as the extended set of semantic categories, is Document Hierarchical End-to-end ignored. System entities structures training We use specific hOCR elements to convert the postpro- cessed hierarchical structure H \u2032 into an hOCR file. We use a PubLayNet [17] DocFormer [18] mapping to create the hOCR XML nodes from DSG entities. UniDoc [50] Formally, we specify a mapping \u03c9 : c \u2192 \u03b7 of the DSG entity DiT [51] HRDoc [29] only line-level categories c to the hOCR element classes, denoted by \u03b7 . We TableBank [14] only tables provide a list of ( c, \u03b7 ) tuples in Table VII. The hOCR format PubTables [15] only tables does not have elements that match the semantic categories DocParser [11] of META and ARTICLE in DSG . In order to deal with both DSG ( ours ) semantic categories, we keep the DSG -specific XML nodes TABLE VI: Overview of key systems for document structure to preserve the underlying structural information. parsing from document renderings. The conversion process consists of three steps to convert the postprocessed hierarchical structures H \u2032 into hOCR files: 1) Initialization ( s 1 ): We initialize the hOCR file with the hierarchical structure H \u2032 parent of that only considers A PPENDIX B relations of type \u03a8 = parent of . For this, hOCR and O UR DSG S YSTEM additional DSG XML nodes are initialized according to A. Grammar-based postprocessing (C4) H \u2032 parent of and the category mapping \u03c9 . g ilg Illegal relations: 2) Order of children ( s 2 ): We ensure a correct ordering of the children. Formally, we ensure that, if any \u03a8 = \u2022 We enforce that the root entity of type DOC . ROOT can followed by relation exists between two entities in H \u2032 , only be part of relations in which it is a parent entity. the corresponding XML nodes follow that order. \u2022 All relations are anti-symmetric. For this, we ensure that 3) OCR enrichment ( s 3 ): We additionally enrich the hOCR no two relations with \u03a8 \u2208{ parent of , followed by } files with the textual contents T of the documents. First, exist that result in a symmetric relation. We resolve such we ensure that words are only appended to leaf node cases by deleting the conflicting relations with lower entities E leaf in the document structure. Second, words are confidence. assigned to the entity E leaf with the highest intersection- \u2022 No two relations with the same over-union score (see Sec. VI-A) between entity bounding { followed by , parent of } end in the same entity. box B leaf and word bounding box B word . \u2022 We ensure that entities can only be followed by at most one other entity. A key feature of the hOCR format is the ability to perform \u2022 We ensure that entities of the UNORDERED GROUP cate- structure-based XPath queries on document files [34]. To gory are not part of any sequential relations. facilitate such applications in practice, we extend the XPath \u2022 We remove any cycles that might be formed by the graph queries to account for the hierarchical structures in our hOCR formed by the predicted relations. files generated by DSG . As a result, we allow that hOCR files \u2022 Sequential relations can only exist between sibling enti- can be searched for specific DSG entities and relations using ties belonging to the same parent entity. XPath queries. We provide XPath queries for three different types of queries: g mis Missing relations: If, after performing the previous 1) Node name search ( q 1 ): This is a simple search by node postprocessing steps, an entity does not have a parent name that returns all XML nodes that match the desired entity, we inspect the confidence scores of all relations ( E cand , E missing parent , \u03a8) with \u03a8 = parent of and candidate node name. parent entities E cand . We retrieve the relation with the highest 2) Absolute path search ( q 2 ): We offer the ability to navigate documents using absolute paths. An absolute confidence score, even if this score would otherwise not be sufficiently high to determine a relation with \u03a8 = parent of path starts with a / symbol and then describes the path and ensure that the resulting relation adheres to g ilg . to the desired node starting from the root node of the",
+    "avg_font_size": 9.31,
+    "bbox": [
+      48.96397399902344,
+      56.70599365234375,
+      563.0411376953125,
+      749.0619506835938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 126,
+    "line_spacing_avg": 2.02,
+    "font_names": [
+      "CMSY10",
+      "CMTI7",
+      "NimbusSanL-Regu",
+      "CMTI10",
+      "NimbusMonL-Regu",
+      "NimbusRomNo9L-Medi",
+      "CMMI10",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMSY7",
+      "NimbusRomNo9L-ReguItal",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 5351,
+    "relative_font_size": null
+  },
+  {
+    "text": "12",
+    "avg_font_size": 6.97,
+    "bbox": [
+      556.06201171875,
+      25.932153701782227,
+      563.0357666015625,
+      32.90595245361328
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 10
+  },
+  {
+    "text": "DSG semantic cat. DSG semantic cat hOCR class hOCR class ocr_page ocr_carea DOC . ROOT ITEM None ocr_float META ITEMIZE ocr_author ocr_carea AUTHOR ORDERED GROUP ocr_float ocr_pageno BACKGROUND FIG . PAGE NR . ocrx_block ocr_table TEXT BLOCK TABLE ocr_float ocr_table FIGURE TABULAR ocr_photo ocr_table FIGURE GRAPHIC TABLE OF CONTENTS ocr_caption ocr_float FIGURE CAPTION UNORDERED GROUP ocr_footer None FOOTER ARTICLE ocr_footer ocr_carea FOOTNOTE COLUMN ocr_header ocr_carea HEADER ROW ocr_header HEADING",
+    "avg_font_size": 7.28,
+    "bbox": [
+      170.20199584960938,
+      56.336185455322266,
+      441.7977600097656,
+      176.81353759765625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 50,
+    "line_spacing_avg": 3.04,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Regu",
+      "NimbusMonL-Regu"
+    ],
+    "text_case": "UPPER",
+    "length": 507,
+    "relative_font_size": null
+  },
+  {
+    "text": "TABLE VII: Mapping between semantic categories in DSG and hOCR classes.",
+    "avg_font_size": 9.96,
+    "bbox": [
+      142.593994140625,
+      187.23048400878906,
+      469.406005859375,
+      197.30606079101562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 10.42,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 71,
+    "relative_font_size": 39
+  },
+  {
+    "text": "XML file. Here, the different names of the nodes along this path are concatenated using / symbols. 3) Relative path search ( q 3 ): Relative paths can be used to retrieve a desired node. For this, two wildcard elements are used to match any potential node or attribute. The starting symbol // indicates a relative path search. The relative path search then returns any node that has a path that could potentially match the query by using two wildcard elements \u2217 to match any node or path and @ \u2217 to match any node attribute.",
+    "avg_font_size": 9.91,
+    "bbox": [
+      55.608978271484375,
+      221.4154815673828,
+      300.0242614746094,
+      338.9750671386719
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 10,
+    "line_spacing_avg": 4.04,
+    "font_names": [
+      "CMSY10",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMR7",
+      "CMMI10",
+      "CMR10"
+    ],
+    "text_case": "Mixed",
+    "length": 524,
+    "relative_font_size": null
+  },
+  {
+    "text": "A PPENDIX C D ATASETS",
+    "avg_font_size": 9.14,
+    "bbox": [
+      147.53500366210938,
+      354.8414611816406,
+      201.45205688476562,
+      376.76007080078125
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 8.93,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "UPPER",
+    "length": 21,
+    "relative_font_size": null
+  },
+  {
+    "text": "Dataset Document type #Docs #Categories Source (a) Example of a complex reading (b) Example of document with 362 21 arXivdocs-target Scientific articles [11] 542 22 Ours order. with a table of contents and an E-Periodica Magazines article. TABLE VIII: Overview of existing datasets for our task.",
+    "avg_font_size": 8.3,
+    "bbox": [
+      55.790985107421875,
+      392.10357666015625,
+      563.0350952148438,
+      443.3190612792969
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 21,
+    "line_spacing_avg": 5.78,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMR8",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 295,
+    "relative_font_size": null
+  },
+  {
+    "text": "25",
+    "avg_font_size": 7.43,
+    "bbox": [
+      325.3189697265625,
+      447.5946350097656,
+      334.7694091796875,
+      460.1951904296875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 4.28,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 12
+  },
+  {
+    "text": "An overview of the two datasets used in our experiments is given in Table VIII.",
+    "avg_font_size": 9.96,
+    "bbox": [
+      48.9640007019043,
+      459.0694580078125,
+      300.0219421386719,
+      480.987060546875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 1.99,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 79,
+    "relative_font_size": 39
+  },
+  {
+    "text": "20 Frequency in % 15",
+    "avg_font_size": 7.65,
+    "bbox": [
+      311.692138671875,
+      471.2100830078125,
+      334.7694091796875,
+      538.0104370117188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 3,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 20,
+    "relative_font_size": null
+  },
+  {
+    "text": "A. E-Periodica Figure 4 shows the distribution of page types in the",
+    "avg_font_size": 9.96,
+    "bbox": [
+      48.9640007019043,
+      498.91900634765625,
+      300.02191162109375,
+      524.3270874023438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 5.48,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 67,
+    "relative_font_size": 39
+  },
+  {
+    "text": "10",
+    "avg_font_size": 7.43,
+    "bbox": [
+      325.3189697265625,
+      518.4409790039062,
+      334.7694091796875,
+      531.04150390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 12
+  },
+  {
+    "text": "E-Periodica dataset. Summary statistics: Table IX lists the semantic categories and their corresponding frequency in the E-Periodica dataset. As can be seen from the table, the semantic categories are",
+    "avg_font_size": 9.96,
+    "bbox": [
+      48.96399688720703,
+      526.3194580078125,
+      300.0224914550781,
+      572.1970825195312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 1.98,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 200,
+    "relative_font_size": 39
+  },
+  {
+    "text": "10 20 30 40 50 60",
+    "avg_font_size": 7.43,
+    "bbox": [
+      370.5396423339844,
+      573.0027465820312,
+      559.5831909179688,
+      585.603271484375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 0.81,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 17,
+    "relative_font_size": 12
+  },
+  {
+    "text": "highly diverse, especially compared to scientific articles [11], Leaf nodes in document implying that E-Periodica is a challenging dataset for bench- marking. (c) Leaf nodes in dataset. The distribution of leaf nodes per document in Fig. 3c Fig. 3: Examples and statistics of documents featured in further emphasizes the complexity of our dataset due to the E-Periodica. deeply nested structure.",
+    "avg_font_size": 9.68,
+    "bbox": [
+      48.96399688720703,
+      574.189453125,
+      563.03564453125,
+      643.9780883789062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 10,
+    "line_spacing_avg": 1.99,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 395,
+    "relative_font_size": null
+  },
+  {
+    "text": "A PPENDIX D Procedure: We use two state-of-the-art, commercial OCR R ESULTS systems: ABBYY [52] and Adobe Acrobat [53]. These OCR A. Qualitative Evaluation systems are able to parse content in different ordering (e.g., top-down and left-right) but without hierarchical information. We performed a qualitative evaluation to demonstrate the effectiveness of DSG in practice. For this, we randomly Further, the output of these OCR systems is limited to a small sampled a small subset of documents and then compare our set of semantic entities and does not focus on preserving system against both DocParser and commercial OCR systems. the hierarchical document structure (i.e., the nesting). For",
+    "avg_font_size": 9.84,
+    "bbox": [
+      48.9639892578125,
+      659.845458984375,
+      563.0390014648438,
+      748.2900390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 14,
+    "line_spacing_avg": 4.74,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Regu",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Medi"
+    ],
+    "text_case": "Mixed",
+    "length": 691,
+    "relative_font_size": null
+  },
+  {
+    "text": "13",
+    "avg_font_size": 6.97,
+    "bbox": [
+      556.06201171875,
+      25.932153701782227,
+      563.0357666015625,
+      32.90595245361328
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 10
+  },
+  {
+    "text": "scores, their overall similarity is still large.",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.97802734375,
+      56.88246154785156,
+      487.93731689453125,
+      66.84506225585938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 23.98,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "lower",
+    "length": 48,
+    "relative_font_size": 39
+  },
+  {
+    "text": "30000",
+    "avg_font_size": 6.4,
+    "bbox": [
+      62.32074737548828,
+      68.76992797851562,
+      82.67083740234375,
+      79.62330627441406
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 1.92,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 5,
+    "relative_font_size": 8
+  },
+  {
+    "text": "A PPENDIX E",
+    "avg_font_size": 9.3,
+    "bbox": [
+      410.8270263671875,
+      82.28749084472656,
+      464.1861877441406,
+      92.25009155273438
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 2.66,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "UPPER",
+    "length": 11,
+    "relative_font_size": 30
+  },
+  {
+    "text": "25000",
+    "avg_font_size": 6.4,
+    "bbox": [
+      62.32074737548828,
+      89.70223999023438,
+      82.67083740234375,
+      100.55561828613281
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 5,
+    "relative_font_size": 8
+  },
+  {
+    "text": "Q UERYING",
+    "avg_font_size": 8.97,
+    "bbox": [
+      414.5630187988281,
+      94.24250793457031,
+      460.45343017578125,
+      104.20510864257812
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "UPPER",
+    "length": 9,
+    "relative_font_size": 22
+  },
+  {
+    "text": "Number of pages",
+    "avg_font_size": 6.4,
+    "bbox": [
+      50.540653228759766,
+      102.62736511230469,
+      61.39403533935547,
+      157.89259338378906
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 15,
+    "relative_font_size": 8
+  },
+  {
+    "text": "A. hOCR Querying",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.97802734375,
+      109.1600341796875,
+      391.55926513671875,
+      119.12263488769531
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-ReguItal"
+    ],
+    "text_case": "Mixed",
+    "length": 16,
+    "relative_font_size": 39
+  },
+  {
+    "text": "20000",
+    "avg_font_size": 6.4,
+    "bbox": [
+      62.32074737548828,
+      110.63455200195312,
+      82.67083740234375,
+      121.48793029785156
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 5,
+    "relative_font_size": 8
+  },
+  {
+    "text": "We further support direct querying of hOCR files for",
+    "avg_font_size": 9.96,
+    "bbox": [
+      321.9400329589844,
+      124.42951965332031,
+      563.0347900390625,
+      134.39212036132812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 2.94,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 52,
+    "relative_font_size": 39
+  },
+  {
+    "text": "15000",
+    "avg_font_size": 6.4,
+    "bbox": [
+      62.32074737548828,
+      131.56686401367188,
+      82.67083740234375,
+      142.4202423095703
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 5,
+    "relative_font_size": 8
+  },
+  {
+    "text": "downstream tasks as follows. To this end, we introduce an extended DSG syntax for queries using XPath (XML Path",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.97802734375,
+      136.38453674316406,
+      563.0357055664062,
+      158.30215454101562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 1.88,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 111,
+    "relative_font_size": 39
+  },
+  {
+    "text": "10000",
+    "avg_font_size": 6.4,
+    "bbox": [
+      62.32074737548828,
+      152.49916076660156,
+      82.67083740234375,
+      163.3525390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 5,
+    "relative_font_size": 8
+  },
+  {
+    "text": "Language). We provide example queries to underline the functionality:",
+    "avg_font_size": 9.96,
+    "bbox": [
+      311.97802734375,
+      160.29554748535156,
+      563.034912109375,
+      182.21316528320312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 1.99,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 69,
+    "relative_font_size": 39
+  },
+  {
+    "text": "5000",
+    "avg_font_size": 6.4,
+    "bbox": [
+      66.39036560058594,
+      173.4314727783203,
+      82.67044067382812,
+      184.28485107421875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Mixed",
+    "length": 4,
+    "relative_font_size": 8
+  },
+  {
+    "text": "\u2022 Using the DSG document structure in the enriched hOCR files allows more complex queries such as",
+    "avg_font_size": 9.59,
+    "bbox": [
+      322.84002685546875,
+      186.08460998535156,
+      542.2527465820312,
+      208.11618041992188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 1.9,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Regu",
+      "CMSY7"
+    ],
+    "text_case": "Mixed",
+    "length": 97,
+    "relative_font_size": 37
+  },
+  {
+    "text": "FrontMatter ReferenceList Group BookReview Postface Appendix BackMatter Obituary Chapter Article Preface Miscellaneous Competitions TableOfContent Index AssociationNews Advertising",
+    "avg_font_size": 6.4,
+    "bbox": [
+      72.40757751464844,
+      202.13682556152344,
+      296.2614440917969,
+      247.86000061035156
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 17,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Title",
+    "length": 180,
+    "relative_font_size": 8
+  },
+  {
+    "text": "//div[dsg_cat=\"orderedgroup\"]/*/div[ dsg_cat=\"heading\"]/span[@text=\"results \"]/.. . This query returns all HEADING entities that contain the word \u201cresults\u201d and are a child of an",
+    "avg_font_size": 9.84,
+    "bbox": [
+      331.90301513671875,
+      209.59854125976562,
+      559.0504150390625,
+      255.93624877929688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 4,
+    "line_spacing_avg": 1.41,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusMonL-Regu"
+    ],
+    "text_case": "lower",
+    "length": 177,
+    "relative_font_size": null
+  },
+  {
+    "text": "Page Type",
+    "avg_font_size": 6.4,
+    "bbox": [
+      178.15589904785156,
+      246.23411560058594,
+      210.39968872070312,
+      257.0874938964844
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "DejaVuSans"
+    ],
+    "text_case": "Title",
+    "length": 9,
+    "relative_font_size": 8
+  },
+  {
+    "text": "ORDERED GROUP entity. Fig. 4: Distribution of page types in the E-Periodica dataset. \u2022 We enable queries on sequential order, e.g., written as followedby(//div[dsg_cat=\"heading\"], //div[dsg_cat=\"textblock\"]) . This query Category Frequency Avg. depth returns all TEXT BLOCK entities that follow a HEADING . 651 5 . 69 2 . 00 ARTICLE 226 1 . 97 3 . 96 The followedby(.,.) method takes two lists of",
+    "avg_font_size": 8.5,
+    "bbox": [
+      50.42900085449219,
+      257.92864990234375,
+      563.0366821289062,
+      327.6672058105469
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 17,
+    "line_spacing_avg": 1.96,
+    "font_names": [
+      "NimbusMonL-Regu",
+      "NimbusRomNo9L-Regu",
+      "CMSY7",
+      "CMR8",
+      "CMMI8"
+    ],
+    "text_case": "Mixed",
+    "length": 396,
+    "relative_font_size": null
+  },
+  {
+    "text": "AUTHOR 46 0 . 40 5 . 00 BACKGROUND FIG .",
+    "avg_font_size": 7.49,
+    "bbox": [
+      78.45701599121094,
+      317.82843017578125,
+      260.43829345703125,
+      333.5556640625
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 1.2,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI8",
+      "CMR8"
+    ],
+    "text_case": "Mixed",
+    "length": 40,
+    "relative_font_size": null
+  },
+  {
+    "text": "DSG XML nodes or two XPaths as input and returns 228 1 . 99 5 . 98 COLUMN",
+    "avg_font_size": 8.05,
+    "bbox": [
+      78.45704650878906,
+      329.547607421875,
+      552.8636474609375,
+      342.3382263183594
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Regu",
+      "CMMI8",
+      "CMR8"
+    ],
+    "text_case": "Mixed",
+    "length": 73,
+    "relative_font_size": null
+  },
+  {
+    "text": "all nodes from the second list that follow a node from 1469 12 . 83 4 . 01 TEXT BLOCK 542 4 . 74 1 . 00 the first list.",
+    "avg_font_size": 8.24,
+    "bbox": [
+      78.45706176757812,
+      341.6155700683594,
+      555.2346801757812,
+      363.5331726074219
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 9,
+    "line_spacing_avg": 1.2,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI8",
+      "CMR8"
+    ],
+    "text_case": "Mixed",
+    "length": 119,
+    "relative_font_size": null
+  },
+  {
+    "text": "DOCUMENT ROOT 550 4 . 81 4 . 07 FIGURE 196 1 . 71 5 . 06 FIGURE CAPTION 516 4 . 51 5 . 08 FIGURE GRAPHIC",
+    "avg_font_size": 7.48,
+    "bbox": [
+      78.45707702636719,
+      353.6934509277344,
+      260.43841552734375,
+      387.16925048828125
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 13,
+    "line_spacing_avg": 1.2,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI8",
+      "CMR8"
+    ],
+    "text_case": "Mixed",
+    "length": 104,
+    "relative_font_size": null
+  },
+  {
+    "text": "B. Examples 158 1 . 38 3 . 00 FOOTER",
+    "avg_font_size": 8.05,
+    "bbox": [
+      78.45718383789062,
+      381.04010009765625,
+      364.271728515625,
+      396.1362609863281
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CMR8",
+      "CMMI8",
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 36,
+    "relative_font_size": null
+  },
+  {
+    "text": "We demonstrate an exemplary query on real data (Fig. 5j) 59 0 . 52 4 . 00 FOOTNOTE 158 1 . 38 3 . 00 HEADER",
+    "avg_font_size": 7.84,
+    "bbox": [
+      78.45721435546875,
+      396.310546875,
+      563.0349731445312,
+      414.06927490234375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 9,
+    "line_spacing_avg": 0.79,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "CMMI8",
+      "CMR8"
+    ],
+    "text_case": "Mixed",
+    "length": 107,
+    "relative_font_size": null
+  },
+  {
+    "text": "as follows: 1275 11 . 14 4 . 01 HEADING 1052 9 . 19 5 . 04 >>row_child_of_tabular_and_containing_diplome= ITEM 144 1 . 26 4 . 04 root_hocr.xpath( \u2019//div[@dsg_class=\"tabular\"]/*/div[ ITEMIZE 416 3 . 63 2 . 00 @dsg_class=\"row\"]/span[text()=\"Diplome\"]/..\u2019 ) META 1132 9 . 89 3 . 00 >> print (entity_child_texts( ORDERED GROUP 368 3 . 22 3 . 02 PAGE NR . row_child_of_tabular_and_containing_diplome)) 1460 12 . 76 6 . 00 [ \"Institutionen,\" , \"Kurse,\" , \"Diplome,\" , \"XII\" ] ROW 124 1 . 08 4 . 00 >>headings=root_hocr.xpath( \u2019//div[@dsg_class=\" TABLE 89 0 . 78 2 . 00 heading\"]\u2019 ) TABLE OF CONTENT 124 1 . 08 4 . 99 >>print_heading_text(headings[:2]) TABULAR 463 4 . 05 3 . 00 [[ \"Das Wallis im Profil\" ], [ \"Biographie\" , \"-\" , \" UNORDERED GROUP Bibliographie\" , \"Maurice\" , \"Chappaz\" ]] >>textblock_after_biblio=followedby( \u2019//div[@dsg_cat TABLE IX: Distribution of semantic categories in E-Periodica =\"heading\"]/span[text()=\"Biographie\"]/..\u2019 , \u2019//div[ @dsg_cat=\"contentblock\"]\u2019 , root_hocr) >> print (entity_child_texts(textblock_after_biblio) comparison, we perform a page recognition on the evaluation [:5]) [ \"Geboren\" , \"am\" , \"21.12.191\" , \"6\" , \"in\" , \"Martigny\" documents and export the parsed pages to HTML files. We then map the generated results and HTML tags onto the closest matching semantic entities used by DSG for comparison. For instance, text regions that are wrapped by a heading tag in HTML are shown as a HEADER bounding box in our qualitative evaluation, while text regions enclosed by a ASIDE entity are assigned the category UNORDERED GROUP . We manually specify the input language (e.g., English, German) before running the tool, if the tool provides such an option. Results: Figure 5 shows a representative example. The unedited input images are shown in Figure 3b Overall, we find that, even for F1 scores in the order of \u223c 0.5, the final document structure is typically very accurate. While even minor discrepancies or ambiguities between the predicted entities and the ground-truth may lead to notable drops in F1",
+    "avg_font_size": 8.18,
+    "bbox": [
+      48.9640007019043,
+      408.2655334472656,
+      562.6552124023438,
+      748.2901000976562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 79,
+    "line_spacing_avg": 1.52,
+    "font_names": [
+      "CMSY10",
+      "NimbusSanL-Regu",
+      "NimbusMonL-Regu",
+      "NimbusRomNo9L-Medi",
+      "NimbusRomNo9L-Regu",
+      "CMR8",
+      "CMMI8"
+    ],
+    "text_case": "Mixed",
+    "length": 2040,
+    "relative_font_size": null
+  },
+  {
+    "text": "14",
+    "avg_font_size": 6.97,
+    "bbox": [
+      556.06201171875,
+      25.932153701782227,
+      563.0357666015625,
+      32.90595245361328
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "NimbusRomNo9L-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 10
+  },
+  {
+    "text": "(e) DSG (ours). (a) Ground-truth. (b) ABBYY [52]. (c) Adobe Acrobat [53]. (d) DocParser [11].",
+    "avg_font_size": 8.97,
+    "bbox": [
+      66.47799682617188,
+      231.41629028320312,
+      543.85546875,
+      240.484375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 5,
+    "line_spacing_avg": 198.51,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 93,
+    "relative_font_size": 22
+  },
+  {
+    "text": "(36) doc. root (38) meta (0) doc. root (3) page nr. (1) meta (2) article (18) page nr. (16) ordered group (25) table of content (22) heading (21) unordered group (15) heading (2) text block (0) text block (12) ordered group (9) heading (1) text block (19) table (9) ordered group (20) tabular (11) text block (26) column (24) ordered group (27) column (4) text block (28) row (12) heading (29) row (6) text block (30) row (14) heading (31) row (5) text block (32) row (10) heading (33) row (19) table (34) row (40) itemize (35) row",
+    "avg_font_size": 3.72,
+    "bbox": [
+      57.62354278564453,
+      242.61582946777344,
+      538.3289794921875,
+      431.0986328125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 40,
+    "line_spacing_avg": 2.78,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 531,
+    "relative_font_size": null
+  },
+  {
+    "text": "(15) doc. root (39) item (36) row (41) item (37) row",
+    "avg_font_size": 4.12,
+    "bbox": [
+      121.22134399414062,
+      434.79766845703125,
+      546.6986694335938,
+      449.4008483886719
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 4.34,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 52,
+    "relative_font_size": null
+  },
+  {
+    "text": "(0) header",
+    "avg_font_size": 5.75,
+    "bbox": [
+      302.0530700683594,
+      449.1702880859375,
+      328.57342529296875,
+      455.5930480957031
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 10,
+    "relative_font_size": 6
+  },
+  {
+    "text": "(38) row (27) row (16) doc. root (39) row",
+    "avg_font_size": 4.06,
+    "bbox": [
+      121.22134399414062,
+      454.25689697265625,
+      546.1671142578125,
+      467.380859375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "line_spacing_avg": 2.62,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 41,
+    "relative_font_size": null
+  },
+  {
+    "text": "(1) text block (32) item (0) unordered group (40) row (43) tabular (2) header (1) unordered group (41) row (8) col (42) row",
+    "avg_font_size": 4.42,
+    "bbox": [
+      121.22134399414062,
+      463.54290771484375,
+      546.6986694335938,
+      494.5924987792969
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 10,
+    "line_spacing_avg": 1.6,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 123,
+    "relative_font_size": null
+  },
+  {
+    "text": "(3) text block (18) row (2) itemize (43) row (25) row (4) text block (3) item (44) row (13) row (23) article (4) item (5) header (37) row (22) unordered group (42) item (7) item (6) text block",
+    "avg_font_size": 4.55,
+    "bbox": [
+      70.93174743652344,
+      492.28814697265625,
+      546.6986694335938,
+      541.8287963867188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 17,
+    "line_spacing_avg": 1.22,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 192,
+    "relative_font_size": null
+  },
+  {
+    "text": "(7) figure (20) row (8) figure graphic (6) text block (33) row (7) text block",
+    "avg_font_size": 4.3,
+    "bbox": [
+      96.42849731445312,
+      535.891845703125,
+      533.5082397460938,
+      556.201416015625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 0.39,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 77,
+    "relative_font_size": null
+  },
+  {
+    "text": "(13) ordered group (8) text block (23) row (10) heading",
+    "avg_font_size": 4.06,
+    "bbox": [
+      76.46855926513672,
+      554.032958984375,
+      533.5082397460938,
+      567.1569213867188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "line_spacing_avg": 0.81,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 55,
+    "relative_font_size": null
+  },
+  {
+    "text": "(8) text block (17) row (9) text block (11) heading (30) row (9) text block",
+    "avg_font_size": 4.66,
+    "bbox": [
+      93.636474609375,
+      564.1512451171875,
+      533.5082397460938,
+      584.9465942382812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 1.85,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 75,
+    "relative_font_size": null
+  },
+  {
+    "text": "(14) ordered group (10) unordered group (21) row (3) text block",
+    "avg_font_size": 4.06,
+    "bbox": [
+      76.46855926513672,
+      581.24462890625,
+      533.5082397460938,
+      594.3685913085938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 63,
+    "relative_font_size": null
+  },
+  {
+    "text": "(10) text block (26) row (11) text block (15) ordered group (31) row (11) text block",
+    "avg_font_size": 4.66,
+    "bbox": [
+      76.46855926513672,
+      592.896484375,
+      533.5082397460938,
+      613.6918334960938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 3.12,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 84,
+    "relative_font_size": null
+  },
+  {
+    "text": "(4) text block (12) text block (34) col (24) article",
+    "avg_font_size": 4.06,
+    "bbox": [
+      70.93174743652344,
+      608.456298828125,
+      532.8765258789062,
+      621.5802612304688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 52,
+    "relative_font_size": null
+  },
+  {
+    "text": "(12) text block (13) unordered group (28) unordered group (16) ordered group (7) text block (5) text block",
+    "avg_font_size": 4.3,
+    "bbox": [
+      76.46855926513672,
+      621.6417236328125,
+      537.4135131835938,
+      639.7213745117188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 2.23,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 106,
+    "relative_font_size": null
+  },
+  {
+    "text": "(13) text block (14) text block (35) figure (17) ordered group (15) footer (14) text block",
+    "avg_font_size": 4.89,
+    "bbox": [
+      76.46855926513672,
+      636.0142822265625,
+      535.197021484375,
+      656.8096923828125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 1.47,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 90,
+    "relative_font_size": null
+  },
+  {
+    "text": "(6) text block (29) figure graphic",
+    "avg_font_size": 3.72,
+    "bbox": [
+      93.3010482788086,
+      653.80908203125,
+      554.6094360351562,
+      658.2725830078125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "lower",
+    "length": 34,
+    "relative_font_size": null
+  },
+  {
+    "text": "(j) DSG (ours). (f) Ground-truth. (g) ABBYY [52]. (h) Adobe Acrobat [53]. (i) DocParser [11]. Fig. 5: Qualitative evaluation comparing the parsed hierarchical document structure by different systems. The document is characterized by complex, hierarchical structure. Top: entity recognition; bottom: hierarchical structure.",
+    "avg_font_size": 9.25,
+    "bbox": [
+      48.963958740234375,
+      665.1982421875,
+      563.0339965820312,
+      703.7970581054688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 7,
+    "line_spacing_avg": 5.51,
+    "font_names": [
+      "NimbusRomNo9L-Regu",
+      "NimbusSanL-Regu"
+    ],
+    "text_case": "Mixed",
+    "length": 322,
+    "relative_font_size": 29
+  }
+]

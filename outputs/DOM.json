@@ -1,0 +1,2234 @@
+[
+  {
+    "text": "What is DOM?",
+    "avg_font_size": 24.0,
+    "bbox": [
+      227.80079650878906,
+      37.36328125,
+      374.4408264160156,
+      63.94140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 12,
+    "relative_font_size": 13
+  },
+  {
+    "text": "The Document Object Model (DOM) is a programming interface for HTML(Hypertext Markup Language) and XML (Extensible markup language) documents. It defines the logical structure of documents and the way a document is accessed and manipulated.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      109.55664825439453,
+      560.2616577148438,
+      157.345703125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 17.85,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-BoldItal"
+    ],
+    "text_case": "Mixed",
+    "length": 240,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Note : It is called a Logical structure because DOM doesn\u2019t specify any relationship between objects.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      172.55665588378906,
+      528.9777221679688,
+      185.84571838378906
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 15.21,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 101,
+    "relative_font_size": 7
+  },
+  {
+    "text": "DOM is a way to represent the webpage in a structured hierarchical way so that it will become easier for programmers and users to glide through the document. With DOM, we can easily access and manipulate tags, IDs, classes, Attributes, or Elements of HTML using commands or methods provided by the Document object. Using DOM, the JavaScript gets access to HTML as well as CSS of the web page and can also add behavior to the HTML elements. So basically Document Object Model is an API that represents and interacts with HTML or XML documents.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      201.80665588378906,
+      560.2635498046875,
+      300.5957336425781
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 5.84,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 542,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Why DOM is required?",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      316.5566711425781,
+      163.23048400878906,
+      329.8457336425781
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 15.96,
+    "font_names": [
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 20,
+    "relative_font_size": 7
+  },
+  {
+    "text": "HTML is used to structure the web pages and JavaScript is used to add behavior to our web pages. When an HTML file is loaded into the browser, the JavaScript can not understand the HTML document directly. So, a corresponding document is created(DOM). DOM is basically the representation of the same HTML document but in a different format with the use of objects . JavaScript interprets DOM easily i.e. JavaScript can not understand the tags(<h1>H</h1>) in HTML document but can understand object h1 in DOM. Now, JavaScript can access each of the objects (h1, p, etc) by using different functions.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      345.8066711425781,
+      560.2676391601562,
+      444.5957336425781
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 5.84,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 597,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Structure of DOM : DOM can be thought of as a Tree or Forest(more than one tree). The term structure model is sometimes used to describe the tree-like representation of a document. \u00a0Each branch of the tree ends in a node, and each node contains objects \u00a0Event listeners can be added to nodes and triggered on an occurrence of a given event. One important property of DOM structure models is structural isomorphism : if any two DOM implementations are used to create a representation of the same document, they will create the same structure model, with precisely the same objects and relationships.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      460.5566711425781,
+      560.2636108398438,
+      559.3457641601562
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 5.84,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-BoldItal"
+    ],
+    "text_case": "Mixed",
+    "length": 598,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Why called an Object Model? Documents are modeled using objects, and the model includes not only the structure of a document but also the behavior of a document and the objects of which it is composed like tag elements with attributes in HTML.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      575.3067016601562,
+      560.2520751953125,
+      640.3457641601562
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 6.96,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 243,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Properties of DOM : Let\u2019s see the properties of the document object that can be accessed and modified by the document object.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      656.3067016601562,
+      560.252197265625,
+      686.8457641601562
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 9.96,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 125,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Properties of DOM",
+    "avg_font_size": 12.0,
+    "bbox": [
+      72.00000762939453,
+      195.80670166015625,
+      164.6520233154297,
+      209.09576416015625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 17,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Window Object: Window Object is object of the browser which is always at top of the hierarchy. \u00a0It is like an API that is used to set and access all the properties and methods of the browser. It is automatically created by the browser. Document object: When an HTML document is loaded into a window, it becomes a document object. The \u2018document\u2019 object has various properties that refer to other objects which allow access to and modification of the content of the web page. If there is a need to access any element in an HTML page, we always start with accessing the \u2018document\u2019 object. Document object is property of window object. Form Object: It is represented by form tags. Link Object: It is represented by link tags. Anchor Object: It is represented by a href tags. Form Control Elements: Form can have many control elements such as text fields, buttons, radio buttons, checkboxes, etc.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      72.00000762939453,
+      252.80670166015625,
+      560.2568359375,
+      482.0958251953125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 13,
+    "line_spacing_avg": 7.71,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-BoldItal"
+    ],
+    "text_case": "Mixed",
+    "length": 891,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Searching the DOM",
+    "avg_font_size": 24.0,
+    "bbox": [
+      204.48048400878906,
+      37.36328125,
+      397.7765197753906,
+      63.94140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 17,
+    "relative_font_size": 13
+  },
+  {
+    "text": "HTML DOM getElementByID() Method",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      109.55664825439453,
+      252.6418914794922,
+      122.84571075439453
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 45.62,
+    "font_names": [
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 32,
+    "relative_font_size": 7
+  },
+  {
+    "text": "The getElementById() method returns the elements that have given an ID which is passed to the function. This function is a widely used HTML DOM method in web designing to change the value of any particular element or get a particular element. If the passed ID to the function does not exist then it returns null. The element is required to have a unique id , in order to get access to that specific element quickly, & also that particular id should only be used once in the entire document.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      138.806640625,
+      560.2689819335938,
+      220.34571838378906
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 6.21,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT"
+    ],
+    "text_case": "Mixed",
+    "length": 490,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Syntax: document.getElementById( element_ID ) Parameter: This function accepts single parameter element_ID which is used to hold the ID of the element.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      236.30665588378906,
+      560.278076171875,
+      322.3457336425781
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 12.02,
+    "font_names": [
+      "Consolas",
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT"
+    ],
+    "text_case": "Mixed",
+    "length": 151,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Return Value: It returns the object of the given ID. If no element exists with the given ID then it returns null.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      337.5566711425781,
+      560.26123046875,
+      368.0957336425781
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 9.59,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 113,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Example 1: This example describes the getElementById() method where element_id is used to change the color of the text on clicking the button.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      384.0566711425781,
+      560.2774047851562,
+      414.5957336425781
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 9.96,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 142,
+    "relative_font_size": 7
+  },
+  {
+    "text": "HTML",
+    "avg_font_size": 13.5,
+    "bbox": [
+      51.750003814697266,
+      437.2788391113281,
+      88.49701690673828,
+      452.3608703613281
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 22.68,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 4,
+    "relative_font_size": 10
+  },
+  {
+    "text": "<!DOCTYPE html> <!DOCTYPE html> html > < html head > < head < title title > DOM getElementById() Method DOM getElementById() Method </ </ title title > < script script > // Function to change the color of element // Function to change the color of element function function geeks geeks () () { var var demo demo = document document .getElementById getElementById (\"geeks\" \"geeks\" ); ); demo demo .style style .color color = \"green\" \"green\" ; </ </ script script > </ head head > </ body style style =\"text-align:center\" \"text-align:center\" > < body < h1 h1 id id =\"geeks\" \"geeks\" >GeeksforGeeks GeeksforGeeks </ </ h1 h1 > < h2 h2 >DOM getElementById() Method DOM getElementById() Method </ </ h2 h2 > <!-- Click on the button to change color --> <!-- Click on the button to change color --> < input input type type =\"button\" \"button\" onclick onclick =\"geeks()\" \"geeks()\"",
+    "avg_font_size": 10.5,
+    "bbox": [
+      93.75000762939453,
+      483.3408508300781,
+      417.0890808105469,
+      811.3853149414062
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 64,
+    "line_spacing_avg": 7.14,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold",
+      "Consolas-Italic"
+    ],
+    "text_case": "lower",
+    "length": 871,
+    "relative_font_size": 4
+  },
+  {
+    "text": "value value =\"Click here to change color\" \"Click here to change color\" /> /> </ body body > </ </ html html > </",
+    "avg_font_size": 10.5,
+    "bbox": [
+      93.75000762939453,
+      28.09088134765625,
+      370.8820495605469,
+      80.88531494140625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 10,
+    "line_spacing_avg": 7.21,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 112,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Example 2: This example describes the getElementById() method where the element_id is used to change the content on clicking the button.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      145.55670166015625,
+      560.2672119140625,
+      176.09576416015625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 34.32,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 136,
+    "relative_font_size": 7
+  },
+  {
+    "text": "HTML",
+    "avg_font_size": 13.5,
+    "bbox": [
+      51.750003814697266,
+      198.77886962890625,
+      88.49701690673828,
+      213.86090087890625
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 22.68,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 4,
+    "relative_font_size": 10
+  },
+  {
+    "text": "<!DOCTYPE html> <!DOCTYPE html> html > < html head > < head < title title > DOM getElementById() Method DOM getElementById() Method </ </ title title > < script script > // Function to change content of element // Function to change content of element function function geeks geeks () () { var var demo demo = document document .getElementById getElementById (\"geeks\" \"geeks\" ); ); demo demo .innerHTML innerHTML = \"Welcome to GeeksforGeeks!\" \"Welcome to GeeksforGeeks!\" ; </ </ script script > </ head head > </ body style style =\"text-align:center\" \"text-align:center\" > < body < h1 h1 >GeeksforGeeks GeeksforGeeks </ </ h1 h1 > < h2 h2 >DOM getElementById() Method DOM getElementById() Method </ </ h2 h2 > < h3 h3 id id =\"geeks\" \"geeks\" >Hello Geeks! Hello Geeks! </ </ h3 h3 > <!-- Click here to change content --> <!-- Click here to change content --> < input input type type =\"button\" \"button\" onclick onclick =\"geeks()\" \"geeks()\" value value =\"Click here to change content\" \"Click here to change content\" /> /> </ body body > </ </ html html > </",
+    "avg_font_size": 10.5,
+    "bbox": [
+      93.75000762939453,
+      244.84088134765625,
+      422.8453369140625,
+      638.1353759765625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 78,
+    "line_spacing_avg": 7.15,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold",
+      "Consolas-Italic"
+    ],
+    "text_case": "lower",
+    "length": 1054,
+    "relative_font_size": 4
+  },
+  {
+    "text": "DOM querySelectorAll() Method",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      702.8067626953125,
+      211.96804809570312,
+      716.0958251953125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 64.67,
+    "font_names": [
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 29,
+    "relative_font_size": 7
+  },
+  {
+    "text": "The querySelectorAll() method in HTML is used to return a collection of an element\u2019s child elements that match a specified CSS selector(s), as a static NodeList object. The NodeList object represents a collection of nodes. The nodes can be accessed by index numbers. The index starts at 0. Note: If we want to apply CSS property to all the child nodes that match the specified selector, then we can",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      732.0567626953125,
+      560.2661743164062,
+      797.0958251953125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 6.96,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 398,
+    "relative_font_size": 7
+  },
+  {
+    "text": "just iterate through all nodes and apply that particular property. Syntax:",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      29.306640625,
+      344.4609680175781,
+      59.845703125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 3.96,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Title",
+    "length": 74,
+    "relative_font_size": 7
+  },
+  {
+    "text": "element.querySelectorAll(selectors) Selectors is the required field. It specifies one or more CSS selectors to match the element.These selectors are used to select HTML elements based on their id, classes, types, etc. In case of multiple selectors, comma is used to separate each selector. Example:",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      91.9609375,
+      560.2498168945312,
+      183.595703125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 11.31,
+    "font_names": [
+      "Consolas",
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 298,
+    "relative_font_size": 7
+  },
+  {
+    "text": "HTML",
+    "avg_font_size": 13.5,
+    "bbox": [
+      51.750003814697266,
+      206.27880859375,
+      88.49701690673828,
+      221.36083984375
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 22.68,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 4,
+    "relative_font_size": 10
+  },
+  {
+    "text": "<!DOCTYPE html> <!DOCTYPE html> html > < html < head head > < title title >DOM querySelectorAll() Method DOM querySelectorAll() Method </ </ title title > < style style > # geek geek { border border : 1px px solid solid black black ; margin margin : 5px px ; </ </ style style > </ </ head head > < body body style style = \"text-align: center;\" \"text-align: center;\" > < h1 h1 style style = \"color: green;\" \"color: green;\" >GeeksforGeeks GeeksforGeeks </ </ h1 h1 > < h2 h2 >querySelectorAll() Method querySelectorAll() Method </ </ h2 h2 > < div div id id =\"geek\" \"geek\" >",
+    "avg_font_size": 10.5,
+    "bbox": [
+      93.75000762939453,
+      252.3408203125,
+      405.5601806640625,
+      449.13525390625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 49,
+    "line_spacing_avg": 5.86,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 573,
+    "relative_font_size": 4
+  },
+  {
+    "text": "This is paragraph 1. </ </ p > < p >This is paragraph 1.",
+    "avg_font_size": 10.5,
+    "bbox": [
+      93.75000762939453,
+      475.0908203125,
+      249.65391540527344,
+      488.13525390625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 25.96,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 56,
+    "relative_font_size": 4
+  },
+  {
+    "text": "This is paragraph 2. </ </ p > < p >This is paragraph 2.",
+    "avg_font_size": 10.5,
+    "bbox": [
+      93.75000762939453,
+      541.0909423828125,
+      249.65391540527344,
+      554.1353759765625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 52.96,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 56,
+    "relative_font_size": 4
+  },
+  {
+    "text": "</ </ div div > < button button onclick onclick =\"myFunction()\" \"myFunction()\" >Try it Try it </ </ button button > < script script > function function myFunction myFunction () () { var var x = document document .getElementById getElementById (\"geek\" \"geek\" ). ). querySelectorAll querySelectorAll (\"p\" \"p\" ); ); var var i; for for (i = 0; i < x.length length ; i++ ++ ) { x[i]. ]. style style .backgroundColor backgroundColor = \"green\" \"green\" ; x[i]. ]. style style .color color = \"white\" \"white\" ;",
+    "avg_font_size": 10.5,
+    "bbox": [
+      93.75000762939453,
+      580.0909423828125,
+      544.0969848632812,
+      698.1353759765625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 41,
+    "line_spacing_avg": 5.71,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 500,
+    "relative_font_size": 4
+  },
+  {
+    "text": "</ </ script script > </ </ body body > </ html html > </",
+    "avg_font_size": 10.5,
+    "bbox": [
+      93.75000762939453,
+      724.8409423828125,
+      191.90391540527344,
+      764.1353759765625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 9,
+    "line_spacing_avg": 13.58,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 57,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Event Listener",
+    "avg_font_size": 23.96,
+    "bbox": [
+      157.5816650390625,
+      61.302188873291016,
+      297.96417236328125,
+      87.83164978027344
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Title",
+    "length": 14,
+    "relative_font_size": 12
+  },
+  {
+    "text": "An event is an important part of JavaScript.A web page respond according to an event occurred. Some events are user generated and some are generated by API\u2019s. An event listener is a procedure in JavaScript that waits for an event to occur. The simple example of an event is a user clicking the mouse or pressing a key on the keyboard.",
+    "avg_font_size": 11.98,
+    "bbox": [
+      89.90113067626953,
+      133.3633575439453,
+      365.62188720703125,
+      249.18997192382812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 7,
+    "line_spacing_avg": 9.79,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 334,
+    "relative_font_size": 6
+  },
+  {
+    "text": "The addEventListener() is an inbuilt function in JavaScript which takes the event to listen for, and a second argument to be called whenever the described event gets fired. Any number of event handlers can be added to a single element without overwriting existing event handlers.",
+    "avg_font_size": 11.98,
+    "bbox": [
+      89.90113067626953,
+      265.1217041015625,
+      365.6239318847656,
+      363.7298583984375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 5.83,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 279,
+    "relative_font_size": 6
+  },
+  {
+    "text": "Syntax: element.addEventListener(event, listener,",
+    "avg_font_size": 11.98,
+    "bbox": [
+      89.90113067626953,
+      379.6615905761719,
+      366.5935363769531,
+      421.7893371582031
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 15.38,
+    "font_names": [
+      "Consolas",
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 49,
+    "relative_font_size": 6
+  },
+  {
+    "text": "Parameters:",
+    "avg_font_size": 11.98,
+    "bbox": [
+      89.90113067626953,
+      447.78662109375,
+      156.07272338867188,
+      461.05133056640625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 26.0,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Title",
+    "length": 11,
+    "relative_font_size": 6
+  },
+  {
+    "text": "event : event can be any valid JavaScript event.Events are used without \u201con\u201d prefix like use \u201cclick\u201d instead of \u201conclick\u201d or \u201cmousedown\u201d instead of \u201conmousedown\u201d. listener(handler function) : It can be a JavaScript function which respond to the event occur. useCapture: It is an optional parameter used to control event propagation. A boolean value is passed where \u201c true \u201d denotes capturing phase and \u201c false \u201d denotes the bubbling phase.",
+    "avg_font_size": 11.98,
+    "bbox": [
+      119.84620666503906,
+      477.731689453125,
+      365.6370544433594,
+      652.6997680664062
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 10,
+    "line_spacing_avg": 5.9,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT"
+    ],
+    "text_case": "Mixed",
+    "length": 439,
+    "relative_font_size": 6
+  },
+  {
+    "text": "JavaScript Code to show the working of addEventListener() method :",
+    "avg_font_size": 11.98,
+    "bbox": [
+      89.90113067626953,
+      668.6315307617188,
+      365.617919921875,
+      698.3660278320312
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 8,
+    "line_spacing_avg": 9.57,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "lower",
+    "length": 66,
+    "relative_font_size": 6
+  },
+  {
+    "text": "code #1:",
+    "avg_font_size": 11.98,
+    "bbox": [
+      89.90113067626953,
+      714.2977294921875,
+      135.14625549316406,
+      727.5624389648438
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 15.93,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "lower",
+    "length": 8,
+    "relative_font_size": 6
+  },
+  {
+    "text": "Javascript",
+    "avg_font_size": 13.48,
+    "bbox": [
+      99.6332778930664,
+      750.2040405273438,
+      160.2855224609375,
+      765.2584228515625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 22.64,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "relative_font_size": 9
+  },
+  {
+    "text": "<! DOCTYPE DOCTYPE html html > <! html lang lang =\"en\" \"en\" > <html head > <head <meta meta charset charset =\"UTF-8\" \"UTF-8\" > <meta meta name name =\"viewport\" \"viewport\" content content =\"width=device-width, initial-scale=1.0\" \"width=device-width, initial-scale=1.0\" > <title title >Event Event Listener Listener Example Example </title> /title> /head> </head> body > <body button id id =\"myButton\" \"myButton\" >Click Click me me </button> /button> <button id =\"geek\" \"geek\" >< >< /p> /p> <p id script > <script // Get the button element by its ID // Get the button element by its ID var button button = document document .getElementById getElementById (\"myButton\" \"myButton\" ); ); var var geek geek =document document .getElementById getElementById (\"geek\" \"geek\" ) var // Define the event handler function // Define the event handler function function handleClick handleClick () () { function //   alert(\"Button clicked!\"); //   alert(\"Button clicked!\"); geek .innerHTML innerHTML ='<H1>GeeksforGeeks</H1>' '<H1>GeeksforGeeks</H1>' geek",
+    "avg_font_size": 10.48,
+    "bbox": [
+      141.55638122558594,
+      50.549468994140625,
+      556.5155029296875,
+      325.5893859863281
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 71,
+    "line_spacing_avg": 3.93,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold",
+      "Consolas-Italic"
+    ],
+    "text_case": "lower",
+    "length": 1038,
+    "relative_font_size": 3
+  },
+  {
+    "text": "// Attach the event listener to the button // Attach the event listener to the button button .addEventListener addEventListener (\"click\" \"click\" , handleClick handleClick ); ); button /script> </script> /body> </body> /html> </html>",
+    "avg_font_size": 10.48,
+    "bbox": [
+      141.55638122558594,
+      352.2460632324219,
+      406.6591491699219,
+      443.8724060058594
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 14,
+    "line_spacing_avg": 13.37,
+    "font_names": [
+      "Consolas",
+      "Consolas-Italic"
+    ],
+    "text_case": "Mixed",
+    "length": 232,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Output:",
+    "avg_font_size": 11.98,
+    "bbox": [
+      89.90113067626953,
+      550.3484497070312,
+      131.1654510498047,
+      563.6131591796875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 106.48,
+    "font_names": [
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 6
+  },
+  {
+    "text": "Text appears when button is clicked",
+    "avg_font_size": 11.98,
+    "bbox": [
+      119.84620666503906,
+      607.9927368164062,
+      291.65924072265625,
+      621.2574462890625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 44.38,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 35,
+    "relative_font_size": 6
+  },
+  {
+    "text": "code #2: In this example two events \u201cmouseover\u201d and \u201cmouseout\u201d are added to the same element. If the text is hovered over then \u201cmouseover\u201d event occur and RespondMouseOver function invoked, similarly for \u201cmouseout\u201d event RespondMouseOut function invoked.",
+    "avg_font_size": 11.98,
+    "bbox": [
+      89.90113067626953,
+      663.3911743164062,
+      365.6197509765625,
+      762.7479248046875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 10.32,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 254,
+    "relative_font_size": 6
+  },
+  {
+    "text": "Javascript",
+    "avg_font_size": 13.48,
+    "bbox": [
+      99.6332778930664,
+      784.6409301757812,
+      160.2855224609375,
+      799.6953125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 21.89,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "relative_font_size": 9
+  },
+  {
+    "text": "<! DOCTYPE DOCTYPE html html > <! html > <html body > <body <button button id id =\"clickIt\" \"clickIt\" >Click Click here here </button> /button> <p id id =\"hoverPara\" \"hoverPara\" >Hover Hover over over this this Text Text !< !< /p> /p>",
+    "avg_font_size": 10.48,
+    "bbox": [
+      141.55638122558594,
+      50.549407958984375,
+      418.9974670410156,
+      142.17578125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 24,
+    "line_spacing_avg": 9.19,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 234,
+    "relative_font_size": 3
+  },
+  {
+    "text": "<b id id =\"effect\" \"effect\" >< >< /b> /b> <script script > const const x = document document .getElementById getElementById (\"clickIt\" \"clickIt\" ); ); const const y = document document .getElementById getElementById (\"hoverPara\" \"hoverPara\" ); ); x.addEventListener addEventListener (\"click\" \"click\" , RespondClick RespondClick ); ); y.addEventListener addEventListener (\"mouseover\" \"mouseover\" , RespondMouseOver RespondMouseOver ); ); y.addEventListener addEventListener (\"mouseout\" \"mouseout\" , RespondMouseOut RespondMouseOut ); ); function function RespondMouseOver RespondMouseOver () () { document document .getElementById getElementById (\"effect\" \"effect\" ). ). innerHTML innerHTML += += \"MouseOver Event\" \"MouseOver Event\" + \"<br>\" \"<br>\" ;",
+    "avg_font_size": 10.48,
+    "bbox": [
+      141.55638122558594,
+      168.8324432373047,
+      475.8135681152344,
+      339.06463623046875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 48,
+    "line_spacing_avg": 9.16,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 749,
+    "relative_font_size": 3
+  },
+  {
+    "text": "function function RespondMouseOut RespondMouseOut () () { document document .getElementById getElementById (\"effect\" \"effect\" ). ). innerHTML innerHTML += += \"MouseOut Event\" \"MouseOut Event\" + \"<br>\" \"<br>\" ;",
+    "avg_font_size": 10.48,
+    "bbox": [
+      141.55638122558594,
+      364.97265625,
+      475.8135681152344,
+      404.19512939453125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 14,
+    "line_spacing_avg": 8.94,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 209,
+    "relative_font_size": 3
+  },
+  {
+    "text": "function function RespondClick RespondClick () () { document document .getElementById getElementById (\"effect\" \"effect\" ). ). innerHTML innerHTML += += \"Click Event\" \"Click Event\" + \"<br>\" \"<br>\" ; </script> /script> /body> </body> /html> </html>",
+    "avg_font_size": 10.48,
+    "bbox": [
+      141.55638122558594,
+      430.851806640625,
+      475.8135681152344,
+      535.204833984375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 20,
+    "line_spacing_avg": 10.94,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 246,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Output:",
+    "avg_font_size": 11.98,
+    "bbox": [
+      89.90113067626953,
+      584.0366821289062,
+      131.1654510498047,
+      597.3013916015625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 48.83,
+    "font_names": [
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 6
+  },
+  {
+    "text": "Events logged on different interactions",
+    "avg_font_size": 11.98,
+    "bbox": [
+      119.84620666503906,
+      640.9324340820312,
+      308.90899658203125,
+      654.1971435546875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 43.63,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 39,
+    "relative_font_size": 6
+  },
+  {
+    "text": "Mark as Read",
+    "avg_font_size": 11.98,
+    "bbox": [
+      267.41925048828125,
+      693.1666259765625,
+      344.6415710449219,
+      706.54833984375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 38.97,
+    "font_names": [
+      "Arial-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 12,
+    "relative_font_size": 6
+  },
+  {
+    "text": "Report An Issue",
+    "avg_font_size": 9.41,
+    "bbox": [
+      274.34405517578125,
+      761.3280639648438,
+      339.17864990234375,
+      771.7491455078125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 54.78,
+    "font_names": [
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Event Bubbling",
+    "avg_font_size": 24.0,
+    "bbox": [
+      225.45704650878906,
+      37.36328125,
+      376.8010559082031,
+      63.94140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Title",
+    "length": 14,
+    "relative_font_size": 13
+  },
+  {
+    "text": "Event bubbling is a method of event propagation in the HTML DOM API when an event is in an element inside another element, and both elements have registered a handle to that event. It is a process that starts with the element that triggered the event and then bubbles up to the containing elements in the hierarchy. In event bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      109.55664825439453,
+      560.2664184570312,
+      191.09571838378906
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 12.14,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 438,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Syntax: addEventListener(type, listener, useCapture) type : Use to refer to the type of event. listener : Function we want to call when the event of the specified type occurs. userCapture : Boolean value. Boolean value indicates event phase. By Default useCapture is false. It means it is in the bubbling phase.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      207.05665588378906,
+      560.24609375,
+      330.5957336425781
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 9.83,
+    "font_names": [
+      "Consolas",
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 311,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Example 1: This example shows the working of event bubbling in JavaScript.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      346.5566711425781,
+      417.7650451660156,
+      359.8457336425781
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 15.96,
+    "font_names": [
+      "TimesNewRomanPSMT",
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Mixed",
+    "length": 74,
+    "relative_font_size": 7
+  },
+  {
+    "text": "HTML",
+    "avg_font_size": 13.5,
+    "bbox": [
+      51.750003814697266,
+      382.5288391113281,
+      88.49701690673828,
+      397.6108703613281
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 22.68,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 4,
+    "relative_font_size": 10
+  },
+  {
+    "text": "<!DOCTYPE html> <!DOCTYPE html> html > < html head > < head < title title > Bubbling Event in Javascript Bubbling Event in Javascript </ </ title title > </ head head > </ body > < body < h2 h2 >Bubbling Event in Javascript Bubbling Event in Javascript </ </ h2 h2 > < div div id id =\"parent\" \"parent\" > < button button > < h2 h2 >Parent Parent </ </ h2 h2 > </ </ button button > < button button id id =\"child\" \"child\" > Child </ </ p > < p >Child </ </ button button > </ </ div div >< >< br br >",
+    "avg_font_size": 10.5,
+    "bbox": [
+      93.75000762939453,
+      428.5908508300781,
+      330.4898681640625,
+      730.3853149414062
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 52,
+    "line_spacing_avg": 9.37,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 498,
+    "relative_font_size": 4
+  },
+  {
+    "text": "< script script > document document .getElementById getElementById ( \"child\" ). ). addEventListener addEventListener (\"click\" \"click\" , function function () () { \"child\" alert alert (\"You clicked the Child element!\" \"You clicked the Child element!\" ); );",
+    "avg_font_size": 10.5,
+    "bbox": [
+      93.75000762939453,
+      756.3408813476562,
+      393.9679870605469,
+      809.1353149414062
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 16,
+    "line_spacing_avg": 8.96,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 254,
+    "relative_font_size": 4
+  },
+  {
+    "text": "}, }, false false ); ); document document .getElementById getElementById ( \"parent\" ). ). addEventListener addEventListener (\"click\" \"click\" , function function () () { \"parent\" alert alert (\"You clicked the parent element!\" \"You clicked the parent element!\" ); ); }, }, false false ); ); </ </ script script > </ body body > </ </ html html > </",
+    "avg_font_size": 10.5,
+    "bbox": [
+      93.75000762939453,
+      28.09088134765625,
+      399.7453308105469,
+      172.38531494140625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 31,
+    "line_spacing_avg": 7.08,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 346,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Output:",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      208.55670166015625,
+      83.34001159667969,
+      221.84576416015625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 36.17,
+    "font_names": [
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 7
+  },
+  {
+    "text": "After clicking on the Parent button:",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      292.5567626953125,
+      212.31602478027344,
+      305.8458251953125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 70.71,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 36,
+    "relative_font_size": 7
+  },
+  {
+    "text": "After clicking on the Child button:",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      442.5567626953125,
+      208.33201599121094,
+      455.8458251953125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 136.71,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 35,
+    "relative_font_size": 7
+  },
+  {
+    "text": "From above example we understand that in bubbling the innermost element\u2019s event is handled first and then the outer: the <p> element\u2019s click event is handled first, then the <div> element\u2019s click event.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      713.3067626953125,
+      560.25390625,
+      743.8458251953125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 130.71,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 202,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Event Delegation",
+    "avg_font_size": 24.0,
+    "bbox": [
+      217.48829650878906,
+      37.36328125,
+      384.7923278808594,
+      63.94140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Title",
+    "length": 16,
+    "relative_font_size": 13
+  },
+  {
+    "text": "Event Delegation is basically a pattern to handle events efficiently. Instead of adding an event listener to each and every similar element, we can add an event listener to a parent element and call an event on a particular target using the .target property of the event object.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      109.55664825439453,
+      560.2520751953125,
+      157.345703125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 17.85,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "lower",
+    "length": 278,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Let\u2019s see an example with and without event delegation const customUI = document.createElement('ul'); for (var i = 1; i <= 10; i++) { const newElement = document.createElement('li'); newElement.textContent = \"This is line \" + i; newElement.addEventListener('click', () => { console.log('Responding') }) customUI.appendChild(newElement);",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      172.55665588378906,
+      385.1998596191406,
+      328.7617492675781
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 9,
+    "line_spacing_avg": 5.08,
+    "font_names": [
+      "Consolas",
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 336,
+    "relative_font_size": 7
+  },
+  {
+    "text": "The above code will associate the function with every <li> element that is shown in the below image. We are creating an <ul> element, attaching too many <li> elements, and attaching an event listener with a responding function to each paragraph as we create it.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      356.3066711425781,
+      560.2518920898438,
+      404.0957336425781
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 11.82,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "lower",
+    "length": 261,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Implementing the same functionalities with an alternate approach. In this approach, we will associate the same function with all event listeners. We are creating too many responding functions (that all actually do the exact same thing). We could extract this function and just reference the function instead of creating too many functions: const customUI = document.createElement('ul'); function responding() { console.log('Responding')",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      617.3067016601562,
+      560.248046875,
+      754.0117797851562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 7,
+    "line_spacing_avg": 36.37,
+    "font_names": [
+      "Consolas",
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 436,
+    "relative_font_size": 7
+  },
+  {
+    "text": "for (var i = 1; i <= 10; i++) { const newElement = document.createElement('li');",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      782.7109985351562,
+      385.1998596191406,
+      811.0117797851562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 14.45,
+    "font_names": [
+      "Consolas"
+    ],
+    "text_case": "Mixed",
+    "length": 80,
+    "relative_font_size": 7
+  },
+  {
+    "text": "newElement.textContent = \"This is line \" + i; newElement.addEventListener('click', responding) customUI.appendChild(newElement);",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      28.21099853515625,
+      385.1998596191406,
+      70.76177978515625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 0.2,
+    "font_names": [
+      "Consolas"
+    ],
+    "text_case": "Mixed",
+    "length": 128,
+    "relative_font_size": 7
+  },
+  {
+    "text": "The functionality of the above code is shown below \u2013",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      111.05670166015625,
+      299.6280517578125,
+      124.34576416015625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 40.29,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 52,
+    "relative_font_size": 7
+  },
+  {
+    "text": "In the above approach, we still have too many event listeners pointing to the same function. Now implementing the same functionalities using a single function and single event. const customUI = document.createElement('ul'); function responding() { console.log('Responding')",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      329.3067626953125,
+      560.2460327148438,
+      431.5118408203125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 47.69,
+    "font_names": [
+      "Consolas",
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 273,
+    "relative_font_size": 7
+  },
+  {
+    "text": "for (var i = 1; i <= 10; i++) { const newElement = document.createElement('li'); newElement.textContent = \"This is line \" + i; customUI.appendChild(newElement); customUI.addEventListener('click', responding)",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      460.2110595703125,
+      385.1998596191406,
+      545.5118408203125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 8.75,
+    "font_names": [
+      "Consolas"
+    ],
+    "text_case": "Mixed",
+    "length": 207,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Now there is a single event listener and a single responding function. In the above-shown method, we have improved the performance, but we have lost access to individual <li> elements so to resolve this issue, we will use a technique called event delegation.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      29.306640625,
+      560.2537231445312,
+      77.095703125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 3.96,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "lower",
+    "length": 258,
+    "relative_font_size": 7
+  },
+  {
+    "text": "The event object has a special property call .target which will help us in getting access to individual <li> elements with the help of phases.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      93.056640625,
+      560.2548828125,
+      122.845703125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 9.59,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 142,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Steps:",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      138.806640625,
+      73.3320083618164,
+      152.095703125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 15.96,
+    "font_names": [
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "text_case": "Title",
+    "length": 6,
+    "relative_font_size": 7
+  },
+  {
+    "text": "<ul> element is clicked. The event goes in the capturing phase. It reaches the target (<li> in our case). It switches to the bubbling phase. When it hits the <ul> element, it runs the event listener. Inside the listener function event.target is the element that was clicked. Event.target provides us access to the <li> element that was clicked.",
+    "avg_font_size": 12.0,
+    "bbox": [
+      72.00000762939453,
+      168.806640625,
+      412.3627014160156,
+      290.095703125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 7,
+    "line_spacing_avg": 6.43,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 344,
+    "relative_font_size": 7
+  },
+  {
+    "text": "The .nodeName property of the .target allows us to identify a specific node. If our parent element contains more than one child element then we can identify specific elements by using the .nodeName property. const customUI = document.createElement('ul'); function responding(evt) { if (evt.target.nodeName === 'li') console.log('Responding')",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      306.056640625,
+      560.25,
+      422.51171875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 8.27,
+    "font_names": [
+      "Consolas",
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 341,
+    "relative_font_size": 7
+  },
+  {
+    "text": "for (var i = 1; i <= 10; i++) { const newElement = document.createElement('li'); newElement.textContent = \"This is line \" + i; customUI.appendChild(newElement);",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      451.2109375,
+      385.1998596191406,
+      508.0118408203125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 7.32,
+    "font_names": [
+      "Consolas"
+    ],
+    "text_case": "Mixed",
+    "length": 160,
+    "relative_font_size": 7
+  },
+  {
+    "text": "customUI.addEventListener('click', responding);",
+    "avg_font_size": 12.0,
+    "bbox": [
+      42.000003814697266,
+      536.7110595703125,
+      352.1999206542969,
+      550.7618408203125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 28.7,
+    "font_names": [
+      "Consolas"
+    ],
+    "text_case": "Mixed",
+    "length": 47,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Creating HTML with Javascript",
+    "avg_font_size": 19.43,
+    "bbox": [
+      177.29629516601562,
+      35.57892990112305,
+      425.2980041503906,
+      57.09208679199219
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 29,
+    "relative_font_size": 11
+  },
+  {
+    "text": "In this article, we will discuss how to create HTML elements using JavaScript. The following HTML has been provided to us, and our task is to recreate the given card element using JavaScript.",
+    "avg_font_size": 9.71,
+    "bbox": [
+      40.856590270996094,
+      94.01446533203125,
+      483.7117614746094,
+      128.4468994140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 24.92,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 191,
+    "relative_font_size": 2
+  },
+  {
+    "text": "HTML",
+    "avg_font_size": 10.93,
+    "bbox": [
+      48.74854278564453,
+      146.80731201171875,
+      78.49270629882812,
+      159.0151824951172
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 18.36,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 4,
+    "relative_font_size": 5
+  },
+  {
+    "text": "<!DOCTYPE html> <!DOCTYPE html> html > < html head > < head < meta meta charset charset =\"UTF-8\" \"UTF-8\" /> /> < meta meta http-equiv http-equiv =\"X-UA-Compatible\" \"X-UA-Compatible\" content content =\"IE=edge\" \"IE=edge\" /> /> < title title >Creating HTML Element with JS Creating HTML Element with JS </ </ title title > < style style > # parent-container parent-container { display display : flex flex ; flex-direction flex-direction : row row ;",
+    "avg_font_size": 8.5,
+    "bbox": [
+      82.74464416503906,
+      184.09133911132812,
+      349.1511535644531,
+      300.8877258300781
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 33,
+    "line_spacing_avg": 5.46,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 445,
+    "relative_font_size": 0
+  },
+  {
+    "text": ". card-container card-container { width width : 30 30 %; display display : flex flex ; flex-direction flex-direction : column column ; text-align text-align : center center ; box-shadow box-shadow : 0 4px px 8px px 0 rgba rgba (0, 0, 0, 0.2 0.2 ); ); margin margin : 10 10 px px ; padding-bottom padding-bottom : 5px px ;",
+    "avg_font_size": 8.5,
+    "bbox": [
+      82.74464416503906,
+      321.8969421386719,
+      311.816162109375,
+      407.12554931640625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 28,
+    "line_spacing_avg": 3.81,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 321,
+    "relative_font_size": 0
+  },
+  {
+    "text": "@ media media only only screen screen and and ( max-width max-width : 600px 600px ) { # parent-container parent-container { flex-direction flex-direction : column column ;",
+    "avg_font_size": 8.5,
+    "bbox": [
+      82.74464416503906,
+      428.134765625,
+      302.4368591308594,
+      459.94091796875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 12,
+    "line_spacing_avg": 10.69,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 171,
+    "relative_font_size": 0
+  },
+  {
+    "text": "</ </ style style > </ head head > </ body > < body < div div id id =\"parent-container\" \"parent-container\" > < div div class class =\"card-container\" \"card-container\" > < img img class class =\"image\" \"image\" src src =\"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_2020101318 \"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_2020101318 < span span >The journey of a thousand miles begins with a single The journey of a thousand miles begins with a single step </ </ span span > step </ </ div div > </ </ div div > < script script src src =\"index3.js\" \"index3.js\" ></ ></ script script > </ body body > </ </ html html > </",
+    "avg_font_size": 8.5,
+    "bbox": [
+      82.74464416503906,
+      481.5572204589844,
+      564.2035522460938,
+      651.1690063476562
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 47,
+    "line_spacing_avg": 6.24,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 653,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Output:",
+    "avg_font_size": 12.14,
+    "bbox": [
+      40.856590270996094,
+      707.4229125976562,
+      77.9609146118164,
+      720.8685913085938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 56.25,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 8
+  },
+  {
+    "text": "Rendered HTML To re-create the card, we would first fetch the parent-container, by using document.getElementById(), then we would use the document.createElement method to create a new element and set the CSS classes for that element using the .classlist.add() method.",
+    "avg_font_size": 9.71,
+    "bbox": [
+      40.856590270996094,
+      754.5101928710938,
+      561.7285766601562,
+      801.0840454101562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 15.98,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 267,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Then, we would create another element - the image element with correct alt text(using setAttribute) and the span with the text, and finally add child elements to parent elements using the .appendChild() method. Check out the JS code enclosed in the script tag below -",
+    "avg_font_size": 9.71,
+    "bbox": [
+      40.856590270996094,
+      29.057659149169922,
+      561.7269897460938,
+      77.45278930664062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 8.06,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 267,
+    "relative_font_size": 2
+  },
+  {
+    "text": "HTML",
+    "avg_font_size": 10.93,
+    "bbox": [
+      48.74854278564453,
+      95.81317138671875,
+      78.49270629882812,
+      108.02103424072266
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 18.36,
+    "font_names": [
+      "ArialMT"
+    ],
+    "text_case": "UPPER",
+    "length": 4,
+    "relative_font_size": 5
+  },
+  {
+    "text": "<!DOCTYPE html> <!DOCTYPE html> html > < html head > < head < meta meta charset charset =\"UTF-8\" \"UTF-8\" /> /> < meta meta http-equiv http-equiv =\"X-UA-Compatible\" \"X-UA-Compatible\" content content =\"IE=edge\" \"IE=edge\" /> /> < title title >Creating HTML Element with JS Creating HTML Element with JS </ </ title title > < style style > # parent-container parent-container { display display : flex flex ; flex-direction flex-direction : row row ;",
+    "avg_font_size": 8.5,
+    "bbox": [
+      82.74464416503906,
+      133.09718322753906,
+      349.1511535644531,
+      260.21380615234375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 33,
+    "line_spacing_avg": 6.93,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 445,
+    "relative_font_size": 0
+  },
+  {
+    "text": ". card-container card-container { width width : 30 30 %; display display : flex flex ; flex-direction flex-direction : column column ; text-align text-align : center center ; box-shadow box-shadow : 0 4px px 8px px 0 rgba rgba (0, 0, 0, 0.2 0.2 ); ); margin margin : 10 10 px px ; padding-bottom padding-bottom : 5px px ;",
+    "avg_font_size": 8.5,
+    "bbox": [
+      82.74464416503906,
+      281.8301086425781,
+      311.816162109375,
+      366.4516296386719
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 28,
+    "line_spacing_avg": 5.83,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 321,
+    "relative_font_size": 0
+  },
+  {
+    "text": "@ media media only only screen screen and and ( max-width max-width : 600px 600px ) { # parent-container parent-container { flex-direction flex-direction : column column ;",
+    "avg_font_size": 8.5,
+    "bbox": [
+      82.74464416503906,
+      388.0679016113281,
+      302.4368591308594,
+      419.87408447265625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 12,
+    "line_spacing_avg": 10.99,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 171,
+    "relative_font_size": 0
+  },
+  {
+    "text": "</ </ style style > </ head head > </ body > < body < div div id id =\"parent-container\" \"parent-container\" > < div div class class =\"card-container\" \"card-container\" > < img img src src =\"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_20201013185512_Consumer% \"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_20201013185512_Consumer% < span span >The journey of a thousand miles begins with a single The journey of a thousand miles begins with a single step </ </ span span > step </ </ div div > </ </ div div > < script script type type =\"text/javascript\" \"text/javascript\" > const const parentContainer parentContainer = document document .getElementById getElementById (\"parent-container\" \"parent-container\" ); ); const const cardContainer cardContainer = document document .createElement createElement (\"div\" \"div\" ); ); cardContainer cardContainer .classList classList .add add (\"card-container\" \"card-container\" ); ); const const cardImage cardImage = document document .createElement createElement (\"img\" \"img\" ); ); cardImage cardImage .setAttribute setAttribute (\"src\" \"src\" , \"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_20201 \"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_20201 cardImage cardImage .setAttribute setAttribute ('alt' 'alt' , \"travel-card\" \"travel-card\" ); ); const const cardSpan cardSpan = document document .createElement createElement (\"span\" \"span\" ); ); const const text text = document document .createTextNode createTextNode (\"The journey of a thousand miles begins with a single step\" \"The journey of a thousand miles begins with a single step\" ); ); cardSpan cardSpan .appendChild appendChild (text text ); ); cardContainer cardContainer .appendChild appendChild (cardImage cardImage ); ); cardContainer cardContainer .appendChild appendChild (cardSpan cardSpan ); ); parentContainer parentContainer .appendChild appendChild (cardContainer cardContainer ); ); </ </ script script > </ body body > </",
+    "avg_font_size": 8.5,
+    "bbox": [
+      82.74464416503906,
+      440.8833312988281,
+      564.2054443359375,
+      781.0827026367188
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 115,
+    "line_spacing_avg": 4.84,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 2003,
+    "relative_font_size": 0
+  },
+  {
+    "text": "</ html html > </",
+    "avg_font_size": 8.5,
+    "bbox": [
+      82.74464416503906,
+      39.000675201416016,
+      115.46778106689453,
+      49.559242248535156
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Consolas",
+      "Consolas-Bold"
+    ],
+    "text_case": "lower",
+    "length": 17,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Output:",
+    "avg_font_size": 12.14,
+    "bbox": [
+      40.856590270996094,
+      105.20609283447266,
+      77.9609146118164,
+      118.65181732177734
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 55.65,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 8
+  },
+  {
+    "text": "New element made with JS identical to the one made with HTML",
+    "avg_font_size": 9.71,
+    "bbox": [
+      65.13951873779297,
+      152.29344177246094,
+      321.1593322753906,
+      163.05001831054688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 33.64,
+    "font_names": [
+      "TimesNewRomanPSMT"
+    ],
+    "text_case": "Mixed",
+    "length": 60,
+    "relative_font_size": 2
+  }
+]

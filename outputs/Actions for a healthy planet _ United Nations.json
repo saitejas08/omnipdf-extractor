@@ -1,0 +1,884 @@
+[
+  {
+    "text": "Act Now (/en/actnow)",
+    "avg_font_size": 18.69,
+    "bbox": [
+      120.23089599609375,
+      74.17138671875,
+      292.59552001953125,
+      93.0792007446289
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 20,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Actions for a healthy planet",
+    "avg_font_size": 24.92,
+    "bbox": [
+      37.84440612792969,
+      144.2250213623047,
+      300.038330078125,
+      169.1434326171875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 51.15,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 28,
+    "relative_font_size": 6
+  },
+  {
+    "text": "Every one of us can make choices to protect nature, tackle climate change, and take care of our planet. (Illustration: United Nations Department of Global Communications)",
+    "avg_font_size": 8.72,
+    "bbox": [
+      37.84440612792969,
+      384.0661315917969,
+      545.8568725585938,
+      404.9006042480469
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 108.88,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 170,
+    "relative_font_size": 1
+  },
+  {
+    "text": "The Sustainable Development Goals (http://www.un.org/sustainabledevelopment) spell out how we can protect our environment and slow climate change, from forests to oceans to everywhere in between. Think about your electricity use and your travel. Check your dinner table. Reuse whatever you can. The possibilities for action are many \u2013 and add up fast. Greenhouse gas emissions per person vary greatly among countries. In the United States of America and the Russian Federation per capita emissions (https://wedocs.unep.org/bitstream/handle/20.500.11822/46443/EGR2024_ESEN.pdf? sequence=14&isAllowed=y) are almost three times the world average of 6.6 tons of CO2 equivalent, while in India and the African Union they are less than half the world average. Globally, the 10 per cent of the population with the highest income account for nearly half of all emissions. Here are some actions to reduce your impact on the environment. To learn more about climate action, science and solutions, click here (https://www.un.org/en/climatechange).",
+    "avg_font_size": 9.97,
+    "bbox": [
+      37.84440612792969,
+      446.6085510253906,
+      512.2553100585938,
+      626.33740234375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 12,
+    "line_spacing_avg": 8.17,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 1036,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Download the mobile app (https://actnow.aworld.org/) to see the difference your actions make!",
+    "avg_font_size": 9.97,
+    "bbox": [
+      160.7622528076172,
+      311.4261474609375,
+      417.8095703125,
+      336.6609191894531
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 4.67,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 93,
+    "relative_font_size": 2
+  },
+  {
+    "text": "DOWNLOAD THE APP (HTTPS://ACTNOW.AWORLD.ORG)",
+    "avg_font_size": 7.48,
+    "bbox": [
+      176.41412353515625,
+      358.9925537109375,
+      401.145263671875,
+      366.5629577636719
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 22.33,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "UPPER",
+    "length": 44,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Save energy at home",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.68701171875,
+      155.64617919921875,
+      563.5527954101562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 19,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Much of our electricity and heat are powered by coal, oil and gas. Use less energy by reducing your heating and cooling use, switching to LED light bulbs and energy-efficient electric appliances, washing your laundry with cold water, or hanging things to dry instead of using a dryer. Improving your home\u2019s energy efficiency, through better insulation for instance, or replacing your oil or gas furnace with an electric heat pump can reduce your carbon footprint by up to 900 kilograms of CO2e per year. Get more energy tips for your home here (https://www.un.org/en/actnow/home-energy).",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9545288085938,
+      516.7975463867188,
+      654.9935913085938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 4.96,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 587,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Change your home's source of energy",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.6871337890625,
+      241.35443115234375,
+      563.5529174804688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 35,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Ask your utility company if your home energy comes from oil, coal or gas. If possible, see if you can switch to renewable sources such as wind or solar. Or install solar panels on your roof to generate energy for your home. Switching your home from oil, gas or coal-powered energy to renewable sources of energy, such as wind or solar, can reduce your carbon footprint by up to 1.5 tons of CO2e per year. Learn more (https://www.un.org/en/climatechange/raising-ambition/renewable-energy) about why switching to renewable energy is key to tackling the climate crisis.",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9546508789062,
+      519.1130981445312,
+      654.9937133789062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 4.96,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 566,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Walk, bike or take public transport",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.6871337890625,
+      224.61831665039062,
+      563.5529174804688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 35,
+    "relative_font_size": 3
+  },
+  {
+    "text": "The world\u2019s roadways are clogged with vehicles, most of them burning diesel or gasoline. Walking or riding a bike instead of driving will reduce greenhouse gas emissions -- and help your health and fitness. For longer distances, consider taking a train or bus. And carpool whenever possible. Living car-free can reduce your carbon footprint by up to 2 tons of CO2e per year compared to a lifestyle using a car. Learn more (https://www.un.org/en/actnow/transport) about how to green your travel.",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9546508789062,
+      521.7114868164062,
+      640.0425415039062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 5.01,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 494,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Switch to an electric vehicle",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.6871337890625,
+      192.40403747558594,
+      563.5529174804688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 29,
+    "relative_font_size": 3
+  },
+  {
+    "text": "If you plan to buy a car, consider going electric, with more and cheaper models coming on the market. In many countries, electric cars help reduce air pollution and cause significantly fewer greenhouse gas emissions than gas or diesel-powered vehicles. But many electric cars still run on electricity produced from fossil fuels, and the batteries and engines require rare minerals which often come with high environmental and social costs. Switching from a gasoline or diesel-powered car to an electric vehicle can reduce your carbon footprint by up to 2 tons of CO2e per year. A hybrid vehicle can save you up to 700 kilograms of CO2e per year.",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9546508789062,
+      524.7620849609375,
+      654.9937133789062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 4.96,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 645,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Consider your travel",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.6873779296875,
+      151.57923889160156,
+      563.5531616210938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 20,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Airplanes burn large amounts of fossil fuels, producing significant greenhouse gas emissions. That makes taking fewer flights one of the fastest ways to reduce your environmental impact. When you can, meet virtually, take a train, or skip that long-distance trip altogether. Taking one less long-haul return flight can reduce your carbon footprint by up to almost 2 tons of CO2e. Learn more (https://www.un.org/en/actnow/transport) about how to green your travel.",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9548950195312,
+      521.821533203125,
+      640.0427856445312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 5.01,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 463,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Reduce, reuse, repair and recycle",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.6868896484375,
+      219.37611389160156,
+      563.5526733398438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 33,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Electronics, clothes, plastics and other items we buy cause carbon emissions at each point in production, from the extraction of raw materials to manufacturing and transporting goods to market. To protect the climate, buy fewer things, shop second-hand, and repair what you can. Plastics alone generated 1.8 billion metric tonnes of greenhouse gas emissions in 2019 \u2013 3.4 per cent of the global total. Less than 10 per cent is recycled, and once plastic is discarded, it can linger for hundreds of years. Buying fewer new clothes \u2013 and other consumer goods \u2013 can also reduce your carbon footprint. Every kilogram of textiles produced generates about 17 kilograms of CO2e.",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9544067382812,
+      526.12451171875,
+      654.9934692382812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 4.96,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 671,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Eat more vegetables",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.6868896484375,
+      152.99514770507812,
+      563.5526733398438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 19,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Eating more vegetables, fruits, whole grains, legumes, nuts, and seeds, and less meat and dairy, can significantly lower your environmental impact. Producing plant-based foods generally results in fewer greenhouse gas emissions and requires less energy, land, and water. Shifting from a mixed to a vegetarian diet can reduce your carbon footprint by up to 500 kilograms of CO2e per year (or up to 900 kilograms for a vegan diet). Learn more (https://www.un.org/en/climatechange/science/climate-issues/food) about the connections between food and climate change.",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9544067382812,
+      516.586669921875,
+      654.9934692382812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 4.96,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 561,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Throw away less food",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.6873779296875,
+      159.69178771972656,
+      563.5531616210938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 20,
+    "relative_font_size": 3
+  },
+  {
+    "text": "When you throw food away, you're also wasting the resources and energy that were used to grow, produce, package, and transport it. And when food rots in a landfill, it produces methane, a powerful greenhouse gas. So purchase only what you need, use what you buy and compost any leftovers. Cutting your food waste can reduce your carbon footprint by up to 300 kilograms of CO2e per year.",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9548950195312,
+      515.4884033203125,
+      625.0916137695312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 5.1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 386,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Plant native species",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.6873779296875,
+      151.82040405273438,
+      563.5531616210938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 20,
+    "relative_font_size": 3
+  },
+  {
+    "text": "If you have a garden or even just a plant or two outside your home, check for native species. Use a plant identification app to help. And then think about replacing non-natives, especially any considered invasive. Plants, animals and insects depend on each other. Most insects will not eat non-native plants, which means birds and other species lose a food source. Biodiversity suffers. Even a single tree or shrub can offer a refuge \u2013 just remember to skip insecticides and other chemicals.",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9544067382812,
+      517.0826416015625,
+      640.0427856445312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 5.01,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 491,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Clean up your environment",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.6859130859375,
+      186.2668914794922,
+      563.5516967773438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 25,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Humans, animals and plants all suffer from land and water contaminated by improperly discarded garbage. Use what you need, and when you have to throw something out, dispose of it properly. Educate others to do the same, and participate in local clean-ups of parks, rivers, beaches and beyond. Every year, people throw out 2 billion tons of trash. About a third causes environment harms, from choking water supplies to poisoning soil.",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9539184570312,
+      529.493408203125,
+      625.0901489257812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 5.1,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 433,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Make your money count",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.6868896484375,
+      171.46365356445312,
+      563.5526733398438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 21,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Everything we spend money on affects the planet. You have the power to choose which goods and services you support. To reduce your environmental impact, choose products from companies who use resources responsibly and are committed to cutting their gas emissions and waste. If you have money that is being invested for you, through a pension fund for instance, it may be supporting fossil fuels or deforestation. Making sure your savings are invested in environmentally sustainable businesses can greatly reduce your carbon footprint.",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9548950195312,
+      520.7935791015625,
+      640.0422973632812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 5.01,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 534,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Speak up",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      549.6859130859375,
+      95.43741607666016,
+      563.5516967773438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 8,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Speak up and get others to join in taking action. It's one of the quickest and most effective ways to make a difference. Talk to your neighbors, colleagues, friends, and family. Let business owners know you support bold changes \u2013 from plastics-free products and packaging to zero-emissions vehicles. Appeal to local and world leaders to act now. Climate action is a task for all of us. And it concerns all of us. No one can do it all alone \u2013 but we can do it together. Explore ideas here (https://www.unep.org/interactives/things-you-can-do-climate- emergency/).",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      569.9539184570312,
+      517.6817016601562,
+      654.9924926757812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 4.96,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 562,
+    "relative_font_size": 2
+  },
+  {
+    "text": "For more detailed information on low-carbon lifestyles, see the UN Environment Programme\u2019s Emissions Gap Report (https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/34432/EGR20ch6.pdf?sequence=3). For more on how to reduce carbon-intensive consumption and scale up low-carbon alternatives, see this UNEP policy brief (https://wedocs.unep.org/bitstream/handle/20.500.11822/39972/Lifestyles_climate.pdf? sequence=6&isAllowed=y). Illustrations: Niccolo Canova",
+    "avg_font_size": 9.97,
+    "bbox": [
+      47.18880844116211,
+      697.0379028320312,
+      510.5293884277344,
+      791.4212036132812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 12.45,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 464,
+    "relative_font_size": 2
+  },
+  {
+    "text": "TO LOG YOUR ACTIONS, DOWNLOAD THE APP HERE! (HTTPS://ACTNOW.AWORLD.ORG/)",
+    "avg_font_size": 7.48,
+    "bbox": [
+      60.270973205566406,
+      53.74150466918945,
+      416.2937316894531,
+      61.31193161010742
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "UPPER",
+    "length": 72,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Choose your issue. Make an impact.",
+    "avg_font_size": 19.93,
+    "bbox": [
+      47.18880844116211,
+      118.25767517089844,
+      319.9646301269531,
+      138.19239807128906
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 56.95,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 34,
+    "relative_font_size": 5
+  },
+  {
+    "text": "(https://www.un.org/en/actnow/ten-actions-just-society)",
+    "avg_font_size": 8.72,
+    "bbox": [
+      47.18880844116211,
+      516.1331176757812,
+      266.4330749511719,
+      525.1314086914062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 377.94,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "lower",
+    "length": 55,
+    "relative_font_size": 1
+  },
+  {
+    "text": "A just society (https://www.un.org/en/actnow/ten-actions-just-society)",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      536.6038818359375,
+      415.4401550292969,
+      550.4696655273438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 11.47,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 70,
+    "relative_font_size": 3
+  },
+  {
+    "text": "(https://www.un.org/en/actnow/ten-actions-economy)",
+    "avg_font_size": 8.72,
+    "bbox": [
+      47.18880844116211,
+      384.0657653808594,
+      257.7371520996094,
+      393.0639953613281
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "lower",
+    "length": 50,
+    "relative_font_size": 1
+  },
+  {
+    "text": "A better economy (https://www.un.org/en/actnow/ten-actions-economy)",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      404.5365295410156,
+      422.9193115234375,
+      418.4022521972656
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 11.47,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 67,
+    "relative_font_size": 3
+  },
+  {
+    "text": "(https://www.un.org/en/actnow/ten-actions-peaceful-world)",
+    "avg_font_size": 8.72,
+    "bbox": [
+      47.18880844116211,
+      777.7766723632812,
+      279.357666015625,
+      786.7749633789062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 359.37,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "lower",
+    "length": 57,
+    "relative_font_size": 1
+  },
+  {
+    "text": "A peaceful world (https://www.un.org/en/actnow/ten-actions-peaceful-world)",
+    "avg_font_size": 13.71,
+    "bbox": [
+      47.18880844116211,
+      798.2474365234375,
+      449.07147216796875,
+      812.1132202148438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 11.47,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 74,
+    "relative_font_size": 3
+  },
+  {
+    "text": "(https://www.addtoany.com/share#url=https%3A%2F%2Fwww.un.org%2Fen%2Factn actions&title=Actions%20for%20a%20healthy%20planet%20%7C%20United%20Natio (/#facebook) (/#x) (/#email) (/#whatsapp)",
+    "avg_font_size": 8.72,
+    "bbox": [
+      243.1098175048828,
+      73.83138275146484,
+      570.0292358398438,
+      142.6343231201172
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 5.95,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "lower",
+    "length": 188,
+    "relative_font_size": 1
+  },
+  {
+    "text": "(https://www.un.org/en/) DONATE (/EN/ABOUT-US/HOW-TO-DONATE-TO-THE-UN-SYSTEM)",
+    "avg_font_size": 8.1,
+    "bbox": [
+      37.84440612792969,
+      237.6702423095703,
+      543.5158081054688,
+      260.6595764160156
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 50.73,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "UPPER",
+    "length": 77,
+    "relative_font_size": null
+  },
+  {
+    "text": "A-Z SITE INDEX (HTTPS://WWW.UN.ORG/EN/SITE-INDEX) CONTACT (HTTPS://WWW.UN.ORG/EN/CONTACT-US-0) COPYRIGHT (HTTPS://WWW.UN.ORG/EN/ABOUT-US/COPYRIGHT) FAQ (HTTPS://WWW.UN.ORG/EN/ABOUT-US/FREQUENTLY-ASKED-QUESTIONS) FRAUD ALERT (HTTPS://WWW.UN.ORG/EN/ABOUT-US/FRAUD-ALERT) PRIVACY NOTICE (HTTPS://WWW.UN.ORG/EN/ABOUT-US/PRIVACY-NOTICE) TERMS OF USE (HTTPS://WWW.UN.ORG/EN/ABOUT-US/TERMS-OF-USE)",
+    "avg_font_size": 7.48,
+    "bbox": [
+      40.959205627441406,
+      293.54119873046875,
+      480.9019775390625,
+      363.4732360839844
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 7,
+    "line_spacing_avg": 9.5,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "UPPER",
+    "length": 390,
+    "relative_font_size": 0
+  }
+]

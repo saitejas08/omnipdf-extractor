@@ -1,0 +1,4321 @@
+[
+  {
+    "text": "Bricks, Beads and Bones",
+    "avg_font_size": 23.0,
+    "bbox": [
+      186.79750061035156,
+      104.2919692993164,
+      513.0482788085938,
+      127.61396789550781
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "Mixed",
+    "length": 23,
+    "relative_font_size": 35
+  },
+  {
+    "text": "THEME",
+    "avg_font_size": 14.0,
+    "bbox": [
+      76.15750122070312,
+      110.59999084472656,
+      133.0395050048828,
+      124.79598999023438
+    ],
+    "is_bold": true,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "UPPER",
+    "length": 5,
+    "relative_font_size": 29
+  },
+  {
+    "text": "ONE",
+    "avg_font_size": 17.0,
+    "bbox": [
+      82.87750244140625,
+      129.61697387695312,
+      126.3218994140625,
+      146.85496520996094
+    ],
+    "is_bold": true,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 4.82,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "UPPER",
+    "length": 3,
+    "relative_font_size": 33
+  },
+  {
+    "text": "The Harappan Civilisation",
+    "avg_font_size": 20.0,
+    "bbox": [
+      206.2375030517578,
+      129.99005126953125,
+      493.54217529296875,
+      149.99005126953125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CopperplateGothicLight"
+    ],
+    "text_case": "Title",
+    "length": 25,
+    "relative_font_size": 34
+  },
+  {
+    "text": "The Harappan seal (Fig.1.1) is possibly the most distinctive artefact of the Harappan or Indus valley civilisation. Made of a stone called steatite, seals like this one often contain animal motifs and signs from a script that remains undeciphered. Yet we know a great deal about the lives of the people who lived in the region from what they left behind \u2013 their houses, pots, ornaments, tools and seals \u2013 in other words, from archaeological evidence. Let us see what we know about the Harappan civilisation, and how we know about it. We will explore how archaeological material is interpreted and how Fig. 1.1 interpretations sometimes change. Of course, there A Harappan seal are some aspects of the civilisation that are as yet unknown and may even remain so.",
+    "avg_font_size": 10.82,
+    "bbox": [
+      78.07749938964844,
+      190.199951171875,
+      467.3641357421875,
+      386.0221252441406
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 17,
+    "line_spacing_avg": 4.78,
+    "font_names": [
+      "Bookman,Italic",
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 761,
+    "relative_font_size": null
+  },
+  {
+    "text": "Terminologies, Places and Time",
+    "avg_font_size": 12.33,
+    "bbox": [
+      134.95761108398438,
+      411.82489013671875,
+      330.7979736328125,
+      424.15777587890625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 25.8,
+    "font_names": [
+      "CooperLtBT,Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": 24
+  },
+  {
+    "text": "\u201cThe Harappan Civilisation\u201d is also known as the Indus Valley Civilisation. The term Harappa is derived from the place where the civilization was identified. The total time span of the civilisation ranges from 6000 BCE  to 1300 BCE. The early phase, termed as Early Harappan (6000 BCE-2600 BCE) is a formative phase of the civilisation. The urban phase of the civilisation, termed as Mature Harappan (2600 BCE-1900 BCE) is the most prosperous phase. The decline of the civilisation starts around 1900 BCE. This decadent phase (1900 BCE-1300 BCE) is termed as Late Harappan. The distinctive Harappan pottery, bricks (baked and unbaked) seals, weights, beads, copper and bronze articles, belonging to the Harappan civilisation have been found in the region, as apart as Afghanistan, Baluchistan, Sind and Punjab provinces of Pakistan and the Indian States of Jammu and Kashmir, Punjab, Haryana, Rajasthan, Uttar Pradesh, Gujarat and Maharashtra (Map 1). Fig. 1.2 Beads, weights, blades",
+    "avg_font_size": 10.0,
+    "bbox": [
+      82.63749694824219,
+      429.7159118652344,
+      380.27581787109375,
+      638.5462646484375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 18,
+    "line_spacing_avg": 1.91,
+    "font_names": [
+      "Bookman,Italic",
+      "CooperLtBT"
+    ],
+    "text_case": "Mixed",
+    "length": 983,
+    "relative_font_size": 14
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 129.82,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "T HEMES IN I NDIAN H ISTORY",
+    "avg_font_size": 11.27,
+    "bbox": [
+      368.4775085449219,
+      70.53399658203125,
+      522.321044921875,
+      84.07849884033203
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Wingdings",
+      "CopprplGothBdBT"
+    ],
+    "text_case": "UPPER",
+    "length": 27,
+    "relative_font_size": 22
+  },
+  {
+    "text": "Manda Jhelum Chenab Ravi Harappa Rakhigarhi Sutlej Banawali Ganga Mitathal Kalibangan Yamuna Indus Ganweriwala You will find certain abbreviations, related to Mohenjodaro Kot Diji Chambal dates, in this book. BP stands for Before Chanhudaro Sutkagendor Amri Present Balakot BCE stands for Before Common Era Sabarmati CE stands for the Common Arabian Sea Dholavira Mahi Era. The present year is 2015 according to this Lothal",
+    "avg_font_size": 7.78,
+    "bbox": [
+      53.117496490478516,
+      114.19406127929688,
+      496.36016845703125,
+      345.1339416503906
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 36,
+    "line_spacing_avg": 6.79,
+    "font_names": [
+      "Arial,Italic",
+      "Bookman",
+      "Arial",
+      "Bookman,Bold"
+    ],
+    "text_case": "Title",
+    "length": 423,
+    "relative_font_size": null
+  },
+  {
+    "text": "Map 1 dating system. Some important",
+    "avg_font_size": 9.17,
+    "bbox": [
+      53.11750411987305,
+      337.9270324707031,
+      245.3628387451172,
+      358.947021484375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 0.76,
+    "font_names": [
+      "Bookman,Italic",
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 35,
+    "relative_font_size": null
+  },
+  {
+    "text": "Nageshwar c. stands for the Latin Rangpur Narmada",
+    "avg_font_size": 7.75,
+    "bbox": [
+      53.11760330200195,
+      350.11395263671875,
+      433.9996337890625,
+      372.7322082519531
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 4,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Arial,Italic",
+      "Bookman",
+      "Arial",
+      "Bookman,Bold"
+    ],
+    "text_case": "Title",
+    "length": 49,
+    "relative_font_size": null
+  },
+  {
+    "text": "Mature Harappan sites word circa and means \u201capproximate.\u201d Sketch map not to scale",
+    "avg_font_size": 8.38,
+    "bbox": [
+      53.11759567260742,
+      360.7270202636719,
+      281.36749267578125,
+      382.2825622558594
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 1.8,
+    "font_names": [
+      "Bookman,Italic",
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 81,
+    "relative_font_size": null
+  },
+  {
+    "text": "1. Beginnings",
+    "avg_font_size": 15.0,
+    "bbox": [
+      233.59750366210938,
+      411.0562744140625,
+      344.77398681640625,
+      426.0562744140625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 29.91,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "Title",
+    "length": 13,
+    "relative_font_size": 32
+  },
+  {
+    "text": "There were several archaeological cultures in the",
+    "avg_font_size": 11.0,
+    "bbox": [
+      233.5974884033203,
+      430.68096923828125,
+      522.3390502929688,
+      441.7029724121094
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 4.62,
+    "font_names": [
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 49,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Harappan Settlements",
+    "avg_font_size": 13.5,
+    "bbox": [
+      56.47749710083008,
+      437.87603759765625,
+      207.20428466796875,
+      451.37603759765625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CooperLtBT,Bold"
+    ],
+    "text_case": "Title",
+    "length": 20,
+    "relative_font_size": 28
+  },
+  {
+    "text": "region prior to the Mature Harappan. These cultures were associated with distinctive pottery, evidence of So far, more than 2000 agriculture and pastoralism, and some crafts. Harappan archaeological Settlements were generally small, and there were sites have been discovered in virtually no large buildings. The recent the Indian sub-continent. archaeological evidences also indicate the emergence Most of the sites are found located between The Indus of Harappan culture from early farming communities and The Saraswati river dated around 7000 BCE. The urban phase (Mature basins. Nearly two-thirds of Harappan) was a consequent result of the gradual these settlements are in the transformation and internal development of the Saraswati basin, suggesting its civilisation during the early Harappan phase. immense importance for the Harappan Civilisation.",
+    "avg_font_size": 10.55,
+    "bbox": [
+      65.11749267578125,
+      440.47601318359375,
+      522.3419189453125,
+      590.6762084960938
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 29,
+    "line_spacing_avg": 0.97,
+    "font_names": [
+      "Bookman",
+      "CooperLtBT",
+      "Bookman,Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 855,
+    "relative_font_size": null
+  },
+  {
+    "text": "2. Subsistence Strategies",
+    "avg_font_size": 15.0,
+    "bbox": [
+      233.59786987304688,
+      583.615966796875,
+      449.6713562011719,
+      598.615966796875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "Title",
+    "length": 25,
+    "relative_font_size": 32
+  },
+  {
+    "text": "Among these, five major cities have been identified. These If you look at Maps 1 and 2 you will notice that the are Rakhigarhi, Mohenjodaro, Mature Harappan culture developed in some of the Harappa, Dholavira and areas occupied by the Early Harappan cultures. Ganweriwala. The remaining These cultures also shared certain common elements sites come under different including subsistence strategies. The Harappans ate categories such as Regional a wide range of plant and animal products, including Centres, agricultural villages, fish. Archaeologists have been able to reconstruct ports and manufacturing dietary practices from finds of charred grains and centres. seeds. These are studied by archaeo-botanists,  who are specialists in ancient plant remains. Grains",
+    "avg_font_size": 10.5,
+    "bbox": [
+      65.11749267578125,
+      591.7161865234375,
+      522.3468017578125,
+      723.2227172851562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 20,
+    "line_spacing_avg": 0.89,
+    "font_names": [
+      "CooperLtBT",
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 765,
+    "relative_font_size": 18
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 45.14,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "B RICKS , B EADS AND B ONES",
+    "avg_font_size": 11.05,
+    "bbox": [
+      70.87750244140625,
+      73.22138977050781,
+      214.15921020507812,
+      86.22138977050781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00"
+    ],
+    "text_case": "UPPER",
+    "length": 27,
+    "relative_font_size": 20
+  },
+  {
+    "text": "found at Harappan sites include wheat, barley, lentil, chickpea and sesame. Millets are found from sites in Gujarat. Finds of rice are relatively rare. Animal bones found at Harappan sites include those of cattle, sheep, goat, buffalo and pig. Studies",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87753295898438,
+      102.61295318603516,
+      252.3315887451172,
+      206.01304626464844
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 8,
+    "line_spacing_avg": 3.97,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 251,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Indus",
+    "avg_font_size": 7.5,
+    "bbox": [
+      401.70648193359375,
+      200.83201599121094,
+      414.2168273925781,
+      220.9148406982422
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica-Oblique"
+    ],
+    "text_case": "Title",
+    "length": 5,
+    "relative_font_size": 1
+  },
+  {
+    "text": "done by archaeo-zoologists or zoo-",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87753295898438,
+      208.2130584716797,
+      252.33038330078125,
+      219.2130584716797
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "lower",
+    "length": 34,
+    "relative_font_size": 19
+  },
+  {
+    "text": "SISWAL DAMB",
+    "avg_font_size": 9.0,
+    "bbox": [
+      325.5174865722656,
+      211.70042419433594,
+      496.6398010253906,
+      223.1008758544922
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "UPPER",
+    "length": 11,
+    "relative_font_size": 7
+  },
+  {
+    "text": "archaeologists indicate that these",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87753295898438,
+      221.41307067871094,
+      252.32830810546875,
+      232.41307067871094
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "lower",
+    "length": 34,
+    "relative_font_size": 19
+  },
+  {
+    "text": "SADAAT",
+    "avg_font_size": 9.0,
+    "bbox": [
+      325.5174865722656,
+      224.90086364746094,
+      358.37646484375,
+      233.90086364746094
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "UPPER",
+    "length": 6,
+    "relative_font_size": 7
+  },
+  {
+    "text": "animals were domesticated.",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87753295898438,
+      234.6130828857422,
+      252.3273162841797,
+      245.6130828857422
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.71,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "lower",
+    "length": 26,
+    "relative_font_size": 19
+  },
+  {
+    "text": "KOT",
+    "avg_font_size": 9.0,
+    "bbox": [
+      369.9178161621094,
+      242.9004364013672,
+      387.9192199707031,
+      251.9004364013672
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "UPPER",
+    "length": 3,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Bones of wild species such as",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87753295898438,
+      247.81309509277344,
+      252.32791137695312,
+      258.8130798339844
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 29,
+    "relative_font_size": 19
+  },
+  {
+    "text": "DIJI",
+    "avg_font_size": 9.0,
+    "bbox": [
+      369.9178161621094,
+      253.70042419433594,
+      385.7596435546875,
+      262.7004089355469
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "UPPER",
+    "length": 4,
+    "relative_font_size": 7
+  },
+  {
+    "text": "boar, deer and gharial are also found. We do not know",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87753295898438,
+      260.85577392578125,
+      252.3295135498047,
+      285.2131042480469
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 2.2,
+    "font_names": [
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 53,
+    "relative_font_size": 19
+  },
+  {
+    "text": "AMRI-NAL",
+    "avg_font_size": 9.0,
+    "bbox": [
+      272.9574890136719,
+      279.1408386230469,
+      314.9613342285156,
+      288.1408386230469
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "UPPER",
+    "length": 8,
+    "relative_font_size": 7
+  },
+  {
+    "text": "whether the Harappans hunted these animals themselves or obtained meat from other hunting",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87753295898438,
+      287.4131164550781,
+      252.329345703125,
+      324.8131408691406
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 2.2,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "lower",
+    "length": 89,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Arabian Sea",
+    "avg_font_size": 8.5,
+    "bbox": [
+      291.91748046875,
+      320.0871887207031,
+      337.75994873046875,
+      328.5871887207031
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 11,
+    "relative_font_size": 5
+  },
+  {
+    "text": "communities. Bones of fish and fowl are also found. Map 2 Areas of Early Harappan 2.1 Agricultural technologies occupation While the prevalence of",
+    "avg_font_size": 10.36,
+    "bbox": [
+      70.87753295898438,
+      327.0131530761719,
+      389.1326599121094,
+      394.17315673828125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 7,
+    "line_spacing_avg": 2.15,
+    "font_names": [
+      "Bookman-Demi",
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 146,
+    "relative_font_size": null
+  },
+  {
+    "text": "Sketch map not to scale",
+    "avg_font_size": 7.0,
+    "bbox": [
+      270.5574951171875,
+      392.8050842285156,
+      351.44342041015625,
+      399.8050842285156
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 23,
+    "relative_font_size": 0
+  },
+  {
+    "text": "agriculture is indicated by finds of grain, it is more difficult to reconstruct actual agricultural practices. Were seeds broadcast (scattered) on ploughed lands? Representations on seals and terracotta sculpture indicate that the bull was known, and archaeologists extrapolate from this that oxen Fig. 1.3 were used for ploughing. Moreover, terracotta A terracotta bull models of the plough have been found at sites in Cholistan and at Banawali (Haryana). Archaeologists have also found evidence of a ploughed field at Kalibangan (Rajasthan), associated with Early Harappan levels (see p. 20). The field had two sets of furrows at right angles to each other, suggesting that two different crops were grown together. Archaeologists have also tried to identify the tools used for harvesting. Did the Harappans use stone blades set in wooden handles or did they use metal tools?",
+    "avg_font_size": 10.86,
+    "bbox": [
+      70.87753295898438,
+      396.3731689453125,
+      450.0871276855469,
+      658.17333984375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 22,
+    "line_spacing_avg": 2.2,
+    "font_names": [
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 876,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u00dc Discuss...",
+    "avg_font_size": 14.0,
+    "bbox": [
+      375.197509765625,
+      651.2949829101562,
+      460.8824768066406,
+      668.7554931640625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman-Light",
+      "TT2F2T00"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 29
+  },
+  {
+    "text": "Most Harappan sites are located in semi-arid Are there any similarities or lands, where irrigation was probably required for differences in the distribution agriculture. Traces of canals have been found at of settlements shown on Maps the Harappan site of Shortughai in Afghanistan, but 1 and 2? not in Punjab or Sind. It is possible that ancient",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87753295898438,
+      660.373291015625,
+      545.3678588867188,
+      724.1732788085938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 9,
+    "line_spacing_avg": 0.04,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 346,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 44.19,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "T HEMES IN I NDIAN H ISTORY",
+    "avg_font_size": 11.27,
+    "bbox": [
+      368.4775085449219,
+      70.53399658203125,
+      522.321044921875,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00",
+      "TT2F2T00"
+    ],
+    "text_case": "UPPER",
+    "length": 27,
+    "relative_font_size": 22
+  },
+  {
+    "text": "canals silted up long ago. It is also likely that water drawn from wells was used for irrigation. Besides, water reservoirs found in Dholavira (Gujarat) may have been used to store water for agriculture. Source 1",
+    "avg_font_size": 10.7,
+    "bbox": [
+      233.59751892089844,
+      102.6139907836914,
+      522.3369750976562,
+      170.7073211669922
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 6.2,
+    "font_names": [
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 212,
+    "relative_font_size": null
+  },
+  {
+    "text": "How artefacts are identified",
+    "avg_font_size": 13.0,
+    "bbox": [
+      286.15753173828125,
+      176.58135986328125,
+      470.0232238769531,
+      189.58135986328125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 5.87,
+    "font_names": [
+      "TT34ET00"
+    ],
+    "text_case": "Mixed",
+    "length": 28,
+    "relative_font_size": 26
+  },
+  {
+    "text": "Processing of food required grinding equipment as well as vessels for mixing, blending and cooking. These were made of stone, metal Fig. 1.4 and terracotta. This is an excerpt from one of the earliest reports on Copper tools excavations at Mohenjodaro, the best-known Harappan site: \u00dc Do you think these Saddle querns \u2026 are found in considerable numbers tools could have been used \u2026 and they seem to have been the only means in use for harvesting? for grinding cereals. As a rule, they were roughly made of hard, gritty, igneous rock or sandstone and mostly show signs of hard usage. As their bases are usually convex, they must have been set in the earth or in mud to prevent their rocking. Two main types have Fig. 1.5 been found: those on which another smaller stone was Reservoir at Dholavira pushed or rolled to and fro, and others with which a Note the masonry work. second stone was used as a pounder, eventually making a large cavity in the nether stone. Querns of the former type were probably used solely for grain; the second type possibly only for pounding herbs and spices for making curries. In fact, stones of this latter type are dubbed \u201ccurry stones\u201d by our workmen and our cook asked for the loan of one from the museum for use in the kitchen. F ROM E RNEST M ACKAY , Further Excavations at Mohenjodaro , 1937. Fig. 1.6 Saddle quern",
+    "avg_font_size": 10.01,
+    "bbox": [
+      47.35750198364258,
+      210.86380004882812,
+      511.5622863769531,
+      553.5073852539062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 33,
+    "line_spacing_avg": 4.15,
+    "font_names": [
+      "TT34DT00",
+      "Bookman-Light",
+      "TT2F2T00",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 1350,
+    "relative_font_size": null
+  },
+  {
+    "text": "Archaeologists use present-day analogies to try",
+    "avg_font_size": 10.5,
+    "bbox": [
+      262.87750244140625,
+      654.5103759765625,
+      504.7974853515625,
+      665.0103759765625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 101.0,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 47,
+    "relative_font_size": 18
+  },
+  {
+    "text": "\u00dc Discuss...",
+    "avg_font_size": 14.5,
+    "bbox": [
+      47.35750198364258,
+      659.1749877929688,
+      133.5225067138672,
+      677.635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman-Light",
+      "TT2F2T00"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 31
+  },
+  {
+    "text": "and understand what ancient artefacts were used for. Mackay was comparing present-day querns What is the evidence used by with what he found. Is this a useful strategy? archaeologists to reconstruct dietary practices?",
+    "avg_font_size": 10.75,
+    "bbox": [
+      47.35750198364258,
+      667.7103881835938,
+      500.2379455566406,
+      717.9339599609375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 1.85,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 217,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 50.43,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "B RICKS , B EADS AND B ONES",
+    "avg_font_size": 11.05,
+    "bbox": [
+      70.87750244140625,
+      73.22041320800781,
+      214.15921020507812,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CopprplGothBdBT"
+    ],
+    "text_case": "UPPER",
+    "length": 27,
+    "relative_font_size": 20
+  },
+  {
+    "text": "3. Mohanjodaro A Planned Urban Centre",
+    "avg_font_size": 13.88,
+    "bbox": [
+      70.87750244140625,
+      99.53631591796875,
+      279.4932861328125,
+      132.48419189453125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 8.88,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "Title",
+    "length": 37,
+    "relative_font_size": null
+  },
+  {
+    "text": "Perhaps the most unique feature of the Harappan civilisation was the development of urban centres. Let us look at one such centre, Mohenjodaro, more closely. Although Mohenjodaro is the most Fig. 1.7 well-known site, the first site to be discovered Layout of Mohenjodaro was Harappa. How is the Lower Town The settlement is divided into two sections, one different from the Citadel? smaller but higher and the other much larger but",
+    "avg_font_size": 10.67,
+    "bbox": [
+      70.87748718261719,
+      139.08099365234375,
+      519.2109375,
+      247.88192749023438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 12,
+    "line_spacing_avg": 2.2,
+    "font_names": [
+      "Bookman,Italic",
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 431,
+    "relative_font_size": null
+  },
+  {
+    "text": "metres",
+    "avg_font_size": 8.5,
+    "bbox": [
+      438.7975158691406,
+      690.7620239257812,
+      463.51806640625,
+      699.2620239257812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 442.88,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "lower",
+    "length": 6,
+    "relative_font_size": 5
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 69.11,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "T HEMES IN I NDIAN H ISTORY",
+    "avg_font_size": 11.27,
+    "bbox": [
+      368.4775085449219,
+      70.53399658203125,
+      522.321044921875,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00",
+      "TT2F2T00"
+    ],
+    "text_case": "UPPER",
+    "length": 27,
+    "relative_font_size": 22
+  },
+  {
+    "text": "lower. Archaeologists designate these as the Citadel and the Lower Town respectively. The Citadel owes",
+    "avg_font_size": 11.0,
+    "bbox": [
+      233.59751892089844,
+      102.6127700805664,
+      522.3377685546875,
+      126.81278228759766
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 9.3,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 102,
+    "relative_font_size": 19
+  },
+  {
+    "text": "The plight of Harappa",
+    "avg_font_size": 13.5,
+    "bbox": [
+      59.35750198364258,
+      124.58975982666016,
+      206.24461364746094,
+      138.0897674560547
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT34ET00"
+    ],
+    "text_case": "Mixed",
+    "length": 21,
+    "relative_font_size": 28
+  },
+  {
+    "text": "its height to the fact that buildings were constructed on mud brick platforms. It was walled, which Although Harappa was the meant that it was physically separated from the first site to be discovered, it Lower Town. was badly destroyed by brick The Lower Town was also walled. Several buildings robbers. As early as 1875, Alexander Cunningham, the were built on platforms, which served as foundations. first Director-General of the It has been calculated that if one labourer moved Archaeological Survey of roughly a cubic metre of earth daily, just to put the India (ASI), often called the foundations in place it would have required four father of Indian archaeology, million person-days, in other words, mobilising noted that the amount labour on a very large scale. of brick taken from the Consider something else. Once the platforms were ancient site was  enough in place, all building activity within the city was to lay bricks for \u201cabout restricted to a fixed area on the platforms. So it 100 miles\u201d of the railway seems that the settlement was first planned and line between L ahore and then implemented accordingly. Other signs of Multan. Thus, many of the planning include bricks, which, whether sun-dried ancient structures at the site or baked, were of a standardised ratio, where the were damaged. In contrast, length and breadth were four times and twice the Mohenjodaro was far better height respectively. Such bricks were used at all preserved. Harappan settlements. 3.1 Laying out drains One of the most distinctive features of Harappan cities was the carefully planned drainage system. If you look at the plan of the Lower Town you will notice that roads and streets were laid out along an Fig. 1.8 A drain in Mohenjodaro approximate \u201cgrid\u201d pattern, intersecting at right Notice the huge opening of the angles. It seems that streets with drains were laid drain. out first and then houses built along them. If domestic waste water had to flow into the street drains, every house needed to have at least one wall along a street.",
+    "avg_font_size": 10.71,
+    "bbox": [
+      47.35749435424805,
+      129.01280212402344,
+      522.3430786132812,
+      554.97314453125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 56,
+    "line_spacing_avg": 1.98,
+    "font_names": [
+      "TT34DT00",
+      "Bookman-LightItalic",
+      "Bookman-Light",
+      "Bookman-Demi"
+    ],
+    "text_case": "Mixed",
+    "length": 2045,
+    "relative_font_size": null
+  },
+  {
+    "text": "Citadels",
+    "avg_font_size": 13.5,
+    "bbox": [
+      350.9574890136719,
+      610.8299560546875,
+      404.9580078125,
+      624.3299560546875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 55.86,
+    "font_names": [
+      "TT34ET00"
+    ],
+    "text_case": "Title",
+    "length": 8,
+    "relative_font_size": 28
+  },
+  {
+    "text": "While most Harappan settlements have a small high western part and a larger lower eastern section, there are variations. At sites such as Dholavira and Lothal (Gujarat), the entire settlement was fortified, and sections within the town were also separated by walls. The Citadel within Lothal was not walled off, but was built at a height.",
+    "avg_font_size": 10.5,
+    "bbox": [
+      244.39749145507812,
+      630.6820678710938,
+      511.5687561035156,
+      716.7820434570312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 7,
+    "line_spacing_avg": 2.71,
+    "font_names": [
+      "TT34DT00"
+    ],
+    "text_case": "Mixed",
+    "length": 338,
+    "relative_font_size": 18
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 51.59,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "B RICKS , B EADS AND B ONES",
+    "avg_font_size": 11.05,
+    "bbox": [
+      70.87750244140625,
+      73.22138977050781,
+      214.15921020507812,
+      86.22138977050781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00"
+    ],
+    "text_case": "UPPER",
+    "length": 27,
+    "relative_font_size": 20
+  },
+  {
+    "text": "Source 2 3.2 Domestic architecture The Lower Town at Mohenjodaro provides examples The most ancient of residential buildings. Many were centred on a system yet discovered courtyard, with rooms on all sides. The courtyard was probably the centre of activities such as cooking About the drains, Mackay and weaving, particularly during hot and dry noted: \u201cIt is certainly the most weather. What is also interesting is an apparent complete ancient system as yet concern for privacy: there are no windows in the discovered.\u201d Every house was walls along the ground level. Besides, the main connected to the street drains. entrance does not give a direct view of the interior The main channels were made or the courtyard. of bricks set in mortar and were covered with loose bricks that Every house had its own bathroom paved with could be removed for cleaning. bricks, with drains connected through the wall to In some cases, limestone was the street drains. Some houses have remains of used for the covers. House staircases to reach a second storey or the roof. Many drains first emptied into a sump houses had wells, often in a room that could be or cesspit into which solid reached from the outside and perhaps used by matter settled while waste water passers-by. Scholars have estimated that the total flowed out into the street drains. number of wells in Mohenjodaro was about 700. Very long drainage channels were provided at intervals with sumps for cleaning. It is a wonder of archaeology that \u201clittle heaps of material, mostly sand, have frequently been found lying alongside drainage channels, which shows \u2026 that the debris was not always carted away when the drain was cleared\u201d. F ROM E RNEST M ACKAY , Early Indus Civilisation , 1948. Drainage systems were not unique to the larger cities, but were found in smaller settlements  as  well.  At  Lothal for example, while houses were built of mud bricks, drains were made of burnt bricks.",
+    "avg_font_size": 10.7,
+    "bbox": [
+      70.87750244140625,
+      101.92729187011719,
+      536.68310546875,
+      609.2626953125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 57,
+    "line_spacing_avg": 2.71,
+    "font_names": [
+      "TT34DT00",
+      "Bookman-Demi",
+      "TT34ET00",
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "lower",
+    "length": 1941,
+    "relative_font_size": null
+  },
+  {
+    "text": "Fig. 1.9 Where is the courtyard? Where are the two This is an isometric drawing of a large house in Mohenjodaro. staircases? What is the entrance to the house like? There was a well in room no 6.",
+    "avg_font_size": 9.83,
+    "bbox": [
+      84.55751037597656,
+      679.1271362304688,
+      529.05908203125,
+      722.7071533203125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 24.51,
+    "font_names": [
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 195,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 45.66,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "T HEMES IN I NDIAN H ISTORY",
+    "avg_font_size": 11.27,
+    "bbox": [
+      368.4775085449219,
+      70.53399658203125,
+      522.321044921875,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00",
+      "TT2F2T00"
+    ],
+    "text_case": "UPPER",
+    "length": 27,
+    "relative_font_size": 22
+  },
+  {
+    "text": "3.3 The Citadel It is on the Citadel that we find evidence of structures that were probably used for special public purposes. These include the warehouse \u2013 a massive structure of which the lower brick portions remain, while the upper portions, probably of wood, decayed long ago \u2013 and the Great Bath. The Great Bath was a large rectangular tank in a courtyard surrounded by a corridor on all four sides. There were two flights of steps on the north and south leading into the tank, which was made watertight by setting bricks on edge and using a mortar of gypsum. There were rooms on three sides, in one of which was a large well. Water from the tank flowed into a huge drain. Across  a lane to the north lay a smaller building with eight bathrooms, four on each side of a corridor, with drains from each bathroom connecting to a drain that ran along the corridor. The uniqueness of the structure, as well as the context in which it was found (the Citadel, with several distinctive buildings), has led scholars Fig. 1.10 to suggest that it was meant for some kind of a special Plan of the Citadel ritual bath.",
+    "avg_font_size": 10.93,
+    "bbox": [
+      47.35750198364258,
+      102.66358947753906,
+      522.3417358398438,
+      654.8134155273438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 46,
+    "line_spacing_avg": 2.48,
+    "font_names": [
+      "Bookman-LightItalic",
+      "Bookman-Light",
+      "Bookman-Demi"
+    ],
+    "text_case": "lower",
+    "length": 1109,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u00dc Discuss...",
+    "avg_font_size": 14.0,
+    "bbox": [
+      47.35750198364258,
+      664.9749755859375,
+      132.80239868164062,
+      682.4354858398438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 10.16,
+    "font_names": [
+      "Bookman-Light",
+      "TT2F2T00"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 29
+  },
+  {
+    "text": "Which of the architectural Are there other structures on the Citadel apart from features of Mohenjodaro the warehouse and the Great Bath? indicate planning?",
+    "avg_font_size": 10.8,
+    "bbox": [
+      47.35750198364258,
+      685.093994140625,
+      517.5155029296875,
+      722.4939575195312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 2.66,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 156,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 45.87,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "B RICKS , B EADS AND B ONES",
+    "avg_font_size": 11.05,
+    "bbox": [
+      70.87750244140625,
+      73.22041320800781,
+      214.15921020507812,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00"
+    ],
+    "text_case": "UPPER",
+    "length": 27,
+    "relative_font_size": 20
+  },
+  {
+    "text": "4. Tracking Social Differences",
+    "avg_font_size": 15.0,
+    "bbox": [
+      70.87753295898438,
+      101.0989761352539,
+      333.5069580078125,
+      116.30897521972656
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 14.88,
+    "font_names": [
+      "TT173T00"
+    ],
+    "text_case": "Title",
+    "length": 30,
+    "relative_font_size": 32
+  },
+  {
+    "text": "4.1 Burials Archaeologists generally use certain strategies to find out whether there were social or economic differences amongst people living within a particular culture. These include studying burials. You are probably familiar with the massive pyramids of Egypt, some of which were contemporaneous with the Harappan civilisation. Many of these pyramids were royal burials, where enormous quantities of wealth was buried. At burials in Harappan sites the dead were generally laid in pits. Sometimes, there were differences in the way the burial pit was made \u2013 in some instances, the hollowed-out spaces were lined with bricks. Could these variations be an indication of social differences? We are not sure. Some graves contain pottery and ornaments, perhaps indicating a belief that these could be used in the afterlife. Jewellery has been found in burials of both men and women. In fact, in the excavations at the cemetery in Harappa in the mid-1980s, an ornament consisting of three shell rings, a jasper Fig. 1.11 (a kind of semi-precious stone) bead and hundreds A copper mirror of micro beads was found near the skull of a male. In some instances the dead were buried with copper mirrors. But on the whole, it appears that the Harappans did not believe in burying precious things with the dead. 4.2 Looking for \u201cluxuries\u201d Another strategy to identify social differences is to Fig. 1.12 study artefacts, which archaeologists broadly A faience pot classify as utilitarian and luxuries. The first category includes objects of daily use made fairly easily out of ordinary materials such as stone or clay. These include querns, pottery, needles, flesh-rubbers (body scrubbers), etc., and are usually found distributed throughout settlements. Archaeologists assume objects were luxuries if they are rare or made from costly, non-local materials or with complicated technologies. Thus, little pots of faience (a material made of ground sand or silica mixed with colour and a gum and then fired) were probably considered precious because they were difficult to make. The situation becomes more complicated when we find what seem to be articles of daily",
+    "avg_font_size": 10.88,
+    "bbox": [
+      70.87753295898438,
+      126.42353820800781,
+      447.2074890136719,
+      723.9332885742188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 49,
+    "line_spacing_avg": 2.47,
+    "font_names": [
+      "Bookman-LightItalic",
+      "Bookman-Light",
+      "Bookman-Demi"
+    ],
+    "text_case": "Mixed",
+    "length": 2152,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 44.43,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "T HEMES IN I NDIAN H ISTORY 10",
+    "avg_font_size": 12.14,
+    "bbox": [
+      47.35750961303711,
+      70.53399658203125,
+      522.321044921875,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00",
+      "TT2F2T00"
+    ],
+    "text_case": "UPPER",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "use, such as spindle whorls made of rare materials Hoards are objects kept such as faience. Do we classify these as utilitarian carefully by people, often inside or luxuries? containers such as pots. Such If we study the distribution of such artefacts, we hoards can be of jewellery or find that rare objects made of valuable materials metal objects saved for reuse by metalworkers. If for some are generally concentrated in large settlements like reason the original owners do Mohenjodaro and Harappa and are rarely found in not retrieve them, they remain the smaller settlements. For example, miniature pots where they are left till some of faience, perhaps used as perfume bottles, are found archaeologist finds them. mostly in Mohenjodaro and Harappa, and there are none from small settlements like Kalibangan. Gold too was rare, and as at present, probably precious \u2013 all the gold jewellery found at Harappan sites was recovered from hoards.",
+    "avg_font_size": 10.79,
+    "bbox": [
+      54.557498931884766,
+      102.61295318603516,
+      522.3411865234375,
+      285.2131042480469
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 24,
+    "line_spacing_avg": 2.81,
+    "font_names": [
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "lower",
+    "length": 946,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u00dc Discuss...",
+    "avg_font_size": 14.0,
+    "bbox": [
+      47.35750198364258,
+      275.69500732421875,
+      132.80239868164062,
+      293.155517578125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman-Light",
+      "TT2F2T00"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 29
+  },
+  {
+    "text": "What are the modes of",
+    "avg_font_size": 11.0,
+    "bbox": [
+      47.35750198364258,
+      295.81396484375,
+      173.36752319335938,
+      306.81396484375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 2.66,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 21,
+    "relative_font_size": 19
+  },
+  {
+    "text": "5. Finding Out About Craft",
+    "avg_font_size": 15.0,
+    "bbox": [
+      233.59750366210938,
+      296.6991271972656,
+      459.4726257324219,
+      311.9091491699219
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT173T00"
+    ],
+    "text_case": "Title",
+    "length": 26,
+    "relative_font_size": 32
+  },
+  {
+    "text": "disposal of the dead prevalent",
+    "avg_font_size": 11.0,
+    "bbox": [
+      47.35750198364258,
+      309.01397705078125,
+      215.37060546875,
+      320.01397705078125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "lower",
+    "length": 30,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Production",
+    "avg_font_size": 15.0,
+    "bbox": [
+      251.59750366210938,
+      314.6991271972656,
+      349.06787109375,
+      329.9091491699219
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT173T00"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "relative_font_size": 32
+  },
+  {
+    "text": "at present? To what extent do Locate Chanhudaro on Map 1. This is a tiny these represent social settlement (less than 7 hectares) as compared to differences? Mohenjodaro (125 hectares), almost exclusively devoted to craft production, including bead-making, shell-cutting, metal-working, seal-making and weight-making. The variety of materials used to make beads is remarkable: stones like carnelian (of a beautiful red colour), jasper, crystal, quartz and steatite; metals like copper, bronze and gold; and shell, faience and terracotta or burnt clay. Some beads were made of two or more stones, cemented together, some of stone with gold caps. The shapes were numerous \u2013 disc- shaped, cylindrical, spherical, barrel-shaped, segmented. Some were decorated by incising or Fig. 1.13 painting, and some had designs etched onto them. A tool and beads",
+    "avg_font_size": 10.86,
+    "bbox": [
+      47.35750198364258,
+      322.2139892578125,
+      522.3436279296875,
+      544.6273193359375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 21,
+    "line_spacing_avg": 1.96,
+    "font_names": [
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "lower",
+    "length": 846,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 223.74,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "11 B RICKS , B EADS AND B ONES",
+    "avg_font_size": 12.02,
+    "bbox": [
+      70.87750244140625,
+      72.50038146972656,
+      545.8425903320312,
+      86.22138977050781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "Techniques for making beads differed according to the material. Steatite, a very soft stone, was easily worked. Some beads were moulded out of a paste made with steatite powder. This permitted making a variety of shapes, unlike the geometrical forms made out of harder stones. How the steatite micro bead was made remains a puzzle for archaeologists studying ancient technology. Archaeologists\u2019 experiments have revealed that the red colour of carnelian was obtained by firing the yellowish raw material and beads at various stages of production. Nodules were chipped into rough shapes, and then finely flaked into the final form. Grinding, polishing and drilling completed the process. Specialised drills have been found at Chanhudaro, Lothal and more recently at Dholavira. If you locate Nageshwar and Balakot on Map 1, you will notice that both settlements are near the coast. These were specialised centres for making Fig. 1.14 shell objects \u2013 including bangles, ladles and Pottery inlay \u2013 which were taken to other settlements. Some of these can be seen in the Similarly, it is likely that finished products (such National Museum, Delhi or in the as beads) from Chanhudaro and Lothal were taken site museum at Lothal. to the large urban centres such as Mohenjodaro and Harappa. 5.1 Identifying centres of production In order to identify centres of craft production, archaeologists usually look for the following: raw material such as stone nodules, whole shells, copper ore; tools; unfinished objects; rejects and waste material. In fact, waste is one of the best indicators of craft work. For instance, if shell or stone is cut to",
+    "avg_font_size": 10.84,
+    "bbox": [
+      70.87750244140625,
+      102.61295318603516,
+      538.659423828125,
+      629.13330078125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 48,
+    "line_spacing_avg": 2.94,
+    "font_names": [
+      "Bookman-Demi",
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 1636,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u00dc Discuss...",
+    "avg_font_size": 14.0,
+    "bbox": [
+      375.197509765625,
+      623.9349975585938,
+      460.8824768066406,
+      641.3955078125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman-Light",
+      "TT2F2T00"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 29
+  },
+  {
+    "text": "make objects, then pieces Should the stone artefacts of these materials will be illustrated in the chapter be discarded as waste at the considered as utilitarian place of production. objects or as luxuries? Are there any that may fall into Fig. 1.15 both categories? A terracotta figurine",
+    "avg_font_size": 10.75,
+    "bbox": [
+      211.51751708984375,
+      632.0532836914062,
+      534.088623046875,
+      721.053955078125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 12,
+    "line_spacing_avg": 1.19,
+    "font_names": [
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "lower",
+    "length": 288,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 48.06,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "T HEMES IN I NDIAN H ISTORY 12",
+    "avg_font_size": 12.14,
+    "bbox": [
+      47.35750961303711,
+      70.53399658203125,
+      522.321044921875,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00",
+      "TT2F2T00"
+    ],
+    "text_case": "UPPER",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "Sometimes, larger waste pieces were used up to make smaller objects, but minuscule bits were usually left in the work area. These traces suggest that apart from small, specialised centres, craft production was also undertaken in large cities such as Mohenjodaro and Harappa.",
+    "avg_font_size": 11.0,
+    "bbox": [
+      233.59750366210938,
+      102.6130142211914,
+      522.3381958007812,
+      179.6130828857422
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 4.69,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 274,
+    "relative_font_size": 19
+  },
+  {
+    "text": "6. Strategies for Procuring Materials",
+    "avg_font_size": 15.0,
+    "bbox": [
+      233.59750366210938,
+      191.09910583496094,
+      469.1162109375,
+      224.30909729003906
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 7.14,
+    "font_names": [
+      "TT173T00"
+    ],
+    "text_case": "Mixed",
+    "length": 37,
+    "relative_font_size": 32
+  },
+  {
+    "text": "As is obvious, a variety of materials was used for craft production. While some such as clay were locally available, many such as stone, timber and metal had to be procured from outside the alluvial plain. Terracotta toy models of bullock carts suggest that this was one important means of transporting goods and people across land routes. Riverine routes along the Indus and its tributaries, as well as coastal routes were also probably used.",
+    "avg_font_size": 11.0,
+    "bbox": [
+      233.59750366210938,
+      228.6130828857422,
+      522.3395385742188,
+      345.2131652832031
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 9,
+    "line_spacing_avg": 2.43,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 443,
+    "relative_font_size": 19
+  },
+  {
+    "text": "6.1 Materials from the subcontinent and beyond The Harappans procured materials for craft production in various ways. For instance, they established settlements such as Nageshwar and Balakot in areas where shell was available. Other Fig.1.16 such sites were Shortughai, in far-off Afghanistan, Copper and bronze vessels near the best source of lapis lazuli, a blue stone that was apparently very highly valued, and Lothal which was near sources of carnelian (from Bharuch in Gujarat), steatite (from south Rajasthan and north Gujarat) and metal (from Rajasthan). Another strategy for procuring raw materials may have been to send expeditions to areas such as the Khetri region of Rajasthan (for copper) and south India (for gold). These expeditions established communication with local communities. Occasional finds of Harappan artefacts such as steatite micro beads in these areas are indications of such contact. There is evidence in the Khetri area for what archaeologists call the Ganeshwar-Jodhpura culture, with its distinctive non-Harappan pottery and an unusual wealth of copper objects. It is possible that the inhabitants of this region supplied copper to the Harappans.",
+    "avg_font_size": 10.88,
+    "bbox": [
+      47.35749435424805,
+      360.4237365722656,
+      522.3401489257812,
+      678.5733032226562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 26,
+    "line_spacing_avg": 2.95,
+    "font_names": [
+      "Bookman-LightItalic",
+      "Bookman-Light",
+      "Bookman-Demi"
+    ],
+    "text_case": "Mixed",
+    "length": 1180,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 89.79,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "13 B RICKS , B EADS AND B ONES",
+    "avg_font_size": 12.02,
+    "bbox": [
+      70.87747192382812,
+      72.50038146972656,
+      545.8425903320312,
+      86.22138977050781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "Caspian Mediterranean Altyn Depe Sea Sea",
+    "avg_font_size": 7.5,
+    "bbox": [
+      77.35751342773438,
+      121.65985870361328,
+      425.35784912109375,
+      144.03985595703125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 35.44,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 40,
+    "relative_font_size": 1
+  },
+  {
+    "text": "MESOPOTAMIA TURAN Uruk Ur Shahr-i-Sokhta Harappa",
+    "avg_font_size": 7.5,
+    "bbox": [
+      169.75750732421875,
+      161.9798583984375,
+      534.0771484375,
+      241.47991943359375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 11.89,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 48,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Tepe Yahya MELUHHA DILMUN Sutkagendor",
+    "avg_font_size": 7.5,
+    "bbox": [
+      226.39752197265625,
+      260.619873046875,
+      512.2371215820312,
+      305.31988525390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 4,
+    "line_spacing_avg": 8.46,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "UPPER",
+    "length": 37,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Red Lothal MAGAN Sea Rasal\u2019 Janayz",
+    "avg_font_size": 7.5,
+    "bbox": [
+      99.67750549316406,
+      324.6998596191406,
+      530.9573974609375,
+      347.3199157714844
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 5,
+    "line_spacing_avg": 19.38,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 34,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Arabian Sea",
+    "avg_font_size": 7.5,
+    "bbox": [
+      416.95751953125,
+      369.5798645019531,
+      461.83807373046875,
+      377.0798645019531
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 22.26,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 11,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Map 3 The Harappan Civilisation and West Asia",
+    "avg_font_size": 9.5,
+    "bbox": [
+      313.0375061035156,
+      411.767333984375,
+      507.9449768066406,
+      432.7873229980469
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 18.35,
+    "font_names": [
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 45,
+    "relative_font_size": 11
+  },
+  {
+    "text": "Sketch map not to scale",
+    "avg_font_size": 7.0,
+    "bbox": [
+      313.0375061035156,
+      453.28509521484375,
+      393.9234313964844,
+      460.28509521484375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 20.5,
+    "font_names": [
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 23,
+    "relative_font_size": 0
+  },
+  {
+    "text": "6.2 Contact with distant lands Recent archaeological finds suggest that copper was Fig. 1.17 also probably brought from Oman, on the south- A Harappan jar found in Oman eastern tip of the Arabian peninsula. Chemical analyses have shown that both the Omani copper and Harappan artefacts have traces of nickel, suggesting a common origin. There are other traces of contact as well. A distinctive type of vessel, a large Harappan jar coated with a thick layer of black clay has been found at Omani sites. Such thick coatings prevent the percolation of liquids. We do not know what was carried in these vessels, but it is possible that the Harappans exchanged the contents of these vessels for Omani copper. Mesopotamian texts datable to the third millennium BCE refer to copper coming from a region called Magan, perhaps a name for Oman, and interestingly enough copper found at",
+    "avg_font_size": 10.8,
+    "bbox": [
+      70.87748718261719,
+      483.7845153808594,
+      521.3751220703125,
+      719.1339721679688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 20,
+    "line_spacing_avg": 3.25,
+    "font_names": [
+      "Bookman-LightItalic",
+      "Bookman-Light",
+      "Bookman-Demi"
+    ],
+    "text_case": "Mixed",
+    "length": 875,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 49.23,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "T HEMES IN I NDIAN H ISTORY 14",
+    "avg_font_size": 12.14,
+    "bbox": [
+      47.35750961303711,
+      70.53399658203125,
+      522.321044921875,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00",
+      "TT2F2T00"
+    ],
+    "text_case": "UPPER",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "Mesopotamian sites also contains traces of nickel. Other archaeological finds suggestive of long- distance contacts include Harappan seals, weights, dice and beads. In this context, it is worth noting that Mesopotamian texts mention contact with regions named Dilmun Fig. 1.18 This is a cylinder seal, typical of (probably the island of Bahrain), Magan and Mesopotamia, but the humped bull Meluhha, possibly the Harappan region. They motif on it appears to be derived mention the products  from Meluhha: carnelian, from the Indus region. lapis lazuli, copper, gold, and varieties of wood. A Mesopotamian myth says  of Meluhha: \u201cMay your bird be the haja -bird, may its call be heard in the royal palace.\u201d Some archaeologists think the haja -bird was the peacock. Did it get this name from its call? It is likely that Fig. 1.19 communication with Oman, The round \u201cPersian Gulf\u201d seal found Bahrain or Mesopotamia was in Bahrain sometimes carries by sea. Mesopotamian texts Harappan motifs. Interestingly, refer to Meluhha as a local \u201cDilmun\u201d weights followed the Harappan standard. land of seafarers. Besides, we find depictions of ships and boats on seals.",
+    "avg_font_size": 10.57,
+    "bbox": [
+      47.35750198364258,
+      102.61295318603516,
+      522.33984375,
+      443.6132507324219
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 38,
+    "line_spacing_avg": 2.85,
+    "font_names": [
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 1155,
+    "relative_font_size": null
+  },
+  {
+    "text": "Fig. 1.20 Seal depicting a boat",
+    "avg_font_size": 9.5,
+    "bbox": [
+      47.35750198364258,
+      487.84735107421875,
+      146.2513885498047,
+      508.6273498535156
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 23.01,
+    "font_names": [
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 31,
+    "relative_font_size": 11
+  },
+  {
+    "text": "\u00dc Discuss...",
+    "avg_font_size": 14.0,
+    "bbox": [
+      47.83749771118164,
+      650.3349609375,
+      133.2823944091797,
+      667.7954711914062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 141.71,
+    "font_names": [
+      "Bookman-Light",
+      "TT2F2T00"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 29
+  },
+  {
+    "text": "What were the possible routes from the Harappan region to Oman, Dilmun and Mesopotamia?",
+    "avg_font_size": 11.0,
+    "bbox": [
+      47.83749771118164,
+      670.4539794921875,
+      218.0078887939453,
+      721.053955078125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 2.31,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 87,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 47.31,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "15 B RICKS , B EADS AND B ONES",
+    "avg_font_size": 12.02,
+    "bbox": [
+      69.67752075195312,
+      72.50038146972656,
+      545.8425903320312,
+      86.22138977050781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CopprplGothBdBT"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "Fig. 1.21",
+    "avg_font_size": 9.5,
+    "bbox": [
+      375.197509765625,
+      198.32264709472656,
+      417.20196533203125,
+      207.82264709472656
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 112.1,
+    "font_names": [
+      "Bookman,Italic"
+    ],
+    "text_case": "Title",
+    "length": 9,
+    "relative_font_size": 11
+  },
+  {
+    "text": "7. Seals, Script, Weights",
+    "avg_font_size": 15.0,
+    "bbox": [
+      70.87750244140625,
+      209.09898376464844,
+      275.6304931640625,
+      224.30897521972656
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 1.28,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "Title",
+    "length": 25,
+    "relative_font_size": 32
+  },
+  {
+    "text": "Symbols, Letters on what is considered a signboard found at Dholavira. 7.1 Seals and sealings Seals and sealings were used to facilitate long- distance communication. Imagine a bag of goods being sent from one place to another. Its mouth was tied with rope and on the knot was affixed some wet clay on which one or more seals were pressed, leaving an impression. If the bag reached with its sealing intact, it meant that it had not been tampered with. The sealing also conveyed the identity of the sender. 7.2 An enigmatic script Harappan seals usually have a line of writing, probably containing the name and title of the owner. Fig. 1.22 Scholars have also suggested that the motif A sealing from Ropar (generally an animal) conveyed a meaning to those How many seals are who could not read. impressed on this piece of clay? Most inscriptions are short, the longest containing about 26 signs. Although the script remains undeciphered to date, it was evidently not alphabetical (where each sign stands for a vowel or a consonant) as it has just too many signs \u2013 somewhere between 375 and 400. It is apparent that the script was written from right to left as some seals show a wider spacing on the right and cramping on the left, as if the engraver began working from the right and then ran out of space. Consider the variety of objects on which writing has been found: seals, copper tools, rims of jars, copper and terracotta tablets, jewellery, bone rods, even an ancient signboard! Remember, there may",
+    "avg_font_size": 10.77,
+    "bbox": [
+      70.87748718261719,
+      209.60267639160156,
+      540.3385009765625,
+      634.041259765625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 37,
+    "line_spacing_avg": 2.27,
+    "font_names": [
+      "Bookman,Italic",
+      "Bookman",
+      "Bookman,Bold"
+    ],
+    "text_case": "lower",
+    "length": 1504,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u00dc Discuss...",
+    "avg_font_size": 14.0,
+    "bbox": [
+      375.197509765625,
+      634.4949951171875,
+      460.8844909667969,
+      652.093017578125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.45,
+    "font_names": [
+      "Bookman",
+      "Wingdings"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 29
+  },
+  {
+    "text": "have been writing on perishable materials too. Could this mean that literacy was widespread? What are some of the present- day methods used for long- 7.3 Weights distance exchange of goods? Exchanges were regulated by a precise system of What are their advantages weights, usually made of a stone called chert and and problems? generally cubical (Fig. 1.2), with no markings. The",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87748718261719,
+      636.1201782226562,
+      544.6476440429688,
+      719.001220703125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 11,
+    "line_spacing_avg": 1.8,
+    "font_names": [
+      "Bookman",
+      "Bookman,Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 379,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 49.37,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "16 T HEMES IN I NDIAN H ISTORY",
+    "avg_font_size": 12.14,
+    "bbox": [
+      47.357479095458984,
+      70.35944366455078,
+      522.319580078125,
+      84.19947052001953
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Wingdings",
+      "CopprplGothBdBT"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "lower denominations of weights were binary (1, 2, 4, 8, 16, 32), while the higher denominations followed the decimal system (160, 200, 320, 640). The smaller weights were probably used for weighing jewellery and beads. Metal scale-pans have also been found.",
+    "avg_font_size": 11.0,
+    "bbox": [
+      233.5974884033203,
+      102.61392974853516,
+      522.32470703125,
+      179.61399841308594
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 4.9,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "lower",
+    "length": 257,
+    "relative_font_size": 19
+  },
+  {
+    "text": "8. Ancient Authority",
+    "avg_font_size": 15.0,
+    "bbox": [
+      233.5974884033203,
+      189.53631591796875,
+      406.052490234375,
+      204.53631591796875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 9.92,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "Title",
+    "length": 20,
+    "relative_font_size": 32
+  },
+  {
+    "text": "There are indications of complex decisions being taken and implemented in Harappan society. Take for instance, the extraordinary uniformity of Harappan artefacts as evident in pottery (Fig. 1.14), seals, weights and bricks. Notably, bricks, though obviously not produced in any single centre, were of a uniform ratio throughout the region, from Jammu to Gujarat. We have also seen that settlements were strategically set up in specific locations for various reasons. Besides, labour was mobilised for making bricks and for the construction of massive walls and platforms. Who organised these activities?",
+    "avg_font_size": 11.0,
+    "bbox": [
+      233.59750366210938,
+      210.61399841308594,
+      522.3284912109375,
+      380.0141296386719
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 13,
+    "line_spacing_avg": 2.5,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 603,
+    "relative_font_size": 19
+  },
+  {
+    "text": "8.1 Palaces and kings If we look for a centre of power or for depictions of people in power, archaeological records provide no immediate answers. A large building found at Mohenjodaro was labelled as a palace by archaeologists but no spectacular finds were associated with it. A stone statue was labelled and Fig. 1.23 continues to be known as the \u201cpriest-king\u201d. This is A \u201cpriest-king\u201d because archaeologists were familiar with Mesopotamian history and its \u201cpriest-kings\u201d and have found parallels in the Indus region. But as we will see (p.23), the ritual practices of the Harappan civilisation are not well understood yet nor are there any means of knowing whether those who performed them also held political power. Some archaeologists are of the opinion that Harappan society had no rulers, and that everybody enjoyed equal status. Others feel there was no single ruler but several, that Mohenjodaro had a separate ruler, Harappa another, and so forth. Yet others argue that there was a single state, given the",
+    "avg_font_size": 10.87,
+    "bbox": [
+      47.35750198364258,
+      395.1245422363281,
+      522.328369140625,
+      673.6542358398438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 23,
+    "line_spacing_avg": 3.07,
+    "font_names": [
+      "Bookman-LightItalic",
+      "Bookman-Light",
+      "Bookman-Demi"
+    ],
+    "text_case": "Mixed",
+    "length": 1014,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u00dc Discuss...",
+    "avg_font_size": 14.0,
+    "bbox": [
+      47.35750198364258,
+      667.135009765625,
+      132.7993927001953,
+      684.5955200195312
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman-Light",
+      "Wingdings"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 29
+  },
+  {
+    "text": "similarity in artefacts, the evidence for planned Could everybody in Harappan settlements, the standardised ratio of brick size, and society have been equal? the establishment of settlements near sources of raw",
+    "avg_font_size": 11.0,
+    "bbox": [
+      47.35750198364258,
+      675.854248046875,
+      522.3280639648438,
+      713.2542114257812
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 0.4,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "lower",
+    "length": 210,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 55.11,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "17 B RICKS , B EADS AND B ONES",
+    "avg_font_size": 12.02,
+    "bbox": [
+      69.67778015136719,
+      72.50038146972656,
+      545.8425903320312,
+      86.22059631347656
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CopprplGothBdBT"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "material. It is likely that the Harappans practiced some sort of democratic system. Some of the structures with their given features were created apparently for utilitarian purposes.",
+    "avg_font_size": 11.07,
+    "bbox": [
+      70.87759399414062,
+      102.12036895751953,
+      359.6164855957031,
+      150.44131469726562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 4.93,
+    "font_names": [
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 182,
+    "relative_font_size": null
+  },
+  {
+    "text": "9. The End of the Civilisation",
+    "avg_font_size": 15.0,
+    "bbox": [
+      70.87779235839844,
+      159.29559326171875,
+      313.12530517578125,
+      174.29559326171875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 8.85,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": 32
+  },
+  {
+    "text": "There is evidence that by c . 1800 BCE most of the Mature Harappan sites in regions such as Cholistan had been abandoned. Simultaneously, there was an expansion of population into new settlements in Gujarat, Map 4 Haryana and western Uttar Pradesh. Areas of Late Harappan occupation In the few Harappan sites that continued to be occupied after 1900 BCE there appears to have been a transformation of material culture, marked by the disappearance of the",
+    "avg_font_size": 10.59,
+    "bbox": [
+      70.87779235839844,
+      180.0268096923828,
+      475.7729797363281,
+      318.4411315917969
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 13,
+    "line_spacing_avg": 2.06,
+    "font_names": [
+      "Bookman,Italic",
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 453,
+    "relative_font_size": null
+  },
+  {
+    "text": "SWAT",
+    "avg_font_size": 7.5,
+    "bbox": [
+      439.99749755859375,
+      318.55657958984375,
+      461.6182861328125,
+      326.05657958984375
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.12,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "UPPER",
+    "length": 4,
+    "relative_font_size": 1
+  },
+  {
+    "text": "distinctive artefacts of the civilisation \u2013 weights, seals, special beads. Writing, long-distance trade,",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.8778076171875,
+      320.0401306152344,
+      275.3774719238281,
+      356.60113525390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 1.6,
+    "font_names": [
+      "Bookman"
+    ],
+    "text_case": "lower",
+    "length": 104,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Indus",
+    "avg_font_size": 7.5,
+    "bbox": [
+      411.2432556152344,
+      352.6639404296875,
+      421.05621337890625,
+      372.1830749511719
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Arial,Italic"
+    ],
+    "text_case": "Title",
+    "length": 5,
+    "relative_font_size": 1
+  },
+  {
+    "text": "and craft specialisation also disappeared. In general, far fewer",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.8778076171875,
+      358.20013427734375,
+      275.3757629394531,
+      382.0411376953125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 5,
+    "line_spacing_avg": 1.6,
+    "font_names": [
+      "Bookman"
+    ],
+    "text_case": "lower",
+    "length": 64,
+    "relative_font_size": 19
+  },
+  {
+    "text": "LATE CEMETERY H SISWAL",
+    "avg_font_size": 7.5,
+    "bbox": [
+      417.197509765625,
+      373.756591796875,
+      542.4830322265625,
+      390.3765869140625
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 3,
+    "line_spacing_avg": 0.42,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "UPPER",
+    "length": 22,
+    "relative_font_size": 1
+  },
+  {
+    "text": "materials were used to make far fewer things. House construction techniques deteriorated and large",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.8778076171875,
+      383.400146484375,
+      275.37408447265625,
+      419.9611511230469
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 1.6,
+    "font_names": [
+      "Bookman"
+    ],
+    "text_case": "lower",
+    "length": 98,
+    "relative_font_size": 19
+  },
+  {
+    "text": "JHUKAR",
+    "avg_font_size": 7.5,
+    "bbox": [
+      386.7174987792969,
+      421.2765808105469,
+      417.4365234375,
+      428.7765808105469
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 1.32,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "UPPER",
+    "length": 6,
+    "relative_font_size": 1
+  },
+  {
+    "text": "public structures were no longer produced. Overall, artefacts and settlements indicate a rural way of life in what are called \u201cLate Harappan\u201d or \u201csuccessor cultures\u201d.",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.8778076171875,
+      421.5601501464844,
+      275.3753967285156,
+      483.5611572265625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 5,
+    "line_spacing_avg": 1.6,
+    "font_names": [
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 166,
+    "relative_font_size": 19
+  },
+  {
+    "text": "RANGPUR II B-C Arabian Sea",
+    "avg_font_size": 7.5,
+    "bbox": [
+      325.7578125,
+      480.0765686035156,
+      510.08551025390625,
+      492.13629150390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "UPPER",
+    "length": 26,
+    "relative_font_size": 1
+  },
+  {
+    "text": "What brought about these changes? Several explanations have been put forward. These range from",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.8778076171875,
+      485.16015625,
+      275.3739318847656,
+      521.72119140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 1.6,
+    "font_names": [
+      "Bookman"
+    ],
+    "text_case": "lower",
+    "length": 94,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Sketch map not to scale",
+    "avg_font_size": 7.0,
+    "bbox": [
+      300.5578308105469,
+      513.317138671875,
+      381.44622802734375,
+      520.317138671875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman,Italic"
+    ],
+    "text_case": "Mixed",
+    "length": 23,
+    "relative_font_size": 0
+  },
+  {
+    "text": "climatic change, deforestation, excessive floods, the shifting and/or drying up of rivers, to overuse of the landscape. Some of these \u201ccauses\u201d may hold for certain settlements, but they do not explain the collapse of the entire civilisation. It appears that a strong unifying element, perhaps the Harappan state, came to an end. This is evidenced by the disappearance of seals, the script, distinctive beads and pottery, the shift from a standardised weight system to the use of local weights; and the decline and abandonment of cities. The subcontinent would have to wait for over a millennium for new cities to develop in a completely different region.",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87777709960938,
+      523.0801391601562,
+      359.6219787597656,
+      699.8012084960938
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 14,
+    "line_spacing_avg": 1.7,
+    "font_names": [
+      "Bookman"
+    ],
+    "text_case": "lower",
+    "length": 654,
+    "relative_font_size": 19
+  },
+  {
+    "text": "\u00dc Discuss...",
+    "avg_font_size": 14.0,
+    "bbox": [
+      70.87750244140625,
+      710.574951171875,
+      156.5644989013672,
+      728.1729736328125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 10.77,
+    "font_names": [
+      "Bookman",
+      "Wingdings"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 29
+  },
+  {
+    "text": "What are the similarities and differences between Maps 1, 2 and 4?",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87750244140625,
+      730.6809692382812,
+      453.44921875,
+      741.802001953125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 2.51,
+    "font_names": [
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 66,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 26.57,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "18 T HEMES IN I NDIAN H ISTORY Source 3",
+    "avg_font_size": 11.26,
+    "bbox": [
+      47.35750961303711,
+      70.35852813720703,
+      522.321044921875,
+      102.00086212158203
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 8.42,
+    "font_names": [
+      "Bookman,Italic",
+      "Wingdings",
+      "CopprplGothBdBT"
+    ],
+    "text_case": "Title",
+    "length": 39,
+    "relative_font_size": null
+  },
+  {
+    "text": "Evidence of an \u201cinvasion\u201d",
+    "avg_font_size": 12.5,
+    "bbox": [
+      200.47750854492188,
+      112.1512451171875,
+      369.12750244140625,
+      124.6512451171875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 10.15,
+    "font_names": [
+      "CooperLtBT,Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 25,
+    "relative_font_size": 25
+  },
+  {
+    "text": "Deadman Lane is a narrow alley, varying from 3 to 6 feet in width \u2026 At the point where the lane turns westward, part of a skull and the bones of the thorax and upper arm of an adult were discovered, all in very friable condition, at a depth of 4 ft 2 in. The body lay on its back diagonally across the lane. Fifteen inches to the west were a few fragments of a tiny skull. It is to these remains that the lane owes its name. F ROM J OHN M ARSHALL , Mohenjodaro and the Indus Civilisation, 1931. Sixteen skeletons of people with the ornaments that they were wearing when they died were found from the same part of Mohenjodaro in 1925. Much later, in 1947, R.E.M. Wheeler, then Director-General of the ASI, tried to correlate this archaeological evidence with that of the Rigveda, the earliest known text in the subcontinent. He wrote: The Rigveda mentions pur , meaning rampart, fort or stronghold. Indra, the Aryan war-god is called puramdara , the fort-destroyer. Where are \u2013 or were \u2013 these citadels? It has in the past been supposed that they were mythical \u2026 The recent excavation of Harappa may be thought to have changed the picture. Here we have a highly evolved civilisation of essentially non-Aryan type, now known to have employed massive fortifications \u2026 What destroyed this firmly settled civilisation? Climatic, economic or political deterioration may have weakened it, but its ultimate extinction is more likely to have been completed by deliberate and large-scale destruction. It may be no mere chance that at a late period of Mohenjodaro men, women, and children, appear to have been massacred there. On circumstantial evidence, Indra stands accused. F ROM R.E.M. W HEELER , \u201cHarappa 1946\u201d, Ancient India, 1947. In the 1960s, the evidence of a massacre in Mohenjodaro was questioned by an archaeologist named George Dales. He demonstrated that the skeletons found at the site did not belong to the same period: Whereas a couple of them definitely seem to indicate a slaughter, \u2026 the bulk of the bones were found in contexts suggesting burials of the sloppiest and most irreverent nature. There is no destruction level covering the latest period of the city, no sign of extensive burning, no bodies of warriors clad in armour and surrounded by the weapons of war. The citadel, the only fortified part of the city, yielded no evidence of a final defence. F ROM G.F. D ALES , \u201cThe Mythical Massacre at Mohenjodaro\u201d, Expediton, 1964. As you can see, a careful re-examination of the data can sometimes lead to a reversal of earlier interpretations. In this respect, it is necessary to mention the recent archaeogenetic research carried out at the site of Rakhigarhi. The site, located in Hisar district of Haryana, is the biggest Harappan city, spread over an area of 550 Hectare. In order to study the genetic history of the Harappans, DNA was extracted from the skeletal remains excavated at Rakhigarhi. This research was carried out by The Deccan College Deemed University, Pune in collaboration with Centre for Cellular and Molecular Biology, Hyderabad and The Harvard Medical College. The analysis of the data indicates that the Harappans are the indigenous people of this region. The genetic roots of the Harappans go back to 10,000 BCE. The DNA of the Harappans has continued till today and a majority of the South Asian population appears to be their descendents. Due to trade and cultural contacts of the Harappans with distant regions there is a mixture of genes in small quantity. The continuity without any break in genetic history as well as cultural history rules out large scale immigration of the Harappan skeletal remains from so-called Aryans. This research also indicates that the people coming Rakhigarhi - DNA was extracted from bordering areas and distant regions were absorbed in the Indian from this skeleton. society. At no stage, the genetic history of the Indians was either discontinued or broken. As the Harappans started moving towards Iran and Central Asia, their genes also gradually spread in these regions. The same team of researchers reconstructed 3D features of the Harappan people. The reconstructed facial features of the Harappans, male and female, show remarkable similarity with the modern population of Haryana. Thus, this study has indicated unbroken continuity for 5000 years in this region. Reconstructed 3D facial features of From Vasant Shinde, et.al., An ancient Harrapan genome lacks ancestry Harappan male and female respectively. from steppe pastoralists or Iranian farmers. Cell, 179 (3), 2019.",
+    "avg_font_size": 8.94,
+    "bbox": [
+      56.236385345458984,
+      139.135009765625,
+      512.8111572265625,
+      732.296875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 58,
+    "line_spacing_avg": 2.47,
+    "font_names": [
+      "CooperLtBT,Bold",
+      "CooperLtBT"
+    ],
+    "text_case": "Mixed",
+    "length": 4557,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 36.07,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "19 B RICKS , B EADS AND B ONES",
+    "avg_font_size": 12.02,
+    "bbox": [
+      70.87750244140625,
+      72.50038146972656,
+      545.8425903320312,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CopprplGothBdBT"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "10. Discovering the Harappan Civilisation",
+    "avg_font_size": 15.0,
+    "bbox": [
+      70.87750244140625,
+      99.5352783203125,
+      321.2143249511719,
+      132.5352783203125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 8.16,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "Mixed",
+    "length": 41,
+    "relative_font_size": 32
+  },
+  {
+    "text": "Archaeogenetics is the study of DNA of ancient So far, we have examined facets of the Harappan population. It involves civilisation in the context of how archaeologists various methods of have used evidence from material remains to molecular genetics to piece together parts of a fascinating history. However, understand population there is another story as well \u2013 about how history. archaeologists \u201cdiscovered\u201d the civilisation. When Harappan cities fell into ruin, people gradually forgot all about them. When men and women began living in the area millennia later, they did not know what to make of the strange artefacts that occasionally surfaced, washed by floods or exposed by soil erosion, or turned up while ploughing a field, or digging for treasure. 10.1 Cunningham\u2019s confusion When Cunningham, the first Director-General of the ASI, began archaeological excavations in the mid- nineteenth century, archaeologists preferred to use the written word (texts and inscriptions) as a guide to investigations. In fact, Cunningham\u2019s main interest was in the archaeology of the Early Historic ( c . sixth century BCE -fourth century CE ) and later periods. He used the accounts left by Chinese Buddhist pilgrims who had visited the subcontinent between the fourth and seventh centuries CE to locate early settlements. Cunningham also collected, documented and translated inscriptions found during his surveys. When he excavated sites he tended to recover artefacts that he thought had cultural value. A site like Harappa, which was not part of the itinerary of the Chinese pilgrims and was not known Fig. 1.24 as an Early Historic city, did not fit very neatly within Cunningham\u2019s sketch of the first- his framework of investigation. So, although known seal from Harappa Harappan artefacts were found fairly often during the nineteenth century and some of these reached Cunningham, he did not realise how old these were. A Harappan seal was given to Cunningham by an Englishman. He noted the object, but unsuccessfully tried to place it within the time-frame with which he was familiar. This was because he, like many others, thought that Indian history began with the first cities in the Ganga valley (see Chapter 2). Given his specific focus, it is not surprising that he missed the significance of Harappa.",
+    "avg_font_size": 10.8,
+    "bbox": [
+      70.87742614746094,
+      118.9990234375,
+      529.7686767578125,
+      723.081298828125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 56,
+    "line_spacing_avg": 2.2,
+    "font_names": [
+      "CooperLtBT,Bold",
+      "Bookman,Bold",
+      "Bookman,Italic",
+      "Bookman",
+      "CooperLtBT"
+    ],
+    "text_case": "Mixed",
+    "length": 2310,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 45.29,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "T HEMES IN I NDIAN H ISTORY 20",
+    "avg_font_size": 12.14,
+    "bbox": [
+      47.35750961303711,
+      70.53399658203125,
+      522.321044921875,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00",
+      "TT2F2T00"
+    ],
+    "text_case": "UPPER",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "10.2 A new old civilisation",
+    "avg_font_size": 11.0,
+    "bbox": [
+      234.07760620117188,
+      102.66432189941406,
+      390.0838928222656,
+      113.66432189941406
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 17.16,
+    "font_names": [
+      "Bookman-Demi"
+    ],
+    "text_case": "Mixed",
+    "length": 27,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Sites, mounds, layers",
+    "avg_font_size": 13.5,
+    "bbox": [
+      61.03750991821289,
+      113.0698013305664,
+      205.76901245117188,
+      126.5698013305664
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT34ET00"
+    ],
+    "text_case": "Mixed",
+    "length": 21,
+    "relative_font_size": 28
+  },
+  {
+    "text": "Subsequently, seals were discovered at Harappa by archaeologists such as Daya Ram Sahni in the early Archaeological sites are formed decades of the twentieth century, in layers that were through the production, use definitely much older than Early Historic levels. It and discarding of materials was then that their significance began to be realised. and structures. When people Another archaeologist, Rakhal Das Banerji found continue to live in the same similar seals at Mohenjodaro, leading to the place, their constant use and conjecture that these sites were part of a single reuse of the landscape results archaeological culture. Based on these finds, in 1924, in the build up of occupational John Marshall, Director-General of the ASI, debris, called a mound . Brief announced the discovery of a new civilisation in the or permanent abandonment Indus valley to the world. As S.N. Roy noted in results in alteration of the The Story of Indian Archaeology, \u201cMarshall left India landscape by wind or water three thousand years older than he had found her.\u201d activity and erosion. Occupations This was because similar, till-then-unidentified are detected by traces of seals were found at excavations at Mesopotamian ancient materials found in sites.  It was then that the world knew not only of a layers , which differ from one new civilisation, but also of one contemporaneous another in colour, texture and with Mesopotamia. the artefacts  that are found In fact, John Marshall\u2019s stint as Director-General in them. Abandonment or of the ASI marked a major change in Indian desertions, what are called archaeology. He was the first professional \u201csterile layers\u201d, can be archaeologist to work in India, and brought his identified by the absence of experience of working in Greece and Crete to the such traces. field. More importantly, though like Cunningham he Generally, the lowest layers too was interested in spectacular finds, he was are the oldest and the highest equally keen to look for patterns of everyday life. are the most recent. The study Marshall tended to excavate along regular of these layers is called horizontal units, measured uniformly throughout the stratigraphy. Artefacts found in mound, ignoring the stratigraphy of the site. This layers can be assigned to meant that all the artefacts recovered from the same specific cultural periods and unit were grouped together, even if they were found can thus provide the cultural at different stratigraphic layers. As a result, valuable sequence for a site.",
+    "avg_font_size": 10.75,
+    "bbox": [
+      62.71751022338867,
+      115.81375885009766,
+      522.3390502929688,
+      552.863525390625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 65,
+    "line_spacing_avg": 2.2,
+    "font_names": [
+      "TT34DT00",
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "lower",
+    "length": 2526,
+    "relative_font_size": null
+  },
+  {
+    "text": "Fig. 1.25 The stratigraphy of a small mound Notice that the layers are not exactly horizontal.",
+    "avg_font_size": 9.5,
+    "bbox": [
+      61.2775993347168,
+      682.4874877929688,
+      297.4671325683594,
+      714.9234008789062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 44.52,
+    "font_names": [
+      "Bookman-Light",
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 94,
+    "relative_font_size": 11
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 53.44,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "21 B RICKS , B EADS AND B ONES",
+    "avg_font_size": 12.02,
+    "bbox": [
+      70.87750244140625,
+      72.50038146972656,
+      545.8425903320312,
+      86.22138977050781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CopprplGothBdBT"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "information about the context of these finds was irretrievably lost.",
+    "avg_font_size": 11.0,
+    "bbox": [
+      70.87750244140625,
+      102.59998321533203,
+      359.61431884765625,
+      126.9209976196289
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 9.23,
+    "font_names": [
+      "Bookman"
+    ],
+    "text_case": "lower",
+    "length": 68,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Wheeler at Harappa",
+    "avg_font_size": 13.5,
+    "bbox": [
+      393.4375,
+      123.23539733886719,
+      527.6123657226562,
+      136.7353973388672
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CooperLtBT,Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 18,
+    "relative_font_size": 28
+  },
+  {
+    "text": "10.3 New techniques and questions Early archaeologists were often It was R.E.M. Wheeler, after he took over as Director- driven by a sense of adventure. General of the ASI in 1944, who rectified this This is what Wheeler wrote problem. Wheeler recognised that it was necessary about his experience at to follow the stratigraphy of the mound rather Harappa: than dig mechanically along uniform horizontal It was, I recall, on a warm lines. Moreover, as an ex-army brigadier, he brought May night in 1944 that a four with him a military precision to the practice miles\u2019 tonga -ride brought me of archaeology. as the newly appointed The frontiers of the Harappan civilisation have Director General of the little or no connection with present-day national Archaeological Survey with boundaries. However, with the partition of the my local Muslim officer from subcontinent and the creation of Pakistan, the major a little railway-station labelled known sites became part of Pakistan. This has \u201cHarappa\u201d along a deep sand track to a small rest- spurred Indian archaeologists to try and locate sites house beside the moonlit in India. An extensive survey in Kutch has revealed mounds of the ancient site. a number of Harappan settlements and explorations Warned by my anxious in Punjab and Haryana have added to the list of colleague that we must start Harappan sites. While Kalibangan, Lothal, Rakhi our inspection at 5.30 next Garhi and most recently Dholavira have been morning and finish by 7.30 discovered, explored and excavated as part of these \u201cafter which it would be too efforts, fresh explorations continue. hot\u201d, we turned in with the Over the decades, new issues have assumed dark figure of the punka - walla importance. Where some archaeologists are often crouched patiently in the keen to obtain a cultural sequence, others try to entrance and the night understand the logic underlying the location of air rent by innumerable specific sites. They also grapple with the wealth of jackals in the neighbouring artefacts, trying to figure out the functions these wilderness. may have served. Next morning, punctually Since the 1980s, there has also been growing at 5.30, our little procession international interest in Harappan archaeology. started out towards the sandy Specialists from the subcontinent and abroad have heaps. Within ten minutes I been jointly working at both Harappa and stopped and rubbed my eyes Mohenjodaro. They are using modern scientific as I gazed upon the tallest techniques including surface exploration to recover mound, scarcely trusting my vision. Six hours later my traces of clay, stone, metal and plant and animal embarrassed staff and I were remains as well as to minutely analyse every scrap still toiling with picks and of available evidence. These explorations promise to knives under the blazing sun, yield interesting results in the future. the mad sahib (I am afraid) setting a relentless pace.",
+    "avg_font_size": 10.74,
+    "bbox": [
+      70.87748718261719,
+      134.70797729492188,
+      535.0634765625,
+      670.2225952148438
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 81,
+    "line_spacing_avg": 1.14,
+    "font_names": [
+      "CooperLtBT",
+      "Bookman",
+      "Bookman,Bold"
+    ],
+    "text_case": "lower",
+    "length": 2939,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u00dc Discuss...",
+    "avg_font_size": 14.0,
+    "bbox": [
+      70.87750244140625,
+      662.574951171875,
+      156.5644989013672,
+      680.1729736328125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman",
+      "Wingdings"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 29
+  },
+  {
+    "text": "F ROM R.E.M. W HEELER , Which of the themes in this chapter would have My Archaeological Mission interested Cunningham? Which are the issues to India and Pakistan, 1976. that have been of interest since 1947?",
+    "avg_font_size": 10.54,
+    "bbox": [
+      70.87750244140625,
+      675.8026123046875,
+      527.5956420898438,
+      720.2020263671875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CooperLtBT",
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 208,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 48.17,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "T HEMES IN I NDIAN H ISTORY 22",
+    "avg_font_size": 12.14,
+    "bbox": [
+      47.35750961303711,
+      70.53399658203125,
+      522.321044921875,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00",
+      "TT2F2T00"
+    ],
+    "text_case": "UPPER",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "11. Problems of Piecing Together the Past",
+    "avg_font_size": 15.0,
+    "bbox": [
+      233.59751892089844,
+      101.09903717041016,
+      511.0581359863281,
+      134.3090362548828
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 9.19,
+    "font_names": [
+      "TT173T00"
+    ],
+    "text_case": "Mixed",
+    "length": 41,
+    "relative_font_size": 32
+  },
+  {
+    "text": "As we have seen, it is not the Harappan script that helps in understanding the ancient civilisation. Rather, it is material evidence that allows archaeologists to better reconstruct Harappan life. This material could be pottery, tools, ornaments, household objects, etc. Organic materials such as cloth, leather, wood and reeds generally decompose, especially in tropical regions. What survive are stone, burnt clay (or terracotta), metal, etc. It is also important to remember that only broken or useless objects would have been thrown away. Other things would probably have been recycled. Consequently, valuable artefacts that are found intact were either lost in the past or hoarded and never retrieved. In other words, such finds are accidental rather than typical. 11.1 Classifying finds Recovering artefacts is just the beginning of the archaeological enterprise. Archaeologists then classify their finds. One simple principle of classification is in terms of material, such as stone, clay, metal, bone, ivory, etc. The second, and more complicated, is in terms of function: archaeologists have to decide whether, for instance, an artefact is a tool or an ornament, or both, or something meant for ritual use. An understanding of the function of an artefact is often shaped by its resemblance with present-day things \u2013 beads, querns, stone blades and pots are obvious examples. Archaeologists also try to identify the function of an artefact by investigating the context in which it was found: was it found in a house, in a drain, in a grave, in a kiln? Sometimes, archaeologists have to take recourse to indirect evidence. For instance, though there are traces of cotton at some Harappan sites, to find out about clothing we have to depend on indirect evidence including depictions in sculpture. Archaeologists have to develop frames of reference. We have seen that the first Harappan seal that was found could not be understood till archaeologists had a context in which to place it \u2013 both in terms of the cultural sequence in which it was found, and in terms of a comparison with finds in Mesopotamia.",
+    "avg_font_size": 11.0,
+    "bbox": [
+      233.5975341796875,
+      138.61302185058594,
+      522.3434448242188,
+      722.9733276367188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 44,
+    "line_spacing_avg": 2.38,
+    "font_names": [
+      "Bookman-Light",
+      "Bookman-Demi"
+    ],
+    "text_case": "Mixed",
+    "length": 2110,
+    "relative_font_size": 19
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 45.39,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "23 B RICKS , B EADS AND B ONES",
+    "avg_font_size": 12.02,
+    "bbox": [
+      70.87750244140625,
+      72.50038146972656,
+      545.8425903320312,
+      86.22138977050781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "11.2 Problems of interpretation The problems of archaeological interpretation are perhaps most evident in attempts to reconstruct religious practices. Early archaeologists thought that certain objects which seemed unusual or unfamiliar may have had a religious significance. These included terracotta figurines of women, heavily jewelled, some with elaborate head-dresses. These were regarded as mother goddesses. Rare stone statuary of men in an almost standardised posture, seated with one hand on the knee \u2013 such as the \u201cpriest-king\u201d \u2013 was also similarly classified. In other instances, structures have been assigned ritual significance. These include the Great Bath and fire altars found at Kalibangan and Lothal. Attempts have also been made to reconstruct religious beliefs and practices by examining seals, some of which seem to depict ritual scenes. Others, with plant motifs, are thought to indicate nature worship. Some animals \u2013 such as the one-horned animal, often called the \u201cunicorn\u201d \u2013 depicted on seals seem to be mythical, composite creatures. In some seals, a figure shown seated cross-legged in a \u201cyogic\u201d posture, sometimes surrounded by animals, has been regarded as a depiction of \u201cproto-Shiva\u201d, that is, an early form of one of the major deities of Hinduism. Besides, conical stone objects have been Fig. 1.26 classified as lingas . Was this a mother goddess? Many reconstructions of Harappan religion are made on the assumption that later traditions provide parallels with earlier ones. This is because archaeologists often move from the known to the unknown, that is, from the present to the past. While this is plausible in the case of stone querns and pots, it becomes more speculative when we extend it to \u201creligious\u201d symbols. Let us look, for instance, at the \u201cproto-Shiva\u201d seals. The earliest religious text, the Rigveda (compiled c . 1500-1000 BCE ) mentions a god named Rudra, which is a name used for Shiva in later Puranic traditions Fig. 1.27 (in the first millennium CE ; see also Chapter 4). A \u201cproto-Shiva\u201d seal However, unlike Shiva, Rudra in the Rigveda is neither depicted as Pashupati (lord of animals in general and cattle in particular), nor as a yogi . In A linga is a polished stone other words, this depiction does not match the that is worshipped as a description of Rudra in the Rigveda . Is this, then, symbol of Shiva. possibly a shaman as some scholars have suggested?",
+    "avg_font_size": 10.82,
+    "bbox": [
+      70.87748718261719,
+      102.66352844238281,
+      539.3572387695312,
+      720.8133544921875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 54,
+    "line_spacing_avg": 2.49,
+    "font_names": [
+      "Bookman-LightItalic",
+      "Bookman-Light",
+      "Bookman-Demi"
+    ],
+    "text_case": "Mixed",
+    "length": 2418,
+    "relative_font_size": null
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 47.55,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "24 T HEMES IN I NDIAN H ISTORY",
+    "avg_font_size": 12.14,
+    "bbox": [
+      47.35750961303711,
+      70.35852813720703,
+      522.321044921875,
+      84.07849884033203
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Wingdings",
+      "CopprplGothBdBT"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "What has been achieved after so many decades of Shamans are men and archaeological work? We have a fairly good idea of women who claim magical the Harappan economy. We have been able to tease and healing powers, as well as an ability to communicate out social differences and we have some idea of how with the other world. the civilisation functioned. It is really not clear how much more we would know if the script were to be deciphered. If a bilingual inscription is found, questions about the languages spoken by the Harappans could perhaps be put to rest. Several reconstructions remain speculative at present. Was the Great Bath a ritual structure? How widespread was literacy? Why do Harappan cemeteries show little social differentiation? Also unanswered are questions on gender \u2013 did women make pottery or did they only paint pots (as at present)? What about other craftspersons? What were the terracotta female figurines used for? Very few scholars have investigated issues of gender in the context of the Harappan civilisation and this is a whole new area for future work.",
+    "avg_font_size": 11.21,
+    "bbox": [
+      53.837520599365234,
+      102.46297454833984,
+      522.3478393554688,
+      376.3058166503906
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 28,
+    "line_spacing_avg": 2.98,
+    "font_names": [
+      "Bookman,Italic",
+      "Bookman"
+    ],
+    "text_case": "lower",
+    "length": 1083,
+    "relative_font_size": null
+  },
+  {
+    "text": "Fig. 1.28",
+    "avg_font_size": 9.5,
+    "bbox": [
+      61.757503509521484,
+      375.23968505859375,
+      103.76190185546875,
+      384.73968505859375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman,Italic"
+    ],
+    "text_case": "Title",
+    "length": 9,
+    "relative_font_size": 11
+  },
+  {
+    "text": "More research is also required on the relationship",
+    "avg_font_size": 11.5,
+    "bbox": [
+      247.75750732421875,
+      378.46282958984375,
+      522.3462524414062,
+      389.9858093261719
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 50,
+    "relative_font_size": 23
+  },
+  {
+    "text": "Gamesmen or lingas ?",
+    "avg_font_size": 9.5,
+    "bbox": [
+      61.757503509521484,
+      386.6919860839844,
+      163.60751342773438,
+      396.2596740722656
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Bookman,Italic",
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 20,
+    "relative_font_size": 11
+  },
+  {
+    "text": "between the Harappans and the Vedic people as This is what Mackay, one of the some scholars have argued that the authors of the earliest excavators, had to say Harappans civilisation and the Vedic people were about these stones: the same. Various small cones made of lapis lazuli, jasper, chalcedony, and other stones, most beautifully cut and finished, and less than two inches in height, are also thought to be lingas \u2026 on the other hand, it is just as possible that they were used in the board-games \u2026 F ROM E RNEST M ACKAY , Early Indus Civilisation , 1948.",
+    "avg_font_size": 10.65,
+    "bbox": [
+      58.15752029418945,
+      392.3828430175781,
+      522.34423828125,
+      595.1032104492188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 19,
+    "line_spacing_avg": 2.27,
+    "font_names": [
+      "Bookman",
+      "CooperLtBT"
+    ],
+    "text_case": "lower",
+    "length": 561,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u00dc Discuss...",
+    "avg_font_size": 14.0,
+    "bbox": [
+      47.35750198364258,
+      652.4949951171875,
+      132.80450439453125,
+      669.9669799804688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 57.39,
+    "font_names": [
+      "Bookman",
+      "Wingdings"
+    ],
+    "text_case": "Title",
+    "length": 12,
+    "relative_font_size": 29
+  },
+  {
+    "text": "What are the aspects of Harappan economy that have been reconstructed from Fig. 1.29 A terracotta cart archaeological evidence?",
+    "avg_font_size": 10.5,
+    "bbox": [
+      47.35750198364258,
+      672.6009521484375,
+      308.245849609375,
+      723.2230224609375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 6,
+    "line_spacing_avg": 2.25,
+    "font_names": [
+      "Bookman,Italic",
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 127,
+    "relative_font_size": 18
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 45.14,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "25 B RICKS , B EADS AND B ONES",
+    "avg_font_size": 12.02,
+    "bbox": [
+      70.87750244140625,
+      72.50038146972656,
+      545.8425903320312,
+      86.22138977050781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "CopprplGothBdBT"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "Timeline 1 Major Periods in Early Indian Archaeology",
+    "avg_font_size": 14.5,
+    "bbox": [
+      130.1575164794922,
+      104.57525634765625,
+      481.30517578125,
+      137.54049682617188
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 11.16,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "Mixed",
+    "length": 52,
+    "relative_font_size": 31
+  },
+  {
+    "text": "2 million BP Lower Palaeolithic (B EFORE P RESENT ) 80,000 Middle Palaeolithic 35,000 Upper Palaeolithic 12,000 Mesolithic 10,000 Neolithic (early agriculturists and pastoralists) 6,000 Chalcolithic (first use of copper) 2600 BCE Harappan civilisation 1000 BCE Early iron, megalithic burials 600 BCE -400 CE Early Historic (Note: All dates are approximate. Besides, there are wide variations in developments in different parts of the subcontinent. Dates indicated are for the earliest evidence of each phase.)",
+    "avg_font_size": 10.05,
+    "bbox": [
+      85.03750610351562,
+      163.45799255371094,
+      530.5209350585938,
+      387.2312316894531
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 21,
+    "line_spacing_avg": 10.38,
+    "font_names": [
+      "Bookman,Italic",
+      "Bookman"
+    ],
+    "text_case": "Mixed",
+    "length": 509,
+    "relative_font_size": null
+  },
+  {
+    "text": "Timeline 2 Major Developments in Harappan Archaeology",
+    "avg_font_size": 14.5,
+    "bbox": [
+      114.0775146484375,
+      412.25628662109375,
+      497.3851623535156,
+      445.2215270996094
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 14.5,
+    "font_names": [
+      "CopperplateGothicBold"
+    ],
+    "text_case": "Mixed",
+    "length": 53,
+    "relative_font_size": 31
+  },
+  {
+    "text": "Nineteenth century 1875 Report of Alexander Cunningham on Harappan seal Twentieth century 1921 Daya Ram Sahni begins excavations at Harappa 1922 Excavations begin at Mohenjodaro 1946 R.E.M. Wheeler excavates at Harappa 1955 S.R. Rao begins excavations at Lothal 1960 B.B. Lal and B.K. Thapar begin excavations at Kalibangan 1974 M.R. Mughal begins explorations in Bahawalpur 1980 A team of German and Italian archaeologists begins surface explorations at Mohenjodaro 1986 American team begins excavations at Harappa 1990 R.S. Bisht begins excavations at Dholavira 1997 Amrendra Nath starts excavations at Rakhigarhi 2013 Vasant Shinde begins archaeogenetic research at Rakhigarhi",
+    "avg_font_size": 10.5,
+    "bbox": [
+      88.39749145507812,
+      461.5552062988281,
+      531.93994140625,
+      706.6334838867188
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 28,
+    "line_spacing_avg": 5.74,
+    "font_names": [
+      "Bookman",
+      "Bookman,Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 679,
+    "relative_font_size": 18
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 61.73,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "T HEMES IN I NDIAN H ISTORY 26",
+    "avg_font_size": 12.14,
+    "bbox": [
+      47.35750961303711,
+      70.53399658203125,
+      522.321044921875,
+      86.22041320800781
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00",
+      "TT2F2T00"
+    ],
+    "text_case": "UPPER",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "Answer in 100-150 words",
+    "avg_font_size": 13.5,
+    "bbox": [
+      382.3974914550781,
+      104.7905044555664,
+      497.8468933105469,
+      134.5595245361328
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 10.84,
+    "font_names": [
+      "TT173T00"
+    ],
+    "text_case": "Mixed",
+    "length": 23,
+    "relative_font_size": 28
+  },
+  {
+    "text": "1. List the items of food available to people in Harappan cities. Identify the groups who would have provided these. 2. How do archaeologists trace socio-economic differences in Harappan society? What are the differences that they notice? 3. Would you agree that the drainage system in Harappan cities indicates town planning? Give reasons for your answer. 4. List the materials used to make beads in the Harappan civilisation. Describe the process by which any one kind of bead was made. 5. Look at Fig. 1.30 and describe what you see. How is the body placed? What are the objects placed near it? Are there any artefacts on the body? Do these indicate the sex of the skeleton?",
+    "avg_font_size": 10.5,
+    "bbox": [
+      369.4375,
+      145.9493865966797,
+      522.318603515625,
+      550.529296875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 39,
+    "line_spacing_avg": 3.37,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 677,
+    "relative_font_size": 18
+  },
+  {
+    "text": "Fig. 1.30 A Harappan burial",
+    "avg_font_size": 9.5,
+    "bbox": [
+      54.7974967956543,
+      656.0873413085938,
+      143.36871337890625,
+      677.1073608398438
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 53.79,
+    "font_names": [
+      "Bookman-LightItalic"
+    ],
+    "text_case": "Mixed",
+    "length": 27,
+    "relative_font_size": 11
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 91.26,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  },
+  {
+    "text": "27 B RICKS , B EADS AND B ONES",
+    "avg_font_size": 12.02,
+    "bbox": [
+      70.87750244140625,
+      72.50038146972656,
+      545.8425903320312,
+      86.22035217285156
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "TT350T00"
+    ],
+    "text_case": "Mixed",
+    "length": 30,
+    "relative_font_size": null
+  },
+  {
+    "text": "Write a short essay (about 500 words) on the following:",
+    "avg_font_size": 13.12,
+    "bbox": [
+      107.83749389648438,
+      104.7905044555664,
+      326.0239562988281,
+      134.48301696777344
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 10.7,
+    "font_names": [
+      "TT173T00"
+    ],
+    "text_case": "Mixed",
+    "length": 55,
+    "relative_font_size": null
+  },
+  {
+    "text": "6. Describe some of the distinctive features of Mohenjodaro. 7. List the raw materials required for craft production in the Harappan civilisation and discuss how these might have been obtained. 8. Discuss how archaeologists reconstruct the past. 9. Discuss the functions that may have been performed by rulers in Harappan society.",
+    "avg_font_size": 10.5,
+    "bbox": [
+      94.87748718261719,
+      145.9493865966797,
+      359.5979309082031,
+      266.1292724609375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 12,
+    "line_spacing_avg": 5.96,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 330,
+    "relative_font_size": 18
+  },
+  {
+    "text": "Map work",
+    "avg_font_size": 13.5,
+    "bbox": [
+      99.19749450683594,
+      288.63037109375,
+      175.7624969482422,
+      302.3193664550781
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 22.5,
+    "font_names": [
+      "TT173T00"
+    ],
+    "text_case": "Mixed",
+    "length": 8,
+    "relative_font_size": 28
+  },
+  {
+    "text": "10. On Map 1, use a pencil to circle sites where evidence of agriculture has been recovered. Mark an X against sites where there is evidence of craft production and R against sites where raw materials were found.",
+    "avg_font_size": 10.5,
+    "bbox": [
+      88.15748596191406,
+      313.4692687988281,
+      359.5974426269531,
+      374.3692932128906
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 6,
+    "line_spacing_avg": 3.91,
+    "font_names": [
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 212,
+    "relative_font_size": 18
+  },
+  {
+    "text": "Project (any one)",
+    "avg_font_size": 13.5,
+    "bbox": [
+      104.95748901367188,
+      396.8703918457031,
+      242.9855499267578,
+      410.55938720703125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 22.5,
+    "font_names": [
+      "TT173T00"
+    ],
+    "text_case": "Mixed",
+    "length": 17,
+    "relative_font_size": 28
+  },
+  {
+    "text": "11. Find out if there are any museums in your town. Visit one of them and write a report on any ten If you would like to know items, describing how old they are, where they more, read: were found, and why you think they are on Raymond and Bridget Allchin. display. 1997. Origins of a Civilization. Viking, New Delhi. 12. Collect illustrations of ten things made of stone, metal and clay produced and used at present. G.L. Possehl. 2003. Compare these with the pictures of the Harappan The Indus Civilization. civilisation in this chapter, and discuss the Vistaar, New Delhi. similarities and differences that you find. Shereen Ratnagar. 2001. Understanding Harappa. Tulika, New Delhi.",
+    "avg_font_size": 10.26,
+    "bbox": [
+      88.15750122070312,
+      421.70928955078125,
+      528.3204956054688,
+      594.5137329101562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 23,
+    "line_spacing_avg": 4.17,
+    "font_names": [
+      "TT34ET00",
+      "TT34DT00",
+      "Bookman-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 684,
+    "relative_font_size": null
+  },
+  {
+    "text": "For more information, you could visit: http://www.harappa.com/har/ harres0.html",
+    "avg_font_size": 10.0,
+    "bbox": [
+      386.4775085449219,
+      661.0844116210938,
+      520.6439208984375,
+      707.0739135742188
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 4,
+    "line_spacing_avg": 18.14,
+    "font_names": [
+      "TT34ET00",
+      "TT34DT00"
+    ],
+    "text_case": "lower",
+    "length": 79,
+    "relative_font_size": 14
+  },
+  {
+    "text": "Reprint 2025-26",
+    "avg_font_size": 8.0,
+    "bbox": [
+      268.51483154296875,
+      768.3675537109375,
+      325.8748474121094,
+      779.2635498046875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 61.29,
+    "font_names": [
+      "Arial"
+    ],
+    "text_case": "Title",
+    "length": 15,
+    "relative_font_size": 4
+  }
+]

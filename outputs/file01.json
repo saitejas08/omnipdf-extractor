@@ -33,7 +33,7 @@
     ],
     "is_bold": false,
     "is_upper": false,
-    "alignment": "center",
+    "alignment": "left",
     "line_count": 4,
     "line_spacing_avg": 11.91,
     "font_names": [
@@ -60,7 +60,7 @@
     "font_names": [
       "Tahoma-Bold"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 37,
     "relative_font_size": 0
   }

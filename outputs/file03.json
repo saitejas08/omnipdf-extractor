@@ -16,7 +16,7 @@
     "font_names": [
       "Arial-Black"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 36,
     "relative_font_size": 10
   },
@@ -142,7 +142,7 @@
     "font_names": [
       "ArialMT"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 79,
     "relative_font_size": 10
   },
@@ -182,8 +182,8 @@
     "line_count": 30,
     "line_spacing_avg": 3.78,
     "font_names": [
-      "Arial-BoldMT",
       "Arial-BoldItalicMT",
+      "Arial-BoldMT",
       "ArialMT",
       "Arial-ItalicMT"
     ],
@@ -208,7 +208,7 @@
     "font_names": [
       "Arial-BoldItalicMT"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 68,
     "relative_font_size": 0
   },
@@ -227,8 +227,8 @@
     "line_count": 8,
     "line_spacing_avg": 2.34,
     "font_names": [
-      "Arial-BoldItalicMT",
-      "ArialMT"
+      "ArialMT",
+      "Arial-BoldItalicMT"
     ],
     "text_case": "Mixed",
     "length": 628,
@@ -294,7 +294,7 @@
     "font_names": [
       "Arial-BoldItalicMT"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 68,
     "relative_font_size": 0
   },
@@ -313,8 +313,8 @@
     "line_count": 37,
     "line_spacing_avg": 5.01,
     "font_names": [
-      "Arial-BoldItalicMT",
-      "ArialMT"
+      "ArialMT",
+      "Arial-BoldItalicMT"
     ],
     "text_case": "Mixed",
     "length": 2599,
@@ -337,7 +337,7 @@
     "font_names": [
       "Arial-BoldItalicMT"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 68,
     "relative_font_size": 0
   },
@@ -356,8 +356,8 @@
     "line_count": 23,
     "line_spacing_avg": 3.78,
     "font_names": [
-      "Arial-BoldItalicMT",
-      "ArialMT"
+      "ArialMT",
+      "Arial-BoldItalicMT"
     ],
     "text_case": "lower",
     "length": 986,
@@ -379,8 +379,8 @@
     "line_spacing_avg": 3.52,
     "font_names": [
       "Arial-BoldMT",
-      "ArialMT",
-      "Arial-Black"
+      "Arial-Black",
+      "ArialMT"
     ],
     "text_case": "Mixed",
     "length": 840,
@@ -403,7 +403,7 @@
     "font_names": [
       "Arial-BoldItalicMT"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 68,
     "relative_font_size": 0
   },
@@ -489,7 +489,7 @@
     "font_names": [
       "Arial-BoldItalicMT"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 68,
     "relative_font_size": 0
   },
@@ -617,7 +617,7 @@
     "font_names": [
       "Arial-BoldItalicMT"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 68,
     "relative_font_size": 0
   },
@@ -701,7 +701,7 @@
     "font_names": [
       "Arial-BoldItalicMT"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 68,
     "relative_font_size": 0
   },
@@ -789,7 +789,7 @@
     "font_names": [
       "Arial-BoldItalicMT"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 68,
     "relative_font_size": 0
   },
@@ -893,8 +893,8 @@
     "line_count": 14,
     "line_spacing_avg": 3.72,
     "font_names": [
-      "Arial-BoldItalicMT",
-      "ArialMT"
+      "ArialMT",
+      "Arial-BoldItalicMT"
     ],
     "text_case": "Mixed",
     "length": 1269,
@@ -915,8 +915,8 @@
     "line_count": 6,
     "line_spacing_avg": 105.8,
     "font_names": [
-      "Arial-BlackItalic",
       "Times-Roman",
+      "Arial-BlackItalic",
       "Arial-BoldItalicMT"
     ],
     "text_case": "Mixed",
@@ -940,7 +940,7 @@
     "font_names": [
       "Arial-Black"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 53,
     "relative_font_size": 9
   },
@@ -982,8 +982,8 @@
     "line_count": 6,
     "line_spacing_avg": 42.49,
     "font_names": [
-      "Arial-BlackItalic",
       "Times-Roman",
+      "Arial-BlackItalic",
       "Arial-BoldItalicMT"
     ],
     "text_case": "Mixed",
@@ -1005,12 +1005,12 @@
     "line_count": 47,
     "line_spacing_avg": 5.72,
     "font_names": [
-      "Times-Roman",
-      "Arial-BoldItalicMT",
-      "Arial-ItalicMT",
       "Arial-BlackItalic",
+      "Arial-BoldItalicMT",
+      "Times-Roman",
       "Arial-BoldMT",
-      "ArialMT"
+      "ArialMT",
+      "Arial-ItalicMT"
     ],
     "text_case": "Mixed",
     "length": 2637,
@@ -1053,8 +1053,8 @@
     "line_count": 6,
     "line_spacing_avg": 463.62,
     "font_names": [
-      "Arial-BlackItalic",
       "Times-Roman",
+      "Arial-BlackItalic",
       "Arial-BoldItalicMT"
     ],
     "text_case": "Mixed",
@@ -1078,7 +1078,7 @@
     "font_names": [
       "Arial-Black"
     ],
-    "text_case": "Title",
+    "text_case": "Mixed",
     "length": 49,
     "relative_font_size": 9
   },
@@ -1118,8 +1118,8 @@
     "line_count": 6,
     "line_spacing_avg": 65.42,
     "font_names": [
-      "Arial-BlackItalic",
       "Times-Roman",
+      "Arial-BlackItalic",
       "Arial-BoldItalicMT"
     ],
     "text_case": "Mixed",

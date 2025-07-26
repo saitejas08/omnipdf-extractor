@@ -1,0 +1,519 @@
+[
+  {
+    "text": "Tax Invoice/Bill of Supply/Cash Memo (Original for Recipient)",
+    "avg_font_size": 13.5,
+    "bbox": [
+      310.0899963378906,
+      13.945013999938965,
+      557.0170288085938,
+      48.09649658203125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 61,
+    "relative_font_size": 10
+  },
+  {
+    "text": "Sold By : Billing Address : CLICKTECH RETAIL PRIVATE LIMITED Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, * IDCO Industrial Estate, Plot No. 920 (P) botanical garden 922/2815 (P), Vill: Giringaput , PS- Chandaka, Howrah, WEST BENGAL, 711103 Bhubaneshwar, Khorda IN BHUBANESWAR, ODISHA, 752054 State/UT Code: 19 IN",
+    "avg_font_size": 11.18,
+    "bbox": [
+      42.75,
+      100.3925552368164,
+      552.530029296875,
+      196.48374938964844
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 14,
+    "line_spacing_avg": 52.3,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 330,
+    "relative_font_size": null
+  },
+  {
+    "text": "Shipping Address : PAN No: AAJCC9783E Alok Ranjan GST Registration No: 21AAJCC9783E1ZJ Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, botanical garden Howrah, WEST BENGAL, 711103 IN State/UT Code: 19 Place of supply: WEST BENGAL Place of delivery: WEST BENGAL Order Number: 404-5257739-3343501 Invoice Number : BBX1-250590 Order Date: 14.07.2025 Invoice Details : OR-BBX1-297683823-2526 Invoice Date : 15.07.2025",
+    "avg_font_size": 11.25,
+    "bbox": [
+      42.75,
+      218.32254028320312,
+      552.530029296875,
+      398.7037658691406
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 17,
+    "line_spacing_avg": 11.49,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 427,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Sl. Unit Qty Net Tax Tax Tax Total No Description Price Amount Rate Type Amount Amount 1 Gizga Essentials Universal Silicone Keyboard Protector Skin for 15.6 Inch Laptop |Keyboard Dust Cover | 15.6\" Keyguard (36.5 X 13.5 Cm) |",
+    "avg_font_size": 9.08,
+    "bbox": [
+      43.5,
+      413.1800231933594,
+      551.7530517578125,
+      459.2910461425781
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 16,
+    "line_spacing_avg": 7.35,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold",
+      "PlayfairDisplay-Regular"
+    ],
+    "text_case": "Title",
+    "length": 226,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u20b983.90 1 \u20b983.90 18% IGST \u20b915.10 \u20b999.00",
+    "avg_font_size": 11.5,
+    "bbox": [
+      351.0,
+      451.4960021972656,
+      550.2680053710938,
+      465.1410217285156
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica",
+      "PlayfairDisplay-Regular"
+    ],
+    "text_case": "UPPER",
+    "length": 38,
+    "relative_font_size": 8
+  },
+  {
+    "text": "B00MFPCY5C ( B00MFPCY5C ) HSN:39269099",
+    "avg_font_size": 9.0,
+    "bbox": [
+      57.75,
+      457.3150329589844,
+      191.77798461914062,
+      480.071044921875
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "UPPER",
+    "length": 38,
+    "relative_font_size": 4
+  },
+  {
+    "text": "\u20b915.10 \u20b999.00",
+    "avg_font_size": 12.75,
+    "bbox": [
+      487.989990234375,
+      479.81451416015625,
+      551.7705078125,
+      496.8102722167969
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "PlayfairDisplay-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 13,
+    "relative_font_size": 9
+  },
+  {
+    "text": "TOTAL:",
+    "avg_font_size": 9.0,
+    "bbox": [
+      43.5,
+      482.5600280761719,
+      76.49400329589844,
+      494.9530334472656
+    ],
+    "is_bold": true,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "UPPER",
+    "length": 6,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Amount in Words: Ninety-nine only For CLICKTECH RETAIL PRIVATE LIMITED:",
+    "avg_font_size": 11.25,
+    "bbox": [
+      43.130001068115234,
+      497.592529296875,
+      549.8025512695312,
+      545.9337158203125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 2.54,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 71,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Authorized Signatory Whether tax is payable under reverse charge - No",
+    "avg_font_size": 11.25,
+    "bbox": [
+      42.0,
+      576.112548828125,
+      549.8900756835938,
+      609.40380859375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 16.26,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 69,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Date & Time: 14/07/2025, 21:35:36 Payment Transaction ID: Invoice Value: Mode of Payment: cG7TaQptFSRrqT6nuUm1qGjy8FXFgX2OteL hrs 99.00 UPI",
+    "avg_font_size": 7.31,
+    "bbox": [
+      46.130001068115234,
+      626.9017333984375,
+      541.9857177734375,
+      645.4656982421875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 8,
+    "line_spacing_avg": 17.5,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 139,
+    "relative_font_size": 3
+  },
+  {
+    "text": "*ASSPL-Amazon Seller Services Pvt. Ltd., ARIPL-Amazon Retail India Pvt. Ltd. (only where Amazon Retail India Pvt. Ltd. fulfillment center is co-located) Customers desirous of availing input GST credit are requested to create a Business account and purchase on Amazon.in/business from Business eligible offers Please note that this invoice is not a demand for payment Page 1 of 1",
+    "avg_font_size": 5.63,
+    "bbox": [
+      98.4800033569336,
+      768.0277709960938,
+      559.2603149414062,
+      808.3833618164062
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 4,
+    "line_spacing_avg": 44.4,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 378,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Tax Invoice/Bill of Supply/Cash Memo (Original for Recipient)",
+    "avg_font_size": 13.5,
+    "bbox": [
+      310.0899963378906,
+      13.945013999938965,
+      557.0170288085938,
+      48.09649658203125
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 61,
+    "relative_font_size": 10
+  },
+  {
+    "text": "Signature valid Digitally signed by DS AMAZON SELLER SERVICES PRIVATE LIMITED 6 Date: 2025.07.15 16:31:22 UTC Reason: Invoice",
+    "avg_font_size": 6.19,
+    "bbox": [
+      53.25,
+      66.31375885009766,
+      255.55796813964844,
+      96.36400604248047
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 4,
+    "line_spacing_avg": 18.22,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 125,
+    "relative_font_size": null
+  },
+  {
+    "text": "Sold By : Billing Address : Amazon Seller Services Private Limited Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, * #26/1, Brigade Gateway, 8th Floor., Dr botanical garden Rajkumar Road, Malleshwaram West Howrah, WEST BENGAL, 711103 Bangalore, Karnataka \u2013 560055 IN IN State/UT Code: 19 PAN No: AAICA3918J Shipping Address : GST Registration No: 29AAICA3918J1ZE Alok Ranjan CIN No: U51900KA2010PTC053234 Alok Ranjan Macdonald Hall, College Ghat Road, iiest shibpur, botanical garden Howrah, WEST BENGAL, 711103 IN State/UT Code: 19 Place of supply: WEST BENGAL Place of delivery: WEST BENGAL Order Number: 404-5257739-3343501 Invoice Number : MKT-71357432 Order Date: 14.07.2025 Invoice Details : OR-BBX1-1044-2526 Invoice Date : 15.07.2025",
+    "avg_font_size": 11.22,
+    "bbox": [
+      42.75,
+      100.3925552368164,
+      552.530029296875,
+      398.7037658691406
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 31,
+    "line_spacing_avg": 6.09,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 755,
+    "relative_font_size": null
+  },
+  {
+    "text": "Sl. No Description Unit Price Qty Net Amount Tax Rate Tax Type Tax Amount Total Amount Marketplace Fees IGST",
+    "avg_font_size": 9.0,
+    "bbox": [
+      43.5,
+      413.1800231933594,
+      537.4360961914062,
+      439.9810485839844
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 10,
+    "line_spacing_avg": 8.26,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 108,
+    "relative_font_size": 4
+  },
+  {
+    "text": "\u20b90.89 \u20b90.89 18% \u20b90.16 \u20b91.05 \u20b90.16 \u20b91.05",
+    "avg_font_size": 12.75,
+    "bbox": [
+      183.19000244140625,
+      427.6860046386719,
+      551.7775268554688,
+      458.5602722167969
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 7,
+    "line_spacing_avg": 1.13,
+    "font_names": [
+      "PlayfairDisplay-Bold",
+      "PlayfairDisplay-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 39,
+    "relative_font_size": 9
+  },
+  {
+    "text": "TOTAL:",
+    "avg_font_size": 9.0,
+    "bbox": [
+      43.5,
+      444.3100280761719,
+      76.49400329589844,
+      456.7030334472656
+    ],
+    "is_bold": true,
+    "is_upper": true,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "UPPER",
+    "length": 6,
+    "relative_font_size": 4
+  },
+  {
+    "text": "Amount in Words: One Point Zero Five only For Amazon Seller Services Private Limited:",
+    "avg_font_size": 11.25,
+    "bbox": [
+      43.130001068115234,
+      459.342529296875,
+      549.7701416015625,
+      507.6837463378906
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 2.54,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 85,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Authorized Signatory",
+    "avg_font_size": 11.25,
+    "bbox": [
+      436.1300048828125,
+      537.642578125,
+      549.8900756835938,
+      553.1337890625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 29.96,
+    "font_names": [
+      "Helvetica-Bold"
+    ],
+    "text_case": "Title",
+    "length": 20,
+    "relative_font_size": 7
+  },
+  {
+    "text": "(1) Service Accounting Code: 998319",
+    "avg_font_size": 5.63,
+    "bbox": [
+      43.130001068115234,
+      561.4677734375,
+      136.69497680664062,
+      569.203369140625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 8.33,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Title",
+    "length": 35,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Whether tax is payable under reverse charge - No",
+    "avg_font_size": 11.25,
+    "bbox": [
+      42.0,
+      574.5962524414062,
+      290.8500671386719,
+      590.0537719726562
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 5.39,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 48,
+    "relative_font_size": 7
+  },
+  {
+    "text": "Date & Time: 14/07/2025, 21:35:36 Payment Transaction ID: Invoice Value: Mode of Payment: cG7TaQptFSRrqT6nuUm1qGjy8FXFgX2OteL hrs 1.05 UPI",
+    "avg_font_size": 7.31,
+    "bbox": [
+      46.130001068115234,
+      607.5517578125,
+      541.3857421875,
+      626.11572265625
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 8,
+    "line_spacing_avg": 17.5,
+    "font_names": [
+      "Helvetica",
+      "Helvetica-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 138,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Please note that this invoice is not a demand for payment Regd Office: Amazon Seller Services Private Limited 8th Floor, Brigade World Trade Center Dr Raj Kumar Road, Malleshwaram(West) Telephone: +91 89 33420300 Fax: +91 80 30625685 Email: customer-service@amazon.in Amazon.in - Amazon Seller Services Private Limited *ASSPL-Amazon Seller Services Pvt. Ltd., ARIPL-Amazon Retail India Pvt. Ltd. (only where Amazon Retail India Pvt. Ltd. fulfillment center is co-located) Customers desirous of availing input GST credit are requested to create a Business account and purchase on Amazon.in/business from Business eligible offers Page 1 of 1",
+    "avg_font_size": 5.63,
+    "bbox": [
+      99.41000366210938,
+      738.6577758789062,
+      559.2603149414062,
+      837.7433471679688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 11,
+    "line_spacing_avg": 26.76,
+    "font_names": [
+      "Helvetica"
+    ],
+    "text_case": "Mixed",
+    "length": 639,
+    "relative_font_size": 0
+  }
+]

@@ -1,0 +1,814 @@
+[
+  {
+    "text": "General Advice for Producing a Presentation: Before You Begin",
+    "avg_font_size": 36.01,
+    "bbox": [
+      46.87200164794922,
+      65.27793884277344,
+      841.7415771484375,
+      144.5299835205078
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Derailed-ExtraBold"
+    ],
+    "text_case": "Mixed",
+    "length": 61,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u2022 The content in this Powerpoint is intended as a general guide \u2013 there are many ways to make an effective slideshow, and you may approach it differently depending on your subject. \u2022 Check to see if there are any specific guidelines in the module handbook. Do you need to include anything specific, or use a particular font? Always prioritise fulfilling any assignment- specific guidelines. \u2022 Think about your audience. Why are you giving this presentation, and who are you giving it to? \u2022 Are they subject experts (e.g. a tutor, or someone studying on your degree) or someone who is learning about this content for the first time? \u2022 What do you need to include for them to understand your point, and what do they already know?",
+    "avg_font_size": 21.96,
+    "bbox": [
+      46.87200164794922,
+      181.7761993408203,
+      904.51318359375,
+      460.9859924316406
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 10,
+    "line_spacing_avg": 7.98,
+    "font_names": [
+      "Calibri-Bold",
+      "Calibri",
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 727,
+    "relative_font_size": 6
+  },
+  {
+    "text": "University Library. Explore the possibilities.",
+    "avg_font_size": 12.02,
+    "bbox": [
+      46.87200164794922,
+      508.78985595703125,
+      281.1796569824219,
+      522.2927856445312
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 47.8,
+    "font_names": [
+      "Derailed-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 46,
+    "relative_font_size": 0
+  },
+  {
+    "text": "General Advice for Producing a Presentation: While Writing",
+    "avg_font_size": 36.01,
+    "bbox": [
+      46.87200164794922,
+      65.27793884277344,
+      841.741455078125,
+      144.5299835205078
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Derailed-ExtraBold"
+    ],
+    "text_case": "Mixed",
+    "length": 58,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u2022 Try to focus on key points to avoid overwhelming your slides with text, and make use of bullet points to break text up. \u2022 You will not read directly from your slides, so including key points and expanding on these is enough. \u2022 Think about how many slides to include. Try not to include too few (e.g. three slides for a 1- hour talk) or too many (e.g. 50 slides for a 10-minute talk). \u2022 A useful starting point may be to aim for one slide per minute of talking, though this is heavily dependent on your subject and the purpose of the presentation. \u2022 Decide the order of your slides based on what you want to tell your audience \u2013 what order will make the content clear and easy to follow for them?",
+    "avg_font_size": 22.1,
+    "bbox": [
+      46.87200164794922,
+      176.20999145507812,
+      906.7893676757812,
+      457.87200927734375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 10,
+    "line_spacing_avg": 7.43,
+    "font_names": [
+      "Calibri",
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 697,
+    "relative_font_size": null
+  },
+  {
+    "text": "University Library. Explore the possibilities.",
+    "avg_font_size": 12.02,
+    "bbox": [
+      46.87200164794922,
+      508.78985595703125,
+      281.1797180175781,
+      522.2927856445312
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 50.92,
+    "font_names": [
+      "Derailed-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 46,
+    "relative_font_size": 0
+  },
+  {
+    "text": "General Advice for Producing a Presentation: Advice on Visuals",
+    "avg_font_size": 36.01,
+    "bbox": [
+      46.87200164794922,
+      65.27793884277344,
+      841.741455078125,
+      144.5299835205078
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Derailed-ExtraBold"
+    ],
+    "text_case": "Mixed",
+    "length": 62,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u2022 Ensure any images you include are clear and relevant to the content. Your images should help you to make your point. Remember to make sure you have permission to use them. \u2022 Avoid using extreme colour combinations \u2013 for example, bright yellow text is difficult to read, and if you use a lot of clashing colours on a slide (e.g. green, red, bright orange and neon purple) it can become visually overwhelming. \u2022 Although it can be tempting to show off your design skills, simpler and easy to read is usually better. Avoid distracting transitions, animations and fancy fonts, unless these are relevant to your course. \u2022 Remember to include white space \u2013 don\u2019t overwhelm your slides with excessive text, tiny text, or an extreme number of images. \u2022 Use the accessibility checker on Powerpoint, or other accessibility checkers available online, to ensure that the presentation is visually accessible.",
+    "avg_font_size": 23.04,
+    "bbox": [
+      45.9119987487793,
+      170.56881713867188,
+      897.1997680664062,
+      480.072021484375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 12,
+    "line_spacing_avg": 9.58,
+    "font_names": [
+      "Calibri",
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 897,
+    "relative_font_size": 8
+  },
+  {
+    "text": "University Library. Explore the possibilities.",
+    "avg_font_size": 12.02,
+    "bbox": [
+      46.87200164794922,
+      508.78985595703125,
+      281.1797180175781,
+      522.2927856445312
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 28.72,
+    "font_names": [
+      "Derailed-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 46,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Example Title Slide: Jane Austen\u2019s Novels",
+    "avg_font_size": 39.97,
+    "bbox": [
+      63.0,
+      176.3068084716797,
+      475.0751647949219,
+      264.26678466796875
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Derailed-ExtraBold"
+    ],
+    "text_case": "Mixed",
+    "length": 41,
+    "relative_font_size": null
+  },
+  {
+    "text": "[Subtitle here, if needed]",
+    "avg_font_size": 32.04,
+    "bbox": [
+      64.75199890136719,
+      277.9105529785156,
+      421.74169921875,
+      314.3079833984375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 13.64,
+    "font_names": [
+      "Derailed-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 26,
+    "relative_font_size": 17
+  },
+  {
+    "text": "ncl.ac.uk/library University Library. Explore the possibilities.",
+    "avg_font_size": 20.04,
+    "bbox": [
+      57.551998138427734,
+      496.52276611328125,
+      941.2352905273438,
+      519.4080200195312
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 182.21,
+    "font_names": [
+      "Derailed-SemiBold",
+      "Derailed-Medium"
+    ],
+    "text_case": "Mixed",
+    "length": 64,
+    "relative_font_size": 5
+  },
+  {
+    "text": "Advice for Your Title Slide",
+    "avg_font_size": 39.96,
+    "bbox": [
+      46.87200164794922,
+      82.20680236816406,
+      553.04541015625,
+      126.96199798583984
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Derailed-ExtraBold"
+    ],
+    "text_case": "Mixed",
+    "length": 27,
+    "relative_font_size": 21
+  },
+  {
+    "text": "Select an image which is clear (check that the image is not pixelated/unclear if you resize it) and related to the topic you are presenting on. Choose a title/subtitle which accurately reflects the content of your presentation, and helps to indicate to your reader what information is coming. Check to make sure your title is readable against the image. Check in case your school/module guide has a style guide or any advice \u2013 do you need to include your name, student number and module code on your title slide?",
+    "avg_font_size": 24.0,
+    "bbox": [
+      82.87200164794922,
+      192.239990234375,
+      913.7540283203125,
+      401.7799987792969
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 7,
+    "line_spacing_avg": 15.26,
+    "font_names": [
+      "Calibri-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 512,
+    "relative_font_size": 11
+  },
+  {
+    "text": "University Library. Explore the possibilities.",
+    "avg_font_size": 12.02,
+    "bbox": [
+      46.87200164794922,
+      508.78985595703125,
+      281.1797180175781,
+      522.2927856445312
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 107.01,
+    "font_names": [
+      "Derailed-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 46,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Picture and Caption Example",
+    "avg_font_size": 32.05,
+    "bbox": [
+      105.72000122070312,
+      86.10318756103516,
+      370.9855041503906,
+      156.5528106689453
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Derailed-ExtraBold"
+    ],
+    "text_case": "Mixed",
+    "length": 27,
+    "relative_font_size": null
+  },
+  {
+    "text": "You might use this sort of slide when you wish to include information that discusses an image, e.g. Illustration of Jane Austen, born 16 December 1775 Famous for writing novels including: Sense and Sensibility (1811) Pride and Prejudice (1813) , and Northanger Abbey (1817)",
+    "avg_font_size": 18.0,
+    "bbox": [
+      128.27999877929688,
+      204.23001098632812,
+      397.055908203125,
+      412.8399963378906
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 9,
+    "line_spacing_avg": 10.47,
+    "font_names": [
+      "Calibri-LightItalic",
+      "Calibri-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 273,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Image from canva.com . University Library. Explore the possibilities.",
+    "avg_font_size": 13.0,
+    "bbox": [
+      46.87200164794922,
+      478.83599853515625,
+      736.89599609375,
+      522.2927856445312
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 38.97,
+    "font_names": [
+      "Calibri",
+      "Derailed-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 69,
+    "relative_font_size": null
+  },
+  {
+    "text": "Example Basic Content Slide: Themes in Jane Austen\u2019s Novels",
+    "avg_font_size": 36.01,
+    "bbox": [
+      47.35200119018555,
+      88.1300048828125,
+      606.1563110351562,
+      167.33480834960938
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Derailed-ExtraBold"
+    ],
+    "text_case": "Mixed",
+    "length": 59,
+    "relative_font_size": null
+  },
+  {
+    "text": "Austen\u2019s novels generally focus on themes of social class, love, marriage, family, wealth (or lack of it), and friendship.",
+    "avg_font_size": 30.01,
+    "bbox": [
+      82.87200164794922,
+      217.91000366210938,
+      628.9322509765625,
+      298.3160095214844
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 50.58,
+    "font_names": [
+      "Calibri-Light"
+    ],
+    "text_case": "lower",
+    "length": 122,
+    "relative_font_size": null
+  },
+  {
+    "text": "Northanger Abbey, as a parody of Gothic fiction, also includes themes such as the gap between fantasy and reality.",
+    "avg_font_size": 30.01,
+    "bbox": [
+      82.87200164794922,
+      338.77001953125,
+      623.2621459960938,
+      419.1759948730469
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 40.45,
+    "font_names": [
+      "Calibri-LightItalic",
+      "Calibri-Light"
+    ],
+    "text_case": "lower",
+    "length": 114,
+    "relative_font_size": null
+  },
+  {
+    "text": "University Library. Explore the possibilities.",
+    "avg_font_size": 12.02,
+    "bbox": [
+      46.87200164794922,
+      508.78985595703125,
+      281.1797180175781,
+      522.2927856445312
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 89.61,
+    "font_names": [
+      "Derailed-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 46,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Section header slide",
+    "avg_font_size": 42.0,
+    "bbox": [
+      90.4800033569336,
+      205.49000549316406,
+      509.5980529785156,
+      252.52999877929688
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Derailed-ExtraBold"
+    ],
+    "text_case": "Mixed",
+    "length": 20,
+    "relative_font_size": 23
+  },
+  {
+    "text": "- You might want to include these to split up your presentation into themed sections (e.g. Problem, Hypothesis, Investigation, Results, Analysis.)",
+    "avg_font_size": 27.97,
+    "bbox": [
+      90.4800033569336,
+      261.39697265625,
+      873.0804443359375,
+      353.6920166015625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 3,
+    "line_spacing_avg": 8.87,
+    "font_names": [
+      "Derailed-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 146,
+    "relative_font_size": null
+  },
+  {
+    "text": "ncl.ac.uk/library University Library. Explore the possibilities.",
+    "avg_font_size": 20.04,
+    "bbox": [
+      57.551998138427734,
+      496.52276611328125,
+      941.2352905273438,
+      519.4080200195312
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 142.83,
+    "font_names": [
+      "Derailed-SemiBold",
+      "Derailed-Medium"
+    ],
+    "text_case": "Mixed",
+    "length": 64,
+    "relative_font_size": 5
+  },
+  {
+    "text": "A Comparison Example",
+    "avg_font_size": 39.96,
+    "bbox": [
+      49.391998291015625,
+      81.09678649902344,
+      498.1827697753906,
+      125.85198211669922
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Derailed-ExtraBold"
+    ],
+    "text_case": "Title",
+    "length": 20,
+    "relative_font_size": 21
+  },
+  {
+    "text": "Example One Title Here Example Two Title Here",
+    "avg_font_size": 24.02,
+    "bbox": [
+      49.391998291015625,
+      169.302001953125,
+      715.4199829101562,
+      193.3260040283203
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 43.45,
+    "font_names": [
+      "Calibri-Light"
+    ],
+    "text_case": "Title",
+    "length": 45,
+    "relative_font_size": 12
+  },
+  {
+    "text": "- You might use this layout for a slide if you - For example: the results of two different are comparing two things. experiments, or the argument in favour of something versus the argument against something.",
+    "avg_font_size": 24.0,
+    "bbox": [
+      49.391998291015625,
+      222.10000610351562,
+      901.7503051757812,
+      323.8659973144531
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 8.63,
+    "font_names": [
+      "Calibri-Light"
+    ],
+    "text_case": "lower",
+    "length": 207,
+    "relative_font_size": 11
+  },
+  {
+    "text": "University Library. Explore the possibilities.",
+    "avg_font_size": 12.02,
+    "bbox": [
+      46.87200164794922,
+      508.78985595703125,
+      281.1797180175781,
+      522.2927856445312
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 184.92,
+    "font_names": [
+      "Derailed-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 46,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Content and caption example",
+    "avg_font_size": 39.96,
+    "bbox": [
+      46.87200164794922,
+      82.20680236816406,
+      623.494873046875,
+      126.96199798583984
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Derailed-ExtraBold"
+    ],
+    "text_case": "Mixed",
+    "length": 27,
+    "relative_font_size": 21
+  },
+  {
+    "text": "\u2022 Tales of Jane Austen novels have traditionally spiked after the release of film or television adaptations \u2022 These adaptations include Pride and Prejudice (2005, dir. Joe Wright) and Emma (2020, dir. Autumn Wilde)",
+    "avg_font_size": 32.04,
+    "bbox": [
+      493.2699890136719,
+      144.54380798339844,
+      918.1578369140625,
+      433.4800109863281
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 8,
+    "line_spacing_avg": 5.03,
+    "font_names": [
+      "Calibri-LightItalic",
+      "ArialMT",
+      "Calibri-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 214,
+    "relative_font_size": 17
+  },
+  {
+    "text": "University Library. Explore the possibilities.",
+    "avg_font_size": 12.02,
+    "bbox": [
+      46.87200164794922,
+      508.78985595703125,
+      281.1797180175781,
+      522.2927856445312
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 75.31,
+    "font_names": [
+      "Derailed-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 46,
+    "relative_font_size": 0
+  },
+  {
+    "text": "10",
+    "avg_font_size": 14.04,
+    "bbox": [
+      893.8800048828125,
+      514.0606689453125,
+      909.3634033203125,
+      529.9679565429688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Derailed-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 2
+  },
+  {
+    "text": "\u2022 You may include a concluding slide like this at the end, which invites the audience to ask questions about your presentation.",
+    "avg_font_size": 27.97,
+    "bbox": [
+      37.63199996948242,
+      216.1844940185547,
+      829.064697265625,
+      278.7699890136719
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 2.3,
+    "font_names": [
+      "Calibri",
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 127,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u2022 For more support with presentations, take a look at our Get Ready to Communicate resources.",
+    "avg_font_size": 27.97,
+    "bbox": [
+      37.63199996948242,
+      306.9562072753906,
+      842.372802734375,
+      369.4960021972656
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 15.22,
+    "font_names": [
+      "Calibri",
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 93,
+    "relative_font_size": null
+  },
+  {
+    "text": "\u2022 Remember to practice your presentation, and good luck!",
+    "avg_font_size": 27.96,
+    "bbox": [
+      37.63199996948242,
+      397.6961975097656,
+      702.716796875,
+      429.989990234375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 28.2,
+    "font_names": [
+      "Calibri",
+      "ArialMT"
+    ],
+    "text_case": "Mixed",
+    "length": 56,
+    "relative_font_size": 13
+  },
+  {
+    "text": "If you need to include your contact details, you can do so on this slide",
+    "avg_font_size": 18.0,
+    "bbox": [
+      74.20800018310547,
+      447.0360107421875,
+      575.0938720703125,
+      465.0360107421875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 17.05,
+    "font_names": [
+      "Calibri-Light"
+    ],
+    "text_case": "Mixed",
+    "length": 72,
+    "relative_font_size": 3
+  },
+  {
+    "text": "University Library. Explore the possibilities.",
+    "avg_font_size": 20.04,
+    "bbox": [
+      545.7100219726562,
+      497.23089599609375,
+      955.8677978515625,
+      519.8159790039062
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 32.19,
+    "font_names": [
+      "Derailed-SemiBold"
+    ],
+    "text_case": "Mixed",
+    "length": 46,
+    "relative_font_size": 5
+  }
+]

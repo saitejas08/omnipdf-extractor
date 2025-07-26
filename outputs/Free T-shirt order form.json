@@ -1,0 +1,781 @@
+[
+  {
+    "text": "T-shirt Order Form",
+    "avg_font_size": 24.0,
+    "bbox": [
+      76.875,
+      185.6953125,
+      269.7272644042969,
+      214.5
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 18,
+    "relative_font_size": 5
+  },
+  {
+    "text": "bhartendualok4527@gmail.com Switch accounts Not shared",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      233.77294921875,
+      314.56915283203125,
+      267.375
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 13.84,
+    "font_names": [
+      "Roboto-Regular",
+      "Roboto-Bold"
+    ],
+    "text_case": "Mixed",
+    "length": 54,
+    "relative_font_size": 1
+  },
+  {
+    "text": "* Indicates required question",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      287.77294921875,
+      214.88583374023438,
+      300.375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 20.4,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 29,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Favorite color *",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      344.09765625,
+      157.6915283203125,
+      358.5
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 43.72,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 16,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Your answer",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      385.27294921875,
+      136.19789123535156,
+      397.875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 26.77,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Last name *",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      456.59765625,
+      141.1798095703125,
+      471.0
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 58.72,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Your answer",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      497.77294921875,
+      136.19789123535156,
+      510.375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 26.77,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Phone *",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      569.09765625,
+      119.0665283203125,
+      583.5
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 58.72,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Your answer",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      610.27294921875,
+      136.19789123535156,
+      622.875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 26.77,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Email *",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      681.59765625,
+      114.7540283203125,
+      696.0
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 58.72,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Title",
+    "length": 7,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Your answer",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      722.77294921875,
+      136.19789123535156,
+      735.375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 26.77,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Size and color",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      48.59765625,
+      151.9493408203125,
+      63.0
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 14,
+    "relative_font_size": 3
+  },
+  {
+    "text": "White Blue Black Green Yellow Grey",
+    "avg_font_size": 10.99,
+    "bbox": [
+      162.84375,
+      90.05260467529297,
+      499.23834228515625,
+      103.24874877929688
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 6,
+    "line_spacing_avg": 27.05,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Title",
+    "length": 34,
+    "relative_font_size": 2
+  },
+  {
+    "text": "XXS XXS",
+    "avg_font_size": 10.99,
+    "bbox": [
+      82.125,
+      128.30259704589844,
+      103.1927261352539,
+      141.49874877929688
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 25.05,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "UPPER",
+    "length": 7,
+    "relative_font_size": 2
+  },
+  {
+    "text": "XS XS",
+    "avg_font_size": 10.99,
+    "bbox": [
+      82.125,
+      171.05259704589844,
+      96.29937744140625,
+      184.24874877929688
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 29.55,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "UPPER",
+    "length": 5,
+    "relative_font_size": 2
+  },
+  {
+    "text": "XL XL",
+    "avg_font_size": 10.99,
+    "bbox": [
+      82.125,
+      341.3026123046875,
+      95.69465637207031,
+      354.4987487792969
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 157.05,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "UPPER",
+    "length": 5,
+    "relative_font_size": 2
+  },
+  {
+    "text": "XXL XXL",
+    "avg_font_size": 10.99,
+    "bbox": [
+      82.125,
+      383.3026123046875,
+      102.58800506591797,
+      396.4987487792969
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 28.8,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "UPPER",
+    "length": 7,
+    "relative_font_size": 2
+  },
+  {
+    "text": "XXXL XXXL",
+    "avg_font_size": 10.99,
+    "bbox": [
+      82.125,
+      426.0526123046875,
+      109.48135375976562,
+      439.2487487792969
+    ],
+    "is_bold": false,
+    "is_upper": true,
+    "alignment": "center",
+    "line_count": 2,
+    "line_spacing_avg": 29.55,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "UPPER",
+    "length": 9,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Quantity *",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      48.59765625,
+      129.5196533203125,
+      63.0
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Title",
+    "length": 10,
+    "relative_font_size": 3
+  },
+  {
+    "text": "10",
+    "avg_font_size": 10.99,
+    "bbox": [
+      100.875,
+      355.5526123046875,
+      113.23351287841797,
+      368.7487487792969
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 292.55,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 2,
+    "relative_font_size": 2
+  },
+  {
+    "text": "Other:",
+    "avg_font_size": 10.5,
+    "bbox": [
+      100.875,
+      386.02294921875,
+      129.71359252929688,
+      398.625
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "center",
+    "line_count": 1,
+    "line_spacing_avg": 17.27,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Title",
+    "length": 6,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Shipping Address",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      456.59765625,
+      172.0738067626953,
+      471.0
+    ],
+    "is_bold": true,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 57.97,
+    "font_names": [
+      "Roboto-Bold"
+    ],
+    "text_case": "Title",
+    "length": 16,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Street Address *",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      521.09765625,
+      163.7501220703125,
+      535.5
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 50.1,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Title",
+    "length": 16,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Your answer",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      561.52294921875,
+      136.19789123535156,
+      574.125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 26.02,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Street Address Line 2",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      632.09765625,
+      190.63612365722656,
+      646.5
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 57.97,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Title",
+    "length": 21,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Your answer",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      672.52294921875,
+      136.19789123535156,
+      685.125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 26.02,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 1
+  },
+  {
+    "text": "City *",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      48.59765625,
+      105.3790283203125,
+      63.0
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 0.0,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Title",
+    "length": 6,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Your answer",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      89.77294921875,
+      136.19789123535156,
+      102.375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 26.77,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 1
+  },
+  {
+    "text": "State",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      161.09765625,
+      104.73900604248047,
+      175.5
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 58.72,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Title",
+    "length": 5,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Your answer",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      202.27294921875,
+      136.19789123535156,
+      214.875
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 26.77,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Postal code",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      273.59765625,
+      139.98915100097656,
+      288.0
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 58.72,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Your answer",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      314.77294921875,
+      136.19789123535156,
+      327.375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 26.77,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Notes",
+    "avg_font_size": 12.0,
+    "bbox": [
+      76.875,
+      386.09765625,
+      108.74700927734375,
+      400.5
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 58.72,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Title",
+    "length": 5,
+    "relative_font_size": 3
+  },
+  {
+    "text": "Your answer",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.875,
+      426.52294921875,
+      136.19789123535156,
+      439.125
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 1,
+    "line_spacing_avg": 26.02,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 11,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Submit Clear form",
+    "avg_font_size": 10.5,
+    "bbox": [
+      76.125,
+      483.974609375,
+      531.9340209960938,
+      494.474609375
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 2,
+    "line_spacing_avg": 44.85,
+    "font_names": [
+      "Unnamed-T3"
+    ],
+    "text_case": "Mixed",
+    "length": 17,
+    "relative_font_size": 1
+  },
+  {
+    "text": "Never submit passwords through Google Forms. This content is neither created nor endorsed by Google. - Contact form owner - Terms of Service - Privacy Policy Does this form look suspicious? Report",
+    "avg_font_size": 9.0,
+    "bbox": [
+      58.125,
+      517.9482421875,
+      519.9602661132812,
+      571.5
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "left",
+    "line_count": 3,
+    "line_spacing_avg": 14.87,
+    "font_names": [
+      "Roboto-Regular"
+    ],
+    "text_case": "Mixed",
+    "length": 196,
+    "relative_font_size": 0
+  },
+  {
+    "text": "Forms",
+    "avg_font_size": 14.29,
+    "bbox": [
+      301.9453125,
+      587.0880126953125,
+      349.7903747558594,
+      610.5
+    ],
+    "is_bold": false,
+    "is_upper": false,
+    "alignment": "right",
+    "line_count": 1,
+    "line_spacing_avg": 15.59,
+    "font_names": [
+      "Roboto-Regular",
+      "ProductSans-Regular"
+    ],
+    "text_case": "Title",
+    "length": 5,
+    "relative_font_size": 4
+  }
+]
