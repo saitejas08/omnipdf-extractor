@@ -1,0 +1,46 @@
+# 🐍 Python virtual environments
+.venv/
+venv/
+
+# 🧪 Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# 📦 Installed packages metadata
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# 📝 User/editor files
+*.log
+*.swp
+.DS_Store
+
+# 🧠 Jupyter/IPython junk (if ever added)
+.ipynb_checkpoints/
+
+# 🧪 Test coverage
+.coverage
+htmlcov/
+
+# 🔐 OS-specific or IDE-specific
+*.bak
+.idea/
+.vscode/
+
+# 🚫 System files
+Thumbs.db
+.venv/
+outputs/
+__pycache__/
+*.log
+.venv/
+outputs/
+__pycache__/
+*.log
+.venv/
+outputs/
+__pycache__/
+*.log
