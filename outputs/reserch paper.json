@@ -1,6 +1,6 @@
 [
   {
-    "paragraph_id": "p_64bef2ba",
+    "paragraph_id": "p_e5aaa0f4",
     "page_num": 0,
     "text": "A Supervised Learning Approach For Heading Detection",
     "avg_font_size": 14.35,
@@ -32,7 +32,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_cfc94f0c",
+    "paragraph_id": "p_24e6f5b3",
     "page_num": 0,
     "text": "Sahib Singh Budhiraja and Vijay Mago",
     "avg_font_size": 9.96,
@@ -64,7 +64,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_9bb214a8",
+    "paragraph_id": "p_cd1508df",
     "page_num": 0,
     "text": "(sbudhira,vmago)@lakeheadu.ca",
     "avg_font_size": 9.96,
@@ -96,7 +96,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_af55fa9f",
+    "paragraph_id": "p_43fdae1b",
     "page_num": 0,
     "text": "Lakehead University, 955 Oliver Rd, Thunder Bay, ON P7B 5E1",
     "avg_font_size": 8.97,
@@ -128,7 +128,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_806d591c",
+    "paragraph_id": "p_45ffc599",
     "page_num": 0,
     "text": "arXiv:1809.01477v1  [cs.IR]  31 Aug 2018",
     "avg_font_size": 20.0,
@@ -160,7 +160,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_e9d93e82",
+    "paragraph_id": "p_e3d622a5",
     "page_num": 0,
     "text": "Abstract. As the Portable Document Format (PDF) \ufb01le format in- creases in popularity, research in analysing its structure for text ex- traction and analysis is necessary. Detecting headings can be a crucial component of classifying and extracting meaningful data. This research involves training a supervised learning model to detect headings with fea- tures carefully selected through recursive feature elimination. The best performing classi\ufb01er had an accuracy of 96.95%, sensitivity of 0.986 and a speci\ufb01city of 0.953. This research into heading detection contributes to the \ufb01eld of PDF based text extraction and can be applied to the au- tomation of large scale PDF text analysis in a variety of professional and policy based contexts.",
     "avg_font_size": 8.97,
@@ -193,7 +193,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a312926a",
+    "paragraph_id": "p_01c18d43",
     "page_num": 0,
     "text": "Keywords: Heading Detection Text Segmentation Supervised Ap- proach.",
     "avg_font_size": 8.97,
@@ -227,7 +227,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_9968f30a",
+    "paragraph_id": "p_bf548cdc",
     "page_num": 0,
     "text": "Introduction",
     "avg_font_size": 11.96,
@@ -259,7 +259,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_a96ddea5",
+    "paragraph_id": "p_272f686d",
     "page_num": 0,
     "text": "As the amount of information stored within PDF documents increases world- wide, the opportunities for large scale text based analysis requires increasingly automated processes, as the amount of document processing is time consuming and labour intensive for human professionals. Systematic processing and extrac- tion of textual structure is increasingly necessary and useful as demonstrated in El-Haj et al.\u2019s work involving 1500 \ufb01nancial statements[7]. Categorizing data into seperate sections is quite easy for humans, as they rely on visual cues such as headings to process textual information. Machines, despite being able to process large amounts information at high speeds, require e\ufb00ort to classify and interpret text based data. This paper explores the application of supervised classi\ufb01ers to operationalize a system that would aid in the identi\ufb01cation of headings. PDF documents are a visually exact digital copy that displays text by drawing char- acters on a speci\ufb01c location [10] and present a challenge in analysis because the \ufb01les do not provide enough information on how the text is organized and for- matted. A supervised classi\ufb01er that is trained on labelled data provides one solution to categorizing PDF text as it tells the classi\ufb01er how to make predictions based on the data provided. This research involved comparing and systematically testing",
     "avg_font_size": 9.96,
@@ -291,7 +291,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_694e44b5",
+    "paragraph_id": "p_a8d3d37a",
     "page_num": 1,
     "text": "S. Budhiraja and V. Mago",
     "avg_font_size": 8.97,
@@ -323,7 +323,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_1ee524d4",
+    "paragraph_id": "p_8cf11740",
     "page_num": 1,
     "text": "a variety of classi\ufb01ers for the purpose of selecting classi\ufb01ers best suited to this application. Recursive feature elimination [8]is used to ensure the classi\ufb01ers only use the best and minimum number of features for making predictions. Cross validation is used to tune the hyper parameters of a given machine learning al- gorithm for increased performance before testing it out on test data. The \ufb01nal trained classi\ufb01er is currently being applied to detect headings in course outline documents and extract learning outcomes. The extracted learning outcomes are being used for automating the process of developing university/college transfer credit agreements by using semantic similarity algorithms[3].",
     "avg_font_size": 9.96,
@@ -356,7 +356,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_2af2eb77",
+    "paragraph_id": "p_96bb244c",
     "page_num": 1,
     "text": "Related Work",
     "avg_font_size": 11.96,
@@ -388,7 +388,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_742882ea",
+    "paragraph_id": "p_f7a270b4",
     "page_num": 1,
     "text": "While PDF format is convenient as it preserves the structure of a document across platforms, extracting textual layout information is required for detecting headings and further analysis. One solution to extracting layout information is to convert the PDF into HTML and use the HTML tags for further analysis. Once converted to HTML all the information related to text formatting required for the analysis, like font size and boldness of text, can be easily extracted. A variety of PDF to HTML document tools are available and have been assessed based on the text and structural loss associated with each tool[4]. Additional work includes PDF to HTML text detection approaches that maintain layout and font information[2], table detection, extraction and annotation[1] and analy- sis using white spaces[5]. HTML conversion is clearly a well established approach to analyzing PDF layout and content. Previous research provides insight into processes related to extracting the head- ing layout of a HTML document[6]. In Manabe\u2019s work, headings are used to divide a document at certain locations that indicate a change in topic. Docu- ment Object Model(DOM) trees are used to sort candidate headings based on their signi\ufb01cance and to de\ufb01ne blocks. A recursive approach is applied for docu- ment segmentation using the list of candidate headings and evaluate with good results using a manually labelled dataset. El-Haj et al. provide a practical application of document structure detection through the analysis of a large corpus of UK \ufb01nancial reports including 1500 annual reports from 200 di\ufb00erent organizations. A list of \u2018gold standard\u2019 section names was generated from 50 randomly selected reports and used to match with corresponding sections of every document page in the dataset. Section matches were then extracted and evaluated using sensitivity, speci\ufb01city and F1 score in addition to being reviewed by a domain expert for accuracy[7]. Current research has taken steps towards a system which analyses a document\u2019s textual structure. But there is a need to have an approach that can e\ufb03ciently and accurately analyse the textual layout of a document and divide it into con-",
     "avg_font_size": 9.96,
@@ -420,7 +420,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_c0cba73b",
+    "paragraph_id": "p_68cb8832",
     "page_num": 2,
     "text": "A Supervised Learning Approach For Heading Detection",
     "avg_font_size": 8.97,
@@ -452,7 +452,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_7957dfbe",
+    "paragraph_id": "p_5187987c",
     "page_num": 2,
     "text": "tent sections to automate the process of extracting text from a PDF documents. We present out supervised learning approach for heading detection as a solution for it.",
     "avg_font_size": 9.96,
@@ -484,7 +484,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_f2e789a4",
+    "paragraph_id": "p_18d78189",
     "page_num": 2,
     "text": "Methodology",
     "avg_font_size": 11.96,
@@ -516,7 +516,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_6ecf5a18",
+    "paragraph_id": "p_06fbc068",
     "page_num": 2,
     "text": "3.1 Data Collection",
     "avg_font_size": 9.96,
@@ -548,7 +548,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_64785457",
+    "paragraph_id": "p_3b5d9558",
     "page_num": 2,
     "text": "Our data set consisted of 500 documents downloaded from Google using Google Custom Search API [11]. To extract the correspoding formatting/style informa- tion the documents were converted from PDF to HTML using pdf2txt , which is a PDFMiner wrapper available in Python [12]. This is illustrated in Fig 1 which shows some sample text and its corresponding HTML tags generated using the conversion process. The \ufb01nal data points are also shown in the Fig 1, which was generated by parsing the HTML tags using regular expressions. A regular expression is string of characters used to de\ufb01ne a search pattern[13]. The regular expressions used for parsing the tags are as follows:",
     "avg_font_size": 9.96,
@@ -581,7 +581,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_1497402b",
+    "paragraph_id": "p_b5257a5a",
     "page_num": 2,
     "text": "To extract Font size and corresponding text: span font size : ( px ?) /span To check if text is bold we look for the following regular expression for the word bold in the starting tag: \u2018[ Bb old",
     "avg_font_size": 9.96,
@@ -614,7 +614,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_41f501a2",
+    "paragraph_id": "p_1a3470e5",
     "page_num": 2,
     "text": "Each data point contains some text, font size and a \ufb02ag which is either 1 or 0 depending on the corresponding text being bold or not. The whole process yielded 83,194 data points, which was then exported into an Excel \ufb01le for further pre-processing.",
     "avg_font_size": 9.96,
@@ -646,7 +646,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_1aadd89b",
+    "paragraph_id": "p_de9287f7",
     "page_num": 2,
     "text": "3.2 Data Preprocessing",
     "avg_font_size": 9.96,
@@ -678,7 +678,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_d8af6e9c",
+    "paragraph_id": "p_46cb7702",
     "page_num": 2,
     "text": "The process of transforming raw data into usable training data is referred to as data preprocessing. The steps of data preprocessing for this research are as follows:",
     "avg_font_size": 9.96,
@@ -710,7 +710,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_e15d470f",
+    "paragraph_id": "p_6bcde694",
     "page_num": 2,
     "text": "Data Labelling: Data labelling refers to the process of assigning data points labels, this makes the data suitable for training supervised machine learning models. All the 83914 data points are manually labelled by cross referring to the",
     "avg_font_size": 9.96,
@@ -743,7 +743,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_799271cc",
+    "paragraph_id": "p_d2b0bc6a",
     "page_num": 2,
     "text": "Repository available at: https://github.com/sahib-s/Heading-Detection-PDF-Files",
     "avg_font_size": 8.97,
@@ -775,7 +775,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_0a301cdd",
+    "paragraph_id": "p_6a1cf35e",
     "page_num": 3,
     "text": "S. Budhiraja and V. Mago",
     "avg_font_size": 8.97,
@@ -807,7 +807,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_0504698f",
+    "paragraph_id": "p_f8896db5",
     "page_num": 3,
     "text": "Fig. 1. Extraction of Data from Documents",
     "avg_font_size": 8.97,
@@ -841,7 +841,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_ba103f45",
+    "paragraph_id": "p_14e4afdd",
     "page_num": 4,
     "text": "A Supervised Learning Approach For Heading Detection",
     "avg_font_size": 8.97,
@@ -873,7 +873,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_95fbc34e",
+    "paragraph_id": "p_93466e1c",
     "page_num": 4,
     "text": "documents as both training and testing data needs to be labelled. If the text in the data point was a heading the label was set to 1 otherwise 0. Labelling data is one of the most important steps of preprocessing because the performance of the model depends on how well the data is labelled. Example of labelled data points is provided in Fig 1(c).",
     "avg_font_size": 9.96,
@@ -905,7 +905,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_1e446245",
+    "paragraph_id": "p_9650732f",
     "page_num": 4,
     "text": "Balancing The Dataset: The dataset is considered imbalanced if the preva- lence of one class is more than the other. The number of headings in our dataset is very less as compared to non-headings, this is because of the fact that the number of headings in a document is far less than the number of other text elements. Sklearn\u2019s implementation for Synthetic Minority Over-sampling Tech- nique (SMOTE) is used to balanced the dataset, which does so by creating synthetic data points for the minority class to make it even [18,16].",
     "avg_font_size": 9.96,
@@ -938,7 +938,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_3936950f",
+    "paragraph_id": "p_94952d5f",
     "page_num": 4,
     "text": "Data Transformation: The process of transforming data into a form that has more predictive value is known as data transformation. The purpose of data transformation is to convert raw data points into \u2018features\u2019 that contribute to more predictive value in training and decision making related to heading identi\ufb01cation. For example, font size and text are two features from the raw data which, in their base form, do not have much value but can be transformed into useful features for training an e\ufb03cient model. The list of transformed data \ufb01elds are as follows: Font Flag: Headings tend to be larger in terms of font size as compared to the paragraph text that follows. Therefore, a higher font size increases the probability that the text is a heading. However, since each document is unique, there can not be a single threshold applied across all instances. Thresholds are calculated for each document by measuring the frequency of each font size where each character with a particular font size is counted as one instance. The font size which has the maximum frequency is used as the threshold. This approach relies on the assumption that the most frequently used font size is the one that is being used for the paragraph text, so having any font size above that increases the probability of that text being a heading. Fig 2 shows that the most frequently used font size is for the paragraph text with size 9 and all other text above it has more chances of being a heading. Font Flag can take two possible values 0 and 1. If the font size for that data point is less than the corresponding threshold then the value is set to 0, otherwise it is set as 1. Text: The text is transformed into the following feature variables, which are also listed in Table 1. Number of Words: The number of words in the text can be used for training, as headings tend to have less words when compared to regular sentences and paragraphs. Text Case: Headings mostly use title case, while sometimes they are in upper case as well. This variable tells whether the text is in upper case",
     "avg_font_size": 9.96,
@@ -972,7 +972,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_15ada4cc",
+    "paragraph_id": "p_dd57fe09",
     "page_num": 5,
     "text": "S. Budhiraja and V. Mago",
     "avg_font_size": 8.97,
@@ -1004,7 +1004,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_55f7c24d",
+    "paragraph_id": "p_316b7c33",
     "page_num": 5,
     "text": "Fig. 2. Font Size Threshold Assumption Example",
     "avg_font_size": 8.97,
@@ -1038,7 +1038,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_3e1d55b1",
+    "paragraph_id": "p_9cb4eafd",
     "page_num": 6,
     "text": "A Supervised Learning Approach For Heading Detection",
     "avg_font_size": 8.97,
@@ -1070,7 +1070,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_6a72e5aa",
+    "paragraph_id": "p_f3ed96f0",
     "page_num": 6,
     "text": "(all letters in upper case), lower case (all letters in lower case), title case (\ufb01rst letter of all words in uppercase) or sentence case (only the \ufb01rst letter of the text in uppercase). Features From Parts of speech(POS) Tagging: POS Tagging is the pro- cess of assigning parts of speech (verb, adverb, adjective, noun) to each word, which are referred to as tokens. The text from each data point is \ufb01rst tokenized and then each token is assigned a POS label [9]. The POS frequencies provides the model with information on the grammati- cal aspect of the text and can be used to exploit the frequency of these labels in a text to identify headings and contribute to the accuracy of the model. For example, headings tend to have no verbs in them, though some might have them but absence of verbs increases the probability of the text being an heading. All frequency data collected from POS tagging is analysed in the feature selection process to di\ufb00erentiate between useful and irrelevant features collected through it. The frequency for each POS label is calculated and used to calculate the frequency of each POS tag in the text for each data point. These frequencies serve as potential features for the model.",
     "avg_font_size": 9.96,
@@ -1102,7 +1102,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_0da5544f",
+    "paragraph_id": "p_6d61a7b8",
     "page_num": 6,
     "text": "All these features brings the count of total number of features generated using the text to 11, 9 from POS tagging the text and 2 using its physical properties.",
     "avg_font_size": 9.96,
@@ -1134,7 +1134,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_e946542c",
+    "paragraph_id": "p_e83caffa",
     "page_num": 6,
     "text": "Table 1. List of all features All features are integers, except for Bold or Not and Font Threshold Flag which are binary.",
     "avg_font_size": 8.97,
@@ -1156,8 +1156,8 @@
     "line_count": 3,
     "font_names": [
       "CMR9",
-      "CMTI9",
-      "CMBX9"
+      "CMBX9",
+      "CMTI9"
     ],
     "primary_font_family": [
       "CMBX9",
@@ -1169,7 +1169,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_ee288eb2",
+    "paragraph_id": "p_499ba3eb",
     "page_num": 6,
     "text": "Feature Name Description",
     "avg_font_size": 8.97,
@@ -1201,7 +1201,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_df814e82",
+    "paragraph_id": "p_19307f11",
     "page_num": 6,
     "text": "Characters Number of characters in the text. Words Number of words in the text. Text Case Assumes the value 0,1,2 or 3 depending on the text being be- ing in lower case, upper case, title case or none of the three respectively. Bold or Not Assumes the value 1 or 0 depending on the text being bold or not. Font Threshold Flag Assumes the value 1 or 0 depending on the font size of the text being greater than the threshold or not. Verbs Number of verbs in the text. Nouns Number of nouns in the text. Adjectives Number of adjectives in the text. Adverbs Number of adverbs in the text. Pronouns Number of pronouns in the text. Cardinal Numbers Number of cardinal numbers in the text. Coordinating Con- Number of coordinating conjunctions in the text. junctions Predeterminers Number of predeterminer in the text. Interjections Number of Interjections in the text.",
     "avg_font_size": 8.97,
@@ -1233,7 +1233,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_e86e9802",
+    "paragraph_id": "p_b3d86fc0",
     "page_num": 7,
     "text": "S. Budhiraja and V. Mago",
     "avg_font_size": 8.97,
@@ -1265,7 +1265,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_831e6dab",
+    "paragraph_id": "p_b53c979c",
     "page_num": 7,
     "text": "3.3 Feature Selection",
     "avg_font_size": 9.96,
@@ -1297,7 +1297,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_9e0a79e8",
+    "paragraph_id": "p_d6d23fe8",
     "page_num": 7,
     "text": "After pre-processing, 14 training features are established. There is a need to select the top features for building each individual model with maximum ac- curacy. Table 1 lists all the features we are choosing from. To achieve this we used Recursive feature elimination with Cross-Validation (RFECV), which re- cursively removes weak attributes/features and uses the model accuracy to iden- tify features that are contributing towards increasing the predictive power of the model[8]. The selection process is performed using the machine learning library, \u201cscikit-learn\u201d.",
     "avg_font_size": 9.96,
@@ -1330,7 +1330,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_2441d71a",
+    "paragraph_id": "p_e9f6babf",
     "page_num": 7,
     "text": "Cross validation is done by making 10 folds in the training set where one feature is removed per iteration. As per this analysis the accuracy does not increase on choosing to train the Decision Tree classi\ufb01er with more than the following seven features:",
     "avg_font_size": 9.96,
@@ -1362,7 +1362,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_bc52cbc3",
+    "paragraph_id": "p_cdc4d799",
     "page_num": 7,
     "text": "Bold or Not Font Threshold Flag Number of words Text Case Verbs Nouns Cardinal Numbers",
     "avg_font_size": 9.96,
@@ -1394,7 +1394,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_2e8cd1d9",
+    "paragraph_id": "p_9b5d65af",
     "page_num": 7,
     "text": "The same process is repeated for all the classi\ufb01ers and their individual set of chosen features are listed in Table 2.",
     "avg_font_size": 9.96,
@@ -1426,7 +1426,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_6788f933",
+    "paragraph_id": "p_bfc58da7",
     "page_num": 7,
     "text": "3.4 Grid Search",
     "avg_font_size": 9.96,
@@ -1458,7 +1458,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_cd2b7d6f",
+    "paragraph_id": "p_ff9c1514",
     "page_num": 7,
     "text": "Tuning each classi\ufb01ers parameters for optimal performance is performed using accuracy from cross validation as a measure. We use various combinations of classi\ufb01ers parameters and choose the combination with the best cross valida- tion accuracy. This process is performed on various classi\ufb01ers to choose their corresponding parameters. The description along with the \ufb01nal selected tuning parameters for each classi\ufb01er used in this research are discussed in the next section.",
     "avg_font_size": 9.96,
@@ -1490,7 +1490,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_bc3257b4",
+    "paragraph_id": "p_b6b4d469",
     "page_num": 8,
     "text": "A Supervised Learning Approach For Heading Detection Table 2. Selected features for each classi\ufb01er",
     "avg_font_size": 8.97,
@@ -1523,7 +1523,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a79e9079",
+    "paragraph_id": "p_fb45b71f",
     "page_num": 8,
     "text": "Classi\ufb01er Name Selected Features",
     "avg_font_size": 8.97,
@@ -1555,7 +1555,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_ed2648f9",
+    "paragraph_id": "p_7bd72d6b",
     "page_num": 8,
     "text": "Decision Tree Bold or Not, Font Threshold Flag, Words, Text Case, Verbs, Nouns, Cardinal Numbers SVM Bold or Not, Font Threshold Flag, Words, Text Case, Verbs, Nouns, Adjectives, Adverbs k-Nearest Neaigh- Bold or Not, Font Threshold Flag, Words, Verbs, Nouns, Adjec- bors tives, Cardinal Numbers, Coordinating Conjunctions Random Forest Bold or Not, Font Threshold Flag, Words, Text Case, Verbs, Nouns, Adverbs, Cardinal Numbers, Coordinating Conjunctions Gaussian Naive Bold or Not, Font Threshold Flag, Words, Verbs, Nouns, Adjec- Bayes tives, Cardinal Numbers, Coordinating Conjunctions Quadratic Discrimi- Bold or Not, Font Threshold Flag, Words, Verbs, Nouns, Adjec- nant Analysis tives, Coordinating Conjunctions Logistic Regression Bold or Not, Font Threshold Flag, Words, Text Case, Verbs, Nouns, Adverbs, Coordinating Conjunctions Gradient Boosting Bold or Not, Font Threshold Flag, Words, Text Case, Verbs, Nouns, Cardinal Numbers Neural Net Bold or Not, Font Threshold Flag, Words, Text Case, Verbs, Nouns, Cardinal Numbers",
     "avg_font_size": 8.97,
@@ -1587,7 +1587,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_7ae40d95",
+    "paragraph_id": "p_acd7af66",
     "page_num": 8,
     "text": "3.5 Training",
     "avg_font_size": 9.96,
@@ -1619,7 +1619,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_534ea023",
+    "paragraph_id": "p_62aba1b5",
     "page_num": 8,
     "text": "After the most suitable features and parameters for each classi\ufb01er have been selected, we can proceed with training the class\ufb01ers using scikit-learn [18].",
     "avg_font_size": 9.96,
@@ -1651,7 +1651,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_33c561ad",
+    "paragraph_id": "p_73de2005",
     "page_num": 8,
     "text": "Decision Tree Decision trees are the most widely used amongst classi\ufb01ers as they have a simple \ufb02ow-chart like structure starting from a root node. It branches o\ufb00to further nodes and terminating at a leaf node. At each non-leaf node a decision is made, which selects the branch to follow. The process contin- ues to the point where a leaf node is reached, which contains the corresponding decison[14]. Gini impurity is used as a measure for quality of a split, which tells if the split made the dataset more pure. Using Gini makes it computationally less expensive as compared to entropy which involves computation of logarithmic functions. The \u201cbest\u201d option for strategy chooses the best split at each node. The minimum number of samples required to split an internal node is set to 2 and the minimum number of samples needed to be at a leaf node is set to 3.",
     "avg_font_size": 9.96,
@@ -1684,7 +1684,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_4bde2512",
+    "paragraph_id": "p_aea25525",
     "page_num": 9,
     "text": "10 S. Budhiraja and V. Mago",
     "avg_font_size": 8.97,
@@ -1716,7 +1716,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_5eebafee",
+    "paragraph_id": "p_0d885167",
     "page_num": 9,
     "text": "The code snippet for training this classi\ufb01er with the chosen parameters is given in Box 1",
     "avg_font_size": 9.96,
@@ -1748,7 +1748,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_f3fcdc1c",
+    "paragraph_id": "p_05b2a960",
     "page_num": 9,
     "text": "Box 1: Code Snippet for Training Decision Tree Classi\ufb01er",
     "avg_font_size": 9.96,
@@ -1780,7 +1780,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_b268fc41",
+    "paragraph_id": "p_c92c9e15",
     "page_num": 9,
     "text": "treeclf = DecisionTreeClassi\ufb01er(criterion = \u2018gini\u2019, splitter = \u2018best\u2019, min samples split = 2, min samples leaf = 3) treeclf = treeclf.\ufb01t(traindata, truelabels)",
     "avg_font_size": 9.96,
@@ -1812,7 +1812,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_8be72ba3",
+    "paragraph_id": "p_bbb31ea6",
     "page_num": 9,
     "text": "Support Vector Machine (SVM) It is a classi\ufb01er that uses multi-dimensional hyperplanes to make classi\ufb01cation. SVM also uses kernel functions to transform the data in sucha way that it is feasible for the hyperplane to e\ufb00ectively partition classes[15]. The kernel used is radial basis function(rbf), degree of the polynomial kernel function is set to 3 and gama is set to \u201cauto\u201d. The shrinking heuristics were enabled as they speed up the optimization. Tolerance for stop criteria is set to 2 3 and \u2018ovr\u2019(one vs rest) decision function is chosen for decision function shape. The code snippet for training this classi\ufb01er with the chosen parameters is given in Box 2.",
     "avg_font_size": 9.96,
@@ -1845,7 +1845,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_8bf54fec",
+    "paragraph_id": "p_b73ec104",
     "page_num": 9,
     "text": "Box 2: Code Snippet for Training Support Vector Machine Classi\ufb01er",
     "avg_font_size": 9.96,
@@ -1877,7 +1877,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_dd75a13c",
+    "paragraph_id": "p_5d4c45d0",
     "page_num": 9,
     "text": "svmclf = SVC(kernel=\u2018rbf\u2019, degree=3, gamma=\u2018auto\u2019, shrinking=True, tol=0.002, decision function shape=\u2018ovr\u2019) svmclf = svmclf.\ufb01t(traindata, truelabels)",
     "avg_font_size": 9.96,
@@ -1909,7 +1909,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_380d9bf3",
+    "paragraph_id": "p_d8289566",
     "page_num": 9,
     "text": "k-Nearest Neighbors The main idea behind k-Nearest Neighbors is that it takes into account the class of its neighbors to decide how to classify the data point under consideration. Each neighbors class is considered as their vote to- wards that class and the class with the most votes is assigned to that data point[17]. The number of neighbours used to classify a point is set to 10. Each neighbours are weighed equally as weights is set to \u2018distance\u2019. Minkowsky dis- tance function used as the distance metric. The code snippet for training this classi\ufb01er with the chosen parameters is given in Box 3.",
     "avg_font_size": 9.96,
@@ -1942,7 +1942,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_89665003",
+    "paragraph_id": "p_3168cd26",
     "page_num": 9,
     "text": "Box 3: Code Snippet for Training k-Nearest Neighbors Classi\ufb01er",
     "avg_font_size": 9.96,
@@ -1974,7 +1974,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_91119982",
+    "paragraph_id": "p_c7facbf4",
     "page_num": 9,
     "text": "neighclf = KNeighborsClassi\ufb01er(n neighbors = 10, weights = \u2018distance\u2019, metric = \u2018minkowski\u2019) neighclf = neighclf.\ufb01t(traindata, truelabels)",
     "avg_font_size": 9.96,
@@ -2006,7 +2006,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_0c328054",
+    "paragraph_id": "p_b56b5a52",
     "page_num": 10,
     "text": "A Supervised Learning Approach For Heading Detection 11",
     "avg_font_size": 8.97,
@@ -2038,7 +2038,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_697ee881",
+    "paragraph_id": "p_b8e98bb2",
     "page_num": 10,
     "text": "Random Forest This classi\ufb01er works by choosing random data points from the training set and creating a set of decision tress. The \ufb01nal decision regarding the class is made by aggreggation of the outputs from all the trees[19]. The number of trees in the forest is set to 2 and \u2018gini\u2019 is used as a measure for quality of a split. The maximum depth of trees is set to 5 and the maximum number of features to be considered while searching for the best split is se to \u2018auto\u2019. The minimum number of samples required to split an internal node is set to 2 and the minimum number of samples needed to be at a leaf node is set to 3. The number of parallel jobs to running for both \ufb01t and predict is set to 1. The code snippet for training this classi\ufb01er with the chosen parameters is given in Box 4.",
     "avg_font_size": 9.96,
@@ -2071,7 +2071,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_1650e022",
+    "paragraph_id": "p_92fca35a",
     "page_num": 10,
     "text": "Box 4: Code Snippet for Training Random Forest Classi\ufb01er",
     "avg_font_size": 9.96,
@@ -2103,7 +2103,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_407a3507",
+    "paragraph_id": "p_6b5bf01f",
     "page_num": 10,
     "text": "RandomForestClassi\ufb01er(n estimators = 2, criterion = \u2018gini\u2019, max depth = 5, max features=\u2018auto\u2019, min samples split=2, min samples leaf=3, n jobs=1) rndForstclf = rndForstclf.\ufb01t(traindata, truelabels)",
     "avg_font_size": 9.96,
@@ -2135,7 +2135,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_fa5ef811",
+    "paragraph_id": "p_0b38bcad",
     "page_num": 10,
     "text": "Gaussian Naive Bayes This classi\ufb01er works by using Bayesian theorem with assumption of strong independence between the predictors(features). It is very useful for large data sets as it is quite simple to build and has no complicated iterative parameters[22]. This classi\ufb01er does not have much to set when it comes to con\ufb01guring parameters. Prior probabilities of the classes is set to [0.5, 0.5] as the number of headings is less as compared to other text. The code snippet for training this classi\ufb01er with the chosen parameters is given in Box 5.",
     "avg_font_size": 9.96,
@@ -2168,7 +2168,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_72fc1f79",
+    "paragraph_id": "p_0dfdef3e",
     "page_num": 10,
     "text": "Box 5: Code Snippet for Training Gaussian Naive Bayes Classi\ufb01er",
     "avg_font_size": 9.96,
@@ -2200,7 +2200,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_d0df0c78",
+    "paragraph_id": "p_5ff7edfa",
     "page_num": 10,
     "text": "gaussianclf = GaussianNB(priors = [0.5, 0.5]) gaussianclf = gaussianclf.\ufb01t(traindata, truelabels)",
     "avg_font_size": 9.96,
@@ -2232,7 +2232,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_68f0904b",
+    "paragraph_id": "p_8e8ae619",
     "page_num": 10,
     "text": "Quadratic Discriminant Analysis It works under the assumption that the measurements for each class are normally distributed while not assuming the co- variance to be identical for all the classes. Discriminant analysis is used to choose the best predictor variable(s) and is more \ufb02exible than linear models making it better for a variety of problems[24]. Prior probabilities of the classes is set to [0.5, 0.5] as the number of headings is far less as compared to other text. The threshold used for rank estimation is set to 1 4. The code snippet for training this classi\ufb01er with the chosen parameters is given in Box 6.",
     "avg_font_size": 9.96,
@@ -2265,7 +2265,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_9877579d",
+    "paragraph_id": "p_fc5895bb",
     "page_num": 11,
     "text": "12 S. Budhiraja and V. Mago",
     "avg_font_size": 8.97,
@@ -2297,7 +2297,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_cb0560a1",
+    "paragraph_id": "p_8c6afcd3",
     "page_num": 11,
     "text": "Box 6: Code Snippet for Training Quadratic Discriminant Analysis Classi\ufb01er",
     "avg_font_size": 9.96,
@@ -2329,7 +2329,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_fcd56d38",
+    "paragraph_id": "p_6e20d0fa",
     "page_num": 11,
     "text": "quadclf = QuadraticDiscriminantAnalysis(priors = [0.5, 0.5], tol = 0.0001) quadclf = quadclf.\ufb01t(traindata, truelabels)",
     "avg_font_size": 9.96,
@@ -2361,7 +2361,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_be6c0009",
+    "paragraph_id": "p_e870ce62",
     "page_num": 11,
     "text": "Logistic Regression It is a discriminative classi\ufb01er, therefore it works by dis- criminating amongst the di\ufb00erent possible values of the classes[23]. Penalization method is set to l2. The tolerance for stopping criteria is set to 2 4. The pa- rameter \u2018\ufb01t intercept\u2019 is set to true adding a constant to the decision function. The optimization solver used is \u2018liblinear\u2019 and the maximum number of itera- tions taken for the solvers is set to 50. Multiclass is set to \u2018ovr\u2019 \ufb01tting a binary problem for each label. The number of CPU cores used for parallelizing over classes is set to 1. The code snippet for training this classi\ufb01er with the chosen parameters is given in Box 7.",
     "avg_font_size": 9.96,
@@ -2394,7 +2394,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_76a82d33",
+    "paragraph_id": "p_fdcc907a",
     "page_num": 11,
     "text": "Box 7: Code Snippet for Training Logistic Regression Classi\ufb01er",
     "avg_font_size": 9.96,
@@ -2426,7 +2426,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_55db61ab",
+    "paragraph_id": "p_63521391",
     "page_num": 11,
     "text": "logisticRegr = LogisticRegression(penalty=l2, tol=0.0002, \ufb01t intercept = True, solver=\u2018liblinear\u2019, max iter=50, multi class = \u2018ovr\u2019, n jobs=1) logisticRegr = logisticRegr.\ufb01t(traindata, truelabels)",
     "avg_font_size": 9.96,
@@ -2458,7 +2458,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_529c97fa",
+    "paragraph_id": "p_7d84b811",
     "page_num": 11,
     "text": "Gradient Boosting This classi\ufb01cation method uses an ensemble of weak pre- diction models in a stage wise manner. In each stage, a weak model is introduced to make up for the limitations of the existing weak models[21]. The loss function to be optimized is set as \u2018deviance\u2019 and learning rate is set to 0.1. The minimum number of samples required to split an internal node is set to 2, the minimum number of samples needed to be at a leaf node is set to 1 and maximum depth of the individual regression estimators set to 3. The number of boosting stages is set to 150 and the measure of quality of a split is set to \u2018friedman mse\u2019. The code snippet for training this classi\ufb01er with the chosen parameters is given in Box 8.",
     "avg_font_size": 9.96,
@@ -2491,7 +2491,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_670ad673",
+    "paragraph_id": "p_5a5ca9de",
     "page_num": 11,
     "text": "Box 8: Code Snippet for Training Gradient Boosting Classi\ufb01er",
     "avg_font_size": 9.96,
@@ -2523,7 +2523,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_757b4bdd",
+    "paragraph_id": "p_a062e9d3",
     "page_num": 11,
     "text": "grdbstcf = GradientBoostingClassi\ufb01er(loss = \u2018deviance\u2019, learning rate = 0.1, min samples split = 2, min samples leaf = 1, max depth = 3, n estimators = 150, subsample = 1.0, criterion = \u2018friedman mse\u2019) grdbstcf = grdbstcf.\ufb01t(traindata, labels)",
     "avg_font_size": 9.96,
@@ -2555,7 +2555,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_2a54b630",
+    "paragraph_id": "p_67e6d58b",
     "page_num": 12,
     "text": "A Supervised Learning Approach For Heading Detection 13",
     "avg_font_size": 8.97,
@@ -2587,7 +2587,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_6c3b5b19",
+    "paragraph_id": "p_622a2f9b",
     "page_num": 12,
     "text": "Neural Net This classi\ufb01er works by imitating the neural structure of the brain. One data point is processed at a time and the actual classi\ufb01cation is compared to the classi\ufb01cation made by the classi\ufb01er. Any errors recorded in the classi\ufb01cation process are looped back into algorithm to improve classi\ufb01cation performance in future iterations[27,25]. The classi\ufb01er is con\ufb01gured to have one hidden layer with 100 units. The activation function used for the hidden layer is \u2018tanh\u2019. The solver used for weight optimization is \u2018lbfgs\u2019. The batch rate is set to \u2018auto\u2019 and the initial learning rate is set to 0.001. The parameter \u2018max iter\u2019 is set to 300, which for \u2018adam\u2019 solver de\ufb01nes the number of epochs. Sample shu\ufb04e is set to true, which enables sample shu\ufb04ing in each iteration. The exponential decay rates for estimates of the \ufb01rst and second moment vector is set to 0.9 and 0.999 respec- tively. The code snippet for training this classi\ufb01er with the chosen parameters is given in Box 9.",
     "avg_font_size": 9.96,
@@ -2620,7 +2620,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_e69879b4",
+    "paragraph_id": "p_a999a0a2",
     "page_num": 12,
     "text": "Box 9: Code Snippet for Training Neural Net Classi\ufb01er",
     "avg_font_size": 9.96,
@@ -2652,7 +2652,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_5038fc1a",
+    "paragraph_id": "p_cb78f49c",
     "page_num": 12,
     "text": "nurlntclf = MLPRegressor(hidden layer sizes = (100, ), activation = \u2018tanh\u2019, solver = \u2018lbfgs\u2019, learning rate = \u2018invscaling\u2019, batch size = \u2018auto\u2019, learning rate init = 0.001, max iter = 300, shu\ufb04e = True, beta 1 = 0.9, beta 2 = 0.999) nurlntclf = nurlntclf.\ufb01t(traindata, labels)",
     "avg_font_size": 9.96,
@@ -2684,7 +2684,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_19311dbd",
+    "paragraph_id": "p_0408d3b3",
     "page_num": 12,
     "text": "Table 3. Classi\ufb01er Accuracy Highest Value For Each Measure is Bold",
     "avg_font_size": 8.97,
@@ -2718,7 +2718,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_9b93d95d",
+    "paragraph_id": "p_54803876",
     "page_num": 12,
     "text": "Classi\ufb01er Sensitivity Speci\ufb01city Precision F1 Score Accuracy",
     "avg_font_size": 8.97,
@@ -2750,7 +2750,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_98dde341",
+    "paragraph_id": "p_0c6e510c",
     "page_num": 12,
     "text": "Decision Tree 0.986",
     "avg_font_size": 8.97,
@@ -2782,7 +2782,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a1981ec1",
+    "paragraph_id": "p_236c89b7",
     "page_num": 12,
     "text": "0.952 0.953 0.970 96.95 %",
     "avg_font_size": 8.97,
@@ -2814,7 +2814,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_532c2e77",
+    "paragraph_id": "p_353dc261",
     "page_num": 12,
     "text": "SVM 0.991 0.930 0.934 0.961 96.06 % K-Nearest Neighbors 0.979 0.945 0.946 0.962 96.22 % Random Forest 0.991 0.928 0.932 0.961 95.99 % Gaussian Naive 0.981 0.912 0.917 0.948 94.66 % Bayes Quadratic Discrimi- 0.982 0.912 0.918 0.949 94.76 % nant Analysis Logistic Regression 0.982 0.904 0.911 0.945 94.34 % Gradient Boosting 0.991 0.941 0.944 0.967 96.66 % Neural Net",
     "avg_font_size": 8.97,
@@ -2846,7 +2846,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_15792f21",
+    "paragraph_id": "p_7b9ec7e9",
     "page_num": 12,
     "text": "0.992",
     "avg_font_size": 8.97,
@@ -2878,7 +2878,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a7de47a0",
+    "paragraph_id": "p_f1259dff",
     "page_num": 12,
     "text": "0.941 0.944 0.967 96.68 %",
     "avg_font_size": 8.97,
@@ -2910,7 +2910,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_33e39d57",
+    "paragraph_id": "p_ef86a515",
     "page_num": 13,
     "text": "14 S. Budhiraja and V. Mago",
     "avg_font_size": 8.97,
@@ -2942,7 +2942,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_138247d3",
+    "paragraph_id": "p_376b5e60",
     "page_num": 13,
     "text": "Test Results",
     "avg_font_size": 11.96,
@@ -2974,7 +2974,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_0dace325",
+    "paragraph_id": "p_1e894645",
     "page_num": 13,
     "text": "Training and Prediction Time: When dealing with a large number of doc- uments, the time required to train a model and make predictions is important and is dependant on the type of classi\ufb01er used, the number of features and the amount of data points. In this research all classi\ufb01ers are trained using the same number of features and data points, therefore \u2018time taken\u2019provides a good mea- sure of variations in training and prediction speed associated with each di\ufb00erent classi\ufb01er being used. Of note, the training time for a classi\ufb01er should be consid- ered in context, as training only needs to be performed once and can be saved for later use. Therefore, a model that takes a long time to train can still be practical so long as it does not take a lot of time to make predictions. Fig 3. shows time required for training and making predictions using these classi\ufb01ers. Time shown is average of 10 observations, which is done to reduce the e\ufb00ect of programs running in the background on the comparison.",
     "avg_font_size": 9.96,
@@ -3007,7 +3007,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_1bfa3a79",
+    "paragraph_id": "p_64fff73d",
     "page_num": 13,
     "text": "Fig. 3. Time required to train classi\ufb01ers and run predictions on test data",
     "avg_font_size": 8.97,
@@ -3041,7 +3041,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_c027f872",
+    "paragraph_id": "p_83bc60d3",
     "page_num": 13,
     "text": "Confusion Matrix Based Evaluation: We use evaluation parameters like Sensitivity, Speci\ufb01city, Precision, F1 score and Net Accuracy calculated using confusion matrix to compare them to each other. Table 3 shows the results of this evaluation. ROC Curves and AUC: A receiver operating characteristics(ROC) curve is used to visualize the trade-o\ufb00s between sensitivity and speci\ufb01ty. These graphs are used for performance based selection of classi\ufb01ers. The graph can be reduced to a numerical measure, AUC(or AUROC) which is the area under the ROC graph with values ranging from 0 to 1[26]. Table 4 shows the AUC scores for the",
     "avg_font_size": 9.96,
@@ -3074,7 +3074,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_c73a39a4",
+    "paragraph_id": "p_9fe28c0a",
     "page_num": 14,
     "text": "A Supervised Learning Approach For Heading Detection 15",
     "avg_font_size": 8.97,
@@ -3106,7 +3106,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_57a61873",
+    "paragraph_id": "p_7f48750c",
     "page_num": 14,
     "text": "classi\ufb01ers used in this research. The discussion section provides more information on how we used AUC score to select the best classi\ufb01er.",
     "avg_font_size": 9.96,
@@ -3138,7 +3138,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_27df10d1",
+    "paragraph_id": "p_24397588",
     "page_num": 14,
     "text": "Table 4. AUC Values for all Classi\ufb01ers",
     "avg_font_size": 8.97,
@@ -3172,7 +3172,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_f0994741",
+    "paragraph_id": "p_e6cd2928",
     "page_num": 14,
     "text": "Classi\ufb01er AUC",
     "avg_font_size": 8.97,
@@ -3204,7 +3204,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_1a7fdf7f",
+    "paragraph_id": "p_cf6c0b65",
     "page_num": 14,
     "text": "Decision Tree",
     "avg_font_size": 8.97,
@@ -3236,7 +3236,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_ad34c08a",
+    "paragraph_id": "p_5aafff3a",
     "page_num": 14,
     "text": "0.98",
     "avg_font_size": 8.97,
@@ -3268,7 +3268,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a61aebac",
+    "paragraph_id": "p_6608a460",
     "page_num": 14,
     "text": "SVM 0.97 K-Nearest Neighbors 0.96 Random Forest 0.97 Gaussian Naive Bayes 0.96 Quadratic Discriminant Analysis 0.96 Logistic Regression 0.95 Gradient Boosting",
     "avg_font_size": 8.97,
@@ -3300,7 +3300,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_6c4f2e90",
+    "paragraph_id": "p_0a370476",
     "page_num": 14,
     "text": "0.98",
     "avg_font_size": 8.97,
@@ -3332,7 +3332,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_1711cce1",
+    "paragraph_id": "p_15410d5d",
     "page_num": 14,
     "text": "Neural Net",
     "avg_font_size": 8.97,
@@ -3364,7 +3364,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_f82ce8d1",
+    "paragraph_id": "p_b06a5d95",
     "page_num": 14,
     "text": "0.98",
     "avg_font_size": 8.97,
@@ -3396,7 +3396,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_ef8cc0bd",
+    "paragraph_id": "p_a05bb4c1",
     "page_num": 14,
     "text": "Discussion",
     "avg_font_size": 11.96,
@@ -3428,7 +3428,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_067bf404",
+    "paragraph_id": "p_bbbf869b",
     "page_num": 14,
     "text": "We recorded the time (in seconds) required for training each classi\ufb01er and also time for making predictions as shown in Fig 3. Time taken by a classi\ufb01er to make predictions is important when processing documents in bulk as it can increase the processing time. Time taken to train a classi\ufb01er only has to be done once therefore it is not given that much importance. The Decision Tree Classi\ufb01er took the least time for training while Gradient Boosting took the most. On compar- ing the prediction time Logistic Regression takes the least time and Random Forest takes the most. While prediction time is not the most important factor while choosing a classi\ufb01er we take it into consideration when two classi\ufb01ers are performing approximately the same.",
     "avg_font_size": 9.96,
@@ -3460,7 +3460,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_dd082c56",
+    "paragraph_id": "p_a39f4f5a",
     "page_num": 14,
     "text": "The top three classi\ufb01ers based on net accuracy are Decision Tree, Gradient Boosting, and Neural Network, however classi\ufb01er selection can not solely rely on accuracy[28,29]. Therefore, we also weigh the metrics like AUC, F1 score, sensi- tivity, and speci\ufb01city to choose the best suited classi\ufb01er for detecting headings.",
     "avg_font_size": 9.96,
@@ -3492,7 +3492,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_269930d1",
+    "paragraph_id": "p_caaef8f2",
     "page_num": 14,
     "text": "The top three classi\ufb01ers in terms of F1 score, precision, sensitivity and speci- \ufb01city are Decision Tree, Gradient Boosting, and Neural Network and the top 3 in terms of AUC as shown in Table 4 are again Decision Tree, Gradient Boost- ing, and Neural Network. The system is going to be dealing with documents in bulk and the prediction time for Decision Tree is better when compared to both Gradient Boosting and Neural Network. Therefore, we would be choosing our con\ufb01guration of the Decision Tree for making the classi\ufb01cations.",
     "avg_font_size": 9.96,
@@ -3524,7 +3524,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_48bc0592",
+    "paragraph_id": "p_c4aea031",
     "page_num": 15,
     "text": "16 S. Budhiraja and V. Mago",
     "avg_font_size": 8.97,
@@ -3556,7 +3556,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_91470df9",
+    "paragraph_id": "p_08d92a7c",
     "page_num": 15,
     "text": "Testing The Generalizability",
     "avg_font_size": 11.96,
@@ -3588,7 +3588,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_c657bb69",
+    "paragraph_id": "p_f4321cc4",
     "page_num": 15,
     "text": "Testing the chosen classi\ufb01er on a general set of documents is important to show that it performs well on documents other than course outlines. We tested the chosen Decision Tree classi\ufb01er on 12,919 data points collected from documents like reports and articles . These data points were manually tagged using a survey. All the participants were graduate students from computer science department and were asked to point out headings and subheadings in the documents. Table 5 shows the results which are equivalent if not better as compared to when tested on course outlines.",
     "avg_font_size": 9.96,
@@ -3620,7 +3620,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_05b68327",
+    "paragraph_id": "p_a7a4257d",
     "page_num": 15,
     "text": "Table 5. Test Results For General Set Category Value",
     "avg_font_size": 8.97,
@@ -3653,7 +3653,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_dfd33887",
+    "paragraph_id": "p_c31251a7",
     "page_num": 15,
     "text": "Total Data points 12919 Sensitivity 0.928 Speci\ufb01city 0.966 Precision 0.964 F1 SCORE 0.946 Accuracy 94.73 % AUC 0.97",
     "avg_font_size": 8.97,
@@ -3685,7 +3685,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_4860bce8",
+    "paragraph_id": "p_76126c0d",
     "page_num": 15,
     "text": "Table 6. Pearson Correlation Coe\ufb03cient Between Each Feature Used in the Selected Classi\ufb01er and Final Decision Labels",
     "avg_font_size": 8.97,
@@ -3719,7 +3719,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_fcc9068d",
+    "paragraph_id": "p_1b0c0659",
     "page_num": 15,
     "text": "Feature Name Pearson Correlation Coe\ufb03cient",
     "avg_font_size": 8.97,
@@ -3751,7 +3751,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_ba6156c5",
+    "paragraph_id": "p_d7b05a48",
     "page_num": 15,
     "text": "Bold or Not 0.7022 Font Threshold Flag 0.2385 Words 0.1389 Verbs 0.1229 Nouns 0.1207 Cardinal Numbers 0.1201 Text Case 0.0660",
     "avg_font_size": 8.97,
@@ -3783,7 +3783,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_b4aca5bd",
+    "paragraph_id": "p_54fdd1de",
     "page_num": 15,
     "text": "Analysing The Results",
     "avg_font_size": 11.96,
@@ -3815,7 +3815,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_b7bb50f0",
+    "paragraph_id": "p_0a70fdb3",
     "page_num": 15,
     "text": "The discussed con\ufb01guration of Decision Tree is best suited to detect heading as discussed in Section 5. Analyzing the contribution of each feature towards the \ufb01nal decision made by the classi\ufb01er is also important to understand the implications of the results. Table 6 shows the pearson correlation coe\ufb03cient",
     "avg_font_size": 9.96,
@@ -3847,7 +3847,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_918f0d5f",
+    "paragraph_id": "p_ec0b62ff",
     "page_num": 15,
     "text": "Repository available at: https://github.com/sahib-s/Generalizability/",
     "avg_font_size": 8.97,
@@ -3879,7 +3879,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_fc2a3f9c",
+    "paragraph_id": "p_7a6d196c",
     "page_num": 16,
     "text": "A Supervised Learning Approach For Heading Detection 17",
     "avg_font_size": 8.97,
@@ -3911,7 +3911,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_1a73ac52",
+    "paragraph_id": "p_1da2a082",
     "page_num": 16,
     "text": "for all the features used in the selected classi\ufb01er and \ufb01nal decision label. The list is in descending order of pearson correlation coe\ufb03cient, therefore the top feature in the table contribute the most towards the \ufb01nal decision. Each feature was removed from the classi\ufb01er one at a time and drop in evaluation metrics also verify the order of contribution presented by using the pearson correlation coe\ufb03cient. Therefore, the top three contributing features are the ones that rely on the physical attributes of the text.",
     "avg_font_size": 9.96,
@@ -3943,7 +3943,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_3e0c71cd",
+    "paragraph_id": "p_451a4aaa",
     "page_num": 16,
     "text": "Extending The Classi\ufb01er",
     "avg_font_size": 11.96,
@@ -3975,7 +3975,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_7b1b49f6",
+    "paragraph_id": "p_11fcb0f1",
     "page_num": 16,
     "text": "The extension of this work includes tagging of multiple labels like heading, para- graph text, header/footer text and table text. While classifying paragraph text is possible using the existing features, for properly classifying table text and header/footer text more data features are necessary. We are currently looking features from our white space detection approach discussed in chapter 5 and bounding box data from PDF to XML conversion to provide the model with what it needs to make this classi\ufb01cation.",
     "avg_font_size": 9.96,
@@ -4007,7 +4007,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_07ddf807",
+    "paragraph_id": "p_9c0bd887",
     "page_num": 16,
     "text": "Conclusion",
     "avg_font_size": 11.96,
@@ -4039,7 +4039,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_5f345952",
+    "paragraph_id": "p_10984130",
     "page_num": 16,
     "text": "This research has provided a structured methodology and systematic evaluation of a heading detection system for PDF documents. The detected headings pro- vide information on how the text is structured in a document. This structural information is used for extracting speci\ufb01c text from these documents based on the requirements of the \ufb01eld of application. This supervised learning approach has demonstrated good results and we are currently applying our con\ufb01guration of the Decision Tree classi\ufb01er in the \ufb01eld of post-secondary curriculum analysis to identify headings and extract learning outcomes from course outlines for a research being conducted at DATALAB, Lakehead University, Canada.",
     "avg_font_size": 9.96,
@@ -4071,7 +4071,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_66e1184e",
+    "paragraph_id": "p_5d6d014c",
     "page_num": 16,
     "text": "Acknowledgment",
     "avg_font_size": 11.96,
@@ -4103,7 +4103,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_64cfd1ee",
+    "paragraph_id": "p_2f39f107",
     "page_num": 16,
     "text": "This research would not have been possible without the \ufb01nancial support pro- vided by Ontario Council on Articulation and Transfer (ONCAT) through Project Number-2017-17-LU. We would also like to express our gratitude towards the datalab.science team and Andrew Heppner for their support.",
     "avg_font_size": 9.96,
@@ -4135,7 +4135,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_3d010831",
+    "paragraph_id": "p_ce147054",
     "page_num": 16,
     "text": "References",
     "avg_font_size": 11.96,
@@ -4167,7 +4167,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_fb5dbd14",
+    "paragraph_id": "p_1aadbc5c",
     "page_num": 16,
     "text": "1. Khusro, Shah, Asima Latif, and Irfan Ullah. \u201dOn methods and tools of table detec- tion, extraction and annotation in PDF documents.\u201d Journal of Information Science 41.1 2015.: 41-57. 2. Jiang, Deliang, and Xiaohu Yang. \u201dConverting PDF to HTML approach based on Text Detection.\u201d Proceedings of the 2nd International Conference on Interaction Sciences: Information Technology, Culture and Human. ACM, 2009.",
     "avg_font_size": 8.97,
@@ -4199,7 +4199,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_f4b5b2a7",
+    "paragraph_id": "p_515d61d4",
     "page_num": 17,
     "text": "18 S. Budhiraja and V. Mago",
     "avg_font_size": 8.97,
@@ -4231,7 +4231,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_07fd63c9",
+    "paragraph_id": "p_b77a8fd0",
     "page_num": 17,
     "text": "3. Lakehead University. Learning Objective Automated Gap Analysis. 2018, www.loaga.science/. 4. Goslin, Kyle, and Markus Hofmann. \u201dCross Domain Assessment of Document to HTML Conversion Tools to Quantify Text and Structural Loss during Document Analysis.\u201d Intelligence and Security Informatics Conference (EISIC), 2013 Euro- pean. IEEE, 2013. 5. Rahman, Fuad, and Hassan Alam. \u201dConversion of PDF documents into HTML: a case study of document image analysis.\u201d Signals, Systems and Computers, 2004. Conference Record of the Thirty-Seventh Asilomar Conference on. Vol. 1. IEEE, 2003. 6. Manabe, Tomohiro, and Keishi Tajima. \u201dExtracting logical hierarchical structure of HTML documents based on headings.\u201d Proceedings of the VLDB Endowment 8.12 2015.: 1606-1617. 7. El-Haj, Mahmoud, et al. \u201dDetecting document structure in a very large corpus of UK \ufb01nancial reports.\u201d 2014.: 1335-1338. 8. Guyon, I., Weston, J., Barnhill, S. et al. Machine Learning 2002. 389422. 9. Bird, Steven, Ewan Klein, and Edward Loper. Natural language processing with Python: analyzing text with the natural language toolkit. \u201d O\u2019Reilly Media, Inc.\u201d, 2009. 10. Bienz, Tim, Richard Cohn, and Adobe Systems (Mountain View, Calif.). Portable document format reference manual. Reading, MA, USA: Addison-Wesley, 1993. 11. Google. Custom Google Search API. Google, Google, 2018, developers.google.com/custom-search/json-api/v1/overview. 12. Shinyama, Yusuke. \u201dPDFMiner: Python PDF parser and analyzer.\u201d 13. Goyvaerts, Jan, and Steven Levithan. Regular expressions cookbook. O\u2019reilly, 2012. 14. Lior, Rokach. Data mining with decision trees: theory and applications. Vol. 81. World scienti\ufb01c, 2014. 15. Ben-Hur, Asa, and Jason Weston. \u201dA users guide to support vector machines.\u201d Data mining techniques for the life sciences. Humana Press, 2010. 223-239. 16. Chawla, Nitesh V., et al. \u201dSMOTE: synthetic minority over-sampling technique.\u201d Journal of arti\ufb01cial intelligence research 16 (2002): 321-357. 17. D. T. Larose, \u201dk-nearest neighbor algorithm\u201d in Discovering Knowledge in Data: An Introduction to Data Mining, Hoboken, NJ, USA:Wiley, pp. 90-106, 2005. 18. Pedregosa, Fabian, et al. \u201dScikit-learn: Machine learning in Python.\u201d Journal of machine learning research 12.Oct (2011): 2825-2830. 19. Louppe, Gilles. \u201dUnderstanding random forests: From theory to practice.\u201d arXiv preprint arXiv:1407.7502 2014. 20. Parikh, Rajul, et al. \u201dUnderstanding and using sensitivity, speci\ufb01city and predictive values.\u201d Indian journal of ophthalmology 56.1 2008.: 45. 21. Ridgeway, Greg. \u201dThe state of boosting.\u201d Computing Science and Statistics 1999.: 172-181. 22. Rish, Irina. \u201dAn empirical study of the naive Bayes classi\ufb01er.\u201d IJCAI 2001 work- shop on empirical methods in arti\ufb01cial intelligence. Vol. 3. No. 22. IBM, 2001. 23. Pohar, Maja, Mateja Blas, and Sandra Turk. \u201dComparison of logistic regression and linear discriminant analysis: a simulation study.\u201d Metodoloski zvezki 1.1 2004.: 143. 24. Sueyoshi, Toshiyuki. \u201dDEA-discriminant analysis: methodological comparison among eight discriminant analysis approaches.\u201d European Journal of Operational Research 169.1 2006.: 247-272. 25. Graupe, Daniel. Principles of arti\ufb01cial neural networks. Vol. 7. World Scienti\ufb01c, 2013.",
     "avg_font_size": 8.97,
@@ -4263,7 +4263,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_1c50f0e8",
+    "paragraph_id": "p_4a291efc",
     "page_num": 18,
     "text": "A Supervised Learning Approach For Heading Detection 19",
     "avg_font_size": 8.97,
@@ -4295,7 +4295,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_b70b2e5f",
+    "paragraph_id": "p_1c40c8f3",
     "page_num": 18,
     "text": "26. Fawcett, Tom. \u201dAn introduction to ROC analysis.\u201d Pattern recognition letters 27.8 2006.: 861-874. 27. Mago, Vijay Kumar, ed. Cross-Disciplinary Applications of Arti\ufb01cial Intelligence and Pattern Recognition: Advancing Technologies: Advancing Technologies. IGI Global, 2011. 28. Huang, Jin, and Charles X. Ling. \u201dUsing AUC and accuracy in evaluating learning algorithms.\u201d IEEE Transactions on knowledge and Data Engineering 17.3 2005.: 299-310. 29. Ling, Charles X., Jin Huang, and Harry Zhang. \u201dAUC: a better measure than accuracy in comparing learning algorithms.\u201d Conference of the canadian society for computational studies of intelligence. Springer, Berlin, Heidelberg, 2003.",
     "avg_font_size": 8.97,

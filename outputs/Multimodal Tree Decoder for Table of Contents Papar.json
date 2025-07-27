@@ -1,6 +1,6 @@
 [
   {
-    "paragraph_id": "p_46b6886b",
+    "paragraph_id": "p_312eb487",
     "page_num": 0,
     "text": "Multimodal Tree Decoder for Table of Contents Extraction in Document Images",
     "avg_font_size": 23.91,
@@ -32,7 +32,7 @@
     "relative_font_size": 26
   },
   {
-    "paragraph_id": "p_9036de1d",
+    "paragraph_id": "p_7edbba73",
     "page_num": 0,
     "text": "Pengfei Hu , Zhenrong Zhang , Jianshu Zhang , Jun Du 1,* , Jiajia Wu",
     "avg_font_size": 10.41,
@@ -64,7 +64,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_6b8c06c2",
+    "paragraph_id": "p_45a23f6e",
     "page_num": 0,
     "text": "National Engineering Research Center of Speech and Language Information Processing University of Science and Technology of China, Hefei, Anhui, P. R. China iFLYTEK Research Email: hudeyouxiang@mail.ustc.edu.cn, zzr666@mail.ustc.edu.cn jszhang6@i\ufb02ytek.com, jundu@ustc.edu.cn, jjwu@i\ufb02ytek.com",
     "avg_font_size": 9.96,
@@ -96,7 +96,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_025ac5f1",
+    "paragraph_id": "p_f6d28433",
     "page_num": 0,
     "text": "[6]. They \ufb01rst consider whether the document contains ToC",
     "avg_font_size": 9.96,
@@ -128,7 +128,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_fe398dca",
+    "paragraph_id": "p_336f3bc3",
     "page_num": 0,
     "text": "Abstract \u2014Table of contents (ToC) extraction aims to extract headings of different levels in documents to better understand the",
     "avg_font_size": 8.97,
@@ -149,8 +149,8 @@
     "alignment": "left",
     "line_count": 2,
     "font_names": [
-      "NimbusRomNo9L-Medi",
-      "NimbusRomNo9L-MediItal"
+      "NimbusRomNo9L-MediItal",
+      "NimbusRomNo9L-Medi"
     ],
     "primary_font_family": [
       "NimbusRomNo9L-Medi",
@@ -162,7 +162,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_89c0a6aa",
+    "paragraph_id": "p_e03cb2c9",
     "page_num": 0,
     "text": "pages, then apply one of the methods above.",
     "avg_font_size": 9.96,
@@ -194,7 +194,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_116d8683",
+    "paragraph_id": "p_f31e147b",
     "page_num": 0,
     "text": "outline of the contents, which can be widely used for document",
     "avg_font_size": 8.97,
@@ -226,7 +226,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_7c9f48bd",
+    "paragraph_id": "p_c02a4c3b",
     "page_num": 0,
     "text": "In general, existing approaches depend greatly on strong",
     "avg_font_size": 9.96,
@@ -258,7 +258,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_3286380d",
+    "paragraph_id": "p_a3b53b51",
     "page_num": 0,
     "text": "understanding and information retrieval. Existing works often",
     "avg_font_size": 8.97,
@@ -290,7 +290,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_45da1fe8",
+    "paragraph_id": "p_31c04c6a",
     "page_num": 0,
     "text": "indicators and prede\ufb01ned rule-based functions. They can",
     "avg_font_size": 9.96,
@@ -322,7 +322,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_93f9d7df",
+    "paragraph_id": "p_6eb452de",
     "page_num": 0,
     "text": "use hand-crafted features and prede\ufb01ned rule-based functions",
     "avg_font_size": 8.97,
@@ -354,7 +354,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_18c97135",
+    "paragraph_id": "p_70dd9bf0",
     "page_num": 0,
     "text": "arXiv:2212.02896v1  [cs.CV]  6 Dec 2022",
     "avg_font_size": 20.0,
@@ -386,7 +386,7 @@
     "relative_font_size": 25
   },
   {
-    "paragraph_id": "p_4496b458",
+    "paragraph_id": "p_a58840a1",
     "page_num": 0,
     "text": "perform well on application-dependent and domain-speci\ufb01c",
     "avg_font_size": 9.96,
@@ -418,7 +418,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_750398ab",
+    "paragraph_id": "p_cebebc17",
     "page_num": 0,
     "text": "to detect headings and resolve the hierarchical relationship between headings. Both the benchmark and research based on",
     "avg_font_size": 8.97,
@@ -450,7 +450,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_b65da711",
+    "paragraph_id": "p_03506458",
     "page_num": 0,
     "text": "datasets. However, a large amount of task-speci\ufb01c knowledge",
     "avg_font_size": 9.96,
@@ -482,7 +482,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_5defe686",
+    "paragraph_id": "p_c197fe20",
     "page_num": 0,
     "text": "deep learning are still limited. Accordingly, in this paper, we",
     "avg_font_size": 8.97,
@@ -514,7 +514,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_0d5408c2",
+    "paragraph_id": "p_ebb81ff1",
     "page_num": 0,
     "text": "and human-designed rules are needed, which does not extend",
     "avg_font_size": 9.96,
@@ -546,7 +546,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_b2d34cae",
+    "paragraph_id": "p_02342995",
     "page_num": 0,
     "text": "\ufb01rst introduce a standard dataset, HierDoc, including image",
     "avg_font_size": 8.97,
@@ -578,7 +578,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_ee75f622",
+    "paragraph_id": "p_90104506",
     "page_num": 0,
     "text": "to other types of documents. Recently, deep learning based",
     "avg_font_size": 9.96,
@@ -610,7 +610,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_efbf2ae4",
+    "paragraph_id": "p_d1a58e9e",
     "page_num": 0,
     "text": "samples from 650 documents of scienti\ufb01c papers with their",
     "avg_font_size": 8.97,
@@ -642,7 +642,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_11ed9064",
+    "paragraph_id": "p_b5aff5e0",
     "page_num": 0,
     "text": "methods have achieved great success in many \ufb01elds related to",
     "avg_font_size": 9.96,
@@ -674,7 +674,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_585b11cf",
+    "paragraph_id": "p_f0d92992",
     "page_num": 0,
     "text": "content labels. Then we propose a novel end-to-end model",
     "avg_font_size": 8.97,
@@ -706,7 +706,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_3f3a780d",
+    "paragraph_id": "p_2bdae402",
     "page_num": 0,
     "text": "documents. For example, [7] proposes the LayoutLM method",
     "avg_font_size": 9.96,
@@ -738,7 +738,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_46c288e9",
+    "paragraph_id": "p_2306730e",
     "page_num": 0,
     "text": "by using the multimodal tree decoder (MTD) for ToC as a benchmark for HierDoc. The MTD model is mainly composed",
     "avg_font_size": 8.97,
@@ -770,7 +770,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_f5816e3c",
+    "paragraph_id": "p_b167c943",
     "page_num": 0,
     "text": "for document image understanding, which is inspired by BERT",
     "avg_font_size": 9.96,
@@ -802,7 +802,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_cd292d71",
+    "paragraph_id": "p_72b98b11",
     "page_num": 0,
     "text": "of three parts, namely encoder, classi\ufb01er, and decoder. The",
     "avg_font_size": 8.97,
@@ -834,7 +834,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_5c0aed6f",
+    "paragraph_id": "p_9422dadf",
     "page_num": 0,
     "text": "[8]. This method uses image features and position to pre-train",
     "avg_font_size": 9.96,
@@ -866,7 +866,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_3558057b",
+    "paragraph_id": "p_98c159ae",
     "page_num": 0,
     "text": "encoder fuses the multimodality features of vision, text, and",
     "avg_font_size": 8.97,
@@ -898,7 +898,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_f2ce743e",
+    "paragraph_id": "p_2d0bfe38",
     "page_num": 0,
     "text": "the model and performs well on downstream tasks. Lately,",
     "avg_font_size": 9.96,
@@ -930,7 +930,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_a09d1d34",
+    "paragraph_id": "p_fb8c7285",
     "page_num": 0,
     "text": "layout information for each entity of the document. Then the",
     "avg_font_size": 8.97,
@@ -962,7 +962,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_8e530355",
+    "paragraph_id": "p_f179cdf7",
     "page_num": 0,
     "text": "ViBERTgrid [9] is proposed for key information extraction",
     "avg_font_size": 9.96,
@@ -994,7 +994,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_f2c22557",
+    "paragraph_id": "p_f845bf4a",
     "page_num": 0,
     "text": "classi\ufb01er recognizes and selects the heading entities. Next, to",
     "avg_font_size": 8.97,
@@ -1026,7 +1026,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_56c75830",
+    "paragraph_id": "p_252cf919",
     "page_num": 0,
     "text": "from documents. These demonstrate the powerful ability of",
     "avg_font_size": 9.96,
@@ -1058,7 +1058,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_6bcf27d3",
+    "paragraph_id": "p_9595d967",
     "page_num": 0,
     "text": "parse the hierarchical relationship between the heading entities, a tree-structured decoder is designed. To evaluate the performance,",
     "avg_font_size": 8.97,
@@ -1090,7 +1090,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_45f103c8",
+    "paragraph_id": "p_4f930e35",
     "page_num": 0,
     "text": "deep learning based methods to deal with document-related",
     "avg_font_size": 9.96,
@@ -1122,7 +1122,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_0718e222",
+    "paragraph_id": "p_9a9c7814",
     "page_num": 0,
     "text": "both the metric of tree-edit-distance similarity (TEDS) and F1-",
     "avg_font_size": 8.97,
@@ -1154,7 +1154,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_fa3bffd2",
+    "paragraph_id": "p_0c914be3",
     "page_num": 0,
     "text": "problems.",
     "avg_font_size": 9.96,
@@ -1186,7 +1186,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_49c9927a",
+    "paragraph_id": "p_735df039",
     "page_num": 0,
     "text": "Measure are adopted. Finally, our MTD approach achieves an",
     "avg_font_size": 8.97,
@@ -1218,7 +1218,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_c564e25a",
+    "paragraph_id": "p_32301b91",
     "page_num": 0,
     "text": "It is worth noting that the existing datasets are not suitable",
     "avg_font_size": 9.96,
@@ -1250,7 +1250,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_cf5366a1",
+    "paragraph_id": "p_2ec3652d",
     "page_num": 0,
     "text": "average TEDS of 87.2% and an average F1-Measure of 88.1%",
     "avg_font_size": 8.97,
@@ -1282,7 +1282,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_67ef56ab",
+    "paragraph_id": "p_ee6035ac",
     "page_num": 0,
     "text": "for deep learning based methods. The ISRI dataset [10] and the",
     "avg_font_size": 9.96,
@@ -1314,7 +1314,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_6c0ce86c",
+    "paragraph_id": "p_5357a1c4",
     "page_num": 0,
     "text": "on the test set of HierDoc. The code and dataset will be released at: https://github.com/Pengfei-Hu/MTD.",
     "avg_font_size": 8.97,
@@ -1346,7 +1346,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_23b998bf",
+    "paragraph_id": "p_65d73d81",
     "page_num": 0,
     "text": "Medical Article Records Groundtruth (MARG) dataset [11] only contain bi-level images and similarly simple layouts, I. INTRODUCTION predominantly of journal articles. Some datasets [12] [13] A huge amount of documents have been accumulated with [14] are available in several ICDAR challenges, which contain digitization and OCR engines. However, most of them contain complex layouts of newspapers, books, and technical articles. text with limited structural information. For example, the However, their annotations lack the heading category. Anno- table of contents (ToC), which plays an important role in tations with the heading category are provided by PubLayNet document understanding and information retrieval, is often [15]. However, there is no information about the heading missing. The task of ToC extraction is to restore the structure depth. [16] collects 71 French documents and 72 English of the document and to recognize the hierarchy of sections. documents in PDF format from the \ufb01nancial domain. Its As shown in Fig. 1, the output of ToC extraction is a tree of structure extraction ground truth is still not aligned with the headings with different levels. text lines in the document. As for the recent studies, we can roughly divide them into To overcome the lack of data for the research of ToC two categories. The \ufb01rst one assumes the presence of ToC extraction, we collect a dataset, namely Hier archical academic pages [1] [2]. They \ufb01rst detect ToC pages, then analyze them Doc ument ( HierDoc ). It contains 650 academic English docu- for ToC entries. However, there are quite a few documents ments in various \ufb01elds from ArXiv . With LaTeX source code, without ToC pages [3]. Therefore, others extract ToC from we generate its ToC ground truth using regular expressions. the whole document [4] [5]. They usually utilize hand-crafted We also provide annotations for each text line. In this paper, features and strong indicators to detect headings, which will the text line is denoted as the entity. The ToC is aligned with be hierarchically ordered according to prede\ufb01ned rule-based entities for training. For this dataset, 350 and 300 documents functions. Besides, some research explores hybrid approaches",
     "avg_font_size": 9.96,
@@ -1368,8 +1368,8 @@
     "line_count": 39,
     "font_names": [
       "NimbusRomNo9L-Regu",
-      "NimbusRomNo9L-Medi",
-      "NimbusRomNo9L-ReguItal"
+      "NimbusRomNo9L-ReguItal",
+      "NimbusRomNo9L-Medi"
     ],
     "primary_font_family": [
       "NimbusRomNo9L-Regu"
@@ -1380,7 +1380,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_5884549c",
+    "paragraph_id": "p_1ed0f159",
     "page_num": 0,
     "text": "https://arxiv.org/ * Corresponding Author",
     "avg_font_size": 7.97,
@@ -1412,7 +1412,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_9ee3ee57",
+    "paragraph_id": "p_d991e5d2",
     "page_num": 1,
     "text": "are used for training and testing individually. More details of",
     "avg_font_size": 9.96,
@@ -1444,7 +1444,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_49984aeb",
+    "paragraph_id": "p_e72a0088",
     "page_num": 1,
     "text": "Table of Contents",
     "avg_font_size": 8.4,
@@ -1476,7 +1476,7 @@
     "relative_font_size": 15
   },
   {
-    "paragraph_id": "p_9c84d337",
+    "paragraph_id": "p_1be2ac90",
     "page_num": 1,
     "text": "the dataset are described in Section II.",
     "avg_font_size": 9.96,
@@ -1508,7 +1508,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_c9ca82d5",
+    "paragraph_id": "p_96ea0588",
     "page_num": 1,
     "text": "TITLE 1               Introduction",
     "avg_font_size": 6.54,
@@ -1540,7 +1540,7 @@
     "relative_font_size": 8
   },
   {
-    "paragraph_id": "p_797a9da8",
+    "paragraph_id": "p_2ef6cd11",
     "page_num": 1,
     "text": "With HierDoc , it is possible to take advantage of deep neural",
     "avg_font_size": 9.96,
@@ -1574,7 +1574,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_360a2f5e",
+    "paragraph_id": "p_6f977a7b",
     "page_num": 1,
     "text": "2               Method 2.1            Overall Architecture",
     "avg_font_size": 6.54,
@@ -1606,7 +1606,7 @@
     "relative_font_size": 8
   },
   {
-    "paragraph_id": "p_50c4a218",
+    "paragraph_id": "p_a386ae3f",
     "page_num": 1,
     "text": "networks for the ToC extraction task. We further propose",
     "avg_font_size": 9.96,
@@ -1638,7 +1638,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_0664e70a",
+    "paragraph_id": "p_18d2a283",
     "page_num": 1,
     "text": "2.2            Efficient Batch Com-",
     "avg_font_size": 6.54,
@@ -1670,7 +1670,7 @@
     "relative_font_size": 8
   },
   {
-    "paragraph_id": "p_c073b7d4",
+    "paragraph_id": "p_bd6427c6",
     "page_num": 1,
     "text": "ultimodal ree ecoder (MTD), an end-to-end model which",
     "avg_font_size": 9.96,
@@ -1702,7 +1702,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_9a348c07",
+    "paragraph_id": "p_5c93a753",
     "page_num": 1,
     "text": "putation 3               Conclusion Introduction Method Conclusion",
     "avg_font_size": 6.54,
@@ -1734,7 +1734,7 @@
     "relative_font_size": 8
   },
   {
-    "paragraph_id": "p_e573b886",
+    "paragraph_id": "p_171ccdc7",
     "page_num": 1,
     "text": "detects heading entities and produces the ToC by parsing the hierarchy of them. To the best of our knowledge, this is the \ufb01rst deep learning based method for ToC extraction. Different",
     "avg_font_size": 9.96,
@@ -1766,7 +1766,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_dcce176b",
+    "paragraph_id": "p_acc84ba9",
     "page_num": 1,
     "text": "sibling",
     "avg_font_size": 6.54,
@@ -1798,7 +1798,7 @@
     "relative_font_size": 8
   },
   {
-    "paragraph_id": "p_60b9d294",
+    "paragraph_id": "p_5c4f6279",
     "page_num": 1,
     "text": "from previous works, MTD offers the following advantages,",
     "avg_font_size": 9.96,
@@ -1830,7 +1830,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_2d060713",
+    "paragraph_id": "p_465f9388",
     "page_num": 1,
     "text": "entity Efficient Batch Overall",
     "avg_font_size": 6.54,
@@ -1862,7 +1862,7 @@
     "relative_font_size": 8
   },
   {
-    "paragraph_id": "p_3f8665e6",
+    "paragraph_id": "p_7fab8529",
     "page_num": 1,
     "text": "(1) it can process documents in images or PDF format, and",
     "avg_font_size": 9.96,
@@ -1894,7 +1894,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_6ba256ee",
+    "paragraph_id": "p_66d05810",
     "page_num": 1,
     "text": "identity Architecture Computation heading",
     "avg_font_size": 6.54,
@@ -1926,7 +1926,7 @@
     "relative_font_size": 8
   },
   {
-    "paragraph_id": "p_14d1cc74",
+    "paragraph_id": "p_0701ce1e",
     "page_num": 1,
     "text": "(2) no human-designed rules are used. It indicates that the",
     "avg_font_size": 9.96,
@@ -1958,7 +1958,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_5903be3a",
+    "paragraph_id": "p_7556f64a",
     "page_num": 1,
     "text": "parent",
     "avg_font_size": 6.54,
@@ -1990,7 +1990,7 @@
     "relative_font_size": 8
   },
   {
-    "paragraph_id": "p_742383cd",
+    "paragraph_id": "p_00edad5d",
     "page_num": 1,
     "text": "MTD can generalize well across documents from different domains and handle different forms of user input. We adopt Fig. 1: The ToC can be represented as a tree structure, and the the text line as the basic input element, denoted as entity. output of MTD can be easily converted to ToC. The heading MTD mainly has three components: encoder, classi\ufb01er and \u201cEf\ufb01cient Batch Computation\u201d is split into two entities in the decoder. Firstly, the encoder as a feature extractor embeds document due to the limited length of the text line. vision, plain text, and layout of the entity into a feature vector. Then the classi\ufb01er detects heading entities and feeds them to the decoder. Finally, the decoder predicts the relationships For each entity in the document, we generate a quadruple, between the heading entities one by one. More speci\ufb01cally, content, position, heading, id content is the textual con- the attention mechanism built into the decoder locates the tent of the entity. position is de\ufb01ned by , y , x , y , where reference entity of a heading entity, and the relationship , y corresponds to the position of the upper left in the between the two is predicted afterward. The output of the MTD bounding box, and , y represents the position of the lower can be transferred to the ToC simply, as shown in Fig. 1. We right. heading is a boolean variable indicating whether the utilize both the Tree-Edit-Distance-based Similarity (TEDS) entity is a heading (or part of a heading, see Fig. 2 (b)). [17] metric and the F1-Measure to evaluate the performance id represents the hierarchical position in the ToC tree. For of our model. MTD achieves an average TEDS of 87.2% and example, for entity with content \u201cHow do CR \ufb02uxes vary an average F1-Measure of 88.1% on the test set of HierDoc with Galactic...\u201d in the Fig. 2 (a), id is \u201c2.2\u201d, which indicates The ablation studies prove the effectiveness of each module that is the second child of its parent with content \u201cScience of MTD. case\u201d and id \u201c2\u201d. And has one child with the content The main contributions of this paper are as follows: \u201cMechanical structure\u201d and id \u201c2.2.1\u201d. We introduce a standard dataset HierDoc for ToC extrac- tion, which contains 650 documents of scienti\ufb01c papers",
     "avg_font_size": 9.96,
@@ -2024,7 +2024,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_528faf06",
+    "paragraph_id": "p_0f958454",
     "page_num": 1,
     "text": "A. Document Collection",
     "avg_font_size": 9.96,
@@ -2056,7 +2056,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_74690217",
+    "paragraph_id": "p_4567e95b",
     "page_num": 1,
     "text": "from various \ufb01elds. We download 650 English scienti\ufb01c documents in PDF We propose a novel end-to-end model, Multimodal Tree format and corresponding LaTeX source codes from arXiv, Decoder (MTD) for ToC extraction. We demonstrate that covering 8 \ufb01elds including physics, mathematics, computer fusing visual, textual, and layout features boosts model science, quantitative biology, etc. Each document is free to performance. distribute, remix, and adapt under the Creative Commons By predicting the relationships between entities, the hier- Attribution 4.0 user license archy of headings can be sequentially parsed by the tree decoder in MTD.",
     "avg_font_size": 9.96,
@@ -2088,7 +2088,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_e14548d0",
+    "paragraph_id": "p_0900acb0",
     "page_num": 1,
     "text": "B. Label Generation",
     "avg_font_size": 9.96,
@@ -2120,7 +2120,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_805d9645",
+    "paragraph_id": "p_ced634e6",
     "page_num": 1,
     "text": "We achieve the results with an average TEDS of 87.2% The document-level annotation, as shown in Fig. 2, can be and an average F1-Measure of 88.1% on the test set parsed using regular expressions with LaTeX source code. It of HierDoc , which provides a competitive baseline for is used as the target during the test phase. We also generate subsequent research. a quadruple content, position, heading, id for each entity. We parse documents in PDF format using pdfplumber to II. DATASET obtain the text contents with positions for each entity. After As discussed in Section I, existing datasets [12]\u2013[16] are that, the entities are matched with document-level annotations not suitable for deep learning based methods. To overcome to obtain heading and id according to the Word Error the lack of training data, we release a dataset HierDoc Rate (WER). To facilitate model processing, the entities on which contains 350 and 300 document images for training each page are organized from top-to-bottom and left-to-right. and testing, respectively. As illustrated in Fig. 2, HierDoc Overall, HierDoc provides document images, entity-level provides two kinds of annotations, document-level annotations annotations, and document-level annotations. and entity-level annotations. The document-level annotation serves as the target of ToC extraction, which is used in the",
     "avg_font_size": 9.96,
@@ -2154,7 +2154,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_647d8f01",
+    "paragraph_id": "p_f51f36a1",
     "page_num": 1,
     "text": "https://creativecommons.org/licenses",
     "avg_font_size": 7.97,
@@ -2186,7 +2186,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_6bb11d9b",
+    "paragraph_id": "p_5aac5314",
     "page_num": 1,
     "text": "test phase. Entity-level annotations are created for training.",
     "avg_font_size": 9.96,
@@ -2218,7 +2218,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_6d5e9679",
+    "paragraph_id": "p_5916d934",
     "page_num": 1,
     "text": "https://github.com/jsvine/pdfplumber",
     "avg_font_size": 7.97,
@@ -2250,7 +2250,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_d31911ca",
+    "paragraph_id": "p_7c1e4a89",
     "page_num": 2,
     "text": "all heading entities are iterated in the sequence of how they",
     "avg_font_size": 9.96,
@@ -2282,7 +2282,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_0807ee9d",
+    "paragraph_id": "p_f4b7f2ce",
     "page_num": 2,
     "text": "TITLE",
     "avg_font_size": 5.3,
@@ -2314,7 +2314,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_0e0cc258",
+    "paragraph_id": "p_e3c7fb93",
     "page_num": 2,
     "text": "Table of Contents",
     "avg_font_size": 5.99,
@@ -2346,7 +2346,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_8424c447",
+    "paragraph_id": "p_d7afc2c3",
     "page_num": 2,
     "text": "appear within the document to generate the ToC tree.",
     "avg_font_size": 9.96,
@@ -2378,7 +2378,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_0145bcf4",
+    "paragraph_id": "p_155070c1",
     "page_num": 2,
     "text": "Introduction",
     "avg_font_size": 4.67,
@@ -2410,7 +2410,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_a4522a96",
+    "paragraph_id": "p_2d0b44f8",
     "page_num": 2,
     "text": "More speci\ufb01cally, there may be one of three relationships",
     "avg_font_size": 9.96,
@@ -2442,7 +2442,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_e10047ec",
+    "paragraph_id": "p_51834820",
     "page_num": 2,
     "text": "Science case",
     "avg_font_size": 4.66,
@@ -2474,7 +2474,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a3e93377",
+    "paragraph_id": "p_1f200195",
     "page_num": 2,
     "text": "between two heading entities, namely parent sibling and iden-",
     "avg_font_size": 9.96,
@@ -2508,7 +2508,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_94904a6a",
+    "paragraph_id": "p_30a56475",
     "page_num": 2,
     "text": "Introduction Science case",
     "avg_font_size": 5.3,
@@ -2540,7 +2540,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_c7fd945a",
+    "paragraph_id": "p_29f520e4",
     "page_num": 2,
     "text": "2.1 What are the CR energy",
     "avg_font_size": 4.66,
@@ -2572,7 +2572,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_c6da1983",
+    "paragraph_id": "p_e07b3f5f",
     "page_num": 2,
     "text": "tity . As shown in Fig. 1, Introduction Method and Conclusion",
     "avg_font_size": 9.96,
@@ -2606,7 +2606,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_a5b78cb8",
+    "paragraph_id": "p_4181480b",
     "page_num": 2,
     "text": "distributions...",
     "avg_font_size": 4.66,
@@ -2638,7 +2638,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_b4216fed",
+    "paragraph_id": "p_830d8cc9",
     "page_num": 2,
     "text": "are chapters in TITLE . Intuitively, the relationship between",
     "avg_font_size": 9.96,
@@ -2672,7 +2672,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_e6d334f3",
+    "paragraph_id": "p_6622a1b0",
     "page_num": 2,
     "text": "2.2 How do CR fluxes",
     "avg_font_size": 4.66,
@@ -2704,7 +2704,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_2f10666b",
+    "paragraph_id": "p_f8c6387c",
     "page_num": 2,
     "text": "What are the CR Where are the How do CR",
     "avg_font_size": 5.31,
@@ -2736,7 +2736,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_d397d97b",
+    "paragraph_id": "p_11ee9d7c",
     "page_num": 2,
     "text": "vary with",
     "avg_font_size": 4.67,
@@ -2768,7 +2768,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_b0d34df9",
+    "paragraph_id": "p_849d47de",
     "page_num": 2,
     "text": "energy low-energy CRs fluxes vary with",
     "avg_font_size": 5.3,
@@ -2800,7 +2800,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_d32dc98b",
+    "paragraph_id": "p_e33e25d5",
     "page_num": 2,
     "text": "Introduction and TITLE is parent . For chapter Method , we",
     "avg_font_size": 9.96,
@@ -2834,7 +2834,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_dc2af28a",
+    "paragraph_id": "p_3d5f9c4f",
     "page_num": 2,
     "text": "Galactic...",
     "avg_font_size": 4.66,
@@ -2866,7 +2866,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_d3cb7848",
+    "paragraph_id": "p_692e7742",
     "page_num": 2,
     "text": "distributions... and how do... Galactic...",
     "avg_font_size": 5.3,
@@ -2898,7 +2898,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_81152792",
+    "paragraph_id": "p_6e6a59e5",
     "page_num": 2,
     "text": "2.2.1 Mechanical structure",
     "avg_font_size": 4.66,
@@ -2930,7 +2930,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_9503e21e",
+    "paragraph_id": "p_3a25543a",
     "page_num": 2,
     "text": "predict the relationship sibling between it and Introduction It can avoid predicting the relationship between two entities",
     "avg_font_size": 9.96,
@@ -2964,7 +2964,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_e87f4c66",
+    "paragraph_id": "p_0ab2337c",
     "page_num": 2,
     "text": "Mechanical",
     "avg_font_size": 5.3,
@@ -2996,7 +2996,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_fd0765d4",
+    "paragraph_id": "p_c112df43",
     "page_num": 2,
     "text": "that are far apart in the document, since the TITLE may have",
     "avg_font_size": 9.96,
@@ -3030,7 +3030,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_f1b35ba4",
+    "paragraph_id": "p_72eb859e",
     "page_num": 2,
     "text": "structure",
     "avg_font_size": 5.31,
@@ -3062,7 +3062,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_120aecd1",
+    "paragraph_id": "p_736064c4",
     "page_num": 2,
     "text": "many children. We design the relationship identity because the",
     "avg_font_size": 9.96,
@@ -3096,7 +3096,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_55e8a91d",
+    "paragraph_id": "p_ef276e30",
     "page_num": 2,
     "text": "(a) ducoment-level annotations",
     "avg_font_size": 7.97,
@@ -3128,7 +3128,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_69b572ac",
+    "paragraph_id": "p_503c7037",
     "page_num": 2,
     "text": "heading may be divided into several entities due to the limited length of text lines. So far, there is one critical issue that",
     "avg_font_size": 9.96,
@@ -3160,7 +3160,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_81e5561c",
+    "paragraph_id": "p_f9cce6e7",
     "page_num": 2,
     "text": "\ud835\udc47\u210e\ud835\udc52\ud835\udc54\ud835\udc4e\ud835\udc5a\ud835\udc5a\ud835\udc4e\u2212\ud835\udc5f\ud835\udc4e\ud835\udc54\ud835\udc60\u2026 \u2026",
     "avg_font_size": 9.58,
@@ -3192,7 +3192,7 @@
     "relative_font_size": 20
   },
   {
-    "paragraph_id": "p_a42455f7",
+    "paragraph_id": "p_c9818fe9",
     "page_num": 2,
     "text": "remains addressed. For the current entity, which entity should",
     "avg_font_size": 9.96,
@@ -3224,7 +3224,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_1c3ec987",
+    "paragraph_id": "p_fb9713da",
     "page_num": 2,
     "text": ", \ud835\udc66 , \ud835\udc65 , \ud835\udc66",
     "avg_font_size": 9.58,
@@ -3256,7 +3256,7 @@
     "relative_font_size": 20
   },
   {
-    "paragraph_id": "p_a5ed85fe",
+    "paragraph_id": "p_6c52d1dc",
     "page_num": 2,
     "text": "be used to predict the relationship with it? The answer is the reference entity . The reference entity is the entity immediately",
     "avg_font_size": 9.96,
@@ -3289,7 +3289,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_7ea3141c",
+    "paragraph_id": "p_f9491f24",
     "page_num": 2,
     "text": "\ud835\udc39\ud835\udc4e\ud835\udc59\ud835\udc60\ud835\udc52",
     "avg_font_size": 9.56,
@@ -3321,7 +3321,7 @@
     "relative_font_size": 19
   },
   {
-    "paragraph_id": "p_0f67d4cc",
+    "paragraph_id": "p_220c3ab8",
     "page_num": 2,
     "text": "preceding the current entity within the document, between",
     "avg_font_size": 9.96,
@@ -3353,7 +3353,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_7df215fa",
+    "paragraph_id": "p_66f2697a",
     "page_num": 2,
     "text": "\ud835\udc41\ud835\udc48\ud835\udc3f\ud835\udc3f",
     "avg_font_size": 9.56,
@@ -3385,7 +3385,7 @@
     "relative_font_size": 19
   },
   {
-    "paragraph_id": "p_ae0996e4",
+    "paragraph_id": "p_3d61df33",
     "page_num": 2,
     "text": "which one of the relationships described above exists. Finally, after obtaining the reference entity and relationship for each",
     "avg_font_size": 9.96,
@@ -3417,7 +3417,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_7336381e",
+    "paragraph_id": "p_14b218d0",
     "page_num": 2,
     "text": "\ud835\udc5d\ud835\udc52\ud835\udc5b\ud835\udc52\ud835\udc61\ud835\udc5f\ud835\udc4e\ud835\udc61\ud835\udc52\ud835\udc51\ud835\udc52\ud835\udc5b\ud835\udc60\ud835\udc52\ud835\udc50\ud835\udc59\ud835\udc5c\ud835\udc62\ud835\udc51\ud835\udc60?",
     "avg_font_size": 9.56,
@@ -3449,7 +3449,7 @@
     "relative_font_size": 19
   },
   {
-    "paragraph_id": "p_0276f526",
+    "paragraph_id": "p_23c00c46",
     "page_num": 2,
     "text": "heading entity, we can generate the ToC tree simply.",
     "avg_font_size": 9.96,
@@ -3481,7 +3481,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_cec63e64",
+    "paragraph_id": "p_43128327",
     "page_num": 2,
     "text": ", \ud835\udc66 , \ud835\udc65 , \ud835\udc66",
     "avg_font_size": 9.58,
@@ -3513,7 +3513,7 @@
     "relative_font_size": 20
   },
   {
-    "paragraph_id": "p_d9fc32b4",
+    "paragraph_id": "p_cbff2331",
     "page_num": 2,
     "text": "B. Encoder",
     "avg_font_size": 9.96,
@@ -3545,7 +3545,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_942838c6",
+    "paragraph_id": "p_819be04a",
     "page_num": 2,
     "text": "\ud835\udc47\ud835\udc5f\ud835\udc62\ud835\udc52",
     "avg_font_size": 9.56,
@@ -3577,7 +3577,7 @@
     "relative_font_size": 19
   },
   {
-    "paragraph_id": "p_6887d655",
+    "paragraph_id": "p_c681a8ea",
     "page_num": 2,
     "text": "Different from previous works [4]\u2013[6], the encoder requires",
     "avg_font_size": 9.96,
@@ -3609,7 +3609,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_893c28bd",
+    "paragraph_id": "p_3f694498",
     "page_num": 2,
     "text": "2.2.3",
     "avg_font_size": 9.56,
@@ -3641,7 +3641,7 @@
     "relative_font_size": 19
   },
   {
-    "paragraph_id": "p_df5d7448",
+    "paragraph_id": "p_824a2805",
     "page_num": 2,
     "text": "no hand-crafted features to extract features of each entity. Firstly, with the entity-level annotations, the encoder extracts the visual features , the textual features and position features",
     "avg_font_size": 9.96,
@@ -3673,7 +3673,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_911bb145",
+    "paragraph_id": "p_00386153",
     "page_num": 2,
     "text": "(b) entity-level annotations",
     "avg_font_size": 7.97,
@@ -3705,7 +3705,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_b16139f1",
+    "paragraph_id": "p_d16ba636",
     "page_num": 2,
     "text": "of each entity. Then, before being fed to the next , and are fused into module, Fig. 2: HierDoc contains two kinds of annotations. Document- [1 , N , and is the number of entities level annotations serve as targets of ToC extraction. Entity- in the document. level annotations provide quadruple for each entity,",
     "avg_font_size": 9.96,
@@ -3727,9 +3727,9 @@
     "line_count": 15,
     "font_names": [
       "NimbusRomNo9L-Regu",
-      "CMR10",
       "CMMI10",
-      "NimbusRomNo9L-ReguItal"
+      "NimbusRomNo9L-ReguItal",
+      "CMR10"
     ],
     "primary_font_family": [
       "NimbusRomNo9L-Regu"
@@ -3740,7 +3740,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_d26fc7c8",
+    "paragraph_id": "p_71e8b2d3",
     "page_num": 2,
     "text": "1) Vision Module:",
     "avg_font_size": 9.96,
@@ -3772,7 +3772,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_ed95b2c5",
+    "paragraph_id": "p_055576b6",
     "page_num": 2,
     "text": "The vision module takes document content, position, heading, id heading is a boolean vari- images as input. It uses FPN [18] to aggregate feature maps able indicating whether an entity is a heading and id identi\ufb01es from ResNet-34 [19], then pools a \ufb01xed-size feature map the hierarchical position of the entity in the ToC tree. with the RoIAlign [20] for each entity. In order to integrate with features from other domains, the 2-dimensional feature map is \ufb02atten to produce visual features . The ResNet- III. THE PROPOSED APPROACH 34 and FPN are pretrained on 1000 scienti\ufb01c papers with a The overall pipeline of MTD is shown in Fig. 3. MTD text detection task [21]. consists of three components: encoder, classi\ufb01er and decoder. 2) Text Module: Recent studies [7] [22] show that textual The vision module, text module, and layout module are \ufb01rst features play an extremely important role in documents. Fol- applied to the input document to extract features of each lowing [23], the BERT is used to extract the textual features entity. Then the gated unit in the encoder is used to obtain . To make the extracted semantic features more suitable the multimodality features. The following classi\ufb01er detects for our network, two linear transformations with a RELU the heading entities and feeds them to the decoder. Finally, activation are added following the BERT. It is worth noting the decoder parses the hierarchy of headings to produce the that both BERT and ResNet-34+FPN do not update their ToC. In the following subsections, we will \ufb01rst formalize our parameters during the training phase to save GPU memory method and then elaborate on the components of MTD. and improve training speed. 3) Layout Module: The layout module generates as the",
     "avg_font_size": 9.96,
@@ -3806,7 +3806,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_4b2b93cd",
+    "paragraph_id": "p_ff4da411",
     "page_num": 2,
     "text": "A. Formalization",
     "avg_font_size": 9.96,
@@ -3838,7 +3838,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_683b9c0c",
+    "paragraph_id": "p_6df339e2",
     "page_num": 2,
     "text": "following: Given a document, we \ufb01rst obtain the layout and plain",
     "avg_font_size": 9.96,
@@ -3870,7 +3870,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_05663e1a",
+    "paragraph_id": "p_ac7dcfac",
     "page_num": 2,
     "text": ", y lt",
     "avg_font_size": 8.47,
@@ -3904,7 +3904,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_29a9d133",
+    "paragraph_id": "p_4931bfb1",
     "page_num": 2,
     "text": "rb lt +1 rb",
     "avg_font_size": 6.97,
@@ -3925,8 +3925,8 @@
     "alignment": "right",
     "line_count": 3,
     "font_names": [
-      "CMMI7",
-      "CMR7"
+      "CMR7",
+      "CMMI7"
     ],
     "primary_font_family": [
       "CMMI7"
@@ -3937,7 +3937,7 @@
     "relative_font_size": 11
   },
   {
-    "paragraph_id": "p_7a017ff4",
+    "paragraph_id": "p_753702a8",
     "page_num": 2,
     "text": ", y lt , x rb , y rb = ( lt",
     "avg_font_size": 8.47,
@@ -3958,9 +3958,9 @@
     "alignment": "center",
     "line_count": 4,
     "font_names": [
+      "CMR10",
       "CMMI10",
-      "CMMI7",
-      "CMR10"
+      "CMMI7"
     ],
     "primary_font_family": [
       "CMMI10",
@@ -3972,7 +3972,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_3806ceec",
+    "paragraph_id": "p_eadfbb23",
     "page_num": 2,
     "text": ", w , h",
     "avg_font_size": 9.96,
@@ -4004,7 +4004,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_548ebc5a",
+    "paragraph_id": "p_3322c959",
     "page_num": 2,
     "text": "text of entities by OCR engines or PDF Parsers, as discussed in Section II. Then, the encoder extracts the features of all",
     "avg_font_size": 9.96,
@@ -4036,7 +4036,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_a59f3d31",
+    "paragraph_id": "p_44d276ea",
     "page_num": 2,
     "text": "lt",
     "avg_font_size": 6.97,
@@ -4068,7 +4068,7 @@
     "relative_font_size": 11
   },
   {
-    "paragraph_id": "p_6188ead7",
+    "paragraph_id": "p_e7366c9e",
     "page_num": 2,
     "text": ", y lt , x rb , y rb",
     "avg_font_size": 8.47,
@@ -4102,7 +4102,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a97142a8",
+    "paragraph_id": "p_2fe49bac",
     "page_num": 2,
     "text": "correspond to the width, the height, entities. Next, the classi\ufb01er divides them into two categories, heading entities or normal entities . A heading entity is one of and the coordinate position of the bounding box of each entity. denote the width and height of the whole page. the headings of the document, while a normal entity is not. We normalize with , which is the average height of all Finally, starting from an empty tree with a single root node,",
     "avg_font_size": 9.96,
@@ -4135,7 +4135,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_00935136",
+    "paragraph_id": "p_280be936",
     "page_num": 3,
     "text": "Encoder",
     "avg_font_size": 9.89,
@@ -4167,7 +4167,7 @@
     "relative_font_size": 22
   },
   {
-    "paragraph_id": "p_99f2400b",
+    "paragraph_id": "p_cd91356e",
     "page_num": 3,
     "text": "Vision Module Text Gated",
     "avg_font_size": 7.54,
@@ -4199,7 +4199,7 @@
     "relative_font_size": 12
   },
   {
-    "paragraph_id": "p_91e4e61b",
+    "paragraph_id": "p_5ebd06a4",
     "page_num": 3,
     "text": "Classifier",
     "avg_font_size": 9.88,
@@ -4231,7 +4231,7 @@
     "relative_font_size": 21
   },
   {
-    "paragraph_id": "p_9d10af4e",
+    "paragraph_id": "p_9474e877",
     "page_num": 3,
     "text": "Module Unit",
     "avg_font_size": 7.54,
@@ -4263,7 +4263,7 @@
     "relative_font_size": 12
   },
   {
-    "paragraph_id": "p_3d5330ef",
+    "paragraph_id": "p_c8258421",
     "page_num": 3,
     "text": "OCR/ PDF parser",
     "avg_font_size": 8.91,
@@ -4295,7 +4295,7 @@
     "relative_font_size": 17
   },
   {
-    "paragraph_id": "p_9209e709",
+    "paragraph_id": "p_c3fabf83",
     "page_num": 3,
     "text": "Layout Module",
     "avg_font_size": 7.54,
@@ -4327,7 +4327,7 @@
     "relative_font_size": 12
   },
   {
-    "paragraph_id": "p_02eac508",
+    "paragraph_id": "p_2449449b",
     "page_num": 3,
     "text": "Blocking gradient flow",
     "avg_font_size": 5.96,
@@ -4359,7 +4359,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_dd6475db",
+    "paragraph_id": "p_13a6cd8b",
     "page_num": 3,
     "text": "Decoder",
     "avg_font_size": 9.88,
@@ -4391,7 +4391,7 @@
     "relative_font_size": 21
   },
   {
-    "paragraph_id": "p_43ea6c6d",
+    "paragraph_id": "p_88f2d3a6",
     "page_num": 3,
     "text": "Attention Relation",
     "avg_font_size": 7.54,
@@ -4423,7 +4423,7 @@
     "relative_font_size": 12
   },
   {
-    "paragraph_id": "p_3fda0e46",
+    "paragraph_id": "p_283bde52",
     "page_num": 3,
     "text": "Heading entity",
     "avg_font_size": 5.96,
@@ -4455,7 +4455,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_4cc3ed4d",
+    "paragraph_id": "p_88eaa557",
     "page_num": 3,
     "text": "Mechanism Decoder",
     "avg_font_size": 7.54,
@@ -4487,7 +4487,7 @@
     "relative_font_size": 12
   },
   {
-    "paragraph_id": "p_4eb147df",
+    "paragraph_id": "p_7018305c",
     "page_num": 3,
     "text": "Normal entity",
     "avg_font_size": 5.97,
@@ -4519,7 +4519,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_a28148c9",
+    "paragraph_id": "p_ef4d1d66",
     "page_num": 3,
     "text": "Title Title",
     "avg_font_size": 6.94,
@@ -4551,7 +4551,7 @@
     "relative_font_size": 10
   },
   {
-    "paragraph_id": "p_8dff6e99",
+    "paragraph_id": "p_6dd38d5a",
     "page_num": 3,
     "text": "Reference",
     "avg_font_size": 5.96,
@@ -4583,7 +4583,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_3a65276e",
+    "paragraph_id": "p_b0544cc3",
     "page_num": 3,
     "text": "Intorduction Intorduction",
     "avg_font_size": 6.94,
@@ -4615,7 +4615,7 @@
     "relative_font_size": 10
   },
   {
-    "paragraph_id": "p_eeff6d5f",
+    "paragraph_id": "p_cdd70912",
     "page_num": 3,
     "text": "Postprocess",
     "avg_font_size": 8.9,
@@ -4647,7 +4647,7 @@
     "relative_font_size": 16
   },
   {
-    "paragraph_id": "p_7a4ef7fd",
+    "paragraph_id": "p_d64b0ac1",
     "page_num": 3,
     "text": "Our Method Our Method",
     "avg_font_size": 6.94,
@@ -4679,7 +4679,7 @@
     "relative_font_size": 10
   },
   {
-    "paragraph_id": "p_7bf0404e",
+    "paragraph_id": "p_6ba19c71",
     "page_num": 3,
     "text": "Sibling",
     "avg_font_size": 5.96,
@@ -4711,7 +4711,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_df1e6b3b",
+    "paragraph_id": "p_2c7ab210",
     "page_num": 3,
     "text": "Network Network",
     "avg_font_size": 6.94,
@@ -4743,7 +4743,7 @@
     "relative_font_size": 10
   },
   {
-    "paragraph_id": "p_373227b5",
+    "paragraph_id": "p_ce38031a",
     "page_num": 3,
     "text": "Identity",
     "avg_font_size": 5.96,
@@ -4775,7 +4775,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_e4ea3806",
+    "paragraph_id": "p_e67bef7d",
     "page_num": 3,
     "text": "Loss Functi- Loss Functi- on on",
     "avg_font_size": 6.94,
@@ -4807,7 +4807,7 @@
     "relative_font_size": 10
   },
   {
-    "paragraph_id": "p_00ac4386",
+    "paragraph_id": "p_01319534",
     "page_num": 3,
     "text": "Parent",
     "avg_font_size": 5.96,
@@ -4839,7 +4839,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_49164b67",
+    "paragraph_id": "p_884e0ccf",
     "page_num": 3,
     "text": "Fig. 3: Architecture of the MTD for ToC extraction.",
     "avg_font_size": 9.96,
@@ -4871,7 +4871,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_102067a2",
+    "paragraph_id": "p_e20612a0",
     "page_num": 3,
     "text": "bounding boxes. We believe that is a better measure to existing between various classes. normalize than the commonly used , because it re\ufb02ects",
     "avg_font_size": 9.96,
@@ -4903,7 +4903,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_3d6355ef",
+    "paragraph_id": "p_a4ccf7b6",
     "page_num": 3,
     "text": "D. Decoder",
     "avg_font_size": 9.96,
@@ -4935,7 +4935,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_3ea04151",
+    "paragraph_id": "p_315e1347",
     "page_num": 3,
     "text": "the difference in spatial height between entities better. The decoder takes detected heading entities as input and 4) Gated Unit: Inspired by [24] [25], we introduce some predicts the relationship between them to parse the heading trainable weights to balance the contribution of , and entities into a tree structure. The features of heading entities . The fused feature is produced as follows: can be denoted as , where , and is the number",
     "avg_font_size": 9.96,
@@ -4968,7 +4968,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_da4f0bbb",
+    "paragraph_id": "p_a28da280",
     "page_num": 3,
     "text": ", f , f",
     "avg_font_size": 9.96,
@@ -5000,7 +5000,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_660cb0dc",
+    "paragraph_id": "p_1950c9c7",
     "page_num": 3,
     "text": "of the heading entities. So far, the features of each heading",
     "avg_font_size": 9.96,
@@ -5032,7 +5032,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_c50e72e3",
+    "paragraph_id": "p_d99ae4c0",
     "page_num": 3,
     "text": "])",
     "avg_font_size": 9.96,
@@ -5064,7 +5064,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_5b10fef2",
+    "paragraph_id": "p_b8f3a61d",
     "page_num": 3,
     "text": "entity are still independent of each other. Therefore, we intro-",
     "avg_font_size": 9.96,
@@ -5096,7 +5096,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_d0946ac6",
+    "paragraph_id": "p_73610827",
     "page_num": 3,
     "text": "+ (1",
     "avg_font_size": 9.96,
@@ -5128,7 +5128,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_93dc016e",
+    "paragraph_id": "p_58c56ed2",
     "page_num": 3,
     "text": "duce the transformer [28] to capture long-range dependencies on heading entities. We take the features Where are trainable weight matrices, and is the as query, key and",
     "avg_font_size": 9.96,
@@ -5160,7 +5160,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_04027ae6",
+    "paragraph_id": "p_085e6543",
     "page_num": 3,
     "text": "sigmoid function, (2 +8) . The fused",
     "avg_font_size": 8.47,
@@ -5181,8 +5181,8 @@
     "alignment": "left",
     "line_count": 1,
     "font_names": [
-      "NimbusRomNo9L-Regu",
-      "CMR7"
+      "CMR7",
+      "NimbusRomNo9L-Regu"
     ],
     "primary_font_family": [
       "CMR7",
@@ -5194,7 +5194,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_71cf7183",
+    "paragraph_id": "p_389444a1",
     "page_num": 3,
     "text": "value, which are required by the transformer. The output of features are the \ufb01nal output of the encoder. the transformer as the \ufb01nal features has a global receptive \ufb01eld.",
     "avg_font_size": 9.96,
@@ -5226,7 +5226,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_a856625f",
+    "paragraph_id": "p_1c743ef6",
     "page_num": 3,
     "text": "C. Classi\ufb01er",
     "avg_font_size": 9.96,
@@ -5258,7 +5258,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_91fde294",
+    "paragraph_id": "p_e921bb86",
     "page_num": 3,
     "text": "Inspired by the successful applications of attention mech- The classi\ufb01er divides all entities into two categories, i.e., anism [29] [23], we build the attention mechanism into the heading entities and normal entities, as discussed in Section decoder. To \ufb01nd the reference entity, we compute the predic- tion of the current hidden state from previous context vector III-A. Before classi\ufb01cation, Bidirectional Gated Recurrent Unit and its hidden state with a GRU: (BiGRU) [26] is used to capture global information:",
     "avg_font_size": 9.96,
@@ -5290,7 +5290,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_c3050588",
+    "paragraph_id": "p_13def710",
     "page_num": 3,
     "text": "= GRU( , h",
     "avg_font_size": 9.96,
@@ -5324,7 +5324,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_56af1322",
+    "paragraph_id": "p_fb1ee3f4",
     "page_num": 3,
     "text": "= BiGRU( , g , g +1",
     "avg_font_size": 9.22,
@@ -5345,9 +5345,9 @@
     "alignment": "unknown",
     "line_count": 1,
     "font_names": [
+      "CMR7",
       "CMR10",
-      "CMMI10",
-      "CMR7"
+      "CMMI10"
     ],
     "primary_font_family": [
       "CMMI10",
@@ -5360,7 +5360,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_fbfcd846",
+    "paragraph_id": "p_2e8888d1",
     "page_num": 3,
     "text": "Then we employ an attention mechanism with as the where is the hidden state. Then we apply a fully connected query and the heading entity features as both key and value: layer and a softmax activation to classify each entity:",
     "avg_font_size": 9.96,
@@ -5392,7 +5392,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_6fd63546",
+    "paragraph_id": "p_f9421027",
     "page_num": 3,
     "text": "= Attn( M, = softmax(",
     "avg_font_size": 9.96,
@@ -5426,7 +5426,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_d351f500",
+    "paragraph_id": "p_0e405883",
     "page_num": 3,
     "text": "where represents the classi\ufb01cation score, . Considering there is an imbalance between heading entities and normal entities, we de\ufb01ne the classi\ufb01ca- where \u2225\u00b7 \u2225 is the vector 1-norm. We de\ufb01ne Attn function as tion loss as follows: follows:",
     "avg_font_size": 9.96,
@@ -5448,8 +5448,8 @@
     "line_count": 6,
     "font_names": [
       "NimbusRomNo9L-Regu",
-      "CMR10",
-      "CMSY10"
+      "CMSY10",
+      "CMR10"
     ],
     "primary_font_family": [
       "NimbusRomNo9L-Regu"
@@ -5460,7 +5460,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_8e4df3e7",
+    "paragraph_id": "p_c5c4f4ac",
     "page_num": 3,
     "text": "cls",
     "avg_font_size": 6.97,
@@ -5492,7 +5492,7 @@
     "relative_font_size": 11
   },
   {
-    "paragraph_id": "p_4f52e3b2",
+    "paragraph_id": "p_717724b3",
     "page_num": 3,
     "text": "FL( , p",
     "avg_font_size": 9.96,
@@ -5526,7 +5526,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_58db3c7a",
+    "paragraph_id": "p_0d89f81e",
     "page_num": 3,
     "text": "=1",
     "avg_font_size": 6.97,
@@ -5558,7 +5558,7 @@
     "relative_font_size": 11
   },
   {
-    "paragraph_id": "p_07ddaa05",
+    "paragraph_id": "p_1e5df95d",
     "page_num": 3,
     "text": "where is the class label of the entity and FL is the focal loss",
     "avg_font_size": 9.96,
@@ -5590,7 +5590,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_e68bb8cd",
+    "paragraph_id": "p_9039b27e",
     "page_num": 3,
     "text": "si tanh(",
     "avg_font_size": 8.47,
@@ -5624,7 +5624,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_8d34eb93",
+    "paragraph_id": "p_5af3579c",
     "page_num": 3,
     "text": "proposed in [27] to deal with the problem of data imbalance",
     "avg_font_size": 9.96,
@@ -5656,7 +5656,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_69c591fe",
+    "paragraph_id": "p_bb9bf36d",
     "page_num": 4,
     "text": "si = activate( si , e",
     "avg_font_size": 8.47,
@@ -5678,8 +5678,8 @@
     "line_count": 1,
     "font_names": [
       "CMR10",
-      "CMMI7",
-      "CMMI10"
+      "CMMI10",
+      "CMMI7"
     ],
     "primary_font_family": [
       "CMMI10",
@@ -5692,7 +5692,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_7671db94",
+    "paragraph_id": "p_c893558e",
     "page_num": 4,
     "text": "the relationships between them are the same as the ground truth. in which While using the TEDS metric, we need to present ToC as if = arg max",
     "avg_font_size": 9.96,
@@ -5725,7 +5725,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_4a5e1cc3",
+    "paragraph_id": "p_727094e2",
     "page_num": 4,
     "text": "sj",
     "avg_font_size": 6.97,
@@ -5757,7 +5757,7 @@
     "relative_font_size": 11
   },
   {
-    "paragraph_id": "p_81279c0e",
+    "paragraph_id": "p_67392aae",
     "page_num": 4,
     "text": "a tree structure. The tree-edit distance [30] is used to measure",
     "avg_font_size": 9.96,
@@ -5789,7 +5789,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_a5f96e95",
+    "paragraph_id": "p_74b49ace",
     "page_num": 4,
     "text": "activate( si , e ) =",
     "avg_font_size": 9.22,
@@ -5811,8 +5811,8 @@
     "line_count": 1,
     "font_names": [
       "CMR10",
-      "CMMI7",
-      "CMMI10"
+      "CMMI10",
+      "CMMI7"
     ],
     "primary_font_family": [
       "CMMI10",
@@ -5825,7 +5825,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_e1e7d785",
+    "paragraph_id": "p_943cb63c",
     "page_num": 4,
     "text": "the similarity between two trees. TEDS is computed as: otherwise",
     "avg_font_size": 9.96,
@@ -5857,7 +5857,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_0db2893d",
+    "paragraph_id": "p_6a88ddb9",
     "page_num": 4,
     "text": "TEDS ( , T ) = 1 EditDist ( , T",
     "avg_font_size": 9.96,
@@ -5891,7 +5891,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_70c9cfd1",
+    "paragraph_id": "p_ed5cef58",
     "page_num": 4,
     "text": "where denotes a convolution layer,",
     "avg_font_size": 9.96,
@@ -5923,7 +5923,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_f5d38c4d",
+    "paragraph_id": "p_cc0fbaeb",
     "page_num": 4,
     "text": "=1 denotes the sum",
     "avg_font_size": 8.47,
@@ -5944,8 +5944,8 @@
     "alignment": "center",
     "line_count": 1,
     "font_names": [
-      "NimbusRomNo9L-Regu",
-      "CMR7"
+      "CMR7",
+      "NimbusRomNo9L-Regu"
     ],
     "primary_font_family": [
       "CMR7",
@@ -5957,7 +5957,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_d695a234",
+    "paragraph_id": "p_e090a24c",
     "page_num": 4,
     "text": "max (",
     "avg_font_size": 9.96,
@@ -5989,7 +5989,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_003b8224",
+    "paragraph_id": "p_4075b3ce",
     "page_num": 4,
     "text": "of the past determined reference entity, s,i denotes the output",
     "avg_font_size": 8.97,
@@ -6023,7 +6023,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_5faa33ff",
+    "paragraph_id": "p_177054c7",
     "page_num": 4,
     "text": "energy, denotes the element of , which is used to keep where and are ToC trees. EditDist represents the tree- track of past alignment information. It is worth noting that edit distance, and is the number of nodes in the attention mechanism is completed on the features of each",
     "avg_font_size": 9.96,
@@ -6056,7 +6056,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_0e938d00",
+    "paragraph_id": "p_778c3900",
     "page_num": 4,
     "text": "B. Implementation Details",
     "avg_font_size": 9.96,
@@ -6088,7 +6088,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_5ee65f1e",
+    "paragraph_id": "p_fc9dab79",
     "page_num": 4,
     "text": "heading entity. Considering that there is only one reference In the vision module, ResNet-34+FPN is pre-trained on entity for each heading entity, we use activate to obtain the 1000 scienti\ufb01c documents for a text detection task [21]. The attention probability instead of softmax, which means that the pool size of RoIAlign is set to 3 3. The BERT used in weight of the reference entity is set to 1 while other entities the text module is available on GitHub . The channel number remain 0. of visual, textual, and fused features is 128. The number of With the context vector , we compute the current hidden stacks for the transformer in the decoder is set to 3. And the state:",
     "avg_font_size": 9.96,
@@ -6121,7 +6121,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_a7c8a386",
+    "paragraph_id": "p_1a04feaa",
     "page_num": 4,
     "text": "= GRU(",
     "avg_font_size": 9.96,
@@ -6153,7 +6153,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_af317e8b",
+    "paragraph_id": "p_61eb1a35",
     "page_num": 4,
     "text": "hidden state dimension in the classi\ufb01er and decoder is both 128, too. The training loss of locating the reference entity is de\ufb01ned The training objective of our model is to minimize the as: function:",
     "avg_font_size": 9.96,
@@ -6185,7 +6185,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_b8445d88",
+    "paragraph_id": "p_670e8ace",
     "page_num": 4,
     "text": "cls ref re ref",
     "avg_font_size": 6.97,
@@ -6217,7 +6217,7 @@
     "relative_font_size": 11
   },
   {
-    "paragraph_id": "p_1e73ce26",
+    "paragraph_id": "p_2cd5f365",
     "page_num": 4,
     "text": "FL( \u02c6 , y",
     "avg_font_size": 9.96,
@@ -6251,7 +6251,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_51c91522",
+    "paragraph_id": "p_148543a8",
     "page_num": 4,
     "text": "where and are set to 1. Random scale is adopted during training. Both BERT and ResNet-34+FPN do not where loss function FL has been de\ufb01ned in Section III-C and update their parameters to save GPU memory. We employ denotes the ground truth of the reference entity for time the Adam algorithm [31] for optimization, with the following",
     "avg_font_size": 9.96,
@@ -6284,7 +6284,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_794a27a3",
+    "paragraph_id": "p_799f0053",
     "page_num": 4,
     "text": "step si is 1 if th heading entity is the reference entity of",
     "avg_font_size": 8.77,
@@ -6318,7 +6318,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_3a2e66d8",
+    "paragraph_id": "p_c67bd077",
     "page_num": 4,
     "text": "hyper parameters: = 0.9 and = 0.999. We set the the current heading entity, otherwise 0. learning rate using the cosine annealing schedule [32]. The The relationship between the current entity and its reference minimum learning rate and the initial learning rate are set to entity is predicted through an FFN [28]: 1e-6 and 5e-4, respectively. The batch size varies between 1 and 4 according to the number of pages of the document.",
     "avg_font_size": 9.96,
@@ -6350,7 +6350,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_11486665",
+    "paragraph_id": "p_5b1e72c8",
     "page_num": 4,
     "text": "= FFN([ , h ])",
     "avg_font_size": 9.96,
@@ -6384,7 +6384,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_6b055284",
+    "paragraph_id": "p_238881e2",
     "page_num": 4,
     "text": "All experiments are implemented with a single Tesla V100 GPU with 32GB RAM Memory. The whole framework is implemented using PyTorch.",
     "avg_font_size": 9.96,
@@ -6416,7 +6416,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_269fc1b0",
+    "paragraph_id": "p_5bdc539b",
     "page_num": 4,
     "text": "FFN( ) = max (0 ) +",
     "avg_font_size": 9.96,
@@ -6448,7 +6448,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_18d20884",
+    "paragraph_id": "p_69005cb0",
     "page_num": 4,
     "text": "C. Ablation Study",
     "avg_font_size": 9.96,
@@ -6480,7 +6480,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_6eef05b5",
+    "paragraph_id": "p_098ae431",
     "page_num": 4,
     "text": "where FFN is actually two linear transformations with a ReLU",
     "avg_font_size": 9.96,
@@ -6512,7 +6512,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_f5f0e6e6",
+    "paragraph_id": "p_7383b025",
     "page_num": 4,
     "text": "activation in between. in in",
     "avg_font_size": 6.64,
@@ -6546,7 +6546,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_5f4e8920",
+    "paragraph_id": "p_44c15212",
     "page_num": 4,
     "text": "1) The Effectiveness of Each Modality: We perform abla-",
     "avg_font_size": 9.96,
@@ -6580,7 +6580,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_0ff4bc83",
+    "paragraph_id": "p_aaea70f9",
     "page_num": 4,
     "text": "in",
     "avg_font_size": 4.98,
@@ -6612,7 +6612,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_560ac750",
+    "paragraph_id": "p_dbba9acf",
     "page_num": 4,
     "text": "tion studies to evaluate the effectiveness of each modality in The loss of predicting relationships is as follows: this section. The Heading Detecting in tables represents the task of detecting heading entities, and the metric we use is",
     "avg_font_size": 9.96,
@@ -6645,7 +6645,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_37f2d8d5",
+    "paragraph_id": "p_91b9e75e",
     "page_num": 4,
     "text": "re",
     "avg_font_size": 6.97,
@@ -6677,7 +6677,7 @@
     "relative_font_size": 11
   },
   {
-    "paragraph_id": "p_bc83c423",
+    "paragraph_id": "p_e7d201b4",
     "page_num": 4,
     "text": "F1-Measure. As shown in Table I, when any of the visual,",
     "avg_font_size": 9.96,
@@ -6709,7 +6709,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_85a4198a",
+    "paragraph_id": "p_94bbe5d2",
     "page_num": 4,
     "text": "FL( , q",
     "avg_font_size": 9.96,
@@ -6743,7 +6743,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_6b1aa336",
+    "paragraph_id": "p_87cdce35",
     "page_num": 4,
     "text": "textual, or layout modalities is removed, the performance of the model drops. This suggests that multimodal features play where denotes the ground truth of the relation between the an important role in ToC extraction. Note that the parameters current heading entity and its reference entity at time step of our visual and textual modules are frozen during training. Therefore, they need to be properly pre-trained as discussed IV. EXPERIMENTS in Section IV-B.",
     "avg_font_size": 9.96,
@@ -6775,7 +6775,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_05a3c2a6",
+    "paragraph_id": "p_afca847d",
     "page_num": 4,
     "text": "A. Metric 2) The Effectiveness of Feature Fusion Strategies:",
     "avg_font_size": 9.96,
@@ -6807,7 +6807,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_e73db11b",
+    "paragraph_id": "p_5cd24af5",
     "page_num": 4,
     "text": "We In this paper, we use both the F1-Measure and Tree-Edit- introduce a novel feature fusion strategy in Section III-B4. In Distance-based Similarity (TEDS) metric [17] to evaluate the this section, we conduct experiments to compare it with three performance of our model for ToC extraction. common feature fusion strategies, including dot, concatenate, To use the F1-Measure, the relationships among the heading and add. Table II shows that the Gated Unit outperforms other entities and corresponding reference entities need to be ex- strategies. Thus, the Gated Unit is utilized in our approach. tracted. Then F1-Measure measures the percentage of correctly extracted pairs of heading entities, where heading entities and",
     "avg_font_size": 9.96,
@@ -6839,7 +6839,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_57fac74f",
+    "paragraph_id": "p_622a77ab",
     "page_num": 4,
     "text": "https://github.com/huggingface/transformers",
     "avg_font_size": 7.97,
@@ -6871,7 +6871,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_76765d9a",
+    "paragraph_id": "p_b6ee9302",
     "page_num": 5,
     "text": "TABLE I: The Effectiveness of Each Modality. of HierDoc. We hope that our MTD could serve as a strong baseline for deep learning based ToC extraction in the future. Heading Detecting ToC Extraction Method F1 TEDS F1",
     "avg_font_size": 9.96,
@@ -6903,7 +6903,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_dca258bc",
+    "paragraph_id": "p_27afef45",
     "page_num": 5,
     "text": "EFERENCES",
     "avg_font_size": 7.97,
@@ -6935,7 +6935,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_0e2818ea",
+    "paragraph_id": "p_0fe56dbb",
     "page_num": 5,
     "text": "w/o Text 88.6 83.0 85.7 63.7 62.5 w/o Layout 95.0 89.2 92.0 80.4 79.6",
     "avg_font_size": 9.96,
@@ -6967,7 +6967,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_433d6c5a",
+    "paragraph_id": "p_1c2be9bd",
     "page_num": 5,
     "text": "[1] M. El-Haj, P. Alves, P. Rayson, M. Walker, and S. Young, \u201cRetrieving,",
     "avg_font_size": 7.97,
@@ -6999,7 +6999,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_b48ac80a",
+    "paragraph_id": "p_53904ec0",
     "page_num": 5,
     "text": "97.5",
     "avg_font_size": 9.96,
@@ -7031,7 +7031,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_d0a60dcf",
+    "paragraph_id": "p_06fcc300",
     "page_num": 5,
     "text": "w/o Vision 93.7 95.5 86.5 87.7",
     "avg_font_size": 9.96,
@@ -7063,7 +7063,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_a9251f99",
+    "paragraph_id": "p_15cf9542",
     "page_num": 5,
     "text": "classifying and analysing narrative commentary in unstructured (glossy)",
     "avg_font_size": 7.97,
@@ -7095,7 +7095,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_45d4b91f",
+    "paragraph_id": "p_cbb22a93",
     "page_num": 5,
     "text": "96.0 96.1 87.2 88.1",
     "avg_font_size": 9.96,
@@ -7127,7 +7127,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_93e90e26",
+    "paragraph_id": "p_8f67d09a",
     "page_num": 5,
     "text": "MTD 96.2",
     "avg_font_size": 9.96,
@@ -7159,7 +7159,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_fee7ca42",
+    "paragraph_id": "p_bbaa66dc",
     "page_num": 5,
     "text": "annual reports published as pdf \ufb01les,\u201d Accounting and Business Re- search , vol. 50, no. 1, pp. 6\u201334, 2020. [2] A. Doucet, M. Coustaty et al. , \u201cEnhancing table of contents extraction",
     "avg_font_size": 7.97,
@@ -7193,7 +7193,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_6cb6c0a3",
+    "paragraph_id": "p_9c860692",
     "page_num": 5,
     "text": "TABLE II: The Effectiveness of Feature Fusion Strategies.",
     "avg_font_size": 9.96,
@@ -7225,7 +7225,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_ecbb0973",
+    "paragraph_id": "p_4eb498cf",
     "page_num": 5,
     "text": "by system aggregation,\u201d in 2017 14th IAPR international conference on document analysis and recognition (ICDAR) , vol. 1. IEEE, 2017, pp.",
     "avg_font_size": 7.97,
@@ -7259,7 +7259,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_1b18b99d",
+    "paragraph_id": "p_82a6a82d",
     "page_num": 5,
     "text": "Heading Detecting ToC Extraction Method",
     "avg_font_size": 9.96,
@@ -7291,7 +7291,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_6e39cabf",
+    "paragraph_id": "p_c71d1937",
     "page_num": 5,
     "text": "242\u2013247.",
     "avg_font_size": 7.97,
@@ -7323,7 +7323,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_39777d29",
+    "paragraph_id": "p_5dfe6be2",
     "page_num": 5,
     "text": "F1 TEDS F1",
     "avg_font_size": 9.96,
@@ -7355,7 +7355,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_9ca2a60f",
+    "paragraph_id": "p_204b318d",
     "page_num": 5,
     "text": "[3] A. Doucet, G. Kazai, B. Dresevic, A. Uzelac, B. Radakovic, and",
     "avg_font_size": 7.97,
@@ -7387,7 +7387,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_36c4ef5a",
+    "paragraph_id": "p_12b01547",
     "page_num": 5,
     "text": "Dot 96.1 93.9 95.0 84.6 84.9",
     "avg_font_size": 9.96,
@@ -7419,7 +7419,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_46d16e6c",
+    "paragraph_id": "p_04b57596",
     "page_num": 5,
     "text": "N. Todic, \u201cSetting up a competition framework for the evaluation of structure extraction from ocr-ed books,\u201d International Journal on",
     "avg_font_size": 7.97,
@@ -7452,7 +7452,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_51e49e9f",
+    "paragraph_id": "p_7859266c",
     "page_num": 5,
     "text": "Concat 96.8 93.8 95.3 84.6 85.3",
     "avg_font_size": 9.96,
@@ -7484,7 +7484,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_20c0fb05",
+    "paragraph_id": "p_d3ad071f",
     "page_num": 5,
     "text": "Document Analysis & Recognition , vol. 14, no. 1, pp. 45\u201352, 2011.",
     "avg_font_size": 7.97,
@@ -7518,7 +7518,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_5aea6187",
+    "paragraph_id": "p_350f415d",
     "page_num": 5,
     "text": "97.0",
     "avg_font_size": 9.96,
@@ -7550,7 +7550,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_75dd03c8",
+    "paragraph_id": "p_da6b5d50",
     "page_num": 5,
     "text": "94.0 95.5 85.7 86.3 Add",
     "avg_font_size": 9.96,
@@ -7582,7 +7582,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_566e6974",
+    "paragraph_id": "p_0700b238",
     "page_num": 5,
     "text": "[4] A. A. M. Gopinath, S. Wilson, and N. Sadeh, \u201cSupervised and unsuper-",
     "avg_font_size": 7.97,
@@ -7614,7 +7614,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_4c828b9f",
+    "paragraph_id": "p_21bad49a",
     "page_num": 5,
     "text": "96.0 96.1 87.2 88.1",
     "avg_font_size": 9.96,
@@ -7646,7 +7646,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_898a8000",
+    "paragraph_id": "p_eb21810b",
     "page_num": 5,
     "text": "Gated Unit 96.2",
     "avg_font_size": 9.96,
@@ -7678,7 +7678,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_ebd3208e",
+    "paragraph_id": "p_d50e5d6f",
     "page_num": 5,
     "text": "vised methods for robust separation of section titles and prose text in web documents,\u201d in Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing , 2018, pp. 850\u2013855. [5] A. M. Namboodiri and A. K. Jain, \u201cDocument structure and layout",
     "avg_font_size": 7.97,
@@ -7711,7 +7711,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_f0b639d9",
+    "paragraph_id": "p_c9996ba1",
     "page_num": 5,
     "text": "3) The Effectiveness of Decoding Methods.: To verify the",
     "avg_font_size": 9.96,
@@ -7745,7 +7745,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_7b93b1ce",
+    "paragraph_id": "p_940261cb",
     "page_num": 5,
     "text": "analysis,\u201d in Digital Document Processing Springer, 2007, pp. 29\u201348. [6] S. Tuarob, P. Mitra, and C. L. Giles, \u201cA hybrid approach to discover",
     "avg_font_size": 7.97,
@@ -7778,7 +7778,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_5b81b139",
+    "paragraph_id": "p_d7a91b07",
     "page_num": 5,
     "text": "performance of the decoder in MTD, we replace it with a",
     "avg_font_size": 9.96,
@@ -7810,7 +7810,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_cb035691",
+    "paragraph_id": "p_b40131b3",
     "page_num": 5,
     "text": "semantic hierarchical sections in scholarly documents,\u201d in 2015 13th in-",
     "avg_font_size": 7.97,
@@ -7844,7 +7844,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_a4a2172d",
+    "paragraph_id": "p_b72633fa",
     "page_num": 5,
     "text": "class classi\ufb01er, which predicts the depth of headings. is set",
     "avg_font_size": 9.96,
@@ -7876,7 +7876,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_28d7bccb",
+    "paragraph_id": "p_1f9aab41",
     "page_num": 5,
     "text": "ternational conference on document analysis and recognition (ICDAR)",
     "avg_font_size": 7.97,
@@ -7908,7 +7908,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_fb56cc36",
+    "paragraph_id": "p_6ad17889",
     "page_num": 5,
     "text": "to 5 in HierDoc . The transformer unit is reserved for a fair",
     "avg_font_size": 9.96,
@@ -7942,7 +7942,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_7679526e",
+    "paragraph_id": "p_ac643366",
     "page_num": 5,
     "text": "IEEE, 2015, pp. 1081\u20131085. [7] Y. Xu, M. Li, L. Cui, S. Huang, F. Wei, and M. Zhou, \u201cLayoutlm:",
     "avg_font_size": 7.97,
@@ -7974,7 +7974,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_15b0cf35",
+    "paragraph_id": "p_0917aa37",
     "page_num": 5,
     "text": "comparison.",
     "avg_font_size": 9.96,
@@ -8006,7 +8006,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_a5920259",
+    "paragraph_id": "p_f2e5b3cf",
     "page_num": 5,
     "text": "Pre-training of text and layout for document image understanding,\u201d in",
     "avg_font_size": 7.97,
@@ -8038,7 +8038,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_097012b2",
+    "paragraph_id": "p_e2fe3bce",
     "page_num": 5,
     "text": "Proceedings of the 26th ACM SIGKDD International Conference on",
     "avg_font_size": 7.97,
@@ -8070,7 +8070,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_8f83334f",
+    "paragraph_id": "p_1a8a1d75",
     "page_num": 5,
     "text": "TABLE III: The Effectiveness of Decoding Methods.",
     "avg_font_size": 9.96,
@@ -8102,7 +8102,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_e2c983d0",
+    "paragraph_id": "p_dfd0bc69",
     "page_num": 5,
     "text": "Knowledge Discovery & Data Mining , 2020, pp. 1192\u20131200. [8] J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, \u201cBert: Pre-training",
     "avg_font_size": 7.97,
@@ -8136,7 +8136,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_bfed66e4",
+    "paragraph_id": "p_8042c730",
     "page_num": 5,
     "text": "Method ToC Extraction (TEDS)",
     "avg_font_size": 9.96,
@@ -8168,7 +8168,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_07dcf4f3",
+    "paragraph_id": "p_f70c9fdd",
     "page_num": 5,
     "text": "of deep bidirectional transformers for language understanding,\u201d arXiv",
     "avg_font_size": 7.97,
@@ -8202,7 +8202,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_8ccbba51",
+    "paragraph_id": "p_b50278b1",
     "page_num": 5,
     "text": "C-class Classi\ufb01er 72.1",
     "avg_font_size": 9.96,
@@ -8234,7 +8234,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_556df428",
+    "paragraph_id": "p_e1197baa",
     "page_num": 5,
     "text": "preprint arXiv:1810.04805 , 2018. [9] W. Lin, Q. Gao, L. Sun, Z. Zhong, K. Hu, Q. Ren, and Q. Huo,",
     "avg_font_size": 7.97,
@@ -8268,7 +8268,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_4fb12891",
+    "paragraph_id": "p_2b0c18d3",
     "page_num": 5,
     "text": "87.2",
     "avg_font_size": 9.96,
@@ -8300,7 +8300,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_3be03d0a",
+    "paragraph_id": "p_a91fb4e5",
     "page_num": 5,
     "text": "Decoder",
     "avg_font_size": 9.96,
@@ -8332,7 +8332,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_9972de82",
+    "paragraph_id": "p_576da44f",
     "page_num": 5,
     "text": "\u201cVibertgrid: A jointly trained multi-modal 2d document representa- tion for key information extraction from documents,\u201d arXiv preprint",
     "avg_font_size": 7.97,
@@ -8365,7 +8365,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_9069bae3",
+    "paragraph_id": "p_4893746d",
     "page_num": 5,
     "text": "As described in Table III, the -class Classi\ufb01er leads to",
     "avg_font_size": 9.96,
@@ -8397,7 +8397,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_dce8ef1a",
+    "paragraph_id": "p_7741ed75",
     "page_num": 5,
     "text": "arXiv:2105.11672 , 2021. [10] T. A. Nartker, S. V. Rice, and S. E. Lumos, \u201cSoftware tools and",
     "avg_font_size": 7.97,
@@ -8431,7 +8431,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_684f9de8",
+    "paragraph_id": "p_4b5e4c33",
     "page_num": 5,
     "text": "degradation of performance to a certain extent. Intuitively, the",
     "avg_font_size": 9.96,
@@ -8463,7 +8463,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_33f7950b",
+    "paragraph_id": "p_55d27f30",
     "page_num": 5,
     "text": "test data for research and testing of page-reading ocr systems,\u201d in",
     "avg_font_size": 7.97,
@@ -8495,7 +8495,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_79c40b8a",
+    "paragraph_id": "p_1bdb22bc",
     "page_num": 5,
     "text": "Decoder in MTD is more suitable for parsing the hierarchy",
     "avg_font_size": 9.96,
@@ -8527,7 +8527,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_5a20a842",
+    "paragraph_id": "p_499a1c52",
     "page_num": 5,
     "text": "Document Recognition and Retrieval XII, 16-20 January 2005, San Jose,",
     "avg_font_size": 7.97,
@@ -8559,7 +8559,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_3f03a25e",
+    "paragraph_id": "p_c73cca6e",
     "page_num": 5,
     "text": "of entities into a tree structure. In addition, the Decoder",
     "avg_font_size": 9.96,
@@ -8591,7 +8591,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_eaa695fa",
+    "paragraph_id": "p_cb34decc",
     "page_num": 5,
     "text": "California, USA, Proceedings , 2005.",
     "avg_font_size": 7.97,
@@ -8625,7 +8625,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_0921d573",
+    "paragraph_id": "p_f000e770",
     "page_num": 5,
     "text": "can generate a tree of any depth by de\ufb01ning three types of",
     "avg_font_size": 9.96,
@@ -8657,7 +8657,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_998d3e0a",
+    "paragraph_id": "p_ae852ae8",
     "page_num": 5,
     "text": "[11] G. Thoma, \u201cThe national library of medicine,\u201d in http://marg.nlm.nih.gov/, Bethesda, USA , 2005.",
     "avg_font_size": 7.97,
@@ -8690,7 +8690,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_fd44f7fa",
+    "paragraph_id": "p_afbff026",
     "page_num": 5,
     "text": "relationships, namely parent sibling , and identity , while the",
     "avg_font_size": 9.96,
@@ -8724,7 +8724,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_83e65a9d",
+    "paragraph_id": "p_0fa889f1",
     "page_num": 5,
     "text": "[12] C. Clausner, C. Papadopoulos, S. Pletschacher, and A. Antonacopoulos,",
     "avg_font_size": 7.97,
@@ -8756,7 +8756,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_01de48b1",
+    "paragraph_id": "p_8ab9cbfb",
     "page_num": 5,
     "text": "-class classi\ufb01er has to restrict the tree to a depth of",
     "avg_font_size": 9.96,
@@ -8788,7 +8788,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_7799744c",
+    "paragraph_id": "p_ce7f611e",
     "page_num": 5,
     "text": "\u201cThe enp image and ground truth dataset of historical newspapers,\u201d in 2015 13th International Conference on Document Analysis and",
     "avg_font_size": 7.97,
@@ -8821,7 +8821,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_6e75d9cd",
+    "paragraph_id": "p_81e25d29",
     "page_num": 5,
     "text": "V. C ONCLUSION",
     "avg_font_size": 8.97,
@@ -8853,7 +8853,7 @@
     "relative_font_size": 18
   },
   {
-    "paragraph_id": "p_9377c89c",
+    "paragraph_id": "p_1b6d7eb2",
     "page_num": 5,
     "text": "Recognition (ICDAR) , 2015, pp. 931\u2013935. [13] C. Clausner, A. Antonacopoulos, and S. Pletschacher, \u201cIcdar2017 com-",
     "avg_font_size": 7.97,
@@ -8887,7 +8887,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_5fad849c",
+    "paragraph_id": "p_159489f0",
     "page_num": 5,
     "text": "In this paper, we release a dataset HierDoc for deep learning",
     "avg_font_size": 9.96,
@@ -8921,7 +8921,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_a275dff9",
+    "paragraph_id": "p_147166fa",
     "page_num": 5,
     "text": "petition on recognition of documents with complex layouts - rdcl2017,\u201d",
     "avg_font_size": 7.97,
@@ -8953,7 +8953,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_0e9e699c",
+    "paragraph_id": "p_c0b1ec65",
     "page_num": 5,
     "text": "based methods and further propose the MTD for ToC extrac-",
     "avg_font_size": 9.96,
@@ -8985,7 +8985,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_4f667569",
+    "paragraph_id": "p_503246a4",
     "page_num": 5,
     "text": "in 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR) , vol. 01, 2017, pp. 1404\u20131410.",
     "avg_font_size": 7.97,
@@ -9019,7 +9019,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_f916467a",
+    "paragraph_id": "p_c6f95868",
     "page_num": 5,
     "text": "tion. HierDoc contains 650 document images and annotations",
     "avg_font_size": 9.96,
@@ -9053,7 +9053,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_2ef55726",
+    "paragraph_id": "p_20e7e7f1",
     "page_num": 5,
     "text": "[14] A. Antonacopoulos, D. Bridson, C. Papadopoulos, and S. Pletschacher,",
     "avg_font_size": 7.97,
@@ -9085,7 +9085,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_eb76cf0d",
+    "paragraph_id": "p_29569648",
     "page_num": 5,
     "text": "in both the document-level and entity-level. The document-",
     "avg_font_size": 9.96,
@@ -9117,7 +9117,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_bab22a94",
+    "paragraph_id": "p_293fab7e",
     "page_num": 5,
     "text": "\u201cA realistic dataset for performance evaluation of document layout",
     "avg_font_size": 7.97,
@@ -9149,7 +9149,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_32adbbbe",
+    "paragraph_id": "p_13ca0e9a",
     "page_num": 5,
     "text": "level annotations serve as the target of ToC extraction in the",
     "avg_font_size": 9.96,
@@ -9181,7 +9181,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_953796d0",
+    "paragraph_id": "p_b0c6c9ec",
     "page_num": 5,
     "text": "analysis,\u201d in 2009 10th International Conference on Document Analysis and Recognition",
     "avg_font_size": 7.97,
@@ -9215,7 +9215,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_a36f3e0c",
+    "paragraph_id": "p_5a227e1c",
     "page_num": 5,
     "text": "IEEE, 2009, pp. 296\u2013300.",
     "avg_font_size": 7.97,
@@ -9247,7 +9247,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_37c64914",
+    "paragraph_id": "p_3b38b9ad",
     "page_num": 5,
     "text": "test phase, while the entity-level annotations are generated",
     "avg_font_size": 9.96,
@@ -9279,7 +9279,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_c03ea92a",
+    "paragraph_id": "p_17933e9f",
     "page_num": 5,
     "text": "[15] X. Zhong, J. Tang, and A. Jimeno Yepes, \u201cPublaynet: Largest dataset",
     "avg_font_size": 7.97,
@@ -9311,7 +9311,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_87a89d21",
+    "paragraph_id": "p_8eaa24c1",
     "page_num": 5,
     "text": "for training. MTD mainly consists of three parts, i.e., en-",
     "avg_font_size": 9.96,
@@ -9343,7 +9343,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_1e51fb80",
+    "paragraph_id": "p_a16ba18b",
     "page_num": 5,
     "text": "ever for document layout analysis,\u201d in 2019 International Conference on",
     "avg_font_size": 7.97,
@@ -9377,7 +9377,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_2562608b",
+    "paragraph_id": "p_145ef0b5",
     "page_num": 5,
     "text": "coder, classi\ufb01er, and decoder. The encoder extracts features",
     "avg_font_size": 9.96,
@@ -9409,7 +9409,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_4e57a81d",
+    "paragraph_id": "p_c7670dac",
     "page_num": 5,
     "text": "Document Analysis and Recognition (ICDAR) , 2019, pp. 1015\u20131022.",
     "avg_font_size": 7.97,
@@ -9443,7 +9443,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_dd01b3bf",
+    "paragraph_id": "p_3ac4b05a",
     "page_num": 5,
     "text": "of entities, then the classi\ufb01er selects the heading entities",
     "avg_font_size": 9.96,
@@ -9475,7 +9475,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_c81a5532",
+    "paragraph_id": "p_950a6317",
     "page_num": 5,
     "text": "[16] N.-I. Bentabet, R. Juge, I. El Maarouf, V. Mouilleron, D. Valsamou- Stanislawski, and M. El-Haj, \u201cThe \ufb01nancial document structure ex-",
     "avg_font_size": 7.97,
@@ -9507,7 +9507,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_de601be5",
+    "paragraph_id": "p_8a45e0c3",
     "page_num": 5,
     "text": "and the decoder parses the hierarchy of heading entities. We",
     "avg_font_size": 9.96,
@@ -9539,7 +9539,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_473248a5",
+    "paragraph_id": "p_a4f4e872",
     "page_num": 5,
     "text": "traction shared task (\ufb01ntoc 2020),\u201d in Proceedings of the 1st Joint",
     "avg_font_size": 7.97,
@@ -9573,7 +9573,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_d8e0ee7b",
+    "paragraph_id": "p_0ee094ca",
     "page_num": 5,
     "text": "demonstrate that the use of multimodality features of vision,",
     "avg_font_size": 9.96,
@@ -9605,7 +9605,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_f95d354e",
+    "paragraph_id": "p_08c91cff",
     "page_num": 5,
     "text": "Workshop on Financial Narrative Processing and MultiLing Financial",
     "avg_font_size": 7.97,
@@ -9637,7 +9637,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_3588b186",
+    "paragraph_id": "p_2d887b08",
     "page_num": 5,
     "text": "text, and layout in the encoder boosts model performance. The",
     "avg_font_size": 9.96,
@@ -9669,7 +9669,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_e23e2487",
+    "paragraph_id": "p_327716d4",
     "page_num": 5,
     "text": "Summarisation , 2020, pp. 13\u201322. [17] X. Zhong, E. Sha\ufb01eiBavani, and A. Jimeno Yepes, \u201cImage-based table",
     "avg_font_size": 7.97,
@@ -9703,7 +9703,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_3e60d157",
+    "paragraph_id": "p_ae4922d5",
     "page_num": 5,
     "text": "gated unit used in the encoder also outperforms other feature",
     "avg_font_size": 9.96,
@@ -9735,7 +9735,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_ef4dc777",
+    "paragraph_id": "p_703980b5",
     "page_num": 5,
     "text": "recognition: data, model, and evaluation,\u201d in Computer Vision\u2013ECCV",
     "avg_font_size": 7.97,
@@ -9769,7 +9769,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_5db8c9a6",
+    "paragraph_id": "p_7d4e7f40",
     "page_num": 5,
     "text": "fusion strategies. The decoder builds the ToC tree by parsing",
     "avg_font_size": 9.96,
@@ -9801,7 +9801,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_ac0c7dba",
+    "paragraph_id": "p_eec35c94",
     "page_num": 5,
     "text": "2020: 16th European Conference, Glasgow, UK, August 23\u201328, 2020,",
     "avg_font_size": 7.97,
@@ -9833,7 +9833,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_ff7fb136",
+    "paragraph_id": "p_f2507e7e",
     "page_num": 5,
     "text": "the hierarchy of heading entities. The decoder outperforms",
     "avg_font_size": 9.96,
@@ -9865,7 +9865,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_9335f50a",
+    "paragraph_id": "p_afe08f17",
     "page_num": 5,
     "text": "Proceedings, Part XXI 16",
     "avg_font_size": 7.97,
@@ -9897,7 +9897,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_0f60b2b2",
+    "paragraph_id": "p_54f48db8",
     "page_num": 5,
     "text": "Springer, 2020, pp. 564\u2013580. [18] T.-Y. Lin, P. Doll\u00b4ar, R. Girshick, K. He, B. Hariharan, and S. Belongie,",
     "avg_font_size": 7.97,
@@ -9929,7 +9929,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_16b78014",
+    "paragraph_id": "p_3d1801ef",
     "page_num": 5,
     "text": "the vanilla -class classi\ufb01er by a large margin, and it can",
     "avg_font_size": 9.96,
@@ -9961,7 +9961,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_344dd950",
+    "paragraph_id": "p_0587d11a",
     "page_num": 5,
     "text": "\u201cFeature pyramid networks for object detection,\u201d in Proceedings of the",
     "avg_font_size": 7.97,
@@ -9995,7 +9995,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_93c5b207",
+    "paragraph_id": "p_76f8e1e7",
     "page_num": 5,
     "text": "generate a tree of any depth. MTD achieves an average TEDS",
     "avg_font_size": 9.96,
@@ -10027,7 +10027,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_65c5cb9e",
+    "paragraph_id": "p_a7d9a4de",
     "page_num": 5,
     "text": "IEEE conference on computer vision and pattern recognition , 2017, pp.",
     "avg_font_size": 7.97,
@@ -10061,7 +10061,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_adc1ddbc",
+    "paragraph_id": "p_ea35c5d2",
     "page_num": 5,
     "text": "of 87.2% and an average F1-Measure of 88.1% on the test set",
     "avg_font_size": 9.96,
@@ -10093,7 +10093,7 @@
     "relative_font_size": 23
   },
   {
-    "paragraph_id": "p_6de9fdf5",
+    "paragraph_id": "p_4c4d2235",
     "page_num": 5,
     "text": "2117\u20132125.",
     "avg_font_size": 7.97,
@@ -10125,7 +10125,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_915b53c6",
+    "paragraph_id": "p_52aca6ea",
     "page_num": 6,
     "text": "[19] K. He, X. Zhang, S. Ren, and J. Sun, \u201cDeep residual learning for image recognition,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition , 2016, pp. 770\u2013778. [20] K. He, G. Gkioxari, P. Doll\u00b4ar, and R. Girshick, \u201cMask r-cnn,\u201d in",
     "avg_font_size": 7.97,
@@ -10158,7 +10158,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_a851aee3",
+    "paragraph_id": "p_368447de",
     "page_num": 6,
     "text": "Proceedings of the IEEE international conference on computer vision",
     "avg_font_size": 7.97,
@@ -10190,7 +10190,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_b8f09f25",
+    "paragraph_id": "p_678d506c",
     "page_num": 6,
     "text": "2017, pp. 2961\u20132969. [21] Z. Tian, C. Shen, H. Chen, and T. He, \u201cFcos: Fully convolutional one- stage object detection,\u201d in 2019 IEEE/CVF International Conference on Computer Vision (ICCV) , 2020. [22] Z. Wang, Y. Xu, L. Cui, J. Shang, and F. Wei, \u201cLayoutreader: Pre- training of text and layout for reading order detection,\u201d arXiv preprint arXiv:2108.11591 , 2021. [23] Z. Zhang, J. Zhang, and J. Du, \u201cSplit, embed and merge: An accurate table structure recognizer,\u201d arXiv preprint arXiv:2107.05214 , 2021. [24] J. Arevalo, T. Solorio, M. Montes-y G\u00b4omez, and F. A. Gonz\u00b4alez, \u201cGated multimodal units for information fusion,\u201d arXiv preprint arXiv:1702.01992 , 2017. [25] D. Yu, X. Li, C. Zhang, T. Liu, J. Han, J. Liu, and E. Ding, \u201cTowards accurate scene text recognition with semantic reasoning networks,\u201d in",
     "avg_font_size": 7.97,
@@ -10223,7 +10223,7 @@
     "relative_font_size": 14
   },
   {
-    "paragraph_id": "p_3b912261",
+    "paragraph_id": "p_3a0c104a",
     "page_num": 6,
     "text": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , 2020, pp. 12 113\u201312 122. [26] J. Chung, C. Gulcehre, K. Cho, and Y. Bengio, \u201cEmpirical evaluation of gated recurrent neural networks on sequence modeling,\u201d arXiv preprint arXiv:1412.3555 , 2014. [27] T. Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollar, \u201cFocal loss for dense object detection,\u201d in 2017 IEEE International Conference on Computer Vision (ICCV) , 2017. [28] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, \u0141. Kaiser, and I. Polosukhin, \u201cAttention is all you need,\u201d in Advances in neural information processing systems , 2017, pp. 5998\u20136008. [29] J. Zhang, J. Du, S. Zhang, D. Liu, Y. Hu, J. Hu, S. Wei, and L. Dai, \u201cWatch, attend and parse: An end-to-end neural network based approach to handwritten mathematical expression recognition,\u201d Pattern Recognition , vol. 71, pp. 196\u2013206, 2017. [30] M. Pawlik and N. Augsten, \u201cTree edit distance: Robust and memory- ef\ufb01cient,\u201d Information Systems , vol. 56, pp. 157\u2013173, 2016. [31] D. Kingma and J. Ba, \u201cAdam: A method for stochastic optimization,\u201d Computer Science , 2014. [32] I. Loshchilov and F. Hutter, \u201cSgdr: Stochastic gradient descent with warm restarts,\u201d arXiv preprint arXiv:1608.03983 , 2016.",
     "avg_font_size": 7.97,

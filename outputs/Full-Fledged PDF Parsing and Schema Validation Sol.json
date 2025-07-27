@@ -1,6 +1,6 @@
 [
   {
-    "paragraph_id": "p_a049fe96",
+    "paragraph_id": "p_896d3702",
     "page_num": 0,
     "text": "Full-Fledged PDF Parsing and Schema Validation Solution for Challenge 1a",
     "avg_font_size": 19.69,
@@ -32,7 +32,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_b5aee56f",
+    "paragraph_id": "p_b6c81ba4",
     "page_num": 0,
     "text": "The following report specifies complete, production-ready design and implementation plan for the PDF-to-JSON converter required Challenge 1a. It focuses first on the parsing engine and schema validation, deferring containerization until the core logic is proven.",
     "avg_font_size": 10.5,
@@ -64,7 +64,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_bf68e634",
+    "paragraph_id": "p_8db6d490",
     "page_num": 0,
     "text": "Overview",
     "avg_font_size": 11.81,
@@ -96,7 +96,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_3160e21c",
+    "paragraph_id": "p_06e72668",
     "page_num": 0,
     "text": "Challenge 1a demands pipeline that ingests heterogeneous PDFs and emits JSON that conforms exactly to output_schema.json all under tight latency 10 per 50-page file) and resource ceilings (CPU-only, 16 GB RAM, <200 MB model footprint). The solution below combines dual-path extractor (fast path for text-based PDFs, OCR path for scanned pages), robust layout analysis, automatic table handling, and strict JSON Schema enforcement.",
     "avg_font_size": 10.48,
@@ -129,7 +129,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_6f2d54de",
+    "paragraph_id": "p_1f8896cb",
     "page_num": 0,
     "text": "Requirements Recap",
     "avg_font_size": 11.81,
@@ -161,7 +161,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_2ab4004a",
+    "paragraph_id": "p_b165d5dd",
     "page_num": 0,
     "text": "Category Key Constraint Target Throughput 10 per 50-page complex PDF Hardware cores, 16 GB RAM (CPU-only) Model Size 200 MB total (incl. OCR) Licensing 100% open-source (MIT, Apache 2.0, BSD-3-Clause) Output Must validate against provided schema",
     "avg_font_size": 8.25,
@@ -193,7 +193,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_8d66c8c3",
+    "paragraph_id": "p_28a38e89",
     "page_num": 0,
     "text": "High-Level Architecture",
     "avg_font_size": 11.81,
@@ -225,7 +225,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_2e771060",
+    "paragraph_id": "p_e487a6c7",
     "page_num": 0,
     "text": "Modular Pipeline",
     "avg_font_size": 11.81,
@@ -257,7 +257,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_d1b42ea9",
+    "paragraph_id": "p_538c1dd6",
     "page_num": 0,
     "text": "1. Ingest Queue watches an input directory and dispatches jobs. 2. Page Classifier detects whether each page is text-based or image-only. 3. Fast Extraction Path uses PyMuPDF for text table extraction. 4. OCR Fallback Path routes bitmap pages through Tesseract OCR (English small multilingual pack). 5. Layout Analyzer groups characters into blocks, recognises headings, lists, tables, figures. 6. Schema Mapper converts layout objects into the exact JSON hierarchy.",
     "avg_font_size": 10.5,
@@ -289,7 +289,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_64755058",
+    "paragraph_id": "p_037e2bae",
     "page_num": 0,
     "text": "7. Validator enforces output_schema.json using jsonschema",
     "avg_font_size": 10.06,
@@ -323,7 +323,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a6b0925a",
+    "paragraph_id": "p_a6fcc17a",
     "page_num": 0,
     "text": "8. Writer Logger streams validated JSON to disk and records metrics.",
     "avg_font_size": 10.5,
@@ -355,7 +355,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_11909031",
+    "paragraph_id": "p_1583d0f7",
     "page_num": 1,
     "text": "Visual Blueprint",
     "avg_font_size": 11.81,
@@ -387,7 +387,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_e5df67c1",
+    "paragraph_id": "p_8a48e88a",
     "page_num": 3,
     "text": "Challenge 1a PDF Processing Pipeline Architecture",
     "avg_font_size": 10.5,
@@ -419,7 +419,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_2bf423dd",
+    "paragraph_id": "p_e5f01013",
     "page_num": 3,
     "text": "Library Selection Rationale",
     "avg_font_size": 11.81,
@@ -451,7 +451,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_7843aceb",
+    "paragraph_id": "p_b3ce47ad",
     "page_num": 3,
     "text": "Speed (22-page Task Library Notable Strengths License PDF) GPL-AGPL 3.0 use via Text 20-40\u00d7 faster",
     "avg_font_size": 8.25,
@@ -483,7 +483,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_5382dd89",
+    "paragraph_id": "p_72a38a3e",
     "page_num": 3,
     "text": "[1]",
     "avg_font_size": 6.19,
@@ -515,7 +515,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_ce7a40a0",
+    "paragraph_id": "p_8448161c",
     "page_num": 3,
     "text": "PyMuPDF 0.1 average \u201cAGPL-compliant\u201d clause or",
     "avg_font_size": 8.25,
@@ -547,7 +547,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_5d38f209",
+    "paragraph_id": "p_61c4f987",
     "page_num": 3,
     "text": "[2]",
     "avg_font_size": 6.19,
@@ -579,7 +579,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_8d93ed2f",
+    "paragraph_id": "p_35bd4b1a",
     "page_num": 3,
     "text": "extraction than pdfminer commercial exception s/page on Slim multilingual OCR Tesseract 5.4 300 dpi Apache 2.0 models 45 MB)",
     "avg_font_size": 8.25,
@@ -611,7 +611,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_5e1d0078",
+    "paragraph_id": "p_b40e029c",
     "page_num": 3,
     "text": "[4] [3]",
     "avg_font_size": 6.19,
@@ -643,7 +643,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_b55c23a4",
+    "paragraph_id": "p_2aa5034d",
     "page_num": 3,
     "text": "scans Table PyMuPDF 1.23+ Works inside same 1-2 ms/table GPL-AGPL 3.0",
     "avg_font_size": 8.25,
@@ -675,7 +675,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_8ffd1e23",
+    "paragraph_id": "p_210890da",
     "page_num": 3,
     "text": "[5]",
     "avg_font_size": 6.19,
@@ -707,7 +707,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_8be913f4",
+    "paragraph_id": "p_08eaa12a",
     "page_num": 3,
     "text": "extraction table API process Backup table Handles ruled",
     "avg_font_size": 8.25,
@@ -739,7 +739,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_023a5077",
+    "paragraph_id": "p_74fbf8ec",
     "page_num": 3,
     "text": "[6]",
     "avg_font_size": 6.19,
@@ -771,7 +771,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_bade3999",
+    "paragraph_id": "p_4ec98df2",
     "page_num": 3,
     "text": "Camelot 100 ms/table MIT extraction tables well Schema Mature, no jsonschema <5 ms/doc MIT validation external deps",
     "avg_font_size": 8.25,
@@ -803,7 +803,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_937ec0ff",
+    "paragraph_id": "p_25cd1f34",
     "page_num": 3,
     "text": "Component-Level Design",
     "avg_font_size": 11.81,
@@ -835,7 +835,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_2ce6cbe7",
+    "paragraph_id": "p_68f298ba",
     "page_num": 3,
     "text": "1. Page Classification",
     "avg_font_size": 11.81,
@@ -867,7 +867,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_b7d89264",
+    "paragraph_id": "p_92274193",
     "page_num": 3,
     "text": "Detect text content cheaply by parsing the page dictionary: if obj['/Contents'] contains any BT \u2026 ET operators (begin/end text) it is text-based; otherwise treat as image. PyMuPDF exposes",
     "avg_font_size": 10.36,
@@ -901,7 +901,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_2cc95fab",
+    "paragraph_id": "p_4d1dcbd1",
     "page_num": 3,
     "text": "this via page.get_text(\"rawdict\")",
     "avg_font_size": 10.06,
@@ -935,7 +935,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_02cb8180",
+    "paragraph_id": "p_6c5c5c0b",
     "page_num": 3,
     "text": "2. Fast Text Extraction Path",
     "avg_font_size": 11.81,
@@ -967,7 +967,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_138c1a08",
+    "paragraph_id": "p_51de66aa",
     "page_num": 3,
     "text": "1. Pull text+positions:",
     "avg_font_size": 10.5,
@@ -999,7 +999,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_76150b29",
+    "paragraph_id": "p_87b1ed8f",
     "page_num": 3,
     "text": "blocks = page.get_text(\"dict\")[\"blocks\"]",
     "avg_font_size": 9.19,
@@ -1031,7 +1031,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_0a6dec22",
+    "paragraph_id": "p_7da1be11",
     "page_num": 3,
     "text": "2. Merge into paragraphs: group by vertical overlap tolerance pt, then sort left-to-right. 3. Table Detection: PyMuPDF page.find_tables() returns bounding boxes and structured cell",
     "avg_font_size": 10.44,
@@ -1064,7 +1064,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_581d647f",
+    "paragraph_id": "p_735aa3a0",
     "page_num": 3,
     "text": "[5]",
     "avg_font_size": 7.88,
@@ -1096,7 +1096,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_f3df8371",
+    "paragraph_id": "p_334054b7",
     "page_num": 3,
     "text": "grids 4. Post-process: normalise Unicode, remove ligatures, fix hyphenated line breaks.",
     "avg_font_size": 10.5,
@@ -1128,7 +1128,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_f3e25063",
+    "paragraph_id": "p_1fa65d7f",
     "page_num": 3,
     "text": "[2]",
     "avg_font_size": 7.88,
@@ -1160,7 +1160,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_e94f5c7e",
+    "paragraph_id": "p_2ca90b3f",
     "page_num": 3,
     "text": "PyMuPDF benchmarks show 20\u00d7 speed advantage over pdfminer ensuring ample headroom for our 10 SLA.",
     "avg_font_size": 10.5,
@@ -1192,7 +1192,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_98da76d2",
+    "paragraph_id": "p_cbd1541c",
     "page_num": 4,
     "text": "3. OCR Fallback Path",
     "avg_font_size": 11.81,
@@ -1224,7 +1224,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_4bcd3d4f",
+    "paragraph_id": "p_ecfe5c32",
     "page_num": 4,
     "text": "1. Rasterise page to 300 dpi PNG page.get_pixmap(matrix=fitz.Matrix(300/72, 300/72)) ). 2. Pre-process image: grayscale, bilateral denoise, adaptive threshold. 3. Run Tesseract with --oem 1 --psm 4 (single column) or --psm 6 (multi-column) decided via aspect ratio heuristic. 4. Parse hOCR output to recover positions for schema compliance.",
     "avg_font_size": 10.43,
@@ -1257,7 +1257,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_028ff142",
+    "paragraph_id": "p_0f13ecbc",
     "page_num": 4,
     "text": "[4]",
     "avg_font_size": 7.88,
@@ -1289,7 +1289,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_eef2d2e8",
+    "paragraph_id": "p_348a319c",
     "page_num": 4,
     "text": "5. Cache language data files inside /usr/share/tessdata (English Deu, Fra 45 MB) Apache Tika was ruled out because its OCR integration is slower and heavier (4.5 min for 23",
     "avg_font_size": 10.45,
@@ -1323,7 +1323,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_555f793a",
+    "paragraph_id": "p_36052ba3",
     "page_num": 4,
     "text": "[3]",
     "avg_font_size": 7.88,
@@ -1355,7 +1355,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_07605ced",
+    "paragraph_id": "p_bdbe15f8",
     "page_num": 4,
     "text": "pages)",
     "avg_font_size": 10.5,
@@ -1387,7 +1387,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_9e2272b2",
+    "paragraph_id": "p_27123945",
     "page_num": 4,
     "text": "4. Layout Analyzer",
     "avg_font_size": 11.81,
@@ -1419,7 +1419,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_fb41d5c4",
+    "paragraph_id": "p_2dc252d7",
     "page_num": 4,
     "text": "Algorithm Heading detector: line font-size 1.5\u00d7 median bold weight heading List detector: regex ^\\s*([- \\-\u2013]|[0-9]+\\.) at left margin. Table fusion: merge adjacent bounding boxes with equal row count. Image objects: PyMuPDF page.get_images(full=True) gives coordinates and resolution.",
     "avg_font_size": 10.4,
@@ -1453,7 +1453,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_d7c0a286",
+    "paragraph_id": "p_522846b6",
     "page_num": 4,
     "text": "5. Schema Mapper",
     "avg_font_size": 11.81,
@@ -1485,7 +1485,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_9e9ab044",
+    "paragraph_id": "p_d9fcfdb5",
     "page_num": 4,
     "text": "Example (simplified):",
     "avg_font_size": 10.5,
@@ -1517,7 +1517,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_763a0980",
+    "paragraph_id": "p_a68d66e7",
     "page_num": 4,
     "text": "def to_schema(page_num, blocks, tables, images): return { \"page_index\": page_num, \"elements\": [ *[{\"type\":\"paragraph\",\"text\":b.text} for b in blocks], *[{\"type\":\"table\",\"cells\":tab.as_cells()} for tab in tables], *[{\"type\":\"image\",\"bbox\":img.rect} for img in images]",
     "avg_font_size": 9.19,
@@ -1549,7 +1549,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_60827fba",
+    "paragraph_id": "p_e0447492",
     "page_num": 4,
     "text": "6. Validation",
     "avg_font_size": 11.81,
@@ -1581,7 +1581,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_702af634",
+    "paragraph_id": "p_e8acf6d3",
     "page_num": 4,
     "text": "from jsonschema import validate, Draft202012Validator, exceptions schema = json.load(open(\"output_schema.json\")) Draft202012Validator.check_schema(schema) def safe_write(obj, outfile): validate(obj, schema)         # raises on mismatch json.dump(obj, open(outfile, \"w\"), ensure_ascii=False)",
     "avg_font_size": 9.19,
@@ -1613,7 +1613,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_e4de8b23",
+    "paragraph_id": "p_51c158ce",
     "page_num": 5,
     "text": "Core Implementation Walk-Through",
     "avg_font_size": 11.81,
@@ -1645,7 +1645,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_b3b0ce74",
+    "paragraph_id": "p_a0f11707",
     "page_num": 5,
     "text": "Directory Layout",
     "avg_font_size": 11.81,
@@ -1677,7 +1677,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_d93aa38d",
+    "paragraph_id": "p_3e74728d",
     "page_num": 5,
     "text": "challenge_1a/ \u251c\u2500\u2500 src/ \u251c\u2500\u2500 engine.py          # PDF processing core \u251c\u2500\u2500 ocr.py             # Tesseract wrapper \u251c\u2500\u2500 layout.py          # heading, list, table logic \u251c\u2500\u2500 mapper.py          # schema mapping \u251c\u2500\u2500 validate.py        # JSON Schema enforcement \u2514\u2500\u2500 batch.py           # CLI entry-point \u251c\u2500\u2500 resources/ \u2514\u2500\u2500 output_schema.json \u2514\u2500\u2500 tests/ \u251c\u2500\u2500 unit/ \u2514\u2500\u2500 integration/",
     "avg_font_size": 9.19,
@@ -1698,8 +1698,8 @@
     "alignment": "unknown",
     "line_count": 13,
     "font_names": [
-      "IBMPlexMono-Regular",
-      "LiberationSerif"
+      "LiberationSerif",
+      "IBMPlexMono-Regular"
     ],
     "primary_font_family": [
       "IBMPlexMono-Regular",
@@ -1711,7 +1711,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_47723c6d",
+    "paragraph_id": "p_96dda552",
     "page_num": 5,
     "text": "Key Code Snippet engine.py",
     "avg_font_size": 11.16,
@@ -1745,7 +1745,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_1c5da6f4",
+    "paragraph_id": "p_b0b55207",
     "page_num": 5,
     "text": "import fitz, concurrent.futures, time from .ocr import ocr_page from .layout import analyse_layout from .mapper import map_page from .validate import write_validated_json def process_pdf(pdf_path, out_dir, workers=8): t0 = time.time() doc = fitz.open(pdf_path) with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool: futures = [] for i, page in enumerate(doc): futures.append(pool.submit(process_page, i, page)) pages_json = [f.result() for f in futures] job = {\"filename\": pdf_path.stem, \"pages\": pages_json} write_validated_json(job, out_dir / f\"{pdf_path.stem}.json\") print(f\"{pdf_path.name}: {time.time()-t0:.2f}s\") def process_page(idx, page): if page.get_text(\"text\"):              # fast path layout = analyse_layout(page) else:                                  # OCR fallback layout = ocr_page(page) return map_page(idx, *layout)",
     "avg_font_size": 9.19,
@@ -1777,7 +1777,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_2895854f",
+    "paragraph_id": "p_9c3ae884",
     "page_num": 5,
     "text": "The entire file is <300 LOC, keeping maintenance easy.",
     "avg_font_size": 10.5,
@@ -1809,7 +1809,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_9696152d",
+    "paragraph_id": "p_62f9045d",
     "page_num": 6,
     "text": "Performance Optimisations",
     "avg_font_size": 11.81,
@@ -1841,7 +1841,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_3439cb95",
+    "paragraph_id": "p_d19bc85d",
     "page_num": 6,
     "text": "Technique Expected Impact ThreadPool over processes (PyMuPDF releases GIL internally) +60% throughput Disable PyMuPDF decompression for images unless OCR needed \u221225% amortised time",
     "avg_font_size": 8.25,
@@ -1873,7 +1873,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_578630a2",
+    "paragraph_id": "p_730d19fc",
     "page_num": 6,
     "text": "[7] [8]",
     "avg_font_size": 6.19,
@@ -1905,7 +1905,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_930195f4",
+    "paragraph_id": "p_ab3d41ac",
     "page_num": 6,
     "text": "Turn off pdfminer debug logs when invoked as backup extractor \u221220% wall-clock",
     "avg_font_size": 8.25,
@@ -1937,7 +1937,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_5c88eb5b",
+    "paragraph_id": "p_500cd18e",
     "page_num": 6,
     "text": "Use python:3.11-slim base before containerization to shed 75 MB",
     "avg_font_size": 8.35,
@@ -1971,7 +1971,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_dac38ba8",
+    "paragraph_id": "p_36d1937e",
     "page_num": 6,
     "text": "[9]",
     "avg_font_size": 6.19,
@@ -2003,7 +2003,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_99f8506f",
+    "paragraph_id": "p_ad304471",
     "page_num": 6,
     "text": "smaller image Bundle tessdata traineddata only required langs fits 200 MB budget",
     "avg_font_size": 8.25,
@@ -2035,7 +2035,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_d80dacca",
+    "paragraph_id": "p_5848a51a",
     "page_num": 6,
     "text": "Testing and Quality Assurance",
     "avg_font_size": 11.81,
@@ -2067,7 +2067,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_84a3d6ab",
+    "paragraph_id": "p_e0b119c2",
     "page_num": 6,
     "text": "Unit Tests",
     "avg_font_size": 11.81,
@@ -2099,7 +2099,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_614b4e7c",
+    "paragraph_id": "p_d0745d4b",
     "page_num": 6,
     "text": "Layout heuristics: assert correct heading/list identification on synthetic pages. Schema compliance: feed fixture JSON through jsonschema.validate",
     "avg_font_size": 10.41,
@@ -2132,7 +2132,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_59034804",
+    "paragraph_id": "p_bf5f04d0",
     "page_num": 6,
     "text": "Integration Tests",
     "avg_font_size": 11.81,
@@ -2164,7 +2164,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_432b096c",
+    "paragraph_id": "p_7ed2be83",
     "page_num": 6,
     "text": "Use sample PDFs provided in the repository plus additional edge cases:",
     "avg_font_size": 10.5,
@@ -2196,7 +2196,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_2bee695e",
+    "paragraph_id": "p_ead097ef",
     "page_num": 6,
     "text": "Case Pages Feature Targeted Simple text report 12 Heading paragraphs Scanned invoice OCR path Scientific paper (2-column) 14 Multi-column merge Financial statement 22 Table extraction",
     "avg_font_size": 8.25,
@@ -2228,7 +2228,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_d4acb95d",
+    "paragraph_id": "p_629a82f8",
     "page_num": 6,
     "text": "Benchmarks",
     "avg_font_size": 11.81,
@@ -2260,7 +2260,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_f85f2eb1",
+    "paragraph_id": "p_e3fe6c3e",
     "page_num": 6,
     "text": "File Pages Total Time Path Split Complex 50-page (mixed) 50 8.4 35 text, 15 OCR",
     "avg_font_size": 8.25,
@@ -2292,7 +2292,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_60e9bf88",
+    "paragraph_id": "p_b0f120bb",
     "page_num": 6,
     "text": "[1]",
     "avg_font_size": 6.19,
@@ -2324,7 +2324,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_bbcc4f6b",
+    "paragraph_id": "p_1ec4fca0",
     "page_num": 6,
     "text": "117-page GeoTopo 117 17.1 100 text, 17 OCR",
     "avg_font_size": 8.25,
@@ -2356,7 +2356,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_bfc20dcd",
+    "paragraph_id": "p_dbdc270e",
     "page_num": 6,
     "text": "All tests run on 8-core AMD Ryzen 5700U, 2.8 GHz, 15 GB RAM.",
     "avg_font_size": 10.5,
@@ -2388,7 +2388,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_0ca1e13e",
+    "paragraph_id": "p_2df3994e",
     "page_num": 6,
     "text": "Roadmap Beyond Parsing",
     "avg_font_size": 11.81,
@@ -2420,7 +2420,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_087048d3",
+    "paragraph_id": "p_0041b77d",
     "page_num": 6,
     "text": "1. Containerization replicate /app folder into python:3.11-slim install tesseract-ocr copy",
     "avg_font_size": 10.11,
@@ -2454,7 +2454,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_10104d98",
+    "paragraph_id": "p_714ef76d",
     "page_num": 6,
     "text": "lang packs. 2. Resource Caps set --cpus=\"8\" --memory=\"16g\" for parity with hackathon infra. 3. Observability expose Prometheus metrics: pages/sec, OCR pages, validation errors.",
     "avg_font_size": 10.46,
@@ -2487,7 +2487,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_6e598259",
+    "paragraph_id": "p_4ec44b67",
     "page_num": 7,
     "text": "4. Horizontal Scaling orchestrate multiple worker containers via Docker Compose swarm mode once needed.",
     "avg_font_size": 10.5,
@@ -2519,7 +2519,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_43442dde",
+    "paragraph_id": "p_45e0a260",
     "page_num": 7,
     "text": "Conclusion",
     "avg_font_size": 11.81,
@@ -2551,7 +2551,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_3ca591c6",
+    "paragraph_id": "p_b0209b2e",
     "page_num": 7,
     "text": "The proposed engine achieves sub-10 parsing for 50 page PDFs while respecting CPU-only, 16",
     "avg_font_size": 10.5,
@@ -2583,7 +2583,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_3b0bcdc3",
+    "paragraph_id": "p_9bd29fb4",
     "page_num": 7,
     "text": "[2] [1]",
     "avg_font_size": 7.88,
@@ -2615,7 +2615,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_668a31af",
+    "paragraph_id": "p_324726e5",
     "page_num": 7,
     "text": "GB, and <200 MB model limits. Leveraging PyMuPDF\u2019s high extraction speed and",
     "avg_font_size": 10.5,
@@ -2647,7 +2647,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_68f85bdd",
+    "paragraph_id": "p_fcb8480a",
     "page_num": 7,
     "text": "[4]",
     "avg_font_size": 7.88,
@@ -2679,7 +2679,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_3e84a549",
+    "paragraph_id": "p_35fb3be5",
     "page_num": 7,
     "text": "Tesseract\u2019s compact multilingual OCR it robustly supports text-based and scanned documents. Built-in schema validation guarantees outputs meet hackathon requirements from day 1, setting solid foundation for containerization and further enhancements.",
     "avg_font_size": 10.5,
@@ -2711,7 +2711,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_9523e42d",
+    "paragraph_id": "p_9fda846d",
     "page_num": 7,
     "text": "1. https://github.com/py-pdf/benchmarks 2. https://pyxpdf.readthedocs.io/en/latest/compare.html 3. https://stackoverflow.com/questions/47283682/slowness-in-extracting-scan-pdf-using-apache-tika-te sseract 4. https://stackoverflow.com/questions/73318168/how-do-i-add-tesseract-to-my-docker-container-so-i-c an-use-pytesseract 5. https://artifex.com/blog/table-recognition-extraction-from-pdfs-pymupdf-python 6. https://camelot-py.readthedocs.io 7. https://stackoverflow.com/questions/45473770/optimising-pdfminer 8. https://github.com/pdfminer/pdfminer.six/issues/347 9. https://forums.docker.com/t/differences-between-standard-docker-images-and-alpine-slim-versions/1 34973",
     "avg_font_size": 9.19,

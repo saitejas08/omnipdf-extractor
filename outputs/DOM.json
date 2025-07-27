@@ -1,6 +1,6 @@
 [
   {
-    "paragraph_id": "p_b4b449a9",
+    "paragraph_id": "p_daa6c010",
     "page_num": 0,
     "text": "What is DOM?",
     "avg_font_size": 24.0,
@@ -32,7 +32,7 @@
     "relative_font_size": 13
   },
   {
-    "paragraph_id": "p_aca6ac3e",
+    "paragraph_id": "p_be09a23b",
     "page_num": 0,
     "text": "The Document Object Model (DOM) is a programming interface for HTML(Hypertext Markup Language) and XML (Extensible markup language) documents. It defines the logical structure of",
     "avg_font_size": 12.0,
@@ -54,8 +54,8 @@
     "line_count": 2,
     "font_names": [
       "TimesNewRomanPS-BoldMT",
-      "TimesNewRomanPSMT",
-      "TimesNewRomanPS-BoldItal"
+      "TimesNewRomanPS-BoldItal",
+      "TimesNewRomanPSMT"
     ],
     "primary_font_family": [
       "TimesNewRomanPS-BoldItal",
@@ -68,7 +68,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_b1862b1b",
+    "paragraph_id": "p_a379b59b",
     "page_num": 0,
     "text": "documents and the way a document is accessed and manipulated.",
     "avg_font_size": 12.0,
@@ -100,7 +100,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_239a2142",
+    "paragraph_id": "p_02d091f5",
     "page_num": 0,
     "text": "Note : It is called a Logical structure because DOM doesn\u2019t specify any relationship between objects.",
     "avg_font_size": 12.0,
@@ -134,7 +134,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_ecb22311",
+    "paragraph_id": "p_edd9ff26",
     "page_num": 0,
     "text": "DOM is a way to represent the webpage in a structured hierarchical way so that it will become easier for programmers and users to glide through the document. With DOM, we can easily access and manipulate tags, IDs, classes, Attributes, or Elements of HTML using commands or methods provided by the Document object. Using DOM, the JavaScript gets access to HTML as well as CSS of the web page and",
     "avg_font_size": 12.0,
@@ -166,7 +166,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_f191ae9e",
+    "paragraph_id": "p_b1e9d6c3",
     "page_num": 0,
     "text": "can also add behavior to the HTML elements. So basically Document Object Model is an API that represents and interacts with HTML or XML documents.",
     "avg_font_size": 12.0,
@@ -200,7 +200,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_4466522d",
+    "paragraph_id": "p_00e30c8f",
     "page_num": 0,
     "text": "Why DOM is required?",
     "avg_font_size": 12.0,
@@ -232,7 +232,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_7587d2a6",
+    "paragraph_id": "p_3ed7cf38",
     "page_num": 0,
     "text": "HTML is used to structure the web pages and JavaScript is used to add behavior to our web pages. When",
     "avg_font_size": 12.0,
@@ -266,7 +266,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_3f1cb7e1",
+    "paragraph_id": "p_5b47286e",
     "page_num": 0,
     "text": "an HTML file is loaded into the browser, the JavaScript can not understand the HTML document directly.",
     "avg_font_size": 12.0,
@@ -298,7 +298,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_6a5da4c0",
+    "paragraph_id": "p_a7781981",
     "page_num": 0,
     "text": "So, a corresponding document is created(DOM). DOM is basically the representation of the same HTML document but in a different format with the use of objects . JavaScript interprets DOM easily i.e.",
     "avg_font_size": 12.0,
@@ -332,7 +332,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_930d1416",
+    "paragraph_id": "p_5ff15f1f",
     "page_num": 0,
     "text": "JavaScript can not understand the tags(<h1>H</h1>) in HTML document but can understand object h1 in DOM. Now, JavaScript can access each of the objects (h1, p, etc) by using different functions.",
     "avg_font_size": 12.0,
@@ -364,7 +364,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_d1bb0ca3",
+    "paragraph_id": "p_074db0eb",
     "page_num": 0,
     "text": "Structure of DOM : DOM can be thought of as a Tree or Forest(more than one tree). The term structure model is sometimes used to describe the tree-like representation of a document. \u00a0Each branch of the tree",
     "avg_font_size": 12.0,
@@ -398,7 +398,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_5fb1bde6",
+    "paragraph_id": "p_bea35c80",
     "page_num": 0,
     "text": "ends in a node, and each node contains objects \u00a0Event listeners can be added to nodes and triggered on an",
     "avg_font_size": 12.0,
@@ -430,7 +430,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_72d35720",
+    "paragraph_id": "p_6bab53bd",
     "page_num": 0,
     "text": "occurrence of a given event. One important property of DOM structure models is structural isomorphism",
     "avg_font_size": 12.0,
@@ -451,8 +451,8 @@
     "alignment": "left",
     "line_count": 1,
     "font_names": [
-      "TimesNewRomanPSMT",
-      "TimesNewRomanPS-BoldItal"
+      "TimesNewRomanPS-BoldItal",
+      "TimesNewRomanPSMT"
     ],
     "primary_font_family": [
       "TimesNewRomanPS-BoldItal",
@@ -464,7 +464,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_e540cd53",
+    "paragraph_id": "p_d0f50d36",
     "page_num": 0,
     "text": "if any two DOM implementations are used to create a representation of the same document, they will create the same structure model, with precisely the same objects and relationships.",
     "avg_font_size": 12.0,
@@ -496,7 +496,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_1b9a5b22",
+    "paragraph_id": "p_4cbb6923",
     "page_num": 0,
     "text": "Why called an Object Model?",
     "avg_font_size": 12.0,
@@ -528,7 +528,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_59dc6ba8",
+    "paragraph_id": "p_3a2a643e",
     "page_num": 0,
     "text": "Documents are modeled using objects, and the model includes not only the structure of a document but also the behavior of a document and the objects of which it is composed like tag elements with attributes in HTML.",
     "avg_font_size": 12.0,
@@ -560,7 +560,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_0f457dd4",
+    "paragraph_id": "p_464fdffe",
     "page_num": 0,
     "text": "Properties of DOM : Let\u2019s see the properties of the document object that can be accessed and modified by",
     "avg_font_size": 12.0,
@@ -594,7 +594,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_42b00060",
+    "paragraph_id": "p_590a9aab",
     "page_num": 0,
     "text": "the document object.",
     "avg_font_size": 12.0,
@@ -626,7 +626,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_c096e33d",
+    "paragraph_id": "p_23bb8b5d",
     "page_num": 1,
     "text": "Properties of DOM",
     "avg_font_size": 12.0,
@@ -658,7 +658,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_e0612f28",
+    "paragraph_id": "p_fc0a512d",
     "page_num": 1,
     "text": "Window Object: Window Object is object of the browser which is always at top of the hierarchy. \u00a0It",
     "avg_font_size": 12.0,
@@ -692,7 +692,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_2091fb79",
+    "paragraph_id": "p_180b0b66",
     "page_num": 1,
     "text": "is like an API that is used to set and access all the properties and methods of the browser. It is automatically created by the browser.",
     "avg_font_size": 12.0,
@@ -724,7 +724,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_67700077",
+    "paragraph_id": "p_e214d10c",
     "page_num": 1,
     "text": "Document object: When an HTML document is loaded into a window, it becomes a document",
     "avg_font_size": 12.0,
@@ -758,7 +758,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_1f1f42db",
+    "paragraph_id": "p_a60f6653",
     "page_num": 1,
     "text": "object. The \u2018document\u2019 object has various properties that refer to other objects which allow access to and modification of the content of the web page. If there is a need to access any element in an HTML page, we always start with accessing the \u2018document\u2019 object. Document object is property of window object.",
     "avg_font_size": 12.0,
@@ -790,7 +790,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_4bb83804",
+    "paragraph_id": "p_a5bc8d5b",
     "page_num": 1,
     "text": "Form Object: It is represented by form tags. Link Object: It is represented by link tags. Anchor Object: It is represented by a href tags. Form Control Elements: Form can have many control elements such as text fields, buttons, radio",
     "avg_font_size": 12.0,
@@ -826,7 +826,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_aba12523",
+    "paragraph_id": "p_22cf5142",
     "page_num": 1,
     "text": "buttons, checkboxes, etc.",
     "avg_font_size": 12.0,
@@ -858,7 +858,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_1167908e",
+    "paragraph_id": "p_ce37e517",
     "page_num": 2,
     "text": "Searching the DOM",
     "avg_font_size": 24.0,
@@ -890,7 +890,7 @@
     "relative_font_size": 13
   },
   {
-    "paragraph_id": "p_25ee329b",
+    "paragraph_id": "p_b421b597",
     "page_num": 2,
     "text": "HTML DOM getElementByID() Method",
     "avg_font_size": 12.0,
@@ -922,7 +922,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_d1a7bbc6",
+    "paragraph_id": "p_de7c5ae2",
     "page_num": 2,
     "text": "The getElementById() method returns the elements that have given an ID which is passed to the function.",
     "avg_font_size": 12.0,
@@ -956,7 +956,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_1a64d940",
+    "paragraph_id": "p_a0b5b17f",
     "page_num": 2,
     "text": "This function is a widely used HTML DOM method in web designing to change the value of any particular element or get a particular element. If the passed ID to the function does not exist then it returns null. The element is required to have a unique id , in order to get access to that specific element quickly, & also that particular id should only be used once in the entire document.",
     "avg_font_size": 12.0,
@@ -989,7 +989,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_019eb4f0",
+    "paragraph_id": "p_e877b439",
     "page_num": 2,
     "text": "Syntax:",
     "avg_font_size": 12.0,
@@ -1021,7 +1021,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_06798375",
+    "paragraph_id": "p_a4300bd5",
     "page_num": 2,
     "text": "document.getElementById( element_ID )",
     "avg_font_size": 12.0,
@@ -1053,7 +1053,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_418483e8",
+    "paragraph_id": "p_d3153b5d",
     "page_num": 2,
     "text": "Parameter: This function accepts single parameter element_ID which is used to hold the ID of the",
     "avg_font_size": 12.0,
@@ -1089,7 +1089,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_50a5e86f",
+    "paragraph_id": "p_56915e97",
     "page_num": 2,
     "text": "element.",
     "avg_font_size": 12.0,
@@ -1121,7 +1121,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_400e357f",
+    "paragraph_id": "p_00b1364e",
     "page_num": 2,
     "text": "Return Value: It returns the object of the given ID. If no element exists with the given ID then it returns",
     "avg_font_size": 12.0,
@@ -1155,7 +1155,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_b9094cac",
+    "paragraph_id": "p_95142733",
     "page_num": 2,
     "text": "null.",
     "avg_font_size": 12.0,
@@ -1187,7 +1187,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_af498e06",
+    "paragraph_id": "p_b079f627",
     "page_num": 2,
     "text": "Example 1: This example describes the getElementById() method where element_id is used to change the",
     "avg_font_size": 12.0,
@@ -1221,7 +1221,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_eb83c22d",
+    "paragraph_id": "p_0c50523f",
     "page_num": 2,
     "text": "color of the text on clicking the button.",
     "avg_font_size": 12.0,
@@ -1253,7 +1253,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_b2ff79e7",
+    "paragraph_id": "p_24a21d45",
     "page_num": 2,
     "text": "HTML",
     "avg_font_size": 13.5,
@@ -1285,7 +1285,7 @@
     "relative_font_size": 10
   },
   {
-    "paragraph_id": "p_08225885",
+    "paragraph_id": "p_3b58dcaa",
     "page_num": 2,
     "text": "<!DOCTYPE html> <!DOCTYPE html>",
     "avg_font_size": 10.5,
@@ -1317,7 +1317,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_19289834",
+    "paragraph_id": "p_592095d5",
     "page_num": 2,
     "text": "html html head head title title",
     "avg_font_size": 10.5,
@@ -1349,7 +1349,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_8ea907a6",
+    "paragraph_id": "p_5c7f773b",
     "page_num": 2,
     "text": "DOM getElementById() Method DOM getElementById() Method </",
     "avg_font_size": 10.5,
@@ -1381,7 +1381,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_13516fb2",
+    "paragraph_id": "p_dbbd2daa",
     "page_num": 2,
     "text": "</ title title script script",
     "avg_font_size": 10.5,
@@ -1402,8 +1402,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -1414,7 +1414,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_cd01b646",
+    "paragraph_id": "p_4aad81e0",
     "page_num": 2,
     "text": "// Function to change the color of element // Function to change the color of element",
     "avg_font_size": 10.5,
@@ -1446,7 +1446,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_1462fa8c",
+    "paragraph_id": "p_19146203",
     "page_num": 2,
     "text": "function function geeks",
     "avg_font_size": 10.5,
@@ -1467,8 +1467,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -1479,7 +1479,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_5533b6ff",
+    "paragraph_id": "p_e0bd1dd9",
     "page_num": 2,
     "text": "geeks () ()",
     "avg_font_size": 10.5,
@@ -1511,7 +1511,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_f40ced24",
+    "paragraph_id": "p_5da09d4d",
     "page_num": 2,
     "text": "var var demo",
     "avg_font_size": 10.5,
@@ -1532,8 +1532,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -1544,7 +1544,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_6be0c40e",
+    "paragraph_id": "p_c9a60f54",
     "page_num": 2,
     "text": "demo = document document .getElementById getElementById (\"geeks\" \"geeks\" ); ); demo demo .style style .color color = \"green\" \"green\" </",
     "avg_font_size": 10.5,
@@ -1576,7 +1576,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_c91fb346",
+    "paragraph_id": "p_a67b9140",
     "page_num": 2,
     "text": "</ script script </ head head",
     "avg_font_size": 10.5,
@@ -1597,8 +1597,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -1610,7 +1610,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_49b456d5",
+    "paragraph_id": "p_5b52c69f",
     "page_num": 2,
     "text": "</",
     "avg_font_size": 10.5,
@@ -1642,7 +1642,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_e24178a9",
+    "paragraph_id": "p_14679e34",
     "page_num": 2,
     "text": "body style",
     "avg_font_size": 10.5,
@@ -1663,8 +1663,8 @@
     "alignment": "unknown",
     "line_count": 1,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -1676,7 +1676,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_b6614119",
+    "paragraph_id": "p_455b6fe3",
     "page_num": 2,
     "text": "style =\"text-align:center\" \"text-align:center\"",
     "avg_font_size": 10.5,
@@ -1708,7 +1708,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_3abd8903",
+    "paragraph_id": "p_7f3aa8ce",
     "page_num": 2,
     "text": "body h1 h1 id",
     "avg_font_size": 10.5,
@@ -1729,8 +1729,8 @@
     "alignment": "unknown",
     "line_count": 3,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -1741,7 +1741,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_6cc1b0aa",
+    "paragraph_id": "p_3ed2d4c7",
     "page_num": 2,
     "text": "id =\"geeks\" \"geeks\" >GeeksforGeeks GeeksforGeeks </",
     "avg_font_size": 10.5,
@@ -1773,7 +1773,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_e1b2bf1f",
+    "paragraph_id": "p_053f6650",
     "page_num": 2,
     "text": "</ h1 h1 h2 h2 >DOM getElementById() Method",
     "avg_font_size": 10.5,
@@ -1794,8 +1794,8 @@
     "alignment": "center",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -1807,7 +1807,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_c2310592",
+    "paragraph_id": "p_b32a5658",
     "page_num": 2,
     "text": "DOM getElementById() Method </",
     "avg_font_size": 10.5,
@@ -1839,7 +1839,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_aef56caa",
+    "paragraph_id": "p_bd6cd777",
     "page_num": 2,
     "text": "</ h2 h2",
     "avg_font_size": 10.5,
@@ -1860,8 +1860,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -1873,7 +1873,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_96512b75",
+    "paragraph_id": "p_3552fab7",
     "page_num": 2,
     "text": "<!-- Click on the button to change color --> <!-- Click on the button to change color -->",
     "avg_font_size": 10.5,
@@ -1905,7 +1905,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_ac35e7c9",
+    "paragraph_id": "p_1b94b770",
     "page_num": 2,
     "text": "input input type",
     "avg_font_size": 10.5,
@@ -1926,8 +1926,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -1938,7 +1938,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_65cebbe1",
+    "paragraph_id": "p_dd532fe5",
     "page_num": 2,
     "text": "type =\"button\" \"button\" onclick onclick =\"geeks()\" \"geeks()\"",
     "avg_font_size": 10.5,
@@ -1970,7 +1970,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_42e6f694",
+    "paragraph_id": "p_15535cca",
     "page_num": 3,
     "text": "value value =\"Click here to change color\" \"Click here to change color\" /> />",
     "avg_font_size": 10.5,
@@ -2002,7 +2002,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_0334d689",
+    "paragraph_id": "p_2f1607af",
     "page_num": 3,
     "text": "</ body body",
     "avg_font_size": 10.5,
@@ -2023,8 +2023,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -2036,7 +2036,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_0b554e65",
+    "paragraph_id": "p_67018429",
     "page_num": 3,
     "text": "</",
     "avg_font_size": 10.5,
@@ -2068,7 +2068,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_76c7c9e9",
+    "paragraph_id": "p_a978574d",
     "page_num": 3,
     "text": "</ html html",
     "avg_font_size": 10.5,
@@ -2089,8 +2089,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -2102,7 +2102,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_c2336299",
+    "paragraph_id": "p_747f203f",
     "page_num": 3,
     "text": "</",
     "avg_font_size": 10.5,
@@ -2134,7 +2134,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_010890e3",
+    "paragraph_id": "p_3ed4a694",
     "page_num": 3,
     "text": "Example 2: This example describes the getElementById() method where the element_id is used to change",
     "avg_font_size": 12.0,
@@ -2168,7 +2168,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_023f8140",
+    "paragraph_id": "p_4916f987",
     "page_num": 3,
     "text": "the content on clicking the button.",
     "avg_font_size": 12.0,
@@ -2200,7 +2200,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_bfb560af",
+    "paragraph_id": "p_d7a5076d",
     "page_num": 3,
     "text": "HTML",
     "avg_font_size": 13.5,
@@ -2232,7 +2232,7 @@
     "relative_font_size": 10
   },
   {
-    "paragraph_id": "p_66a6c84d",
+    "paragraph_id": "p_a935fa27",
     "page_num": 3,
     "text": "<!DOCTYPE html> <!DOCTYPE html>",
     "avg_font_size": 10.5,
@@ -2264,7 +2264,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_5a00b6b9",
+    "paragraph_id": "p_dd6e1d03",
     "page_num": 3,
     "text": "html html head head title title",
     "avg_font_size": 10.5,
@@ -2296,7 +2296,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_ebadddf1",
+    "paragraph_id": "p_b9992808",
     "page_num": 3,
     "text": "DOM getElementById() Method DOM getElementById() Method </",
     "avg_font_size": 10.5,
@@ -2328,7 +2328,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_2b60a8fe",
+    "paragraph_id": "p_197c9c71",
     "page_num": 3,
     "text": "</ title title script script",
     "avg_font_size": 10.5,
@@ -2349,8 +2349,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -2361,7 +2361,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_21511151",
+    "paragraph_id": "p_69c3346b",
     "page_num": 3,
     "text": "// Function to change content of element // Function to change content of element",
     "avg_font_size": 10.5,
@@ -2393,7 +2393,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_7a129e9f",
+    "paragraph_id": "p_4762583d",
     "page_num": 3,
     "text": "function function geeks",
     "avg_font_size": 10.5,
@@ -2414,8 +2414,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -2426,7 +2426,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_22263524",
+    "paragraph_id": "p_5fc03e79",
     "page_num": 3,
     "text": "geeks () ()",
     "avg_font_size": 10.5,
@@ -2458,7 +2458,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_362a41ad",
+    "paragraph_id": "p_bb2b6d6a",
     "page_num": 3,
     "text": "var var demo",
     "avg_font_size": 10.5,
@@ -2479,8 +2479,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -2491,7 +2491,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_e495e2b7",
+    "paragraph_id": "p_e3ae587c",
     "page_num": 3,
     "text": "demo = document document .getElementById getElementById (\"geeks\" \"geeks\" ); ); demo demo .innerHTML innerHTML = \"Welcome to GeeksforGeeks!\" \"Welcome to GeeksforGeeks!\" </",
     "avg_font_size": 10.5,
@@ -2523,7 +2523,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_76d8bc09",
+    "paragraph_id": "p_b0533523",
     "page_num": 3,
     "text": "</ script script </ head head",
     "avg_font_size": 10.5,
@@ -2544,8 +2544,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -2557,7 +2557,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_41d464b8",
+    "paragraph_id": "p_a32abee1",
     "page_num": 3,
     "text": "</",
     "avg_font_size": 10.5,
@@ -2589,7 +2589,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_5fd1402a",
+    "paragraph_id": "p_2df1b41a",
     "page_num": 3,
     "text": "body style",
     "avg_font_size": 10.5,
@@ -2610,8 +2610,8 @@
     "alignment": "unknown",
     "line_count": 1,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -2623,7 +2623,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_0db2c0a3",
+    "paragraph_id": "p_120dd579",
     "page_num": 3,
     "text": "style =\"text-align:center\" \"text-align:center\"",
     "avg_font_size": 10.5,
@@ -2655,7 +2655,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_71922f16",
+    "paragraph_id": "p_c3c1c053",
     "page_num": 3,
     "text": "body h1 h1 >GeeksforGeeks",
     "avg_font_size": 10.5,
@@ -2676,8 +2676,8 @@
     "alignment": "unknown",
     "line_count": 3,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -2688,7 +2688,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_69af4f3b",
+    "paragraph_id": "p_7eaf59f5",
     "page_num": 3,
     "text": "GeeksforGeeks </",
     "avg_font_size": 10.5,
@@ -2720,7 +2720,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_de37c4c1",
+    "paragraph_id": "p_60aba7a3",
     "page_num": 3,
     "text": "</ h1 h1 h2 h2 >DOM getElementById() Method",
     "avg_font_size": 10.5,
@@ -2741,8 +2741,8 @@
     "alignment": "center",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -2754,7 +2754,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_92fc9233",
+    "paragraph_id": "p_8c5c1ddc",
     "page_num": 3,
     "text": "DOM getElementById() Method </",
     "avg_font_size": 10.5,
@@ -2786,7 +2786,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_1470df4b",
+    "paragraph_id": "p_6887fa7e",
     "page_num": 3,
     "text": "</ h2 h2 h3 h3 id",
     "avg_font_size": 10.5,
@@ -2807,8 +2807,8 @@
     "alignment": "center",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -2820,7 +2820,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_5f065287",
+    "paragraph_id": "p_7c26b94c",
     "page_num": 3,
     "text": "id =\"geeks\" \"geeks\" >Hello Geeks! Hello Geeks! </",
     "avg_font_size": 10.5,
@@ -2852,7 +2852,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_158fe7b5",
+    "paragraph_id": "p_7bf02b98",
     "page_num": 3,
     "text": "</ h3 h3",
     "avg_font_size": 10.5,
@@ -2873,8 +2873,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -2886,7 +2886,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_9f3f0986",
+    "paragraph_id": "p_44ea475a",
     "page_num": 3,
     "text": "<!-- Click here to change content --> <!-- Click here to change content -->",
     "avg_font_size": 10.5,
@@ -2918,7 +2918,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_ef0c51f4",
+    "paragraph_id": "p_6a50f688",
     "page_num": 3,
     "text": "input input type",
     "avg_font_size": 10.5,
@@ -2939,8 +2939,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -2951,7 +2951,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_393f3050",
+    "paragraph_id": "p_0bb1578f",
     "page_num": 3,
     "text": "type =\"button\" \"button\" onclick onclick =\"geeks()\" \"geeks()\" value value =\"Click here to change content\" \"Click here to change content\" /> />",
     "avg_font_size": 10.5,
@@ -2983,7 +2983,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_1f6b1484",
+    "paragraph_id": "p_a36f6ab5",
     "page_num": 3,
     "text": "</ body body",
     "avg_font_size": 10.5,
@@ -3004,8 +3004,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -3017,7 +3017,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_dbe00fcc",
+    "paragraph_id": "p_b9e9a452",
     "page_num": 3,
     "text": "</",
     "avg_font_size": 10.5,
@@ -3049,7 +3049,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_05c10c9f",
+    "paragraph_id": "p_08845164",
     "page_num": 3,
     "text": "</ html html",
     "avg_font_size": 10.5,
@@ -3070,8 +3070,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -3083,7 +3083,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_1f21eee8",
+    "paragraph_id": "p_9a9d0f61",
     "page_num": 3,
     "text": "</",
     "avg_font_size": 10.5,
@@ -3115,7 +3115,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_6e72314f",
+    "paragraph_id": "p_02d508e4",
     "page_num": 3,
     "text": "DOM querySelectorAll() Method",
     "avg_font_size": 12.0,
@@ -3147,7 +3147,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_da3b1d79",
+    "paragraph_id": "p_1e6b0aee",
     "page_num": 3,
     "text": "The querySelectorAll() method in HTML is used to return a collection of an element\u2019s child elements that",
     "avg_font_size": 12.0,
@@ -3181,7 +3181,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_114580bc",
+    "paragraph_id": "p_7ef07a52",
     "page_num": 3,
     "text": "match a specified CSS selector(s), as a static NodeList object. The NodeList object represents a collection of nodes. The nodes can be accessed by index numbers. The index starts at 0.",
     "avg_font_size": 12.0,
@@ -3213,7 +3213,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_18ef0204",
+    "paragraph_id": "p_d79e1d22",
     "page_num": 3,
     "text": "Note: If we want to apply CSS property to all the child nodes that match the specified selector, then we can",
     "avg_font_size": 12.0,
@@ -3247,7 +3247,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_ebba2d80",
+    "paragraph_id": "p_e8cc0711",
     "page_num": 4,
     "text": "just iterate through all nodes and apply that particular property.",
     "avg_font_size": 12.0,
@@ -3279,7 +3279,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_7bd8d487",
+    "paragraph_id": "p_50e86238",
     "page_num": 4,
     "text": "Syntax:",
     "avg_font_size": 12.0,
@@ -3311,7 +3311,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_09d23f41",
+    "paragraph_id": "p_e72ba639",
     "page_num": 4,
     "text": "element.querySelectorAll(selectors)",
     "avg_font_size": 12.0,
@@ -3343,7 +3343,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_365b4253",
+    "paragraph_id": "p_ef690f75",
     "page_num": 4,
     "text": "Selectors is the required field. It specifies one or more CSS selectors to match the element.These selectors are used to select HTML elements based on their id, classes, types, etc. In case of multiple selectors, comma is used to separate each selector.",
     "avg_font_size": 12.0,
@@ -3375,7 +3375,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_75e634ef",
+    "paragraph_id": "p_4285cf15",
     "page_num": 4,
     "text": "Example:",
     "avg_font_size": 12.0,
@@ -3407,7 +3407,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_dcf5f911",
+    "paragraph_id": "p_37cc7ef3",
     "page_num": 4,
     "text": "HTML",
     "avg_font_size": 13.5,
@@ -3439,7 +3439,7 @@
     "relative_font_size": 10
   },
   {
-    "paragraph_id": "p_98842724",
+    "paragraph_id": "p_800ded5f",
     "page_num": 4,
     "text": "<!DOCTYPE html> <!DOCTYPE html>",
     "avg_font_size": 10.5,
@@ -3471,7 +3471,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_1d59b1eb",
+    "paragraph_id": "p_9420992a",
     "page_num": 4,
     "text": "html html head head title title >DOM querySelectorAll() Method",
     "avg_font_size": 10.5,
@@ -3492,8 +3492,8 @@
     "alignment": "unknown",
     "line_count": 6,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -3504,7 +3504,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_b3d62767",
+    "paragraph_id": "p_50c40fd6",
     "page_num": 4,
     "text": "DOM querySelectorAll() Method </",
     "avg_font_size": 10.5,
@@ -3536,7 +3536,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_cacdb2d7",
+    "paragraph_id": "p_2d459451",
     "page_num": 4,
     "text": "</ title title style style geek geek border border : 1px px solid solid black black margin margin : 5px",
     "avg_font_size": 10.5,
@@ -3557,8 +3557,8 @@
     "alignment": "center",
     "line_count": 13,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -3569,7 +3569,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_02c5be88",
+    "paragraph_id": "p_204dc567",
     "page_num": 4,
     "text": "px </",
     "avg_font_size": 10.5,
@@ -3601,7 +3601,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_47063d9f",
+    "paragraph_id": "p_3b1396b3",
     "page_num": 4,
     "text": "</ style style",
     "avg_font_size": 10.5,
@@ -3622,8 +3622,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -3635,7 +3635,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_c65bf558",
+    "paragraph_id": "p_a4785adf",
     "page_num": 4,
     "text": "</",
     "avg_font_size": 10.5,
@@ -3667,7 +3667,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_aa7948fe",
+    "paragraph_id": "p_d54f6f4a",
     "page_num": 4,
     "text": "</ head head body body style",
     "avg_font_size": 10.5,
@@ -3688,8 +3688,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -3701,7 +3701,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_c1ac107c",
+    "paragraph_id": "p_0de02468",
     "page_num": 4,
     "text": "style = \"text-align: center;\" \"text-align: center;\"",
     "avg_font_size": 10.5,
@@ -3733,7 +3733,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_4e8dfd53",
+    "paragraph_id": "p_3dab77b0",
     "page_num": 4,
     "text": "h1 h1 style",
     "avg_font_size": 10.5,
@@ -3754,8 +3754,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -3766,7 +3766,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_b4dd30cb",
+    "paragraph_id": "p_df6618a8",
     "page_num": 4,
     "text": "style = \"color: green;\" \"color: green;\" >GeeksforGeeks GeeksforGeeks </",
     "avg_font_size": 10.5,
@@ -3798,7 +3798,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_22a9f6e0",
+    "paragraph_id": "p_22752990",
     "page_num": 4,
     "text": "</ h1 h1 h2 h2 >querySelectorAll() Method",
     "avg_font_size": 10.5,
@@ -3819,8 +3819,8 @@
     "alignment": "center",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -3832,7 +3832,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_27fe0cc0",
+    "paragraph_id": "p_a799e241",
     "page_num": 4,
     "text": "querySelectorAll() Method </",
     "avg_font_size": 10.5,
@@ -3864,7 +3864,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_5e5ec405",
+    "paragraph_id": "p_ca73dc87",
     "page_num": 4,
     "text": "</ h2 h2 div div id",
     "avg_font_size": 10.5,
@@ -3885,8 +3885,8 @@
     "alignment": "center",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -3898,7 +3898,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_dc490941",
+    "paragraph_id": "p_c6c3f09b",
     "page_num": 4,
     "text": "id =\"geek\" \"geek\"",
     "avg_font_size": 10.5,
@@ -3930,7 +3930,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_eefb1ee2",
+    "paragraph_id": "p_6646b780",
     "page_num": 4,
     "text": "This is paragraph 1. </ </ >This is paragraph 1.",
     "avg_font_size": 10.5,
@@ -3962,7 +3962,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_84501c46",
+    "paragraph_id": "p_8738e6a6",
     "page_num": 4,
     "text": "This is paragraph 2. </ </ >This is paragraph 2.",
     "avg_font_size": 10.5,
@@ -3994,7 +3994,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_1f20af3d",
+    "paragraph_id": "p_3383bc7c",
     "page_num": 4,
     "text": "</",
     "avg_font_size": 10.5,
@@ -4026,7 +4026,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_992ea156",
+    "paragraph_id": "p_27fd587b",
     "page_num": 4,
     "text": "</ div div button button onclick",
     "avg_font_size": 10.5,
@@ -4047,8 +4047,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -4060,7 +4060,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_45e70b9e",
+    "paragraph_id": "p_32374098",
     "page_num": 4,
     "text": "onclick =\"myFunction()\" \"myFunction()\" >Try it Try it </",
     "avg_font_size": 10.5,
@@ -4092,7 +4092,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_fd99e6d9",
+    "paragraph_id": "p_0ca2316a",
     "page_num": 4,
     "text": "</ button button script script function function myFunction",
     "avg_font_size": 10.5,
@@ -4113,8 +4113,8 @@
     "alignment": "center",
     "line_count": 6,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -4125,7 +4125,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_03b2cec5",
+    "paragraph_id": "p_b64640d9",
     "page_num": 4,
     "text": "myFunction () ()",
     "avg_font_size": 10.5,
@@ -4157,7 +4157,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_dca927f5",
+    "paragraph_id": "p_dee0bb23",
     "page_num": 4,
     "text": "var var x = document",
     "avg_font_size": 10.5,
@@ -4178,8 +4178,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -4190,7 +4190,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_e61d4795",
+    "paragraph_id": "p_7dfc3d5c",
     "page_num": 4,
     "text": "document .getElementById getElementById (\"geek\" \"geek\" ). ). querySelectorAll querySelectorAll (\"p\" \"p\" ); );",
     "avg_font_size": 10.5,
@@ -4222,7 +4222,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_1f8195b7",
+    "paragraph_id": "p_4a6df307",
     "page_num": 4,
     "text": "var var i; for for (i = 0; i < x.length",
     "avg_font_size": 10.5,
@@ -4243,8 +4243,8 @@
     "alignment": "center",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -4255,7 +4255,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_dcac4dcd",
+    "paragraph_id": "p_d9a62390",
     "page_num": 4,
     "text": "length ; i++ ++ ) { x[i]. ]. style style .backgroundColor backgroundColor = \"green\" \"green\" x[i]. ]. style style .color color = \"white\" \"white\"",
     "avg_font_size": 10.5,
@@ -4287,7 +4287,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_ceac3b88",
+    "paragraph_id": "p_b41b99a9",
     "page_num": 4,
     "text": "</",
     "avg_font_size": 10.5,
@@ -4319,7 +4319,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_33250137",
+    "paragraph_id": "p_39ea38bc",
     "page_num": 4,
     "text": "</ script script",
     "avg_font_size": 10.5,
@@ -4340,8 +4340,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -4353,7 +4353,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_90a21e3a",
+    "paragraph_id": "p_7b1c3e9a",
     "page_num": 4,
     "text": "</",
     "avg_font_size": 10.5,
@@ -4385,7 +4385,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_0be9f445",
+    "paragraph_id": "p_63fc415d",
     "page_num": 4,
     "text": "</ body body </ html html",
     "avg_font_size": 10.5,
@@ -4406,8 +4406,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -4419,7 +4419,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_5ceef1dd",
+    "paragraph_id": "p_7bd05a9e",
     "page_num": 4,
     "text": "</",
     "avg_font_size": 10.5,
@@ -4451,7 +4451,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_b7aaa010",
+    "paragraph_id": "p_c2174c91",
     "page_num": 5,
     "text": "Event Listener",
     "avg_font_size": 23.96,
@@ -4483,7 +4483,7 @@
     "relative_font_size": 12
   },
   {
-    "paragraph_id": "p_b307be96",
+    "paragraph_id": "p_00978b6d",
     "page_num": 5,
     "text": "An event is an important part of JavaScript.A web page respond according to an event occurred. Some events are user generated and some are generated by API\u2019s. An event listener is a procedure in JavaScript that waits for an event to occur. The simple example of an event is a user clicking the mouse or pressing a key on the keyboard.",
     "avg_font_size": 11.98,
@@ -4515,7 +4515,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_6d0d3818",
+    "paragraph_id": "p_32abe6b6",
     "page_num": 5,
     "text": "The addEventListener() is an inbuilt function in",
     "avg_font_size": 11.98,
@@ -4549,7 +4549,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_6aca8ce7",
+    "paragraph_id": "p_e36d1a4e",
     "page_num": 5,
     "text": "JavaScript which takes the event to listen for, and a second argument to be called whenever the described event gets fired. Any number of event handlers can be added to a single element without overwriting existing event handlers.",
     "avg_font_size": 11.98,
@@ -4581,7 +4581,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_4a6195e4",
+    "paragraph_id": "p_cc3b1831",
     "page_num": 5,
     "text": "Syntax:",
     "avg_font_size": 11.98,
@@ -4613,7 +4613,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_c4c41662",
+    "paragraph_id": "p_4be99621",
     "page_num": 5,
     "text": "element.addEventListener(event, listener,",
     "avg_font_size": 11.98,
@@ -4645,7 +4645,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_ab12023e",
+    "paragraph_id": "p_9831c648",
     "page_num": 5,
     "text": "Parameters:",
     "avg_font_size": 11.98,
@@ -4677,7 +4677,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_d38ad3a7",
+    "paragraph_id": "p_8de35a40",
     "page_num": 5,
     "text": "event : event can be any valid JavaScript",
     "avg_font_size": 11.98,
@@ -4711,7 +4711,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_c3047401",
+    "paragraph_id": "p_35c7c8da",
     "page_num": 5,
     "text": "event.Events are used without \u201con\u201d prefix like use \u201cclick\u201d instead of \u201conclick\u201d or \u201cmousedown\u201d instead of \u201conmousedown\u201d.",
     "avg_font_size": 11.98,
@@ -4743,7 +4743,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_14c43131",
+    "paragraph_id": "p_ccebea99",
     "page_num": 5,
     "text": "listener(handler function) : It can be a JavaScript",
     "avg_font_size": 11.98,
@@ -4777,7 +4777,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_df6d4529",
+    "paragraph_id": "p_ffdb1f53",
     "page_num": 5,
     "text": "function which respond to the event occur.",
     "avg_font_size": 11.98,
@@ -4809,7 +4809,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_2d660ab3",
+    "paragraph_id": "p_803d22fb",
     "page_num": 5,
     "text": "useCapture: It is an optional parameter used to",
     "avg_font_size": 11.98,
@@ -4843,7 +4843,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_e6b248af",
+    "paragraph_id": "p_e22babfa",
     "page_num": 5,
     "text": "control event propagation. A boolean value is passed where \u201c true \u201d denotes capturing phase and false \u201d denotes the bubbling phase.",
     "avg_font_size": 11.98,
@@ -4877,7 +4877,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_4e35baba",
+    "paragraph_id": "p_98bc7556",
     "page_num": 5,
     "text": "JavaScript Code to show the working of addEventListener() method :",
     "avg_font_size": 11.98,
@@ -4909,7 +4909,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_69926115",
+    "paragraph_id": "p_81c41eda",
     "page_num": 5,
     "text": "code #1:",
     "avg_font_size": 11.98,
@@ -4941,7 +4941,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_a5fdf573",
+    "paragraph_id": "p_d6b93f06",
     "page_num": 5,
     "text": "Javascript",
     "avg_font_size": 13.48,
@@ -4973,7 +4973,7 @@
     "relative_font_size": 9
   },
   {
-    "paragraph_id": "p_8a4b2348",
+    "paragraph_id": "p_e37b509d",
     "page_num": 6,
     "text": "<! DOCTYPE DOCTYPE html html <! html lang lang =\"en\" \"en\" <html head <head <meta meta charset charset =\"UTF-8\" \"UTF-8\" <meta meta name name =\"viewport\" \"viewport\" content content =\"width=device-width, initial-scale=1.0\" \"width=device-width, initial-scale=1.0\" <title title >Event Event Listener Listener Example Example </title> /title> /head> </head> body <body button id id =\"myButton\" \"myButton\" >Click Click me me </button> /button> <button id =\"geek\" \"geek\" >< >< /p> /p> <p id script <script",
     "avg_font_size": 10.48,
@@ -5005,7 +5005,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_e8051c3a",
+    "paragraph_id": "p_24218d54",
     "page_num": 6,
     "text": "// Get the button element by its ID // Get the button element by its ID",
     "avg_font_size": 10.48,
@@ -5037,7 +5037,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_9d94d064",
+    "paragraph_id": "p_a98cf441",
     "page_num": 6,
     "text": "var button",
     "avg_font_size": 10.48,
@@ -5058,8 +5058,8 @@
     "alignment": "unknown",
     "line_count": 1,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -5071,7 +5071,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_2b674aef",
+    "paragraph_id": "p_91975c51",
     "page_num": 6,
     "text": "button = document document .getElementById getElementById (\"myButton\" \"myButton\" ); );",
     "avg_font_size": 10.48,
@@ -5103,7 +5103,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_690c9766",
+    "paragraph_id": "p_a6cd1c8f",
     "page_num": 6,
     "text": "var var geek",
     "avg_font_size": 10.48,
@@ -5124,8 +5124,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -5136,7 +5136,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_729403d7",
+    "paragraph_id": "p_93baf64a",
     "page_num": 6,
     "text": "geek =document document .getElementById getElementById (\"geek\" \"geek\"",
     "avg_font_size": 10.48,
@@ -5168,7 +5168,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_cefea6ed",
+    "paragraph_id": "p_119350f0",
     "page_num": 6,
     "text": "var",
     "avg_font_size": 10.48,
@@ -5200,7 +5200,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_e279ba7c",
+    "paragraph_id": "p_a77d0bee",
     "page_num": 6,
     "text": "// Define the event handler function // Define the event handler function",
     "avg_font_size": 10.48,
@@ -5232,7 +5232,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_9288e2c8",
+    "paragraph_id": "p_a4bd2c7b",
     "page_num": 6,
     "text": "function handleClick",
     "avg_font_size": 10.48,
@@ -5253,8 +5253,8 @@
     "alignment": "unknown",
     "line_count": 1,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -5266,7 +5266,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_fbeddfa6",
+    "paragraph_id": "p_2c12565d",
     "page_num": 6,
     "text": "handleClick () ()",
     "avg_font_size": 10.48,
@@ -5298,7 +5298,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_4bba66d1",
+    "paragraph_id": "p_3ee391d3",
     "page_num": 6,
     "text": "function",
     "avg_font_size": 10.48,
@@ -5330,7 +5330,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_e5d561d1",
+    "paragraph_id": "p_c0cc9bf5",
     "page_num": 6,
     "text": "//   alert(\"Button clicked!\"); //   alert(\"Button clicked!\");",
     "avg_font_size": 10.48,
@@ -5362,7 +5362,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_2a8614f9",
+    "paragraph_id": "p_9379bf9b",
     "page_num": 6,
     "text": "geek .innerHTML innerHTML ='<H1>GeeksforGeeks</H1>' '<H1>GeeksforGeeks</H1>' geek",
     "avg_font_size": 10.48,
@@ -5394,7 +5394,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_ce0fea53",
+    "paragraph_id": "p_817ac9de",
     "page_num": 6,
     "text": "// Attach the event listener to the button // Attach the event listener to the button",
     "avg_font_size": 10.48,
@@ -5426,7 +5426,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_a14ca134",
+    "paragraph_id": "p_f60569cd",
     "page_num": 6,
     "text": "button .addEventListener addEventListener (\"click\" \"click\" , handleClick handleClick ); ); button /script> </script> /body> </body> /html> </html>",
     "avg_font_size": 10.48,
@@ -5458,7 +5458,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_a14e2a98",
+    "paragraph_id": "p_ce6ce3a4",
     "page_num": 6,
     "text": "Output:",
     "avg_font_size": 11.98,
@@ -5490,7 +5490,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_ff068689",
+    "paragraph_id": "p_90bb0d04",
     "page_num": 6,
     "text": "Text appears when button is clicked",
     "avg_font_size": 11.98,
@@ -5522,7 +5522,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_ef2166f8",
+    "paragraph_id": "p_fea61768",
     "page_num": 6,
     "text": "code #2:",
     "avg_font_size": 11.98,
@@ -5554,7 +5554,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_cde66636",
+    "paragraph_id": "p_3ea970ea",
     "page_num": 6,
     "text": "In this example two events \u201cmouseover\u201d and \u201cmouseout\u201d are added to the same element. If the text is hovered over then \u201cmouseover\u201d event occur and RespondMouseOver function invoked, similarly for \u201cmouseout\u201d event RespondMouseOut function invoked.",
     "avg_font_size": 11.98,
@@ -5586,7 +5586,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_abe055d9",
+    "paragraph_id": "p_0bebb81e",
     "page_num": 6,
     "text": "Javascript",
     "avg_font_size": 13.48,
@@ -5618,7 +5618,7 @@
     "relative_font_size": 9
   },
   {
-    "paragraph_id": "p_26b272fd",
+    "paragraph_id": "p_99711475",
     "page_num": 7,
     "text": "<! DOCTYPE DOCTYPE html html <! html <html body <body <button button id id =\"clickIt\" \"clickIt\" >Click Click here here </button> /button> <p id id =\"hoverPara\" \"hoverPara\" >Hover Hover over",
     "avg_font_size": 10.48,
@@ -5650,7 +5650,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_5c5d0be0",
+    "paragraph_id": "p_f7a740bf",
     "page_num": 7,
     "text": "over this this Text",
     "avg_font_size": 10.48,
@@ -5671,8 +5671,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -5684,7 +5684,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_9f1088bc",
+    "paragraph_id": "p_b318e3df",
     "page_num": 7,
     "text": "Text !< !< /p> /p>",
     "avg_font_size": 10.48,
@@ -5716,7 +5716,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_f479acd9",
+    "paragraph_id": "p_658a80c7",
     "page_num": 7,
     "text": "<b id id =\"effect\" \"effect\" >< >< /b> /b> <script script",
     "avg_font_size": 10.48,
@@ -5748,7 +5748,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_d7b47785",
+    "paragraph_id": "p_4e40f6c3",
     "page_num": 7,
     "text": "const const x = document",
     "avg_font_size": 10.48,
@@ -5769,8 +5769,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -5781,7 +5781,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_0a76b158",
+    "paragraph_id": "p_d7f9920a",
     "page_num": 7,
     "text": "document .getElementById getElementById (\"clickIt\" \"clickIt\" ); );",
     "avg_font_size": 10.48,
@@ -5813,7 +5813,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_396e3b6b",
+    "paragraph_id": "p_85cbf3a0",
     "page_num": 7,
     "text": "const const y = document",
     "avg_font_size": 10.48,
@@ -5834,8 +5834,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -5846,7 +5846,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_9a6144ca",
+    "paragraph_id": "p_6508ba4e",
     "page_num": 7,
     "text": "document .getElementById getElementById (\"hoverPara\" \"hoverPara\" ); ); x.addEventListener addEventListener (\"click\" \"click\" , RespondClick RespondClick ); ); y.addEventListener addEventListener (\"mouseover\" \"mouseover\" , RespondMouseOver RespondMouseOver ); ); y.addEventListener addEventListener (\"mouseout\" \"mouseout\" , RespondMouseOut RespondMouseOut ); );",
     "avg_font_size": 10.48,
@@ -5878,7 +5878,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_f51d13c1",
+    "paragraph_id": "p_0d0d01f6",
     "page_num": 7,
     "text": "function function RespondMouseOver",
     "avg_font_size": 10.48,
@@ -5899,8 +5899,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -5911,7 +5911,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_143165b1",
+    "paragraph_id": "p_56543e98",
     "page_num": 7,
     "text": "RespondMouseOver () () document document .getElementById getElementById (\"effect\" \"effect\" ). ). innerHTML innerHTML += += \"MouseOver Event\" \"MouseOver Event\" + \"<br>\" \"<br>\"",
     "avg_font_size": 10.48,
@@ -5943,7 +5943,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_e156be8f",
+    "paragraph_id": "p_757d85de",
     "page_num": 7,
     "text": "function function RespondMouseOut",
     "avg_font_size": 10.48,
@@ -5964,8 +5964,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -5976,7 +5976,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_9e93c0de",
+    "paragraph_id": "p_a4091e68",
     "page_num": 7,
     "text": "RespondMouseOut () () document document .getElementById getElementById (\"effect\" \"effect\" ). ). innerHTML innerHTML += += \"MouseOut Event\" \"MouseOut Event\" + \"<br>\" \"<br>\"",
     "avg_font_size": 10.48,
@@ -6008,7 +6008,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_d551ac1d",
+    "paragraph_id": "p_eb83c73b",
     "page_num": 7,
     "text": "function function RespondClick",
     "avg_font_size": 10.48,
@@ -6029,8 +6029,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -6041,7 +6041,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_184d6a6b",
+    "paragraph_id": "p_13bda4ba",
     "page_num": 7,
     "text": "RespondClick () () document document .getElementById getElementById (\"effect\" \"effect\" ). ). innerHTML innerHTML += += \"Click Event\" \"Click Event\" + \"<br>\" \"<br>\" </script> /script> /body> </body> /html> </html>",
     "avg_font_size": 10.48,
@@ -6073,7 +6073,7 @@
     "relative_font_size": 3
   },
   {
-    "paragraph_id": "p_3a745232",
+    "paragraph_id": "p_d76dab2a",
     "page_num": 7,
     "text": "Output:",
     "avg_font_size": 11.98,
@@ -6105,7 +6105,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_9e87abab",
+    "paragraph_id": "p_df597695",
     "page_num": 7,
     "text": "Events logged on different interactions",
     "avg_font_size": 11.98,
@@ -6137,7 +6137,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_0e1674ac",
+    "paragraph_id": "p_98c4313d",
     "page_num": 7,
     "text": "Mark as Read",
     "avg_font_size": 11.98,
@@ -6169,7 +6169,7 @@
     "relative_font_size": 6
   },
   {
-    "paragraph_id": "p_b8d0e7a9",
+    "paragraph_id": "p_10c565df",
     "page_num": 7,
     "text": "Report An Issue",
     "avg_font_size": 9.41,
@@ -6201,7 +6201,7 @@
     "relative_font_size": 1
   },
   {
-    "paragraph_id": "p_4f3d1578",
+    "paragraph_id": "p_6930c1d1",
     "page_num": 8,
     "text": "Event Bubbling",
     "avg_font_size": 24.0,
@@ -6233,7 +6233,7 @@
     "relative_font_size": 13
   },
   {
-    "paragraph_id": "p_f7951869",
+    "paragraph_id": "p_d9515e7d",
     "page_num": 8,
     "text": "Event bubbling is a method of event propagation in the HTML DOM API when an event is in an element",
     "avg_font_size": 12.0,
@@ -6267,7 +6267,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_41842480",
+    "paragraph_id": "p_99eec7ba",
     "page_num": 8,
     "text": "inside another element, and both elements have registered a handle to that event. It is a process that starts with the element that triggered the event and then bubbles up to the containing elements in the hierarchy. In event bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements.",
     "avg_font_size": 12.0,
@@ -6299,7 +6299,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_1d4d4773",
+    "paragraph_id": "p_1af5018e",
     "page_num": 8,
     "text": "Syntax:",
     "avg_font_size": 12.0,
@@ -6331,7 +6331,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_2c487c30",
+    "paragraph_id": "p_bfb98dbb",
     "page_num": 8,
     "text": "addEventListener(type, listener, useCapture)",
     "avg_font_size": 12.0,
@@ -6363,7 +6363,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_2c2ce3ed",
+    "paragraph_id": "p_edaadaca",
     "page_num": 8,
     "text": "type : Use to refer to the type of event. listener : Function we want to call when the event of the specified type occurs. userCapture : Boolean value. Boolean value indicates event phase. By Default useCapture is false. It",
     "avg_font_size": 12.0,
@@ -6397,7 +6397,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_735b1eaa",
+    "paragraph_id": "p_9a98332f",
     "page_num": 8,
     "text": "means it is in the bubbling phase.",
     "avg_font_size": 12.0,
@@ -6429,7 +6429,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_6bf04863",
+    "paragraph_id": "p_6d8a02e7",
     "page_num": 8,
     "text": "Example 1: This example shows the working of event bubbling in JavaScript.",
     "avg_font_size": 12.0,
@@ -6463,7 +6463,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_94aa8ba8",
+    "paragraph_id": "p_2555bd03",
     "page_num": 8,
     "text": "HTML",
     "avg_font_size": 13.5,
@@ -6495,7 +6495,7 @@
     "relative_font_size": 10
   },
   {
-    "paragraph_id": "p_ddf9e176",
+    "paragraph_id": "p_509086b9",
     "page_num": 8,
     "text": "<!DOCTYPE html> <!DOCTYPE html>",
     "avg_font_size": 10.5,
@@ -6527,7 +6527,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_1da265d5",
+    "paragraph_id": "p_f9da3a43",
     "page_num": 8,
     "text": "html html head head title title",
     "avg_font_size": 10.5,
@@ -6559,7 +6559,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_3028def8",
+    "paragraph_id": "p_2b1a1803",
     "page_num": 8,
     "text": "Bubbling Event in Javascript Bubbling Event in Javascript </",
     "avg_font_size": 10.5,
@@ -6591,7 +6591,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_78162736",
+    "paragraph_id": "p_07441bcb",
     "page_num": 8,
     "text": "</ title title </ head head",
     "avg_font_size": 10.5,
@@ -6612,8 +6612,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -6625,7 +6625,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_17b3ac76",
+    "paragraph_id": "p_33df6d26",
     "page_num": 8,
     "text": "</",
     "avg_font_size": 10.5,
@@ -6657,7 +6657,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_94408bef",
+    "paragraph_id": "p_d5c59d4a",
     "page_num": 8,
     "text": "body body h2 h2 >Bubbling Event in Javascript",
     "avg_font_size": 10.5,
@@ -6678,8 +6678,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -6690,7 +6690,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_82ce59c4",
+    "paragraph_id": "p_fc56c618",
     "page_num": 8,
     "text": "Bubbling Event in Javascript </",
     "avg_font_size": 10.5,
@@ -6722,7 +6722,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_a96bc39e",
+    "paragraph_id": "p_a412020c",
     "page_num": 8,
     "text": "</ h2 h2 div div id",
     "avg_font_size": 10.5,
@@ -6743,8 +6743,8 @@
     "alignment": "center",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -6756,7 +6756,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_31fde5ee",
+    "paragraph_id": "p_8c2e0066",
     "page_num": 8,
     "text": "id =\"parent\" \"parent\"",
     "avg_font_size": 10.5,
@@ -6788,7 +6788,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_224997fe",
+    "paragraph_id": "p_3ff538e0",
     "page_num": 8,
     "text": "button button h2 h2 >Parent",
     "avg_font_size": 10.5,
@@ -6809,8 +6809,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -6821,7 +6821,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_b9e0ca95",
+    "paragraph_id": "p_bfe0a503",
     "page_num": 8,
     "text": "Parent </",
     "avg_font_size": 10.5,
@@ -6853,7 +6853,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_6d00e2bd",
+    "paragraph_id": "p_2c7f6837",
     "page_num": 8,
     "text": "</ h2 h2",
     "avg_font_size": 10.5,
@@ -6874,8 +6874,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -6887,7 +6887,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_5dd90710",
+    "paragraph_id": "p_00b79754",
     "page_num": 8,
     "text": "</",
     "avg_font_size": 10.5,
@@ -6919,7 +6919,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_51aee277",
+    "paragraph_id": "p_484199a6",
     "page_num": 8,
     "text": "</ button button button button id",
     "avg_font_size": 10.5,
@@ -6940,8 +6940,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -6953,7 +6953,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_5a485f5d",
+    "paragraph_id": "p_4e5ef936",
     "page_num": 8,
     "text": "id =\"child\" \"child\" Child </ </ >Child </",
     "avg_font_size": 10.5,
@@ -6985,7 +6985,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_e4b7522b",
+    "paragraph_id": "p_745157cb",
     "page_num": 8,
     "text": "</ button button",
     "avg_font_size": 10.5,
@@ -7006,8 +7006,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -7019,7 +7019,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_bd554331",
+    "paragraph_id": "p_9a485d35",
     "page_num": 8,
     "text": "</",
     "avg_font_size": 10.5,
@@ -7051,7 +7051,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_f282ec2b",
+    "paragraph_id": "p_3fe91518",
     "page_num": 8,
     "text": "</ div div >< >< br br",
     "avg_font_size": 10.5,
@@ -7072,8 +7072,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -7085,7 +7085,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_3e5e55ca",
+    "paragraph_id": "p_43668555",
     "page_num": 8,
     "text": "script script",
     "avg_font_size": 10.5,
@@ -7117,7 +7117,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_7667d75b",
+    "paragraph_id": "p_7bfbf6f2",
     "page_num": 8,
     "text": "document document .getElementById getElementById \"child\" ). ). addEventListener addEventListener (\"click\"",
     "avg_font_size": 10.5,
@@ -7149,7 +7149,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_d063ac5e",
+    "paragraph_id": "p_c9ad81e4",
     "page_num": 8,
     "text": "\"click\" function function ()",
     "avg_font_size": 10.5,
@@ -7170,8 +7170,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -7183,7 +7183,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_57ea2e89",
+    "paragraph_id": "p_608aca04",
     "page_num": 8,
     "text": "() \"child\" alert alert (\"You clicked the Child element!\" \"You clicked the Child element!\" ); );",
     "avg_font_size": 10.5,
@@ -7215,7 +7215,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_7862d0a2",
+    "paragraph_id": "p_180cf461",
     "page_num": 9,
     "text": "},",
     "avg_font_size": 10.5,
@@ -7247,7 +7247,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_440945ae",
+    "paragraph_id": "p_9099a8a9",
     "page_num": 9,
     "text": "}, false false );",
     "avg_font_size": 10.5,
@@ -7268,8 +7268,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -7281,7 +7281,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_6f1eb90d",
+    "paragraph_id": "p_41ee3d7e",
     "page_num": 9,
     "text": "); document document .getElementById getElementById \"parent\" ). ). addEventListener addEventListener (\"click\"",
     "avg_font_size": 10.5,
@@ -7313,7 +7313,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_00727bd7",
+    "paragraph_id": "p_7bf11290",
     "page_num": 9,
     "text": "\"click\" function function ()",
     "avg_font_size": 10.5,
@@ -7334,8 +7334,8 @@
     "alignment": "center",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -7347,7 +7347,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_41498d8e",
+    "paragraph_id": "p_d8319076",
     "page_num": 9,
     "text": "() \"parent\" alert alert (\"You clicked the parent element!\" \"You clicked the parent element!\" ); ); },",
     "avg_font_size": 10.5,
@@ -7379,7 +7379,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_0c75deaf",
+    "paragraph_id": "p_084547d5",
     "page_num": 9,
     "text": "}, false false );",
     "avg_font_size": 10.5,
@@ -7400,8 +7400,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -7413,7 +7413,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_38a9b4e1",
+    "paragraph_id": "p_969fcc7d",
     "page_num": 9,
     "text": "); </",
     "avg_font_size": 10.5,
@@ -7445,7 +7445,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_f6bdb112",
+    "paragraph_id": "p_91a0f01c",
     "page_num": 9,
     "text": "</ script script </ body body",
     "avg_font_size": 10.5,
@@ -7466,8 +7466,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -7479,7 +7479,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_cdf82b90",
+    "paragraph_id": "p_4281c3c1",
     "page_num": 9,
     "text": "</",
     "avg_font_size": 10.5,
@@ -7511,7 +7511,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_bf432860",
+    "paragraph_id": "p_dc9889f7",
     "page_num": 9,
     "text": "</ html html",
     "avg_font_size": 10.5,
@@ -7532,8 +7532,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -7545,7 +7545,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_137441ec",
+    "paragraph_id": "p_ae0c2c0e",
     "page_num": 9,
     "text": "</",
     "avg_font_size": 10.5,
@@ -7577,7 +7577,7 @@
     "relative_font_size": 4
   },
   {
-    "paragraph_id": "p_0c464946",
+    "paragraph_id": "p_66e2384d",
     "page_num": 9,
     "text": "Output:",
     "avg_font_size": 12.0,
@@ -7609,7 +7609,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_34d795ff",
+    "paragraph_id": "p_2139ab92",
     "page_num": 9,
     "text": "After clicking on the Parent button:",
     "avg_font_size": 12.0,
@@ -7641,7 +7641,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_34c66595",
+    "paragraph_id": "p_e05934ec",
     "page_num": 9,
     "text": "After clicking on the Child button:",
     "avg_font_size": 12.0,
@@ -7673,7 +7673,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_59580fdb",
+    "paragraph_id": "p_b8a45272",
     "page_num": 9,
     "text": "From above example we understand that in bubbling the innermost element\u2019s event is handled first and then the outer: the <p> element\u2019s click event is handled first, then the <div> element\u2019s click event.",
     "avg_font_size": 12.0,
@@ -7705,7 +7705,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_6887a36b",
+    "paragraph_id": "p_b95e877a",
     "page_num": 10,
     "text": "Event Delegation",
     "avg_font_size": 24.0,
@@ -7737,7 +7737,7 @@
     "relative_font_size": 13
   },
   {
-    "paragraph_id": "p_aa2c18ec",
+    "paragraph_id": "p_26993ea3",
     "page_num": 10,
     "text": "Event Delegation is basically a pattern to handle events efficiently. Instead of adding an event listener to each and every similar element, we can add an event listener to a parent element and call an event on a particular target using the .target property of the event object.",
     "avg_font_size": 12.0,
@@ -7769,7 +7769,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_3a5e489a",
+    "paragraph_id": "p_d302d4af",
     "page_num": 10,
     "text": "Let\u2019s see an example with and without event delegation",
     "avg_font_size": 12.0,
@@ -7801,7 +7801,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_0b2e85ae",
+    "paragraph_id": "p_781e62d1",
     "page_num": 10,
     "text": "const customUI = document.createElement('ul'); for (var i = 1; i <= 10; i++) { const newElement = document.createElement('li'); newElement.textContent = \"This is line \" + i; newElement.addEventListener('click', () => { console.log('Responding') }) customUI.appendChild(newElement);",
     "avg_font_size": 12.0,
@@ -7833,7 +7833,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_058cd9fc",
+    "paragraph_id": "p_ed63ea08",
     "page_num": 10,
     "text": "The above code will associate the function with every <li> element that is shown in the below image. We are creating an <ul> element, attaching too many <li> elements, and attaching an event listener with a responding function to each paragraph as we create it.",
     "avg_font_size": 12.0,
@@ -7865,7 +7865,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_aa94eb2b",
+    "paragraph_id": "p_e7651b9e",
     "page_num": 10,
     "text": "Implementing the same functionalities with an alternate approach. In this approach, we will associate the same function with all event listeners. We are creating too many responding functions (that all actually do the exact same thing). We could extract this function and just reference the function instead of creating too many functions:",
     "avg_font_size": 12.0,
@@ -7897,7 +7897,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_70dd1172",
+    "paragraph_id": "p_f2da4618",
     "page_num": 10,
     "text": "const customUI = document.createElement('ul'); function responding() { console.log('Responding')",
     "avg_font_size": 12.0,
@@ -7929,7 +7929,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_f2f58209",
+    "paragraph_id": "p_7b4e014c",
     "page_num": 10,
     "text": "for (var i = 1; i <= 10; i++) { const newElement = document.createElement('li');",
     "avg_font_size": 12.0,
@@ -7961,7 +7961,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_b3702a9d",
+    "paragraph_id": "p_75509582",
     "page_num": 11,
     "text": "newElement.textContent = \"This is line \" + i; newElement.addEventListener('click', responding) customUI.appendChild(newElement);",
     "avg_font_size": 12.0,
@@ -7993,7 +7993,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_a740d06c",
+    "paragraph_id": "p_dcfaf2a8",
     "page_num": 11,
     "text": "The functionality of the above code is shown below \u2013",
     "avg_font_size": 12.0,
@@ -8025,7 +8025,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_40d6fd74",
+    "paragraph_id": "p_022d4da1",
     "page_num": 11,
     "text": "In the above approach, we still have too many event listeners pointing to the same function. Now implementing the same functionalities using a single function and single event.",
     "avg_font_size": 12.0,
@@ -8057,7 +8057,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_d14c8051",
+    "paragraph_id": "p_d3458861",
     "page_num": 11,
     "text": "const customUI = document.createElement('ul'); function responding() { console.log('Responding')",
     "avg_font_size": 12.0,
@@ -8089,7 +8089,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_b4f9ff37",
+    "paragraph_id": "p_5807197a",
     "page_num": 11,
     "text": "for (var i = 1; i <= 10; i++) { const newElement = document.createElement('li'); newElement.textContent = \"This is line \" + i; customUI.appendChild(newElement); customUI.addEventListener('click', responding)",
     "avg_font_size": 12.0,
@@ -8121,7 +8121,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_4335e79b",
+    "paragraph_id": "p_4d70bd27",
     "page_num": 12,
     "text": "Now there is a single event listener and a single responding function. In the above-shown method, we have improved the performance, but we have lost access to individual <li> elements so to resolve this issue, we will use a technique called event delegation.",
     "avg_font_size": 12.0,
@@ -8153,7 +8153,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_0d089609",
+    "paragraph_id": "p_193d3b0d",
     "page_num": 12,
     "text": "The event object has a special property call .target which will help us in getting access to individual <li> elements with the help of phases.",
     "avg_font_size": 12.0,
@@ -8185,7 +8185,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_8200dd92",
+    "paragraph_id": "p_27b7520c",
     "page_num": 12,
     "text": "Steps:",
     "avg_font_size": 12.0,
@@ -8217,7 +8217,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_0641bac5",
+    "paragraph_id": "p_1447434c",
     "page_num": 12,
     "text": "<ul> element is clicked. The event goes in the capturing phase. It reaches the target (<li> in our case). It switches to the bubbling phase. When it hits the <ul> element, it runs the event listener. Inside the listener function event.target is the element that was clicked. Event.target provides us access to the <li> element that was clicked.",
     "avg_font_size": 12.0,
@@ -8249,7 +8249,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_f46ff919",
+    "paragraph_id": "p_c8fd616e",
     "page_num": 12,
     "text": "The .nodeName property of the .target allows us to identify a specific node. If our parent element contains more than one child element then we can identify specific elements by using the .nodeName property.",
     "avg_font_size": 12.0,
@@ -8281,7 +8281,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_936d2459",
+    "paragraph_id": "p_7225d80a",
     "page_num": 12,
     "text": "const customUI = document.createElement('ul'); function responding(evt) { if (evt.target.nodeName === 'li') console.log('Responding')",
     "avg_font_size": 12.0,
@@ -8313,7 +8313,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_87caa5a9",
+    "paragraph_id": "p_cc786e9f",
     "page_num": 12,
     "text": "for (var i = 1; i <= 10; i++) { const newElement = document.createElement('li'); newElement.textContent = \"This is line \" + i; customUI.appendChild(newElement);",
     "avg_font_size": 12.0,
@@ -8345,7 +8345,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_998c2df3",
+    "paragraph_id": "p_d71c26c4",
     "page_num": 12,
     "text": "customUI.addEventListener('click', responding);",
     "avg_font_size": 12.0,
@@ -8377,7 +8377,7 @@
     "relative_font_size": 7
   },
   {
-    "paragraph_id": "p_3f7ac5f1",
+    "paragraph_id": "p_78ad26c5",
     "page_num": 13,
     "text": "Creating HTML with Javascript",
     "avg_font_size": 19.43,
@@ -8409,7 +8409,7 @@
     "relative_font_size": 11
   },
   {
-    "paragraph_id": "p_ba514a14",
+    "paragraph_id": "p_2afda64f",
     "page_num": 13,
     "text": "In this article, we will discuss how to create HTML elements using JavaScript. The following HTML has been provided to us, and our task is to recreate the given card element using JavaScript.",
     "avg_font_size": 9.71,
@@ -8441,7 +8441,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_90a68cea",
+    "paragraph_id": "p_4c50d558",
     "page_num": 13,
     "text": "HTML",
     "avg_font_size": 10.93,
@@ -8473,7 +8473,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_4a04bf72",
+    "paragraph_id": "p_080587f4",
     "page_num": 13,
     "text": "<!DOCTYPE html> <!DOCTYPE html>",
     "avg_font_size": 8.5,
@@ -8505,7 +8505,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_8570213e",
+    "paragraph_id": "p_dc225485",
     "page_num": 13,
     "text": "html html head head meta meta charset",
     "avg_font_size": 8.5,
@@ -8526,8 +8526,8 @@
     "alignment": "left",
     "line_count": 6,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -8538,7 +8538,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_0a8df707",
+    "paragraph_id": "p_0fac6900",
     "page_num": 13,
     "text": "charset =\"UTF-8\" \"UTF-8\" /> />",
     "avg_font_size": 8.5,
@@ -8570,7 +8570,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_e328fa9d",
+    "paragraph_id": "p_45739799",
     "page_num": 13,
     "text": "meta meta http-equiv",
     "avg_font_size": 8.5,
@@ -8591,8 +8591,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -8603,7 +8603,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_0ca300e4",
+    "paragraph_id": "p_dc54808d",
     "page_num": 13,
     "text": "http-equiv =\"X-UA-Compatible\" \"X-UA-Compatible\" content content =\"IE=edge\" \"IE=edge\" /> />",
     "avg_font_size": 8.5,
@@ -8635,7 +8635,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_26a81986",
+    "paragraph_id": "p_c08106ca",
     "page_num": 13,
     "text": "title title >Creating HTML Element with JS",
     "avg_font_size": 8.5,
@@ -8656,8 +8656,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -8668,7 +8668,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_1fde57bc",
+    "paragraph_id": "p_b53e0caf",
     "page_num": 13,
     "text": "Creating HTML Element with JS </",
     "avg_font_size": 8.5,
@@ -8700,7 +8700,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a603a3d6",
+    "paragraph_id": "p_ef67aa11",
     "page_num": 13,
     "text": "</ title title style style parent-container parent-container display display flex flex flex-direction flex-direction row row",
     "avg_font_size": 8.5,
@@ -8721,8 +8721,8 @@
     "alignment": "unknown",
     "line_count": 12,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -8733,7 +8733,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_44a22e92",
+    "paragraph_id": "p_d9e6f15a",
     "page_num": 13,
     "text": "card-container card-container width width : 30",
     "avg_font_size": 8.5,
@@ -8754,8 +8754,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -8766,7 +8766,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_c59c0c43",
+    "paragraph_id": "p_52e44cab",
     "page_num": 13,
     "text": "30 %;",
     "avg_font_size": 8.5,
@@ -8798,7 +8798,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_3fb3c50b",
+    "paragraph_id": "p_822ed15a",
     "page_num": 13,
     "text": "display display flex flex flex-direction flex-direction column column text-align text-align center center box-shadow box-shadow : 0 4px",
     "avg_font_size": 8.5,
@@ -8819,8 +8819,8 @@
     "alignment": "unknown",
     "line_count": 11,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -8831,7 +8831,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_efca8198",
+    "paragraph_id": "p_5f38c876",
     "page_num": 13,
     "text": "px 8px px 0 rgba rgba (0, 0, 0, 0.2 0.2 ); );",
     "avg_font_size": 8.5,
@@ -8863,7 +8863,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_058bd28b",
+    "paragraph_id": "p_4db7d1f8",
     "page_num": 13,
     "text": "margin margin : 10",
     "avg_font_size": 8.5,
@@ -8884,8 +8884,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -8896,7 +8896,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_3ec5fff7",
+    "paragraph_id": "p_acfa0b6d",
     "page_num": 13,
     "text": "10 px px",
     "avg_font_size": 8.5,
@@ -8928,7 +8928,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_4b1bde85",
+    "paragraph_id": "p_366ab6c8",
     "page_num": 13,
     "text": "padding-bottom padding-bottom : 5px",
     "avg_font_size": 8.5,
@@ -8949,8 +8949,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -8961,7 +8961,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_d0748140",
+    "paragraph_id": "p_f78cb1ae",
     "page_num": 13,
     "text": "px",
     "avg_font_size": 8.5,
@@ -8993,7 +8993,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_060519d6",
+    "paragraph_id": "p_078b9e99",
     "page_num": 13,
     "text": "media media only only screen screen and and max-width max-width 600px 600px ) { parent-container parent-container flex-direction flex-direction column column",
     "avg_font_size": 8.5,
@@ -9014,8 +9014,8 @@
     "alignment": "unknown",
     "line_count": 12,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -9026,7 +9026,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_4ece7e9b",
+    "paragraph_id": "p_557c54de",
     "page_num": 13,
     "text": "</",
     "avg_font_size": 8.5,
@@ -9058,7 +9058,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_3dac02ec",
+    "paragraph_id": "p_5e39d676",
     "page_num": 13,
     "text": "</ style style </ head head",
     "avg_font_size": 8.5,
@@ -9079,8 +9079,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -9092,7 +9092,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_635291cd",
+    "paragraph_id": "p_d04972fb",
     "page_num": 13,
     "text": "</",
     "avg_font_size": 8.5,
@@ -9124,7 +9124,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_0766393b",
+    "paragraph_id": "p_de2f5c30",
     "page_num": 13,
     "text": "body body div div id",
     "avg_font_size": 8.5,
@@ -9145,8 +9145,8 @@
     "alignment": "left",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -9157,7 +9157,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_2c2b6df8",
+    "paragraph_id": "p_2ee6e00c",
     "page_num": 13,
     "text": "id =\"parent-container\" \"parent-container\"",
     "avg_font_size": 8.5,
@@ -9189,7 +9189,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_9b4cf28c",
+    "paragraph_id": "p_e781bbaa",
     "page_num": 13,
     "text": "div div class",
     "avg_font_size": 8.5,
@@ -9210,8 +9210,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -9222,7 +9222,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_5ca8f6cd",
+    "paragraph_id": "p_220bf71b",
     "page_num": 13,
     "text": "class =\"card-container\" \"card-container\"",
     "avg_font_size": 8.5,
@@ -9254,7 +9254,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_c26d118e",
+    "paragraph_id": "p_66101ec0",
     "page_num": 13,
     "text": "img img class",
     "avg_font_size": 8.5,
@@ -9275,8 +9275,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -9287,7 +9287,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_55d36470",
+    "paragraph_id": "p_4d321b6d",
     "page_num": 13,
     "text": "class =\"image\" \"image\" src src =\"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_2020101318 \"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_2020101318",
     "avg_font_size": 8.5,
@@ -9319,7 +9319,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_3c62d4b8",
+    "paragraph_id": "p_6652af75",
     "page_num": 13,
     "text": "span span >The journey of a thousand miles begins with a single",
     "avg_font_size": 8.5,
@@ -9340,8 +9340,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -9352,7 +9352,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_cc5d6104",
+    "paragraph_id": "p_8ffeb0ef",
     "page_num": 13,
     "text": "The journey of a thousand miles begins with a single step </",
     "avg_font_size": 8.5,
@@ -9384,7 +9384,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_4983f825",
+    "paragraph_id": "p_4b0564b5",
     "page_num": 13,
     "text": "</ span span",
     "avg_font_size": 8.5,
@@ -9405,8 +9405,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -9418,7 +9418,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_eb52ea06",
+    "paragraph_id": "p_589d1513",
     "page_num": 13,
     "text": "step </",
     "avg_font_size": 8.5,
@@ -9450,7 +9450,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_56d2c942",
+    "paragraph_id": "p_6ade53fb",
     "page_num": 13,
     "text": "</ div div",
     "avg_font_size": 8.5,
@@ -9471,8 +9471,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -9484,7 +9484,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_385878c7",
+    "paragraph_id": "p_90b23772",
     "page_num": 13,
     "text": "</",
     "avg_font_size": 8.5,
@@ -9516,7 +9516,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_e32ff15f",
+    "paragraph_id": "p_53016843",
     "page_num": 13,
     "text": "</ div div script script src",
     "avg_font_size": 8.5,
@@ -9537,8 +9537,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -9550,7 +9550,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_06e6dd3c",
+    "paragraph_id": "p_fd84f865",
     "page_num": 13,
     "text": "src =\"index3.js\" \"index3.js\" ></",
     "avg_font_size": 8.5,
@@ -9582,7 +9582,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_c3b10f41",
+    "paragraph_id": "p_5269ec9d",
     "page_num": 13,
     "text": "></ script script </ body body",
     "avg_font_size": 8.5,
@@ -9603,8 +9603,8 @@
     "alignment": "center",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -9616,7 +9616,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_0d034c25",
+    "paragraph_id": "p_1fba0c9b",
     "page_num": 13,
     "text": "</",
     "avg_font_size": 8.5,
@@ -9648,7 +9648,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_6e1a2dff",
+    "paragraph_id": "p_4a985df5",
     "page_num": 13,
     "text": "</ html html",
     "avg_font_size": 8.5,
@@ -9669,8 +9669,8 @@
     "alignment": "left",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -9682,7 +9682,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_be59a15d",
+    "paragraph_id": "p_34fc8944",
     "page_num": 13,
     "text": "</",
     "avg_font_size": 8.5,
@@ -9714,7 +9714,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_08135ad4",
+    "paragraph_id": "p_2e11b138",
     "page_num": 13,
     "text": "Output:",
     "avg_font_size": 12.14,
@@ -9746,7 +9746,7 @@
     "relative_font_size": 8
   },
   {
-    "paragraph_id": "p_652319b4",
+    "paragraph_id": "p_8946387f",
     "page_num": 13,
     "text": "Rendered HTML To re-create the card, we would first fetch the parent-container, by using document.getElementById(), then we would use the document.createElement method to create a new element and set the CSS classes for that element using the .classlist.add() method.",
     "avg_font_size": 9.71,
@@ -9778,7 +9778,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_405b6d89",
+    "paragraph_id": "p_377f90d6",
     "page_num": 14,
     "text": "Then, we would create another element - the image element with correct alt text(using setAttribute) and the span with the text, and finally add child elements to parent elements using the .appendChild() method. Check out the JS code enclosed in the script tag below -",
     "avg_font_size": 9.71,
@@ -9810,7 +9810,7 @@
     "relative_font_size": 2
   },
   {
-    "paragraph_id": "p_c74da920",
+    "paragraph_id": "p_021249e7",
     "page_num": 14,
     "text": "HTML",
     "avg_font_size": 10.93,
@@ -9842,7 +9842,7 @@
     "relative_font_size": 5
   },
   {
-    "paragraph_id": "p_26bc6613",
+    "paragraph_id": "p_ce5f71f7",
     "page_num": 14,
     "text": "<!DOCTYPE html> <!DOCTYPE html>",
     "avg_font_size": 8.5,
@@ -9874,7 +9874,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_d68db80f",
+    "paragraph_id": "p_8061341a",
     "page_num": 14,
     "text": "html html head head meta meta charset",
     "avg_font_size": 8.5,
@@ -9895,8 +9895,8 @@
     "alignment": "left",
     "line_count": 6,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -9907,7 +9907,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_38650281",
+    "paragraph_id": "p_0b2a8424",
     "page_num": 14,
     "text": "charset =\"UTF-8\" \"UTF-8\" /> />",
     "avg_font_size": 8.5,
@@ -9939,7 +9939,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_fbd62cbf",
+    "paragraph_id": "p_d5e94ad4",
     "page_num": 14,
     "text": "meta meta http-equiv",
     "avg_font_size": 8.5,
@@ -9960,8 +9960,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -9972,7 +9972,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a3fe67a8",
+    "paragraph_id": "p_59b8299a",
     "page_num": 14,
     "text": "http-equiv =\"X-UA-Compatible\" \"X-UA-Compatible\" content content =\"IE=edge\" \"IE=edge\" /> />",
     "avg_font_size": 8.5,
@@ -10004,7 +10004,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_5d8ad9e1",
+    "paragraph_id": "p_eb189f9c",
     "page_num": 14,
     "text": "title title >Creating HTML Element with JS",
     "avg_font_size": 8.5,
@@ -10025,8 +10025,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10037,7 +10037,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_fee864f7",
+    "paragraph_id": "p_47646607",
     "page_num": 14,
     "text": "Creating HTML Element with JS </",
     "avg_font_size": 8.5,
@@ -10069,7 +10069,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_7c0ee3d6",
+    "paragraph_id": "p_03078c77",
     "page_num": 14,
     "text": "</ title title style style parent-container parent-container display display flex flex flex-direction flex-direction row row",
     "avg_font_size": 8.5,
@@ -10090,8 +10090,8 @@
     "alignment": "unknown",
     "line_count": 12,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10102,7 +10102,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a727f042",
+    "paragraph_id": "p_7e3d2bd8",
     "page_num": 14,
     "text": "card-container card-container width width : 30",
     "avg_font_size": 8.5,
@@ -10123,8 +10123,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10135,7 +10135,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_b3585af7",
+    "paragraph_id": "p_7d2ff126",
     "page_num": 14,
     "text": "30 %;",
     "avg_font_size": 8.5,
@@ -10167,7 +10167,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_60b617ab",
+    "paragraph_id": "p_429077c8",
     "page_num": 14,
     "text": "display display flex flex flex-direction flex-direction column column text-align text-align center center box-shadow box-shadow : 0 4px",
     "avg_font_size": 8.5,
@@ -10188,8 +10188,8 @@
     "alignment": "unknown",
     "line_count": 11,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10200,7 +10200,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_992950a5",
+    "paragraph_id": "p_dbda50c5",
     "page_num": 14,
     "text": "px 8px px 0 rgba rgba (0, 0, 0, 0.2 0.2 ); );",
     "avg_font_size": 8.5,
@@ -10232,7 +10232,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_5e23523c",
+    "paragraph_id": "p_608f6742",
     "page_num": 14,
     "text": "margin margin : 10",
     "avg_font_size": 8.5,
@@ -10253,8 +10253,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10265,7 +10265,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_2d8176a3",
+    "paragraph_id": "p_9ca6b030",
     "page_num": 14,
     "text": "10 px px",
     "avg_font_size": 8.5,
@@ -10297,7 +10297,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_35e95e59",
+    "paragraph_id": "p_905a7e56",
     "page_num": 14,
     "text": "padding-bottom padding-bottom : 5px",
     "avg_font_size": 8.5,
@@ -10318,8 +10318,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10330,7 +10330,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_5c25f81e",
+    "paragraph_id": "p_480398ab",
     "page_num": 14,
     "text": "px",
     "avg_font_size": 8.5,
@@ -10362,7 +10362,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_a0e0b3e3",
+    "paragraph_id": "p_48092595",
     "page_num": 14,
     "text": "media media only only screen screen and and max-width max-width 600px 600px ) { parent-container parent-container flex-direction flex-direction column column",
     "avg_font_size": 8.5,
@@ -10383,8 +10383,8 @@
     "alignment": "unknown",
     "line_count": 12,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10395,7 +10395,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_c7dac44f",
+    "paragraph_id": "p_fbf1c125",
     "page_num": 14,
     "text": "</",
     "avg_font_size": 8.5,
@@ -10427,7 +10427,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_2a5026eb",
+    "paragraph_id": "p_25022454",
     "page_num": 14,
     "text": "</ style style </ head head",
     "avg_font_size": 8.5,
@@ -10448,8 +10448,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -10461,7 +10461,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_e1be5cab",
+    "paragraph_id": "p_01241730",
     "page_num": 14,
     "text": "</",
     "avg_font_size": 8.5,
@@ -10493,7 +10493,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_09f938b0",
+    "paragraph_id": "p_18a92150",
     "page_num": 14,
     "text": "body body div div id",
     "avg_font_size": 8.5,
@@ -10514,8 +10514,8 @@
     "alignment": "left",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10526,7 +10526,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_aaf4dc6f",
+    "paragraph_id": "p_1737d562",
     "page_num": 14,
     "text": "id =\"parent-container\" \"parent-container\"",
     "avg_font_size": 8.5,
@@ -10558,7 +10558,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_0abc9744",
+    "paragraph_id": "p_35b9e881",
     "page_num": 14,
     "text": "div div class",
     "avg_font_size": 8.5,
@@ -10579,8 +10579,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10591,7 +10591,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_23832fec",
+    "paragraph_id": "p_7d0d44a1",
     "page_num": 14,
     "text": "class =\"card-container\" \"card-container\"",
     "avg_font_size": 8.5,
@@ -10623,7 +10623,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_90cdd81e",
+    "paragraph_id": "p_7c4fea36",
     "page_num": 14,
     "text": "img img src",
     "avg_font_size": 8.5,
@@ -10644,8 +10644,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10656,7 +10656,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_c7837481",
+    "paragraph_id": "p_97dcb4dd",
     "page_num": 14,
     "text": "src =\"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_20201013185512_Consumer% \"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_20201013185512_Consumer%",
     "avg_font_size": 8.5,
@@ -10688,7 +10688,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_99ca7154",
+    "paragraph_id": "p_afa95765",
     "page_num": 14,
     "text": "span span >The journey of a thousand miles begins with a single",
     "avg_font_size": 8.5,
@@ -10709,8 +10709,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10721,7 +10721,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_6b9a26b7",
+    "paragraph_id": "p_7a62b19d",
     "page_num": 14,
     "text": "The journey of a thousand miles begins with a single step </",
     "avg_font_size": 8.5,
@@ -10753,7 +10753,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_56188589",
+    "paragraph_id": "p_d3fa5972",
     "page_num": 14,
     "text": "</ span span",
     "avg_font_size": 8.5,
@@ -10774,8 +10774,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -10787,7 +10787,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_d4b2722b",
+    "paragraph_id": "p_b3f70b2e",
     "page_num": 14,
     "text": "step </",
     "avg_font_size": 8.5,
@@ -10819,7 +10819,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_8b0602e2",
+    "paragraph_id": "p_3ce1f5be",
     "page_num": 14,
     "text": "</ div div",
     "avg_font_size": 8.5,
@@ -10840,8 +10840,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -10853,7 +10853,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_d6ca7dad",
+    "paragraph_id": "p_b012c0df",
     "page_num": 14,
     "text": "</",
     "avg_font_size": 8.5,
@@ -10885,7 +10885,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_560eacb1",
+    "paragraph_id": "p_e9673cd2",
     "page_num": 14,
     "text": "</ div div script script type",
     "avg_font_size": 8.5,
@@ -10906,8 +10906,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -10919,7 +10919,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_04c81b24",
+    "paragraph_id": "p_619c6132",
     "page_num": 14,
     "text": "type =\"text/javascript\" \"text/javascript\"",
     "avg_font_size": 8.5,
@@ -10951,7 +10951,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_d40fe4ff",
+    "paragraph_id": "p_c98b2e72",
     "page_num": 14,
     "text": "const const parentContainer",
     "avg_font_size": 8.5,
@@ -10972,8 +10972,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -10984,7 +10984,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_99df7b7e",
+    "paragraph_id": "p_3717ec5c",
     "page_num": 14,
     "text": "parentContainer = document document .getElementById getElementById (\"parent-container\" \"parent-container\" ); );",
     "avg_font_size": 8.5,
@@ -11016,7 +11016,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_13f862df",
+    "paragraph_id": "p_7a23e1a4",
     "page_num": 14,
     "text": "const const cardContainer",
     "avg_font_size": 8.5,
@@ -11037,8 +11037,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -11049,7 +11049,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_12fa99a7",
+    "paragraph_id": "p_3b3ca39a",
     "page_num": 14,
     "text": "cardContainer = document document .createElement createElement (\"div\" \"div\" ); ); cardContainer cardContainer .classList classList .add add (\"card-container\" \"card-container\" ); );",
     "avg_font_size": 8.5,
@@ -11081,7 +11081,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_8503ce1a",
+    "paragraph_id": "p_a1714d5d",
     "page_num": 14,
     "text": "const const cardImage",
     "avg_font_size": 8.5,
@@ -11102,8 +11102,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -11114,7 +11114,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_cc1929f6",
+    "paragraph_id": "p_d499f84a",
     "page_num": 14,
     "text": "cardImage = document document .createElement createElement (\"img\" \"img\" ); ); cardImage cardImage .setAttribute setAttribute (\"src\" \"src\" , \"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_20201 \"https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_20201 cardImage cardImage .setAttribute setAttribute ('alt' 'alt' , \"travel-card\" \"travel-card\" ); );",
     "avg_font_size": 8.5,
@@ -11146,7 +11146,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_1052daf2",
+    "paragraph_id": "p_468320ef",
     "page_num": 14,
     "text": "const const cardSpan",
     "avg_font_size": 8.5,
@@ -11167,8 +11167,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -11179,7 +11179,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_8252076a",
+    "paragraph_id": "p_93438200",
     "page_num": 14,
     "text": "cardSpan = document document .createElement createElement (\"span\" \"span\" ); );",
     "avg_font_size": 8.5,
@@ -11211,7 +11211,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_4a38c2ae",
+    "paragraph_id": "p_9f901c4d",
     "page_num": 14,
     "text": "const const text",
     "avg_font_size": 8.5,
@@ -11232,8 +11232,8 @@
     "alignment": "unknown",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas-Bold"
@@ -11244,7 +11244,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_22f853f3",
+    "paragraph_id": "p_0aae64be",
     "page_num": 14,
     "text": "text = document document .createTextNode createTextNode (\"The journey of a thousand miles begins with a single step\" \"The journey of a thousand miles begins with a single step\" ); ); cardSpan cardSpan .appendChild appendChild (text text ); ); cardContainer cardContainer .appendChild appendChild (cardImage cardImage ); ); cardContainer cardContainer .appendChild appendChild (cardSpan cardSpan ); ); parentContainer parentContainer .appendChild appendChild (cardContainer cardContainer ); ); </",
     "avg_font_size": 8.5,
@@ -11276,7 +11276,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_f9c4a7d1",
+    "paragraph_id": "p_f9eba8a3",
     "page_num": 14,
     "text": "</ script script </ body body",
     "avg_font_size": 8.5,
@@ -11297,8 +11297,8 @@
     "alignment": "unknown",
     "line_count": 4,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -11310,7 +11310,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_49ab5507",
+    "paragraph_id": "p_fdbc7031",
     "page_num": 14,
     "text": "</",
     "avg_font_size": 8.5,
@@ -11342,7 +11342,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_951ae2c6",
+    "paragraph_id": "p_76dddd71",
     "page_num": 15,
     "text": "</ html html",
     "avg_font_size": 8.5,
@@ -11363,8 +11363,8 @@
     "alignment": "left",
     "line_count": 2,
     "font_names": [
-      "Consolas-Bold",
-      "Consolas"
+      "Consolas",
+      "Consolas-Bold"
     ],
     "primary_font_family": [
       "Consolas",
@@ -11376,7 +11376,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_e21aea17",
+    "paragraph_id": "p_a39b1013",
     "page_num": 15,
     "text": "</",
     "avg_font_size": 8.5,
@@ -11408,7 +11408,7 @@
     "relative_font_size": 0
   },
   {
-    "paragraph_id": "p_168998e2",
+    "paragraph_id": "p_c2ed83a0",
     "page_num": 15,
     "text": "Output:",
     "avg_font_size": 12.14,
@@ -11440,7 +11440,7 @@
     "relative_font_size": 8
   },
   {
-    "paragraph_id": "p_872a0807",
+    "paragraph_id": "p_289b8211",
     "page_num": 15,
     "text": "New element made with JS identical to the one made with HTML",
     "avg_font_size": 9.71,
