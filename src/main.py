@@ -61,6 +61,13 @@ def process_all_extracted_files():
     return success
 
 def main():
+    # Clean outputs folder: remove all .json files before running
+    for old_json in Path(OUTPUT_DIR).glob("*.json"):
+        try:
+            old_json.unlink()
+        except Exception as e:
+            print(f"❌ Could not delete {old_json}: {str(e)}")
+
     print(f"📂 Scanning directory: {INPUT_DIR}")
     pdf_files = sorted([f for f in os.listdir(INPUT_DIR) if f.endswith(".pdf")])
     if not pdf_files:
@@ -111,14 +118,14 @@ if __name__ == "__main__":
     # Support command line arguments for different modes
     if len(sys.argv) > 1:
         if sys.argv[1] == "--label-only":
-            # Only apply labeling to existing JSON files
+            # Only apply labeling to existing JSON files (DOES NOT clear outputs!)
             success = batch_label_existing_files()
             sys.exit(0 if success else 1)
         elif sys.argv[1] == "--help":
             print("Usage:")
-            print(" python main.py # Full pipeline (extract + label)")
-            print(" python main.py --label-only # Only apply labeling to existing JSONs")
+            print(" python main.py # Full pipeline (extract + label, previous JSONs are removed first)")
+            print(" python main.py --label-only # Only apply labeling to existing JSONs (does not remove any files)")
             print(" python main.py --help # Show this help")
             sys.exit(0)
-    # Default: run full pipeline
+    # Default: run full pipeline (outputs are cleaned first)
     main()

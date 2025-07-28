@@ -1,0 +1,55 @@
+{
+  "title": "Top 10 Research Papers: Multi-Agent AI Systems and Blockchain Technologies",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "1. A Blockchain Integration to Support Transactions of Assets in Multi-Agent Systems (2022)",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "2. Trust Management for Multi-Agent Systems Using Smart Contracts (2020)",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "3. A Privacy-Preserving and Trustable Multi-Agent Learning Framework (2021)",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "4. Securing Proof-of-Stake Blockchains via Multi-Agent Reinforcement Learning (2024)",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "5. Analysis of Integrating Blockchain Technologies into Multi-Agent Systems (2022)",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "6. AI Agents Meet Blockchain: A Survey on Secure and Scalable Collaboration for Multi-Agents (2025)",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "7. Secure Consensus Control on Multi-Agent Systems Using PBFT and Raft (2025)",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "8. Swarm Contract: A Multi-Sovereign Agent Consensus Mechanism (2024)",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "9. Blockchain-Assisted Multi-Expert Demonstration Cloning for Multi-Agent Deep RL (2025)",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "10. Composable Contracts for Multi-Agent Coordination (2024)",
+      "page": 2
+    }
+  ]
+}
