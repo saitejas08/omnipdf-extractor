@@ -1,0 +1,325 @@
+{
+  "title": "Securing Proof of Stake Blockchains: Leveraging Multi-Agent Reinforcement Learning for Detecting and Mitigating Malicious Nodes",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "network average, and iii) calculating fork frequency collectively Section II, we present existing works related to the security determine the likelihood of a 51% attack. of PoS blockchain and reinforcement learning. In Section III, we described six major attacks in blockchain and their",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "B. Double-Spending Attack",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "C. Sybil Attack",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "D. Replay Attack",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "E. Smart Contract Vulnerabilities A. 51% Attack",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "TABLE I: List of Malicious Behaviors",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "F. DDoS Attack",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Distributed Denial of Service (DDoS) attacks can disrupt",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "network operations, impede transaction processing, and degrade",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "overall system performance [21]. Symptoms of a DDoS Attack",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "include frequent network errors, connectivity failures, and re-",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "source depletion on affected nodes [21].",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Detection Criteria. i) Examining excessive network errors",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "and overuse of resources, and ii) identifying anomalies suggest-",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "ing a node’s attempt to disrupt transaction processing.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "In PoS Blockchains, nodes compete to process transactions",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "by staking assets, with the selection of a validator deter-",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "mined pseudo-randomly based on factors like stake amount",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "and transaction history. In our proposed MRL-PoS+ approach,",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "we introduce a reinforcement learning process for blockchain",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "nodes. Since these nodes are operated by individual users",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "seeking incentives, complete automation of their actions is",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "not viable. Thus, we view them as semi-automated agents for",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "reinforcement learning instead of fully automated ones.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "A. Multi-Agent Reinforcement Learning",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "In multi-agent reinforcement learning (MRL), each agent’s",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "goal is typically to maximize its own cumulative reward, but the agents must learn to balance their individual goals with the overall goals of the group or system. The basic equation used in",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "D. Penalizing Malicious Nodes and Rewarding Honest Nodes",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "B. Semi-Automated Agents",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "E. Malicious Behavior Detection",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Fig. 1: System Architecture of MRL-PoS+",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "As we prioritize PoS blockchain security, MRL-PoS+ mir- rors traditional PoS systems in architecture. Figure 1 outlines Fig. 2: Penalty Reward Mechanism MRL-PoS+’s workflow: when a user initiates a transaction,",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "C. Validator Selection",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "A. Activity Tracker",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "D. Penalty-Reward Mechanism",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "B. Reputation Table",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Fig. 3: Elimination of Malicious Nodes for Different Attacks",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Fig. 4: Learning Stages of a Regular Node",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "simulation included 40 malicious and 60 honest nodes per attack type, maintaining consistent behavior over 100 rounds.",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "electedAgents. sort by score",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "This rigorous setup tests MRL-PoS+’s performance under",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "challenging conditions, recognizing the difficulty of sustaining return randomNodeWithHighestStake ()",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "real networks. The plots in Figure 3 consistently show a decline return electedAgents [0]",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "A. Simulation Environment",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "C. Learning Stages",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Fig. 5: Comparison with Regular PoS and DPoS",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Continued honest behavior will lead to rewards and a positive",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "reputation. However, any subsequent malicious actions will",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "incur significant penalties, ultimately resulting in stake loss and",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "exclusion from the selection process.",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "D. Comparison with Traditional Approaches",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "While traditional PoS and DPoS [23] lack attack detection",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "mechanisms, they seize the stake of nodes failing to pro-",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "cess transactions correctly. In this experiment, we simulated",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "PoS, DPoS, and MRL-PoS+ with 50 malicious nodes. We",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "tracked how many rounds it took for these nodes to lose their",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "stakes, considering a balance below 0 as elimination. Figure",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "5 demonstrates MRL-PoS+’s significantly quicker elimination",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "of malicious nodes compared to PoS and DPoS, which fail",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "to eradicate them all. This discrepancy arises because not all",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "malicious behaviors cause system failures, thus PoS and DPoS",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "do not detect them and withhold incentives. Consequently, after",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "50 rounds, more than 10 malicious nodes persist in PoS and",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "DPoS networks. Although DPoS slightly outperforms PoS, it",
+      "page": 5
+    }
+  ]
+}

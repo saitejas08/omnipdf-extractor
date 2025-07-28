@@ -1,0 +1,2830 @@
+{
+  "title": "Basic Instruction Manual",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Refer to This Manual while Using the Camera to Further Familiarize Yourself with the Camera",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "With a digital camera, you can immediately view the image you have captured. While reading this manual, take a few test shots and see how they come out. You can then better understand the camera. To avoid botched pictures and accidents, first read the “Safety Warnings” (p.80, 81) and “Handling Precautions” (p.8, 9).",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Testing the Camera Before Use and Liability",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "After shooting, playback and check whether the images have been properly recorded. If the camera or memory card is faulty and the images cannot be recorded or downloaded to a computer, Canon cannot be held liable for any loss or inconvenience caused.",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Copyrights",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Copyright laws in your country may prohibit the use of your recorded images of people and certain subjects for anything but private enjoyment. Also be aware that certain public performances, exhibitions, etc., may prohibit photography even for private enjoyment.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "The camera does not come with a card for recording images.",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Instruction Manuals",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "This Basic Instruction Manual only explains the camera’s basic operations and functions. For more detailed instructions, advanced shooting and playback procedures, printing photos, Custom Functions, and more, see the Camera Instruction Manual CD-ROM.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "The EOS REBEL T3/EOS 1100D’s instruction manuals consist of the following:",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Camera Instruction Manual",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "CD-ROM Contents Camera Instruction",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Manual",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Quick Reference",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Camera Camera",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Guide",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Basic Instruction Manual Instruction",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Manual",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Software and Software Instruction Manual",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "See pages 76 to 78 for an overview of the software programs, installation procedure for a personal computer, and how to view the Software Instruction Manual CD-ROM.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Software EOS DIGITAL Instruction Manual Solution Disk",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Item Check List",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Before starting, check that all the following items have been included with your camera. If anything is missing, contact your dealer.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Battery Charger Battery Pack Camera LC-E10/LC-E10E* LP-E10",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Interface Cable Wide Strap EW-200D",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Software Camera EOS DIGITAL Camera Instruction Basic Instruction Manual Solution Disk Instruction Manual",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Manual",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Conventions Used in this Manual",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Icons in this Manual",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": ": Indicates the Main Dial. > < : Indicates the < > cross keys. : Indicates the setting button. : Indicates that the respective function remains active for 4 sec., 6 sec., 10 sec., or 16 sec. respectively after you let go of the button.",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Basic Assumptions",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "All operations explained in this manual assume that the power switch has already been set to < > (p.25). It is assumed that all the menu settings and Custom Functions are set to the default. For explanatory purposes, the instructions show the camera attached with an EF-S18-55mm f/3.5-5.6 IS II lens.",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Contents",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Introduction",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Getting Started 19",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Basic Shooting 41",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Shooting with the LCD Monitor (Live View Shooting) 55",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Shooting Movies 65",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Image Playback 69",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Trademarks",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Handling Precautions",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Camera Care",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "LCD Monitor",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Cards",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Lens",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Cautions During Prolonged Use",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "About smudges adhering to the front of the sensor",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Quick Start Guide",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Insert the battery. (p.22)",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "To charge the battery, see page 20.",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Insert the card. (p.22)",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "With the card’s label facing toward the camera back, insert it into the slot.",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Attach the lens. (p.29)",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Red index White index",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Align the lens’ white or red index with the camera’s index in the matching color.",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Set the lens focus mode switch",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "to <AF>. (p.29)",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Set the power switch to < >.",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "(p.25) When the LCD monitor displays the Date/Time setting screen, see page 27.",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Set the Mode Dial to < > (Full",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Auto). (p.42)",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "All the necessary camera settings will be set automatically.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Focus the subject. (p.33)",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Look through the viewfinder and aim the viewfinder center over the subject. Press the shutter button halfway, and the camera will focus the subject. If necessary, the built-in flash will pop-up automatically.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Take the picture. (p.33)",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Press the shutter button completely to take the picture.",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Review the picture.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "The captured image will be displayed for approx. 2 sec. on the LCD monitor. To display the image again, press the < > button (p.70). To shoot while looking at the LCD monitor, see “Live View Shooting” (p.55). To view the images captured so far, see “Image Playback” (p.70).",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Nomenclature",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "Shooting Settings Display",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Viewfinder Information",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Card full warning ( FuLL",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Card error warning ( Card FE lock ( FEL No card warning ( Card Busy ( buSY Built-in flash recycling ( buSY",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Mode Dial",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "The Mode Dial includes the Basic Zone modes, Creative Zone modes, and the Movie shooting mode.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Creative Zone",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "These modes give you more control for shooting various subjects. : Program AE : Shutter-priority AE : Aperture-priority AE : Manual exposure : Automatic depth-of-field AE",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Basic Zone",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "All you do is press the shutter button. The camera sets everything to suit the subject.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Full Auto (p.42) Flash Off (p.45) Creative Auto (p.46) Movie shooting",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Image Zone",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Lens",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Lens without a distance scale",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Use of genuine Canon accessories is recommended",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Battery Charger LC-E10",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Charger for Battery Pack LP-E10 (p.20).",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "IMPORTANT SAFETY INSTRUCTIONS-SAVE THESE INSTRUCTIONS. DANGER-TO REDUCE THE RISK OF FIRE OR ELECTRIC SHOCK, CAREFULLY FOLLOW THESE INSTRUCTIONS.",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Battery Charger LC-E10E",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Charger for Battery Pack LP-E10 (p.20).",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Getting Started",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "This chapter explains preparatory steps before you start shooting and basic camera operations.",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Attaching the Strap",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Pass the end of the strap through the camera’s strap mount eyelet from the bottom. Then pass it through the strap’s buckle as shown in the illustration. Pull the strap to take up any slack and make sure the strap will not loosen from the buckle. The eyepiece cover is also attached to the strap ( ).",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Charging the Battery",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Remove the protective cover.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Detach the protective cover provided with the battery.",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Attach the battery.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "As shown in the illustration, attach the battery securely to the charger. To detach the battery, follow the above procedure in reverse.",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Recharge the battery.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "LC-E10",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "For LC-E10",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "As shown by the arrow, flip out the battery charger’s prongs and insert the prongs into a power outlet.",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "For LC-E10E",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "LC-E10E",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Connect the power cord to the charger and insert the plug into the power outlet. Recharging starts automatically and the charge lamp turns orange. When the battery is fully recharged, the full-charge lamp will turn green.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "It takes approx. 2 hours to fully recharge a completely exhausted battery at 23 C / 73 F. The time required to recharge the battery epends on the ambient temperature and the battery’s charge level.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "For safety reasons, recharging in low temperatures (6°C - 10°C / 43°F - 50°F) will take a longer time (up to 4 hours).",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Tips for Using the Battery and Charger",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Upon purchase, the battery is not fully charged.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Recharge the battery before using.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Recharge the battery on the day before or on the day it is to be used.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Even during storage, a charged battery will gradually drain and lose its power.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "After recharging the battery, detach it and unplug the charger from the power outlet. When not using the camera, remove the battery.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "If the battery is left in the camera for a prolonged period, a small amount of power current is released, resulting in excess discharge and shorter battery life. Store the battery with the protective cover (provided) attached. Storing the battery after it is fully charged can lower the battery’s performance.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "The battery charger can also be used in foreign countries.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "The battery charger is compatible with a 100 V AC to 240 V AC 50/ 60 Hz power source. If necessary, attach a commercially-available plug adapter for the respective country or region. Do not attach any portable voltage transformer to the battery charger. Doing so can damage the battery charger.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "If the battery becomes exhausted quickly even after being fully charged, the battery has reached the end of its service life.",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Purchase a new battery.",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "Installing and Removing the Battery and Card",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Load a fully-charged Battery Pack LP-E10 into the camera. The card (sold separately) can be an SD, SDHC, or SDXC memory card. The captured images are recorded onto the card.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Make sure the card’s write-protect switch is set upward to enable writing/erasing.",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Installing the Battery/Card Open the cover.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Slide the lever as shown by the arrows and open the cover.",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Insert the battery.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Insert the end with the battery contacts. Insert the battery until it locks in place.",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Insert the card.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "As shown in the illustration, face the card’s label side toward the camera back.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Insert the card straight in all the way.",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Close the cover.",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Setting [ Release shutter without card ] to [ Disable ] will prevent you",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Removing the Battery/Card Set the power switch to < >.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "(p.25)",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Open the cover.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Make sure the access lamp is off, then open the cover.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "If “Recording ...” is displayed, close the cover.",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Remove the battery.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Press the battery release lever as shown by the arrow and remove the battery. To prevent short circuiting of the battery contacts, be sure to attach the protective cover (provided, p.20) to the battery.",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Remove the card.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Gently push in the card, then let go. The card will stick out. Pull the card straight out.",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Close the cover.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Press the cover until it snaps shut.",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Turning on the Power",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "If the date/time setting screen appears when you turn on the power switch, see page 27 to set the date/time",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": ": The camera turns on. > : The camera turns off and does not operate. Set to this position when not using the camera.",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "About Auto Power Off",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "To save battery power, the camera turns off automatically after about 30 seconds of non-operation. To turn on the camera again, just press the shutter button halfway (p.33).",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "You can change the auto power-off time with [ Auto power off",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "the card, [ Recording ... ] will be displayed and the power will turn off after",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Checking the Battery Level",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "When the power switch is set to < >, the battery level will be indicated in one of four levels: : Battery level is OK. : Battery level is less than half full. : Battery will be exhausted soon. (Blinks) : Battery must be recharged.",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Battery Life",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Temperature At 23°C / 73°F At 0°C / 32°F",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Setting the Date and Time",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "When you turn on the power for the first time or if the date/time has been reset, the Date/Time setting screen will appear. Follow steps 3",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "and 4 to set the date/time. Note that the date/time appended to recorded images will be based on this date/time setting. Be sure to set the correct date/time.",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Display the menu screen.",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button to display the menu screen.",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Under the [ ] tab, select [Date/ Time].",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to select the ] tab.",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to select [ Date/ Time ], then press < >.",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Set the date and time.",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to select the date or time number. Press < > so < > is displayed. Press the < > key to set the number, then press < >. (Returns to .)",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Exit the setting.",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to select [ OK ],",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "then press < >. The date/time will be set.",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Selecting the Interface Language",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "Display the menu screen.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button to display the menu screen.",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "Under the [ ] tab, select [Language ].",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to select the ] tab. Press the < > key to select",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Language ] (the fourth item from",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "the top), then press < >.",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "Set the desired language.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to select the language, then press < >. The interface language will change.",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "Attaching and Detaching a Lens",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "Attaching a Lens Remove the caps.",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Remove the rear lens cap and the body cap by turning them as shown by the arrows.",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "Attach the lens.",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Align the lens’ red or white index with the camera’s index matching the same color. Turn the lens as shown by the arrow until it snaps in place.",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "On the lens, set the focus mode switch to <AF> (autofocus).",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "If it is set to < MF > (manual focus),",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "autofocus will not operate.",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "Remove the front lens cap.",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Minimizing Dust",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "About Zooming",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "To zoom, turn the zoom ring on the lens with your fingers.",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "If you want to zoom, do it before focusing. Turning the zoom ring after achieving focus may throw off the focus slightly.",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "Detaching the Lens While pressing the lens release button, turn the lens as shown by the arrows.",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Turn the lens until it stops, then detach it. Attach the rear lens cap to the detached lens.",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Image Conversion Factor",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "About the Lens Image Stabilizer",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "When you use the IS lens’ built-in Image Stabilizer, camera shake is corrected to obtain a sharper shot. The procedure explained here is based on the EF-S18-55mm f/3.5-5.6 IS II lens as an example.",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Set the IS switch to < >.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Set also the camera’s power switch to >.",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Press the shutter button halfway.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "The Image Stabilizer will operate.",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Take the picture.",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "When the picture looks steady in the viewfinder, press the shutter button completely to take the picture.",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Basic Operation",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Adjusting the Viewfinder Clarity Turn the dioptric adjustment knob.",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Turn the knob left or right until the nine AF points in the viewfinder look sharp.",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Holding the Camera",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "To obtain sharp images, hold the camera still to minimize camera shake.",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Shutter Button",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "The shutter button has two steps. You can press the shutter button halfway. Then you can further press the shutter button completely.",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Pressing halfway",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "This activates autofocusing and the automatic exposure system that sets the shutter speed and aperture. The exposure setting (shutter speed and aperture) is displayed in the viewfinder ). While you press the shutter button halfway, the LCD monitor will turn off.",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Pressing completely",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "This releases the shutter and takes the picture.",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Preventing Camera Shake",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Hand-held camera movement during the moment of exposure is called camera shake. It can cause blurred pictures. To prevent camera shake, note the following: • Hold and steady the camera as shown on the previous page. • Press the shutter button halfway to autofocus, then slowly press the shutter button completely.",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Menu Operations",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "With menus, you can set various functions such as the image-recording quality, date/time, etc. While looking at the LCD monitor, use the > button, < > cross keys, and < > button on the camera back to operate the menus.",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "Menu Screen",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "In the Basic Zone, Movie shooting mode, and Creative Zone, the tabs and menu options displayed will be different.",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Basic Zone modes Movie shooting mode",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Creative Zone modes",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "Menu Setting Procedure Display the menu screen.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button to display the menu screen.",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "Select a tab.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to select a menu tab.",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "Select the desired item.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to select the item, then press < >.",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "Select the setting.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > or < > key to select the desired setting. (Some settings require you to press either the < > or < > key to select it.) The current setting is indicated in blue.",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "Set the desired setting.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Press < > to set it.",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "Exit the setting.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button to return to the shooting settings display.",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "Formatting the Card",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "If the card is new or was previously formatted by another camera or computer, format the card with the camera.",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "When the card is formatted, all images and data in the card will be erased. Even protected images will be erased, so make sure there is nothing you need to keep. If necessary, transfer the images to a computer, etc., before formatting the card.",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "Select [Format].",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Under the [ ] tab, select [ Format ],",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "then press < >.",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "Format the card.",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Select [ OK ], then press < >.",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "The card will be formatted. When the formatting is completed, the menu will reappear.",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "For low-level formatting, press the",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "> button to checkmark [ Low level format ] with < >, then select [ OK ].",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "Execute [Format] in the following cases:",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "The card is new. The card was formatted by a different camera or a computer. The card is full with images or data. A card-related error is displayed",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "About Low-level Formatting",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "You can stop the low-level formatting by selecting [ Cancel ]. Even in this",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Before using a new Eye-Fi card, the software in the card must be installed in your computer. Then format the card with the camera.",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "Switching the LCD Monitor Display",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "The LCD monitor can display the shooting settings screen, menu screen, captured images, etc.",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Settings",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "When you turn on the power switch, the shooting settings will be displayed.",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "When you press the shutter button halfway, the display will turn off. And when you let go of the shutter button, the display will turn on. You can also turn off the display by pressing the < > button. Press",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "the button again to turn on the display.",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Menu Functions Captured Image",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Appears when you press the Appears when you press the > button. Press the > button. Press the button button again to return to the again to return to the shooting shooting settings screen. settings screen.",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "You can set [ LCD off/on btn ] so that the shooting settings display",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Feature Guide",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Shooting mode (Sample)",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Quick Control (Sample)",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "Disabling the Feature Guide Select [Feature guide].",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Under the [ ] tab, select [ Feature guide ], then press < >. Select Disable ], then press < >.",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "Basic Shooting",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "text": "This chapter explains how to use the Basic Zone modes on the Mode Dial for best results.",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "With Basic Zone modes, all you do is point and shoot and the camera sets everything automatically (p.54). Also, to prevent botched pictures due to mistaken operations, major shooting settings cannot be changed in fully-automatic modes.",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "About the Auto Lighting Optimizer",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "text": "Fully Automatic Shooting",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "Set the Mode Dial to < >.",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "Aim any AF point over the",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "subject.",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "All the AF points will be used to focus, and generally the closest object will be focused. Aiming the center AF point over the subject will make focusing easier.",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "Focus the subject.",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "Press the shutter button halfway, and the lens focusing ring will rotate to focus. The dot inside the AF point achieving focus flashes briefly in red. At the same time, the beeper will sound and the focus confirmation light < > in the viewfinder will light. If necessary, the built-in flash will pop- up automatically.",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "Take the picture.",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "FAQ",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "The focus confirmation light < > blinks and focus is not achieved.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Aim the AF point over an area having good contrast, then press the shutter button halfway (p.33). If you are too close to the subject, move away and try again.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Sometimes multiple AF points flash simultaneously.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "The beeper continues to beep softly. (The focus confirmation light < > does not light.)",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "It indicates that the camera is focusing continuously on a moving subject. (The focus confirmation light < > does not light.) You can take sharp pictures of a moving subject.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Pressing the shutter button halfway does not focus the subject. If the focus mode switch on the lens is set to < MF > (Manual Focus), set it to < AF > (Auto Focus). Although it is daylight, the flash popped up.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "For a backlit subject, the flash may pop up to help lighten the subject’s dark areas.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "In low light, the built-in flash fired a series of flashes.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Pressing the shutter button halfway may trigger the built-in flash to fire a series of flashes to assist autofocusing. This is called AF-assist beam. Its effective range is about 4 meters/13.1 feet.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Although flash was used, the picture came out dark.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "The subject was too far away. The subject should be within 5 meters/16.4 feet from the camera.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "When flash was used, the bottom part of the picture came out unnaturally dark.",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "The subject was too close to the camera, and a shadow was created by the lens barrel. The subject should be at least 1 meter/3.3 feet away from the camera. If a hood has been attached to the lens, remove it before taking the flash picture.",
+      "page": 42
+    },
+    {
+      "level": "H1",
+      "text": "Full Auto Techniques",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "Recomposing the Shot",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "Shooting a Moving Subject",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "Disabling Flash",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "In places where flash photography is prohibited, use the < > (Flash Off) mode. This mode is also effective for capturing the particular ambience of a scene, such as candlelight scenes.",
+      "page": 44
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Tips",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Prevent camera shake if the numeric display in the viewfinder blinks.",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Under low light when camera shake is prone to occur, the viewfinder’s shutter speed display will blink. Hold the camera steady or use a tripod. When using a zoom lens, use the wide-angle end to reduce blur caused by camera shake.",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Taking portraits without flash.",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "In low-light conditions, tell the subject to keep still until the picture is taken. If the person moves during the exposure, he or she might look blurred in the picture.",
+      "page": 44
+    },
+    {
+      "level": "H1",
+      "text": "Creative Auto Shooting",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "Unlike the < > Full Auto mode where the camera sets everything, the > Creative Auto mode enables you to easily change the depth of field, drive mode, and flash firing. You can also choose the ambience you want to convey in your images. The default setting is the same as the < > (Full Auto) mode.",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Set the Mode Dial to < >.",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Press the < > button.",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "The Quick Control screen will appear.",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Set the desired function.",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to select a function. The selected function and Feature guide (p.39) will be displayed. For details on setting each function, see pages 47-48.",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Take the picture.",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "Press the shutter button completely to take the picture.",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "Pressing the < > button enables you to set the following: (1) Shoot by ambience selection",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "You can set the ambience you want to convey in your images. Press the < > key or turn the < > dial to select the desired ambience. You can also select it from a list by pressing < >. For details, see the Camera Instruction Manual CD-ROM.",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "(2) Blurring/sharpening the background",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "(3)Drive mode/Flash firing",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "When you press < >, the drive mode or flash firing setting screens will appear. Set as desired, then press < > to finalize the setting and return to the Quick Control screen.",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Drive mode : Press the < > key or turn the < > dial to set it as",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "desired.",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Single shooting : Shoot one image at a time. Continuous shooting",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Self-timer:10 sec : The picture is taken 10 seconds after you",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "press the shutter button.",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Self-timer:Continuous",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to set the number of multiple shots (2 to 10) to be taken with the self-timer. 10 seconds after you press the shutter button, the set number of multiple shots will be taken.",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Flash firing : Press the < > key or turn the < > dial to set it as",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "desired.",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Auto flash : The flash fires automatically when necessary. Flash on",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": ": The flash fires at all times.",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Flash off : The flash is disabled.",
+      "page": 47
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Portraits",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "The < > (Portrait) mode blurs the background to make the human subject stand out. It also makes skin tones and the hair look softer than with the < > (Full Auto) mode.",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Tips",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "The further the distance between the subject and background, the better.",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "The further the distance between the subject and background, the more blurred the background will look. The subject will also stand out better in front of a plain, dark background.",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "Use a telephoto lens.",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "If you have a zoom lens, use the telephoto end to fill the frame with the subject from the waist up. Move in closer if necessary.",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "Focus the face.",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "Check that the AF point covering the face flashes in red.",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Landscapes",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "Use the < > (Landscape) mode for wide scenery, night scenes, or to have everything in focus from near to far. The greens and blues also become more vivid and the image sharper than with < > (Full Auto).",
+      "page": 49
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Tips",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "With a zoom lens, use the wide-angle end.",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "When using the wide-angle end of a zoom lens, objects near and far will be in focus better than at the telephoto end. It also adds breadth to landscapes.",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "Shooting night scenes.",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "Since the built-in flash will be disabled, this mode < > is also good for night scenes. Use a tripod to prevent camera shake. If you want to photograph a person against a night scene, set the Mode Dial to < (Night Portrait) and use a tripod (p.53).",
+      "page": 49
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Close-ups",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "When you want to photograph flowers or small things up close, use the > (Close-up) mode. To make small things appear much larger, use a macro lens (sold separately).",
+      "page": 50
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Tips",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "Use a simple background.",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "A simple background makes the flower, etc., stand out better.",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "Move to the subject as close as possible.",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "Check the lens for its minimum focusing distance. Some lenses",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "have indications such as < 0.25m/0.8ft >. The lens minimum",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "focusing distance is measured from the < > (focal plane) mark on the top left of the camera to the subject. If you are too close to the subject, the focus confirmation light < > will blink. Under low light, the built-in flash will fire. If you are too close to the subject and the bottom of the picture looks dark, move away from the subject.",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "With a zoom lens, use the telephoto end.",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "If you have a zoom lens, using the telephoto end will make the subject look larger.",
+      "page": 50
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Moving Subjects",
+      "page": 51
+    },
+    {
+      "level": "H3",
+      "text": "To photograph a moving subject, whether it is a child running or a moving vehicle, use the < > (Sports) mode.",
+      "page": 51
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Tips",
+      "page": 51
+    },
+    {
+      "level": "H3",
+      "text": "Use a telephoto lens.",
+      "page": 51
+    },
+    {
+      "level": "H3",
+      "text": "Using a telephoto lens is recommended so you can shoot from afar.",
+      "page": 51
+    },
+    {
+      "level": "H3",
+      "text": "Use the center AF point to focus.",
+      "page": 51
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Portraits at Night",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "To shoot someone at night and obtain a natural-looking exposure in the background, use the < > (Night Portrait) mode.",
+      "page": 52
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Tips",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "Use a wide-angle lens and a tripod.",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "When using a zoom lens, use the wide-angle end to obtain a wide night view. Also, use a tripod to prevent camera shake.",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "Keep the person within 5 meters/16.4 feet from the camera.",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "Under low light, the built-in flash will fire automatically to obtain a good exposure of the person. The maximum effective distance of the built-in flash is 5 meters/16.4 feet from the camera.",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "Shoot also with < > (Full Auto).",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "Since camera shake is prone to occur with night shots, shooting also with < > (Full Auto) is recommended.",
+      "page": 52
+    },
+    {
+      "level": "H1",
+      "text": "Quick Control",
+      "page": 53
+    },
+    {
+      "level": "H3",
+      "text": "In Basic Zone modes when the shooting",
+      "page": 53
+    },
+    {
+      "level": "H3",
+      "text": "settings screen is displayed, you can press the < > button to display the Quick Control screen. The table below indicates the functions that can be set with the Quick Control screen in each Basic Zone mode.",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "Set the Mode Dial to a Basic Zone mode. Press the < > button.",
+      "page": 53
+    },
+    {
+      "level": "H3",
+      "text": "The Quick Control screen will appear.",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "Set the function.",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "Settable Functions in Basic Zone Modes",
+      "page": 53
+    },
+    {
+      "level": "H3",
+      "text": "Function",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "Shooting with the LCD Monitor (Live View Shooting)",
+      "page": 54
+    },
+    {
+      "level": "H1",
+      "text": "You can shoot while viewing the image on the camera’s LCD monitor. This is called “Live View shooting”.",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "Live View shooting is effective for still subjects which do not move. If you handhold the camera and shoot while viewing the LCD monitor, camera shake can cause blurred images. Using a tripod is recommended.",
+      "page": 54
+    },
+    {
+      "level": "H1",
+      "text": "For other functions, more details, and cautions related to Live View shooting, see the Camera Instruction Manual (PDF) in the Camera Instruction Manual CD- ROM.",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "About Remote Live View Shooting",
+      "page": 54
+    },
+    {
+      "level": "H1",
+      "text": "Shooting with the LCD Monitor",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "Display the Live View image.",
+      "page": 55
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button. The Live View image will appear on the LCD monitor. The Live View image will closely reflect the brightness level of the actual image you capture.",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "Focus the subject.",
+      "page": 55
+    },
+    {
+      "level": "H3",
+      "text": "When you press the shutter button halfway, the camera will focus with the current AF mode (p.59-63).",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "Take the picture.",
+      "page": 55
+    },
+    {
+      "level": "H3",
+      "text": "Press the shutter button completely. The picture will be taken and the captured image is displayed on the LCD monitor. After the image review ends, the camera will return to Live View shooting automatically. Press the < > button to exit Live View shooting.",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "Enabling Live View Shooting",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "Set [ Live View shoot. ] to [ Enable ]. In Basic Zone modes, [ Live View shoot. ] will be displayed under [ ], and",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "in Creative Zone modes, it will be displayed under [ ].",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "Battery Life with Live View Shooting [Approx. number of shots]",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "Shooting Conditions Temperature",
+      "page": 56
+    },
+    {
+      "level": "H1",
+      "text": "About the Information Display",
+      "page": 57
+    },
+    {
+      "level": "H3",
+      "text": "Each time you press the < > button, the information display will change.",
+      "page": 57
+    },
+    {
+      "level": "H1",
+      "text": "Changing the Autofocus Mode",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "Selecting the AF Mode",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "The AF modes available are [ Live mode ], [ Live mode ] (face detection, p.60), and [ Quick mode ] (p.62).",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "If you want to achieve precise focus, set the lens focus mode switch to",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "MF >, magnify the image, and focus manually (p.64).",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "Select the AF mode.",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "Under the [ ] tab, select [ AF mode ].",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "Select the desired AF mode, then press < >. While the Live View image is displayed, you can press the < button to select the AF mode on the Quick Control screen ( ).",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "Live Mode:",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "The image sensor is used to focus. Although AF is possible with the",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "Live View image displayed, the AF operation will take longer than with the Quick mode . Also, achieving focus may be more difficult than",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "with the Quick mode.",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "Display the Live View image.",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button. The Live View image will appear on the LCD monitor. The AF point < > will appear.",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "Move the AF point.",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to move the AF",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "point to where you want to focus (it cannot go to the edges of the picture). To return the AF point to the center, press < >.",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "Focus the subject.",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "Aim the AF point over the subject and press the shutter button halfway. When focus is achieved, the AF point will turn green and the beeper will sound. If focus is not achieved, the AF point will turn orange.",
+      "page": 59
+    },
+    {
+      "level": "H1",
+      "text": "Take the picture.",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "Check the focus and exposure, then press the shutter button completely to take the picture (p.56).",
+      "page": 59
+    },
+    {
+      "level": "H1",
+      "text": "(Face detection) Live Mode:",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "With the same AF method as the Live mode, human faces are detected and focused. Have the target person face the camera.",
+      "page": 59
+    },
+    {
+      "level": "H1",
+      "text": "Display the Live View image.",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button. The Live View image will appear on the LCD monitor. When a face is detected, the < frame will appear over the face to be focused. If multiple faces are detected, < will be displayed. Press the < key to move the < > frame over the desired target face.",
+      "page": 59
+    },
+    {
+      "level": "H1",
+      "text": "Focus the subject.",
+      "page": 60
+    },
+    {
+      "level": "H3",
+      "text": "Press the shutter button halfway and the camera will focus the face covered by the < > frame. When focus is achieved, the AF point will turn green and the beeper will sound. If focus is not achieved, the AF point will turn orange. If a face cannot be detected, the AF point < > will be displayed and AF will be executed at the center.",
+      "page": 60
+    },
+    {
+      "level": "H1",
+      "text": "Take the picture.",
+      "page": 60
+    },
+    {
+      "level": "H3",
+      "text": "Check the focus and exposure, then press the shutter button completely to take the picture (p.56).",
+      "page": 60
+    },
+    {
+      "level": "H1",
+      "text": "Quick Mode:",
+      "page": 61
+    },
+    {
+      "level": "H3",
+      "text": "The dedicated AF sensor is used to focus in One-Shot AF mode ), using the same AF method as with viewfinder shooting.",
+      "page": 61
+    },
+    {
+      "level": "H3",
+      "text": "Although you can focus the target area quickly, the Live View image will be interrupted momentarily during the AF operation.",
+      "page": 61
+    },
+    {
+      "level": "H1",
+      "text": "Display the Live View image.",
+      "page": 61
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button. The Live View image will appear on the LCD monitor. The small boxes on the screen are the AF points, and the larger box is the magnifying frame.",
+      "page": 61
+    },
+    {
+      "level": "H1",
+      "text": "Select the AF point.",
+      "page": 61
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button ( ) to display the Quick Control screen. The settable functions will be displayed on the left of the screen. Press the < > key to make the AF point selectable. Turn the < > dial to select the AF point.",
+      "page": 61
+    },
+    {
+      "level": "H1",
+      "text": "Focus the subject.",
+      "page": 62
+    },
+    {
+      "level": "H3",
+      "text": "Aim the AF points over the subject and press the shutter button halfway. The Live View image will turn off, the reflex mirror will go back down, and AF will be executed. When focus is achieved, the AF point which achieved focus will turn green and the Live View image will reappear. If focus is not achieved, the AF point will turn orange and blink.",
+      "page": 62
+    },
+    {
+      "level": "H1",
+      "text": "Take the picture.",
+      "page": 62
+    },
+    {
+      "level": "H3",
+      "text": "Check the focus and exposure, then press the shutter button completely to take the picture (p.56).",
+      "page": 62
+    },
+    {
+      "level": "H1",
+      "text": "MF: Focusing Manually",
+      "page": 63
+    },
+    {
+      "level": "H3",
+      "text": "You can magnify the image and focus precisely manually.",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "text": "Set the lens focus mode switch to <MF>.",
+      "page": 63
+    },
+    {
+      "level": "H3",
+      "text": "Turn the lens focusing ring to focus roughly.",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "text": "Move the magnifying frame.",
+      "page": 63
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to move the magnifying frame to the position where you want to focus. To return the magnifying frame to the center, press < >.",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "text": "Magnify the image.",
+      "page": 63
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button. The area within the magnifying frame will be magnified. Each time you press the < > button, the view will change as follows: 5x      10x      Normal view",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "text": "Focus manually.",
+      "page": 63
+    },
+    {
+      "level": "H3",
+      "text": "While looking at the magnified image, turn the lens focusing ring to focus. After achieving focus, press the <",
+      "page": 63
+    },
+    {
+      "level": "H3",
+      "text": "button to return to the normal view.",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "text": "Take the picture.",
+      "page": 63
+    },
+    {
+      "level": "H3",
+      "text": "Check the focus and exposure, then press the shutter button to take the picture (p.56).",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Movies",
+      "page": 64
+    },
+    {
+      "level": "H1",
+      "text": "When you set the Mode Dial to >, you can shoot High- Definition (HD) movies. The movie recording format will be MOV.",
+      "page": 64
+    },
+    {
+      "level": "H3",
+      "text": "For other functions, more details, and cautions related to movie shooting, see the Camera Instruction Manual (PDF) in the Camera Instruction Manual CD-ROM.",
+      "page": 64
+    },
+    {
+      "level": "H3",
+      "text": "Cards which can record movies",
+      "page": 64
+    },
+    {
+      "level": "H3",
+      "text": "When shooting movies, use a large-capacity SD card rated SD Speed Class 6 “ ” or higher.",
+      "page": 64
+    },
+    {
+      "level": "H1",
+      "text": "Shooting Movies",
+      "page": 65
+    },
+    {
+      "level": "H3",
+      "text": "When you set the shooting mode to < >, you can easily shoot High- Definition (HD) movies with autoexposure. When playing movies, connecting the camera to a TV set is recommended ( ).",
+      "page": 65
+    },
+    {
+      "level": "H1",
+      "text": "Set the Mode Dial to < >.",
+      "page": 65
+    },
+    {
+      "level": "H3",
+      "text": "The reflex mirror will make a sound, then the image will appear on the LCD monitor.",
+      "page": 65
+    },
+    {
+      "level": "H1",
+      "text": "Focus the subject.",
+      "page": 65
+    },
+    {
+      "level": "H3",
+      "text": "Before shooting a movie, autofocus or manual focus (p.59-64). When you press the shutter button halfway, the camera will focus with the current AF mode.",
+      "page": 65
+    },
+    {
+      "level": "H1",
+      "text": "Shoot the movie.",
+      "page": 65
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button to start shooting a movie. To stop movie shooting, press < > again. While the movie is being shot, the ” mark will be displayed on the",
+      "page": 65
+    },
+    {
+      "level": "H3",
+      "text": "upper right of the screen.",
+      "page": 65
+    },
+    {
+      "level": "H1",
+      "text": "About the Information Display",
+      "page": 66
+    },
+    {
+      "level": "H3",
+      "text": "Each time you press the < > button, the information display will change.",
+      "page": 66
+    },
+    {
+      "level": "H1",
+      "text": "Total Movie Recording Time and File Size per Minute",
+      "page": 67
+    },
+    {
+      "level": "H3",
+      "text": "Due to the file system, movie shooting will stop automatically if the file size of a single movie clip reaches 4GB. You can immediately resume shooting another movie by pressing the < > button. (A new movie file starts being recorded.)",
+      "page": 67
+    },
+    {
+      "level": "H3",
+      "text": "Total Recording Time (approx.) Movie-recording File Size Size (approx.) 4GB Card 8GB Card 16GB Card 1280x720 65",
+      "page": 67
+    },
+    {
+      "level": "H1",
+      "text": "Image Playback",
+      "page": 68
+    },
+    {
+      "level": "H1",
+      "text": "This chapter explains the basic ways to playback images and movies. For other functions, more details, and cautions related to playback operations, see the Camera Instruction Manual (PDF) in the Camera Instruction Manual CD- ROM.",
+      "page": 68
+    },
+    {
+      "level": "H3",
+      "text": "About images taken with another camera:",
+      "page": 68
+    },
+    {
+      "level": "H1",
+      "text": "Image Playback",
+      "page": 69
+    },
+    {
+      "level": "H1",
+      "text": "Playback the image.",
+      "page": 69
+    },
+    {
+      "level": "H3",
+      "text": "When you press the < > button, the last image captured will be displayed.",
+      "page": 69
+    },
+    {
+      "level": "H1",
+      "text": "Select an image.",
+      "page": 69
+    },
+    {
+      "level": "H3",
+      "text": "To view images starting with the last image, press the < > key. To view images starting with the first (oldest) image, press the < > key. Each time you press the < button, the display format will change.",
+      "page": 69
+    },
+    {
+      "level": "H1",
+      "text": "Exit the image playback.",
+      "page": 69
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button to exit the image playback and return to the shooting settings display.",
+      "page": 69
+    },
+    {
+      "level": "H3",
+      "text": "To erase an image, press the < > button, select [ Erase ] and press < >.",
+      "page": 69
+    },
+    {
+      "level": "H1",
+      "text": "Playing Movies",
+      "page": 70
+    },
+    {
+      "level": "H1",
+      "text": "Playback the image.",
+      "page": 70
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > button to display images.",
+      "page": 70
+    },
+    {
+      "level": "H1",
+      "text": "Select a movie.",
+      "page": 70
+    },
+    {
+      "level": "H3",
+      "text": "Press the < > key to select a movie. On the single-image display, the 1s > icon displayed on the upper left indicates a movie. On the index display, the perforation on the left edge of the image",
+      "page": 70
+    },
+    {
+      "level": "H3",
+      "text": "indicates a movie. As movies cannot be played on the index display, press < > to switch to the single-image display.",
+      "page": 70
+    },
+    {
+      "level": "H1",
+      "text": "On the single-image display, press < >.",
+      "page": 70
+    },
+    {
+      "level": "H3",
+      "text": "The movie playback panel will appear on the bottom.",
+      "page": 70
+    },
+    {
+      "level": "H1",
+      "text": "Playback the movie.",
+      "page": 70
+    },
+    {
+      "level": "H3",
+      "text": "Select [ ] (Play), then press < >. The movie will start playing. You can pause the movie playback by pressing < >. During movie playback, you can turn",
+      "page": 70
+    },
+    {
+      "level": "H3",
+      "text": "the < > dial to adjust the built-in speaker’s sound volume. For more details on the playback procedure, see the next page.",
+      "page": 70
+    },
+    {
+      "level": "H3",
+      "text": "Function Playback Description",
+      "page": 71
+    },
+    {
+      "level": "H3",
+      "text": "Exit",
+      "page": 71
+    },
+    {
+      "level": "H3",
+      "text": "Play",
+      "page": 71
+    },
+    {
+      "level": "H3",
+      "text": "Slow motion",
+      "page": 71
+    },
+    {
+      "level": "H3",
+      "text": "First frame",
+      "page": 71
+    },
+    {
+      "level": "H3",
+      "text": "Previous frame",
+      "page": 71
+    },
+    {
+      "level": "H3",
+      "text": "Next frame",
+      "page": 71
+    },
+    {
+      "level": "H3",
+      "text": "Last frame",
+      "page": 71
+    },
+    {
+      "level": "H3",
+      "text": "Edit",
+      "page": 71
+    },
+    {
+      "level": "H3",
+      "text": "mm’ ss”",
+      "page": 71
+    },
+    {
+      "level": "H3",
+      "text": "Volume",
+      "page": 71
+    },
+    {
+      "level": "H1",
+      "text": "Viewing the Camera Instruction Manual CD-ROM / Software Start Guide",
+      "page": 72
+    },
+    {
+      "level": "H1",
+      "text": "This chapter explains how to view the PDF files in the Camera Instruction Manual CD-ROM and Software Instruction Manual CD-ROM. It also gives an overview of the software in the EOS DIGITAL Solution Disk CD- ROM and explains how to install them on a personal computer.",
+      "page": 72
+    },
+    {
+      "level": "H3",
+      "text": "EOS DIGITAL Software Camera Solution Disk Instruction Manual Instruction Manual",
+      "page": 72
+    },
+    {
+      "level": "H1",
+      "text": "Viewing the Camera Instruction Manual CD-ROM",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Camera Instruction Manual",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Camera Instruction Manual",
+      "page": 73
+    },
+    {
+      "level": "H3",
+      "text": "Quick Reference Guide (PDF file)",
+      "page": 73
+    },
+    {
+      "level": "H3",
+      "text": "Simple guide centering on shooting procedures. Its A4 size enables easy printing to carry it around.",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Viewing the Camera Instruction Manual CD-ROM",
+      "page": 73
+    },
+    {
+      "level": "H3",
+      "text": "To view the Camera Instruction Manual and Quick Reference Guide, your personal computer must have Adobe Reader (version 6.0 or higher) installed. You can download Adobe Reader from the Internet for free. After installing Adobe Reader, follow the procedure below.",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Insert the Camera Instruction Manual CD- ROM into your computer. Double-click the CD-ROM icon.",
+      "page": 73
+    },
+    {
+      "level": "H3",
+      "text": "For Windows, the icon will be displayed in [ (My) Computer ].",
+      "page": 73
+    },
+    {
+      "level": "H3",
+      "text": "For Macintosh, the icon will be displayed on the desktop. The icon that appears will differ depending on your computer.",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Double-click the “START” file.",
+      "page": 74
+    },
+    {
+      "level": "H3",
+      "text": "The screen shown in step 4 will appear. The icon that appears will differ depending on your computer.",
+      "page": 74
+    },
+    {
+      "level": "H1",
+      "text": "Click on the name of the instruction manual you want to view.",
+      "page": 74
+    },
+    {
+      "level": "H3",
+      "text": "Click on the name of the instruction manual under the desired language.",
+      "page": 74
+    },
+    {
+      "level": "H3",
+      "text": "The Instruction Manual/Quick Reference Guide in the desired language will be displayed.",
+      "page": 74
+    },
+    {
+      "level": "H1",
+      "text": "Software Start Guide",
+      "page": 75
+    },
+    {
+      "level": "H1",
+      "text": "EOS DIGITAL Solution Disk",
+      "page": 75
+    },
+    {
+      "level": "H1",
+      "text": "EOS Utility",
+      "page": 75
+    },
+    {
+      "level": "H3",
+      "text": "With the camera connected to a personal computer, EOS Utility enables you to transfer still photos and movies shot with the camera to the computer. You can also use the personal computer to set various camera settings and shoot remotely with the computer connected to the camera.",
+      "page": 75
+    },
+    {
+      "level": "H1",
+      "text": "Digital Photo Professional",
+      "page": 75
+    },
+    {
+      "level": "H3",
+      "text": "This software is recommended for users who mainly shoot RAW images. You can view, edit, process, and print RAW images at high speed. You can also edit JPEG images while retaining the original images.",
+      "page": 75
+    },
+    {
+      "level": "H1",
+      "text": "ZoomBrowser EX (Win) / ImageBrowser (Mac)",
+      "page": 75
+    },
+    {
+      "level": "H3",
+      "text": "This software is recommended for users who mainly shoot JPEG images. You can easily view, edit, organize, and print JPEG images. You can also play and edit MOV movies and extract still photos from movies.",
+      "page": 75
+    },
+    {
+      "level": "H1",
+      "text": "Picture Style Editor",
+      "page": 75
+    },
+    {
+      "level": "H3",
+      "text": "You can edit Picture Styles and create and save original Picture Style files. This software is aimed at advanced users who are experienced in processing images.",
+      "page": 75
+    },
+    {
+      "level": "H1",
+      "text": "Installing the Software",
+      "page": 76
+    },
+    {
+      "level": "H3",
+      "text": "Insert EOS DIGITAL Solution Disk (CD-ROM).",
+      "page": 76
+    },
+    {
+      "level": "H3",
+      "text": "on the desktop, then double-click on [ Canon EOS Digital Installer ].",
+      "page": 76
+    },
+    {
+      "level": "H1",
+      "text": "Click [Easy Installation] and follow the on-screen instructions to install.",
+      "page": 76
+    },
+    {
+      "level": "H3",
+      "text": "For Macintosh, click [ Install ].",
+      "page": 76
+    },
+    {
+      "level": "H1",
+      "text": "Click [Restart] and remove the CD-ROM after the computer restarts.",
+      "page": 76
+    },
+    {
+      "level": "H1",
+      "text": "Software Instruction Manual",
+      "page": 77
+    },
+    {
+      "level": "H1",
+      "text": "Copying and Viewing the Instruction Manual PDFs Insert the [Software INSTRUCTION MANUAL] CD-ROM into your computer. Double-click the CD-ROM icon.",
+      "page": 77
+    },
+    {
+      "level": "H3",
+      "text": "For Windows, the icon is displayed in [ (My) Computer ].",
+      "page": 77
+    },
+    {
+      "level": "H3",
+      "text": "For Macintosh, the icon is displayed on the desktop.",
+      "page": 77
+    },
+    {
+      "level": "H1",
+      "text": "Copy the [English] folder to your computer.",
+      "page": 77
+    },
+    {
+      "level": "H3",
+      "text": "Instruction Manual PDFs with the names below are copied.",
+      "page": 77
+    },
+    {
+      "level": "H1",
+      "text": "Double-click the copied PDF file.",
+      "page": 77
+    },
+    {
+      "level": "H3",
+      "text": "Adobe Reader (Version 6.0 or later) must be installed in your computer. Adobe Reader can be downloaded free from the Internet.",
+      "page": 77
+    },
+    {
+      "level": "H3",
+      "text": "• EF-S18-55mm f/3.5-5.6 IS II",
+      "page": 78
+    },
+    {
+      "level": "H3",
+      "text": "• EF-S55-250mm f/4-5.6 IS II",
+      "page": 78
+    },
+    {
+      "level": "H1",
+      "text": "Safety Warnings",
+      "page": 79
+    },
+    {
+      "level": "H3",
+      "text": "Preventing Serious Injury or Death",
+      "page": 79
+    },
+    {
+      "level": "H3",
+      "text": "Preventing Injury or Equipment Damage",
+      "page": 80
+    },
+    {
+      "level": "H3",
+      "text": "If the product does not work properly or requires repair, contact your dealer or your nearest Canon Service Center.",
+      "page": 80
+    },
+    {
+      "level": "H3",
+      "text": "Digital Camera Model DS126291 Systems",
+      "page": 81
+    },
+    {
+      "level": "H3",
+      "text": "IMPORTANT SAFETY INSTRUCTIONS 1. SAVE THESE INSTRUCTIONS — This manual contains important safety",
+      "page": 82
+    },
+    {
+      "level": "H3",
+      "text": "MAINTENANCE INSTRUCTION",
+      "page": 82
+    },
+    {
+      "level": "H3",
+      "text": "CAUTION",
+      "page": 82
+    },
+    {
+      "level": "H3",
+      "text": "About MPEG-4 Licensing",
+      "page": 82
+    },
+    {
+      "level": "H3",
+      "text": "CANON INC. 30-2, Shimomaruko 3-chome, Ohta-ku, Tokyo 146-8501, Japan",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON U.S.A. INC.",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON CANADA INC. HEADQUARTERS",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON CANADA INC. MONTREAL BRANCH",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON CANADA INC. CALGARY OFFICE",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON EUROPA N.V.",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON FRANCE S.A.S.",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON UK LTD.",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON LATIN AMERICA, INC.",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON HONGKONG CO., LTD.",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON SINGAPORE PTE. LTD.",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON KOREA CONSUMER IMAGING INC.",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON AUSTRALIA PTY. LTD.",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON NEW ZEALAND LTD.",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CANON MARKETING JAPAN INC.",
+      "page": 83
+    },
+    {
+      "level": "H3",
+      "text": "CPX-E047-002 © CANON INC. 2012",
+      "page": 83
+    }
+  ]
+}

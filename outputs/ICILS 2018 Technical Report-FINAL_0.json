@@ -1,0 +1,3315 @@
+{
+  "title": "TECHNICAL REPORT",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "IEA International Computer and Information Literacy Study 2018",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Technical Report",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Editors",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Julian Fraillon John Ainley Wolfram Schulz Tim Friedman Daniel Duckworth",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "IEA International Computer and Information Literacy Study 2018",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Technical Report",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Contributors",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "John Ainley Sebastian Meyer Ralph Carstens Ekaterina Mikheeva Alex Daraganov Lauren Musu Sandra Dohr Louise Ockwell David Ebbs Wolfram Schulz Julian Fraillon Sabine Tieck Tim Friedman",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Contents",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "List of tables and figures ix",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 1: Overview of the IEA International Computer and Information Literacy Study 2018",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Introduction Instruments Computer-based test delivery Measures Data Outline of the technical report References",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 2: ICILS 2018 test development 11",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 3: Computer-based assessment systems 31",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 12: Scaling procedures for ICILS 2018 questionnaire items 159",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 13: The reporting of ICILS 2018 results 221",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Appendices",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "List of tables and figures",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Tables",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Figures",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 1:",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Overview of the IEA International Computer and Information Literacy Study 2018",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Julian Fraillon, Sebastian Meyer, and John Ainley",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Instruments",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "CIL test",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "CT test",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Questionnaires",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Computer-based test delivery",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Measures",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "The CIL scale",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "The CT scale",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Measures based on the teacher questionnaire",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Measures based on the school questionnaire",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Data",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Countries",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Population definitions",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Sample design",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Outline of the technical report",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 2:",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "ICILS 2018 test development",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Julian Fraillon",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Test scope and format",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "ICILS 2018 assessment framework",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "The ICILS test instruments",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "Table 2.1:\tTest development processes and timeline",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Year Month Group Activity 2015",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "February ICILS international study center Establishment of CIL test specifications and preliminary CT test specifications",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "February Second meeting of national Review of draft test modules research coordinators (Amsterdam)",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Table 2.2: Summary of ICILS 2018 CIL test modules and large taskst",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Module Description and large task",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "Test-development process",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "Drafting of preliminary module ideas",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Development of module storyboards",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "First online review of module storyboards",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "In December 2015, NRCs took part in an online review of the draft storyboards. When reviewing the draft storyboards, NRCs made recommendations relating to the modules. The NRCs’ feedback informed further revision of the module storyboards and preparation for detailed discussion of the modules at the second meeting of NRCs.",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Face-to-face review of draft module storyboards",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Second online review of draft module storyboards",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Authoring the draft storyboards in the field trial online delivery system",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Face-to-face review of field-trial modules and finalization",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Field-trial scorer training",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Authoring the draft storyboards in the main survey online delivery system",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Field trial analysis review and selection of items for the main survey",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Post-field trial revision",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Field trial test design and content",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Table 2.3: Field trial CIL test module composition by items derived from tasks",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Note: *The recycling module included a short note-taking task and a communication task. In this table both are",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "Field trial coverage of the CIL framework",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "All field trial items were developed according to and mapped against the ICILS CIL framework. Table 2.6 shows this mapping.",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Table 2.6:\tField trial CIL item mapping to the CIL framework",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "CIL framework aspect Items Items Score Score (n) (%) points points (n) (%)",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "Field trial coverage of the CT framework",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "CT framework aspect Items Items Score Score (n) (%) points points (n) (%)",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "Selection of CIL and CT test content for main survey",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "Main survey test design and content",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Table 2.8: Main survey CIL test module composition by items derived from tasks",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Note: *The recycling module included a short note-taking task and a communication task. In this table both are",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Table 2.9: Main survey CT test module composition by items derived from tasks",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "CIL framework aspect Items Items Score Score (n) (%) points points (n) (%)",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "Main survey coverage of the CT framework",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "All main survey items were developed according to and mapped against the ICILS CT framework. Table 2.12 shows this mapping.",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Table 2.12: Main survey CT item mapping to the CT framework",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "CIL framework aspect Items Items Score Score (n) (%) points points (n) (%)",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "Scoring the main survey CT algorithm construction and algorithm debugging tasks CT items",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Table 2.13: Example scoring of the correctness of student coding responses",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "Table 2.14: Example scoring of the efficiency of student coding responses",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Note: * These percentages include all responses using the given number of commands regardless of their correctness.",
+      "page": 42
+    },
+    {
+      "level": "H1",
+      "text": "Released CIL test module and CT tasks",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Table 2.15: Example scoring of correctness and efficiency combined",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "Correctness Efficiency Conceptual description of correctness and efficiency Recoded score score combined score (CE)",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 3:",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Computer-based assessment systems",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Julian Fraillon, Ralph Carstens, and Sebastian Meyer",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "ICILS 2018 computer-based components and architecture",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Pre-existing components",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Components developed for ICILS 2018",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "Procedures and software user manuals",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "ICILS 2018 system architecture",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "Developing the computer-based delivery platform for ICILS 2018",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Table 3.1: ICILS computer-based or computer-supported systems and operations",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Process Student test and Principal, ICT coordinator, Principal, ICT coordinator, questionnaire and teacher and teacher questionnaires (online) questionnaires (paper)",
+      "page": 47
+    },
+    {
+      "level": "H1",
+      "text": "Developing the scoring module",
+      "page": 49
+    },
+    {
+      "level": "H1",
+      "text": "Developing the administration module",
+      "page": 50
+    },
+    {
+      "level": "H1",
+      "text": "Challenges with computer-based delivery in ICILS 2018",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "Participation status Test Questionnaire",
+      "page": 51
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 4:",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "ICILS 2018 questionnaire development",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "John Ainley and Wolfram Schulz",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "The conceptual framework used to guide questionnaire development",
+      "page": 53
+    },
+    {
+      "level": "H3",
+      "text": "Antecedents Processes Outcomes",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "Student Student",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "Table 4.1: Mapping of variables to contextual framework with examples",
+      "page": 55
+    },
+    {
+      "level": "H3",
+      "text": "Level of ... Antecedents Processes NCS & other sources: NCS & other sources:",
+      "page": 55
+    },
+    {
+      "level": "H3",
+      "text": "Student",
+      "page": 55
+    },
+    {
+      "level": "H3",
+      "text": "Gender ICT activities Age Use of ICT CIL/CT",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "Development of the ICILS context questionnaires",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "Development of the student questionnaire",
+      "page": 56
+    },
+    {
+      "level": "H1",
+      "text": "Development of the teacher questionnaire",
+      "page": 57
+    },
+    {
+      "level": "H1",
+      "text": "Development of the school principal and ICT coordinator questionnaires",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "Development and implementation of the national contexts survey",
+      "page": 59
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 61
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 5:",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "text": "Instrument preparation and verification of the ICILS 2018 study instruments",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "text": "Sandra Dohr, Tim Friedman, David Ebbs, and Lauren Musu",
+      "page": 63
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 63
+    },
+    {
+      "level": "H3",
+      "text": "NRCs adapt instruments to ISC releases international Adaptation verification (ISC) national context version of instruments",
+      "page": 64
+    },
+    {
+      "level": "H1",
+      "text": "Adaptation and translation of the ICILS study instruments",
+      "page": 64
+    },
+    {
+      "level": "H3",
+      "text": "Table 5.1: Languages used for the ICILS 2018 study instruments",
+      "page": 67
+    },
+    {
+      "level": "H1",
+      "text": "Translation systems",
+      "page": 67
+    },
+    {
+      "level": "H1",
+      "text": "International verification processes",
+      "page": 68
+    },
+    {
+      "level": "H1",
+      "text": "Adaptation verification",
+      "page": 68
+    },
+    {
+      "level": "H1",
+      "text": "Translation verification procedure and verifiers’ feedback",
+      "page": 69
+    },
+    {
+      "level": "H1",
+      "text": "Layout verification of student instruments",
+      "page": 70
+    },
+    {
+      "level": "H1",
+      "text": "Summary",
+      "page": 71
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 6:",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Sampling design and implementation",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Sabine Tieck",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Target population definitions",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Definition: Students",
+      "page": 73
+    },
+    {
+      "level": "H1",
+      "text": "Definition: Teachers",
+      "page": 74
+    },
+    {
+      "level": "H1",
+      "text": "Definition: Schools",
+      "page": 74
+    },
+    {
+      "level": "H1",
+      "text": "Coverage and exclusions",
+      "page": 75
+    },
+    {
+      "level": "H1",
+      "text": "Population coverage",
+      "page": 75
+    },
+    {
+      "level": "H1",
+      "text": "School-level exclusions",
+      "page": 75
+    },
+    {
+      "level": "H1",
+      "text": "Table 6.1 gives an overview of the types of exclusions of schools and their respective percentages of all schools in the desired national target population within each participating country. The",
+      "page": 75
+    },
+    {
+      "level": "H3",
+      "text": "Table 6.1: Percentages of schools excluded from the ICILS target population (contd.)",
+      "page": 77
+    },
+    {
+      "level": "H1",
+      "text": "Student-level exclusions",
+      "page": 77
+    },
+    {
+      "level": "H1",
+      "text": "ER",
+      "page": 78
+    },
+    {
+      "level": "H1",
+      "text": "x100",
+      "page": 78
+    },
+    {
+      "level": "H1",
+      "text": "School sampling design",
+      "page": 79
+    },
+    {
+      "level": "H1",
+      "text": "School sampling frame",
+      "page": 79
+    },
+    {
+      "level": "H1",
+      "text": "Stratification of schools",
+      "page": 79
+    },
+    {
+      "level": "H3",
+      "text": "Table 6.3: Stratification schemes of participating countries",
+      "page": 80
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation) Performance level (5) Administration (2) North Rhine-Westphalia Track (gymnasium/nongymnasium/ SES indicator (3) (Germany) special needs schools) (3)",
+      "page": 80
+    },
+    {
+      "level": "H1",
+      "text": "School sample selection",
+      "page": 81
+    },
+    {
+      "level": "H3",
+      "text": "Random start 150 students",
+      "page": 82
+    },
+    {
+      "level": "H1",
+      "text": "Within-school sampling design",
+      "page": 83
+    },
+    {
+      "level": "H1",
+      "text": "Student sampling",
+      "page": 83
+    },
+    {
+      "level": "H1",
+      "text": "Teacher sampling",
+      "page": 83
+    },
+    {
+      "level": "H1",
+      "text": "Sample size requirements",
+      "page": 84
+    },
+    {
+      "level": "H1",
+      "text": "Teacher sample sizes",
+      "page": 85
+    },
+    {
+      "level": "H3",
+      "text": "Table 6.4: School, student, and teacher sample sizes",
+      "page": 85
+    },
+    {
+      "level": "H1",
+      "text": "Efficiency of the ICILS 2018 sample design",
+      "page": 86
+    },
+    {
+      "level": "H3",
+      "text": "Figure 6.3: Sampling precision with equal sample sizes—simple random sampling versus cluster sampling",
+      "page": 87
+    },
+    {
+      "level": "H3",
+      "text": "Table 6.5: Design effects of main outcome variables—Student survey",
+      "page": 89
+    },
+    {
+      "level": "H3",
+      "text": "Table 6.7: Design effects of main outcome variables—Teacher survey",
+      "page": 91
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 92
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 7:",
+      "page": 93
+    },
+    {
+      "level": "H1",
+      "text": "Sampling weights, non-response adjustments, and participation rates",
+      "page": 93
+    },
+    {
+      "level": "H1",
+      "text": "Sabine Tieck",
+      "page": 93
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 93
+    },
+    {
+      "level": "H1",
+      "text": "Types of sampling weights",
+      "page": 93
+    },
+    {
+      "level": "H1",
+      "text": "Calculating student weights",
+      "page": 94
+    },
+    {
+      "level": "H1",
+      "text": "School base weight (WGTFAC1)",
+      "page": 94
+    },
+    {
+      "level": "H1",
+      "text": "for SyRS",
+      "page": 94
+    },
+    {
+      "level": "H1",
+      "text": "in the preceding section, as",
+      "page": 94
+    },
+    {
+      "level": "H1",
+      "text": "Student base weight (WGTFAC3S)",
+      "page": 95
+    },
+    {
+      "level": "H1",
+      "text": "The IEA Windows Within-School Sampling Software (IEA WinW3S) was used to manage within- school sampling during the second sampling stage (see Chapter 8 for details) in order to conduct a systematic random selection of students from the target grade. The student base weight for student was calculated as:",
+      "page": 95
+    },
+    {
+      "level": "H1",
+      "text": "number of sampled students in school in stratum In schools with fewer than 26 target grade students, all eligible students were selected for participation. In these cases, the weight factor was set to a value of one.",
+      "page": 95
+    },
+    {
+      "level": "H1",
+      "text": "Student non-response adjustment (WGTADJ3S)",
+      "page": 95
+    },
+    {
+      "level": "H1",
+      "text": "Final student weight (TOTWGTS)",
+      "page": 95
+    },
+    {
+      "level": "H1",
+      "text": "Calculating teacher weights",
+      "page": 96
+    },
+    {
+      "level": "H1",
+      "text": "School base weight (WGTFAC1)",
+      "page": 96
+    },
+    {
+      "level": "H1",
+      "text": "School non-response adjustment (WGTADJ1T)",
+      "page": 96
+    },
+    {
+      "level": "H1",
+      "text": "Here,",
+      "page": 96
+    },
+    {
+      "level": "H1",
+      "text": "Teacher base weight (WGTFAC2T)",
+      "page": 96
+    },
+    {
+      "level": "H1",
+      "text": "is the number of participating teachers in",
+      "page": 96
+    },
+    {
+      "level": "H1",
+      "text": "Teacher multiplicity factor (WGTFAC3T)",
+      "page": 97
+    },
+    {
+      "level": "H1",
+      "text": "Final teacher weight (TOTWGTT)",
+      "page": 97
+    },
+    {
+      "level": "H1",
+      "text": "The final teacher weight for teacher in school in stratum is the product of the five teacher- weight components:",
+      "page": 97
+    },
+    {
+      "level": "H1",
+      "text": "Calculating school weights",
+      "page": 97
+    },
+    {
+      "level": "H1",
+      "text": "School base weight (WGTFAC1)",
+      "page": 97
+    },
+    {
+      "level": "H1",
+      "text": "School weight adjustment (WGTADJ1C)",
+      "page": 97
+    },
+    {
+      "level": "H1",
+      "text": "Final school weight",
+      "page": 98
+    },
+    {
+      "level": "H1",
+      "text": "Calculating participation rates",
+      "page": 98
+    },
+    {
+      "level": "H1",
+      "text": "Unweighted participation rates in the student survey",
+      "page": 98
+    },
+    {
+      "level": "H1",
+      "text": "Here, the students in the numerator were computed as the sum over the originally sampled participating schools only, whereas the students in the denominator were calculated as the total over all participating schools. The weighted school participation rate in the student survey after replacement is therefore:",
+      "page": 99
+    },
+    {
+      "level": "H1",
+      "text": "The weighted student participation rate was computed as follows, taking again replacement schools into account:",
+      "page": 99
+    },
+    {
+      "level": "H1",
+      "text": "The weighted overall participation rate in the student survey before replacement is therefore:",
+      "page": 99
+    },
+    {
+      "level": "H1",
+      "text": "The weighted overall participation rate in the student survey after replacement is:",
+      "page": 99
+    },
+    {
+      "level": "H1",
+      "text": "Overview of participation rates in the student survey",
+      "page": 99
+    },
+    {
+      "level": "H1",
+      "text": "Unweighted participation rates in the teacher survey",
+      "page": 101
+    },
+    {
+      "level": "H1",
+      "text": "The computation of participation rates in the teacher survey follows the same logic as applied in the student survey. Let op fp , and np be defined as above, such that the participation status now refers to the teacher",
+      "page": 101
+    },
+    {
+      "level": "H1",
+      "text": "unweighted school participation rate in the teacher survey before replacement is computed as:",
+      "page": 101
+    },
+    {
+      "level": "H1",
+      "text": "The unweighted school participation rate in the teacher survey after replacement is calculated as:",
+      "page": 101
+    },
+    {
+      "level": "H1",
+      "text": "Let tfp be the set of eligible and participating teachers in schools that constitute fp tnp be the set",
+      "page": 101
+    },
+    {
+      "level": "H1",
+      "text": "number of teachers in the respective groups. The unweighted teacher response rate is defined as:",
+      "page": 101
+    },
+    {
+      "level": "H1",
+      "text": "Note that it was not deemed necessary to compute teacher response rates separately for (participating) originally sampled and replacement schools because the non-response patterns did not vary between sample and replacement schools. The unweighted overall participation rate in the teacher survey before replacement is computed as:",
+      "page": 101
+    },
+    {
+      "level": "H1",
+      "text": "Weighted participation rates in the teacher survey",
+      "page": 101
+    },
+    {
+      "level": "H1",
+      "text": "Overview of participation rates in the teacher survey",
+      "page": 102
+    },
+    {
+      "level": "H3",
+      "text": "Table 7.4: Weighted school and teacher participation rates—Teacher survey",
+      "page": 103
+    },
+    {
+      "level": "H1",
+      "text": "ICILS 2018 standards for sampling participation",
+      "page": 103
+    },
+    {
+      "level": "H1",
+      "text": "Within-school participation requirements",
+      "page": 103
+    },
+    {
+      "level": "H3",
+      "text": "Figure 7.1: Participation categories in ICILS",
+      "page": 105
+    },
+    {
+      "level": "H1",
+      "text": "Reporting data",
+      "page": 106
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 107
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 8:",
+      "page": 109
+    },
+    {
+      "level": "H1",
+      "text": "ICILS 2018 field operations",
+      "page": 109
+    },
+    {
+      "level": "H1",
+      "text": "Ekaterina Mikheeva and Sebastian Meyer",
+      "page": 109
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 109
+    },
+    {
+      "level": "H1",
+      "text": "Field operations personnel",
+      "page": 109
+    },
+    {
+      "level": "H1",
+      "text": "The role of the national research coordinators and their centers",
+      "page": 109
+    },
+    {
+      "level": "H1",
+      "text": "The role of school coordinators and test administrators",
+      "page": 109
+    },
+    {
+      "level": "H1",
+      "text": "Field operations resources",
+      "page": 110
+    },
+    {
+      "level": "H1",
+      "text": "Software",
+      "page": 111
+    },
+    {
+      "level": "H1",
+      "text": "Field operations processes",
+      "page": 112
+    },
+    {
+      "level": "H1",
+      "text": "Linking students and teachers to schools",
+      "page": 112
+    },
+    {
+      "level": "H3",
+      "text": "Figure 8.1: Activities with schools",
+      "page": 114
+    },
+    {
+      "level": "H3",
+      "text": "National center Schools",
+      "page": 114
+    },
+    {
+      "level": "H1",
+      "text": "Preparing the computer-based test delivery at schools",
+      "page": 115
+    },
+    {
+      "level": "H1",
+      "text": "Administering the assessment at schools",
+      "page": 115
+    },
+    {
+      "level": "H3",
+      "text": "Table 8.2: Timing of the ICILS assessment",
+      "page": 117
+    },
+    {
+      "level": "H1",
+      "text": "Online data collection for survey activities questionnaires",
+      "page": 119
+    },
+    {
+      "level": "H1",
+      "text": "Scoring the assessment and checking scorer reliability",
+      "page": 119
+    },
+    {
+      "level": "H1",
+      "text": "Scoring the assessment",
+      "page": 119
+    },
+    {
+      "level": "H1",
+      "text": "Field trial procedures",
+      "page": 120
+    },
+    {
+      "level": "H1",
+      "text": "Summary",
+      "page": 121
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 9:",
+      "page": 123
+    },
+    {
+      "level": "H1",
+      "text": "Quality assurance procedures for ICILS 2018",
+      "page": 123
+    },
+    {
+      "level": "H1",
+      "text": "Sandra Dohr, Lauren Musu, and David Ebbs",
+      "page": 123
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 123
+    },
+    {
+      "level": "H1",
+      "text": "International quality control program",
+      "page": 123
+    },
+    {
+      "level": "H1",
+      "text": "Overview of IQOs’ responsibilities",
+      "page": 125
+    },
+    {
+      "level": "H1",
+      "text": "Visiting the national research coordinator (NRC)",
+      "page": 125
+    },
+    {
+      "level": "H1",
+      "text": "Testing session observations",
+      "page": 126
+    },
+    {
+      "level": "H3",
+      "text": "Table 9.1: Preparation of the testing room",
+      "page": 127
+    },
+    {
+      "level": "H3",
+      "text": "Question Response category (%) Yes No Missing",
+      "page": 127
+    },
+    {
+      "level": "H1",
+      "text": "During the ICILS administration",
+      "page": 127
+    },
+    {
+      "level": "H3",
+      "text": "Procedures/devices Response category (%) Yes No Missing",
+      "page": 128
+    },
+    {
+      "level": "H1",
+      "text": "Interview with school coordinators and test administrators",
+      "page": 129
+    },
+    {
+      "level": "H3",
+      "text": "Question Response category (%) Yes No Missing",
+      "page": 129
+    },
+    {
+      "level": "H1",
+      "text": "Translation verification report",
+      "page": 130
+    },
+    {
+      "level": "H1",
+      "text": "Survey activities questionnaire",
+      "page": 130
+    },
+    {
+      "level": "H1",
+      "text": "Sampling",
+      "page": 131
+    },
+    {
+      "level": "H1",
+      "text": "Administering ICILS",
+      "page": 133
+    },
+    {
+      "level": "H1",
+      "text": "Scoring open-ended response items",
+      "page": 133
+    },
+    {
+      "level": "H1",
+      "text": "Summary",
+      "page": 134
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 10:",
+      "page": 135
+    },
+    {
+      "level": "H1",
+      "text": "Data management and creation of the ICILS 2018 database",
+      "page": 135
+    },
+    {
+      "level": "H1",
+      "text": "Ekaterina Mikheeva and Sebastian Meyer",
+      "page": 135
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 135
+    },
+    {
+      "level": "H1",
+      "text": "Data sources",
+      "page": 135
+    },
+    {
+      "level": "H1",
+      "text": "Computer-based student assessment",
+      "page": 135
+    },
+    {
+      "level": "H1",
+      "text": "Online data collection of school and teacher questionnaires",
+      "page": 136
+    },
+    {
+      "level": "H1",
+      "text": "Confirming the integrity of the national databases",
+      "page": 138
+    },
+    {
+      "level": "H1",
+      "text": "Overview",
+      "page": 138
+    },
+    {
+      "level": "H1",
+      "text": "Data cleaning quality control",
+      "page": 139
+    },
+    {
+      "level": "H1",
+      "text": "National research center IEA online servers",
+      "page": 142
+    },
+    {
+      "level": "H1",
+      "text": "IEA",
+      "page": 142
+    },
+    {
+      "level": "H3",
+      "text": "OUTPUT",
+      "page": 142
+    },
+    {
+      "level": "H3",
+      "text": "Communication",
+      "page": 142
+    },
+    {
+      "level": "H3",
+      "text": "International Statistics Reports Documentation database",
+      "page": 142
+    },
+    {
+      "level": "H1",
+      "text": "Resolving inconsistencies in questionnaire data",
+      "page": 143
+    },
+    {
+      "level": "H1",
+      "text": "The ICILS 2018 international database",
+      "page": 145
+    },
+    {
+      "level": "H1",
+      "text": "Summary",
+      "page": 146
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 146
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 11:",
+      "page": 147
+    },
+    {
+      "level": "H1",
+      "text": "Scaling procedures for ICILS 2018 test items",
+      "page": 147
+    },
+    {
+      "level": "H1",
+      "text": "Louise Ockwell, Alex Daraganov, and Wolfram Schulz",
+      "page": 147
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 147
+    },
+    {
+      "level": "H1",
+      "text": "The scaling model",
+      "page": 147
+    },
+    {
+      "level": "H1",
+      "text": "= 0,1 ,…,m",
+      "page": 147
+    },
+    {
+      "level": "H1",
+      "text": "Test coverage and item dimensionality",
+      "page": 148
+    },
+    {
+      "level": "H3",
+      "text": "Figure 11.2: Mapping of CT student abilities and item difficulties",
+      "page": 149
+    },
+    {
+      "level": "H1",
+      "text": "Assessment of item fit",
+      "page": 150
+    },
+    {
+      "level": "H1",
+      "text": "Example partial credit item",
+      "page": 151
+    },
+    {
+      "level": "H3",
+      "text": "Figure 11.4: Item characteristic curve by category for item B08Z",
+      "page": 151
+    },
+    {
+      "level": "H3",
+      "text": "Table 11.1: International CIL item-rest correlations and weighted item fit",
+      "page": 153
+    },
+    {
+      "level": "H1",
+      "text": "Dimensionality and local dependence",
+      "page": 154
+    },
+    {
+      "level": "H3",
+      "text": "Figure 11.5: Local dependence within CIL modules",
+      "page": 155
+    },
+    {
+      "level": "H1",
+      "text": "removing items with unsatisfactory psychometric characteristics showed improvement but local dependence was still evident within four out of five complete modules. When considering only large task items, local dependence was still evident within all five modules, but only within two of five modules when considering only single task items.",
+      "page": 155
+    },
+    {
+      "level": "H3",
+      "text": "Table 11.3: CIL item pairs showing local dependence",
+      "page": 155
+    },
+    {
+      "level": "H1",
+      "text": "Assessment of scorer reliabilities",
+      "page": 155
+    },
+    {
+      "level": "H3",
+      "text": "H07D G03Z",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "100 92 79 91 58 63 89 89 97 95 87 93 54 63 89 92 99 92 91 86 75 56",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "86 96 87 59",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "H07C G01Z",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "100 94 94 97 91 93 97 96 93 71 92 55 69 90 92 98 89 74 55",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "H07B S08G",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "100 100 93 98 89 82 95 95 97 92 80 93 51 73 93 93 97 90 77 53",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "H07A S08F",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "100 92 78 93 63 71 94 94 97 96 98 91 95 99 94 96 98 94 90",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "H06Z S08E",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "100 100 95 94 99 91 94 98 97 98 99 98 95 96 99 98 99 98 97 98 98",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "H05Z S08D",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "100 96 90 97 89 98 98 95 99 96 97 99 94 89 98 96 97 93 93 93 98",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "B09G S08C",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "B09F S08B",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "100 98 98 99 97 99 99 99 98 82 91 88 84 94 98 91 88 93 89",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "Table 11.4: Percentages of scorer agreement for constructed-response CIL and CT test items",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "H07H B09B",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "H07G B09A",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "H07F B02Z",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "H07E B01Z",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation) Moscow (Russian Federation)",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "Korea, Republic of Korea, Republic of United States United States Luxembourg Luxembourg Kazakhstan Kazakhstan Denmark Denmark Germany Germany Uruguay",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "Country",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "Portugal Portugal Finland Finland France France Italy Chile Italy Chile",
+      "page": 156
+    },
+    {
+      "level": "H3",
+      "text": "R11C",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "100 N/A 97 99 98 99 97 97 99 99 95 99 99",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "R11B",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "R11A",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "100 100 100 99 99 98 97 99 99 98 99 97",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "R10Z",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "100 93 92 86 97 79 81 90 94 96 88 96 64",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "TA08Z R08Z",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "100 100 N/A N/A N/A N/A N/A 89 93 85 95 77 83 92 92 96 89 96 67",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "TA07Z R06B",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "100 N/A N/A N/A N/A N/A 96 98 95 99 93 92 96 97 96 94 97 96 92",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "R06A R12J",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "R02Z R12I",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "100 88 90 84 96 78 80 91 92 98 93 96 82",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "Table 11.4: Percentages of scorer agreement for constructed-response CIL and CT test items (contd.)",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "R12G G09F",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "R12D G09E",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "R11D G06Z",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation) Moscow (Russian Federation)",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "Korea, Republic of Korea, Republic of United States United States Luxembourg Luxembourg Kazakhstan Kazakhstan Denmark Denmark Germany Germany Uruguay",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "Country Country",
+      "page": 157
+    },
+    {
+      "level": "H3",
+      "text": "Uruguay Portugal Portugal Finland Finland France France Italy Chile Italy Chile",
+      "page": 157
+    },
+    {
+      "level": "H1",
+      "text": "Differential item functioning by gender",
+      "page": 158
+    },
+    {
+      "level": "H1",
+      "text": "= 0,1 ,…,m",
+      "page": 158
+    },
+    {
+      "level": "H3",
+      "text": "Table 11.5: Gender DIF estimates for CIL test items",
+      "page": 159
+    },
+    {
+      "level": "H1",
+      "text": "National reports with item statistics",
+      "page": 160
+    },
+    {
+      "level": "H1",
+      "text": "Cross-national measurement equivalence",
+      "page": 160
+    },
+    {
+      "level": "H3",
+      "text": "Figure 11.6: Example of item statistics provided to national centres",
+      "page": 161
+    },
+    {
+      "level": "H3",
+      "text": "Number of cases:  1153 Adjusted correlation: \t 0.18 Item threshold(s): \t-1.257 Fit (weighted MNSQ): \t1.13 Item delta(s) -1.257",
+      "page": 161
+    },
+    {
+      "level": "H3",
+      "text": "Fit Adjusted correlation",
+      "page": 161
+    },
+    {
+      "level": "H1",
+      "text": "Evaluating the impact of missing responses",
+      "page": 162
+    },
+    {
+      "level": "H1",
+      "text": "Table 11.7 and 11.8 show the international percentages of omitted and not reached responses. Table 11.9 shows the average percentages of missing values overall and for each module. On average, each item was omitted by nearly eight percent of the students. The average number of students that did not reach an item was about one percent.",
+      "page": 163
+    },
+    {
+      "level": "H3",
+      "text": "Table 11.7: Percentages of omitted responses and items not reached due to lack of time for CIL items",
+      "page": 163
+    },
+    {
+      "level": "H1",
+      "text": "International item calibration and test reliability",
+      "page": 164
+    },
+    {
+      "level": "H3",
+      "text": "Table 11.10: Final parameter estimates of the CIL items",
+      "page": 165
+    },
+    {
+      "level": "H1",
+      "text": "CIL and CT estimates",
+      "page": 166
+    },
+    {
+      "level": "H1",
+      "text": "Equating CIL scores from ICILS 2013 and 2018",
+      "page": 168
+    },
+    {
+      "level": "H3",
+      "text": "Figure 11.8: Relative item difficulties for CIL common items in 2013 and 2018",
+      "page": 168
+    },
+    {
+      "level": "H1",
+      "text": "(c (c",
+      "page": 169
+    },
+    {
+      "level": "H1",
+      "text": "K(K–1) K–1",
+      "page": 169
+    },
+    {
+      "level": "H1",
+      "text": "The development of proficiency levels for CIL",
+      "page": 170
+    },
+    {
+      "level": "H3",
+      "text": "Figure 11.9: CIL proficiency level cut-points and percentage of students at each level",
+      "page": 171
+    },
+    {
+      "level": "H1",
+      "text": "0.62",
+      "page": 171
+    },
+    {
+      "level": "H1",
+      "text": "0.38",
+      "page": 171
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 172
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 12:",
+      "page": 173
+    },
+    {
+      "level": "H1",
+      "text": "Scaling procedures for ICILS 2018 questionnaire items",
+      "page": 173
+    },
+    {
+      "level": "H1",
+      "text": "Wolfram Schulz and Tim Friedman",
+      "page": 173
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 173
+    },
+    {
+      "level": "H1",
+      "text": "Simple indices",
+      "page": 173
+    },
+    {
+      "level": "H1",
+      "text": "Student questionnaire",
+      "page": 173
+    },
+    {
+      "level": "H1",
+      "text": "Teacher questionnaire",
+      "page": 176
+    },
+    {
+      "level": "H1",
+      "text": "Scaling procedures",
+      "page": 178
+    },
+    {
+      "level": "H1",
+      "text": "Review of item statistics",
+      "page": 178
+    },
+    {
+      "level": "H1",
+      "text": "Confirmatory factor analysis",
+      "page": 178
+    },
+    {
+      "level": "H1",
+      "text": "Item response modeling",
+      "page": 180
+    },
+    {
+      "level": "H1",
+      "text": "exp",
+      "page": 180
+    },
+    {
+      "level": "H1",
+      "text": "= 0,1 ,…,m",
+      "page": 180
+    },
+    {
+      "level": "H1",
+      "text": "where are the scores in the international metric, are the original weighted likelihood estimates",
+      "page": 181
+    },
+    {
+      "level": "H1",
+      "text": "likelihood estimates. Table 12.1 presents the means and standard deviations used to transform the original scale scores for the student, teacher, ICT coordinator, and school principal questionnaires into the international metric.",
+      "page": 181
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.1: Transformation parameters for new ICILS 2018 questionnaire scales (means and standard deviations of original IRT logit scores)",
+      "page": 181
+    },
+    {
+      "level": "H1",
+      "text": "Describing questionnaire scale indices",
+      "page": 182
+    },
+    {
+      "level": "H1",
+      "text": "Summed probabilities are not identical to expected item scores and have to be understood in",
+      "page": 183
+    },
+    {
+      "level": "H3",
+      "text": "Figure 12.2: Example of questionnaire item-by-score map",
+      "page": 183
+    },
+    {
+      "level": "H1",
+      "text": "Scaled indices",
+      "page": 184
+    },
+    {
+      "level": "H1",
+      "text": "Student questionnaire",
+      "page": 184
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.2: Factor loadings and reliabilities for the national index of students’ socioeconomic background",
+      "page": 185
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 185
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 185
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 185
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 186
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.4: Item parameters for scales measuring students’ use of ICT for activities",
+      "page": 187
+    },
+    {
+      "level": "H3",
+      "text": "S_GENACT How often do you use ICT for each of the following activities?",
+      "page": 187
+    },
+    {
+      "level": "H3",
+      "text": "S_SPECACT How often do you use ICT for each of the following activities?",
+      "page": 187
+    },
+    {
+      "level": "H1",
+      "text": "Students’ use of ICT for communication activities",
+      "page": 187
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.5: Reliabilities for scales measuring students' use of ICT for communication activities",
+      "page": 189
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 189
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 189
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 189
+    },
+    {
+      "level": "H3",
+      "text": "S_USECOM How often do you use ICT to do each of the following communication activities?",
+      "page": 189
+    },
+    {
+      "level": "H3",
+      "text": "S_USEINF How often do you use ICT to do each of the following communication activities?",
+      "page": 189
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.7: Reliabilities for scale measuring students’ use of ICT for leisure activities",
+      "page": 191
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 191
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 191
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 191
+    },
+    {
+      "level": "H3",
+      "text": "S_ACCONT How often do you use ICT to do each of the following leisure activities?",
+      "page": 191
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.9: Reliabilities for scale measuring students’ use of ICT for study purposes",
+      "page": 193
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 193
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 193
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 193
+    },
+    {
+      "level": "H3",
+      "text": "S_USESTD How often do you use ICT for the following school-related purposes?",
+      "page": 193
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.11: Reliabilities for scales measuring students’ reports on the use of ICT for class activities",
+      "page": 195
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 195
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 195
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 195
+    },
+    {
+      "level": "H3",
+      "text": "S_GENCLASS When studying throughout this school year, how often did you use the following tools during class?",
+      "page": 195
+    },
+    {
+      "level": "H3",
+      "text": "S_SPECLASS When studying throughout this school year, how often did you use the following tools during class?",
+      "page": 195
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.13: Reliabilities for scales measuring students’ perceptions of school learning of ICT and coding tasks",
+      "page": 197
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 197
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 197
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 197
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.14: Item parameters for scales reports on the use of ICT for class activities",
+      "page": 198
+    },
+    {
+      "level": "H3",
+      "text": "S_ICTLRN At school, to what extent have you learned how to do the following tasks?",
+      "page": 198
+    },
+    {
+      "level": "H3",
+      "text": "S_CODLRN When studying during the current school year, to what extent have you been taught how to do the following tasks?",
+      "page": 198
+    },
+    {
+      "level": "H3",
+      "text": "Figure 12.9: Confirmatory factor analysis of items measuring students’ ICT self-efficacy",
+      "page": 199
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 200
+    },
+    {
+      "level": "H3",
+      "text": "S_GENEFF How well can you do each of these tasks when using ICT?",
+      "page": 200
+    },
+    {
+      "level": "H3",
+      "text": "S_SPECEFF How well can you do each of these tasks when using ICT?",
+      "page": 200
+    },
+    {
+      "level": "H1",
+      "text": "Students’ perceptions of ICT",
+      "page": 201
+    },
+    {
+      "level": "H3",
+      "text": "Figure 12.10: Confirmatory factor analysis of items measuring students’ perceptions of ICT",
+      "page": 201
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 202
+    },
+    {
+      "level": "H3",
+      "text": "S_ICTPOS How much do you agree or disagree with the following statements about ICT?",
+      "page": 202
+    },
+    {
+      "level": "H3",
+      "text": "S_ICTNEG How much do you agree or disagree with the following statements about ICT?",
+      "page": 202
+    },
+    {
+      "level": "H3",
+      "text": "S_ICTFUT How much do you agree or disagree with the following statements about ICT?",
+      "page": 202
+    },
+    {
+      "level": "H1",
+      "text": "Teacher questionnaire",
+      "page": 203
+    },
+    {
+      "level": "H1",
+      "text": "Teachers’ ICT self-efficacy",
+      "page": 203
+    },
+    {
+      "level": "H1",
+      "text": "suggesting some variation in measurement properties for this model. The items in the scale were shown to be highly reliable. The average reliability (Cronbach’s alpha) across countries was 0.81 (ranging from 0.73 to 0.82) (see Table 12.19). The item parameters for the scale are presented in Table 12.20.",
+      "page": 203
+    },
+    {
+      "level": "H3",
+      "text": "Figure 12.11: Confirmatory factor analysis of items measuring teachers’ ICT self-efficacy",
+      "page": 203
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 204
+    },
+    {
+      "level": "H3",
+      "text": "T_ICTEFF How well can you do these tasks using ICT?",
+      "page": 204
+    },
+    {
+      "level": "H1",
+      "text": "Teachers’ emphasis on developing ICT skills and coding skills",
+      "page": 205
+    },
+    {
+      "level": "H3",
+      "text": "Figure 12.12: Confirmatory factor analysis of items measuring teachers’ emphasis on learning of ICT and coding tasks",
+      "page": 205
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 206
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.22: Item parameters for scales measuring teachers’ emphasis on learning of ICT and coding tasks",
+      "page": 207
+    },
+    {
+      "level": "H3",
+      "text": "T_CODEMP In your teaching of the reference class this school year, how much emphasis have you given to teaching the following skills?",
+      "page": 207
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.23: Reliabilities for scale measuring teachers’ use of ICT for class activities",
+      "page": 209
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 209
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 209
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 209
+    },
+    {
+      "level": "H3",
+      "text": "T_CLASACT How often do students in your reference class use ICT for the following activities?",
+      "page": 209
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.25: Reliabilities for scale measuring teachers’ use of ICT for teaching practices",
+      "page": 211
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 211
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 211
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 211
+    },
+    {
+      "level": "H3",
+      "text": "T_ICTPRAC How often do you use ICT in the following practices when teaching your reference class?",
+      "page": 211
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.27: Reliabilities for scales measuring teachers’ use of ICT tools in class",
+      "page": 213
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 213
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 213
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 213
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.29: Reliabilities for scales measuring teachers’ perceptions of ICT resources and teacher collaboration at school",
+      "page": 215
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 215
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 215
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 215
+    },
+    {
+      "level": "H3",
+      "text": "T_COLICT To what extent do you agree or disagree with the following statements about your use of ICT in teaching and learning at your school?",
+      "page": 215
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.27: Reliabilities for scales measuring teachers’ participation in ICT-related professional learning",
+      "page": 217
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 217
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 217
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 217
+    },
+    {
+      "level": "H3",
+      "text": "T_PROFSTR How often have you participated in any of the following professional learning activities in the past two years?",
+      "page": 217
+    },
+    {
+      "level": "H3",
+      "text": "T_PROFREC How often did you use the following tools in your teaching of the reference class this school year?",
+      "page": 217
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.33: Reliabilities for scales measuring teachers’ perceptions of positive and negative outcomes of using ICT for teaching and learning",
+      "page": 219
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 219
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 219
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 219
+    },
+    {
+      "level": "H3",
+      "text": "T_VWPOS To what extent do you agree or disagree with the following practices and principles in relation to the use of ICT in teaching and learning?",
+      "page": 219
+    },
+    {
+      "level": "H3",
+      "text": "T_VWNEG To what extent do you agree or disagree with the following practices and principles in relation to the use of ICT in teaching and learning?",
+      "page": 219
+    },
+    {
+      "level": "H1",
+      "text": "School questionnaires",
+      "page": 220
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.35: Reliabilities for scales measuring principals’ use of ICT",
+      "page": 221
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 221
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.37: Reliabilities for scale measuring principals’ views on using ICT",
+      "page": 223
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 223
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 223
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 223
+    },
+    {
+      "level": "H3",
+      "text": "P_VWICT How important is each of the following outcomes of education in your school?",
+      "page": 223
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.39: Reliabilities for scales measuring principals’ reports on expected ICT knowledge and skills of teachers",
+      "page": 225
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 225
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 225
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.40: Item parameters for scales measuring principals’ reports on expected ICT knowledge and skills of teachers",
+      "page": 225
+    },
+    {
+      "level": "H3",
+      "text": "P_EXPLRN Are teachers in your school expected to acquire knowledge and skills in each of the following activities?",
+      "page": 225
+    },
+    {
+      "level": "H3",
+      "text": "P_EXPTCH Are teachers in your school expected to acquire knowledge and skills in each of the following activities?",
+      "page": 225
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.41: Reliabilities for scales measuring school principals’ reports on priorities for ICT use at schools",
+      "page": 227
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 227
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 227
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 227
+    },
+    {
+      "level": "H3",
+      "text": "P_PRIORH At your school, what priority is given to the following ways of facilitating the use of ICT in teaching and learning?",
+      "page": 227
+    },
+    {
+      "level": "H3",
+      "text": "P_PRIORS At your school, what priority is given to the following ways of facilitating the use of ICT in teaching and learning?",
+      "page": 227
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.43: Reliabilities for scale measuring school ICT coordinators’ reports on the availability of digital resources at school",
+      "page": 229
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 229
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 229
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 229
+    },
+    {
+      "level": "H3",
+      "text": "C_ICTRES Please indicate the availability of the following technology resources in your school.",
+      "page": 229
+    },
+    {
+      "level": "H3",
+      "text": "Table 12.45: Reliabilities for scales measuring ICT coordinators’ reports on hindrances to the use of ICT for teaching and learning at school",
+      "page": 231
+    },
+    {
+      "level": "H3",
+      "text": "Moscow (Russian Federation)",
+      "page": 231
+    },
+    {
+      "level": "H3",
+      "text": "North Rhine-Westphalia (Germany)",
+      "page": 231
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics . The ICILS 2018 average is based on data from the participating countries,",
+      "page": 231
+    },
+    {
+      "level": "H3",
+      "text": "C_HINRES To what extent is the use of ICT in teaching and learning at your school hindered by each of the following obstacles?",
+      "page": 231
+    },
+    {
+      "level": "H3",
+      "text": "C_HINPED To what extent is the use of ICT in teaching and learning at your school hindered by each of the following obstacles?",
+      "page": 231
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 232
+    },
+    {
+      "level": "H1",
+      "text": "CHAPTER 13:",
+      "page": 235
+    },
+    {
+      "level": "H1",
+      "text": "The reporting of ICILS 2018 results",
+      "page": 235
+    },
+    {
+      "level": "H1",
+      "text": "Wolfram Schulz",
+      "page": 235
+    },
+    {
+      "level": "H1",
+      "text": "Overview",
+      "page": 235
+    },
+    {
+      "level": "H1",
+      "text": "Estimation of sampling variance",
+      "page": 235
+    },
+    {
+      "level": "H3",
+      "text": "Note: Benchmarking participants in italics",
+      "page": 236
+    },
+    {
+      "level": "H1",
+      "text": "SV",
+      "page": 236
+    },
+    {
+      "level": "H1",
+      "text": "SE SV",
+      "page": 236
+    },
+    {
+      "level": "H3",
+      "text": "Table 13.2:  Example for computation of replicate weights",
+      "page": 237
+    },
+    {
+      "level": "H1",
+      "text": "Estimation of imputation variance for CIL and CT scores",
+      "page": 238
+    },
+    {
+      "level": "H3",
+      "text": "IV P–",
+      "page": 238
+    },
+    {
+      "level": "H1",
+      "text": "(µ – µ +  (1+    ) SE P–",
+      "page": 238
+    },
+    {
+      "level": "H3",
+      "text": "Table 13.3: National averages for CIL with standard deviations, sampling, and overall errors",
+      "page": 239
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics",
+      "page": 239
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics",
+      "page": 239
+    },
+    {
+      "level": "H1",
+      "text": "Reporting of differences",
+      "page": 239
+    },
+    {
+      "level": "H1",
+      "text": "Differences in population estimates between and within countries",
+      "page": 239
+    },
+    {
+      "level": "H1",
+      "text": "–b )–( –b )) (1+     ) P–",
+      "page": 240
+    },
+    {
+      "level": "H1",
+      "text": "SE",
+      "page": 240
+    },
+    {
+      "level": "H1",
+      "text": "SE",
+      "page": 240
+    },
+    {
+      "level": "H1",
+      "text": "When comparing the CIL and CT score averages of a country with the overall ICILS 2018 average, it was necessary to also account for the imputation component of standard errors for countries into account. The imputation variance component of standard errors SE",
+      "page": 241
+    },
+    {
+      "level": "H1",
+      "text": "SE",
+      "page": 241
+    },
+    {
+      "level": "H1",
+      "text": "Here, is the difference between the overall ICILS 2018 average and the country mean for the plausible value The sampling error for CIL and CT scores was calculated as follows:",
+      "page": 241
+    },
+    {
+      "level": "H1",
+      "text": "(( N– 1) 1)",
+      "page": 241
+    },
+    {
+      "level": "H1",
+      "text": "SE",
+      "page": 241
+    },
+    {
+      "level": "H1",
+      "text": "country test scores and the ICILS 2018 averages as:",
+      "page": 241
+    },
+    {
+      "level": "H1",
+      "text": "Comparisons between benchmarking participants and ICILS averages",
+      "page": 241
+    },
+    {
+      "level": "H1",
+      "text": "(( N– 1) 0.225) SE",
+      "page": 241
+    },
+    {
+      "level": "H1",
+      "text": "SE",
+      "page": 241
+    },
+    {
+      "level": "H1",
+      "text": "Comparisons between CIL results in 2018 and 2013",
+      "page": 242
+    },
+    {
+      "level": "H1",
+      "text": "EqErr",
+      "page": 242
+    },
+    {
+      "level": "H1",
+      "text": "Multiple regression modeling of teacher data",
+      "page": 242
+    },
+    {
+      "level": "H1",
+      "text": "Multiple regression models (see, for example, Pedhazur 1997) were estimated as:",
+      "page": 243
+    },
+    {
+      "level": "H3",
+      "text": "Table 13.5: ICILS 2018 teachers included in multiple regression analyses of teachers’ emphasis on teaching CIL- and CT-related skills",
+      "page": 243
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics",
+      "page": 243
+    },
+    {
+      "level": "H1",
+      "text": "Hierarchical linear modeling to explain variation in students’ CIL and CT",
+      "page": 244
+    },
+    {
+      "level": "H1",
+      "text": "IC =",
+      "page": 244
+    },
+    {
+      "level": "H1",
+      "text": "Here, represents the cluster size (equal to the number of students with valid data within each",
+      "page": 245
+    },
+    {
+      "level": "H1",
+      "text": "weights were computed as:",
+      "page": 245
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics",
+      "page": 246
+    },
+    {
+      "level": "H3",
+      "text": "Table 13.7: ICILS 2018 students included in multilevel analyses of variation in CIL and CT",
+      "page": 247
+    },
+    {
+      "level": "H3",
+      "text": "Notes: Benchmarking participants in italics",
+      "page": 247
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 247
+    },
+    {
+      "level": "H1",
+      "text": "APPENDIX A:",
+      "page": 249
+    },
+    {
+      "level": "H1",
+      "text": "Organizations and individuals involved in ICILS 2018",
+      "page": 249
+    },
+    {
+      "level": "H1",
+      "text": "International study center",
+      "page": 249
+    },
+    {
+      "level": "H1",
+      "text": "The international study center is located at the Australian Council for Educational Research (ACER). ACER is responsible for designing and implementing the study in close cooperation with IEA.",
+      "page": 249
+    },
+    {
+      "level": "H1",
+      "text": "Staff at ACER",
+      "page": 249
+    },
+    {
+      "level": "H1",
+      "text": "International Association for the Evaluation of Educational Achievement (IEA)",
+      "page": 249
+    },
+    {
+      "level": "H1",
+      "text": "ICILS sampling referee",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Marc Joncas was the sampling referee for the study. He provided invaluable advice on all sampling- related aspects of the study.",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "National research coordinators",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "The national research coordinators played a crucial role in the development of the project. They provided policy- and content-oriented advice on the development of the instruments and were responsible for the implementation of ICILS in the participating countries.",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Chile",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Carolina Leyton María Victoria Martinez Tabita Nilo",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "National Agency for Educational Quality",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Denmark",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Jeppe Bundsgaard",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Danish School of Education, Aarhus University",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Finland",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Kaisa Leino",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Finnish Institute for Educational Research, University of Jyväskylä",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "France",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Marion Le Cam",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Ministry of National Education",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Birgit Eickelmann",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Italy",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Elisa Caponera Riccardo Pietracci",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Kazakhstan",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Aigerim Zuyeva Ruslan Abrayev",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Luxembourg",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Catalina Lomos",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Moscow (Russian Federation)",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Elena Zozulia",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Portugal",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Vanda Lourenco",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "Sangwook Park Kyongah Sang",
+      "page": 251
+    },
+    {
+      "level": "H1",
+      "text": "United States",
+      "page": 252
+    },
+    {
+      "level": "H1",
+      "text": "Lydia Malley Linda Hamilton",
+      "page": 252
+    },
+    {
+      "level": "H1",
+      "text": "Uruguay",
+      "page": 252
+    },
+    {
+      "level": "H1",
+      "text": "Cristobal Cobo",
+      "page": 252
+    },
+    {
+      "level": "H1",
+      "text": "Cecilia Hughes",
+      "page": 252
+    },
+    {
+      "level": "H1",
+      "text": "APPENDIX B:",
+      "page": 253
+    },
+    {
+      "level": "H1",
+      "text": "Characteristics of national samples",
+      "page": 253
+    },
+    {
+      "level": "H1",
+      "text": "B.1  Chile",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "text": "Note: No schools with student participation rate below 50% were found.",
+      "page": 253
+    },
+    {
+      "level": "H3",
+      "text": "Table B.1.2: Allocation of teacher sample in Chile",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "text": "Note: Four schools with teacher participation rate below 50% were found.",
+      "page": 254
+    },
+    {
+      "level": "H1",
+      "text": "B.2  Denmark",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "text": "Note: No schools with student participation rate below 50% were found.",
+      "page": 254
+    },
+    {
+      "level": "H3",
+      "text": "Note: Two schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 254
+    },
+    {
+      "level": "H1",
+      "text": "B.3  Finland",
+      "page": 255
+    },
+    {
+      "level": "H3",
+      "text": "Table B.3.1: Allocation of student sample in Finland",
+      "page": 255
+    },
+    {
+      "level": "H3",
+      "text": "Note: No schools with student participation rate below 50% were found.",
+      "page": 255
+    },
+    {
+      "level": "H3",
+      "text": "Table B.3.2: Allocation of teacher sample in Finland",
+      "page": 256
+    },
+    {
+      "level": "H3",
+      "text": "Note: One school with teacher participation rate below 50% was found.",
+      "page": 256
+    },
+    {
+      "level": "H1",
+      "text": "B.4  France",
+      "page": 256
+    },
+    {
+      "level": "H3",
+      "text": "Table B.4.1: Allocation of student sample in France",
+      "page": 257
+    },
+    {
+      "level": "H3",
+      "text": "Table B.4.1: Allocation of student sample in France (contd.)",
+      "page": 258
+    },
+    {
+      "level": "H3",
+      "text": "Note: No schools with student participation rate below 50% were found.",
+      "page": 258
+    },
+    {
+      "level": "H3",
+      "text": "Table B.4.2: Allocation of teacher sample in France",
+      "page": 258
+    },
+    {
+      "level": "H3",
+      "text": "Table B.4.2: Allocation of teacher sample in France (contd.)",
+      "page": 259
+    },
+    {
+      "level": "H3",
+      "text": "Note: Thirty-four schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 259
+    },
+    {
+      "level": "H1",
+      "text": "B.5  Germany",
+      "page": 260
+    },
+    {
+      "level": "H3",
+      "text": "Table B.5.1: Allocation of student sample in Germany",
+      "page": 260
+    },
+    {
+      "level": "H3",
+      "text": "Note: Six schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 260
+    },
+    {
+      "level": "H3",
+      "text": "Table B.5.2: Allocation of teacher sample in Germany",
+      "page": 261
+    },
+    {
+      "level": "H3",
+      "text": "Note: Thirty-three schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 261
+    },
+    {
+      "level": "H1",
+      "text": "B.6  Italy",
+      "page": 261
+    },
+    {
+      "level": "H3",
+      "text": "Note: No schools with student participation rate below 50% were found.",
+      "page": 261
+    },
+    {
+      "level": "H3",
+      "text": "Note: Two schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 261
+    },
+    {
+      "level": "H1",
+      "text": "B.7  Kazakhstan",
+      "page": 262
+    },
+    {
+      "level": "H3",
+      "text": "Table B.7.1: Allocation of student sample in Kazakhstan",
+      "page": 262
+    },
+    {
+      "level": "H3",
+      "text": "Note: One school with student participation rate below 50% was found.",
+      "page": 262
+    },
+    {
+      "level": "H3",
+      "text": "Note: No schools with teacher participation rate below 50% were found.",
+      "page": 262
+    },
+    {
+      "level": "H1",
+      "text": "B.8  Korea, Republic of",
+      "page": 263
+    },
+    {
+      "level": "H3",
+      "text": "Table B.8.1: Allocation of student sample in Korea",
+      "page": 263
+    },
+    {
+      "level": "H3",
+      "text": "Note: No schools with student participation rate below 50% were found.",
+      "page": 263
+    },
+    {
+      "level": "H3",
+      "text": "Note: No schools with teacher participation rate below 50% were found.",
+      "page": 263
+    },
+    {
+      "level": "H1",
+      "text": "B.9  Luxembourg",
+      "page": 264
+    },
+    {
+      "level": "H3",
+      "text": "Table B.9.1: Allocation of student sample in Luxembourg",
+      "page": 264
+    },
+    {
+      "level": "H3",
+      "text": "Note: No schools with student participation rate below 50% were found.",
+      "page": 264
+    },
+    {
+      "level": "H3",
+      "text": "Table B.9.2: Allocation of teacher sample in Luxembourg",
+      "page": 264
+    },
+    {
+      "level": "H3",
+      "text": "Note: Ten schools were regarded a non-participating because the within-school participation rate was below 50%.",
+      "page": 264
+    },
+    {
+      "level": "H1",
+      "text": "B.10  Portugal",
+      "page": 264
+    },
+    {
+      "level": "H3",
+      "text": "Table B.10.1: Allocation of student sample in Portugal",
+      "page": 265
+    },
+    {
+      "level": "H3",
+      "text": "Note: Seventeen schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 265
+    },
+    {
+      "level": "H3",
+      "text": "Table B.10.2: Allocation of teacher sample in Portugal",
+      "page": 266
+    },
+    {
+      "level": "H3",
+      "text": "Note: Seven schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 266
+    },
+    {
+      "level": "H1",
+      "text": "B.11  United States",
+      "page": 267
+    },
+    {
+      "level": "H3",
+      "text": "Table B.11.1: Allocation of student sample in the United States",
+      "page": 267
+    },
+    {
+      "level": "H3",
+      "text": "Note: Three schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 267
+    },
+    {
+      "level": "H3",
+      "text": "Table B.11.2: Allocation of teacher sample in the United States",
+      "page": 268
+    },
+    {
+      "level": "H3",
+      "text": "Note: Seven schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 268
+    },
+    {
+      "level": "H1",
+      "text": "B.12  Uruguay",
+      "page": 268
+    },
+    {
+      "level": "H3",
+      "text": "Table B.12.1: Allocation of student sample in Uruguay",
+      "page": 269
+    },
+    {
+      "level": "H3",
+      "text": "Note: Six schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 269
+    },
+    {
+      "level": "H3",
+      "text": "Table B.12.2: Allocation of teacher sample in Uruguay",
+      "page": 269
+    },
+    {
+      "level": "H3",
+      "text": "Note: Fifty-one schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 269
+    },
+    {
+      "level": "H1",
+      "text": "Benchmarking participants",
+      "page": 269
+    },
+    {
+      "level": "H1",
+      "text": "B.13\t  Moscow, Russian Federation",
+      "page": 269
+    },
+    {
+      "level": "H3",
+      "text": "Table B.13.1: Allocation of student and teacher sample in Moscow, Russian Federation",
+      "page": 270
+    },
+    {
+      "level": "H3",
+      "text": "Note: No schools with student participation rate below 50% were found. No schools with teacher participation rate below 50% were found.",
+      "page": 270
+    },
+    {
+      "level": "H1",
+      "text": "B.14  North Rhine-Westphalia, Germany",
+      "page": 270
+    },
+    {
+      "level": "H3",
+      "text": "Note: No schools with student participation rate below 50% were found.",
+      "page": 270
+    },
+    {
+      "level": "H3",
+      "text": "Note: Three schools were regarded as non-participating because the within-school participation rate was below 50%.",
+      "page": 270
+    },
+    {
+      "level": "H1",
+      "text": "APPENDIX C:",
+      "page": 271
+    },
+    {
+      "level": "H1",
+      "text": "National items excluded from scaling",
+      "page": 271
+    },
+    {
+      "level": "H1",
+      "text": "APPENDIX D:",
+      "page": 273
+    },
+    {
+      "level": "H1",
+      "text": "Student background variables used for conditioning",
+      "page": 273
+    }
+  ]
+}
